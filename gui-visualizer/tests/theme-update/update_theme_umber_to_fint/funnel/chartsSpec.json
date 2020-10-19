@@ -1,0 +1,108 @@
+{
+    "funnel": {
+        "descriptions": "update theme from umber to fint",
+        "id": "funnel",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "funnel",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio",
+                    "subcaption": "May 2007",
+                    "animation": 0,
+                    "theme": "umber"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "type": "font",
+                            "name": "captionFont",
+                            "size": "15"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "CAPTION",
+                            "styles": "captionFont"
+                        }
+                    ]
+                }
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "caption": "Conversion Ratio",
+                            "subcaption": "May 2007",
+                            "animation": 0,
+                            "theme": "fint"
+                        },
+                        "data": [
+                            {
+                                "label": "Website Visits",
+                                "value": "385634"
+                            },
+                            {
+                                "label": "Downloads",
+                                "value": "175631"
+                            },
+                            {
+                                "label": "Interested to buy",
+                                "value": "84564"
+                            },
+                            {
+                                "label": "Contract finalized",
+                                "value": "35654"
+                            },
+                            {
+                                "label": "Purchased",
+                                "value": "12342"
+                            }
+                        ],
+                        "styles": {
+                            "definition": [
+                                {
+                                    "type": "font",
+                                    "name": "captionFont",
+                                    "size": "15"
+                                }
+                            ],
+                            "application": [
+                                {
+                                    "toobject": "CAPTION",
+                                    "styles": "captionFont"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

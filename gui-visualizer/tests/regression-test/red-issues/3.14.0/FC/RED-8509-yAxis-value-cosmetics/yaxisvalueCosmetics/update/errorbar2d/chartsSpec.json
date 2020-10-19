@@ -1,0 +1,586 @@
+{
+    "test-1": {
+        "descriptions": "Update with all the yaxisValue attributes",
+        "id": "test-1",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "errorbar2d",
+            "dataSource": {
+                "chart": {
+                    "animation": 0
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Window AC"
+                            },
+                            {
+                                "label": "Pump"
+                            },
+                            {
+                                "label": "Tea Maker"
+                            },
+                            {
+                                "label": "Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "14",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "9",
+                                "errorvalue": "1.5"
+                            },
+                            {
+                                "value": "15",
+                                "errorvalue": "3"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "10",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "11",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "12",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "yAxisValueFont": "times",
+                            "yAxisValueFontSize": "17",
+                            "yaxisValueFontColor": "#0000ff",
+                            "yaxisValueFontItalic": "1",
+                            "yaxisValueFontBold": "1",
+                            "yAxisValueBgColor": "#ff00ff",
+                            "yAxisValueBorderColor": "#00ff00",
+                            "yaxisvaluealpha": "30",
+                            "yaxisvalueBgalpha": "80",
+                            "yAxisValueBorderAlpha": "1",
+                            "yaxisValueBorderPadding": "10",
+                            "yAxisValueBorderRadius": "3",
+                            "yaxisvalueborderthickness": "3",
+                            "yaxisvalueborderdashed": "1",
+                            "yaxisvalueborderdashlen": "7",
+                            "yaxisvaluelink": "p-http://google.com",
+                            "_clickurl": "p-http://yahoo.com",
+                            "animation": 0
+                        },
+                        "categories": [
+                            {
+                                "category": [
+                                    {
+                                        "label": "Central AC"
+                                    },
+                                    {
+                                        "label": "Window AC"
+                                    },
+                                    {
+                                        "label": "Pump"
+                                    },
+                                    {
+                                        "label": "Tea Maker"
+                                    },
+                                    {
+                                        "label": "Washer"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dataset": [
+                            {
+                                "seriesname": "At Home",
+                                "data": [
+                                    {
+                                        "value": "14",
+                                        "errorvalue": "2"
+                                    },
+                                    {
+                                        "value": "9",
+                                        "errorvalue": "1.5"
+                                    },
+                                    {
+                                        "value": "15",
+                                        "errorvalue": "3"
+                                    },
+                                    {
+                                        "value": "6",
+                                        "errorvalue": "1.8"
+                                    },
+                                    {
+                                        "value": "10",
+                                        "errorvalue": "1.2"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "In Office",
+                                "data": [
+                                    {
+                                        "value": "11",
+                                        "errorvalue": "1"
+                                    },
+                                    {
+                                        "value": "6",
+                                        "errorvalue": "0.5"
+                                    },
+                                    {
+                                        "value": "12",
+                                        "errorvalue": "2"
+                                    },
+                                    {
+                                        "value": "4",
+                                        "errorvalue": "0.8"
+                                    },
+                                    {
+                                        "value": "7",
+                                        "errorvalue": "1"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "test-2": {
+        "descriptions": "Update the yaxisValue boolean attributes 1 to 0 and also changing the other attributes value",
+        "id": "test-2",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "errorbar2d",
+            "dataSource": {
+                "chart": {
+                    "yAxisValueFont": "times",
+                    "yAxisValueFontSize": "17",
+                    "yaxisValueFontColor": "#0000ff",
+                    "yaxisValueFontItalic": "1",
+                    "yaxisValueFontBold": "1",
+                    "yAxisValueBgColor": "#ff00ff",
+                    "yAxisValueBorderColor": "#00ff00",
+                    "yaxisvaluealpha": "30",
+                    "yaxisvalueBgalpha": "80",
+                    "yAxisValueBorderAlpha": "1",
+                    "yaxisValueBorderPadding": "10",
+                    "yAxisValueBorderRadius": "3",
+                    "yaxisvalueborderthickness": "3",
+                    "yaxisvalueborderdashed": "1",
+                    "yaxisvalueborderdashlen": "7",
+                    "yaxisvaluelink": "p-http://google.com",
+                    "_clickurl": "p-http://yahoo.com",
+                    "animation": 0
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Window AC"
+                            },
+                            {
+                                "label": "Pump"
+                            },
+                            {
+                                "label": "Tea Maker"
+                            },
+                            {
+                                "label": "Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "14",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "9",
+                                "errorvalue": "1.5"
+                            },
+                            {
+                                "value": "15",
+                                "errorvalue": "3"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "10",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "11",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "12",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "yAxisValueFont": "sans-seriff",
+                            "yAxisValueFontSize": "13",
+                            "yaxisValueFontColor": "#ff00ff",
+                            "yaxisValueFontItalic": "0",
+                            "yaxisValueFontBold": "0",
+                            "yAxisValueBgColor": "#00ff00",
+                            "yAxisValueBorderColor": "#ffff00",
+                            "yaxisvaluealpha": "80",
+                            "yaxisvalueBgalpha": "10",
+                            "yAxisValueBorderAlpha": "100",
+                            "yaxisValueBorderPadding": "4",
+                            "yAxisValueBorderRadius": "1",
+                            "yaxisvalueborderthickness": "31",
+                            "yaxisvalueborderdashed": "10",
+                            "yaxisvalueborderdashlen": "7",
+                            "_yaxisvaluelink": "p-http://google.com",
+                            "_clickurl": "p-http://yahoo.com",
+                            "animation": 0
+                        },
+                        "categories": [
+                            {
+                                "category": [
+                                    {
+                                        "label": "Central AC"
+                                    },
+                                    {
+                                        "label": "Window AC"
+                                    },
+                                    {
+                                        "label": "Pump"
+                                    },
+                                    {
+                                        "label": "Tea Maker"
+                                    },
+                                    {
+                                        "label": "Washer"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dataset": [
+                            {
+                                "seriesname": "At Home",
+                                "data": [
+                                    {
+                                        "value": "14",
+                                        "errorvalue": "2"
+                                    },
+                                    {
+                                        "value": "9",
+                                        "errorvalue": "1.5"
+                                    },
+                                    {
+                                        "value": "15",
+                                        "errorvalue": "3"
+                                    },
+                                    {
+                                        "value": "6",
+                                        "errorvalue": "1.8"
+                                    },
+                                    {
+                                        "value": "10",
+                                        "errorvalue": "1.2"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "In Office",
+                                "data": [
+                                    {
+                                        "value": "11",
+                                        "errorvalue": "1"
+                                    },
+                                    {
+                                        "value": "6",
+                                        "errorvalue": "0.5"
+                                    },
+                                    {
+                                        "value": "12",
+                                        "errorvalue": "2"
+                                    },
+                                    {
+                                        "value": "4",
+                                        "errorvalue": "0.8"
+                                    },
+                                    {
+                                        "value": "7",
+                                        "errorvalue": "1"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "test-3": {
+        "descriptions": "Remove all yaxisvalue cosmetics through update",
+        "id": "test-3",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "errorbar2d",
+            "dataSource": {
+                "chart": {
+                    "yAxisValueFont": "times",
+                    "yAxisValueFontSize": "17",
+                    "yaxisValueFontColor": "#0000ff",
+                    "yaxisValueFontItalic": "1",
+                    "yaxisValueFontBold": "1",
+                    "yAxisValueBgColor": "#ff00ff",
+                    "yAxisValueBorderColor": "#00ff00",
+                    "yaxisvaluealpha": "30",
+                    "yaxisvalueBgalpha": "80",
+                    "yAxisValueBorderAlpha": "1",
+                    "yaxisValueBorderPadding": "10",
+                    "yAxisValueBorderRadius": "3",
+                    "yaxisvalueborderthickness": "3",
+                    "yaxisvalueborderdashed": "1",
+                    "yaxisvalueborderdashlen": "7",
+                    "yaxisvaluelink": "p-http://google.com",
+                    "_clickurl": "p-http://yahoo.com",
+                    "animation": 0
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Window AC"
+                            },
+                            {
+                                "label": "Pump"
+                            },
+                            {
+                                "label": "Tea Maker"
+                            },
+                            {
+                                "label": "Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "14",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "9",
+                                "errorvalue": "1.5"
+                            },
+                            {
+                                "value": "15",
+                                "errorvalue": "3"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "10",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "11",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "12",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "animation": 0
+                        },
+                        "categories": [
+                            {
+                                "category": [
+                                    {
+                                        "label": "Central AC"
+                                    },
+                                    {
+                                        "label": "Window AC"
+                                    },
+                                    {
+                                        "label": "Pump"
+                                    },
+                                    {
+                                        "label": "Tea Maker"
+                                    },
+                                    {
+                                        "label": "Washer"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dataset": [
+                            {
+                                "seriesname": "At Home",
+                                "data": [
+                                    {
+                                        "value": "14",
+                                        "errorvalue": "2"
+                                    },
+                                    {
+                                        "value": "9",
+                                        "errorvalue": "1.5"
+                                    },
+                                    {
+                                        "value": "15",
+                                        "errorvalue": "3"
+                                    },
+                                    {
+                                        "value": "6",
+                                        "errorvalue": "1.8"
+                                    },
+                                    {
+                                        "value": "10",
+                                        "errorvalue": "1.2"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "In Office",
+                                "data": [
+                                    {
+                                        "value": "11",
+                                        "errorvalue": "1"
+                                    },
+                                    {
+                                        "value": "6",
+                                        "errorvalue": "0.5"
+                                    },
+                                    {
+                                        "value": "12",
+                                        "errorvalue": "2"
+                                    },
+                                    {
+                                        "value": "4",
+                                        "errorvalue": "0.8"
+                                    },
+                                    {
+                                        "value": "7",
+                                        "errorvalue": "1"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

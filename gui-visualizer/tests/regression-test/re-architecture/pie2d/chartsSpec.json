@@ -1,0 +1,161 @@
+{
+    "pie2d_1": {
+        "description": "pie2d_1",
+        "options": {
+            "type": "pie2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "showpercentagevalues": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/pie2d/ref-images/pie2d_1-snapshot.png",
+        "id": "pie2d_1"
+    },
+    "pie2d_4": {
+        "description": "pie2d_4",
+        "options": {
+            "type": "pie2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "bgimage": "../../images/bg.jpg",
+                    "bgimagealpha": "50",
+                    "bgimagevalign": "middle",
+                    "bgimagehalign": "left",
+                    "bgimagescale": "22",
+                    "showvlinelabelborder": "0",
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Current Year",
+                    "captionalignment": "right",
+                    "captionontop": "0",
+                    "captionfontsize": "20",
+                    "subcaptionfontsize": "15",
+                    "captionfont": "verdana",
+                    "subcaptionfont": "verdana",
+                    "captionfontcolor": "#ff0000",
+                    "subcaptionfontcolor": "#0000ff",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "10",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0",
+                    "useroundedges": "0",
+                    "showplotborder": "1",
+                    "plotbordercolor": "#0000ff",
+                    "plotborderthickness": "2",
+                    "plotborderalpha": "60",
+                    "plotfillangle": "60",
+                    "plotfillalpha": "60",
+                    "showshadow": "1",
+                    "use3dlighting": "1",
+                    "radius3d": "10",
+                    "slicingdistance": "10",
+                    "pieradius": "140",
+                    "startingangle": "80",
+                    "enablerotation": "1",
+                    "showlabels": "1",
+                    "labelfont": "verdana",
+                    "labelfontcolor": "#cc0000",
+                    "labelfontsize": "16",
+                    "labelfontbold": "1",
+                    "labelfontitalic": "1",
+                    "labelbgcolor": "#00ff00",
+                    "labelbordercolor": "#cc0000",
+                    "labelalpha": "85",
+                    "labelbgalpha": "60",
+                    "labelborderalpha": "90",
+                    "labelborderpadding": "2",
+                    "labelborderradius": "5",
+                    "labelborderthickness": "2",
+                    "labelborderdashed": "1",
+                    "labelborderdashlen": "6",
+                    "labelborderdashgap": "3",
+                    "labellink": "",
+                    "enablesmartlabels": "1",
+                    "skipoverlaplabels": "1",
+                    "issmartlineslanted": "1",
+                    "smartlinecolor": "#0000ff",
+                    "smartlinethickness": "2",
+                    "smartlinealpha": "85",
+                    "smartlabelclearance": "5",
+                    "managelabeloverflow": "1",
+                    "useellipseswhenoverflow": "1"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": ""
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000",
+                        "color": "#ff0000",
+                        "dashed": "1",
+                        "displayvalue": "Apr, $550000",
+                        "link": "",
+                        "showlabel": "1",
+                        "showvalue": "1",
+                        "tooltext": "NILADRI",
+                        "borderalpha": "90",
+                        "issliced": "1",
+                        "labelfont": "arial",
+                        "labelfontcolor": "#0000ff",
+                        "labelfontsize": "20",
+                        "labelfontbold": "1",
+                        "labelfontitalic": "1",
+                        "labelbgcolor": "#ffffff",
+                        "labelbordercolor": "#00ff00",
+                        "labelalpha": "90",
+                        "labelbgalpha": "90",
+                        "labelborderalpha": "85",
+                        "labelborderpadding": "5",
+                        "labelborderradius": "3",
+                        "labelborderthickness": "2",
+                        "labelborderdashed": "1",
+                        "labelborderdashlen": "12",
+                        "labelborderdashgap": "2",
+                        "labellink": ""
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/pie2d/ref-images/pie2d_4-snapshot.png",
+        "id": "pie2d_4"
+    }
+}

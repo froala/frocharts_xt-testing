@@ -1,0 +1,154 @@
+	<html>
+	<head>        
+		<title>FusionCharts XT - listen to DrawComplete event</title>       
+		<script type="text/javascript" src="../../../fusioncharts/fusioncharts.js">
+		</script>
+			
+	</head>   
+	<body>     
+		<div id="chartContainer">FusionCharts XT will load here!</div>          
+		<script type="text/javascript"><!--  
+			
+					
+			//Flag for our test writer
+			//By default assume that feature has failed.
+			var featureTestPass1 = false;
+			//var featureTestPass2 = false;
+			//FusionCharts.addEventListener("Initialized", myChartListener1);
+			  var objJSON = {
+    "chart": {
+        "caption": "Radar Chart",
+		"showvalues": "1",
+        "animation": "0"
+    },
+    "categories": [
+        {
+            "category": [
+                {
+                    "label": "Index 1"
+                },
+                {
+                    "label": "Index 2"
+                },
+                {
+                    "label": "Index 3"
+                },
+                {
+                    "label": "Index 4"
+                },
+                {
+                    "label": "Index 5"
+                },
+                {
+                    "label": "Index 6"
+                },
+                {
+                    "label": "Index 7"
+                },
+                {
+                    "label": "Index 8"
+                },
+                {
+                    "label": "Index 9"
+                },
+                {
+                    "label": "Index 10"
+                },
+                {
+                    "label": "Index 11"
+                }
+            ]
+        }
+    ],
+    "dataset": [
+        {
+            "seriesname": "Series 1",
+            "data": [
+                {
+                    "value": "9"
+                },
+                {
+                    "value": "9"
+                },
+                {
+                    "value": "9"
+                },
+                {
+                    "value": "7"
+                },
+                {
+                    "value": "8"
+                },
+                {
+                    "value": "8"
+                },
+                {
+                    "value": "9"
+                },
+                {
+                    "value": "9"
+                },
+                {
+                    "value": "9"
+                },
+                {
+                    "value": "7"
+                },
+                {
+                    "value": "8"
+                }
+            ]
+        },
+        {
+            "seriesname": "Series 2",
+            "data": [
+                {
+                    "value": "5"
+                },
+                {
+                    "value": "3"
+                },
+                {
+                    "value": "2"
+                },
+                {
+                    "value": "4"
+                },
+                {
+                    "value": "5"
+                },
+                {
+                    "value": "9"
+                },
+                {
+                    "value": "5"
+                },
+                {
+                    "value": "3"
+                },
+                {
+                    "value": "2"
+                },
+                {
+                    "value": "4"
+                },
+                {
+                    "value": "5"
+                }
+            ]
+        }
+    ]
+};
+			  
+			//Chart setup code
+			var myChart = new FusionCharts({type: 'Radar', width: '400', height: '300', debugMode: false, bgColor: 'ffff0f', renderAt: 'chartContainer', id: "myChartId", dataSource: objJSON, dataFormat: 'json', renderer: 'javascript'
+					});
+			
+			
+			myChart.render();
+			
+				  
+			// -->     
+		</script>      
+	</body> 
+	</html>

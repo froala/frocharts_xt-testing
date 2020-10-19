@@ -1,0 +1,185 @@
+body{
+	background-color:#f4f3ef;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+
+.clsPageHeader{
+	background:#cdcdcd;
+	border-bottom:1px solid #bababa;
+}
+
+.clsFilterMenu{
+	background: #cecece;	
+}
+
+.clsTE9BgColor{
+	background-color:#4292c6;	
+}
+
+.clsTE9Color{
+	color:#4292c6;	
+}
+
+.clsTSSBgColor{
+	background-color:#807dba;	
+}
+
+.clsTSSColor{
+	color:#807dba;	
+}
+
+.clsTS9Color{
+	color:#fd8d3c;	
+}
+
+.clsTS9BgColor{
+	background-color:#fd8d3c;	
+}
+
+.clsUpgradeColor{
+	color:#fb6a4a;	
+}
+
+.clsUpgradeBgColor{
+	background-color:#fb6a4a;	
+}
+
+.clsActValColor{
+	color:#41ab5d;	
+}
+
+.clsActValBgColor{
+	background-color:#41ab5d;	
+}
+
+.clsRevenueColor{
+	color:#02818a;	
+}
+
+.clsRevenueBgColor{
+	background-color:#02818a;	
+}
+
+.clsTileTitle{
+	font-size:0.5em;
+}
+
+.clsTileData{
+	font-size:0.6em;
+	font-weight:bold;
+}
+
+.clsSecondaryTileData{
+	font-size:1.2em;
+	font-weight:bold;
+}
+
+.clsTileGraphText{
+	font-size:0.35em;
+	color:#888;
+}
+
+.clsTilePadding{
+	padding:.2em;
+}
+
+.clsTileHeading{
+	font-size:75%;
+}
+
+.clsTilePercentage{
+	font-size:.4em;
+	color:#fff;
+}
+
+.clsReportPicklist{
+	padding:4px;
+	border-radius : 4px;
+}
+
+.clsCardPointer{
+	cursor:pointer;
+}
+
+.classNumberAlign{
+	text-align:right;
+}
+
+.clsSparkLinkMinHeight{
+	min-height:70px;
+}
+
+.clsCardPointer:active{
+	background: #c5f2f9;
+}
+
+.clsFilterLabel{
+	font-size:12px;
+	margin:4px 0px;
+}
+
+.clsFilterContent{
+	font-size:12px;
+	margin:2px 0px;
+}
+
+.clsSmallGap{
+	padding:0px;
+	margin:3px;
+}
+
+.clsReportInfo{	
+	font-size:0.9em;	
+	padding:4px;
+}
+
+.clsTableMainHeader{
+	/*padding:10px !important;*/
+	text-align:center;
+	font-size:1em !important;
+	font-weight:bold !important;
+}
+
+.clsTableData{
+	padding:5px 5px !important;
+	font-size:0.9em;
+}
+
+.clsNumber{
+	text-align:center;
+}
+
+.dataTables_wrapper{
+	padding:2px;
+}
+
+.clsBtn{
+	font-size:1em;
+	padding:2px 6px;
+}
+
+// Make default navbar links display block at choosen breakpoint and adjust styles to fit...
+@media (max-width: 62em) {
+	.navbar-nav {
+		padding-top: .425rem;
+		padding-left: 0.75rem;
+	}
+	.navbar-nav .nav-item {
+		float: none;
+	}
+	.navbar-brand {
+		float: right;
+	}
+	.navbar-brand,
+	.navbar-nav .nav-item {
+		display: block;
+	}
+	.navbar-nav .nav-item + .nav-item {
+		margin-left: 0;
+	}
+	.dropdown-menu {
+		position: relative;
+		float: none;
+	}
+}

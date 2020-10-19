@@ -1,0 +1,602 @@
+{
+    "annotations-error_01": {
+        "description": "annotations",
+        "options": {
+            "type": "errorbar2d",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "yaxisname": "Life Span (yr)",
+                    "caption": "Life Span Chart of Appliances",
+                    "subcaption": "(With Error Values)",
+                    "showvalues": "0",
+                    "halferrorbar": "0",
+                    "errorbarcolor": "666666",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Window AC"
+                            },
+                            {
+                                "label": "Pump"
+                            },
+                            {
+                                "label": "Tea Maker"
+                            },
+                            {
+                                "label": "Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "14",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "9",
+                                "errorvalue": "1.5"
+                            },
+                            {
+                                "value": "15",
+                                "errorvalue": "3"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "10",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "11",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "12",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    }
+                ],
+                "annotations": {
+                    "origw": "400",
+                    "origh": "300",
+                    "autoscale": "1",
+                    "showbelow": "0",
+                    "groups": [
+                        {
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#00ff00",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartstartx",
+                                    "y": "$chartstarty",
+                                    "xScale": "100",
+                                    "yScale": "70"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$chartstartx+20",
+                                    "y": "$chartendy-20",
+                                    "radius": "15",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "5",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$chartstartx+80",
+                                    "y": "$chartendy-20",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$canvasstartx+20",
+                                    "y": "$canvasstarty+20",
+                                    "color": "#660000"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "5",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$legendendx+40",
+                                    "y": "$legendendy-10",
+                                    "radius": "18"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                },
+                                {
+                                    "id": "high-line",
+                                    "type": "line",
+                                    "x": "$canvasStartX",
+                                    "y": "$dataset.0.set.2.y",
+                                    "tox": "$canvasEndX",
+                                    "toy": "$dataset.0.set.2.y",
+                                    "color": "#6baa01",
+                                    "dashed": "1",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "id": "label",
+                                    "type": "text",
+                                    "text": "Line",
+                                    "fillcolor": "#6baa01",
+                                    "rotate": "90",
+                                    "x": "$canvasEndX - 90",
+                                    "y": "$dataset.0.set.2.y - 10"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/annotations/PowerChartsXT/error/ref-images/annotations-error_01-snapshot.png",
+        "id": "annotations-error_01"
+    },
+    "annotations-error_02": {
+        "description": "annotations",
+        "options": {
+            "type": "errorline",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "yaxisname": "Life Span (yr)",
+                    "caption": "Life Span Chart of Appliances",
+                    "subcaption": "(With Error Values)",
+                    "showvalues": "0",
+                    "halferrorbar": "0",
+                    "errorbarcolor": "666666",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Window AC"
+                            },
+                            {
+                                "label": "Pump"
+                            },
+                            {
+                                "label": "Tea Maker"
+                            },
+                            {
+                                "label": "Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "14",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "9",
+                                "errorvalue": "1.5"
+                            },
+                            {
+                                "value": "15",
+                                "errorvalue": "3"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "10",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "11",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "12",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    }
+                ],
+                "annotations": {
+                    "origw": "400",
+                    "origh": "300",
+                    "autoscale": "1",
+                    "showbelow": "0",
+                    "groups": [
+                        {
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#00ff00",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartstartx",
+                                    "y": "$chartstarty",
+                                    "xScale": "100",
+                                    "yScale": "70"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$chartstartx+20",
+                                    "y": "$chartendy-20",
+                                    "radius": "15",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "5",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$chartstartx+80",
+                                    "y": "$chartendy-20",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$canvasstartx+20",
+                                    "y": "$canvasstarty+20",
+                                    "color": "#660000"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "5",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$legendendx+40",
+                                    "y": "$legendendy-10",
+                                    "radius": "18"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                },
+                                {
+                                    "id": "high-line",
+                                    "type": "line",
+                                    "x": "$canvasStartX",
+                                    "y": "$dataset.0.set.2.y",
+                                    "tox": "$canvasEndX",
+                                    "toy": "$dataset.0.set.2.y",
+                                    "color": "#6baa01",
+                                    "dashed": "1",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "id": "label",
+                                    "type": "text",
+                                    "text": "Line",
+                                    "fillcolor": "#6baa01",
+                                    "rotate": "90",
+                                    "x": "$canvasEndX - 90",
+                                    "y": "$dataset.0.set.2.y - 10"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/annotations/PowerChartsXT/error/ref-images/annotations-error_02-snapshot.png",
+        "id": "annotations-error_02"
+    },
+    "annotations-error_03": {
+        "description": "annotations",
+        "options": {
+            "type": "errorscatter",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Please select the required points from chart below",
+                    "subcaption": "subcaption",
+                    "yaxisname": "Value",
+                    "shownames": "1",
+                    "xaxismaxvalue": "100",
+                    "xaxisminvalue": "0",
+                    "submitdataasxml": "1",
+                    "errorbarcolor": "000000",
+                    "errorbarthickness": "3",
+                    "errorbarwidth": "20",
+                    "valuepadding": "40",
+                    "usehorizontalerrorbar": "0",
+                    "drawquadrant": "0",
+                    "halferrorbar": "0",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "verticallinecolor": "AA6666",
+                        "verticallinethickness": "1",
+                        "category": [
+                            {
+                                "label": "20",
+                                "x": "15",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "30",
+                                "x": "25",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "40",
+                                "x": "35",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "50",
+                                "x": "45",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "60",
+                                "x": "55",
+                                "showverticalline": "1"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "id": "DS1",
+                        "seriesname": "Dataset 1",
+                        "color": "ff5904",
+                        "plotborderthickness": "0",
+                        "showplotborder": "1",
+                        "usehorizontalerrorbar": "1",
+                        "drawline": "0",
+                        "data": [
+                            {
+                                "id": "S1",
+                                "x": "20",
+                                "y": "20",
+                                "errorvalue": "15",
+                                "usehorizontalerrorbar": "1"
+                            },
+                            {
+                                "id": "S2",
+                                "x": "30",
+                                "y": "70",
+                                "errorvalue": "50",
+                                "usehorizontalerrorbar": ""
+                            },
+                            {
+                                "id": "S3",
+                                "x": "40",
+                                "y": "40",
+                                "errorvalue": "21",
+                                "usehorizontalerrorbar": "0"
+                            },
+                            {
+                                "id": "S4",
+                                "x": "50",
+                                "y": "50",
+                                "errorvalue": "10",
+                                "usehorizontalerrorbar": ""
+                            },
+                            {
+                                "id": "S5",
+                                "x": "60",
+                                "y": "60",
+                                "errorvalue": "11",
+                                "usehorizontalerrorbar": "0"
+                            }
+                        ]
+                    }
+                ],
+                "annotations": {
+                    "groups": [
+                        {
+                            "id": "anchor-highlight",
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#FFDEAD",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "id": "dyn-label-bg",
+                                    "type": "rectangle",
+                                    "showBorder": "0",
+                                    "borderColor": "12345d",
+                                    "fillcolor": "000080",
+                                    "x": "$chartcenterx+90",
+                                    "y": "$canvasEndY+20",
+                                    "tox": "$chartcenterx+190",
+                                    "toy": "$canvasEndY + 60"
+                                },
+                                {
+                                    "id": "dyn-label",
+                                    "type": "text",
+                                    "fillcolor": "#ffffff",
+                                    "fontsize": "11",
+                                    "text": "Load (TPS)",
+                                    "bold": "1",
+                                    "wrap": "1",
+                                    "wrapWidth": "300",
+                                    "x": "$chartcenterx+140",
+                                    "y": "$canvasEndY + 40"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                },
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$canvasendx-100",
+                                    "y": "$canvasstarty",
+                                    "xScale": "100",
+                                    "yScale": "100"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$chartstartx+20",
+                                    "y": "$chartendy-20",
+                                    "radius": "15",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "5",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$chartstartx+80",
+                                    "y": "$chartendy-20",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$canvasstartx+20",
+                                    "y": "$canvasstarty+20",
+                                    "color": "#660000"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "5",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$legendstartx-40",
+                                    "y": "$legendendy-10",
+                                    "radius": "18"
+                                },
+                                {
+                                    "id": "high-line",
+                                    "type": "line",
+                                    "x": "$canvasStartX",
+                                    "y": "$chartcenterx",
+                                    "tox": "$canvasEndX",
+                                    "toy": "$chartcenterx",
+                                    "color": "#6baa01",
+                                    "dashed": "1",
+                                    "thickness": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/annotations/PowerChartsXT/error/ref-images/annotations-error_03-snapshot.png",
+        "id": "annotations-error_03"
+    }
+}

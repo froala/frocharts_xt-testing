@@ -1,0 +1,3220 @@
+{
+    "test-01": {
+        "description": "error bar cosmetices",
+        "options": {
+            "type": "errorbar2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "2",
+                    "xaxisname": "Appliance",
+                    "yaxisname": "Life Span (yr)",
+                    "caption": "Life Span Chart of Appliances",
+                    "subcaption": "(With Error Values)",
+                    "showvalues": "1",
+                    "halferrorbar": "1",
+                    "errorbarcolor": "ff0000",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Window AC"
+                            },
+                            {
+                                "label": "Pump"
+                            },
+                            {
+                                "label": "Tea Maker"
+                            },
+                            {
+                                "label": "Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "14",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "9",
+                                "errorvalue": "1.5"
+                            },
+                            {
+                                "value": "15",
+                                "errorvalue": "3"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "10",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "11",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "12",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/errorbar2d/ref-images/test-01-snapshot.png",
+        "id": "test-01"
+    },
+    "test-02": {
+        "description": "error bar cosmetices",
+        "options": {
+            "type": "errorbar2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "2",
+                    "xaxisname": "Appliance",
+                    "yaxisname": "Life Span (yr)",
+                    "caption": "Life Span Chart of Appliances",
+                    "subcaption": "(With Error Values)",
+                    "showvalues": "1",
+                    "halferrorbar": "0",
+                    "errorbarwidthpercent": "0",
+                    "errorbarcolor": "ff0000",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Window AC"
+                            },
+                            {
+                                "label": "Pump"
+                            },
+                            {
+                                "label": "Tea Maker"
+                            },
+                            {
+                                "label": "Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "14",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "9",
+                                "errorvalue": "1.5"
+                            },
+                            {
+                                "value": "15",
+                                "errorvalue": "3"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "10",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "11",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "12",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/errorbar2d/ref-images/test-02-snapshot.png",
+        "id": "test-02"
+    },
+    "test-03": {
+        "description": "error bar cosmetices. error bar alpha = 0.If errorbarthickness > 3 hide the tooltip of errorbar",
+        "options": {
+            "type": "errorbar2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "2",
+                    "xaxisname": "Appliance",
+                    "yaxisname": "Life Span (yr)",
+                    "caption": "Life Span Chart of Appliances",
+                    "subcaption": "(With Error Values)",
+                    "showvalues": "1",
+                    "halferrorbar": "0",
+                    "errorbarwidthpercent": "10",
+                    "errorbarcolor": "ff0000",
+                    "errorbaralpha": "0",
+                    "errorbarthickness": "5",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Window AC"
+                            },
+                            {
+                                "label": "Pump"
+                            },
+                            {
+                                "label": "Tea Maker"
+                            },
+                            {
+                                "label": "Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "14",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "9",
+                                "errorvalue": "1.5"
+                            },
+                            {
+                                "value": "15",
+                                "errorvalue": "3"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "10",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "11",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "12",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/errorbar2d/ref-images/test-03-snapshot.png",
+        "id": "test-03"
+    },
+    "test-04": {
+        "description": "error bar cosmetices. ",
+        "options": {
+            "type": "errorbar2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "2",
+                    "xaxisname": "Appliance",
+                    "yaxisname": "Life Span (yr)",
+                    "caption": "Life Span Chart of Appliances",
+                    "subcaption": "(With Error Values)",
+                    "showvalues": "1",
+                    "halferrorbar": "0",
+                    "errorbarwidthpercent": "10",
+                    "errorbarcolor": "ff0000",
+                    "errorbaralpha": "99",
+                    "errorbarthickness": "5",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Window AC"
+                            },
+                            {
+                                "label": "Pump"
+                            },
+                            {
+                                "label": "Tea Maker"
+                            },
+                            {
+                                "label": "Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "14",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "9",
+                                "errorvalue": "1.5"
+                            },
+                            {
+                                "value": "15",
+                                "errorvalue": "3"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "10",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "11",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "12",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/errorbar2d/ref-images/test-04-snapshot.png",
+        "id": "test-04"
+    },
+    "all value negative": {
+        "description": "all value(including errorvalue) is in negative",
+        "options": {
+            "type": "errorbar2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Machinery lifespan range",
+                    "subcaption": "Means & standard deviations",
+                    "xaxisname": "Systems",
+                    "yaxisname": "Life Span",
+                    "numbersuffix": " Years",
+                    "halferrorbar": "0",
+                    "palettecolors": "#0075c2,#1aaf5d,#f2c500",
+                    "showvalues": "0",
+                    "errorbarcolor": "666666",
+                    "bgcolor": "#ffffff",
+                    "showborder": "0",
+                    "showcanvasborder": "0",
+                    "useplotgradientcolor": "0",
+                    "showxaxisline": "1",
+                    "axislinealpha": "25",
+                    "legendborderalpha": "0",
+                    "legendshadow": "0",
+                    "legendbgalpha": "0",
+                    "showshadow": "0",
+                    "showalternatehgridcolor": "0",
+                    "showhovereffect": "1",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Computers"
+                            },
+                            {
+                                "label": "Bar-code Scanners"
+                            },
+                            {
+                                "label": "Packaging Machines"
+                            },
+                            {
+                                "label": "Chilling Compartments"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Daly City Serramonte",
+                        "data": [
+                            {
+                                "value": "-8",
+                                "errorvalue": "-2"
+                            },
+                            {
+                                "value": "-3",
+                                "errorvalue": "-0.5"
+                            },
+                            {
+                                "value": "-2",
+                                "errorvalue": "-1"
+                            },
+                            {
+                                "value": "-6",
+                                "errorvalue": "-1.8"
+                            },
+                            {
+                                "value": "-8",
+                                "errorvalue": "-1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Bakersfield Central",
+                        "data": [
+                            {
+                                "value": "-7",
+                                "errorvalue": "-1"
+                            },
+                            {
+                                "value": "-4",
+                                "errorvalue": "-0.5"
+                            },
+                            {
+                                "value": "-2",
+                                "errorvalue": "-1"
+                            },
+                            {
+                                "value": "-4",
+                                "errorvalue": "-0.8"
+                            },
+                            {
+                                "value": "-7",
+                                "errorvalue": "-1"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Garden Groove harbour",
+                        "data": [
+                            {
+                                "value": "-9",
+                                "errorvalue": "-2"
+                            },
+                            {
+                                "value": "-3",
+                                "errorvalue": "-0.7"
+                            },
+                            {
+                                "value": "-3",
+                                "errorvalue": "-1"
+                            },
+                            {
+                                "value": "-6",
+                                "errorvalue": "-1.8"
+                            },
+                            {
+                                "value": "-7",
+                                "errorvalue": "-1.2"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/errorbar2d/ref-images/all value negative-snapshot.png",
+        "id": "all value negative"
+    },
+    "QCT-581_RED-2199-1_issue": {
+        "description": "1.hide the data plot by click on legend,st-2. resize the chart,st-3.click on legend,st-4 hover at the below of data plot, errovalue show in tooltip",
+        "options": {
+            "type": "ErrorBar2D",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "2",
+                    "xaxisname": "Appliance",
+                    "yaxisname": "Life Span (yr)",
+                    "caption": "Life Span Chart of Appliances",
+                    "subcaption": "(With Error Values)",
+                    "showvalues": "0",
+                    "halferrorbar": "0",
+                    "errorbarcolor": "666666",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Window AC"
+                            },
+                            {
+                                "label": "Pump"
+                            },
+                            {
+                                "label": "Tea Maker"
+                            },
+                            {
+                                "label": "Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "14",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "9",
+                                "errorvalue": "1.5"
+                            },
+                            {
+                                "value": "15",
+                                "errorvalue": "3"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "10",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "11",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "12",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.11.0/ref-images/QCT-581_RED-2199-1-snapshot.png",
+        "id": "QCT-581_RED-2199-1"
+    },
+    "QCT-581_RED-2199_issue": {
+        "description": "by default show value 0 in error bar chart",
+        "options": {
+            "type": "ErrorBar2D",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Window AC"
+                            },
+                            {
+                                "label": "Pump"
+                            },
+                            {
+                                "label": "Tea Maker"
+                            },
+                            {
+                                "label": "Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "14",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "9",
+                                "errorvalue": "1.5"
+                            },
+                            {
+                                "value": "15",
+                                "errorvalue": "3"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "10",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "11",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "12",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.11.0/ref-images/QCT-581_RED-2199-snapshot.png",
+        "id": "QCT-581_RED-2199"
+    },
+    "QCT-581_RED-2199_1": {
+        "description": "data plot value overlap with x-axis if adjustdiv =0",
+        "options": {
+            "type": "ErrorBar2D",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "labeldisplay": "ROTATE",
+                    "showvalues": "1",
+                    "rotatevalues": "1",
+                    "placevaluesinside": "1",
+                    "adjustdiv": "0",
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Current Year",
+                    "captionfontsize": "20",
+                    "subcaptionfontsize": "15",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue Revenue ",
+                    "showlegend": "1",
+                    "numberprefix": "$",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Computers"
+                            },
+                            {
+                                "label": "Bar-code Scanners"
+                            },
+                            {
+                                "label": "Packaging Machines"
+                            },
+                            {
+                                "label": "Chilling Compartments"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Daly City Serramonte",
+                        "data": [
+                            {
+                                "value": "8",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "3",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "2",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "8",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Bakersfield Central",
+                        "data": [
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "2",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Garden Groove harbour",
+                        "data": [
+                            {
+                                "value": "9",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "3",
+                                "errorvalue": "0.7"
+                            },
+                            {
+                                "value": "3",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.11.0/ref-images/QCT-581_RED-2199_1-snapshot.png",
+        "id": "QCT-581_RED-2199_1"
+    },
+    "QCT-581_RED-2199_2": {
+        "description": "if errorvalue does not set then also error bar show",
+        "options": {
+            "type": "ErrorBar2D",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "this is caption text",
+                    "subcaption": "this is subcaption text",
+                    "xaxisname": "this is x-axis name",
+                    "yaxisname": "this is y-axis name",
+                    "errorbarcolor": "#ff9966",
+                    "errorbaralpha": "80",
+                    "errorbarthickness": "10",
+                    "showvalues": "1",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Computers"
+                            },
+                            {
+                                "label": "Bar-code Scanners"
+                            },
+                            {
+                                "label": "Packaging Machines"
+                            },
+                            {
+                                "label": "Chilling Compartments"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Daly City Serramonte",
+                        "data": [
+                            {
+                                "value": "8"
+                            },
+                            {
+                                "value": "3",
+                                "errorvalue": ""
+                            },
+                            {
+                                "value": "2",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "8",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Bakersfield Central",
+                        "data": [
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "2",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Garden Groove harbour",
+                        "data": [
+                            {
+                                "value": "9",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "3",
+                                "errorvalue": "0.7"
+                            },
+                            {
+                                "value": "3",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.11.0/ref-images/QCT-581_RED-2199_2-snapshot.png",
+        "id": "QCT-581_RED-2199_2"
+    },
+    "QCT-581_RED-2199_3": {
+        "description": "data plot value place different  from previous version",
+        "options": {
+            "type": "ErrorBar2D",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "this is caption text",
+                    "subcaption": "this is subcaption text",
+                    "xaxisname": "this is x-axis name",
+                    "yaxisname": "this is y-axis name",
+                    "errorbarcolor": "#ff9966",
+                    "errorbaralpha": "80",
+                    "errorbarthickness": "10",
+                    "showvalues": "1",
+                    "valuefont": "arial",
+                    "valuefontcolor": "#00ff00",
+                    "valuefontsize": "30",
+                    "valuefontbold": "1",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Computers"
+                            },
+                            {
+                                "label": "Bar-code Scanners"
+                            },
+                            {
+                                "label": "Packaging Machines"
+                            },
+                            {
+                                "label": "Chilling Compartments"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Daly City Serramonte",
+                        "data": [
+                            {
+                                "value": "8",
+                                "errorvalue": "0"
+                            },
+                            {
+                                "value": "3",
+                                "errorvalue": "0"
+                            },
+                            {
+                                "value": "2",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "8",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Bakersfield Central",
+                        "data": [
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "2",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Garden Groove harbour",
+                        "data": [
+                            {
+                                "value": "9",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "3",
+                                "errorvalue": "0.7"
+                            },
+                            {
+                                "value": "3",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.11.0/ref-images/QCT-581_RED-2199_3-snapshot.png",
+        "id": "QCT-581_RED-2199_3"
+    },
+    "QCT-581_RED-2199_4": {
+        "description": "vline=true ",
+        "options": {
+            "type": "errorbar2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Computers"
+                            },
+                            {
+                                "label": "Bar-code Scanners"
+                            },
+                            {
+                                "label": "Chilling Compartments",
+                                "color": "#0000ff",
+                                "thickness": "3",
+                                "dashed": "1",
+                                "dashlen": "6",
+                                "dashgap": "3",
+                                "showlabelborder": "0",
+                                "lineposition": "1",
+                                "labelposition": "1",
+                                "labelhalign": "center",
+                                "labelvalign": "middle",
+                                "vline": "true"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Daly City Serramonte",
+                        "data": [
+                            {
+                                "value": "8",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "3",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "2",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "8",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Bakersfield Central",
+                        "data": [
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "2",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Garden Groove harbour",
+                        "data": [
+                            {
+                                "value": "9",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "-3",
+                                "errorvalue": "0.7"
+                            },
+                            {
+                                "value": "3",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "4",
+                                "istrendzone": "1",
+                                "valueonright": "1",
+                                "tooltext": "NILADRI",
+                                "color": "#00a7ff",
+                                "displayvalue": "Last Year Trend",
+                                "showontop": "1",
+                                "thickness": "5"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.11.0/ref-images/QCT-581_RED-2199_4-snapshot.png",
+        "id": "QCT-581_RED-2199_4"
+    },
+    "QCT-581_RED-2199_5": {
+        "description": "functional attributes test",
+        "options": {
+            "type": "ErrorBar2D",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "1",
+                    "xaxisname": "Appliance",
+                    "yaxisname": "Life Span (yr)",
+                    "caption": "Life Span Chart of Appliances",
+                    "subcaption": "(With Error Values)",
+                    "showvalues": "1",
+                    "halferrorbar": "1",
+                    "errorbarcolor": "666666",
+                    "animation": "0",
+                    "palettecolors": "#ff00ff",
+                    "showlabels": "0",
+                    "rotatevalues": "1",
+                    "placevaluesinside": "1",
+                    "showlimits": "1",
+                    "showdivlinevalues": "1",
+                    "showyaxisvalues": "1",
+                    "yaxisvaluesstep": "1",
+                    "showprintmenuitem": "1",
+                    "showzeroplanevalue": "1",
+                    "transposeanimduration": "1",
+                    "yaxismaxvalue": "20",
+                    "yaxisminvalue": "-30",
+                    "clickurl": "http://www.fusioncharts.com",
+                    "clickurloverridesplotlinks": "",
+                    "showshadow": "1",
+                    "adjustdiv": "0",
+                    "rotateyaxisname": "0",
+                    "yaxisnamewidth": "10",
+                    "setadaptiveymin": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Window AC"
+                            },
+                            {
+                                "label": "Pump"
+                            },
+                            {
+                                "label": "Tea Maker"
+                            },
+                            {
+                                "label": "Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "14",
+                                "errorvalue": "2",
+                                "link": "http://www.google.com"
+                            },
+                            {
+                                "value": "9",
+                                "errorvalue": "1.5"
+                            },
+                            {
+                                "value": "-15",
+                                "errorvalue": "3"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "10",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "11",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "12",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.11.0/ref-images/QCT-581_RED-2199_5-snapshot.png",
+        "id": "QCT-581_RED-2199_5"
+    },
+    "QCT-581_RED-2199_6": {
+        "description": "caption cosmetics. caption position top center",
+        "options": {
+            "type": "ErrorBar2D",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "1",
+                    "xaxisname": "Appliance",
+                    "yaxisname": "Life Span (yr)",
+                    "caption": "Life Span Chart of Appliances",
+                    "subcaption": "(With Error Values)",
+                    "showvalues": "1",
+                    "halferrorbar": "1",
+                    "captionalignment": "center",
+                    "captionontop": "1",
+                    "captionfontsize": "50",
+                    "subcaptionfontsize": "30",
+                    "captionfont": "arial",
+                    "subcaptionfont": "verdana",
+                    "captionfontcolor": "#ff0000",
+                    "subcaptionfontcolor": "#0000ff",
+                    "captionfontbold": "1",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "1",
+                    "captionhorizontalpadding": "10",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Window AC"
+                            },
+                            {
+                                "label": "Pump"
+                            },
+                            {
+                                "label": "Tea Maker"
+                            },
+                            {
+                                "label": "Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "14",
+                                "errorvalue": "2",
+                                "link": "http://www.google.com"
+                            },
+                            {
+                                "value": "9",
+                                "errorvalue": "1.5"
+                            },
+                            {
+                                "value": "-15",
+                                "errorvalue": "3"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "10",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "11",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "12",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.11.0/ref-images/QCT-581_RED-2199_6-snapshot.png",
+        "id": "QCT-581_RED-2199_6"
+    },
+    "QCT-581_RED-2199_7": {
+        "description": "caption cosmetics. caption position top left",
+        "options": {
+            "type": "ErrorBar2D",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "1",
+                    "xaxisname": "Appliance",
+                    "yaxisname": "Life Span (yr)Life Span (yr)Life Span (yr)Life Span (yr)Life Span (yr)Life Span (yr)",
+                    "caption": "Life Span Chart of Appliances",
+                    "subcaption": "(With Error Values)",
+                    "showvalues": "1",
+                    "halferrorbar": "1",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "50",
+                    "subcaptionfontsize": "30",
+                    "captionfont": "arial",
+                    "subcaptionfont": "verdana",
+                    "captionfontcolor": "#ff0000",
+                    "subcaptionfontcolor": "#0000ff",
+                    "captionfontbold": "1",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "30",
+                    "xaxisnamefontsize": "20",
+                    "legenditemfontsize": "16",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Window AC"
+                            },
+                            {
+                                "label": "Pump"
+                            },
+                            {
+                                "label": "Tea Maker"
+                            },
+                            {
+                                "label": "Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "14",
+                                "errorvalue": "2",
+                                "link": "http://www.google.com"
+                            },
+                            {
+                                "value": "9",
+                                "errorvalue": "1.5"
+                            },
+                            {
+                                "value": "-15",
+                                "errorvalue": "3"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "10",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "11",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "12",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.11.0/ref-images/QCT-581_RED-2199_7-snapshot.png",
+        "id": "QCT-581_RED-2199_7"
+    },
+    "QCT-581_RED-2199_8": {
+        "description": "caption cosmetics. caption position  bottom",
+        "options": {
+            "type": "ErrorBar2D",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "1",
+                    "xaxisname": "Appliance",
+                    "yaxisname": "Life Span (yr)Life Span (yr)Life Span (yr)Life Span (yr)Life Span (yr)Life Span (yr)",
+                    "caption": "Life Span Chart of Appliances",
+                    "subcaption": "(With Error Values)",
+                    "showvalues": "1",
+                    "halferrorbar": "1",
+                    "captionalignment": "left",
+                    "captionontop": "0",
+                    "captionfontsize": "50",
+                    "subcaptionfontsize": "30",
+                    "captionfont": "arial",
+                    "subcaptionfont": "verdana",
+                    "captionfontcolor": "#ff0000",
+                    "subcaptionfontcolor": "#0000ff",
+                    "captionfontbold": "1",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "0",
+                    "xaxisnamefontsize": "20",
+                    "legenditemfontsize": "36",
+                    "rotateyaxisname": "0",
+                    "yaxisnamewidth": "20",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Window AC"
+                            },
+                            {
+                                "label": "Pump"
+                            },
+                            {
+                                "label": "Tea Maker"
+                            },
+                            {
+                                "label": "Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "14",
+                                "errorvalue": "2",
+                                "link": "http://www.google.com"
+                            },
+                            {
+                                "value": "9",
+                                "errorvalue": "1.5"
+                            },
+                            {
+                                "value": "-15",
+                                "errorvalue": "3"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "10",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "11",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "12",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.11.0/ref-images/QCT-581_RED-2199_8-snapshot.png",
+        "id": "QCT-581_RED-2199_8"
+    },
+    "QCT-581_RED-2199_9": {
+        "description": "caption legend yaxis xaxis name cosmetics",
+        "options": {
+            "type": "ErrorBar2D",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "1",
+                    "caption": "Life Span Chart of Appliances",
+                    "subcaption": "(With Error Values)",
+                    "xaxisname": "Month",
+                    "showxaxisline": "1",
+                    "xaxislinecolor": "#00ffff",
+                    "xaxislinethickness": "3",
+                    "xaxisnamefontcolor": "#770000",
+                    "xaxisnamefontsize": "20",
+                    "xaxisnamefontbold": "1",
+                    "xaxisnamefontitalic": "1",
+                    "xaxisnamebgcolor": "#37f8f9",
+                    "xaxisnamebordercolor": "#ff0000",
+                    "xaxisnamealpha": "100",
+                    "xaxisnamefontalpha": "70",
+                    "xaxisnamebgalpha": "80",
+                    "xaxisnameborderalpha": "80",
+                    "xaxisnameborderpadding": "3",
+                    "xaxisnameborderradius": "3",
+                    "xaxisnameborderthickness": "3",
+                    "xaxisnameborderdashed": "1",
+                    "xaxisnameborderdashlen": "5",
+                    "xaxisnameborderdashgap": "2",
+                    "yaxisname": "Revenue",
+                    "showyaxisline": "1",
+                    "yaxislinecolor": "#cc0000",
+                    "yaxislinethickness": "3",
+                    "yaxisnamefontcolor": "#770000",
+                    "yaxisnamefontsize": "20",
+                    "yaxisnamefontbold": "1",
+                    "yaxisnamefontitalic": "1",
+                    "yaxisnamebgcolor": "#37f8f9",
+                    "yaxisnamebordercolor": "#ff0000",
+                    "yaxisnamealpha": "100",
+                    "yaxisnamefontalpha": "70",
+                    "yaxisnamebgalpha": "80",
+                    "yaxisnameborderalpha": "80",
+                    "yaxisnameborderpadding": "3",
+                    "yaxisnameborderradius": "3",
+                    "yaxisnameborderthickness": "3",
+                    "yaxisnameborderdashed": "1",
+                    "yaxisnameborderdashlen": "5",
+                    "yaxisnameborderdashgap": "2",
+                    "showlegend": "1",
+                    "legenditemfontbold": "1",
+                    "legenditemfont": "verdana",
+                    "legenditemfontsize": "16",
+                    "legenditemfontcolor": "#cc0000",
+                    "legenditemhoverfontcolor": "#ffffff",
+                    "legendcaption": "Interactive Legend",
+                    "legendcaptionalignment": "left",
+                    "legendcaptionfontbold": "1",
+                    "legendcaptionfont": "verdana",
+                    "legendcaptionfontsize": "20",
+                    "legendcaptionfontcolor": "#ffffff",
+                    "legenditemhiddencolor": "#ff0000",
+                    "legendiconscale": "110",
+                    "legendbgcolor": "#333333",
+                    "legendbgalpha": "60",
+                    "legendbordercolor": "#0000ff",
+                    "legendborderthickness": "3",
+                    "legendborderalpha": "80",
+                    "legendallowdrag": "1",
+                    "legendscrollbgcolor": "0",
+                    "reverselegend": "1",
+                    "interactivelegend": "1",
+                    "legendnumcolumns": "2",
+                    "minimisewrappinginlegend": "",
+                    "legendshadow": "1",
+                    "drawcustomlegendicon": "1",
+                    "legendiconbordercolor": "#ff0000",
+                    "legendiconbgcolor": "#ffa700",
+                    "legendiconalpha": "100",
+                    "legendiconbgalpha": "100",
+                    "legendiconsides": "5",
+                    "legendiconborderthickness": "4",
+                    "numberprefix": "$",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Window AC"
+                            },
+                            {
+                                "label": "Pump"
+                            },
+                            {
+                                "label": "Tea Maker"
+                            },
+                            {
+                                "label": "Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "14",
+                                "errorvalue": "2",
+                                "link": "http://www.google.com"
+                            },
+                            {
+                                "value": "9",
+                                "errorvalue": "1.5"
+                            },
+                            {
+                                "value": "-15",
+                                "errorvalue": "3"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "10",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "11",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "12",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.11.0/ref-images/QCT-581_RED-2199_9-snapshot.png",
+        "id": "QCT-581_RED-2199_9"
+    },
+    "QCT-581_RED-2199_10": {
+        "description": "data value ,div line,data label, zero plane cosmetics",
+        "options": {
+            "type": "ErrorBar2D",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0",
+                    "showplotborder": "1",
+                    "plotbordercolor": "#0000ff",
+                    "plotborderthickness": "2",
+                    "plotborderalpha": "60",
+                    "plotborderdashed": "1",
+                    "plotborderdashlen": "6",
+                    "plotborderdashgap": "3",
+                    "plotfillangle": "60",
+                    "plotfillratio": "30:70",
+                    "plotfillalpha": "60",
+                    "plotgradientcolor": "#000033,#0000ff",
+                    "useplotgradientcolor": "1",
+                    "errorbarcolor": "#ff0000",
+                    "errorbaralpha": "100",
+                    "errorbarthickness": "3",
+                    "showhovereffect": "1",
+                    "plothovereffect": "1",
+                    "plotfillhovercolor": "#CCFFCC",
+                    "plotfillhoveralpha": "100",
+                    "drawanchors": "1",
+                    "anchorsides": "10",
+                    "anchorradius": "10",
+                    "anchorbordercolor": "#ff0000",
+                    "anchorborderthickness": "2",
+                    "anchorbgcolor": "#ffa700",
+                    "anchoralpha": "85",
+                    "anchorbgalpha": "75",
+                    "valuefont": "verdana",
+                    "rotatevalues": "1",
+                    "valuefontcolor": "#cc0000",
+                    "valuefontsize": "12",
+                    "valuefontbold": "1",
+                    "valuefontitalic": "1",
+                    "valuebgcolor": "#ffffff",
+                    "valuebordercolor": "#000033",
+                    "valuealpha": "70",
+                    "valuefontalpha": "75",
+                    "valuebgalpha": "85",
+                    "valueborderalpha": "90",
+                    "valueborderthickness": "2",
+                    "valueborderradius": "5",
+                    "valueborderdashed": "1",
+                    "valueborderdashgap": "3",
+                    "valueborderdashlen": "6",
+                    "valuehoveralpha": "100",
+                    "valuefonthoveralpha": "100",
+                    "valuebghoveralpha": "100",
+                    "valueborderhoveralpha": "100",
+                    "showvaluesonhover": "1",
+                    "labelfont": "verdana",
+                    "labelfontcolor": "#cc0000",
+                    "labelfontsize": "30",
+                    "labelfontbold": "1",
+                    "labelfontitalic": "1",
+                    "labelbgcolor": "#00ff00",
+                    "labelbordercolor": "#cc0000",
+                    "labelalpha": "85",
+                    "labelbgalpha": "60",
+                    "labelborderalpha": "90",
+                    "labelborderpadding": "2",
+                    "labelborderradius": "5",
+                    "labelborderthickness": "2",
+                    "labelborderdashed": "1",
+                    "labelborderdashlen": "6",
+                    "labelborderdashgap": "3",
+                    "labellink": "http://fusioncharts.com",
+                    "showlegend": "1",
+                    "legenditemfontbold": "1",
+                    "legenditemfont": "verdana",
+                    "legenditemfontsize": "16",
+                    "legenditemfontcolor": "#cc0000",
+                    "legenditemhoverfontcolor": "#ffffff",
+                    "legendcaption": "Interactive Legend",
+                    "legendcaptionalignment": "left",
+                    "legendcaptionfontbold": "1",
+                    "legendcaptionfont": "verdana",
+                    "legendcaptionfontsize": "20",
+                    "legendcaptionfontcolor": "#ffffff",
+                    "legenditemhiddencolor": "#ff0000",
+                    "legendiconscale": "110",
+                    "legendbgcolor": "#333333",
+                    "legendbgalpha": "60",
+                    "legendbordercolor": "#0000ff",
+                    "legendborderthickness": "3",
+                    "legendborderalpha": "80",
+                    "legendallowdrag": "1",
+                    "legendscrollbgcolor": "0",
+                    "reverselegend": "1",
+                    "interactivelegend": "1",
+                    "legendnumcolumns": "2",
+                    "minimisewrappinginlegend": "",
+                    "legendshadow": "1",
+                    "drawcustomlegendicon": "1",
+                    "legendiconbordercolor": "#ff0000",
+                    "legendiconbgcolor": "#ffa700",
+                    "legendiconalpha": "100",
+                    "legendiconbgalpha": "100",
+                    "legendiconsides": "5",
+                    "legendiconborderthickness": "4",
+                    "legendposition": "right",
+                    "numdivlines": "10",
+                    "divlinecolor": "#00ff00",
+                    "divlinethickness": "3",
+                    "divlinealpha": "80",
+                    "divlinedashed": "1",
+                    "divlinedashlen": "20",
+                    "divlinedashgap": "10",
+                    "zeroplanecolor": "#0000ff",
+                    "zeroplanethickness": "12",
+                    "zeroplanealpha": "50",
+                    "showalternatehgridcolor": "1",
+                    "alternatehgridcolor": "#ff9966",
+                    "alternatehgridalpha": "60"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Window AC"
+                            },
+                            {
+                                "label": "Pump"
+                            },
+                            {
+                                "label": "Tea Maker"
+                            },
+                            {
+                                "label": "Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "14",
+                                "errorvalue": "2",
+                                "link": "http://www.google.com"
+                            },
+                            {
+                                "value": "9",
+                                "errorvalue": "1.5"
+                            },
+                            {
+                                "value": "-15",
+                                "errorvalue": "3"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "10",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "11",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "12",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.11.0/ref-images/QCT-581_RED-2199_10-snapshot.png",
+        "id": "QCT-581_RED-2199_10"
+    },
+    "QCT-581_RED-2199_11_issue": {
+        "description": "issue:when hover on portion (inside column) of error bar,error value is show on tooltip. If errorbarthickness>4 then this issue does not arise",
+        "options": {
+            "type": "ErrorBar2D",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "2",
+                    "xaxisname": "Appliance",
+                    "yaxisname": "Life Span (yr)",
+                    "caption": "Life Span Chart of Appliances",
+                    "subcaption": "(With Error Values)",
+                    "showvalues": "0",
+                    "halferrorbar": "0",
+                    "errorbarcolor": "666666",
+                    "errorbarthickness": "4",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Window AC"
+                            },
+                            {
+                                "label": "Pump"
+                            },
+                            {
+                                "label": "Tea Maker"
+                            },
+                            {
+                                "label": "Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "14",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "9",
+                                "errorvalue": "1.5"
+                            },
+                            {
+                                "value": "15",
+                                "errorvalue": "3"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "10",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "11",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "12",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.11.0/ref-images/QCT-581_RED-2199_11_issue-snapshot.png",
+        "id": "QCT-581_RED-2199_11_issue"
+    },
+    "QCT-581_RED-2199_12_issue": {
+        "description": "plotfillalpha does not apply on error bar",
+        "options": {
+            "type": "ErrorBar2D",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "plotfillalpha": "0",
+                    "halferrorbar": "0",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Window AC"
+                            },
+                            {
+                                "label": "Pump"
+                            },
+                            {
+                                "label": "Tea Maker"
+                            },
+                            {
+                                "label": "Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "14",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "9",
+                                "errorvalue": "1.5"
+                            },
+                            {
+                                "value": "15",
+                                "errorvalue": "3"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "10",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "11",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "12",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.11.0/ref-images/QCT-581_RED-2199_12_issue-snapshot.png",
+        "id": "QCT-581_RED-2199_12_issue"
+    },
+    "QCT-581_RED-2199_13_issue": {
+        "description": "plotfillalpha='0' and palette >1 show data plot border",
+        "options": {
+            "type": "ErrorBar2D",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "2",
+                    "xaxisname": "Appliance",
+                    "yaxisname": "Life Span (yr)",
+                    "caption": "Life Span Chart of Appliances",
+                    "subcaption": "(With Error Values)",
+                    "showvalues": "0",
+                    "halferrorbar": "0",
+                    "errorbarcolor": "666666",
+                    "plotfillalpha": "0",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Window AC"
+                            },
+                            {
+                                "label": "Pump"
+                            },
+                            {
+                                "label": "Tea Maker"
+                            },
+                            {
+                                "label": "Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "14",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "9",
+                                "errorvalue": "1.5"
+                            },
+                            {
+                                "value": "15",
+                                "errorvalue": "3"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "10",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "11",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "12",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.11.0/ref-images/QCT-581_RED-2199_13_issue-snapshot.png",
+        "id": "QCT-581_RED-2199_13_issue"
+    },
+    "QCT-581_RED-2199_14_issue": {
+        "description": "plot hover effect does not work when hover on portion(inside column) of error bar. Plot hover alpha does not work on plo border which present in new architectures. ",
+        "options": {
+            "type": "ErrorBar2D",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showhovereffect": "1",
+                    "plothovereffect": "",
+                    "plotfillhovercolor": "#04B4AE",
+                    "plotfillhoveralpha": "0",
+                    "showvalues": "1",
+                    "halferrorbar": "0",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "AC - Central"
+                            },
+                            {
+                                "label": "AC - Window"
+                            },
+                            {
+                                "label": "Heat Pump"
+                            },
+                            {
+                                "label": "Coffee Machine"
+                            },
+                            {
+                                "label": "Dish Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "50",
+                                "errorvalue": "10"
+                            },
+                            {
+                                "value": "-100",
+                                "errorvalue": "12"
+                            },
+                            {
+                                "value": "120",
+                                "errorvalue": "19"
+                            },
+                            {
+                                "value": "90",
+                                "errorvalue": "11"
+                            },
+                            {
+                                "value": "-98",
+                                "errorvalue": "15"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "-11",
+                                "errorvalue": "15"
+                            },
+                            {
+                                "value": "60",
+                                "errorvalue": "13"
+                            },
+                            {
+                                "value": "-12",
+                                "errorvalue": "16"
+                            },
+                            {
+                                "value": "40",
+                                "errorvalue": "15.8"
+                            },
+                            {
+                                "value": "70",
+                                "errorvalue": "17"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.11.0/ref-images/QCT-581_RED-2199_14_issue-snapshot.png",
+        "id": "QCT-581_RED-2199_14_issue"
+    },
+    "QCT-581_RED-2199_15_issue": {
+        "description": "dataset macro does not wotk",
+        "options": {
+            "type": "ErrorBar2D",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "xaxisname": "Appliance",
+                    "yaxisname": "Life Span (yr)",
+                    "caption": "Life Span Chart of Appliances",
+                    "subcaption": "(With Error Values)",
+                    "showvalues": "0",
+                    "halferrorbar": "0",
+                    "errorbarcolor": "ff0000",
+                    "errorbarthickness": "2",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "AC - Central"
+                            },
+                            {
+                                "label": "AC - Window"
+                            },
+                            {
+                                "label": "Heat Pump"
+                            },
+                            {
+                                "label": "Coffee Machine"
+                            },
+                            {
+                                "label": "Dish Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "50",
+                                "errorvalue": "10"
+                            },
+                            {
+                                "value": "-100",
+                                "errorvalue": "12"
+                            },
+                            {
+                                "value": "120",
+                                "errorvalue": "19"
+                            },
+                            {
+                                "value": "90",
+                                "errorvalue": "11"
+                            },
+                            {
+                                "value": "-98",
+                                "errorvalue": "15"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "-11",
+                                "errorvalue": "15"
+                            },
+                            {
+                                "value": "60",
+                                "errorvalue": "13"
+                            },
+                            {
+                                "value": "-12",
+                                "errorvalue": "16"
+                            },
+                            {
+                                "value": "40",
+                                "errorvalue": "15.8"
+                            },
+                            {
+                                "value": "70",
+                                "errorvalue": "17"
+                            }
+                        ]
+                    }
+                ],
+                "annotations": {
+                    "groups": [
+                        {
+                            "id": "anchor-highlight",
+                            "items": [
+                                {
+                                    "id": "high-star",
+                                    "type": "circle",
+                                    "x": "$dataset.0.set.2.x",
+                                    "y": "$dataset.0.set.2.y-65",
+                                    "radius": "12",
+                                    "color": "#6baa01",
+                                    "border": "2",
+                                    "bordercolor": "#f8bd19"
+                                },
+                                {
+                                    "id": "label",
+                                    "type": "text",
+                                    "text": "Highest lifespan",
+                                    "fillcolor": "#6baa01",
+                                    "rotate": "90",
+                                    "x": "$dataset.0.set.2.x",
+                                    "y": "$dataset.0.set.2.y-75"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#FFDEAD",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.11.0/ref-images/QCT-581_RED-2199_15_issue-snapshot.png",
+        "id": "QCT-581_RED-2199_15_issue"
+    },
+    "aa": {
+        "description": "aa",
+        "options": {
+            "type": "ErrorBar2D",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "2",
+                    "xaxisname": "Appliance",
+                    "yaxisname": "Life Span (yr)",
+                    "caption": "Life Span Chart of Appliances",
+                    "subcaption": "(With Error Values)",
+                    "showvalues": "0",
+                    "halferrorbar": "0",
+                    "errorbarcolor": "666666",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Window AC"
+                            },
+                            {
+                                "label": "Pump"
+                            },
+                            {
+                                "label": "Tea Maker"
+                            },
+                            {
+                                "label": "Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "14",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "9",
+                                "errorvalue": "1.5"
+                            },
+                            {
+                                "value": "15",
+                                "errorvalue": "3"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "10",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "11",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "12",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.11.0/ref-images/aa-snapshot.png",
+        "id": "aa"
+    },
+    "id": {
+        "description": "desc",
+        "options": {
+            "type": "errorbar2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "2",
+                    "xaxisname": "Appliance",
+                    "yaxisname": "Life Span (yr)",
+                    "caption": "Life Span Chart of Appliances",
+                    "subcaption": "(With Error Values)",
+                    "showvalues": "0",
+                    "halferrorbar": "0",
+                    "errorbarcolor": "666666",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Window AC"
+                            },
+                            {
+                                "label": "Pump"
+                            },
+                            {
+                                "label": "Tea Maker"
+                            },
+                            {
+                                "label": "Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "14",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "9",
+                                "errorvalue": "1.5"
+                            },
+                            {
+                                "value": "15",
+                                "errorvalue": "3"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "10",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "11",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "12",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.11.0/ref-images/id-snapshot.png",
+        "id": "id"
+    },
+    "dataset macro": {
+        "description": "trendlines macro test",
+        "options": {
+            "type": "ErrorBar2D",
+            "width": "600",
+            "height": "356",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "2",
+                    "xaxisname": "Appliance",
+                    "yaxisname": "Life Span (yr)",
+                    "caption": "Life Span Chart of Appliances",
+                    "subcaption": "(With Error Values)",
+                    "showvalues": "0",
+                    "halferrorbar": "0",
+                    "errorbarcolor": "666666",
+                    "numbersuffix": "year",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Window AC"
+                            },
+                            {
+                                "label": "Pump"
+                            },
+                            {
+                                "label": "Tea Maker"
+                            },
+                            {
+                                "label": "Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "14",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "9",
+                                "errorvalue": "1.5"
+                            },
+                            {
+                                "value": "15",
+                                "errorvalue": "3"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "10",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "11",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "12",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "2",
+                                "tooltext": "$startValue $startDataValue $endValue $endDataValue $displayValue $axisName",
+                                "color": "91C728",
+                                "displayvalue": "Target",
+                                "showontop": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.11.0/ref-images/dataset macro-snapshot.png",
+        "id": "dataset macro"
+    },
+    "dataset macro_issue": {
+        "description": "in errorplottooltext macro does not work",
+        "options": {
+            "type": "ErrorBar2D",
+            "width": "600",
+            "height": "356",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "xaxisname": "Appliance",
+                    "yaxisname": "Life Span (yr)",
+                    "caption": "Life Span Chart of Appliances",
+                    "subcaption": "(With Error Values)",
+                    "showvalues": "0",
+                    "halferrorbar": "0",
+                    "errorbarcolor": "666666",
+                    "errorplottooltext": "<div>$seriesname :</div>",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Window AC"
+                            },
+                            {
+                                "label": "Pump"
+                            },
+                            {
+                                "label": "Tea Maker"
+                            },
+                            {
+                                "label": "Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "14",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "9",
+                                "errorvalue": "1.5"
+                            },
+                            {
+                                "value": "15",
+                                "errorvalue": "3"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "10",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "11",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "12",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.11.0/ref-images/dataset macro_issue-snapshot.png",
+        "id": "dataset macro_issue"
+    },
+    "tooltip macro test ": {
+        "description": "tooltip macro test",
+        "options": {
+            "type": "errorbar2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "2",
+                    "xaxisname": "Appliance",
+                    "yaxisname": "Life Span (yr)",
+                    "caption": "Life Span Chart of Appliances",
+                    "subcaption": "(With Error Values)",
+                    "showvalues": "0",
+                    "halferrorbar": "0",
+                    "errorbarcolor": "666666",
+                    "plottooltext": "<h6>tooltext from chart object</h6><table><tr><td><b>Data Label</b></td><td><b>$label</b></td></tr><tr><td><b>Data Value(unformatted)</b></td><td><b>$value</b></td></tr><tr><td><b>Data Value(formatted)</b></td><td><b>$datavalue</b></td></tr><tr><td><b>Series Name</b></td><td><b>$seriesname</b></td></tr><tr><td><b>Display Value</b></td><td><b>$displayvalue</b></td></tr><tr><td><b>Error Value(unformatted)</b></td><td><b>$errorValue</b></td></tr><tr><td><b>Error Value(formatted)</b></td><td><b>$errorDataValue</b></td></tr><tr><td><b>Error percent</b></td><td><b>$errorPercent</b></td></tr></table>",
+                    "errorplottooltext": "<h6>tooltext of error bar</h6><table><tr><td><b>Data Label</b></td><td><b>$label</b></td></tr><tr><td><b>Data Value(unformatted)</b></td><td><b>$value</b></td></tr><tr><td><b>Data Value(formatted)</b></td><td><b>$datavalue</b></td></tr><tr><td><b>Series Name</b></td><td><b>$seriesname</b></td></tr><tr><td><b>Display Value</b></td><td><b>$displayvalue</b></td></tr><tr><td><b>Error Value(unformatted)</b></td><td><b>$errorValue</b></td></tr><tr><td><b>Error Value(formatted)</b></td><td><b>$errorDataValue</b></td></tr><tr><td><b>Error percent</b></td><td><b>$errorPercent</b></td></tr></table>",
+                    "trendlinetooltext": "<h3>Tool Text of TrendLine define from chart object</h3> <div> <b> Start value(unformatted): </b>$startvalue<br> <b> Start value(formatted): </b>$startDataValue<br> <b> Display value Of trend line: </b>$displayvalue<br><b> End value(unformatted): </b>$endvalue<br> <b> End value(formatted): </b>$endDataValue<br> </div > ",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Window AC"
+                            },
+                            {
+                                "label": "Pump"
+                            },
+                            {
+                                "label": "Tea Maker"
+                            },
+                            {
+                                "label": "Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "14",
+                                "errorvalue": "2",
+                                "displayvalue": "16"
+                            },
+                            {
+                                "value": "9",
+                                "errorvalue": "1.5"
+                            },
+                            {
+                                "value": "15",
+                                "errorvalue": "3"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "10",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "plottooltext": "<h6>tooltext from categories object</h6><table><tr><td><b>Data Label</b></td><td><b>$label</b></td></tr><tr><td><b>Data Value(unformatted)</b></td><td><b>$value</b></td></tr><tr><td><b>Data Value(formatted)</b></td><td><b>$datavalue</b></td></tr><tr><td><b>Series Name</b></td><td><b>$seriesname</b></td></tr><tr><td><b>Display Value</b></td><td><b>$displayvalue</b></td></tr><tr><td><b>Error Value(unformatted)</b></td><td><b>$errorValue</b></td></tr><tr><td><b>Error Value(formatted)</b></td><td><b>$errorDataValue</b></td></tr><tr><td><b>Error percent</b></td><td><b>$errorPercent</b></td></tr></table>",
+                        "data": [
+                            {
+                                "value": "11",
+                                "errorvalue": "1",
+                                "displayvalue": "15"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "12",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "10",
+                                "color": "91C728",
+                                "displayvalue": "Target",
+                                "showontop": "1"
+                            },
+                            {
+                                "startvalue": "8",
+                                "color": "#ff0000",
+                                "displayvalue": "Target 2",
+                                "showontop": "0",
+                                "tooltext": "<h3>Tool Text of TrendLine define from line object</h3> <div> <b> Start value(unformatted): </b>$startvalue<br> <b> Start value(formatted): </b>$startDataValue<br> <b> Display value Of trend line: </b>$displayvalue<br><b> End value(unformatted): </b>$endvalue<br> <b> End value(formatted): </b>$endDataValue<br> </div > "
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/errorbar2d/ref-images/tooltip macro test -snapshot.png",
+        "id": "tooltip macro test "
+    },
+    "tooltip macro test_2": {
+        "description": "tooltip macro test from trendlines object",
+        "options": {
+            "type": "errorbar2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "2",
+                    "xaxisname": "Appliance",
+                    "yaxisname": "Life Span (yr)",
+                    "caption": "Life Span Chart of Appliances",
+                    "subcaption": "(With Error Values)",
+                    "showvalues": "0",
+                    "halferrorbar": "0",
+                    "errorbarcolor": "666666",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Window AC"
+                            },
+                            {
+                                "label": "Pump"
+                            },
+                            {
+                                "label": "Tea Maker"
+                            },
+                            {
+                                "label": "Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "14",
+                                "errorvalue": "2",
+                                "displayvalue": "16"
+                            },
+                            {
+                                "value": "9",
+                                "errorvalue": "1.5"
+                            },
+                            {
+                                "value": "15",
+                                "errorvalue": "3"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "10",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "11",
+                                "errorvalue": "1",
+                                "displayvalue": "15"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "12",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "tooltext": "<h3>Tool Text of TrendLine define from trendlines object</h3> <div id='ch'> <b> Start value(unformatted): </b>$startvalue<br> <b> Start value(formatted): </b>$startDataValue<br> <b> Display value Of trend line: </b>$displayvalue<br><b> End value(unformatted): </b>$endvalue<br> <b> End value(formatted): </b>$endDataValue<br> </div >",
+                        "line": [
+                            {
+                                "startvalue": "10",
+                                "color": "91C728",
+                                "displayvalue": "Target",
+                                "showontop": "1"
+                            },
+                            {
+                                "startvalue": "8",
+                                "color": "#ff0000",
+                                "displayvalue": "Target 2",
+                                "showontop": "0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/errorbar2d/ref-images/tooltip macro test_2-snapshot.png",
+        "id": "tooltip macro test_2"
+    }
+}

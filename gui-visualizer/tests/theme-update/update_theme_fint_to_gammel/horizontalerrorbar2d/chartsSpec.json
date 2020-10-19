@@ -1,0 +1,192 @@
+{
+    "horizontalerrorbar2d": {
+        "descriptions": "update theme from fint to gammel",
+        "id": "horizontalerrorbar2d",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "horizontalerrorbar2d",
+            "dataSource": {
+                "chart": {
+                    "palette": "2",
+                    "xaxisname": "Appliance",
+                    "yaxisname": "Life Span (yr)",
+                    "caption": "Life Span Chart of Appliances",
+                    "subcaption": "(With Error Values)",
+                    "showvalues": "0",
+                    "halferrorbar": "0",
+                    "errorbarcolor": "666666",
+                    "animation": 0,
+                    "theme": "fint"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Central AC"
+                            },
+                            {
+                                "label": "Window AC"
+                            },
+                            {
+                                "label": "Pump"
+                            },
+                            {
+                                "label": "Tea Maker"
+                            },
+                            {
+                                "label": "Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "14",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "9",
+                                "errorvalue": "1.5"
+                            },
+                            {
+                                "value": "15",
+                                "errorvalue": "3"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "1.8"
+                            },
+                            {
+                                "value": "10",
+                                "errorvalue": "1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "11",
+                                "errorvalue": "1"
+                            },
+                            {
+                                "value": "6",
+                                "errorvalue": "0.5"
+                            },
+                            {
+                                "value": "12",
+                                "errorvalue": "2"
+                            },
+                            {
+                                "value": "4",
+                                "errorvalue": "0.8"
+                            },
+                            {
+                                "value": "7",
+                                "errorvalue": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "palette": "2",
+                            "xaxisname": "Appliance",
+                            "yaxisname": "Life Span (yr)",
+                            "caption": "Life Span Chart of Appliances",
+                            "subcaption": "(With Error Values)",
+                            "showvalues": "0",
+                            "halferrorbar": "0",
+                            "errorbarcolor": "666666",
+                            "animation": 0,
+                            "theme": "gammel"
+                        },
+                        "categories": [
+                            {
+                                "category": [
+                                    {
+                                        "label": "Central AC"
+                                    },
+                                    {
+                                        "label": "Window AC"
+                                    },
+                                    {
+                                        "label": "Pump"
+                                    },
+                                    {
+                                        "label": "Tea Maker"
+                                    },
+                                    {
+                                        "label": "Washer"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dataset": [
+                            {
+                                "seriesname": "At Home",
+                                "data": [
+                                    {
+                                        "value": "14",
+                                        "errorvalue": "2"
+                                    },
+                                    {
+                                        "value": "9",
+                                        "errorvalue": "1.5"
+                                    },
+                                    {
+                                        "value": "15",
+                                        "errorvalue": "3"
+                                    },
+                                    {
+                                        "value": "6",
+                                        "errorvalue": "1.8"
+                                    },
+                                    {
+                                        "value": "10",
+                                        "errorvalue": "1.2"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "In Office",
+                                "data": [
+                                    {
+                                        "value": "11",
+                                        "errorvalue": "1"
+                                    },
+                                    {
+                                        "value": "6",
+                                        "errorvalue": "0.5"
+                                    },
+                                    {
+                                        "value": "12",
+                                        "errorvalue": "2"
+                                    },
+                                    {
+                                        "value": "4",
+                                        "errorvalue": "0.8"
+                                    },
+                                    {
+                                        "value": "7",
+                                        "errorvalue": "1"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

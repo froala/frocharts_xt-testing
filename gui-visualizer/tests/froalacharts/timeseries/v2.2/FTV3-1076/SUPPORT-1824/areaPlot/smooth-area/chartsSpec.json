@@ -1,0 +1,57 @@
+{
+    "SUPPORT-1824-smooth-area-tc1": {
+        "id": "SUPPORT-1824-smooth-area-tc1",
+        "description": "plot is visible in plotype smooth-area if null-value is present before and after value",
+        "options": {
+            "data-id": "data-SUPPORT-1824-smooth-area",
+            "schema-id": "schema-SUPPORT-1824-smooth-area",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "yAxis": [
+                    {
+                        "plotType": "smooth-area",
+                        "plot": [
+                            {
+                                "value": "Temperature"
+                            }
+                        ]
+                    }
+                ],
+                "xaxis": {
+                    "binning": {
+                        "year": [ 1 ],
+                        "month": [ 1 ],
+                        "day": [ 1 ],
+                        "hour": [ 1 ],
+                        "minutes": [ 1 ]
+                    },
+                    "initialInterval": {
+                        "from": "05/10/2020 7:40",
+                        "to": "05/10/2020 7:59"
+                    }
+                },
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multicanvas": 0,
+                    "enableNavigator": "1",
+                    "showToolTip": 1
+                },
+                "caption": {
+                    "text": " chart having data in minutes",
+                    "style": {
+                        "font-weight": "normal"
+                    }
+                },
+                "subCaption": {
+                    "style": {
+                        "font-weight": "normal"
+                    }
+                }
+            }
+        }
+    }
+}

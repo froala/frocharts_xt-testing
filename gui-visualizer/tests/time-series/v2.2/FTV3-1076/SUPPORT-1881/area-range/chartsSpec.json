@@ -1,0 +1,38 @@
+{
+    "SUPPORT-1881-area-range-tc1": {
+        "id": "SUPPORT-1881-area-range-tc1",
+        "description": "line border does not comes to base of plot when negative value is plotted for area plot type",
+        "options": {
+            "data-id": "data-SUPPORT-1881-area-range",
+            "schema-id": "schema-SUPPORT-1881-area-range",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "yaxis": [
+                    {
+                        "plot": {
+                            "value": {
+                                "high": "Measure2",
+                                "low": "Measure1"
+                            },
+                            "type": "area-range",
+                            "name": "area-range"
+                        }
+                    }
+                ],
+                "xAxis": {
+                    "plot": "Time",
+                    "title": "xAxisName"
+
+                },
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multicanvas": 0
+                }
+            }
+        }
+    }
+}

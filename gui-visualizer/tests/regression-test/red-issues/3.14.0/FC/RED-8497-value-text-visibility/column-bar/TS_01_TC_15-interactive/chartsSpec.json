@@ -1,0 +1,1742 @@
+{
+    "TS_01_TC_15-scrollcolumn2d": {
+        "id": "TS_01_TC_15-scrollcolumn2d",
+        "description": "Setting minPlotHeightForValue from chart object and checking the plots outside the canvas in scroll charts",
+        "options": {
+            "type": "scrollcolumn2d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            },
+                            {
+                                "label": "Label-7"
+                            },
+                            {
+                                "label": "Label-8"
+                            },
+                            {
+                                "label": "Label-9"
+                            },
+                            {
+                                "label": "Label-10"
+                            },
+                            {
+                                "label": "Label-11"
+                            },
+                            {
+                                "label": "Label-12"
+                            },
+                            {
+                                "label": "Label-13"
+                            },
+                            {
+                                "label": "Label-14"
+                            },
+                            {
+                                "label": "Label-15"
+                            },
+                            {
+                                "label": "Label-16"
+                            },
+                            {
+                                "label": "Label-17"
+                            },
+                            {
+                                "label": "Label-18"
+                            },
+                            {
+                                "label": "Label-19"
+                            },
+                            {
+                                "label": "Label-20"
+                            },
+                            {
+                                "label": "Label-21"
+                            },
+                            {
+                                "label": "Label-22"
+                            },
+                            {
+                                "label": "Label-23"
+                            },
+                            {
+                                "label": "Label-24"
+                            },
+                            {
+                                "label": "Label-25"
+                            },
+                            {
+                                "label": "Label-26"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 9,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 10,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 11,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 12,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 13,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 14,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 15,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 16,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 17,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 18,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 19,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 20,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 21,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 22,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 23,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 24,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 25,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 26,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 9,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 10,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 11,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 12,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 13,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 14,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 15,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 16,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 17,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 18,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 19,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 20,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 21,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 22,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 23,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 24,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 25,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 26,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 27,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 9,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 10,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 11,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 12,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 13,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 14,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 15,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 16,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 17,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 18,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 19,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 20,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 21,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 22,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 23,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 24,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 25,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 26,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 27,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 28,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 200
+                }
+            }
+        }
+    },
+    "TS_01_TC_15-scrollcombi2d": {
+        "id": "TS_01_TC_15-scrollcombi2d",
+        "description": "Setting minPlotHeightForValue from chart object and checking the plots outside the canvas in scroll charts",
+        "options": {
+            "type": "scrollcombi2d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            },
+                            {
+                                "label": "Label-7"
+                            },
+                            {
+                                "label": "Label-8"
+                            },
+                            {
+                                "label": "Label-9"
+                            },
+                            {
+                                "label": "Label-10"
+                            },
+                            {
+                                "label": "Label-11"
+                            },
+                            {
+                                "label": "Label-12"
+                            },
+                            {
+                                "label": "Label-13"
+                            },
+                            {
+                                "label": "Label-14"
+                            },
+                            {
+                                "label": "Label-15"
+                            },
+                            {
+                                "label": "Label-16"
+                            },
+                            {
+                                "label": "Label-17"
+                            },
+                            {
+                                "label": "Label-18"
+                            },
+                            {
+                                "label": "Label-19"
+                            },
+                            {
+                                "label": "Label-20"
+                            },
+                            {
+                                "label": "Label-21"
+                            },
+                            {
+                                "label": "Label-22"
+                            },
+                            {
+                                "label": "Label-23"
+                            },
+                            {
+                                "label": "Label-24"
+                            },
+                            {
+                                "label": "Label-25"
+                            },
+                            {
+                                "label": "Label-26"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 9,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 10,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 11,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 12,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 13,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 14,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 15,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 16,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 17,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 18,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 19,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 20,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 21,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 22,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 23,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 24,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 25,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 26,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 9,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 10,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 11,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 12,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 13,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 14,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 15,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 16,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 17,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 18,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 19,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 20,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 21,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 22,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 23,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 24,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 25,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 26,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 27,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 9,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 10,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 11,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 12,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 13,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 14,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 15,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 16,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 17,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 18,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 19,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 20,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 21,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 22,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 23,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 24,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 25,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 26,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 27,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 28,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 200
+                }
+            }
+        }
+    },
+    "TS_01_TC_15-scrollcombidy2d": {
+        "id": "TS_01_TC_15-scrollcombidy2d",
+        "description": "Setting minPlotHeightForValue from chart object and checking the plots outside the canvas in scroll charts",
+        "options": {
+            "type": "scrollcombidy2d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            },
+                            {
+                                "label": "Label-7"
+                            },
+                            {
+                                "label": "Label-8"
+                            },
+                            {
+                                "label": "Label-9"
+                            },
+                            {
+                                "label": "Label-10"
+                            },
+                            {
+                                "label": "Label-11"
+                            },
+                            {
+                                "label": "Label-12"
+                            },
+                            {
+                                "label": "Label-13"
+                            },
+                            {
+                                "label": "Label-14"
+                            },
+                            {
+                                "label": "Label-15"
+                            },
+                            {
+                                "label": "Label-16"
+                            },
+                            {
+                                "label": "Label-17"
+                            },
+                            {
+                                "label": "Label-18"
+                            },
+                            {
+                                "label": "Label-19"
+                            },
+                            {
+                                "label": "Label-20"
+                            },
+                            {
+                                "label": "Label-21"
+                            },
+                            {
+                                "label": "Label-22"
+                            },
+                            {
+                                "label": "Label-23"
+                            },
+                            {
+                                "label": "Label-24"
+                            },
+                            {
+                                "label": "Label-25"
+                            },
+                            {
+                                "label": "Label-26"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 9,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 10,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 11,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 12,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 13,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 14,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 15,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 16,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 17,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 18,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 19,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 20,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 21,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 22,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 23,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 24,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 25,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 26,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 9,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 10,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 11,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 12,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 13,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 14,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 15,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 16,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 17,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 18,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 19,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 20,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 21,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 22,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 23,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 24,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 25,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 26,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 27,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 9,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 10,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 11,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 12,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 13,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 14,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 15,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 16,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 17,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 18,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 19,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 20,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 21,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 22,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 23,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 24,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 25,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 26,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 27,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 28,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 200
+                }
+            }
+        }
+    },
+    "TS_01_TC_15-scrollstackedcolumn2d": {
+        "id": "TS_01_TC_15-scrollstackedcolumn2d",
+        "description": "Setting minPlotHeightForValue from chart object and checking the plots outside the canvas in scroll charts",
+        "options": {
+            "type": "scrollstackedcolumn2d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            },
+                            {
+                                "label": "Label-7"
+                            },
+                            {
+                                "label": "Label-8"
+                            },
+                            {
+                                "label": "Label-9"
+                            },
+                            {
+                                "label": "Label-10"
+                            },
+                            {
+                                "label": "Label-11"
+                            },
+                            {
+                                "label": "Label-12"
+                            },
+                            {
+                                "label": "Label-13"
+                            },
+                            {
+                                "label": "Label-14"
+                            },
+                            {
+                                "label": "Label-15"
+                            },
+                            {
+                                "label": "Label-16"
+                            },
+                            {
+                                "label": "Label-17"
+                            },
+                            {
+                                "label": "Label-18"
+                            },
+                            {
+                                "label": "Label-19"
+                            },
+                            {
+                                "label": "Label-20"
+                            },
+                            {
+                                "label": "Label-21"
+                            },
+                            {
+                                "label": "Label-22"
+                            },
+                            {
+                                "label": "Label-23"
+                            },
+                            {
+                                "label": "Label-24"
+                            },
+                            {
+                                "label": "Label-25"
+                            },
+                            {
+                                "label": "Label-26"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 9,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 10,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 11,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 12,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 13,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 14,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 15,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 16,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 17,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 18,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 19,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 20,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 21,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 22,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 23,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 24,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 25,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 26,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 9,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 10,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 11,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 12,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 13,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 14,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 15,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 16,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 17,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 18,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 19,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 20,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 21,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 22,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 23,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 24,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 25,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 26,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 27,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 9,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 10,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 11,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 12,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 13,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 14,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 15,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 16,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 17,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 18,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 19,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 20,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 21,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 22,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 23,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 24,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 25,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 26,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 27,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 28,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 200
+                }
+            }
+        }
+    }
+}

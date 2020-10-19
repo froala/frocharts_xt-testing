@@ -1,0 +1,118 @@
+{
+    "realtimeline": {
+        "descriptions": "update theme from fint to umber",
+        "id": "realtimeline",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "realtimeline",
+            "dataSource": {
+                "chart": {
+                    "caption": "Realtime chart",
+                    "showrealtimevalue": "0",
+                    "datastreamurl": "realtime/multipleData.php",
+                    "refreshinterval": "2",
+                    "yaxismaxvalue": "100",
+                    "numdisplaysets": "10",
+                    "labeldisplay": "rotate",
+                    "numbersuffix": "%",
+                    "showlabels": "1",
+                    "theme": "fint",
+                    "animation": 0
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Start"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "color": "00dd00",
+                        "seriesname": "Processor A",
+                        "alpha": "100",
+                        "anchoralpha": "0",
+                        "linethickness": "2",
+                        "data": [
+                            {
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "color": "ff5904",
+                        "seriesname": "Processor B",
+                        "alpha": "100",
+                        "anchoralpha": "0",
+                        "linethickness": "2",
+                        "data": [
+                            {
+                                "value": "0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "caption": "Realtime chart",
+                            "showrealtimevalue": "0",
+                            "datastreamurl": "realtime/multipleData.php",
+                            "refreshinterval": "2",
+                            "yaxismaxvalue": "100",
+                            "numdisplaysets": "10",
+                            "labeldisplay": "rotate",
+                            "numbersuffix": "%",
+                            "showlabels": "1",
+                            "theme": "umber",
+                            "animation": 0
+                        },
+                        "categories": [
+                            {
+                                "category": [
+                                    {
+                                        "label": "Start"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dataset": [
+                            {
+                                "color": "00dd00",
+                                "seriesname": "Processor A",
+                                "alpha": "100",
+                                "anchoralpha": "0",
+                                "linethickness": "2",
+                                "data": [
+                                    {
+                                        "value": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "color": "ff5904",
+                                "seriesname": "Processor B",
+                                "alpha": "100",
+                                "anchoralpha": "0",
+                                "linethickness": "2",
+                                "data": [
+                                    {
+                                        "value": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

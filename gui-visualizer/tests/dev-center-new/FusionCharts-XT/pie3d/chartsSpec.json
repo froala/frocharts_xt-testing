@@ -1,0 +1,86 @@
+{
+    "dev-center_pie3d_1030": {
+        "description": "dev-center_pie3d_1030",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Age profile of website visitors",
+                    "subCaption": "Last Year",
+                    "startingAngle": "120",
+                    "showLabels": "0",
+                    "showLegend": "1",
+                    "enableMultiSlicing": "0",
+                    "slicingDistance": "15",
+                    "showPercentValues": "1",
+                    "showPercentInTooltip": "0",
+                    "plotTooltext": "Age group : $label<br>Total visit : $datavalue",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Teenage",
+                        "value": "1250400"
+                    },
+                    {
+                        "label": "Adult",
+                        "value": "1463300"
+                    },
+                    {
+                        "label": "Mid-age",
+                        "value": "1050700"
+                    },
+                    {
+                        "label": "Senior",
+                        "value": "491000"
+                    }
+                ]
+            },
+            "width": "450",
+            "height": "300",
+            "type": "pie3d"
+        },
+        "id": "dev-center_pie3d_1030"
+    },
+    "dev-center_pie3d_1321": {
+        "description": "dev-center_pie3d_1321",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Split of revenue by product categories",
+                    "subCaption": "Last year",
+                    "numberPrefix": "$",
+                    "showPercentInTooltip": "0",
+                    "decimals": "1",
+                    "useDataPlotColorForLabels": "1",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Food",
+                        "value": "285040"
+                    },
+                    {
+                        "label": "Apparels",
+                        "value": "146330"
+                    },
+                    {
+                        "label": "Electronics",
+                        "value": "105070"
+                    },
+                    {
+                        "label": "Household",
+                        "value": "49100"
+                    }
+                ]
+            },
+            "width": "450",
+            "height": "300",
+            "type": "pie3d"
+        },
+        "id": "dev-center_pie3d_1321"
+    }
+}

@@ -1,0 +1,1351 @@
+{
+    "marimekko": {
+        "description": " Rendering marimekko",
+        "options": {
+            "type": "marimekko",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Top 3 Electronic Brands in Top 3 Revenue Earning States",
+                    "subcaption": "Last month",
+                    "aligncaptiontocanvas": "0",
+                    "yaxisname": "Statewise Sales (in %)",
+                    "xaxisname": "Brand",
+                    "numberprefix": "$",
+                    "valueBgColor": "#FFFFFF",
+                    "valueBgAlpha": "60",
+                    "showPlotBorder": "1",
+                    "plotBorderThickness": "0.25",
+                    "showxaxispercentvalues": "1",
+                    "showsum": "1",
+                    "plottooltext": "<div id='nameDiv' style='font-size: 14px; border-bottom: 1px dashed #666666; font-weight:bold; padding-bottom: 3px; margin-bottom: 5px; display: inline-block;'>$label :</div>{br}State: <b>$seriesName</b>{br}Sales : <b>$dataValue</b>{br}Market share in $seriesName : <b>$percentValue</b>{br}Overall market share of $label: <b>$xAxisPercentValue</b>",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Bose"
+                            },
+                            {
+                                "label": "Dell"
+                            },
+                            {
+                                "label": "Apple"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "California",
+                        "data": [
+                            {
+                                "value": "335000"
+                            },
+                            {
+                                "value": "225100"
+                            },
+                            {
+                                "value": "164200"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Washington",
+                        "data": [
+                            {
+                                "value": "215000"
+                            },
+                            {
+                                "value": "198000"
+                            },
+                            {
+                                "value": "120000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Nevada",
+                        "data": [
+                            {
+                                "value": "298000"
+                            },
+                            {
+                                "value": "109300"
+                            },
+                            {
+                                "value": "153600"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "marimekko",
+        "refimage": "./tests/render-test/specs4/ref-images/marimekko-snapshot.png"
+    },
+    "msarea2d": {
+        "description": " Rendering msarea2d",
+        "options": {
+            "type": "msarea",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales of Liquor",
+                    "subCaption": "Previous week vs current week",
+                    "xAxisName": "Day",
+                    "yAxisName": "Sales (In USD)",
+                    "numberPrefix": "$",
+                    "paletteColors": "#0075c2,#1aaf5d",
+                    "bgColor": "#ffffff",
+                    "showBorder": "0",
+                    "showCanvasBorder": "0",
+                    "plotBorderAlpha": "10",
+                    "usePlotGradientColor": "0",
+                    "legendBorderAlpha": "0",
+                    "legendShadow": "0",
+                    "plottooltextotFillAlpha": "60",
+                    "showXAxisLine": "1",
+                    "axisLineAlpha": "25",
+                    "showValues": "0",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "divlineColor": "#999999",
+                    "divLineIsDashed": "1",
+                    "divLineDashLen": "1",
+                    "divLineGapLen": "1",
+                    "showAlternateHGridColor": "0",
+                    "toolTipColor": "#ffffff",
+                    "toolTipBorderThickness": "0",
+                    "toolTipBgColor": "#000000",
+                    "toolTipBgAlpha": "80",
+                    "toolTipBorderRadius": "2",
+                    "toolTipPadding": "5",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Mon"
+                            },
+                            {
+                                "label": "Tue"
+                            },
+                            {
+                                "label": "Wed"
+                            },
+                            {
+                                "label": "Thu"
+                            },
+                            {
+                                "label": "Fri"
+                            },
+                            {
+                                "label": "Sat"
+                            },
+                            {
+                                "label": "Sun"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Previous Week",
+                        "data": [
+                            {
+                                "value": "13000"
+                            },
+                            {
+                                "value": "14500"
+                            },
+                            {
+                                "value": "13500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "15500"
+                            },
+                            {
+                                "value": "17650"
+                            },
+                            {
+                                "value": "19500"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Current Week",
+                        "data": [
+                            {
+                                "value": "8400"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "14400"
+                            },
+                            {
+                                "value": "18800"
+                            },
+                            {
+                                "value": "24800"
+                            },
+                            {
+                                "value": "30800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "msarea2d",
+        "refimage": "./tests/render-test/specs4/ref-images/msarea2d-snapshot.png"
+    },
+    "msbar2d": {
+        "description": " Rendering msbar2d",
+        "options": {
+            "type": "msbar2d",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Split of Sales by Product Category",
+                    "subCaption": "In top 5 stores last month",
+                    "yAxisname": "Sales (In USD)",
+                    "numberPrefix": "$",
+                    "paletteColors": "#0075c2,#1aaf5d",
+                    "bgColor": "#ffffff",
+                    "showBorder": "0",
+                    "showHoverEffect": "1",
+                    "showCanvasBorder": "0",
+                    "usePlotGradientColor": "0",
+                    "plotBorderAlpha": "10",
+                    "legendBorderAlpha": "0",
+                    "legendShadow": "0",
+                    "placevaluesInside": "1",
+                    "valueFontColor": "#ffffff",
+                    "showXAxisLine": "1",
+                    "xAxisLineColor": "#999999",
+                    "divlineColor": "#999999",
+                    "divLineIsDashed": "1",
+                    "showAlternateVGridColor": "0",
+                    "subcaptionFontBold": "0",
+                    "subcaptionFontSize": "14",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Bakersfield Central"
+                            },
+                            {
+                                "label": "Garden Groove harbour"
+                            },
+                            {
+                                "label": "Los Angeles Topanga"
+                            },
+                            {
+                                "label": "Compton-Rancho Dom"
+                            },
+                            {
+                                "label": "Daly City Serramonte"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Food Products",
+                        "data": [
+                            {
+                                "value": "17000"
+                            },
+                            {
+                                "value": "19500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "14500"
+                            },
+                            {
+                                "value": "17500"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Non-Food Products",
+                        "data": [
+                            {
+                                "value": "25400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "21800"
+                            },
+                            {
+                                "value": "19500"
+                            },
+                            {
+                                "value": "11500"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "15000",
+                                "color": "#0075c2",
+                                "valueOnRight": "1",
+                                "displayvalue": "Avg. for{br}Food"
+                            },
+                            {
+                                "startvalue": "22000",
+                                "color": "#1aaf5d",
+                                "valueOnRight": "1",
+                                "displayvalue": "Avg. for{br}Non-food"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "msbar2d",
+        "refimage": "./tests/render-test/specs4/ref-images/msbar2d-snapshot.png"
+    },
+    "msbar3d": {
+        "description": " Rendering msbar3d",
+        "options": {
+            "type": "msbar3d",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Split of Sales by Product Category",
+                    "subCaption": "In top 5 stores last month",
+                    "yAxisname": "Sales (In USD)",
+                    "numberPrefix": "$",
+                    "paletteColors": "#0075c2,#1aaf5d",
+                    "bgColor": "#ffffff",
+                    "legendBorderAlpha": "0",
+                    "legendBgAlpha": "0",
+                    "legendShadow": "0",
+                    "placevaluesInside": "1",
+                    "valueFontColor": "#ffffff",
+                    "alignCaptionWithCanvas": "1",
+                    "showHoverEffect": "1",
+                    "canvasBgColor": "#ffffff",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "divlineColor": "#999999",
+                    "divLineIsDashed": "1",
+                    "divLineDashLen": "1",
+                    "divLineGapLen": "1",
+                    "showAlternateHGridColor": "0",
+                    "toolTipColor": "#ffffff",
+                    "toolTipBorderThickness": "0",
+                    "toolTipBgColor": "#000000",
+                    "toolTipBgAlpha": "80",
+                    "toolTipBorderRadius": "2",
+                    "toolTipPadding": "5",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Bakersfield Central"
+                            },
+                            {
+                                "label": "Garden Groove harbour"
+                            },
+                            {
+                                "label": "Los Angeles Topanga"
+                            },
+                            {
+                                "label": "Compton-Rancho Dom"
+                            },
+                            {
+                                "label": "Daly City Serramonte"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Food Products",
+                        "data": [
+                            {
+                                "value": "17000"
+                            },
+                            {
+                                "value": "19500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "14500"
+                            },
+                            {
+                                "value": "17500"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Non-Food Products",
+                        "data": [
+                            {
+                                "value": "25400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "21800"
+                            },
+                            {
+                                "value": "19500"
+                            },
+                            {
+                                "value": "11500"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "msbar3d",
+        "refimage": "./tests/render-test/specs4/ref-images/msbar3d-snapshot.png"
+    },
+    "mscolumn2d": {
+        "description": " Rendering mscolumn2d",
+        "options": {
+            "type": "mscolumn2d",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Comparison of Quarterly Revenue",
+                    "xAxisname": "Quarter",
+                    "yAxisName": "Revenues (In USD)",
+                    "numberPrefix": "$",
+                    "plotFillAlpha": "80",
+                    "paletteColors": "#0075c2,#1aaf5d",
+                    "baseFontColor": "#333333",
+                    "baseFont": "Helvetica Neue,Arial",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "showBorder": "0",
+                    "bgColor": "#ffffff",
+                    "showShadow": "0",
+                    "canvasBgColor": "#ffffff",
+                    "canvasBorderAlpha": "0",
+                    "divlineAlpha": "100",
+                    "divlineColor": "#999999",
+                    "divlineThickness": "1",
+                    "divLineIsDashed": "1",
+                    "divLineDashLen": "1",
+                    "divLineGapLen": "1",
+                    "usePlotGradientColor": "0",
+                    "showplotborder": "0",
+                    "valueFontColor": "#ffffff",
+                    "placeValuesInside": "1",
+                    "showHoverEffect": "1",
+                    "rotateValues": "1",
+                    "showXAxisLine": "1",
+                    "xAxisLineThickness": "1",
+                    "xAxisLineColor": "#999999",
+                    "showAlternateHGridColor": "0",
+                    "legendBgAlpha": "0",
+                    "legendBorderAlpha": "0",
+                    "legendShadow": "0",
+                    "legendItemFontSize": "10",
+                    "legendItemFontColor": "#666666",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Q1"
+                            },
+                            {
+                                "label": "Q2"
+                            },
+                            {
+                                "label": "Q3"
+                            },
+                            {
+                                "label": "Q4"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Previous Year",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Current Year",
+                        "data": [
+                            {
+                                "value": "25400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "21800"
+                            },
+                            {
+                                "value": "26800"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "12250",
+                                "color": "#0075c2",
+                                "displayvalue": "Previous{br}Average",
+                                "valueOnRight": "1",
+                                "thickness": "1",
+                                "showBelow": "1",
+                                "tooltext": "Previous year quarterly target  : $13.5K"
+                            },
+                            {
+                                "startvalue": "25950",
+                                "color": "#1aaf5d",
+                                "displayvalue": "Current{br}Average",
+                                "valueOnRight": "1",
+                                "thickness": "1",
+                                "showBelow": "1",
+                                "tooltext": "Current year quarterly target  : $23K"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "mscolumn2d",
+        "refimage": "./tests/render-test/specs4/ref-images/mscolumn2d-snapshot.png"
+    },
+    "mscolumn3d": {
+        "description": " Rendering mscolumn3d",
+        "options": {
+            "type": "mscolumn3d",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Harry's SuperMart",
+                    "subCaption": "Sales by quarter",
+                    "xAxisName": "Quarter",
+                    "yAxisName": "Sales (In USD)",
+                    "numberPrefix": "$",
+                    "paletteColors": "#0075c2,#1aaf5d,#f2c500",
+                    "bgColor": "#ffffff",
+                    "showBorder": "0",
+                    "showCanvasBorder": "0",
+                    "usePlotGradientColor": "0",
+                    "plotBorderAlpha": "10",
+                    "legendBorderAlpha": "0",
+                    "legendBgAlpha": "0",
+                    "legendShadow": "0",
+                    "showHoverEffect": "1",
+                    "valueFontColor": "#ffffff",
+                    "rotateValues": "1",
+                    "placeValuesInside": "1",
+                    "divlineColor": "#999999",
+                    "divLineIsDashed": "1",
+                    "divLineDashLen": "1",
+                    "divLineGapLen": "1",
+                    "canvasBgColor": "#ffffff",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Q1"
+                            },
+                            {
+                                "label": "Q2"
+                            },
+                            {
+                                "label": "Q3"
+                            },
+                            {
+                                "label": "Q4"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Previous Year",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Current Year",
+                        "data": [
+                            {
+                                "value": "25400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "21800"
+                            },
+                            {
+                                "value": "26800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "mscolumn3d",
+        "refimage": "./tests/render-test/specs4/ref-images/mscolumn3d-snapshot.png"
+    },
+    "mscolumn3dlinedy": {
+        "description": " Rendering mscolumn3dlinedy",
+        "options": {
+            "type": "mscolumn3dlinedy",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Product-wise Quarterly Revenue vs. Profit %",
+                    "subCaption": "Harry's SuperMart - Last Year",
+                    "xAxisname": "Quarter",
+                    "pYAxisName": "Sales",
+                    "sYAxisName": "Profit %",
+                    "numberPrefix": "$",
+                    "sNumberSuffix": "%",
+                    "sYAxisMaxValue": "25",
+                    "paletteColors": "#0075c2,#1aaf5d,#f2c500",
+                    "bgColor": "#ffffff",
+                    "showBorder": "0",
+                    "showCanvasBorder": "0",
+                    "usePlotGradientColor": "0",
+                    "plotBorderAlpha": "10",
+                    "legendBorderAlpha": "0",
+                    "legendBgAlpha": "0",
+                    "legendShadow": "0",
+                    "showHoverEffect": "1",
+                    "valueFontColor": "#ffffff",
+                    "rotateValues": "1",
+                    "placeValuesInside": "1",
+                    "divlineColor": "#999999",
+                    "divLineIsDashed": "1",
+                    "divLineDashLen": "1",
+                    "divLineGapLen": "1",
+                    "canvasBgColor": "#ffffff",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Q1"
+                            },
+                            {
+                                "label": "Q2"
+                            },
+                            {
+                                "label": "Q3"
+                            },
+                            {
+                                "label": "Q4"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Food Products",
+                        "data": [
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "14000"
+                            },
+                            {
+                                "value": "10500"
+                            },
+                            {
+                                "value": "15000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Non-Food Products",
+                        "data": [
+                            {
+                                "value": "14400"
+                            },
+                            {
+                                "value": "14800"
+                            },
+                            {
+                                "value": "8300"
+                            },
+                            {
+                                "value": "11800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Profit %",
+                        "renderAs": "line",
+                        "parentYAxis": "S",
+                        "showValues": "0",
+                        "data": [
+                            {
+                                "value": "14"
+                            },
+                            {
+                                "value": "16"
+                            },
+                            {
+                                "value": "15"
+                            },
+                            {
+                                "value": "17"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "mscolumn3dlinedy",
+        "refimage": "./tests/render-test/specs4/ref-images/mscolumn3dlinedy-snapshot.png"
+    },
+    "mscombi2d": {
+        "description": " Rendering mscombi2d",
+        "options": {
+            "type": "mscombi2d",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Harry's SuperMart",
+                    "subCaption": "Sales analysis of last year",
+                    "xAxisname": "Month",
+                    "yAxisName": "Amount (In USD)",
+                    "numberPrefix": "$",
+                    "showBorder": "0",
+                    "showValues": "0",
+                    "paletteColors": "#0075c2,#1aaf5d,#f2c500",
+                    "bgColor": "#ffffff",
+                    "showCanvasBorder": "0",
+                    "canvasBgColor": "#ffffff",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "divlineColor": "#999999",
+                    "divLineIsDashed": "1",
+                    "divLineDashLen": "1",
+                    "divLineGapLen": "1",
+                    "showAlternateHGridColor": "0",
+                    "usePlotGradientColor": "0",
+                    "toolTipColor": "#ffffff",
+                    "toolTipBorderThickness": "0",
+                    "toolTipBgColor": "#000000",
+                    "toolTipBgAlpha": "80",
+                    "toolTipBorderRadius": "2",
+                    "toolTipPadding": "5",
+                    "legendBgColor": "#ffffff",
+                    "legendBorderAlpha": "0",
+                    "legendShadow": "0",
+                    "legendItemFontSize": "10",
+                    "legendItemFontColor": "#666666",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesName": "Actual Revenue",
+                        "showValues": "1",
+                        "data": [
+                            {
+                                "value": "16000"
+                            },
+                            {
+                                "value": "20000"
+                            },
+                            {
+                                "value": "18000"
+                            },
+                            {
+                                "value": "19000"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "21000"
+                            },
+                            {
+                                "value": "16000"
+                            },
+                            {
+                                "value": "20000"
+                            },
+                            {
+                                "value": "17000"
+                            },
+                            {
+                                "value": "25000"
+                            },
+                            {
+                                "value": "19000"
+                            },
+                            {
+                                "value": "23000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesName": "Projected Revenue",
+                        "renderAs": "line",
+                        "data": [
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "16000"
+                            },
+                            {
+                                "value": "17000"
+                            },
+                            {
+                                "value": "18000"
+                            },
+                            {
+                                "value": "19000"
+                            },
+                            {
+                                "value": "19000"
+                            },
+                            {
+                                "value": "19000"
+                            },
+                            {
+                                "value": "19000"
+                            },
+                            {
+                                "value": "20000"
+                            },
+                            {
+                                "value": "21000"
+                            },
+                            {
+                                "value": "22000"
+                            },
+                            {
+                                "value": "23000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesName": "Profit",
+                        "renderAs": "area",
+                        "data": [
+                            {
+                                "value": "4000"
+                            },
+                            {
+                                "value": "5000"
+                            },
+                            {
+                                "value": "3000"
+                            },
+                            {
+                                "value": "4000"
+                            },
+                            {
+                                "value": "1000"
+                            },
+                            {
+                                "value": "7000"
+                            },
+                            {
+                                "value": "1000"
+                            },
+                            {
+                                "value": "4000"
+                            },
+                            {
+                                "value": "1000"
+                            },
+                            {
+                                "value": "8000"
+                            },
+                            {
+                                "value": "2000"
+                            },
+                            {
+                                "value": "7000"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "mscombi2d",
+        "refimage": "./tests/render-test/specs4/ref-images/mscombi2d-snapshot.png"
+    },
+    "mscombidy2d": {
+        "description": " Rendering mscombidy2d",
+        "options": {
+            "type": "mscombidy2d",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Revenues and Profits",
+                    "subCaption": "For last year",
+                    "xAxisname": "Month",
+                    "pYAxisName": "Amount (In USD)",
+                    "sYAxisName": "Profit %",
+                    "numberPrefix": "$",
+                    "sNumberSuffix": "%",
+                    "sYAxisMaxValue": "50",
+                    "paletteColors": "#0075c2,#1aaf5d,#f2c500",
+                    "baseFontColor": "#333333",
+                    "baseFont": "Helvetica Neue,Arial",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "showBorder": "0",
+                    "bgColor": "#ffffff",
+                    "showShadow": "0",
+                    "canvasBgColor": "#ffffff",
+                    "canvasBorderAlpha": "0",
+                    "divlineAlpha": "100",
+                    "divlineColor": "#999999",
+                    "divlineThickness": "1",
+                    "divLineIsDashed": "1",
+                    "divLineDashLen": "1",
+                    "divLineGapLen": "1",
+                    "usePlotGradientColor": "0",
+                    "showplotborder": "0",
+                    "showXAxisLine": "1",
+                    "xAxisLineThickness": "1",
+                    "xAxisLineColor": "#999999",
+                    "showAlternateHGridColor": "0",
+                    "showAlternateVGridColor": "0",
+                    "legendBgAlpha": "0",
+                    "legendBorderAlpha": "0",
+                    "legendShadow": "0",
+                    "legendItemFontSize": "10",
+                    "legendItemFontColor": "#666666",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesName": "Revenues",
+                        "data": [
+                            {
+                                "value": "16000"
+                            },
+                            {
+                                "value": "20000"
+                            },
+                            {
+                                "value": "18000"
+                            },
+                            {
+                                "value": "19000"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "21000"
+                            },
+                            {
+                                "value": "16000"
+                            },
+                            {
+                                "value": "20000"
+                            },
+                            {
+                                "value": "17000"
+                            },
+                            {
+                                "value": "22000"
+                            },
+                            {
+                                "value": "19000"
+                            },
+                            {
+                                "value": "23000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesName": "Profits",
+                        "renderAs": "area",
+                        "showValues": "0",
+                        "data": [
+                            {
+                                "value": "4000"
+                            },
+                            {
+                                "value": "5000"
+                            },
+                            {
+                                "value": "3000"
+                            },
+                            {
+                                "value": "4000"
+                            },
+                            {
+                                "value": "1000"
+                            },
+                            {
+                                "value": "7000"
+                            },
+                            {
+                                "value": "1000"
+                            },
+                            {
+                                "value": "4000"
+                            },
+                            {
+                                "value": "1000"
+                            },
+                            {
+                                "value": "8000"
+                            },
+                            {
+                                "value": "2000"
+                            },
+                            {
+                                "value": "7000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesName": "Profit %",
+                        "parentYAxis": "S",
+                        "renderAs": "line",
+                        "showValues": "0",
+                        "data": [
+                            {
+                                "value": "25"
+                            },
+                            {
+                                "value": "25"
+                            },
+                            {
+                                "value": "16.66"
+                            },
+                            {
+                                "value": "21.05"
+                            },
+                            {
+                                "value": "6.66"
+                            },
+                            {
+                                "value": "33.33"
+                            },
+                            {
+                                "value": "6.25"
+                            },
+                            {
+                                "value": "25"
+                            },
+                            {
+                                "value": "5.88"
+                            },
+                            {
+                                "value": "36.36"
+                            },
+                            {
+                                "value": "10.52"
+                            },
+                            {
+                                "value": "30.43"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "mscombidy2d",
+        "refimage": "./tests/render-test/specs4/ref-images/mscombidy2d-snapshot.png"
+    },
+    "msline": {
+        "description": " Rendering msline",
+        "options": {
+            "type": "msline",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Number of visitors last week",
+                    "subCaption": "Bakersfield Central vs Los Angeles Topanga",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "paletteColors": "#0075c2,#1aaf5d",
+                    "bgcolor": "#ffffff",
+                    "showBorder": "0",
+                    "showShadow": "0",
+                    "showCanvasBorder": "0",
+                    "usePlotGradientColor": "0",
+                    "legendBorderAlpha": "0",
+                    "legendShadow": "0",
+                    "showAxisLines": "0",
+                    "showAlternateHGridColor": "0",
+                    "divlineThickness": "1",
+                    "divLineIsDashed": "1",
+                    "divLineDashLen": "1",
+                    "divLineGapLen": "1",
+                    "xAxisName": "Day",
+                    "showValues": "0",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Mon"
+                            },
+                            {
+                                "label": "Tue"
+                            },
+                            {
+                                "label": "Wed"
+                            },
+                            {
+                                "vline": "true",
+                                "lineposition": "0",
+                                "color": "#6baa01",
+                                "labelHAlign": "center",
+                                "labelPosition": "0",
+                                "label": "National holiday",
+                                "dashed": "1"
+                            },
+                            {
+                                "label": "Thu"
+                            },
+                            {
+                                "label": "Fri"
+                            },
+                            {
+                                "label": "Sat"
+                            },
+                            {
+                                "label": "Sun"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Bakersfield Central",
+                        "data": [
+                            {
+                                "value": "15123"
+                            },
+                            {
+                                "value": "14233"
+                            },
+                            {
+                                "value": "25507"
+                            },
+                            {
+                                "value": "9110"
+                            },
+                            {
+                                "value": "15529"
+                            },
+                            {
+                                "value": "20803"
+                            },
+                            {
+                                "value": "19202"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Los Angeles Topanga",
+                        "data": [
+                            {
+                                "value": "13400"
+                            },
+                            {
+                                "value": "12800"
+                            },
+                            {
+                                "value": "22800"
+                            },
+                            {
+                                "value": "12400"
+                            },
+                            {
+                                "value": "15800"
+                            },
+                            {
+                                "value": "19800"
+                            },
+                            {
+                                "value": "21800"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "17022",
+                                "color": "#6baa01",
+                                "valueOnRight": "1",
+                                "displayvalue": "Average"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "msline",
+        "refimage": "./tests/render-test/specs4/ref-images/msline-snapshot.png"
+    }
+}

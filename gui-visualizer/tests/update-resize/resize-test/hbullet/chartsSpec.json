@@ -1,0 +1,108 @@
+{
+    "hbullet": {
+        "description": "hbullet 900 * 550 size test",
+        "id": "hbullet",
+        "options": {
+            "type": "hbullet",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "lowerlimit": "0",
+                    "upperlimit": "100",
+                    "caption": "Revenue",
+                    "subcaption": "US $ (1,000s)",
+                    "numberprefix": "$",
+                    "numbersuffix": "K",
+                    "showvalue": "1",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "50",
+                            "color": "A6A6A6"
+                        },
+                        {
+                            "minvalue": "50",
+                            "maxvalue": "75",
+                            "color": "CCCCCC"
+                        },
+                        {
+                            "minvalue": "75",
+                            "maxvalue": "100",
+                            "color": "E1E1E1"
+                        }
+                    ]
+                },
+                "value": "78.9",
+                "target": "80"
+            }
+        },
+        "action": [
+            {
+                "resizeData": [
+                    {
+                        "width": "900",
+                        "height": "550"
+                    }
+                ]
+            }
+        ]
+    },
+    "hbullet_2": {
+        "description": "hbullet 350 * 250 size test",
+        "id": "hbullet",
+        "options": {
+            "type": "hbullet",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "lowerlimit": "0",
+                    "upperlimit": "100",
+                    "caption": "Revenue",
+                    "subcaption": "US $ (1,000s)",
+                    "numberprefix": "$",
+                    "numbersuffix": "K",
+                    "showvalue": "1",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "50",
+                            "color": "A6A6A6"
+                        },
+                        {
+                            "minvalue": "50",
+                            "maxvalue": "75",
+                            "color": "CCCCCC"
+                        },
+                        {
+                            "minvalue": "75",
+                            "maxvalue": "100",
+                            "color": "E1E1E1"
+                        }
+                    ]
+                },
+                "value": "78.9",
+                "target": "80"
+            }
+        },
+        "action": [
+            {
+                "resizeData": [
+                    {
+                        "width": "350",
+                        "height": "250"
+                    }
+                ]
+            }
+        ]
+    }
+}

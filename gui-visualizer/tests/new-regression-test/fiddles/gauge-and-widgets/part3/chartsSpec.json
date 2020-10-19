@@ -1,0 +1,4669 @@
+{
+    "gauge-and-widgets-guide-linear-gauge-creating-editable-gauges-example-1": {
+        "description": "editable gauge test",
+        "options": {
+            "type": "hlineargauge",
+            "width": "400",
+            "height": "190",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Target CSAT Index",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "numberSuffix": "%",
+                    "chartBottomMargin": "40",
+                    "valueFontSize": "11",
+                    "valueFontBold": "0",
+                    "gaugeFillMix": "{light-10},{light-70},{dark-10}",
+                    "gaugeFillRatio": "40,20,40",
+                    "editMode": "1",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "35",
+                            "label": "Low",
+                            "code": "#e44a00"
+                        },
+                        {
+                            "minValue": "35",
+                            "maxValue": "70",
+                            "label": "Moderate",
+                            "code": "#f8bd19"
+                        },
+                        {
+                            "minValue": "70",
+                            "maxValue": "100",
+                            "label": "High",
+                            "code": "#6baa01"
+                        }
+                    ]
+                },
+                "pointers": {
+                    "pointer": [
+                        {
+                            "value": "0"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-linear-gauge-creating-editable-gauges-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-linear-gauge-creating-editable-gauges-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-linear-gauge-configuring-tick-marks-example-6": {
+        "description": "configure tick marks",
+        "options": {
+            "type": "hlineargauge",
+            "width": "400",
+            "height": "170",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Server CPU Utilization",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "numberSuffix": "%",
+                    "chartBottomMargin": "20",
+                    "valueFontSize": "11",
+                    "valueFontBold": "0",
+                    "tickMarkDistance": "5",
+                    "tickValueDistance": "0",
+                    "gaugeFillMix": "{light-10},{light-70},{dark-10}",
+                    "gaugeFillRatio": "40,20,40",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "35",
+                            "label": "Low"
+                        },
+                        {
+                            "minValue": "35",
+                            "maxValue": "70",
+                            "label": "Moderate"
+                        },
+                        {
+                            "minValue": "70",
+                            "maxValue": "100",
+                            "label": "High"
+                        }
+                    ]
+                },
+                "pointers": {
+                    "pointer": [
+                        {
+                            "value": "75"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-linear-gauge-configuring-tick-marks-example-6",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-linear-gauge-configuring-tick-marks-example-6-snapshot.png"
+    },
+    "gauge-and-widgets-guide-linear-gauge-configuring-tick-marks-example-5": {
+        "description": "tick marks test",
+        "options": {
+            "type": "hlineargauge",
+            "width": "400",
+            "height": "170",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Server CPU Utilization",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "numberSuffix": "%",
+                    "chartBottomMargin": "20",
+                    "valueFontSize": "11",
+                    "valueFontBold": "0",
+                    "minorTMNumber": "4",
+                    "majorTMColor": "#163143",
+                    "majorTMAlpha": "50",
+                    "majorTMHeight": "7",
+                    "majorTMThickness": "2",
+                    "minorTMColor": "#163143",
+                    "minorTMAlpha": "30",
+                    "minorTMHeight": "4",
+                    "minorTMThickness": "1",
+                    "gaugeFillMix": "{light-10},{light-70},{dark-10}",
+                    "gaugeFillRatio": "40,20,40",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "35",
+                            "label": "Low"
+                        },
+                        {
+                            "minValue": "35",
+                            "maxValue": "70",
+                            "label": "Moderate"
+                        },
+                        {
+                            "minValue": "70",
+                            "maxValue": "100",
+                            "label": "High"
+                        }
+                    ]
+                },
+                "pointers": {
+                    "pointer": [
+                        {
+                            "value": "75"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-linear-gauge-configuring-tick-marks-example-5",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-linear-gauge-configuring-tick-marks-example-5-snapshot.png"
+    },
+    "gauge-and-widgets-guide-linear-gauge-introduction-example-1": {
+        "description": "linear gauge introduction",
+        "options": {
+            "type": "hlineargauge",
+            "width": "400",
+            "height": "190",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Server CPU Utilization",
+                    "subcaption": "food.hsm.com",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "numberSuffix": "%",
+                    "chartBottomMargin": "40",
+                    "valueFontSize": "11",
+                    "valueFontBold": "0",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "35",
+                            "label": "Low"
+                        },
+                        {
+                            "minValue": "35",
+                            "maxValue": "70",
+                            "label": "Moderate"
+                        },
+                        {
+                            "minValue": "70",
+                            "maxValue": "100",
+                            "label": "High"
+                        }
+                    ]
+                },
+                "pointers": {
+                    "pointer": [
+                        {
+                            "value": "75"
+                        }
+                    ]
+                },
+                "trendPoints": {
+                    "point": [
+                        {
+                            "startValue": "70",
+                            "displayValue": " ",
+                            "dashed": "1",
+                            "showValues": "0"
+                        },
+                        {
+                            "startValue": "85",
+                            "displayValue": " ",
+                            "dashed": "1",
+                            "showValues": "0"
+                        },
+                        {
+                            "startValue": "70",
+                            "endValue": "85",
+                            "displayValue": " ",
+                            "alpha": "40"
+                        }
+                    ]
+                },
+                "annotations": {
+                    "origw": "400",
+                    "origh": "190",
+                    "autoscale": "1",
+                    "groups": [
+                        {
+                            "id": "range",
+                            "items": [
+                                {
+                                    "id": "rangeBg",
+                                    "type": "rectangle",
+                                    "x": "$chartCenterX-115",
+                                    "y": "$chartEndY-35",
+                                    "tox": "$chartCenterX +115",
+                                    "toy": "$chartEndY-15",
+                                    "fillcolor": "#0075c2"
+                                },
+                                {
+                                    "id": "rangeText",
+                                    "type": "Text",
+                                    "fontSize": "11",
+                                    "fillcolor": "#ffffff",
+                                    "text": "Recommended Utilization Range : 70% - 85%",
+                                    "x": "$chartCenterX",
+                                    "y": "$chartEndY-25"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-linear-gauge-introduction-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-linear-gauge-introduction-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-linear-gauge-configuring-gauge-cosmetics-example-5": {
+        "description": "gauge cosmetics",
+        "options": {
+            "type": "hlineargauge",
+            "width": "400",
+            "height": "150",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Server CPU Utilization",
+                    "subcaptionFontBold": "0",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "numberSuffix": "%",
+                    "chartBottomMargin": "20",
+                    "captionPadding": "10",
+                    "gaugeFillMix": "{light-10},{light-70},{dark-10}",
+                    "gaugeFillRatio": "40,20,40",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "35",
+                            "label": "Low",
+                            "code": "#6baa01"
+                        },
+                        {
+                            "minValue": "35",
+                            "maxValue": "70",
+                            "label": "Moderate",
+                            "code": "#f8bd19"
+                        },
+                        {
+                            "minValue": "70",
+                            "maxValue": "100",
+                            "label": "High",
+                            "code": "#e44a00"
+                        }
+                    ]
+                },
+                "pointers": {
+                    "pointer": [
+                        {
+                            "bgColor": "#333333",
+                            "bgAlpha": "80",
+                            "showValue": "0",
+                            "value": "75",
+                            "tooltext": "Garden Groove Harbour $value%"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-linear-gauge-configuring-gauge-cosmetics-example-5",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-linear-gauge-configuring-gauge-cosmetics-example-5-snapshot.png"
+    },
+    "gauge-and-widgets-guide-linear-gauge-configuring-tick-marks-example-4": {
+        "description": "tick mark test",
+        "options": {
+            "type": "hlineargauge",
+            "width": "400",
+            "height": "170",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Server CPU Utilization",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "numberSuffix": "%",
+                    "chartBottomMargin": "20",
+                    "valueFontSize": "11",
+                    "valueFontBold": "0",
+                    "majorTMNumber": "9",
+                    "minorTMNumber": "5",
+                    "adjustTM": "1",
+                    "gaugeFillMix": "{light-10},{light-70},{dark-10}",
+                    "gaugeFillRatio": "40,20,40",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "35",
+                            "label": "Low"
+                        },
+                        {
+                            "minValue": "35",
+                            "maxValue": "70",
+                            "label": "Moderate"
+                        },
+                        {
+                            "minValue": "70",
+                            "maxValue": "100",
+                            "label": "High"
+                        }
+                    ]
+                },
+                "pointers": {
+                    "pointer": [
+                        {
+                            "value": "75"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-linear-gauge-configuring-tick-marks-example-4",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-linear-gauge-configuring-tick-marks-example-4-snapshot.png"
+    },
+    "gauge-and-widgets-guide-linear-gauge-configuring-tick-marks-example-3": {
+        "description": "tick mark test",
+        "options": {
+            "type": "hlineargauge",
+            "width": "400",
+            "height": "170",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Server CPU Utilization",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "numberSuffix": "%",
+                    "chartBottomMargin": "20",
+                    "valueFontSize": "11",
+                    "valueFontBold": "0",
+                    "ticksBelowGauge": "0",
+                    "placeTicksInside": "0",
+                    "placeValuesInside": "0",
+                    "gaugeFillMix": "{light-10},{light-70},{dark-10}",
+                    "gaugeFillRatio": "40,20,40",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "35",
+                            "label": "Low"
+                        },
+                        {
+                            "minValue": "35",
+                            "maxValue": "70",
+                            "label": "Moderate"
+                        },
+                        {
+                            "minValue": "70",
+                            "maxValue": "100",
+                            "label": "High"
+                        }
+                    ]
+                },
+                "pointers": {
+                    "pointer": [
+                        {
+                            "value": "75"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-linear-gauge-configuring-tick-marks-example-3",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-linear-gauge-configuring-tick-marks-example-3-snapshot.png"
+    },
+    "gauge-and-widgets-guide-linear-gauge-configuring-gauge-cosmetics-example-3": {
+        "description": "gauge cosmetics",
+        "options": {
+            "type": "hlineargauge",
+            "width": "400",
+            "height": "170",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Server CPU Utilization",
+                    "subcaption": "Transaction Server & Web Server",
+                    "subcaptionFontBold": "0",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "numberSuffix": "%",
+                    "valueAbovePointer": "0",
+                    "chartBottomMargin": "20",
+                    "valueFontSize": "11",
+                    "valueFontBold": "0",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "35",
+                            "label": "Low",
+                            "code": "#6baa01"
+                        },
+                        {
+                            "minValue": "35",
+                            "maxValue": "70",
+                            "label": "Moderate",
+                            "code": "#f8bd19"
+                        },
+                        {
+                            "minValue": "70",
+                            "maxValue": "100",
+                            "label": "High",
+                            "code": "#e44a00"
+                        }
+                    ]
+                },
+                "pointers": {
+                    "pointer": [
+                        {
+                            "value": "75",
+                            "bgColor": "#0044DD",
+                            "bgAlpha": "80",
+                            "tooltext": "Transaction Server: $value%"
+                        },
+                        {
+                            "value": "92",
+                            "bgColor": "#0077CC",
+                            "bgAlpha": "80",
+                            "tooltext": "Web Server: $value%"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-linear-gauge-configuring-gauge-cosmetics-example-3",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-linear-gauge-configuring-gauge-cosmetics-example-3-snapshot.png"
+    },
+    "gauge-and-widgets-guide-linear-gauge-adding-trend-points-example-3": {
+        "description": "trend point test",
+        "options": {
+            "type": "hlineargauge",
+            "width": "400",
+            "height": "190",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Server CPU Utilization",
+                    "subcaption": "food.hsm.com",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "numberSuffix": "%",
+                    "chartBottomMargin": "40",
+                    "valueFontSize": "11",
+                    "valueFontBold": "0",
+                    "valueAbovePointer": "0",
+                    "gaugeFillMix": "{light-10},{light-70},{dark-10}",
+                    "gaugeFillRatio": "40,20,40",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "35",
+                            "label": "Low"
+                        },
+                        {
+                            "minValue": "35",
+                            "maxValue": "70",
+                            "label": "Moderate"
+                        },
+                        {
+                            "minValue": "70",
+                            "maxValue": "100",
+                            "label": "High"
+                        }
+                    ]
+                },
+                "pointers": {
+                    "pointer": [
+                        {
+                            "value": "75"
+                        }
+                    ]
+                },
+                "trendPoints": {
+                    "point": [
+                        {
+                            "startValue": "70",
+                            "endValue": "85",
+                            "displayValue": "Recommended{br}Range (70-85%)",
+                            "alpha": "30"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-linear-gauge-adding-trend-points-example-3",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-linear-gauge-adding-trend-points-example-3-snapshot.png"
+    },
+    "gauge-and-widgets-guide-led-gauge-real-time-gauge-example-4": {
+        "description": "real time led gauge",
+        "options": {
+            "type": "hled",
+            "width": "300",
+            "height": "200",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Battery Charge Remaining",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "lowerLimitDisplay": "Empty",
+                    "upperLimitDisplay": "Full",
+                    "numberSuffix": "%",
+                    "valueFontSize": "12",
+                    "origW": "300",
+                    "origH": "200",
+                    "ledGap": "0",
+                    "showhovereffect": "1",
+                    "useSameFillColor": "1",
+                    "useSameFillBgColor": "1",
+                    "chartBottomMargin": "20",
+                    "dataStreamURL": "led-data.php",
+                    "refreshInterval": "5",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "annotations": {
+                    "showbelow": "1",
+                    "groups": [
+                        {
+                            "id": "indicator",
+                            "items": [
+                                {
+                                    "id": "bgRectAngle",
+                                    "type": "rectangle",
+                                    "radius": "5",
+                                    "fillColor": "#333333",
+                                    "x": "$gaugeEndX - 10",
+                                    "tox": "$gaugeEndX + 12",
+                                    "y": "$gaugeCenterY-20",
+                                    "toy": "$gaugeCenterY + 20"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "45",
+                            "code": "#e44a00"
+                        },
+                        {
+                            "minValue": "45",
+                            "maxValue": "75",
+                            "code": "#f8bd19"
+                        },
+                        {
+                            "minValue": "75",
+                            "maxValue": "100",
+                            "code": "#6baa01"
+                        }
+                    ]
+                },
+                "value": "50"
+            }
+        },
+        "id": "gauge-and-widgets-guide-led-gauge-real-time-gauge-example-4",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-led-gauge-real-time-gauge-example-4-snapshot.png"
+    },
+    "gauge-and-widgets-guide-led-gauge-configuring-gauge-example-9": {
+        "description": "gauge cosmetics",
+        "options": {
+            "type": "hled",
+            "width": "400",
+            "height": "180",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fuel Level Indicator",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "numberSuffix": "%",
+                    "lowerLimitDisplay": "Empty",
+                    "upperLimitDisplay": "Full",
+                    "majorTMNumber": "5",
+                    "minorTMNumber": "5",
+                    "tickMarkDistance": "5",
+                    "majorTMColor": "#0000CC",
+                    "majorTMAlpha": "60",
+                    "majorTMThickness": "2",
+                    "minorTMColor": "#0000CC",
+                    "minorTMAlpha": "30",
+                    "minorTMThickness": "2",
+                    "chartBottomMargin": "20",
+                    "ledSize": "4",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "45",
+                            "code": "#e44a00"
+                        },
+                        {
+                            "minValue": "45",
+                            "maxValue": "75",
+                            "code": "#f8bd19"
+                        },
+                        {
+                            "minValue": "75",
+                            "maxValue": "100",
+                            "code": "#6baa01"
+                        }
+                    ]
+                },
+                "value": "92"
+            }
+        },
+        "id": "gauge-and-widgets-guide-led-gauge-configuring-gauge-example-9",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-led-gauge-configuring-gauge-example-9-snapshot.png"
+    },
+    "gauge-and-widgets-guide-linear-gauge-adding-trend-points-example-2": {
+        "description": "trend points test",
+        "options": {
+            "type": "hlineargauge",
+            "width": "400",
+            "height": "170",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Server CPU Utilization",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "numberSuffix": "%",
+                    "chartBottomMargin": "40",
+                    "valueFontSize": "11",
+                    "valueFontBold": "0",
+                    "valueAbovePointer": "0",
+                    "gaugeFillMix": "{light-10},{light-70},{dark-10}",
+                    "gaugeFillRatio": "40,20,40",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "35",
+                            "label": "Low"
+                        },
+                        {
+                            "minValue": "35",
+                            "maxValue": "70",
+                            "label": "Moderate"
+                        },
+                        {
+                            "minValue": "70",
+                            "maxValue": "100",
+                            "label": "High"
+                        }
+                    ]
+                },
+                "pointers": {
+                    "pointer": [
+                        {
+                            "value": "75"
+                        }
+                    ]
+                },
+                "trendPoints": {
+                    "point": [
+                        {
+                            "startValue": "70",
+                            "dashed": "1",
+                            "thickness": "2",
+                            "useMarker": "1",
+                            "markerColor": "#0075c2",
+                            "markerBorderColor": "#666666",
+                            "markerRadius": "5"
+                        },
+                        {
+                            "startValue": "85",
+                            "dashed": "1",
+                            "thickness": "2",
+                            "useMarker": "1",
+                            "markerColor": "#0075c2",
+                            "markerBorderColor": "#666666",
+                            "markerRadius": "5"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-linear-gauge-adding-trend-points-example-2",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-linear-gauge-adding-trend-points-example-2-snapshot.png"
+    },
+    "gauge-and-widgets-guide-led-gauge-configuring-gauge-example-7": {
+        "description": "gauge cosmetics test",
+        "options": {
+            "type": "hled",
+            "width": "400",
+            "height": "150",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fuel Level Indicator",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "numberSuffix": "%",
+                    "showTickMarks": "0",
+                    "showTickValues": "0",
+                    "chartBottomMargin": "20",
+                    "ledSize": "4",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "45",
+                            "code": "#e44a00"
+                        },
+                        {
+                            "minValue": "45",
+                            "maxValue": "75",
+                            "code": "#f8bd19"
+                        },
+                        {
+                            "minValue": "75",
+                            "maxValue": "100",
+                            "code": "#6baa01"
+                        }
+                    ]
+                },
+                "value": "92"
+            }
+        },
+        "id": "gauge-and-widgets-guide-led-gauge-configuring-gauge-example-7",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-led-gauge-configuring-gauge-example-7-snapshot.png"
+    },
+    "gauge-and-widgets-guide-linear-gauge-adding-trend-points-example-1": {
+        "description": "trend point test",
+        "options": {
+            "type": "hlineargauge",
+            "width": "400",
+            "height": "170",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Server CPU Utilization",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "numberSuffix": "%",
+                    "chartBottomMargin": "40",
+                    "valueFontSize": "11",
+                    "valueFontBold": "0",
+                    "valueAbovePointer": "0",
+                    "gaugeFillMix": "{light-10},{light-70},{dark-10}",
+                    "gaugeFillRatio": "40,20,40",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "35",
+                            "label": "Low"
+                        },
+                        {
+                            "minValue": "35",
+                            "maxValue": "70",
+                            "label": "Moderate"
+                        },
+                        {
+                            "minValue": "70",
+                            "maxValue": "100",
+                            "label": "High"
+                        }
+                    ]
+                },
+                "pointers": {
+                    "pointer": [
+                        {
+                            "value": "75"
+                        }
+                    ]
+                },
+                "trendPoints": {
+                    "point": [
+                        {
+                            "startValue": "70",
+                            "color": "#dddddd",
+                            "dashed": "1",
+                            "dashlen": "3",
+                            "dashgap": "3",
+                            "thickness": "2"
+                        },
+                        {
+                            "startValue": "85",
+                            "color": "#dddddd",
+                            "dashed": "1",
+                            "dashlen": "3",
+                            "dashgap": "3",
+                            "thickness": "2"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-linear-gauge-adding-trend-points-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-linear-gauge-adding-trend-points-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-linear-gauge-configuring-gauge-cosmetics-example-1": {
+        "description": "gauge cosmetics",
+        "options": {
+            "type": "hlineargauge",
+            "width": "400",
+            "height": "150",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Server CPU Utilization",
+                    "captionPadding": "0",
+                    "numberSuffix": "%",
+                    "valueFontSize": "11",
+                    "valueFontBold": "0",
+                    "chartBottomMargin": "20",
+                    "gaugeFillMix": "{light-10},{light-70},{dark-10}",
+                    "gaugeFillRatio": "40,20,40",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "35",
+                            "label": "Low",
+                            "code": "#6baa01"
+                        },
+                        {
+                            "minValue": "35",
+                            "maxValue": "70",
+                            "label": "Moderate",
+                            "code": "#f8bd19"
+                        },
+                        {
+                            "minValue": "70",
+                            "maxValue": "100",
+                            "label": "High",
+                            "code": "#e44a00"
+                        }
+                    ]
+                },
+                "pointers": {
+                    "pointer": [
+                        {
+                            "borderColor": "#333333",
+                            "borderThickness": "2",
+                            "borderAlpha": "60",
+                            "bgColor": "#0075c2",
+                            "bgAlpha": "75",
+                            "radius": "6",
+                            "sides": "4",
+                            "value": "75"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-linear-gauge-configuring-gauge-cosmetics-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-linear-gauge-configuring-gauge-cosmetics-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-linear-gauge-configuring-gauge-cosmetics-example-6": {
+        "description": "gauge cosmetics",
+        "options": {
+            "type": "hlineargauge",
+            "width": "400",
+            "height": "170",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Server CPU Utilization",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "numberSuffix": "%",
+                    "chartBottomMargin": "20",
+                    "valueFontSize": "11",
+                    "valueFontBold": "0",
+                    "gaugeFillMix": "{light-10},{light-70},{dark-10}",
+                    "gaugeFillRatio": "40,20,40",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "35",
+                            "label": "Low"
+                        },
+                        {
+                            "minValue": "35",
+                            "maxValue": "70",
+                            "label": "Moderate"
+                        },
+                        {
+                            "minValue": "70",
+                            "maxValue": "100",
+                            "label": "High"
+                        }
+                    ]
+                },
+                "pointers": {
+                    "pointer": [
+                        {
+                            "value": "75"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-linear-gauge-configuring-gauge-cosmetics-example-6",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-linear-gauge-configuring-gauge-cosmetics-example-6-snapshot.png"
+    },
+    "gauge-and-widgets-guide-led-gauge-introduction-example-2": {
+        "description": "vled chart introduction",
+        "options": {
+            "type": "vled",
+            "width": "150",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fuel Level Indicator",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "lowerLimitDisplay": "Empty",
+                    "upperLimitDisplay": "Full",
+                    "numberSuffix": "%",
+                    "showValue": "1",
+                    "valueFontSize": "12",
+                    "showhovereffect": "1",
+                    "chartBottomMargin": "20",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "45",
+                            "code": "#e44a00"
+                        },
+                        {
+                            "minValue": "45",
+                            "maxValue": "75",
+                            "code": "#f8bd19"
+                        },
+                        {
+                            "minValue": "75",
+                            "maxValue": "100",
+                            "code": "#6baa01"
+                        }
+                    ]
+                },
+                "value": "92"
+            }
+        },
+        "id": "gauge-and-widgets-guide-led-gauge-introduction-example-2",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-led-gauge-introduction-example-2-snapshot.png"
+    },
+    "gauge-and-widgets-guide-gantt-chart-creating-simple-gantt-chart-example-1": {
+        "description": "simple gantt chart",
+        "options": {
+            "type": "gantt",
+            "width": "750",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "mm/dd/yyyy",
+                    "caption": "Social Media Optimization",
+                    "subcaption": "Typical Steps Involved",
+                    "theme": "fint",
+                    "canvasBorderAlpha": "40",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "08/31/2014",
+                                "label": "Aug '14"
+                            },
+                            {
+                                "start": "09/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Sep '14"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "10/31/2014",
+                                "label": "Oct '14"
+                            },
+                            {
+                                "start": "11/01/2014",
+                                "end": "11/30/2014",
+                                "label": "Nov '14"
+                            },
+                            {
+                                "start": "12/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Dec '14"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "01/31/2015",
+                                "label": "Jan '15"
+                            },
+                            {
+                                "start": "02/01/2015",
+                                "end": "02/28/2015",
+                                "label": "Feb '15"
+                            },
+                            {
+                                "start": "03/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Mar '15"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "fontsize": "12",
+                    "isbold": "1",
+                    "align": "right",
+                    "process": [
+                        {
+                            "label": "Identify Customers"
+                        },
+                        {
+                            "label": "Survey 500 Customers"
+                        },
+                        {
+                            "label": "Interpret Requirements"
+                        },
+                        {
+                            "label": "Market Analysis"
+                        },
+                        {
+                            "label": "Brainstorm concepts"
+                        },
+                        {
+                            "label": "Define Ad Requirements"
+                        },
+                        {
+                            "label": "Design & Develop"
+                        },
+                        {
+                            "label": "Mock test"
+                        },
+                        {
+                            "label": "Documentation"
+                        },
+                        {
+                            "label": "Start Campaign"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "task": [
+                        {
+                            "start": "08/04/2014",
+                            "end": "08/10/2014"
+                        },
+                        {
+                            "start": "08/08/2014",
+                            "end": "08/19/2014"
+                        },
+                        {
+                            "start": "08/19/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "08/24/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "09/02/2014",
+                            "end": "09/21/2014"
+                        },
+                        {
+                            "start": "09/21/2014",
+                            "end": "10/06/2014"
+                        },
+                        {
+                            "start": "10/06/2014",
+                            "end": "01/21/2015"
+                        },
+                        {
+                            "start": "01/21/2015",
+                            "end": "02/19/2015"
+                        },
+                        {
+                            "start": "01/28/2015",
+                            "end": "02/24/2015"
+                        },
+                        {
+                            "start": "02/24/2015",
+                            "end": "03/27/2015"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-gantt-chart-creating-simple-gantt-chart-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-gantt-chart-creating-simple-gantt-chart-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-gantt-chart-configuring-cosmetics-example-2": {
+        "description": "gantt chart configure",
+        "options": {
+            "type": "gantt",
+            "width": "750",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "mm/dd/yyyy",
+                    "caption": "Social Media Optimization",
+                    "subcaption": "Typical Steps Involved",
+                    "showTaskLabels": "1",
+                    "theme": "fint",
+                    "canvasBorderAlpha": "40",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Q3"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Q4"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Q1"
+                            }
+                        ]
+                    },
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "08/31/2014",
+                                "label": "Aug '14"
+                            },
+                            {
+                                "start": "09/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Sep '14"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "10/31/2014",
+                                "label": "Oct '14"
+                            },
+                            {
+                                "start": "11/01/2014",
+                                "end": "11/30/2014",
+                                "label": "Nov '14"
+                            },
+                            {
+                                "start": "12/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Dec '14"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "01/31/2015",
+                                "label": "Jan '15"
+                            },
+                            {
+                                "start": "02/01/2015",
+                                "end": "02/28/2015",
+                                "label": "Feb '15"
+                            },
+                            {
+                                "start": "03/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Mar '15"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "fontsize": "12",
+                    "isbold": "1",
+                    "align": "right",
+                    "process": [
+                        {
+                            "label": "Identify Customers"
+                        },
+                        {
+                            "label": "Survey 500 Customers"
+                        },
+                        {
+                            "label": "Interpret Requirements"
+                        },
+                        {
+                            "label": "Market Analysis"
+                        },
+                        {
+                            "label": "Brainstorm concepts"
+                        },
+                        {
+                            "label": "Define Ad Requirements"
+                        },
+                        {
+                            "label": "Design & Develop"
+                        },
+                        {
+                            "label": "Mock test"
+                        },
+                        {
+                            "label": "Documentation"
+                        },
+                        {
+                            "label": "Start Campaign"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "task": [
+                        {
+                            "start": "08/04/2014",
+                            "end": "08/10/2014"
+                        },
+                        {
+                            "start": "08/08/2014",
+                            "end": "08/19/2014"
+                        },
+                        {
+                            "start": "08/19/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "08/24/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "09/02/2014",
+                            "end": "09/21/2014"
+                        },
+                        {
+                            "start": "09/21/2014",
+                            "end": "10/06/2014"
+                        },
+                        {
+                            "start": "10/06/2014",
+                            "end": "01/21/2015",
+                            "label": "Promotion Applications",
+                            "showStartDate": "1",
+                            "showEndDate": "1"
+                        },
+                        {
+                            "start": "01/21/2015",
+                            "end": "02/19/2015"
+                        },
+                        {
+                            "start": "01/28/2015",
+                            "end": "02/24/2015"
+                        },
+                        {
+                            "start": "02/24/2015",
+                            "end": "03/27/2015"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-gantt-chart-configuring-cosmetics-example-2",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-gantt-chart-configuring-cosmetics-example-2-snapshot.png"
+    },
+    "gauge-and-widgets-guide-led-gauge-introduction-example-1": {
+        "description": "led gauge test",
+        "options": {
+            "type": "hled",
+            "width": "400",
+            "height": "150",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fuel Level Indicator",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "lowerLimitDisplay": "Empty",
+                    "upperLimitDisplay": "Full",
+                    "numberSuffix": "%",
+                    "valueFontSize": "12",
+                    "showhovereffect": "1",
+                    "origW": "400",
+                    "origH": "150",
+                    "ledSize": "3",
+                    "ledGap": "2",
+                    "manageResize": "1",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "annotations": {
+                    "showbelow": "1",
+                    "groups": [
+                        {
+                            "id": "indicator",
+                            "items": [
+                                {
+                                    "id": "bgRectAngle",
+                                    "type": "rectangle",
+                                    "alpha": "90",
+                                    "radius": "1",
+                                    "fillColor": "#6baa01",
+                                    "x": "$gaugeCenterX - 20",
+                                    "tox": "$gaugeCenterX + 20",
+                                    "y": "$gaugeEndY + 25",
+                                    "toy": "$gaugeEndY + 45"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "45",
+                            "code": "#e44a00"
+                        },
+                        {
+                            "minValue": "45",
+                            "maxValue": "75",
+                            "code": "#f8bd19"
+                        },
+                        {
+                            "minValue": "75",
+                            "maxValue": "100",
+                            "code": "#6baa01"
+                        }
+                    ]
+                },
+                "value": "92"
+            }
+        },
+        "id": "gauge-and-widgets-guide-led-gauge-introduction-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-led-gauge-introduction-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-gantt-chart-creating-time-based-chart-example-2": {
+        "description": "time base gantt chart",
+        "options": {
+            "type": "gantt",
+            "width": "650",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "mm/dd/yyyy",
+                    "outputdateformat": "hh:mn",
+                    "caption": "Development Division - Work Schedule",
+                    "canvasBorderAlpha": "30",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "7/15/2014 00:00:00",
+                                "end": "7/15/2014 23:59:59",
+                                "label": "Today"
+                            },
+                            {
+                                "start": "7/16/2014 00:00:00",
+                                "end": "7/16/2014 23:59:59",
+                                "label": "Tomorrow"
+                            }
+                        ]
+                    },
+                    {
+                        "align": "right",
+                        "category": [
+                            {
+                                "start": "7/15/2014 00:00:00",
+                                "end": "7/15/2014 05:59:59",
+                                "label": "6 am"
+                            },
+                            {
+                                "start": "7/15/2014 06:00:00",
+                                "end": "7/15/2014 11:59:59",
+                                "label": "12 pm"
+                            },
+                            {
+                                "start": "7/15/2014 12:00:00",
+                                "end": "7/15/2014 17:59:59",
+                                "label": "6 pm"
+                            },
+                            {
+                                "start": "7/15/2014 18:00:00",
+                                "end": "7/15/2014 23:59:59",
+                                "label": "Midnight"
+                            },
+                            {
+                                "start": "7/16/2014 00:00:00",
+                                "end": "7/16/2014 05:59:59",
+                                "label": "6 am"
+                            },
+                            {
+                                "start": "7/16/2014 06:00:00",
+                                "end": "7/16/2014 11:59:59",
+                                "label": "12 pm"
+                            },
+                            {
+                                "start": "7/16/2014 12:00:00",
+                                "end": "7/16/2014 17:59:59",
+                                "label": "6 pm"
+                            },
+                            {
+                                "start": "7/16/2014 18:00:00",
+                                "end": "7/16/2014 23:59:59",
+                                "label": "Midnight"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "fontsize": "12",
+                    "isbold": "1",
+                    "align": "left",
+                    "headertext": "Employee",
+                    "headerfontsize": "14",
+                    "headervalign": "middle",
+                    "headeralign": "left",
+                    "process": [
+                        {
+                            "label": "John S.",
+                            "id": "EMP121"
+                        },
+                        {
+                            "label": "David G.",
+                            "id": "EMP122"
+                        },
+                        {
+                            "label": "Mary P.",
+                            "id": "EMP123"
+                        },
+                        {
+                            "label": "Andrew H.",
+                            "id": "EMP124"
+                        },
+                        {
+                            "label": "Neil M.",
+                            "id": "EMP125"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "showlabels": "1",
+                    "showstartdate": "1",
+                    "task": [
+                        {
+                            "processid": "EMP121",
+                            "start": "7/15/2014 08:00:00",
+                            "end": "7/15/2014 12:30:00",
+                            "label": "Logo A"
+                        },
+                        {
+                            "processid": "EMP121",
+                            "start": "7/15/2014 17:00:00",
+                            "end": "7/15/2014 19:30:00",
+                            "label": "Logo B"
+                        },
+                        {
+                            "processid": "EMP121",
+                            "start": "7/16/2014 09:00:00",
+                            "end": "7/16/2014 19:30:00",
+                            "label": "Website template"
+                        },
+                        {
+                            "processid": "EMP122",
+                            "start": "7/15/2014 10:00:00",
+                            "end": "7/15/2014 20:30:00",
+                            "label": "PHP Blueprint"
+                        },
+                        {
+                            "processid": "EMP122",
+                            "start": "7/16/2014 10:00:00",
+                            "end": "7/16/2014 20:30:00",
+                            "label": "PHP Blueprint"
+                        },
+                        {
+                            "processid": "EMP123",
+                            "start": "7/15/2014 08:00:00",
+                            "end": "7/15/2014 12:00:00",
+                            "label": "L1 Support"
+                        },
+                        {
+                            "processid": "EMP123",
+                            "start": "7/16/2014 15:00:00",
+                            "end": "7/16/2014 21:30:00",
+                            "label": "L1 Support"
+                        },
+                        {
+                            "processid": "EMP124",
+                            "start": "7/15/2014 08:00:00",
+                            "end": "7/15/2014 20:30:00",
+                            "label": "L2 support"
+                        },
+                        {
+                            "processid": "EMP124",
+                            "start": "7/16/2014 08:00:00",
+                            "end": "7/16/2014 20:30:00",
+                            "label": "L2 support"
+                        },
+                        {
+                            "processid": "EMP125",
+                            "start": "7/15/2014 10:00:00",
+                            "end": "7/15/2014 14:30:00",
+                            "label": "Network Maintenance"
+                        },
+                        {
+                            "processid": "EMP125",
+                            "start": "7/16/2014 12:00:00",
+                            "end": "7/16/2014 14:30:00",
+                            "label": "System OS Updates"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-gantt-chart-creating-time-based-chart-example-2",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-gantt-chart-creating-time-based-chart-example-2-snapshot.png"
+    },
+    "gauge-and-widgets-guide-gantt-chart-creating-time-based-chart-example-1": {
+        "description": "time base gantt chart",
+        "options": {
+            "type": "gantt",
+            "width": "650",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "dd/mm/yyyy",
+                    "outputdateformat": "hh12:mn ampm",
+                    "caption": "Development Division - Time Shifts",
+                    "subCaption": "At Bakersfield Central",
+                    "canvasBorderAlpha": "30",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "00:00:00",
+                                "end": "23:59:59",
+                                "label": "Time"
+                            }
+                        ]
+                    },
+                    {
+                        "align": "left",
+                        "category": [
+                            {
+                                "start": "00:00:00",
+                                "end": "02:59:59",
+                                "label": "Midnight"
+                            },
+                            {
+                                "start": "03:00:00",
+                                "end": "05:59:59",
+                                "label": "3 am"
+                            },
+                            {
+                                "start": "06:00:00",
+                                "end": "08:59:59",
+                                "label": "6 am"
+                            },
+                            {
+                                "start": "09:00:00",
+                                "end": "11:59:59",
+                                "label": "9 am"
+                            },
+                            {
+                                "start": "12:00:00",
+                                "end": "14:59:59",
+                                "label": "12 noon"
+                            },
+                            {
+                                "start": "15:00:00",
+                                "end": "17:59:59",
+                                "label": "3 pm"
+                            },
+                            {
+                                "start": "18:00:00",
+                                "end": "20:59:59",
+                                "label": "6 pm"
+                            },
+                            {
+                                "start": "21:00:00",
+                                "end": "23:59:59",
+                                "label": "9 pm"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "fontsize": "12",
+                    "isbold": "1",
+                    "align": "left",
+                    "headertext": "Employee",
+                    "headerfontsize": "14",
+                    "headervalign": "middle",
+                    "headeralign": "left",
+                    "process": [
+                        {
+                            "label": "John.S",
+                            "id": "EMP121"
+                        },
+                        {
+                            "label": "David.G",
+                            "id": "EMP122"
+                        },
+                        {
+                            "label": "Mary.P",
+                            "id": "EMP123"
+                        },
+                        {
+                            "label": "Andrew.H",
+                            "id": "EMP124"
+                        },
+                        {
+                            "label": "Neil.M",
+                            "id": "EMP125"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "showlabels": "1",
+                    "task": [
+                        {
+                            "processid": "EMP121",
+                            "start": "08:00:00",
+                            "end": "12:30:00",
+                            "label": "Morning Shift"
+                        },
+                        {
+                            "processid": "EMP121",
+                            "start": "15:00:00",
+                            "end": "19:30:00",
+                            "label": "Evening Shift"
+                        },
+                        {
+                            "processid": "EMP122",
+                            "start": "10:00:00",
+                            "end": "16:30:00",
+                            "label": "Half Day"
+                        },
+                        {
+                            "processid": "EMP123",
+                            "start": "08:00:00",
+                            "end": "12:00:00",
+                            "label": "Morning Shift"
+                        },
+                        {
+                            "processid": "EMP123",
+                            "start": "15:00:00",
+                            "end": "21:30:00",
+                            "label": "Evening Shift"
+                        },
+                        {
+                            "processid": "EMP124",
+                            "start": "08:00:00",
+                            "end": "20:30:00",
+                            "label": "Full time support"
+                        },
+                        {
+                            "processid": "EMP125",
+                            "start": "10:00:00",
+                            "end": "14:30:00",
+                            "label": "Half Day"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-gantt-chart-creating-time-based-chart-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-gantt-chart-creating-time-based-chart-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-led-gauge-configuring-gauge-example-6": {
+        "description": "gauge configure test",
+        "options": {
+            "type": "hled",
+            "width": "400",
+            "height": "150",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fuel Level Indicator",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "lowerLimitDisplay": "Empty",
+                    "upperLimitDisplay": "Full",
+                    "numberSuffix": "%",
+                    "valueFontSize": "14",
+                    "showhovereffect": "1",
+                    "showValue": "0",
+                    "ledSize": "4",
+                    "chartBottomMargin": "20",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "45"
+                        },
+                        {
+                            "minValue": "45",
+                            "maxValue": "75"
+                        },
+                        {
+                            "minValue": "75",
+                            "maxValue": "100"
+                        }
+                    ]
+                },
+                "value": "92"
+            }
+        },
+        "id": "gauge-and-widgets-guide-led-gauge-configuring-gauge-example-6",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-led-gauge-configuring-gauge-example-6-snapshot.png"
+    },
+    "gauge-and-widgets-guide-linear-gauge-configuring-tick-marks-example-2": {
+        "description": "tick marks test",
+        "options": {
+            "type": "hlineargauge",
+            "width": "400",
+            "height": "170",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Server CPU Utilization",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "numberSuffix": "%",
+                    "chartBottomMargin": "20",
+                    "valueFontSize": "11",
+                    "valueFontBold": "0",
+                    "majorTMNumber": "10",
+                    "tickValueStep": "2",
+                    "tickValueDecimals": "1",
+                    "forceTickValueDecimals": "1",
+                    "gaugeFillMix": "{light-10},{light-70},{dark-10}",
+                    "gaugeFillRatio": "40,20,40",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "35",
+                            "label": "Low"
+                        },
+                        {
+                            "minValue": "35",
+                            "maxValue": "70",
+                            "label": "Moderate"
+                        },
+                        {
+                            "minValue": "70",
+                            "maxValue": "100",
+                            "label": "High"
+                        }
+                    ]
+                },
+                "pointers": {
+                    "pointer": [
+                        {
+                            "value": "75"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-linear-gauge-configuring-tick-marks-example-2",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-linear-gauge-configuring-tick-marks-example-2-snapshot.png"
+    },
+    "gauge-and-widgets-guide-gantt-chart-configuring-task-bars-example-3": {
+        "description": "configure task bar",
+        "options": {
+            "type": "gantt",
+            "width": "750",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "mm/dd/yyyy",
+                    "caption": "Social Media Optimization",
+                    "captionFontSize": "16",
+                    "theme": "fint",
+                    "canvasBorderAlpha": "40",
+                    "animation": "0"
+                },
+                "datatable": {
+                    "headervalign": "bottom",
+                    "datacolumn": [
+                        {
+                            "headertext": "Owner",
+                            "headerfontsize": "14",
+                            "headervalign": "bottom",
+                            "headeralign": "left",
+                            "align": "left",
+                            "fontsize": "12",
+                            "text": [
+                                {
+                                    "label": "John"
+                                },
+                                {
+                                    "label": "David"
+                                },
+                                {
+                                    "label": "Mary"
+                                },
+                                {
+                                    "label": "John"
+                                },
+                                {
+                                    "label": "Andrew & Harry"
+                                },
+                                {
+                                    "label": "John & Harry"
+                                },
+                                {
+                                    "label": "Neil & Harry"
+                                },
+                                {
+                                    "label": "Neil & Harry"
+                                },
+                                {
+                                    "label": "Chris"
+                                },
+                                {
+                                    "label": "John & Richard"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Q3"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Q4"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Q1"
+                            }
+                        ]
+                    },
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "08/31/2014",
+                                "label": "Aug '14"
+                            },
+                            {
+                                "start": "09/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Sep '14"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "10/31/2014",
+                                "label": "Oct '14"
+                            },
+                            {
+                                "start": "11/01/2014",
+                                "end": "11/30/2014",
+                                "label": "Nov '14"
+                            },
+                            {
+                                "start": "12/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Dec '14"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "01/31/2015",
+                                "label": "Jan '15"
+                            },
+                            {
+                                "start": "02/01/2015",
+                                "end": "02/28/2015",
+                                "label": "Feb '15"
+                            },
+                            {
+                                "start": "03/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Mar '15"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "fontsize": "12",
+                    "isbold": "1",
+                    "align": "left",
+                    "headerText": "Steps",
+                    "headerFontSize": "14",
+                    "headerVAlign": "bottom",
+                    "headerAlign": "left",
+                    "process": [
+                        {
+                            "label": "Identify Customers"
+                        },
+                        {
+                            "label": "Survey 500 Customers"
+                        },
+                        {
+                            "label": "Interpret Requirements"
+                        },
+                        {
+                            "label": "Market Analysis"
+                        },
+                        {
+                            "label": "Brainstorm concepts"
+                        },
+                        {
+                            "label": "Define Ad Requirements"
+                        },
+                        {
+                            "label": "Design & Develop"
+                        },
+                        {
+                            "label": "Mock test"
+                        },
+                        {
+                            "label": "Documentation"
+                        },
+                        {
+                            "label": "Start Campaign"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "task": [
+                        {
+                            "start": "08/04/2014",
+                            "end": "08/10/2014",
+                            "percentComplete": "60"
+                        },
+                        {
+                            "start": "08/08/2014",
+                            "end": "08/19/2014",
+                            "percentComplete": "25"
+                        },
+                        {
+                            "start": "08/19/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "08/24/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "09/02/2014",
+                            "end": "09/21/2014",
+                            "percentComplete": "50"
+                        },
+                        {
+                            "start": "09/21/2014",
+                            "end": "10/06/2014"
+                        },
+                        {
+                            "start": "10/06/2014",
+                            "end": "01/21/2015",
+                            "percentComplete": "20"
+                        },
+                        {
+                            "start": "01/21/2015",
+                            "end": "02/19/2015"
+                        },
+                        {
+                            "start": "01/28/2015",
+                            "end": "02/24/2015"
+                        },
+                        {
+                            "start": "02/24/2015",
+                            "end": "03/27/2015"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-gantt-chart-configuring-task-bars-example-3",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-gantt-chart-configuring-task-bars-example-3-snapshot.png"
+    },
+    "gauge-and-widgets-guide-linear-gauge-configuring-gauge-cosmetics-example-4": {
+        "description": "gauge cosmetics test",
+        "options": {
+            "type": "hlineargauge",
+            "width": "400",
+            "height": "150",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Server CPU Utilization",
+                    "subcaptionFontBold": "0",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "numberSuffix": "%",
+                    "chartBottomMargin": "20",
+                    "captionPadding": "10",
+                    "valueAbovePointer": "0",
+                    "valueFontSize": "13",
+                    "valueFontBold": "0",
+                    "gaugeFillMix": "{light-10},{light-70},{dark-10}",
+                    "gaugeFillRatio": "40,20,40",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "35",
+                            "label": "Low"
+                        },
+                        {
+                            "minValue": "35",
+                            "maxValue": "70",
+                            "label": "Moderate"
+                        },
+                        {
+                            "minValue": "70",
+                            "maxValue": "100",
+                            "label": "High"
+                        }
+                    ]
+                },
+                "pointers": {
+                    "pointer": [
+                        {
+                            "value": "75"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-linear-gauge-configuring-gauge-cosmetics-example-4",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-linear-gauge-configuring-gauge-cosmetics-example-4-snapshot.png"
+    },
+    "gauge-and-widgets-guide-led-gauge-configuring-tick-marks-example-1": {
+        "description": "configure tick marks",
+        "options": {
+            "type": "hlineargauge",
+            "width": "400",
+            "height": "170",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Server CPU Utilization",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "numberSuffix": "%",
+                    "chartBottomMargin": "20",
+                    "valueFontSize": "11",
+                    "valueFontBold": "0",
+                    "gaugeFillMix": "{light-10},{light-70},{dark-10}",
+                    "gaugeFillRatio": "40,20,40",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "35",
+                            "label": "Low"
+                        },
+                        {
+                            "minValue": "35",
+                            "maxValue": "70",
+                            "label": "Moderate"
+                        },
+                        {
+                            "minValue": "70",
+                            "maxValue": "100",
+                            "label": "High"
+                        }
+                    ]
+                },
+                "pointers": {
+                    "pointer": [
+                        {
+                            "value": "75"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-led-gauge-configuring-tick-marks-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-led-gauge-configuring-tick-marks-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-led-gauge-configuring-gauge-example-10": {
+        "description": "gauge cosmetics test",
+        "options": {
+            "type": "hled",
+            "width": "400",
+            "height": "150",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fuel Level Indicator",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "lowerLimitDisplay": "Empty",
+                    "upperLimitDisplay": "Full",
+                    "numberSuffix": "%",
+                    "valueFontSize": "12",
+                    "showhovereffect": "1",
+                    "theme": "fint",
+                    "ledSize": "4",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "45",
+                            "code": "#e44a00"
+                        },
+                        {
+                            "minValue": "45",
+                            "maxValue": "75",
+                            "code": "#f8bd19"
+                        },
+                        {
+                            "minValue": "75",
+                            "maxValue": "100",
+                            "code": "#6baa01"
+                        }
+                    ]
+                },
+                "value": "92"
+            }
+        },
+        "id": "gauge-and-widgets-guide-led-gauge-configuring-gauge-example-10",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-led-gauge-configuring-gauge-example-10-snapshot.png"
+    },
+    "gauge-and-widgets-guide-gantt-chart-configuring-cosmetics-example-5": {
+        "description": "gantt chart configure",
+        "options": {
+            "type": "gantt",
+            "width": "750",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "mm/dd/yyyy",
+                    "caption": "Social Media Optimization",
+                    "subcaption": "Typical Steps Involved",
+                    "theme": "fint",
+                    "canvasBorderAlpha": "40",
+                    "animation": "0"
+                },
+                "datatable": {
+                    "headervalign": "bottom",
+                    "datacolumn": [
+                        {
+                            "headertext": "Owner",
+                            "headerfontsize": "18",
+                            "headervalign": "bottom",
+                            "headeralign": "left",
+                            "align": "left",
+                            "fontsize": "12",
+                            "text": [
+                                {
+                                    "label": "John"
+                                },
+                                {
+                                    "label": "David"
+                                },
+                                {
+                                    "label": "Mary"
+                                },
+                                {
+                                    "label": "John"
+                                },
+                                {
+                                    "label": "Andrew & Harry"
+                                },
+                                {
+                                    "label": "John & Harry"
+                                },
+                                {
+                                    "label": "Neil & Harry"
+                                },
+                                {
+                                    "label": "Neil & Harry"
+                                },
+                                {
+                                    "label": "Chris"
+                                },
+                                {
+                                    "label": "John & Richard"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Q3"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Q4"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Q1"
+                            }
+                        ]
+                    },
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "08/31/2014",
+                                "label": "Aug '14"
+                            },
+                            {
+                                "start": "09/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Sep '14"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "10/31/2014",
+                                "label": "Oct '14"
+                            },
+                            {
+                                "start": "11/01/2014",
+                                "end": "11/30/2014",
+                                "label": "Nov '14"
+                            },
+                            {
+                                "start": "12/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Dec '14"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "01/31/2015",
+                                "label": "Jan '15"
+                            },
+                            {
+                                "start": "02/01/2015",
+                                "end": "02/28/2015",
+                                "label": "Feb '15"
+                            },
+                            {
+                                "start": "03/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Mar '15"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "fontsize": "12",
+                    "isbold": "1",
+                    "align": "left",
+                    "headerText": "Steps",
+                    "headerFontSize": "20",
+                    "headerVAlign": "bottom",
+                    "headerAlign": "left",
+                    "process": [
+                        {
+                            "label": "Identify Customers"
+                        },
+                        {
+                            "label": "Survey 500 Customers"
+                        },
+                        {
+                            "label": "Interpret Requirements"
+                        },
+                        {
+                            "label": "Market Analysis"
+                        },
+                        {
+                            "label": "Brainstorm concepts"
+                        },
+                        {
+                            "label": "Define Ad Requirements"
+                        },
+                        {
+                            "label": "Design & Develop"
+                        },
+                        {
+                            "label": "Mock test"
+                        },
+                        {
+                            "label": "Documentation"
+                        },
+                        {
+                            "label": "Start Campaign"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "task": [
+                        {
+                            "start": "08/04/2014",
+                            "end": "08/10/2014"
+                        },
+                        {
+                            "start": "08/08/2014",
+                            "end": "08/19/2014"
+                        },
+                        {
+                            "start": "08/19/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "08/24/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "09/02/2014",
+                            "end": "09/21/2014"
+                        },
+                        {
+                            "start": "09/21/2014",
+                            "end": "10/06/2014"
+                        },
+                        {
+                            "start": "10/06/2014",
+                            "end": "01/21/2015"
+                        },
+                        {
+                            "start": "01/21/2015",
+                            "end": "02/19/2015"
+                        },
+                        {
+                            "start": "01/28/2015",
+                            "end": "02/24/2015"
+                        },
+                        {
+                            "start": "02/24/2015",
+                            "end": "03/27/2015"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-gantt-chart-configuring-cosmetics-example-5",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-gantt-chart-configuring-cosmetics-example-5-snapshot.png"
+    },
+    "gauge-and-widgets-guide-led-gauge-configuring-gauge-example-8": {
+        "description": "configure gauge",
+        "options": {
+            "type": "hled",
+            "width": "450",
+            "height": "180",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fuel Level Indicator",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "numberSuffix": "%",
+                    "lowerLimitDisplay": "Empty",
+                    "upperLimitDisplay": "Full",
+                    "adjustTM": "0",
+                    "ticksBelowGauge": "0",
+                    "tickMarkDistance": "5",
+                    "tickValueDistance": "2",
+                    "majorTMNumber": "9",
+                    "majorTMHeight": "12",
+                    "minorTMNumber": "4",
+                    "minorTMHeight": "7",
+                    "tickValueStep": "2",
+                    "chartBottomMargin": "20",
+                    "ledSize": "4",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "45",
+                            "code": "#e44a00"
+                        },
+                        {
+                            "minValue": "45",
+                            "maxValue": "75",
+                            "code": "#f8bd19"
+                        },
+                        {
+                            "minValue": "75",
+                            "maxValue": "100",
+                            "code": "#6baa01"
+                        }
+                    ]
+                },
+                "value": "92"
+            }
+        },
+        "id": "gauge-and-widgets-guide-led-gauge-configuring-gauge-example-8",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-led-gauge-configuring-gauge-example-8-snapshot.png"
+    },
+    "gauge-and-widgets-guide-led-gauge-configuring-tick-marks-example-3": {
+        "description": "tick mark tests",
+        "options": {
+            "type": "hlineargauge",
+            "width": "400",
+            "height": "170",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Server CPU Utilization",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "numberSuffix": "%",
+                    "chartBottomMargin": "20",
+                    "valueFontSize": "11",
+                    "valueFontBold": "0",
+                    "ticksBelowGauge": "0",
+                    "placeTicksInside": "0",
+                    "placeValuesInside": "0",
+                    "gaugeFillMix": "{light-10},{light-70},{dark-10}",
+                    "gaugeFillRatio": "40,20,40",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "35",
+                            "label": "Low"
+                        },
+                        {
+                            "minValue": "35",
+                            "maxValue": "70",
+                            "label": "Moderate"
+                        },
+                        {
+                            "minValue": "70",
+                            "maxValue": "100",
+                            "label": "High"
+                        }
+                    ]
+                },
+                "pointers": {
+                    "pointer": [
+                        {
+                            "value": "75"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-led-gauge-configuring-tick-marks-example-3",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-led-gauge-configuring-tick-marks-example-3-snapshot.png"
+    },
+    "gauge-and-widgets-guide-linear-gauge-configuring-gauge-cosmetics-example-7": {
+        "description": "configure gauge",
+        "options": {
+            "type": "hlineargauge",
+            "width": "400",
+            "height": "170",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Server CPU Utilization",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "numberSuffix": "%",
+                    "chartBottomMargin": "20",
+                    "valueFontSize": "11",
+                    "valueFontBold": "0",
+                    "showGaugeBorder": "1",
+                    "gaugeBorderColor": "{light-50}",
+                    "gaugeBorderThickness": "4",
+                    "gaugeBorderAlpha": "100",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "35",
+                            "label": "Low"
+                        },
+                        {
+                            "minValue": "35",
+                            "maxValue": "70",
+                            "label": "Moderate"
+                        },
+                        {
+                            "minValue": "70",
+                            "maxValue": "100",
+                            "label": "High"
+                        }
+                    ]
+                },
+                "pointers": {
+                    "pointer": [
+                        {
+                            "value": "75"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-linear-gauge-configuring-gauge-cosmetics-example-7",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-linear-gauge-configuring-gauge-cosmetics-example-7-snapshot.png"
+    },
+    "gauge-and-widgets-guide-gantt-chart-configuring-date-formats-example-2": {
+        "description": "gantt chart date format",
+        "options": {
+            "type": "gantt",
+            "width": "650",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Development Division - Work Schedule",
+                    "subcaption": "Week 2 - (21st July to 25th July)",
+                    "dateformat": "mm/dd/yyyy hh:mm:ss",
+                    "outputDateFormat": "ddds mnl, yyyy hh12:mn ampm",
+                    "canvasBorderAlpha": "30",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "7/21/2014 00:00:00",
+                                "end": "7/21/2014 23:59:59",
+                                "label": "Monday"
+                            },
+                            {
+                                "start": "7/22/2014 00:00:00",
+                                "end": "7/22/2014 23:59:59",
+                                "label": "Tuesday"
+                            },
+                            {
+                                "start": "7/23/2014 00:00:00",
+                                "end": "7/23/2014 23:59:59",
+                                "label": "Wednesday"
+                            },
+                            {
+                                "start": "7/24/2014 00:00:00",
+                                "end": "7/24/2014 23:59:59",
+                                "label": "Thursday"
+                            },
+                            {
+                                "start": "7/25/2014 00:00:00",
+                                "end": "7/25/2014 23:59:59",
+                                "label": "Friday"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "fontsize": "12",
+                    "isbold": "1",
+                    "align": "left",
+                    "headertext": "Employee",
+                    "headerfontsize": "14",
+                    "headervalign": "middle",
+                    "headeralign": "left",
+                    "process": [
+                        {
+                            "label": "John S.",
+                            "id": "EMP121"
+                        },
+                        {
+                            "label": "David G.",
+                            "id": "EMP122"
+                        },
+                        {
+                            "label": "Mary P.",
+                            "id": "EMP123"
+                        },
+                        {
+                            "label": "Andrew H.",
+                            "id": "EMP124"
+                        },
+                        {
+                            "label": "Neil M.",
+                            "id": "EMP125"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "showlabels": "1",
+                    "task": [
+                        {
+                            "processid": "EMP121",
+                            "start": "7/21/2014 09:30:00",
+                            "end": "7/21/2014 17:00:00",
+                            "label": "Logo-I"
+                        },
+                        {
+                            "processid": "EMP121",
+                            "start": "7/22/2014 09:30:00",
+                            "end": "7/22/2014 16:30:00",
+                            "label": "Logo-II"
+                        },
+                        {
+                            "processid": "EMP121",
+                            "start": "7/23/2014 14:00:00",
+                            "end": "7/24/2014 16:30:00",
+                            "label": "Website template"
+                        },
+                        {
+                            "processid": "EMP122",
+                            "start": "7/21/2014 10:00:00",
+                            "end": "7/25/2014 14:30:00",
+                            "label": "PHP Blueprint"
+                        },
+                        {
+                            "processid": "EMP123",
+                            "start": "7/21/2014 10:00:00",
+                            "end": "7/21/2014 15:30:00",
+                            "label": "Testing Specification"
+                        },
+                        {
+                            "processid": "EMP123",
+                            "start": "7/22/2014 09:30:00",
+                            "end": "7/22/2014 16:00:00",
+                            "label": "Testing tool research"
+                        },
+                        {
+                            "processid": "EMP123",
+                            "start": "7/23/2014 09:30:00",
+                            "end": "7/25/2014 16:30:00",
+                            "label": "Testing tool integration"
+                        },
+                        {
+                            "processid": "EMP124",
+                            "start": "7/22/2014 09:30:00",
+                            "end": "7/22/2014 16:30:00",
+                            "label": "QA"
+                        },
+                        {
+                            "processid": "EMP124",
+                            "start": "7/23/2014 09:00:00",
+                            "end": "7/23/2014 16:30:00",
+                            "label": "QA"
+                        },
+                        {
+                            "processid": "EMP124",
+                            "start": "7/24/2014 09:30:00",
+                            "end": "7/25/2014 14:30:00",
+                            "label": "QA"
+                        },
+                        {
+                            "processid": "EMP125",
+                            "start": "7/25/2014 15:00:00",
+                            "end": "7/25/2014 16:59:00",
+                            "label": "Weekly Meet"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-gantt-chart-configuring-date-formats-example-2",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-gantt-chart-configuring-date-formats-example-2-snapshot.png"
+    },
+    "gauge-and-widgets-guide-gantt-chart-configuring-task-bars-example-5": {
+        "description": "gantt chart configure",
+        "options": {
+            "type": "gantt",
+            "width": "750",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "mm/dd/yyyy",
+                    "caption": "Social Media Optimization",
+                    "taskBarRoundRadius": "6",
+                    "theme": "fint",
+                    "canvasBorderAlpha": "40",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Q3"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Q4"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Q1"
+                            }
+                        ]
+                    },
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "08/31/2014",
+                                "label": "Aug '14"
+                            },
+                            {
+                                "start": "09/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Sep '14"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "10/31/2014",
+                                "label": "Oct '14"
+                            },
+                            {
+                                "start": "11/01/2014",
+                                "end": "11/30/2014",
+                                "label": "Nov '14"
+                            },
+                            {
+                                "start": "12/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Dec '14"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "01/31/2015",
+                                "label": "Jan '15"
+                            },
+                            {
+                                "start": "02/01/2015",
+                                "end": "02/28/2015",
+                                "label": "Feb '15"
+                            },
+                            {
+                                "start": "03/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Mar '15"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "fontsize": "12",
+                    "isbold": "1",
+                    "align": "left",
+                    "process": [
+                        {
+                            "label": "Identify Customers"
+                        },
+                        {
+                            "label": "Survey 500 Customers"
+                        },
+                        {
+                            "label": "Interpret Requirements"
+                        },
+                        {
+                            "label": "Market Analysis"
+                        },
+                        {
+                            "label": "Brainstorm concepts"
+                        },
+                        {
+                            "label": "Define Ad Requirements"
+                        },
+                        {
+                            "label": "Design & Develop"
+                        },
+                        {
+                            "label": "Mock test"
+                        },
+                        {
+                            "label": "Documentation"
+                        },
+                        {
+                            "label": "Start Campaign"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "task": [
+                        {
+                            "start": "08/04/2014",
+                            "end": "08/10/2014"
+                        },
+                        {
+                            "start": "08/08/2014",
+                            "end": "08/19/2014"
+                        },
+                        {
+                            "start": "08/19/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "08/24/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "09/02/2014",
+                            "end": "09/21/2014"
+                        },
+                        {
+                            "start": "09/21/2014",
+                            "end": "10/06/2014"
+                        },
+                        {
+                            "start": "10/06/2014",
+                            "end": "01/21/2015"
+                        },
+                        {
+                            "start": "01/21/2015",
+                            "end": "02/19/2015"
+                        },
+                        {
+                            "start": "01/28/2015",
+                            "end": "02/24/2015"
+                        },
+                        {
+                            "start": "02/24/2015",
+                            "end": "03/27/2015"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-gantt-chart-configuring-task-bars-example-5",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-gantt-chart-configuring-task-bars-example-5-snapshot.png"
+    },
+    "gauge-and-widgets-guide-gantt-chart-adding-trend-lines-example-2": {
+        "description": "add trendline in gantt chart",
+        "options": {
+            "type": "gantt",
+            "width": "750",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "mm/dd/yyyy",
+                    "caption": "Social Media Optimization",
+                    "subcaption": "Project Plan",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "08/31/2014",
+                                "label": "Aug '14"
+                            },
+                            {
+                                "start": "09/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Sep '14"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "10/31/2014",
+                                "label": "Oct '14"
+                            },
+                            {
+                                "start": "11/01/2014",
+                                "end": "11/30/2014",
+                                "label": "Nov '14"
+                            },
+                            {
+                                "start": "12/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Dec '14"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "01/31/2015",
+                                "label": "Jan '15"
+                            },
+                            {
+                                "start": "02/01/2015",
+                                "end": "02/28/2015",
+                                "label": "Feb '15"
+                            },
+                            {
+                                "start": "03/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Mar '15"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "fontsize": "12",
+                    "isbold": "1",
+                    "align": "left",
+                    "process": [
+                        {
+                            "label": "Identify Customers"
+                        },
+                        {
+                            "label": "Survey 500 Customers"
+                        },
+                        {
+                            "label": "Interpret Requirements"
+                        },
+                        {
+                            "label": "Market Analysis"
+                        },
+                        {
+                            "label": "Brainstorm concepts"
+                        },
+                        {
+                            "label": "Define Ad Requirements"
+                        },
+                        {
+                            "label": "Design & Develop"
+                        },
+                        {
+                            "label": "Mock test"
+                        },
+                        {
+                            "label": "Documentation"
+                        },
+                        {
+                            "label": "Start Campaign"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "task": [
+                        {
+                            "start": "08/04/2014",
+                            "end": "08/10/2014"
+                        },
+                        {
+                            "start": "08/08/2014",
+                            "end": "08/19/2014"
+                        },
+                        {
+                            "start": "08/19/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "08/24/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "09/02/2014",
+                            "end": "09/21/2014"
+                        },
+                        {
+                            "start": "09/21/2014",
+                            "end": "10/06/2014"
+                        },
+                        {
+                            "start": "10/06/2014",
+                            "end": "01/21/2015"
+                        },
+                        {
+                            "start": "01/21/2015",
+                            "end": "02/19/2015"
+                        },
+                        {
+                            "start": "01/28/2015",
+                            "end": "02/24/2015"
+                        },
+                        {
+                            "start": "02/24/2015",
+                            "end": "03/27/2015"
+                        }
+                    ]
+                },
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "start": "12/25/2014",
+                                "end": "12/31/2014",
+                                "displayvalue": "Christmas Week",
+                                "istrendzone": "1",
+                                "alpha": "20",
+                                "color": "#FF5904"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-gantt-chart-adding-trend-lines-example-2",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-gantt-chart-adding-trend-lines-example-2-snapshot.png"
+    },
+    "gauge-and-widgets-guide-led-gauge-configuring-gauge-example-1": {
+        "description": "configure gauge",
+        "options": {
+            "type": "hled",
+            "width": "400",
+            "height": "150",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fuel Level Indicator",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "lowerLimitDisplay": "Empty",
+                    "upperLimitDisplay": "Full",
+                    "numberSuffix": "%",
+                    "valueFontSize": "12",
+                    "showhovereffect": "1",
+                    "tickMarkDistance": "10",
+                    "gaugeFillColor": "#444444",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "45",
+                            "code": "#e44a00"
+                        },
+                        {
+                            "minValue": "45",
+                            "maxValue": "75",
+                            "code": "#f8bd19"
+                        },
+                        {
+                            "minValue": "75",
+                            "maxValue": "100",
+                            "code": "#6baa01"
+                        }
+                    ]
+                },
+                "value": "92"
+            }
+        },
+        "id": "gauge-and-widgets-guide-led-gauge-configuring-gauge-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-led-gauge-configuring-gauge-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-gantt-chart-connecting-tasks-on-chart-example-1": {
+        "description": "connect task in gantt chart",
+        "options": {
+            "type": "gantt",
+            "width": "750",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "mm/dd/yyyy",
+                    "caption": "Social Media Optimization",
+                    "subcaption": "Project Plan",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "08/31/2014",
+                                "label": "Aug '14"
+                            },
+                            {
+                                "start": "09/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Sep '14"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "10/31/2014",
+                                "label": "Oct '14"
+                            },
+                            {
+                                "start": "11/01/2014",
+                                "end": "11/30/2014",
+                                "label": "Nov '14"
+                            },
+                            {
+                                "start": "12/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Dec '14"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "01/31/2015",
+                                "label": "Jan '15"
+                            },
+                            {
+                                "start": "02/01/2015",
+                                "end": "02/28/2015",
+                                "label": "Feb '15"
+                            },
+                            {
+                                "start": "03/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Mar '15"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "fontsize": "12",
+                    "isbold": "1",
+                    "align": "left",
+                    "process": [
+                        {
+                            "id": "CUSTID_1",
+                            "label": "Identify Customers"
+                        },
+                        {
+                            "label": "Survey 500 Customers"
+                        },
+                        {
+                            "label": "Interpret Requirements"
+                        },
+                        {
+                            "label": "Market Analysis"
+                        },
+                        {
+                            "label": "Brainstorm concepts"
+                        },
+                        {
+                            "label": "Define Ad Requirements"
+                        },
+                        {
+                            "label": "Design & Develop"
+                        },
+                        {
+                            "label": "Mock test"
+                        },
+                        {
+                            "label": "Documentation"
+                        },
+                        {
+                            "label": "Start Campaign"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "task": [
+                        {
+                            "id": "1",
+                            "start": "08/04/2014",
+                            "end": "08/10/2014"
+                        },
+                        {
+                            "id": "2",
+                            "start": "08/08/2014",
+                            "end": "08/19/2014"
+                        },
+                        {
+                            "id": "3",
+                            "start": "08/19/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "id": "4",
+                            "start": "08/24/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "id": "5",
+                            "start": "09/02/2014",
+                            "end": "09/21/2014"
+                        },
+                        {
+                            "id": "6",
+                            "start": "09/21/2014",
+                            "end": "10/06/2014"
+                        },
+                        {
+                            "id": "7",
+                            "start": "10/06/2014",
+                            "end": "01/21/2015"
+                        },
+                        {
+                            "id": "8",
+                            "start": "01/21/2015",
+                            "end": "02/19/2015"
+                        },
+                        {
+                            "id": "9",
+                            "start": "01/28/2015",
+                            "end": "02/24/2015"
+                        },
+                        {
+                            "id": "10",
+                            "start": "02/24/2015",
+                            "end": "03/27/2015"
+                        }
+                    ]
+                },
+                "connectors": [
+                    {
+                        "connector": [
+                            {
+                                "fromtaskid": "2",
+                                "totaskid": "3",
+                                "color": "#008ee4",
+                                "thickness": "2"
+                            },
+                            {
+                                "fromtaskid": "4",
+                                "totaskid": "5",
+                                "color": "#008ee4",
+                                "thickness": "2"
+                            },
+                            {
+                                "fromtaskid": "5",
+                                "totaskid": "6",
+                                "color": "#008ee4",
+                                "thickness": "2"
+                            },
+                            {
+                                "fromtaskid": "6",
+                                "totaskid": "7",
+                                "color": "#008ee4",
+                                "thickness": "2"
+                            },
+                            {
+                                "fromtaskid": "7",
+                                "totaskid": "8",
+                                "color": "#008ee4",
+                                "thickness": "2"
+                            },
+                            {
+                                "fromtaskid": "8",
+                                "totaskid": "9",
+                                "fromTaskConnectStart": "1",
+                                "color": "#008ee4",
+                                "thickness": "2"
+                            },
+                            {
+                                "fromtaskid": "9",
+                                "totaskid": "10",
+                                "color": "#008ee4",
+                                "thickness": "2"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-gantt-chart-connecting-tasks-on-chart-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-gantt-chart-connecting-tasks-on-chart-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-gantt-chart-configuring-cosmetics-example-7": {
+        "description": "chart cosmetics",
+        "options": {
+            "type": "gantt",
+            "width": "750",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "mm/dd/yyyy",
+                    "caption": "Social Media Optimization",
+                    "subcaption": "Typical Steps Involved",
+                    "theme": "fint",
+                    "canvasBorderAlpha": "40",
+                    "animation": "0"
+                },
+                "datatable": {
+                    "headervalign": "bottom",
+                    "datacolumn": [
+                        {
+                            "headertext": "Owner",
+                            "headerfontsize": "18",
+                            "headervalign": "bottom",
+                            "headeralign": "left",
+                            "align": "left",
+                            "fontsize": "12",
+                            "text": [
+                                {
+                                    "label": "John"
+                                },
+                                {
+                                    "label": "David"
+                                },
+                                {
+                                    "label": "Mary"
+                                },
+                                {
+                                    "label": "John"
+                                },
+                                {
+                                    "label": "Andrew & Harry"
+                                },
+                                {
+                                    "label": "John & Harry"
+                                },
+                                {
+                                    "label": "Neil & Harry"
+                                },
+                                {
+                                    "label": "Neil & Harry"
+                                },
+                                {
+                                    "label": "Chris"
+                                },
+                                {
+                                    "label": "John & Richard"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Q3"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Q4"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Q1"
+                            }
+                        ]
+                    },
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "08/31/2014",
+                                "label": "Aug '14"
+                            },
+                            {
+                                "start": "09/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Sep '14"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "10/31/2014",
+                                "label": "Oct '14"
+                            },
+                            {
+                                "start": "11/01/2014",
+                                "end": "11/30/2014",
+                                "label": "Nov '14"
+                            },
+                            {
+                                "start": "12/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Dec '14"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "01/31/2015",
+                                "label": "Jan '15"
+                            },
+                            {
+                                "start": "02/01/2015",
+                                "end": "02/28/2015",
+                                "label": "Feb '15"
+                            },
+                            {
+                                "start": "03/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Mar '15"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "fontsize": "12",
+                    "isbold": "1",
+                    "align": "left",
+                    "headerText": "Steps",
+                    "headerFontSize": "20",
+                    "headerVAlign": "bottom",
+                    "headerAlign": "left",
+                    "hoverBandcolor": "#AFFAEC",
+                    "hoverBandAlpha": "30",
+                    "process": [
+                        {
+                            "label": "Identify Customers"
+                        },
+                        {
+                            "label": "Survey 500 Customers"
+                        },
+                        {
+                            "label": "Interpret Requirements"
+                        },
+                        {
+                            "label": "Market Analysis"
+                        },
+                        {
+                            "label": "Brainstorm concepts"
+                        },
+                        {
+                            "label": "Define Ad Requirements"
+                        },
+                        {
+                            "label": "Design & Develop",
+                            "hoverBandcolor": "#F0A4FF",
+                            "hoverBandAlpha": "50"
+                        },
+                        {
+                            "label": "Mock test"
+                        },
+                        {
+                            "label": "Documentation"
+                        },
+                        {
+                            "label": "Start Campaign"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "task": [
+                        {
+                            "start": "08/04/2014",
+                            "end": "08/10/2014"
+                        },
+                        {
+                            "start": "08/08/2014",
+                            "end": "08/19/2014"
+                        },
+                        {
+                            "start": "08/19/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "08/24/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "09/02/2014",
+                            "end": "09/21/2014"
+                        },
+                        {
+                            "start": "09/21/2014",
+                            "end": "10/06/2014"
+                        },
+                        {
+                            "start": "10/06/2014",
+                            "end": "01/21/2015"
+                        },
+                        {
+                            "start": "01/21/2015",
+                            "end": "02/19/2015"
+                        },
+                        {
+                            "start": "01/28/2015",
+                            "end": "02/24/2015"
+                        },
+                        {
+                            "start": "02/24/2015",
+                            "end": "03/27/2015"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-gantt-chart-configuring-cosmetics-example-7",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-gantt-chart-configuring-cosmetics-example-7-snapshot.png"
+    },
+    "gauge-and-widgets-guide-led-gauge-configuring-tick-marks-example-6": {
+        "description": "tick mark test",
+        "options": {
+            "type": "hlineargauge",
+            "width": "400",
+            "height": "170",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Server CPU Utilization",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "numberSuffix": "%",
+                    "chartBottomMargin": "20",
+                    "valueFontSize": "11",
+                    "valueFontBold": "0",
+                    "tickMarkDistance": "5",
+                    "tickValueDistance": "0",
+                    "gaugeFillMix": "{light-10},{light-70},{dark-10}",
+                    "gaugeFillRatio": "40,20,40",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "35",
+                            "label": "Low"
+                        },
+                        {
+                            "minValue": "35",
+                            "maxValue": "70",
+                            "label": "Moderate"
+                        },
+                        {
+                            "minValue": "70",
+                            "maxValue": "100",
+                            "label": "High"
+                        }
+                    ]
+                },
+                "pointers": {
+                    "pointer": [
+                        {
+                            "value": "75"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-led-gauge-configuring-tick-marks-example-6",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-led-gauge-configuring-tick-marks-example-6-snapshot.png"
+    },
+    "gauge-and-widgets-guide-led-gauge-configuring-gauge-example-2": {
+        "description": "configure gauge",
+        "options": {
+            "type": "hled",
+            "width": "300",
+            "height": "200",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Battery Charge Remaining",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "lowerLimitDisplay": "Empty",
+                    "upperLimitDisplay": "Full",
+                    "numberSuffix": "%",
+                    "valueFontSize": "12",
+                    "origW": "300",
+                    "origH": "200",
+                    "ledGap": "0",
+                    "showhovereffect": "1",
+                    "useSameFillColor": "1",
+                    "useSameFillBgColor": "1",
+                    "chartBottomMargin": "20",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "annotations": {
+                    "showbelow": "1",
+                    "groups": [
+                        {
+                            "id": "indicator",
+                            "items": [
+                                {
+                                    "id": "bgRectAngle",
+                                    "type": "rectangle",
+                                    "radius": "5",
+                                    "fillColor": "#333333",
+                                    "x": "$gaugeEndX - 10",
+                                    "tox": "$gaugeEndX + 12",
+                                    "y": "$gaugeCenterY-20",
+                                    "toy": "$gaugeCenterY + 20"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "45",
+                            "code": "#e44a00"
+                        },
+                        {
+                            "minValue": "45",
+                            "maxValue": "75",
+                            "code": "#f8bd19"
+                        },
+                        {
+                            "minValue": "75",
+                            "maxValue": "100",
+                            "code": "#6baa01"
+                        }
+                    ]
+                },
+                "value": "50"
+            }
+        },
+        "id": "gauge-and-widgets-guide-led-gauge-configuring-gauge-example-2",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-led-gauge-configuring-gauge-example-2-snapshot.png"
+    },
+    "gauge-and-widgets-guide-gantt-chart-creating-simple-gantt-chart-example-2": {
+        "description": "simple gantt chart",
+        "options": {
+            "type": "gantt",
+            "width": "750",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "mm/dd/yyyy",
+                    "caption": "Social Media Optimization",
+                    "subcaption": "Typical Steps Involved",
+                    "theme": "fint",
+                    "canvasBorderAlpha": "40",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Q3"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Q4"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Q1"
+                            }
+                        ]
+                    },
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "08/31/2014",
+                                "label": "Aug '14"
+                            },
+                            {
+                                "start": "09/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Sep '14"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "10/31/2014",
+                                "label": "Oct '14"
+                            },
+                            {
+                                "start": "11/01/2014",
+                                "end": "11/30/2014",
+                                "label": "Nov '14"
+                            },
+                            {
+                                "start": "12/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Dec '14"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "01/31/2015",
+                                "label": "Jan '15"
+                            },
+                            {
+                                "start": "02/01/2015",
+                                "end": "02/28/2015",
+                                "label": "Feb '15"
+                            },
+                            {
+                                "start": "03/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Mar '15"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "fontsize": "12",
+                    "isbold": "1",
+                    "align": "right",
+                    "process": [
+                        {
+                            "label": "Identify Customers"
+                        },
+                        {
+                            "label": "Survey 500 Customers"
+                        },
+                        {
+                            "label": "Interpret Requirements"
+                        },
+                        {
+                            "label": "Market Analysis"
+                        },
+                        {
+                            "label": "Brainstorm concepts"
+                        },
+                        {
+                            "label": "Define Ad Requirements"
+                        },
+                        {
+                            "label": "Design & Develop"
+                        },
+                        {
+                            "label": "Mock test"
+                        },
+                        {
+                            "label": "Documentation"
+                        },
+                        {
+                            "label": "Start Campaign"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "task": [
+                        {
+                            "start": "08/04/2014",
+                            "end": "08/10/2014"
+                        },
+                        {
+                            "start": "08/08/2014",
+                            "end": "08/19/2014"
+                        },
+                        {
+                            "start": "08/19/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "08/24/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "09/02/2014",
+                            "end": "09/21/2014"
+                        },
+                        {
+                            "start": "09/21/2014",
+                            "end": "10/06/2014"
+                        },
+                        {
+                            "start": "10/06/2014",
+                            "end": "01/21/2015"
+                        },
+                        {
+                            "start": "01/21/2015",
+                            "end": "02/19/2015"
+                        },
+                        {
+                            "start": "01/28/2015",
+                            "end": "02/24/2015"
+                        },
+                        {
+                            "start": "02/24/2015",
+                            "end": "03/27/2015"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-gantt-chart-creating-simple-gantt-chart-example-2",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-gantt-chart-creating-simple-gantt-chart-example-2-snapshot.png"
+    },
+    "gauge-and-widgets-guide-gantt-chart-configuring-date-formats-example-1": {
+        "description": "configure date format in gantt chart",
+        "options": {
+            "type": "gantt",
+            "width": "650",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "dd/mm/yyyy",
+                    "outputdateformat": "hh12:mn ampm",
+                    "caption": "Development Division - Time Shifts",
+                    "subCaption": "At Bakersfield Central",
+                    "canvasBorderAlpha": "30",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "00:00:00",
+                                "end": "23:59:59",
+                                "label": "Time"
+                            }
+                        ]
+                    },
+                    {
+                        "align": "left",
+                        "category": [
+                            {
+                                "start": "00:00:00",
+                                "end": "02:59:59",
+                                "label": "Midnight"
+                            },
+                            {
+                                "start": "03:00:00",
+                                "end": "05:59:59",
+                                "label": "3 am"
+                            },
+                            {
+                                "start": "06:00:00",
+                                "end": "08:59:59",
+                                "label": "6 am"
+                            },
+                            {
+                                "start": "09:00:00",
+                                "end": "11:59:59",
+                                "label": "9 am"
+                            },
+                            {
+                                "start": "12:00:00",
+                                "end": "14:59:59",
+                                "label": "12 noon"
+                            },
+                            {
+                                "start": "15:00:00",
+                                "end": "17:59:59",
+                                "label": "3 pm"
+                            },
+                            {
+                                "start": "18:00:00",
+                                "end": "20:59:59",
+                                "label": "6 pm"
+                            },
+                            {
+                                "start": "21:00:00",
+                                "end": "23:59:59",
+                                "label": "9 pm"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "fontsize": "12",
+                    "isbold": "1",
+                    "align": "left",
+                    "headertext": "Employee",
+                    "headerfontsize": "14",
+                    "headervalign": "middle",
+                    "headeralign": "left",
+                    "process": [
+                        {
+                            "label": "John.S",
+                            "id": "EMP121"
+                        },
+                        {
+                            "label": "David.G",
+                            "id": "EMP122"
+                        },
+                        {
+                            "label": "Mary.P",
+                            "id": "EMP123"
+                        },
+                        {
+                            "label": "Andrew.H",
+                            "id": "EMP124"
+                        },
+                        {
+                            "label": "Neil.M",
+                            "id": "EMP125"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "showlabels": "1",
+                    "task": [
+                        {
+                            "processid": "EMP121",
+                            "start": "08:00:00",
+                            "end": "12:30:00",
+                            "label": "Morning Shift"
+                        },
+                        {
+                            "processid": "EMP121",
+                            "start": "15:00:00",
+                            "end": "19:30:00",
+                            "label": "Evening Shift"
+                        },
+                        {
+                            "processid": "EMP122",
+                            "start": "10:00:00",
+                            "end": "16:30:00",
+                            "label": "Half Day"
+                        },
+                        {
+                            "processid": "EMP123",
+                            "start": "08:00:00",
+                            "end": "12:00:00",
+                            "label": "Morning Shift"
+                        },
+                        {
+                            "processid": "EMP123",
+                            "start": "15:00:00",
+                            "end": "21:30:00",
+                            "label": "Evening Shift"
+                        },
+                        {
+                            "processid": "EMP124",
+                            "start": "08:00:00",
+                            "end": "20:30:00",
+                            "label": "Full time support"
+                        },
+                        {
+                            "processid": "EMP125",
+                            "start": "10:00:00",
+                            "end": "14:30:00",
+                            "label": "Half Day"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-gantt-chart-configuring-date-formats-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-gantt-chart-configuring-date-formats-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-gantt-chart-configuring-task-bars-example-4": {
+        "description": "configure task bar",
+        "options": {
+            "type": "gantt",
+            "width": "750",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "mm/dd/yyyy",
+                    "caption": "Social Media Optimization",
+                    "theme": "fint",
+                    "canvasBorderAlpha": "40",
+                    "animation": "0"
+                },
+                "datatable": {
+                    "headervalign": "bottom",
+                    "datacolumn": [
+                        {
+                            "headertext": "Owner",
+                            "headerfontsize": "14",
+                            "headervalign": "bottom",
+                            "headeralign": "left",
+                            "align": "left",
+                            "fontsize": "12",
+                            "text": [
+                                {
+                                    "label": " "
+                                },
+                                {
+                                    "label": "John"
+                                },
+                                {
+                                    "label": "David"
+                                },
+                                {
+                                    "label": "Mary"
+                                },
+                                {
+                                    "label": "John"
+                                },
+                                {
+                                    "label": "Andrew & Harry"
+                                },
+                                {
+                                    "label": "John & Harry"
+                                },
+                                {
+                                    "label": " "
+                                },
+                                {
+                                    "label": "Neil & Harry"
+                                },
+                                {
+                                    "label": "Neil & Harry"
+                                },
+                                {
+                                    "label": "Chris"
+                                },
+                                {
+                                    "label": "John & Richard"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Q3"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Q4"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Q1"
+                            }
+                        ]
+                    },
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "08/31/2014",
+                                "label": "Aug '14"
+                            },
+                            {
+                                "start": "09/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Sep '14"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "10/31/2014",
+                                "label": "Oct '14"
+                            },
+                            {
+                                "start": "11/01/2014",
+                                "end": "11/30/2014",
+                                "label": "Nov '14"
+                            },
+                            {
+                                "start": "12/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Dec '14"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "01/31/2015",
+                                "label": "Jan '15"
+                            },
+                            {
+                                "start": "02/01/2015",
+                                "end": "02/28/2015",
+                                "label": "Feb '15"
+                            },
+                            {
+                                "start": "03/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Mar '15"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "fontsize": "12",
+                    "isbold": "1",
+                    "align": "left",
+                    "headerText": "Steps",
+                    "headerFontSize": "14",
+                    "headerVAlign": "bottom",
+                    "headerAlign": "left",
+                    "process": [
+                        {
+                            "label": "Research Phase"
+                        },
+                        {
+                            "label": "Identify Customers"
+                        },
+                        {
+                            "label": "Survey 500 Customers"
+                        },
+                        {
+                            "label": "Interpret Requirements"
+                        },
+                        {
+                            "label": "Market Analysis"
+                        },
+                        {
+                            "label": "Brainstorm concepts"
+                        },
+                        {
+                            "label": "Define Ad Requirements"
+                        },
+                        {
+                            "label": "Production Phase"
+                        },
+                        {
+                            "label": "Design & Develop"
+                        },
+                        {
+                            "label": "Mock test"
+                        },
+                        {
+                            "label": "Documentation"
+                        },
+                        {
+                            "label": "Start Campaign"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "task": [
+                        {
+                            "start": "08/04/2014",
+                            "end": "10/07/2014",
+                            "showAsGroup": "1",
+                            "label": "Research",
+                            "showLabel": "1"
+                        },
+                        {
+                            "start": "08/04/2014",
+                            "end": "08/10/2014"
+                        },
+                        {
+                            "start": "08/08/2014",
+                            "end": "08/19/2014"
+                        },
+                        {
+                            "start": "08/19/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "08/24/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "09/02/2014",
+                            "end": "09/21/2014"
+                        },
+                        {
+                            "start": "09/21/2014",
+                            "end": "10/06/2014"
+                        },
+                        {
+                            "start": "10/07/2014",
+                            "end": "02/25/2015",
+                            "showAsGroup": "1",
+                            "label": "Production",
+                            "showLabel": "1"
+                        },
+                        {
+                            "start": "10/06/2014",
+                            "end": "01/21/2015"
+                        },
+                        {
+                            "start": "01/21/2015",
+                            "end": "02/19/2015"
+                        },
+                        {
+                            "start": "01/28/2015",
+                            "end": "02/24/2015"
+                        },
+                        {
+                            "start": "02/24/2015",
+                            "end": "03/27/2015"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-gantt-chart-configuring-task-bars-example-4",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-gantt-chart-configuring-task-bars-example-4-snapshot.png"
+    },
+    "gauge-and-widgets-guide-gantt-chart-configuring-cosmetics-example-1": {
+        "description": "gantt chart cosmetics",
+        "options": {
+            "type": "gantt",
+            "width": "750",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "mm/dd/yyyy",
+                    "caption": "Social Media Optimization",
+                    "subcaption": "Typical Steps Involved",
+                    "showTaskLabels": "1",
+                    "theme": "fint",
+                    "canvasBorderAlpha": "40",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Q3"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Q4"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Q1"
+                            }
+                        ]
+                    },
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "08/31/2014",
+                                "label": "Aug '14"
+                            },
+                            {
+                                "start": "09/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Sep '14"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "10/31/2014",
+                                "label": "Oct '14"
+                            },
+                            {
+                                "start": "11/01/2014",
+                                "end": "11/30/2014",
+                                "label": "Nov '14"
+                            },
+                            {
+                                "start": "12/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Dec '14"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "01/31/2015",
+                                "label": "Jan '15"
+                            },
+                            {
+                                "start": "02/01/2015",
+                                "end": "02/28/2015",
+                                "label": "Feb '15"
+                            },
+                            {
+                                "start": "03/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Mar '15"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "fontsize": "12",
+                    "isbold": "1",
+                    "align": "right",
+                    "process": [
+                        {
+                            "label": "Identify Customers"
+                        },
+                        {
+                            "label": "Survey 500 Customers"
+                        },
+                        {
+                            "label": "Interpret Requirements"
+                        },
+                        {
+                            "label": "Market Analysis"
+                        },
+                        {
+                            "label": "Brainstorm concepts"
+                        },
+                        {
+                            "label": "Define Ad Requirements"
+                        },
+                        {
+                            "label": "Design & Develop"
+                        },
+                        {
+                            "label": "Mock test"
+                        },
+                        {
+                            "label": "Documentation"
+                        },
+                        {
+                            "label": "Start Campaign"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "task": [
+                        {
+                            "start": "08/04/2014",
+                            "end": "08/10/2014"
+                        },
+                        {
+                            "start": "08/08/2014",
+                            "end": "08/19/2014"
+                        },
+                        {
+                            "start": "08/19/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "08/24/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "09/02/2014",
+                            "end": "09/21/2014"
+                        },
+                        {
+                            "start": "09/21/2014",
+                            "end": "10/06/2014"
+                        },
+                        {
+                            "start": "10/06/2014",
+                            "end": "01/21/2015",
+                            "label": "Promotion Applications"
+                        },
+                        {
+                            "start": "01/21/2015",
+                            "end": "02/19/2015"
+                        },
+                        {
+                            "start": "01/28/2015",
+                            "end": "02/24/2015"
+                        },
+                        {
+                            "start": "02/24/2015",
+                            "end": "03/27/2015"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-gantt-chart-configuring-cosmetics-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-gantt-chart-configuring-cosmetics-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-gantt-chart-configuring-cosmetics-example-6": {
+        "description": "gantt chart configure",
+        "options": {
+            "type": "gantt",
+            "width": "750",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "mm/dd/yyyy",
+                    "caption": "Social Media Optimization",
+                    "subcaption": "Typical Steps Involved",
+                    "hoverBandColor": "#BEFFFF",
+                    "hoverBandAlpha": "40",
+                    "theme": "fint",
+                    "canvasBorderAlpha": "40",
+                    "animation": "0"
+                },
+                "datatable": {
+                    "headervalign": "bottom",
+                    "datacolumn": [
+                        {
+                            "headertext": "Owner",
+                            "headerfontsize": "18",
+                            "headervalign": "bottom",
+                            "headeralign": "left",
+                            "align": "left",
+                            "fontsize": "12",
+                            "text": [
+                                {
+                                    "label": "John"
+                                },
+                                {
+                                    "label": "David"
+                                },
+                                {
+                                    "label": "Mary"
+                                },
+                                {
+                                    "label": "John"
+                                },
+                                {
+                                    "label": "Andrew & Harry"
+                                },
+                                {
+                                    "label": "John & Harry"
+                                },
+                                {
+                                    "label": "Neil & Harry"
+                                },
+                                {
+                                    "label": "Neil & Harry"
+                                },
+                                {
+                                    "label": "Chris"
+                                },
+                                {
+                                    "label": "John & Richard"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Q3"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Q4"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Q1"
+                            }
+                        ]
+                    },
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "08/31/2014",
+                                "label": "Aug '14"
+                            },
+                            {
+                                "start": "09/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Sep '14"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "10/31/2014",
+                                "label": "Oct '14"
+                            },
+                            {
+                                "start": "11/01/2014",
+                                "end": "11/30/2014",
+                                "label": "Nov '14"
+                            },
+                            {
+                                "start": "12/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Dec '14"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "01/31/2015",
+                                "label": "Jan '15"
+                            },
+                            {
+                                "start": "02/01/2015",
+                                "end": "02/28/2015",
+                                "label": "Feb '15"
+                            },
+                            {
+                                "start": "03/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Mar '15"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "fontsize": "12",
+                    "isbold": "1",
+                    "align": "left",
+                    "headerText": "Steps",
+                    "headerFontSize": "20",
+                    "headerVAlign": "bottom",
+                    "headerAlign": "left",
+                    "process": [
+                        {
+                            "label": "Identify Customers"
+                        },
+                        {
+                            "label": "Survey 500 Customers"
+                        },
+                        {
+                            "label": "Interpret Requirements"
+                        },
+                        {
+                            "label": "Market Analysis"
+                        },
+                        {
+                            "label": "Brainstorm concepts"
+                        },
+                        {
+                            "label": "Define Ad Requirements"
+                        },
+                        {
+                            "label": "Design & Develop"
+                        },
+                        {
+                            "label": "Mock test"
+                        },
+                        {
+                            "label": "Documentation"
+                        },
+                        {
+                            "label": "Start Campaign"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "task": [
+                        {
+                            "start": "08/04/2014",
+                            "end": "08/10/2014"
+                        },
+                        {
+                            "start": "08/08/2014",
+                            "end": "08/19/2014"
+                        },
+                        {
+                            "start": "08/19/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "08/24/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "09/02/2014",
+                            "end": "09/21/2014"
+                        },
+                        {
+                            "start": "09/21/2014",
+                            "end": "10/06/2014"
+                        },
+                        {
+                            "start": "10/06/2014",
+                            "end": "01/21/2015"
+                        },
+                        {
+                            "start": "01/21/2015",
+                            "end": "02/19/2015"
+                        },
+                        {
+                            "start": "01/28/2015",
+                            "end": "02/24/2015"
+                        },
+                        {
+                            "start": "02/24/2015",
+                            "end": "03/27/2015"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-gantt-chart-configuring-cosmetics-example-6",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part3/ref-images/gauge-and-widgets-guide-gantt-chart-configuring-cosmetics-example-6-snapshot.png"
+    }
+}

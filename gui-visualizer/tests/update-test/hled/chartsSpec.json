@@ -1,0 +1,143 @@
+{
+    "hled": {
+        "description": "hled Chart from testing GUI ",
+        "id": "hled",
+        "options": {
+            "type": "hled",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showBorder": "1",
+                    "borderColor": "#330000",
+                    "borderThickness": "3",
+                    "borderAlpha": "85",
+                    "bgColor": "#999999,#ffffff",
+                    "bgAlpha": "100",
+                    "bgRatio": "10:90",
+                    "bgAngle": "90",
+                    "bgImage": "http://phoenixinsure.com/images/background/4.jpg",
+                    "bgImageAlpha": "50",
+                    "bgImageVAlign": "middle",
+                    "bgImageHAlign": "left",
+                    "bgImageScale": "22",
+                    "logoURL": "http://www.fusioncharts.com/theme/210x38xlogo.png.pagespeed.ic.KZD9tJ7qIK.png",
+                    "logoPosition": "TR",
+                    "logoAlpha": "50",
+                    "logoScale": "70",
+                    "logoLink": "http://fusioncharts.com",
+                    "useEllipsesWhenOverflow": "0",
+                    "showValue": "1",
+                    "showLimits": "1",
+                    "showShadow": "1",
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Current Year",
+                    "captionAlignment": "left",
+                    "captionOnTop": "1",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "subCaptionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "10",
+                    "setAdaptiveMin": "1",
+                    "upperLimit": "150",
+                    "lowerLimit": "0",
+                    "lowerLimitDisplay": "hello",
+                    "upperLimitDisplay": "world",
+                    "showTickMarks": "1",
+                    "showTickValues": "1",
+                    "adjustTM": "1",
+                    "ticksBelowGauge": "1",
+                    "majorTMNumber": "6",
+                    "majorTMColor": "#ff0000",
+                    "majorTMHeight": "5",
+                    "majorTMThickness": "5",
+                    "minorTMNumber": "6",
+                    "minorTMHeight": "3",
+                    "minorTMThickness": "2",
+                    "tickMarkDistance": "2",
+                    "tickValueDistance": "8",
+                    "tickValueStep": "1",
+                    "numberprefix": "$",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "FF0000"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00"
+                        }
+                    ]
+                },
+                "value": "102"
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "numberprefix": "$",
+                            "showvalues": "1",
+                            "animation": "0",
+                            "ledSize": "5",
+                            "ledGap": "3",
+                            "useSameFillColor": "#ff0000",
+                            "useSameFillBgColor": "#00FF00",
+                            "baseFont": "times",
+                            "baseFontSize": "10",
+                            "baseFontColor": "#ff0000",
+                            "showToolTip": "1",
+                            "toolTipBgColor": "#FFFF00",
+                            "toolTipColor": "#ff0000",
+                            "toolTipBorderColor": "#66FF66",
+                            "showToolTipShadow": "1",
+                            "gaugeFillColor": "#FF00FF",
+                            "showGaugeBorder": "1",
+                            "gaugeBorderColor": "#0099FF",
+                            "gaugeBorderThickness": "6",
+                            "gaugeBorderAlpha": "100"
+                        },
+                        "colorrange": {
+                            "color": [
+                                {
+                                    "minvalue": "0",
+                                    "maxvalue": "60",
+                                    "code": "FF0000"
+                                },
+                                {
+                                    "minvalue": "60",
+                                    "maxvalue": "90",
+                                    "code": "FFFF00"
+                                },
+                                {
+                                    "minvalue": "90",
+                                    "maxvalue": "120",
+                                    "code": "00FF00"
+                                }
+                            ]
+                        },
+                        "value": "102"
+                    }
+                ]
+            }
+        ]
+    }
+}

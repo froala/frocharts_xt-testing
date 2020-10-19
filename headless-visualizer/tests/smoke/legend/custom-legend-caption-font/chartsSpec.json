@@ -1,0 +1,2556 @@
+{
+    "legend_singe_series": {
+        "description": "",
+        "options": {
+            "type": "column2d",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0",
+                    "legendPosition": "bottom",
+                    "legendCaption": "This is a Legend Caption",
+                    "legendCaptionBold": "1",
+                    "legendCaptionFont": "Arial",
+                    "legendCaptionFontSize": "14",
+                    "legendCaptionFontColor": "#333333",
+                    "legendCaptionAlignment": "left",
+                    "legendItemFontBold": "0",
+                    "legendItemFont": "Arial",
+                    "legendItemFontSize": "11",
+                    "legendItemFontColor": "#666666"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "istrendzone": "1",
+                                "valueonright": "1",
+                                "tooltext": "AYAN",
+                                "endvalue": "900000",
+                                "color": "009933",
+                                "displayvalue": "Target",
+                                "showontop": "1",
+                                "thickness": "5"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/legend/custom-legend-caption-font/ref-images/legend_singe_series-snapshot.png",
+        "id": "legend_singe_series"
+    },
+    "legend_pie_series": {
+        "description": "",
+        "options": {
+            "type": "pie2d",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0",
+                    "showLegend": "1",
+                    "legendPosition": "bottom",
+                    "legendCaption": "This is a Legend Caption",
+                    "legendCaptionBold": "1",
+                    "legendCaptionFont": "Arial",
+                    "legendCaptionFontSize": "14",
+                    "legendCaptionFontColor": "#333333",
+                    "legendCaptionAlignment": "left",
+                    "legendItemFontBold": "0",
+                    "legendItemFont": "Arial",
+                    "legendItemFontSize": "11",
+                    "legendItemFontColor": "#666666"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "istrendzone": "1",
+                                "valueonright": "1",
+                                "tooltext": "AYAN",
+                                "endvalue": "900000",
+                                "color": "009933",
+                                "displayvalue": "Target",
+                                "showontop": "1",
+                                "thickness": "5"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/legend/custom-legend-caption-font/ref-images/legend_pie_series-snapshot.png",
+        "id": "legend_pie_series"
+    },
+    "legend_multi_series": {
+        "description": "",
+        "options": {
+            "type": "msarea",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "animation": "0",
+                    "legendPosition": "bottom",
+                    "legendCaption": "This is a Legend Caption",
+                    "legendCaptionBold": "1",
+                    "legendCaptionFont": "Arial",
+                    "legendCaptionFontSize": "9",
+                    "legendCaptionFontColor": "#333333",
+                    "legendCaptionAlignment": "left",
+                    "legendItemFontBold": "0",
+                    "legendItemFont": "Arial",
+                    "legendItemFontSize": "11",
+                    "legendItemFontColor": "#666666"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "26000",
+                                "color": "91C728",
+                                "displayvalue": "Target",
+                                "showontop": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/legend/custom-legend-caption-font/ref-images/legend_multi_series-snapshot.png",
+        "id": "legend_multi_series"
+    },
+    "legend_xy_plotcharts": {
+        "description": "",
+        "options": {
+            "type": "bubble",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "2",
+                    "caption": "Server Performance",
+                    "yaxisname": "Response Time (sec)",
+                    "xaxisname": "Server Load (TPS)",
+                    "xaxismaxvalue": "100",
+                    "xaxisminvalue": "20",
+                    "yaxismaxvalue": "7",
+                    "animation": "0",
+                    "legendPosition": "bottom",
+                    "legendCaption": "This is a Legend Caption",
+                    "legendCaptionBold": "1",
+                    "legendCaptionFont": "Arial",
+                    "legendCaptionFontSize": "14",
+                    "legendCaptionFontColor": "#333333",
+                    "legendCaptionAlignment": "left",
+                    "legendItemFontBold": "0",
+                    "legendItemFont": "Arial",
+                    "legendItemFontSize": "11",
+                    "legendItemFontColor": "#666666"
+                },
+                "categories": [
+                    {
+                        "verticallinecolor": "666666",
+                        "verticallinethickness": "1",
+                        "category": [
+                            {
+                                "label": "20",
+                                "x": "20",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "30",
+                                "x": "30",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "40",
+                                "x": "40",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "50",
+                                "x": "50",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "60",
+                                "x": "60",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "70",
+                                "x": "70",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "80",
+                                "x": "80",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "90",
+                                "x": "90",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "100",
+                                "x": "100",
+                                "showverticalline": "0"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "drawline": "1",
+                        "seriesname": "Server 1",
+                        "color": "009900",
+                        "anchorsides": "3",
+                        "anchorradius": "4",
+                        "anchorbgcolor": "D5FFD5",
+                        "anchorbordercolor": "009900",
+                        "data": [
+                            {
+                                "y": "2.4",
+                                "x": "21"
+                            },
+                            {
+                                "y": "3.5",
+                                "x": "32"
+                            },
+                            {
+                                "y": "2.5",
+                                "x": "43"
+                            },
+                            {
+                                "y": "4.1",
+                                "x": "48"
+                            },
+                            {
+                                "y": "3.5",
+                                "x": "50"
+                            },
+                            {
+                                "y": "4.6",
+                                "x": "56"
+                            },
+                            {
+                                "y": "4.8",
+                                "x": "59"
+                            },
+                            {
+                                "y": "4.9",
+                                "x": "73"
+                            },
+                            {
+                                "y": "4.6",
+                                "x": "89"
+                            },
+                            {
+                                "y": "4.2",
+                                "x": "93"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Server 2",
+                        "color": "0000FF",
+                        "anchorsides": "4",
+                        "anchorradius": "4",
+                        "anchorbgcolor": "C6C6FF",
+                        "anchorbordercolor": "0000FF",
+                        "data": [
+                            {
+                                "y": "1.4",
+                                "x": "23"
+                            },
+                            {
+                                "y": "1.5",
+                                "x": "29"
+                            },
+                            {
+                                "y": "1.5",
+                                "x": "33"
+                            },
+                            {
+                                "y": "1.1",
+                                "x": "41"
+                            },
+                            {
+                                "y": "1.5",
+                                "x": "47"
+                            },
+                            {
+                                "y": "1.6",
+                                "x": "49"
+                            },
+                            {
+                                "y": "1.8",
+                                "x": "51"
+                            },
+                            {
+                                "y": "1.9",
+                                "x": "53"
+                            },
+                            {
+                                "y": "1.6",
+                                "x": "57"
+                            },
+                            {
+                                "y": "1.2",
+                                "x": "58"
+                            },
+                            {
+                                "y": "1.9",
+                                "x": "61"
+                            },
+                            {
+                                "y": "1.1",
+                                "x": "63"
+                            },
+                            {
+                                "y": "1.9",
+                                "x": "64"
+                            },
+                            {
+                                "y": "1.7",
+                                "x": "71"
+                            },
+                            {
+                                "y": "1.1",
+                                "x": "77"
+                            },
+                            {
+                                "y": "1.3",
+                                "x": "79"
+                            },
+                            {
+                                "y": "1.7",
+                                "x": "83"
+                            },
+                            {
+                                "y": "1.8",
+                                "x": "89"
+                            },
+                            {
+                                "y": "1.9",
+                                "x": "91"
+                            },
+                            {
+                                "y": "1.0",
+                                "x": "93"
+                            }
+                        ]
+                    }
+                ],
+                "vtrendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "20",
+                                "endvalue": "65",
+                                "alpha": "5",
+                                "color": "00FF00"
+                            },
+                            {
+                                "startvalue": "65",
+                                "endvalue": "75",
+                                "alpha": "15",
+                                "color": "FFFF00"
+                            },
+                            {
+                                "startvalue": "75",
+                                "endvalue": "100",
+                                "alpha": "15",
+                                "color": "FF0000"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "5.2",
+                                "displayvalue": "Check",
+                                "linethickness": "2",
+                                "color": "FF0000",
+                                "valueonright": "1",
+                                "dashed": "1",
+                                "dashgap": "5"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/legend/custom-legend-caption-font/ref-images/legend_xy_plotcharts-snapshot.png",
+        "id": "legend_xy_plotcharts"
+    },
+    "legend_zoomline": {
+        "description": "",
+        "options": {
+            "type": "zoomline",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "compactdatamode": "1",
+                    "dataseparator": "|",
+                    "animation": "0",
+                    "legendPosition": "bottom",
+                    "legendCaption": "This is a Legend Caption",
+                    "legendCaptionBold": "1",
+                    "legendCaptionFont": "Arial",
+                    "legendCaptionFontSize": "14",
+                    "legendCaptionFontColor": "#333333",
+                    "legendCaptionAlignment": "left",
+                    "legendItemFontBold": "0",
+                    "legendItemFont": "Arial",
+                    "legendItemFontSize": "11",
+                    "legendItemFontColor": "#666666"
+                },
+                "categories": [
+                    {
+                        "category": "Label 1|Label 2|Label 3|Label 4|Label 5|Label 6|Label 7|Label 8|Label 9|Label 10|Label 11|Label 12|Label 13|Label 14|Label 15|Label 16|Label 17|Label 18|Label 19|Label 20|Label 21|Label 22|Label 23|Label 24|Label 25|Label 26|Label 27|Label 28|Label 29|Label 30|Label 31|Label 32|Label 33|Label 34|Label 35|Label 36|Label 37|Label 38|Label 39|Label 40|Label 41|Label 42|Label 43|Label 44|Label 45|Label 46|Label 47|Label 48|Label 49|Label 50"
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Series 1",
+                        "color": "AFD8F8",
+                        "data": "182|236|17|406|676|346|109|644|421|484|692|246|856|125|399|418|58|552|236|511|767|926|420|735|584|352|952|320|170|536|487|675|329|411|886|226|17|642|477|50|274|542|387|471|878|1|991|919|298|914"
+                    },
+                    {
+                        "seriesname": "Series 2",
+                        "color": "F6BD0F",
+                        "data": "294|170|450|120|844|703|599|579|771|318|57|841|740|440|327|92|683|389|849|521|675|980|112|972|434|493|653|314|676|350|464|286|427|5|579|809|338|819|734|821|686|58|587|491|400|185|505|460|412|874"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/legend/custom-legend-caption-font/ref-images/legend_zoomline-snapshot.png",
+        "id": "legend_zoomline"
+    },
+    "legend_ms_axis_line": {
+        "description": "",
+        "options": {
+            "type": "multiaxisline",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Power Generator",
+                    "xaxisname": "Time",
+                    "showvalues": "0",
+                    "divlinealpha": "100",
+                    "numvdivlines": "4",
+                    "vdivlinealpha": "0",
+                    "showalternatevgridcolor": "1",
+                    "alternatevgridalpha": "5",
+                    "animation": "0",
+                    "legendPosition": "bottom",
+                    "legendCaption": "This is a Legend Caption",
+                    "legendCaptionBold": "1",
+                    "legendCaptionFont": "Arial",
+                    "legendCaptionFontSize": "14",
+                    "legendCaptionFontColor": "#333333",
+                    "legendCaptionAlignment": "left",
+                    "legendItemFontBold": "0",
+                    "legendItemFont": "Arial",
+                    "legendItemFontSize": "11",
+                    "legendItemFontColor": "#666666"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "00:00s"
+                            },
+                            {
+                                "label": "00:04s"
+                            },
+                            {
+                                "label": "00:08s"
+                            },
+                            {
+                                "label": "00:12s"
+                            },
+                            {
+                                "label": "00:16s"
+                            },
+                            {
+                                "label": "00:20s"
+                            }
+                        ]
+                    }
+                ],
+                "axis": [
+                    {
+                        "title": "Power",
+                        "titlepos": "left",
+                        "tickwidth": "10",
+                        "divlineisdashed": "1",
+                        "dataset": [
+                            {
+                                "seriesname": "Power [W]",
+                                "data": [
+                                    {
+                                        "value": "6"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "33"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Temp.",
+                        "titlepos": "left",
+                        "numdivlines": "14",
+                        "tickwidth": "10",
+                        "divlineisdashed": "1",
+                        "dataset": [
+                            {
+                                "seriesname": "Temperature",
+                                "data": [
+                                    {
+                                        "value": "296"
+                                    },
+                                    {
+                                        "value": "311"
+                                    },
+                                    {
+                                        "value": "336"
+                                    },
+                                    {
+                                        "value": "371"
+                                    },
+                                    {
+                                        "value": "389"
+                                    },
+                                    {
+                                        "value": "393"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Speed[RPM]",
+                        "titlepos": "RIGHT",
+                        "axisonleft": "0",
+                        "numdivlines": "10",
+                        "tickwidth": "10",
+                        "divlineisdashed": "1",
+                        "dataset": [
+                            {
+                                "seriesname": "Speed",
+                                "data": [
+                                    {
+                                        "value": "1"
+                                    },
+                                    {
+                                        "value": "11"
+                                    },
+                                    {
+                                        "value": "36"
+                                    },
+                                    {
+                                        "value": "49"
+                                    },
+                                    {
+                                        "value": "68"
+                                    },
+                                    {
+                                        "value": "88"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/legend/custom-legend-caption-font/ref-images/legend_ms_axis_line-snapshot.png",
+        "id": "legend_ms_axis_line"
+    },
+    "legend_heatmap": {
+        "description": "",
+        "options": {
+            "type": "heatmap",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Weekly Percentage",
+                    "subcaption": "In percentage",
+                    "animation": "0",
+                    "legendPosition": "bottom",
+                    "legendCaption": "This is a Legend Caption",
+                    "legendCaptionBold": "1",
+                    "legendCaptionFont": "Arial",
+                    "legendCaptionFontSize": "14",
+                    "legendCaptionFontColor": "#333333",
+                    "legendCaptionAlignment": "left",
+                    "legendItemFontBold": "0",
+                    "legendItemFont": "Arial",
+                    "legendItemFontSize": "11",
+                    "legendItemFontColor": "#666666"
+                },
+                "rows": {
+                    "row": [
+                        {
+                            "id": "Google",
+                            "label": "Google US"
+                        },
+                        {
+                            "id": "Yahoo",
+                            "label": "Yahoo US"
+                        },
+                        {
+                            "id": "Microsoft",
+                            "label": "Microsoft US"
+                        }
+                    ]
+                },
+                "columns": {
+                    "column": [
+                        {
+                            "id": "MON",
+                            "label": "Monday"
+                        },
+                        {
+                            "id": "TUE",
+                            "label": "Tuesday"
+                        },
+                        {
+                            "id": "WED",
+                            "label": "Wednesday"
+                        },
+                        {
+                            "id": "THU",
+                            "label": "Thursday"
+                        },
+                        {
+                            "id": "FRI",
+                            "label": "Friday"
+                        }
+                    ]
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Mon",
+                                "value": "0"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Tue",
+                                "value": "71"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Wed",
+                                "value": "70"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Thu",
+                                "value": "3"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Fri",
+                                "value": "79"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Mon",
+                                "value": "68"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Tue",
+                                "value": "5"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Wed",
+                                "value": "95"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Thu",
+                                "value": "-10"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Fri",
+                                "value": "55.98"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Mon",
+                                "value": "98"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Tue",
+                                "value": "8"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Wed",
+                                "value": "123"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Thu",
+                                "value": "79"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Fri",
+                                "value": "39"
+                            }
+                        ]
+                    }
+                ],
+                "colorrange": {
+                    "mapbypercent": "1",
+                    "gradient": "1",
+                    "minvalue": "0",
+                    "code": "00CCFF",
+                    "startlabel": "Poor",
+                    "endlabel": "Good",
+                    "color": [
+                        {
+                            "code": "66ADD9",
+                            "maxvalue": "30",
+                            "label": "BAD"
+                        },
+                        {
+                            "code": "F2CF63",
+                            "maxvalue": "70",
+                            "label": "AVERAGE"
+                        },
+                        {
+                            "code": "D99036",
+                            "maxvalue": "100"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/legend/custom-legend-caption-font/ref-images/legend_heatmap-snapshot.png",
+        "id": "legend_heatmap"
+    },
+    "legend_map": {
+        "description": "",
+        "options": {
+            "type": "usa",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "animation": "0",
+                    "showbevel": "0",
+                    "usehovercolor": "1",
+                    "canvasbordercolor": "FFFFFF",
+                    "bordercolor": "FFFFFF",
+                    "showlegend": "1",
+                    "showshadow": "0",
+                    "caption": "Website Visits for the month of Jan 2014",
+                    "connectorcolor": "000000",
+                    "fillalpha": "80",
+                    "hovercolor": "CCCCCC",
+                    "showborder": "0",
+                    "legendPosition": "bottom",
+                    "legendCaption": "This is a Legend Caption",
+                    "legendCaptionBold": "1",
+                    "legendCaptionFont": "Arial",
+                    "legendCaptionFontSize": "14",
+                    "legendCaptionFontColor": "#333333",
+                    "legendCaptionAlignment": "left",
+                    "legendItemFontBold": "0",
+                    "legendItemFont": "Arial",
+                    "legendItemFontSize": "11",
+                    "legendItemFontColor": "#666666"
+                },
+                "colorrange": {
+                    "minvalue": "0",
+                    "startlabel": "Low",
+                    "endlabel": "High",
+                    "code": "e44a00",
+                    "gradient": "1",
+                    "color": [
+                        {
+                            "maxvalue": "30000",
+                            "displayvalue": "Average",
+                            "code": "f8bd19"
+                        },
+                        {
+                            "maxvalue": "100000",
+                            "code": "6baa01"
+                        }
+                    ]
+                },
+                "data": [
+                    {
+                        "id": "HI",
+                        "value": "4126"
+                    },
+                    {
+                        "id": "DC",
+                        "value": "1650"
+                    },
+                    {
+                        "id": "MD",
+                        "value": "1271"
+                    },
+                    {
+                        "id": "DE",
+                        "value": "781"
+                    },
+                    {
+                        "id": "RI",
+                        "value": "3470"
+                    },
+                    {
+                        "id": "WA",
+                        "value": "33008"
+                    },
+                    {
+                        "id": "OR",
+                        "value": "30739"
+                    },
+                    {
+                        "id": "CA",
+                        "value": "66379"
+                    },
+                    {
+                        "id": "AK",
+                        "value": "60483"
+                    },
+                    {
+                        "id": "ID",
+                        "value": "55668"
+                    },
+                    {
+                        "id": "NV",
+                        "value": "41103"
+                    },
+                    {
+                        "id": "AZ",
+                        "value": "60734"
+                    },
+                    {
+                        "id": "MT",
+                        "value": "71734"
+                    },
+                    {
+                        "id": "WY",
+                        "value": "53080"
+                    },
+                    {
+                        "id": "UT",
+                        "value": "51787"
+                    },
+                    {
+                        "id": "CO",
+                        "value": "30920"
+                    },
+                    {
+                        "id": "NM",
+                        "value": "71310"
+                    },
+                    {
+                        "id": "ND",
+                        "value": "34730"
+                    },
+                    {
+                        "id": "SD",
+                        "value": "47767"
+                    },
+                    {
+                        "id": "NE",
+                        "value": "67079"
+                    },
+                    {
+                        "id": "KS",
+                        "value": "49787"
+                    },
+                    {
+                        "id": "OK",
+                        "value": "46404"
+                    },
+                    {
+                        "id": "TX",
+                        "value": "50346"
+                    },
+                    {
+                        "id": "MN",
+                        "value": "35592"
+                    },
+                    {
+                        "id": "IA",
+                        "value": "71403"
+                    },
+                    {
+                        "id": "MO",
+                        "value": "63982"
+                    },
+                    {
+                        "id": "AR",
+                        "value": "60027"
+                    },
+                    {
+                        "id": "LA",
+                        "value": "71848"
+                    },
+                    {
+                        "id": "WI",
+                        "value": "54923"
+                    },
+                    {
+                        "id": "IL",
+                        "value": "63598"
+                    },
+                    {
+                        "id": "KY",
+                        "value": "48067"
+                    },
+                    {
+                        "id": "TN",
+                        "value": "33789"
+                    },
+                    {
+                        "id": "MS",
+                        "value": "71505"
+                    },
+                    {
+                        "id": "AL",
+                        "value": "75428"
+                    },
+                    {
+                        "id": "GA",
+                        "value": "75817"
+                    },
+                    {
+                        "id": "MI",
+                        "value": "74763"
+                    },
+                    {
+                        "id": "IN",
+                        "value": "37076"
+                    },
+                    {
+                        "id": "OH",
+                        "value": "70348"
+                    },
+                    {
+                        "id": "PA",
+                        "value": "60292"
+                    },
+                    {
+                        "id": "NY",
+                        "value": "46402"
+                    },
+                    {
+                        "id": "VT",
+                        "value": "32394"
+                    },
+                    {
+                        "id": "NH",
+                        "value": "53627"
+                    },
+                    {
+                        "id": "ME",
+                        "value": "39001"
+                    },
+                    {
+                        "id": "MA",
+                        "value": "52265"
+                    },
+                    {
+                        "id": "CT",
+                        "value": "60031"
+                    },
+                    {
+                        "id": "NJ",
+                        "value": "86966"
+                    },
+                    {
+                        "id": "WV",
+                        "value": "94811"
+                    },
+                    {
+                        "id": "VA",
+                        "value": "84322"
+                    },
+                    {
+                        "id": "NC",
+                        "value": "85535"
+                    },
+                    {
+                        "id": "SC",
+                        "value": "81732"
+                    },
+                    {
+                        "id": "FL",
+                        "value": "81732"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/legend/custom-legend-caption-font/ref-images/legend_map-snapshot.png",
+        "id": "legend_map"
+    },
+    "legend_right_singe_series": {
+        "description": "",
+        "options": {
+            "type": "column2d",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0",
+                    "legendPosition": "right",
+                    "legendCaption": "This is a Legend Caption",
+                    "legendCaptionBold": "1",
+                    "legendCaptionFont": "Arial",
+                    "legendCaptionFontSize": "14",
+                    "legendCaptionFontColor": "#333333",
+                    "legendCaptionAlignment": "left",
+                    "legendItemFontBold": "0",
+                    "legendItemFont": "Arial",
+                    "legendItemFontSize": "11",
+                    "legendItemFontColor": "#666666"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "istrendzone": "1",
+                                "valueonright": "1",
+                                "tooltext": "AYAN",
+                                "endvalue": "900000",
+                                "color": "009933",
+                                "displayvalue": "Target",
+                                "showontop": "1",
+                                "thickness": "5"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/legend/custom-legend-caption-font/ref-images/legend_right_singe_series-snapshot.png",
+        "id": "legend_right_singe_series"
+    },
+    "right_legend_pie_series": {
+        "description": "",
+        "options": {
+            "type": "pie2d",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0",
+                    "showlegend": "1",
+                    "legendPosition": "right",
+                    "legendCaption": "This is a Legend Caption",
+                    "legendCaptionBold": "1",
+                    "legendCaptionFont": "Arial",
+                    "legendCaptionFontSize": "14",
+                    "legendCaptionFontColor": "#333333",
+                    "legendCaptionAlignment": "left",
+                    "legendItemFontBold": "0",
+                    "legendItemFont": "Arial",
+                    "legendItemFontSize": "11",
+                    "legendItemFontColor": "#666666"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "istrendzone": "1",
+                                "valueonright": "1",
+                                "tooltext": "AYAN",
+                                "endvalue": "900000",
+                                "color": "009933",
+                                "displayvalue": "Target",
+                                "showontop": "1",
+                                "thickness": "5"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/legend/custom-legend-caption-font/ref-images/right_legend_pie_series-snapshot.png",
+        "id": "right_legend_pie_series"
+    },
+    "right_legend_multi_series": {
+        "description": "",
+        "options": {
+            "type": "msarea",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "animation": "0",
+                    "legendPosition": "right",
+                    "legendCaption": "This is a Legend Caption",
+                    "legendCaptionBold": "1",
+                    "legendCaptionFont": "Arial",
+                    "legendCaptionFontSize": "14",
+                    "legendCaptionFontColor": "#333333",
+                    "legendCaptionAlignment": "left",
+                    "legendItemFontBold": "0",
+                    "legendItemFont": "Arial",
+                    "legendItemFontSize": "11",
+                    "legendItemFontColor": "#666666"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "26000",
+                                "color": "91C728",
+                                "displayvalue": "Target",
+                                "showontop": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/legend/custom-legend-caption-font/ref-images/right_legend_multi_series-snapshot.png",
+        "id": "right_legend_multi_series"
+    },
+    "right_legend_xy_plotcharts": {
+        "description": "",
+        "options": {
+            "type": "bubble",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "2",
+                    "caption": "Server Performance",
+                    "yaxisname": "Response Time (sec)",
+                    "xaxisname": "Server Load (TPS)",
+                    "xaxismaxvalue": "100",
+                    "xaxisminvalue": "20",
+                    "yaxismaxvalue": "7",
+                    "animation": "0",
+                    "legendPosition": "right",
+                    "legendCaption": "This is a Legend Caption",
+                    "legendCaptionBold": "1",
+                    "legendCaptionFont": "Arial",
+                    "legendCaptionFontSize": "14",
+                    "legendCaptionFontColor": "#333333",
+                    "legendCaptionAlignment": "left",
+                    "legendItemFontBold": "0",
+                    "legendItemFont": "Arial",
+                    "legendItemFontSize": "11",
+                    "legendItemFontColor": "#666666"
+                },
+                "categories": [
+                    {
+                        "verticallinecolor": "666666",
+                        "verticallinethickness": "1",
+                        "category": [
+                            {
+                                "label": "20",
+                                "x": "20",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "30",
+                                "x": "30",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "40",
+                                "x": "40",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "50",
+                                "x": "50",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "60",
+                                "x": "60",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "70",
+                                "x": "70",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "80",
+                                "x": "80",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "90",
+                                "x": "90",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "100",
+                                "x": "100",
+                                "showverticalline": "0"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "drawline": "1",
+                        "seriesname": "Server 1",
+                        "color": "009900",
+                        "anchorsides": "3",
+                        "anchorradius": "4",
+                        "anchorbgcolor": "D5FFD5",
+                        "anchorbordercolor": "009900",
+                        "data": [
+                            {
+                                "y": "2.4",
+                                "x": "21"
+                            },
+                            {
+                                "y": "3.5",
+                                "x": "32"
+                            },
+                            {
+                                "y": "2.5",
+                                "x": "43"
+                            },
+                            {
+                                "y": "4.1",
+                                "x": "48"
+                            },
+                            {
+                                "y": "3.5",
+                                "x": "50"
+                            },
+                            {
+                                "y": "4.6",
+                                "x": "56"
+                            },
+                            {
+                                "y": "4.8",
+                                "x": "59"
+                            },
+                            {
+                                "y": "4.9",
+                                "x": "73"
+                            },
+                            {
+                                "y": "4.6",
+                                "x": "89"
+                            },
+                            {
+                                "y": "4.2",
+                                "x": "93"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Server 2",
+                        "color": "0000FF",
+                        "anchorsides": "4",
+                        "anchorradius": "4",
+                        "anchorbgcolor": "C6C6FF",
+                        "anchorbordercolor": "0000FF",
+                        "data": [
+                            {
+                                "y": "1.4",
+                                "x": "23"
+                            },
+                            {
+                                "y": "1.5",
+                                "x": "29"
+                            },
+                            {
+                                "y": "1.5",
+                                "x": "33"
+                            },
+                            {
+                                "y": "1.1",
+                                "x": "41"
+                            },
+                            {
+                                "y": "1.5",
+                                "x": "47"
+                            },
+                            {
+                                "y": "1.6",
+                                "x": "49"
+                            },
+                            {
+                                "y": "1.8",
+                                "x": "51"
+                            },
+                            {
+                                "y": "1.9",
+                                "x": "53"
+                            },
+                            {
+                                "y": "1.6",
+                                "x": "57"
+                            },
+                            {
+                                "y": "1.2",
+                                "x": "58"
+                            },
+                            {
+                                "y": "1.9",
+                                "x": "61"
+                            },
+                            {
+                                "y": "1.1",
+                                "x": "63"
+                            },
+                            {
+                                "y": "1.9",
+                                "x": "64"
+                            },
+                            {
+                                "y": "1.7",
+                                "x": "71"
+                            },
+                            {
+                                "y": "1.1",
+                                "x": "77"
+                            },
+                            {
+                                "y": "1.3",
+                                "x": "79"
+                            },
+                            {
+                                "y": "1.7",
+                                "x": "83"
+                            },
+                            {
+                                "y": "1.8",
+                                "x": "89"
+                            },
+                            {
+                                "y": "1.9",
+                                "x": "91"
+                            },
+                            {
+                                "y": "1.0",
+                                "x": "93"
+                            }
+                        ]
+                    }
+                ],
+                "vtrendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "20",
+                                "endvalue": "65",
+                                "alpha": "5",
+                                "color": "00FF00"
+                            },
+                            {
+                                "startvalue": "65",
+                                "endvalue": "75",
+                                "alpha": "15",
+                                "color": "FFFF00"
+                            },
+                            {
+                                "startvalue": "75",
+                                "endvalue": "100",
+                                "alpha": "15",
+                                "color": "FF0000"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "5.2",
+                                "displayvalue": "Check",
+                                "linethickness": "2",
+                                "color": "FF0000",
+                                "valueonright": "1",
+                                "dashed": "1",
+                                "dashgap": "5"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/legend/custom-legend-caption-font/ref-images/right_legend_xy_plotcharts-snapshot.png",
+        "id": "right_legend_xy_plotcharts"
+    },
+    "right_legend_zoomline": {
+        "description": "",
+        "options": {
+            "type": "zoomline",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "compactdatamode": "1",
+                    "dataseparator": "|",
+                    "animation": "0",
+                    "legendPosition": "right",
+                    "legendCaption": "This is a Legend Caption",
+                    "legendCaptionBold": "1",
+                    "legendCaptionFont": "Arial",
+                    "legendCaptionFontSize": "14",
+                    "legendCaptionFontColor": "#333333",
+                    "legendCaptionAlignment": "left",
+                    "legendItemFontBold": "0",
+                    "legendItemFont": "Arial",
+                    "legendItemFontSize": "11",
+                    "legendItemFontColor": "#666666"
+                },
+                "categories": [
+                    {
+                        "category": "Label 1|Label 2|Label 3|Label 4|Label 5|Label 6|Label 7|Label 8|Label 9|Label 10|Label 11|Label 12|Label 13|Label 14|Label 15|Label 16|Label 17|Label 18|Label 19|Label 20|Label 21|Label 22|Label 23|Label 24|Label 25|Label 26|Label 27|Label 28|Label 29|Label 30|Label 31|Label 32|Label 33|Label 34|Label 35|Label 36|Label 37|Label 38|Label 39|Label 40|Label 41|Label 42|Label 43|Label 44|Label 45|Label 46|Label 47|Label 48|Label 49|Label 50"
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Series 1",
+                        "color": "AFD8F8",
+                        "data": "182|236|17|406|676|346|109|644|421|484|692|246|856|125|399|418|58|552|236|511|767|926|420|735|584|352|952|320|170|536|487|675|329|411|886|226|17|642|477|50|274|542|387|471|878|1|991|919|298|914"
+                    },
+                    {
+                        "seriesname": "Series 2",
+                        "color": "F6BD0F",
+                        "data": "294|170|450|120|844|703|599|579|771|318|57|841|740|440|327|92|683|389|849|521|675|980|112|972|434|493|653|314|676|350|464|286|427|5|579|809|338|819|734|821|686|58|587|491|400|185|505|460|412|874"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/legend/custom-legend-caption-font/ref-images/right_legend_zoomline-snapshot.png",
+        "id": "right_legend_zoomline"
+    },
+    "right_legend_ms_axis_line": {
+        "description": "",
+        "options": {
+            "type": "multiaxisline",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Power Generator",
+                    "xaxisname": "Time",
+                    "showvalues": "0",
+                    "divlinealpha": "100",
+                    "numvdivlines": "4",
+                    "vdivlinealpha": "0",
+                    "showalternatevgridcolor": "1",
+                    "alternatevgridalpha": "5",
+                    "animation": "0",
+                    "legendPosition": "right",
+                    "legendCaption": "This is a Legend Caption",
+                    "legendCaptionBold": "1",
+                    "legendCaptionFont": "Arial",
+                    "legendCaptionFontSize": "14",
+                    "legendCaptionFontColor": "#333333",
+                    "legendCaptionAlignment": "left",
+                    "legendItemFontBold": "0",
+                    "legendItemFont": "Arial",
+                    "legendItemFontSize": "11",
+                    "legendItemFontColor": "#666666"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "00:00s"
+                            },
+                            {
+                                "label": "00:04s"
+                            },
+                            {
+                                "label": "00:08s"
+                            },
+                            {
+                                "label": "00:12s"
+                            },
+                            {
+                                "label": "00:16s"
+                            },
+                            {
+                                "label": "00:20s"
+                            }
+                        ]
+                    }
+                ],
+                "axis": [
+                    {
+                        "title": "Power",
+                        "titlepos": "left",
+                        "tickwidth": "10",
+                        "divlineisdashed": "1",
+                        "dataset": [
+                            {
+                                "seriesname": "Power [W]",
+                                "data": [
+                                    {
+                                        "value": "6"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "33"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Temp.",
+                        "titlepos": "left",
+                        "numdivlines": "14",
+                        "tickwidth": "10",
+                        "divlineisdashed": "1",
+                        "dataset": [
+                            {
+                                "seriesname": "Temperature",
+                                "data": [
+                                    {
+                                        "value": "296"
+                                    },
+                                    {
+                                        "value": "311"
+                                    },
+                                    {
+                                        "value": "336"
+                                    },
+                                    {
+                                        "value": "371"
+                                    },
+                                    {
+                                        "value": "389"
+                                    },
+                                    {
+                                        "value": "393"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Speed[RPM]",
+                        "titlepos": "RIGHT",
+                        "axisonleft": "0",
+                        "numdivlines": "10",
+                        "tickwidth": "10",
+                        "divlineisdashed": "1",
+                        "dataset": [
+                            {
+                                "seriesname": "Speed",
+                                "data": [
+                                    {
+                                        "value": "1"
+                                    },
+                                    {
+                                        "value": "11"
+                                    },
+                                    {
+                                        "value": "36"
+                                    },
+                                    {
+                                        "value": "49"
+                                    },
+                                    {
+                                        "value": "68"
+                                    },
+                                    {
+                                        "value": "88"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/legend/custom-legend-caption-font/ref-images/right_legend_ms_axis_line-snapshot.png",
+        "id": "right_legend_ms_axis_line"
+    },
+    "right_legend_heatmap": {
+        "description": "",
+        "options": {
+            "type": "heatmap",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Weekly Percentage",
+                    "subcaption": "In percentage",
+                    "animation": "0",
+                    "legendPosition": "right",
+                    "legendCaption": "This is a Legend Caption",
+                    "legendCaptionBold": "1",
+                    "legendCaptionFont": "Arial",
+                    "legendCaptionFontSize": "14",
+                    "legendCaptionFontColor": "#333333",
+                    "legendCaptionAlignment": "left",
+                    "legendItemFontBold": "0",
+                    "legendItemFont": "Arial",
+                    "legendItemFontSize": "11",
+                    "legendItemFontColor": "#666666"
+                },
+                "rows": {
+                    "row": [
+                        {
+                            "id": "Google",
+                            "label": "Google US"
+                        },
+                        {
+                            "id": "Yahoo",
+                            "label": "Yahoo US"
+                        },
+                        {
+                            "id": "Microsoft",
+                            "label": "Microsoft US"
+                        }
+                    ]
+                },
+                "columns": {
+                    "column": [
+                        {
+                            "id": "MON",
+                            "label": "Monday"
+                        },
+                        {
+                            "id": "TUE",
+                            "label": "Tuesday"
+                        },
+                        {
+                            "id": "WED",
+                            "label": "Wednesday"
+                        },
+                        {
+                            "id": "THU",
+                            "label": "Thursday"
+                        },
+                        {
+                            "id": "FRI",
+                            "label": "Friday"
+                        }
+                    ]
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Mon",
+                                "value": "0"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Tue",
+                                "value": "71"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Wed",
+                                "value": "70"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Thu",
+                                "value": "3"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Fri",
+                                "value": "79"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Mon",
+                                "value": "68"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Tue",
+                                "value": "5"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Wed",
+                                "value": "95"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Thu",
+                                "value": "-10"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Fri",
+                                "value": "55.98"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Mon",
+                                "value": "98"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Tue",
+                                "value": "8"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Wed",
+                                "value": "123"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Thu",
+                                "value": "79"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Fri",
+                                "value": "39"
+                            }
+                        ]
+                    }
+                ],
+                "colorrange": {
+                    "mapbypercent": "1",
+                    "gradient": "1",
+                    "minvalue": "0",
+                    "code": "00CCFF",
+                    "startlabel": "Poor",
+                    "endlabel": "Good",
+                    "color": [
+                        {
+                            "code": "66ADD9",
+                            "maxvalue": "30",
+                            "label": "BAD"
+                        },
+                        {
+                            "code": "F2CF63",
+                            "maxvalue": "70",
+                            "label": "AVERAGE"
+                        },
+                        {
+                            "code": "D99036",
+                            "maxvalue": "100"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/legend/custom-legend-caption-font/ref-images/right_legend_heatmap-snapshot.png",
+        "id": "right_legend_heatmap"
+    },
+    "right_legend_map": {
+        "description": "",
+        "options": {
+            "type": "usa",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "animation": "0",
+                    "showbevel": "0",
+                    "usehovercolor": "1",
+                    "canvasbordercolor": "FFFFFF",
+                    "bordercolor": "FFFFFF",
+                    "showlegend": "1",
+                    "showshadow": "0",
+                    "caption": "Website Visits for the month of Jan 2014",
+                    "connectorcolor": "000000",
+                    "fillalpha": "80",
+                    "hovercolor": "CCCCCC",
+                    "showborder": "0",
+                    "legendposition": "right",
+                    "legendCaption": "This is a Legend Caption",
+                    "legendCaptionBold": "1",
+                    "legendCaptionFont": "Arial",
+                    "legendCaptionFontSize": "14",
+                    "legendCaptionFontColor": "#333333",
+                    "legendCaptionAlignment": "left",
+                    "legendItemFontBold": "0",
+                    "legendItemFont": "Arial",
+                    "legendItemFontSize": "11",
+                    "legendItemFontColor": "#666666"
+                },
+                "colorrange": {
+                    "minvalue": "0",
+                    "startlabel": "Low",
+                    "endlabel": "High",
+                    "code": "e44a00",
+                    "gradient": "1",
+                    "color": [
+                        {
+                            "maxvalue": "30000",
+                            "displayvalue": "Average",
+                            "code": "f8bd19"
+                        },
+                        {
+                            "maxvalue": "100000",
+                            "code": "6baa01"
+                        }
+                    ]
+                },
+                "data": [
+                    {
+                        "id": "HI",
+                        "value": "4126"
+                    },
+                    {
+                        "id": "DC",
+                        "value": "1650"
+                    },
+                    {
+                        "id": "MD",
+                        "value": "1271"
+                    },
+                    {
+                        "id": "DE",
+                        "value": "781"
+                    },
+                    {
+                        "id": "RI",
+                        "value": "3470"
+                    },
+                    {
+                        "id": "WA",
+                        "value": "33008"
+                    },
+                    {
+                        "id": "OR",
+                        "value": "30739"
+                    },
+                    {
+                        "id": "CA",
+                        "value": "66379"
+                    },
+                    {
+                        "id": "AK",
+                        "value": "60483"
+                    },
+                    {
+                        "id": "ID",
+                        "value": "55668"
+                    },
+                    {
+                        "id": "NV",
+                        "value": "41103"
+                    },
+                    {
+                        "id": "AZ",
+                        "value": "60734"
+                    },
+                    {
+                        "id": "MT",
+                        "value": "71734"
+                    },
+                    {
+                        "id": "WY",
+                        "value": "53080"
+                    },
+                    {
+                        "id": "UT",
+                        "value": "51787"
+                    },
+                    {
+                        "id": "CO",
+                        "value": "30920"
+                    },
+                    {
+                        "id": "NM",
+                        "value": "71310"
+                    },
+                    {
+                        "id": "ND",
+                        "value": "34730"
+                    },
+                    {
+                        "id": "SD",
+                        "value": "47767"
+                    },
+                    {
+                        "id": "NE",
+                        "value": "67079"
+                    },
+                    {
+                        "id": "KS",
+                        "value": "49787"
+                    },
+                    {
+                        "id": "OK",
+                        "value": "46404"
+                    },
+                    {
+                        "id": "TX",
+                        "value": "50346"
+                    },
+                    {
+                        "id": "MN",
+                        "value": "35592"
+                    },
+                    {
+                        "id": "IA",
+                        "value": "71403"
+                    },
+                    {
+                        "id": "MO",
+                        "value": "63982"
+                    },
+                    {
+                        "id": "AR",
+                        "value": "60027"
+                    },
+                    {
+                        "id": "LA",
+                        "value": "71848"
+                    },
+                    {
+                        "id": "WI",
+                        "value": "54923"
+                    },
+                    {
+                        "id": "IL",
+                        "value": "63598"
+                    },
+                    {
+                        "id": "KY",
+                        "value": "48067"
+                    },
+                    {
+                        "id": "TN",
+                        "value": "33789"
+                    },
+                    {
+                        "id": "MS",
+                        "value": "71505"
+                    },
+                    {
+                        "id": "AL",
+                        "value": "75428"
+                    },
+                    {
+                        "id": "GA",
+                        "value": "75817"
+                    },
+                    {
+                        "id": "MI",
+                        "value": "74763"
+                    },
+                    {
+                        "id": "IN",
+                        "value": "37076"
+                    },
+                    {
+                        "id": "OH",
+                        "value": "70348"
+                    },
+                    {
+                        "id": "PA",
+                        "value": "60292"
+                    },
+                    {
+                        "id": "NY",
+                        "value": "46402"
+                    },
+                    {
+                        "id": "VT",
+                        "value": "32394"
+                    },
+                    {
+                        "id": "NH",
+                        "value": "53627"
+                    },
+                    {
+                        "id": "ME",
+                        "value": "39001"
+                    },
+                    {
+                        "id": "MA",
+                        "value": "52265"
+                    },
+                    {
+                        "id": "CT",
+                        "value": "60031"
+                    },
+                    {
+                        "id": "NJ",
+                        "value": "86966"
+                    },
+                    {
+                        "id": "WV",
+                        "value": "94811"
+                    },
+                    {
+                        "id": "VA",
+                        "value": "84322"
+                    },
+                    {
+                        "id": "NC",
+                        "value": "85535"
+                    },
+                    {
+                        "id": "SC",
+                        "value": "81732"
+                    },
+                    {
+                        "id": "FL",
+                        "value": "81732"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/legend/custom-legend-caption-font/ref-images/right_legend_map-snapshot.png",
+        "id": "right_legend_map"
+    }
+}

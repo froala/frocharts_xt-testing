@@ -1,0 +1,256 @@
+{
+    "test-1": {
+        "descriptions": "Update with all the yaxisValue attributes",
+        "id": "test-1",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "zoomlinedy",
+            "dataSource": {
+                "chart": {
+                    "animation": 0
+                },
+                "categories": [
+                    {
+                        "category": "Label 1|Label 2|Label 3|Label 4|Label 5|Label 6|Label 7|Label 8|Label 9|Label 10|Label 11|Label 12|Label 13|Label 14|Label 15|Label 16|Label 17|Label 18|Label 19|Label 20|Label 21|Label 22|Label 23|Label 24|Label 25|Label 26|Label 27|Label 28|Label 29|Label 30|Label 31|Label 32|Label 33|Label 34|Label 35|Label 36|Label 37|Label 38|Label 39|Label 40|Label 41|Label 42|Label 43|Label 44|Label 45|Label 46|Label 47|Label 48|Label 49|Label 50"
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Series 1",
+                        "color": "AFD8F8",
+                        "data": "182|236|17|406|676|346|109|644|421|484|692|246|856|125|399|418|58|552|236|511|767|926|420|735|584|352|952|320|170|536|487|675|329|411|886|226|17|642|477|50|274|542|387|471|878|1|991|919|298|914"
+                    },
+                    {
+                        "seriesname": "Series 2",
+                        "parentyaxis": "S",
+                        "color": "F6BD0F",
+                        "data": "294|170|450|120|844|703|599|579|771|318|57|841|740|440|327|92|683|389|849|521|675|980|112|972|434|493|653|314|676|350|464|286|427|5|579|809|338|819|734|821|686|58|587|491|400|185|505|460|412|874"
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "yAxisValueFont": "times",
+                            "yAxisValueFontSize": "17",
+                            "yaxisValueFontColor": "#0000ff",
+                            "yaxisValueFontItalic": "1",
+                            "yaxisValueFontBold": "1",
+                            "yAxisValueBgColor": "#ff00ff",
+                            "yAxisValueBorderColor": "#00ff00",
+                            "yaxisvaluealpha": "30",
+                            "yaxisvalueBgalpha": "80",
+                            "yAxisValueBorderAlpha": "1",
+                            "yaxisValueBorderPadding": "10",
+                            "yAxisValueBorderRadius": "3",
+                            "yaxisvalueborderthickness": "3",
+                            "yaxisvalueborderdashed": "1",
+                            "yaxisvalueborderdashlen": "7",
+                            "yaxisvaluelink": "p-http://google.com",
+                            "_clickurl": "p-http://yahoo.com",
+                            "animation": 0
+                        },
+                        "categories": [
+                            {
+                                "category": "Label 1|Label 2|Label 3|Label 4|Label 5|Label 6|Label 7|Label 8|Label 9|Label 10|Label 11|Label 12|Label 13|Label 14|Label 15|Label 16|Label 17|Label 18|Label 19|Label 20|Label 21|Label 22|Label 23|Label 24|Label 25|Label 26|Label 27|Label 28|Label 29|Label 30|Label 31|Label 32|Label 33|Label 34|Label 35|Label 36|Label 37|Label 38|Label 39|Label 40|Label 41|Label 42|Label 43|Label 44|Label 45|Label 46|Label 47|Label 48|Label 49|Label 50"
+                            }
+                        ],
+                        "dataset": [
+                            {
+                                "seriesname": "Series 1",
+                                "color": "AFD8F8",
+                                "data": "182|236|17|406|676|346|109|644|421|484|692|246|856|125|399|418|58|552|236|511|767|926|420|735|584|352|952|320|170|536|487|675|329|411|886|226|17|642|477|50|274|542|387|471|878|1|991|919|298|914"
+                            },
+                            {
+                                "seriesname": "Series 2",
+                                "parentyaxis": "S",
+                                "color": "F6BD0F",
+                                "data": "294|170|450|120|844|703|599|579|771|318|57|841|740|440|327|92|683|389|849|521|675|980|112|972|434|493|653|314|676|350|464|286|427|5|579|809|338|819|734|821|686|58|587|491|400|185|505|460|412|874"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "test-2": {
+        "descriptions": "Update the yaxisValue boolean attributes 1 to 0 and also changing the other attributes value",
+        "id": "test-2",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "zoomlinedy",
+            "dataSource": {
+                "chart": {
+                    "yAxisValueFont": "times",
+                    "yAxisValueFontSize": "17",
+                    "yaxisValueFontColor": "#0000ff",
+                    "yaxisValueFontItalic": "1",
+                    "yaxisValueFontBold": "1",
+                    "yAxisValueBgColor": "#ff00ff",
+                    "yAxisValueBorderColor": "#00ff00",
+                    "yaxisvaluealpha": "30",
+                    "yaxisvalueBgalpha": "80",
+                    "yAxisValueBorderAlpha": "1",
+                    "yaxisValueBorderPadding": "10",
+                    "yAxisValueBorderRadius": "3",
+                    "yaxisvalueborderthickness": "3",
+                    "yaxisvalueborderdashed": "1",
+                    "yaxisvalueborderdashlen": "7",
+                    "yaxisvaluelink": "p-http://google.com",
+                    "_clickurl": "p-http://yahoo.com",
+                    "animation": 0
+                },
+                "categories": [
+                    {
+                        "category": "Label 1|Label 2|Label 3|Label 4|Label 5|Label 6|Label 7|Label 8|Label 9|Label 10|Label 11|Label 12|Label 13|Label 14|Label 15|Label 16|Label 17|Label 18|Label 19|Label 20|Label 21|Label 22|Label 23|Label 24|Label 25|Label 26|Label 27|Label 28|Label 29|Label 30|Label 31|Label 32|Label 33|Label 34|Label 35|Label 36|Label 37|Label 38|Label 39|Label 40|Label 41|Label 42|Label 43|Label 44|Label 45|Label 46|Label 47|Label 48|Label 49|Label 50"
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Series 1",
+                        "color": "AFD8F8",
+                        "data": "182|236|17|406|676|346|109|644|421|484|692|246|856|125|399|418|58|552|236|511|767|926|420|735|584|352|952|320|170|536|487|675|329|411|886|226|17|642|477|50|274|542|387|471|878|1|991|919|298|914"
+                    },
+                    {
+                        "seriesname": "Series 2",
+                        "parentyaxis": "S",
+                        "color": "F6BD0F",
+                        "data": "294|170|450|120|844|703|599|579|771|318|57|841|740|440|327|92|683|389|849|521|675|980|112|972|434|493|653|314|676|350|464|286|427|5|579|809|338|819|734|821|686|58|587|491|400|185|505|460|412|874"
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "yAxisValueFont": "sans-seriff",
+                            "yAxisValueFontSize": "13",
+                            "yaxisValueFontColor": "#ff00ff",
+                            "yaxisValueFontItalic": "0",
+                            "yaxisValueFontBold": "0",
+                            "yAxisValueBgColor": "#00ff00",
+                            "yAxisValueBorderColor": "#ffff00",
+                            "yaxisvaluealpha": "80",
+                            "yaxisvalueBgalpha": "10",
+                            "yAxisValueBorderAlpha": "100",
+                            "yaxisValueBorderPadding": "4",
+                            "yAxisValueBorderRadius": "1",
+                            "yaxisvalueborderthickness": "31",
+                            "yaxisvalueborderdashed": "10",
+                            "yaxisvalueborderdashlen": "7",
+                            "_yaxisvaluelink": "p-http://google.com",
+                            "_clickurl": "p-http://yahoo.com",
+                            "animation": 0
+                        },
+                        "categories": [
+                            {
+                                "category": "Label 1|Label 2|Label 3|Label 4|Label 5|Label 6|Label 7|Label 8|Label 9|Label 10|Label 11|Label 12|Label 13|Label 14|Label 15|Label 16|Label 17|Label 18|Label 19|Label 20|Label 21|Label 22|Label 23|Label 24|Label 25|Label 26|Label 27|Label 28|Label 29|Label 30|Label 31|Label 32|Label 33|Label 34|Label 35|Label 36|Label 37|Label 38|Label 39|Label 40|Label 41|Label 42|Label 43|Label 44|Label 45|Label 46|Label 47|Label 48|Label 49|Label 50"
+                            }
+                        ],
+                        "dataset": [
+                            {
+                                "seriesname": "Series 1",
+                                "color": "AFD8F8",
+                                "data": "182|236|17|406|676|346|109|644|421|484|692|246|856|125|399|418|58|552|236|511|767|926|420|735|584|352|952|320|170|536|487|675|329|411|886|226|17|642|477|50|274|542|387|471|878|1|991|919|298|914"
+                            },
+                            {
+                                "seriesname": "Series 2",
+                                "parentyaxis": "S",
+                                "color": "F6BD0F",
+                                "data": "294|170|450|120|844|703|599|579|771|318|57|841|740|440|327|92|683|389|849|521|675|980|112|972|434|493|653|314|676|350|464|286|427|5|579|809|338|819|734|821|686|58|587|491|400|185|505|460|412|874"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "test-3": {
+        "descriptions": "Remove all yaxisvalue cosmetics through update",
+        "id": "test-3",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "zoomlinedy",
+            "dataSource": {
+                "chart": {
+                    "yAxisValueFont": "times",
+                    "yAxisValueFontSize": "17",
+                    "yaxisValueFontColor": "#0000ff",
+                    "yaxisValueFontItalic": "1",
+                    "yaxisValueFontBold": "1",
+                    "yAxisValueBgColor": "#ff00ff",
+                    "yAxisValueBorderColor": "#00ff00",
+                    "yaxisvaluealpha": "30",
+                    "yaxisvalueBgalpha": "80",
+                    "yAxisValueBorderAlpha": "1",
+                    "yaxisValueBorderPadding": "10",
+                    "yAxisValueBorderRadius": "3",
+                    "yaxisvalueborderthickness": "3",
+                    "yaxisvalueborderdashed": "1",
+                    "yaxisvalueborderdashlen": "7",
+                    "yaxisvaluelink": "p-http://google.com",
+                    "_clickurl": "p-http://yahoo.com",
+                    "animation": 0
+                },
+                "categories": [
+                    {
+                        "category": "Label 1|Label 2|Label 3|Label 4|Label 5|Label 6|Label 7|Label 8|Label 9|Label 10|Label 11|Label 12|Label 13|Label 14|Label 15|Label 16|Label 17|Label 18|Label 19|Label 20|Label 21|Label 22|Label 23|Label 24|Label 25|Label 26|Label 27|Label 28|Label 29|Label 30|Label 31|Label 32|Label 33|Label 34|Label 35|Label 36|Label 37|Label 38|Label 39|Label 40|Label 41|Label 42|Label 43|Label 44|Label 45|Label 46|Label 47|Label 48|Label 49|Label 50"
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Series 1",
+                        "color": "AFD8F8",
+                        "data": "182|236|17|406|676|346|109|644|421|484|692|246|856|125|399|418|58|552|236|511|767|926|420|735|584|352|952|320|170|536|487|675|329|411|886|226|17|642|477|50|274|542|387|471|878|1|991|919|298|914"
+                    },
+                    {
+                        "seriesname": "Series 2",
+                        "parentyaxis": "S",
+                        "color": "F6BD0F",
+                        "data": "294|170|450|120|844|703|599|579|771|318|57|841|740|440|327|92|683|389|849|521|675|980|112|972|434|493|653|314|676|350|464|286|427|5|579|809|338|819|734|821|686|58|587|491|400|185|505|460|412|874"
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "animation": 0
+                        },
+                        "categories": [
+                            {
+                                "category": "Label 1|Label 2|Label 3|Label 4|Label 5|Label 6|Label 7|Label 8|Label 9|Label 10|Label 11|Label 12|Label 13|Label 14|Label 15|Label 16|Label 17|Label 18|Label 19|Label 20|Label 21|Label 22|Label 23|Label 24|Label 25|Label 26|Label 27|Label 28|Label 29|Label 30|Label 31|Label 32|Label 33|Label 34|Label 35|Label 36|Label 37|Label 38|Label 39|Label 40|Label 41|Label 42|Label 43|Label 44|Label 45|Label 46|Label 47|Label 48|Label 49|Label 50"
+                            }
+                        ],
+                        "dataset": [
+                            {
+                                "seriesname": "Series 1",
+                                "color": "AFD8F8",
+                                "data": "182|236|17|406|676|346|109|644|421|484|692|246|856|125|399|418|58|552|236|511|767|926|420|735|584|352|952|320|170|536|487|675|329|411|886|226|17|642|477|50|274|542|387|471|878|1|991|919|298|914"
+                            },
+                            {
+                                "seriesname": "Series 2",
+                                "parentyaxis": "S",
+                                "color": "F6BD0F",
+                                "data": "294|170|450|120|844|703|599|579|771|318|57|841|740|440|327|92|683|389|849|521|675|980|112|972|434|493|653|314|676|350|464|286|427|5|579|809|338|819|734|821|686|58|587|491|400|185|505|460|412|874"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

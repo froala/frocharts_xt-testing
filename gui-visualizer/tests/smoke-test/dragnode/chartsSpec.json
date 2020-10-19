@@ -1,0 +1,796 @@
+{
+    "test_1": {
+        "description": "Border, logo, bg, caption, subcaption, canvas, axes, canvas related changes",
+        "options": {
+            "type": "dragnode",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showBorder": "1",
+                    "borderColor": "#330000",
+                    "borderThickness": "3",
+                    "borderAlpha": "85",
+                    "bgColor": "#999999,#ffffff",
+                    "bgAlpha": "100",
+                    "bgRatio": "10:90",
+                    "bgAngle": "90",
+                    "showcanvasBorder": "1",
+                    "canvasBgColor": "#7E8EA1",
+                    "canvasBgAlpha": "70",
+                    "canvasBgRatio": "70:30",
+                    "canvasBgAngle": "180",
+                    "canvasBorderColor": "#0000ff",
+                    "canvasBorderThickness": "3",
+                    "canvasBorderAlpha": "75",
+                    "logoURL": "http://www.fusioncharts.com/theme/210x38xlogo.png.pagespeed.ic.KZD9tJ7qIK.png",
+                    "logoPosition": "TR",
+                    "logoAlpha": "50",
+                    "logoScale": "70",
+                    "logoLink": "http://fusioncharts.com",
+                    "showVLineLabelBorder": "1",
+                    "showLabels": "1",
+                    "maxLabelHeight": "100",
+                    "labelDisplay": "auto",
+                    "useEllipsesWhenOverflow": "1",
+                    "rotateLabels": "0",
+                    "slantLabels": "0",
+                    "labelStep": "1",
+                    "staggerLines": "1",
+                    "showValues": "1",
+                    "rotateValues": "0",
+                    "placeValuesInside": "1",
+                    "showYAxisValues": "1",
+                    "showLimits": "1",
+                    "showDivLineValues": "1",
+                    "yAxisValuesStep": "2",
+                    "showShadow": "1",
+                    "adjustDiv": "0",
+                    "rotateYAxisName": "1",
+                    "use3DLighting": "1",
+                    "viewMode": "1",
+                    "setAdaptiveYMin": "1",
+                    "useDataPlotColorForLabels": "0",
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Current Year",
+                    "captionAlignment": "left",
+                    "captionOnTop": "1",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "subCaptionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "10",
+                    "xAxisName": "Month",
+                    "showXAxisLine": "1",
+                    "xAxisLineColor": "#00ffff",
+                    "xAxisLineThickness": "3",
+                    "xAxisNameFontColor": "#770000",
+                    "xAxisNameFontSize": "20",
+                    "xAxisNameFontBold": "1",
+                    "xAxisNameFontItalic": "1",
+                    "xAxisNameBgColor": "#37f8f9",
+                    "xAxisNameBorderColor": "#ff0000",
+                    "xAxisNameAlpha": "100",
+                    "xAxisNameFontAlpha": "70",
+                    "xAxisNameBgAlpha": "80",
+                    "xAxisNameBorderAlpha": "80",
+                    "xAxisNameBorderPadding": "3",
+                    "xAxisNameBorderRadius": "3",
+                    "xAxisNameBorderThickness": "3",
+                    "xAxisNameBorderDashed": "1",
+                    "xAxisNameBorderDashLen": "5",
+                    "xAxisNameBorderDashGap": "2",
+                    "yAxisName": "Revenue",
+                    "showYAxisLine": "1",
+                    "yAxisLineColor": "#cc0000",
+                    "yAxisLineThickness": "3",
+                    "yAxisNameFontColor": "#770000",
+                    "yAxisNameFontSize": "20",
+                    "yAxisNameFontBold": "1",
+                    "yAxisNameFontItalic": "1",
+                    "yAxisNameBgColor": "#37f8f9",
+                    "yAxisNameBorderColor": "#ff0000",
+                    "yAxisNameAlpha": "100",
+                    "yAxisNameFontAlpha": "70",
+                    "yAxisNameBgAlpha": "80",
+                    "yAxisNameBorderAlpha": "80",
+                    "yAxisNameBorderPadding": "3",
+                    "yAxisNameBorderRadius": "3",
+                    "yAxisNameBorderThickness": "3",
+                    "yAxisNameBorderDashed": "1",
+                    "yAxisNameBorderDashLen": "5",
+                    "yAxisNameBorderDashGap": "2",
+                    "showFormBtn": "1",
+                    "formMethod": "POST",
+                    "formTarget": "_blank",
+                    "formAction": "submit",
+                    "formBtnTitle": "SUBMIT",
+                    "btnTextColor": "#0000ff",
+                    "formBtnWidth": "90",
+                    "formBtnBorderColor": "#ff0000",
+                    "formBtnBgColor": "#cccccc",
+                    "btnPadding": "10",
+                    "btnSpacing": "5",
+                    "showRestoreBtn": "1",
+                    "restoreBtnWidth": "70",
+                    "restoreBtnTitle": "RESTORE",
+                    "restoreBtnBorderColor": "#0000ff",
+                    "restoreBtnBgColor": "#ff0000",
+                    "legendposition": "right",
+                    "showLegend": "1",
+                    "legendItemFontBold": "1",
+                    "legendItemFont": "verdana",
+                    "legendItemFontSize": "16",
+                    "legendItemFontColor": "#cc0000",
+                    "legendItemHoverFontColor": "#ffffff",
+                    "legendCaption": "Interactive Legend",
+                    "legendCaptionAlignment": "left",
+                    "legendCaptionFontBold": "1",
+                    "legendCaptionFont": "verdana",
+                    "legendCaptionFontSize": "10",
+                    "legendCaptionFontColor": "#ffffff",
+                    "legendItemHiddenColor": "#ff0000",
+                    "legendIconScale": "1",
+                    "legendBgColor": "#333333",
+                    "legendBgAlpha": "60",
+                    "legendBorderColor": "#ff0000",
+                    "legendBorderThickness": "3",
+                    "legendBorderAlpha": "80",
+                    "legendAllowDrag": "1",
+                    "legendScrollBgColor": "0",
+                    "reverseLegend": "0",
+                    "interactiveLegend": "1",
+                    "legendNumColumns": "2",
+                    "numberprefix": "$",
+                    "animation": "0"
+                },
+                "dataset": [
+                    {
+                        "seriesName": "AA",
+                        "data": [
+                            {
+                                "x": "12",
+                                "y": "50",
+                                "width": "70",
+                                "height": "45",
+                                "name": "Node 1 with a long label",
+                                "color": "#AFD8F8",
+                                "id": "1"
+                            },
+                            {
+                                "x": "55",
+                                "y": "15",
+                                "width": "40",
+                                "height": "40",
+                                "name": "Node 2",
+                                "color": "#AFD8F8",
+                                "id": "2"
+                            },
+                            {
+                                "x": "33",
+                                "y": "20",
+                                "radius": "37",
+                                "shape": "circle",
+                                "name": "Node 3",
+                                "color": "#AFD8F8",
+                                "id": "3"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesName": "BB",
+                        "data": [
+                            {
+                                "x": "34",
+                                "y": "50",
+                                "width": "70",
+                                "height": "45",
+                                "name": "Node 4 with a long label",
+                                "color": "#FFCC00",
+                                "id": "4"
+                            },
+                            {
+                                "x": "56",
+                                "y": "52",
+                                "width": "40",
+                                "height": "40",
+                                "name": "Node 5",
+                                "color": "#FFCC00",
+                                "id": "5"
+                            },
+                            {
+                                "x": "13",
+                                "y": "20",
+                                "radius": "37",
+                                "shape": "circle",
+                                "name": "Node 6",
+                                "color": "#FFCC00",
+                                "id": "6"
+                            }
+                        ]
+                    }
+                ],
+                "connectors": [
+                    {
+                        "color": "#ffffff",
+                        "stdthickness": "5",
+                        "connector": [
+                            {
+                                "strength": "0.96",
+                                "label": "link label",
+                                "from": "1",
+                                "to": "3",
+                                "color": "BBBB00",
+                                "arrowatstart": "1",
+                                "arrowatend": "1"
+                            },
+                            {
+                                "strength": "0.8",
+                                "label": "link",
+                                "from": "2",
+                                "to": "3",
+                                "color": "BBBB00",
+                                "arrowatstart": "0",
+                                "arrowatend": "1"
+                            },
+                            {
+                                "strength": "0.96",
+                                "label": "link label",
+                                "from": "4",
+                                "to": "5",
+                                "color": "#FFCCFF",
+                                "arrowatstart": "1",
+                                "arrowatend": "1"
+                            },
+                            {
+                                "strength": "0.8",
+                                "label": "link",
+                                "from": "5",
+                                "to": "6",
+                                "color": "#FFCCFF",
+                                "arrowatstart": "0",
+                                "arrowatend": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke-test/dragnode/ref-images/test_1_dragnode-snapshot.png",
+        "id": "test_1"
+    },
+    "test_2": {
+        "description": "Data plots, values and Label,tooltip related tests.",
+        "options": {
+            "type": "dragnode",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "bgImage": "http://phoenixinsure.com/images/background/4.jpg",
+                    "bgImageAlpha": "50",
+                    "bgImageVAlign": "middle",
+                    "bgImageHAlign": "left",
+                    "bgImageScale": "22",
+                    "enableLinks": "1",
+                    "showVLineLabelBorder": "0",
+                    "viewmode": "1",
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Current Year",
+                    "captionAlignment": "right",
+                    "captionOnTop": "0",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "subCaptionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "10",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0",
+                    "showlegend": "1",
+                    "legendPosition": "right",
+                    "legendNumColumns": "2",
+                    "is3D": "1",
+                    "showPlotBorder": "1",
+                    "plotBorderColor": "#0000ff",
+                    "plotBorderThickness": "4",
+                    "plotBorderAlpha": "60",
+                    "plotFillAlpha": "60",
+                    "showLabels": "1",
+                    "maxLabelHeight": "45",
+                    "labelDisplay": "ROTATE",
+                    "useEllipsesWhenOverflow": "1",
+                    "rotateLabels": "1",
+                    "slantLabels": "1",
+                    "labelStep": "1",
+                    "staggerLines": "1",
+                    "showHoverEffect": "1",
+                    "plotHoverEffect": "1",
+                    "plotFillHoverColor": "#ff0000",
+                    "plotFillHoverAlpha": "80",
+                    "showToolTip": "1",
+                    "toolTipBgColor": "#00ff00",
+                    "toolTipColor": "#cc0000",
+                    "toolTipBorderColor": "#000000",
+                    "showToolTipShadow": "1",
+                    "valueFont": "verdana",
+                    "valueFontColor": "#cc0000",
+                    "valueFontSize": "12",
+                    "valueFontBold": "1",
+                    "valueFontItalic": "1",
+                    "valueBgColor": "#ffffff",
+                    "valueBorderColor": "#000033",
+                    "valueAlpha": "100",
+                    "valueFontAlpha": "100",
+                    "valueBgAlpha": "100",
+                    "valueBorderAlpha": "100",
+                    "valueBorderThickness": "2",
+                    "valueBorderRadius": "5",
+                    "valueBorderDashed": "1",
+                    "valueBorderDashGap": "3",
+                    "valueBorderDashLen": "6",
+                    "valueHoverAlpha": "100",
+                    "valueFontHoverAlpha": "100",
+                    "valueBgHoverAlpha": "100",
+                    "valueBorderHoverAlpha": "100",
+                    "showValuesOnHover": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan",
+                                "font": "verdana",
+                                "x": "23",
+                                "showVerticalLine": "0",
+                                "fontColor": "#0110ff",
+                                "fontSize": "25",
+                                "fontBold": "0",
+                                "fontItalic": "0",
+                                "bgColor": "#FFCCFF",
+                                "borderColor": "#00ff00",
+                                "showLabel": "1",
+                                "lineDashed": "1",
+                                "alpha": "80",
+                                "bgAlpha": "90",
+                                "borderAlpha": "70",
+                                "borderPadding": "3",
+                                "borderRadius": "5",
+                                "borderThickness": "3",
+                                "borderDashed": "0",
+                                "borderDashLen": "6",
+                                "borderDashGap": "3",
+                                "link": "http://www.fusioncharts.com"
+                            },
+                            {
+                                "label": "Feb",
+                                "x": "40",
+                                "showVerticalLine": "1",
+                                "fontColor": "#ff4444",
+                                "fontSize": "18",
+                                "fontBold": "1",
+                                "fontItalic": "1",
+                                "bgColor": "#FFCCFF",
+                                "borderColor": "#00ff00",
+                                "showLabel": "1",
+                                "lineDashed": "1",
+                                "alpha": "80",
+                                "bgAlpha": "100",
+                                "borderAlpha": "70",
+                                "borderPadding": "4",
+                                "borderRadius": "9",
+                                "borderThickness": "5",
+                                "borderDashed": "1",
+                                "borderDashLen": "16",
+                                "borderDashGap": "7",
+                                "link": "http://www.fusioncharts.com"
+                            },
+                            {
+                                "label": "Mar",
+                                "x": "60",
+                                "showVerticalLine": "1",
+                                "fontColor": "#0000ff",
+                                "fontSize": "8",
+                                "fontBold": "1",
+                                "fontItalic": "0",
+                                "bgColor": "#FFCCFF",
+                                "borderColor": "#00ff00",
+                                "showLabel": "1",
+                                "lineDashed": "1",
+                                "alpha": "80",
+                                "bgAlpha": "40",
+                                "borderAlpha": "50",
+                                "borderPadding": "1",
+                                "borderRadius": "5",
+                                "borderThickness": "6",
+                                "borderDashed": "0",
+                                "borderDashLen": "6",
+                                "borderDashGap": "3",
+                                "link": "http://www.google.com"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesName": "AA",
+                        "data": [
+                            {
+                                "x": "12",
+                                "y": "50",
+                                "width": "70",
+                                "height": "45",
+                                "label": "100",
+                                "color": "#AFD8F8",
+                                "id": "1",
+                                "allowDrag": "0"
+                            },
+                            {
+                                "x": "55",
+                                "y": "15",
+                                "width": "40",
+                                "height": "40",
+                                "label": "200",
+                                "color": "#AFD8F8",
+                                "id": "2"
+                            },
+                            {
+                                "x": "33",
+                                "y": "20",
+                                "radius": "37",
+                                "shape": "circle",
+                                "label": "300",
+                                "color": "#AFD8F8",
+                                "id": "3"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesName": "BB",
+                        "allowDrag": "0",
+                        "includeInLegend": "1",
+                        "data": [
+                            {
+                                "x": "34",
+                                "y": "50",
+                                "width": "70",
+                                "height": "45",
+                                "label": "400",
+                                "color": "#FFCC00",
+                                "id": "4"
+                            },
+                            {
+                                "x": "56",
+                                "y": "52",
+                                "width": "40",
+                                "height": "40",
+                                "label": "500",
+                                "color": "#FFCC55",
+                                "id": "5"
+                            },
+                            {
+                                "x": "13",
+                                "y": "20",
+                                "radius": "37",
+                                "shape": "circle",
+                                "label": "600",
+                                "color": "#FFCC99",
+                                "id": "6",
+                                "imagenode": "1",
+                                "imageurl": "http://upload.wikimedia.org/wikipedia/commons/7/79/Misc_fruit.jpg",
+                                "imagealign": "middle",
+                                "imageheight": "80",
+                                "imagewidth": "108",
+                                "labelAlign": "middle",
+                                "link": "http://upload.wikimedia.org/wikipedia/commons/7/79/Misc_fruit.jpg",
+                                "toolText": "Image Node"
+                            }
+                        ]
+                    }
+                ],
+                "connectors": [
+                    {
+                        "color": "#ffffff",
+                        "stdthickness": "5",
+                        "dashed": "0",
+                        "alpha": "100",
+                        "connector": [
+                            {
+                                "strength": "0.96",
+                                "label": "link label",
+                                "from": "1",
+                                "to": "3",
+                                "color": "BBBB00",
+                                "arrowatstart": "1",
+                                "arrowatend": "1",
+                                "dashed": "1",
+                                "dasGap": "10",
+                                "dashLen": "6"
+                            },
+                            {
+                                "strength": "0.8",
+                                "label": "link",
+                                "from": "2",
+                                "to": "3",
+                                "color": "BBBB00",
+                                "arrowatstart": "0",
+                                "arrowatend": "1"
+                            },
+                            {
+                                "strength": "0.96",
+                                "label": "link label",
+                                "from": "4",
+                                "to": "5",
+                                "color": "#FFCCFF",
+                                "arrowatstart": "1",
+                                "arrowatend": "1"
+                            },
+                            {
+                                "strength": "0.8",
+                                "label": "link",
+                                "from": "5",
+                                "to": "6",
+                                "color": "#FFCCFF",
+                                "arrowatstart": "0",
+                                "arrowatend": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke-test/dragnode/ref-images/test_2_dragnode-snapshot.png",
+        "id": "test_2"
+    },
+    "test_3": {
+        "description": "Divlines, VLines, Trendlines, Trendzones releated tests",
+        "options": {
+            "type": "dragnode",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Current Year",
+                    "captionAlignment": "center",
+                    "captionOnTop": "1",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "subCaptionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "10",
+                    "showYAxisValues": "1",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0",
+                    "palette": "4",
+                    "numDivLines": "3",
+                    "divLineColor": "#cc0000",
+                    "divLineThickness": "4",
+                    "divLineAlpha": "85",
+                    "divLineDashed": "1",
+                    "divLineDashLen": "5",
+                    "divLineDashGap": "3",
+                    "zeroPlaneColor": "#0000ff",
+                    "zeroPlaneThickness": "9",
+                    "zeroPlaneAlpha": "85",
+                    "showZeroPlaneValue": "1",
+                    "showAlternateHGridColor": "1",
+                    "alternateHGridColor": "#0000ff",
+                    "alternateHGridAlpha": "10",
+                    "trendValueFont": "arial",
+                    "trendValueFontSize": "15",
+                    "trendValueFontBold": "1",
+                    "trendValueFontItalic": "1",
+                    "trendValueBgColor": "#00FF00",
+                    "trendValueBorderColor": "#993333",
+                    "trendValueAlpha": "100",
+                    "trendValueBgAlpha": "50",
+                    "trendValueBorderAlpha": "80",
+                    "trendValueBorderPadding": "5",
+                    "trendValueBorderRadius": "5",
+                    "trendValueBorderThickness": "3",
+                    "trendValueBorderDashed": "1",
+                    "trendValueBorderDashLen": "12",
+                    "trendValueBorderDashGap": "10"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesName": "AA",
+                        "data": [
+                            {
+                                "x": "12",
+                                "y": "50",
+                                "width": "70",
+                                "height": "45",
+                                "label": "100",
+                                "color": "#AFD8F8",
+                                "id": "1",
+                                "allowDrag": "0"
+                            },
+                            {
+                                "x": "55",
+                                "y": "-25",
+                                "width": "40",
+                                "height": "40",
+                                "label": "200",
+                                "color": "#AFD8F8",
+                                "id": "2"
+                            },
+                            {
+                                "x": "33",
+                                "y": "-28",
+                                "radius": "37",
+                                "shape": "circle",
+                                "label": "300",
+                                "color": "#AFD8F8",
+                                "id": "3"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesName": "BB",
+                        "allowDrag": "0",
+                        "includeInLegend": "1",
+                        "data": [
+                            {
+                                "x": "34",
+                                "y": "50",
+                                "width": "70",
+                                "height": "45",
+                                "label": "400",
+                                "color": "#FFCC00",
+                                "id": "4"
+                            },
+                            {
+                                "x": "56",
+                                "y": "52",
+                                "width": "40",
+                                "height": "40",
+                                "label": "500",
+                                "color": "#FFCC00",
+                                "id": "5"
+                            },
+                            {
+                                "x": "13",
+                                "y": "-30",
+                                "radius": "37",
+                                "shape": "circle",
+                                "label": "600",
+                                "color": "#FFCC00",
+                                "id": "6",
+                                "imagenode": "1",
+                                "imageurl": "http://upload.wikimedia.org/wikipedia/commons/7/79/Misc_fruit.jpg",
+                                "imagealign": "left",
+                                "imageheight": "89",
+                                "imagewidth": "108",
+                                "labelAlign": "left",
+                                "link": "http://upload.wikimedia.org/wikipedia/commons/7/79/Misc_fruit.jpg",
+                                "toolText": "Image Node"
+                            }
+                        ]
+                    }
+                ],
+                "connectors": [
+                    {
+                        "color": "#ffffff",
+                        "stdthickness": "5",
+                        "dashed": "0",
+                        "alpha": "100",
+                        "connector": [
+                            {
+                                "strength": "0.96",
+                                "label": "link label",
+                                "from": "1",
+                                "to": "3",
+                                "color": "BBBB00",
+                                "arrowatstart": "1",
+                                "arrowatend": "1",
+                                "dashed": "1",
+                                "dasGap": "10",
+                                "dashLen": "6"
+                            },
+                            {
+                                "strength": "0.8",
+                                "label": "link",
+                                "from": "2",
+                                "to": "3",
+                                "color": "BBBB00",
+                                "arrowatstart": "0",
+                                "arrowatend": "1"
+                            },
+                            {
+                                "strength": "0.96",
+                                "label": "link label",
+                                "from": "4",
+                                "to": "5",
+                                "color": "#FFCCFF",
+                                "arrowatstart": "1",
+                                "arrowatend": "1"
+                            },
+                            {
+                                "strength": "0.8",
+                                "label": "link",
+                                "from": "5",
+                                "to": "6",
+                                "color": "#FFCCFF",
+                                "arrowatstart": "0",
+                                "arrowatend": "1"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "25",
+                                "istrendzone": "1",
+                                "valueonright": "1",
+                                "tooltext": "Fusioncharts",
+                                "endvalue": "30",
+                                "color": "009933",
+                                "displayvalue": "Last Year Trend",
+                                "showontop": "1",
+                                "thickness": "5"
+                            },
+                            {
+                                "startvalue": "10",
+                                "istrendzone": "0",
+                                "valueonright": "0",
+                                "tooltext": "Fusioncharts",
+                                "color": "#ff0000",
+                                "displayvalue": "Target",
+                                "showontop": "0",
+                                "thickness": "3",
+                                "alpha": "75",
+                                "dashed": "0",
+                                "dashLen": "6",
+                                "dashGap": "3"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke-test/dragnode/ref-images/test_3_dragnode-snapshot.png",
+        "id": "test_3"
+    }
+}

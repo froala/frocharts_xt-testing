@@ -1,0 +1,236 @@
+<html>
+
+<head>
+    <title>Event Spec</title>
+    <script type="text/javascript" src="../../fusioncharts/fusioncharts.js"></script>
+    <style>
+    </style>
+    <script type="text/javascript">
+    FusionCharts.addEventListener('initialized', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts' + 'width!^!' + args.width + '!^!height!^!' + args.height);
+    });
+
+    FusionCharts.addEventListener('dataLoaded', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts');
+    });
+
+    FusionCharts.addEventListener('rendered', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts');
+    });
+
+    FusionCharts.addEventListener('renderComplete', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts');
+    });
+
+    FusionCharts.addEventListener('dataplotClick', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts' + 'chartX!^!' + args.chartX + '!^!chartY!^!' + args.chartY + '!^!pageX!^!' + args.pageX + '!^!pageY!^!' + args.pageY + '!^!datasetIndex!^!' + args.datasetIndex + '!^!datasetName!^!' + args.datasetName + '!^!dataIndex!^!' + args.dataIndex + '!^!dataValue!^!' + args.dataValue + '!^!displayValue!^!' + args.displayValue + '!^!categoryLabel!^!' + args.categoryLabel + '!^!toolText!^!' + args.toolText);
+    });
+
+    FusionCharts.addEventListener('dataplotrollout', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts' + 'chartX!^!' + args.chartX + '!^!chartY!^!' + args.chartY + '!^!pageX!^!' + args.pageX + '!^!pageY!^!' + args.pageY + '!^!datasetIndex!^!' + args.datasetIndex + '!^!datasetName!^!' + args.datasetName + '!^!dataIndex!^!' + args.dataIndex + '!^!dataValue!^!' + args.dataValue + '!^!displayValue!^!' + args.displayValue + '!^!categoryLabel!^!' + args.categoryLabel + '!^!toolText!^!' + args.toolText);
+    });
+
+    FusionCharts.addEventListener('dataplotrollover', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts' + 'chartX!^!' + args.chartX + '!^!chartY!^!' + args.chartY + '!^!pageX!^!' + args.pageX + '!^!pageY!^!' + args.pageY + '!^!datasetIndex!^!' + args.datasetIndex + '!^!datasetName!^!' + args.datasetName + '!^!dataIndex!^!' + args.dataIndex + '!^!dataValue!^!' + args.dataValue + '!^!displayValue!^!' + args.displayValue + '!^!categoryLabel!^!' + args.categoryLabel + '!^!toolText!^!' + args.toolText);
+    });
+
+    FusionCharts.ready(function() {
+        RChart = new FusionCharts({
+            type: 'scrollColumn2d',
+            renderAt: 'chart-container',
+            width: '550',
+            height: '350',
+            dataFormat: 'json',
+            dataSource: {
+                "chart": {
+                    "caption": "Sales Trends",
+                    "subcaption": "FY 2012 - FY 2013",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showvalues": "1",
+                    "placeValuesInside": "1",
+                    "rotateValues": "1",
+                    "valueFontColor": "#ffffff",
+                    "numberprefix": "$",
+
+                    //Cosmetics
+                    "baseFontColor": "#333333",
+                    "baseFont": "Helvetica Neue,Arial",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "showborder": "0",
+                    "paletteColors": "#0075c2",
+                    "bgcolor": "#FFFFFF",
+                    "showalternatehgridcolor": "0",
+                    "showplotborder": "0",
+                    "labeldisplay": "WRAP",
+                    "divlinecolor": "#CCCCCC",
+                    "showcanvasborder": "0",
+                    "linethickness": "3",
+                    "plotfillalpha": "100",
+                    "plotgradientcolor": "",
+                    "numVisiblePlot": "12",
+                    "divlineAlpha": "100",
+                    "divlineColor": "#999999",
+                    "divlineThickness": "1",
+                    "divLineDashed": "1",
+                    "divLineDashLen": "1",
+                    "divLineGapLen": "1",
+                    "scrollheight": "10",
+                    "flatScrollBars": "1",
+                    "scrollShowButtons": "0",
+                    "scrollColor": "#cccccc",
+                    "showHoverEffect": "1",
+                },
+                "categories": [{
+                    "category": [{
+                        "label": "Jan 2012"
+                    }, {
+                        "label": "Feb 2012"
+                    }, {
+                        "label": "Mar 2012"
+                    }, {
+                        "label": "Apr 2012"
+                    }, {
+                        "label": "May 2012"
+                    }, {
+                        "label": "Jun 2012"
+                    }, {
+                        "label": "Jul 2012"
+                    }, {
+                        "label": "Aug 2012"
+                    }, {
+                        "label": "Sep 2012"
+                    }, {
+                        "label": "Oct 2012"
+                    }, {
+                        "label": "Nov 2012"
+                    }, {
+                        "label": "Dec 2012"
+                    }, {
+                        "label": "Jan 2013"
+                    }, {
+                        "label": "Feb 2013"
+                    }, {
+                        "label": "Mar 2013"
+                    }, {
+                        "label": "Apr 2013"
+                    }, {
+                        "label": "May 2013"
+                    }, {
+                        "label": "Jun 2013"
+                    }, {
+                        "label": "Jul 2013"
+                    }, {
+                        "label": "Aug 2013"
+                    }, {
+                        "label": "Sep 2013"
+                    }, {
+                        "label": "Oct 2013"
+                    }, {
+                        "label": "Nov 2013"
+                    }, {
+                        "label": "Dec 2013"
+                    }]
+                }],
+                "dataset": [{
+                    "data": [{
+                        "value": "27400"
+                    }, {
+                        "value": "29800"
+                    }, {
+                        "value": "25800"
+                    }, {
+                        "value": "26800"
+                    }, {
+                        "value": "29600"
+                    }, {
+                        "value": "32600"
+                    }, {
+                        "value": "31800"
+                    }, {
+                        "value": "36700"
+                    }, {
+                        "value": "29700"
+                    }, {
+                        "value": "31900"
+                    }, {
+                        "value": "34800"
+                    }, {
+                        "value": "24800"
+                    }, {
+                        "value": "26300"
+                    }, {
+                        "value": "31800"
+                    }, {
+                        "value": "30900"
+                    }, {
+                        "value": "33000"
+                    }, {
+                        "value": "36200"
+                    }, {
+                        "value": "32100"
+                    }, {
+                        "value": "37500"
+                    }, {
+                        "value": "38500"
+                    }, {
+                        "value": "35400"
+                    }, {
+                        "value": "38200"
+                    }, {
+                        "value": "33300"
+                    }, {
+                        "value": "38300"
+                    }]
+                }]
+            }
+        });
+
+        RChart.render();
+    });
+    /*
+        (function() {
+            document.onclick = handleMouseMove;
+
+            function handleMouseMove(event) {
+                var dot, eventDoc, doc, body, pageX, pageY;
+
+                event = event || window.event; // IE-ism
+
+                // If pageX/Y aren't available and clientX/Y are,
+                // calculate pageX/Y - logic taken from jQuery.
+                // (This is to support old IE)
+                if (event.pageX == null && event.clientX != null) {
+                    eventDoc = (event.target && event.target.ownerDocument) || document;
+                    doc = eventDoc.documentElement;
+                    body = eventDoc.body;
+
+                    event.pageX = event.clientX +
+                        (doc && doc.scrollLeft || body && body.scrollLeft || 0) -
+                        (doc && doc.clientLeft || body && body.clientLeft || 0);
+                    event.pageY = event.clientY +
+                        (doc && doc.scrollTop || body && body.scrollTop || 0) -
+                        (doc && doc.clientTop || body && body.clientTop || 0);
+                }
+
+                console.log("X " + event.pageX + " Y " + event.pageY);
+            }
+        })(); */
+    </script>
+</head>
+
+<body>
+    <div id="chart-container">
+    </div>
+</body>
+
+</html>

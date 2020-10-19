@@ -1,0 +1,304 @@
+{
+    "FTV3-1002-year-tc1": {
+        "id": "FTV3-1002-year-tc1",
+        "description": "Central alignment of plot and tick w.r.t. bin for year unit with multiplier = 1",
+        "options": {
+            "data-id": "data-FTV3-1002-year-month-day-bin",
+            "schema-id": "schema-FTV3-1002-year-month-day-bin",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "yAxis": [
+                    {
+                        "plotType": "column",
+                        "plot": [
+                            {
+                                "value": "Total Purchase"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "paletteColors": "#ff0000,#00ff00,#0000ff",
+                    "multiCanvas": 1,
+                    "enableNavigator": "1",
+                    "animation": "0",
+                    "showToolTip": 1
+                },
+                "xaxis": {
+                    "binning": {
+                        "year": [ 1 ],
+                        "month": [],
+                        "day": []
+
+                    }
+                },
+                "caption": {
+                    "style": {
+                        "font-weight": "normal"
+                    }
+                },
+                "subCaption": {
+                    "style": {
+                        "font-weight": "normal"
+                    }
+                }
+            }
+        }
+    },
+    "FTV3-1002-year-tc2": {
+        "id": "FTV3-1002-year-tc2",
+        "description": "Central alignment of plot and tick w.r.t. bin for year unit with multiplier > 1",
+        "options": {
+            "data-id": "data-FTV3-1002-year-month-day-bin",
+            "schema-id": "schema-FTV3-1002-year-month-day-bin",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "yAxis": [
+                    {
+                        "plotType": "column",
+                        "plot": [
+                            {
+                                "value": "Total Purchase"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "paletteColors": "#ff0000,#00ff00,#0000ff",
+                    "multiCanvas": 1,
+                    "enableNavigator": "1",
+                    "animation": "0",
+                    "showToolTip": 1
+                },
+                "xaxis": {
+                    "binning": {
+                        "year": [ 2 ],
+                        "month": [],
+                        "day": []
+
+                    }
+                },
+                "caption": {
+                    "style": {
+                        "font-weight": "normal"
+                    }
+                },
+                "subCaption": {
+                    "style": {
+                        "font-weight": "normal"
+                    }
+                }
+            }
+        }
+    },
+    "FTV3-1002-month-tc1": {
+        "id": "FTV3-1002-month-tc1",
+        "description": "Central alignment of plot and tick w.r.t. bin for month unit with multiplier = 1",
+        "options": {
+            "data-id": "data-FTV3-1002-year-month-day-bin",
+            "schema-id": "schema-FTV3-1002-year-month-day-bin",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "yAxis": [
+                    {
+                        "plotType": "column",
+                        "plot": [
+                            {
+                                "value": "Total Purchase"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "paletteColors": "#ff0000,#00ff00,#0000ff",
+                    "multiCanvas": 1,
+                    "enableNavigator": "1",
+                    "animation": "0",
+                    "showToolTip": 1
+                },
+                "xaxis": {
+                    "binning": {
+                        "month": [ 1 ],
+                        "day": []
+                    },
+                    "initialInterval": {
+                        "from": "1991-04-01 00:00:00",
+                        "to": "1992-04-01 00:00:00"
+                    }
+                },
+                "caption": {
+                    "style": {
+                        "font-weight": "normal"
+                    }
+                },
+                "subCaption": {
+                    "style": {
+                        "font-weight": "normal"
+                    }
+                }
+            }
+        }
+    },
+    "FTV3-1002-month-tc2": {
+        "id": "FTV3-1002-month-tc2",
+        "description": "Central alignment of plot and tick w.r.t. bin for month unit with multiplier > 1",
+        "options": {
+            "data-id": "data-FTV3-1002-year-month-day-bin",
+            "schema-id": "schema-FTV3-1002-year-month-day-bin",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "yAxis": [
+                    {
+                        "plotType": "column",
+                        "plot": [
+                            {
+                                "value": "Total Purchase"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "paletteColors": "#ff0000,#00ff00,#0000ff",
+                    "multiCanvas": 1,
+                    "enableNavigator": "1",
+                    "animation": "0",
+                    "showToolTip": 1
+                },
+                "xaxis": {
+                    "binning": {
+                        "month": [ 2 ],
+                        "day": []
+                    },
+                    "initialInterval": {
+                        "from": "1991-04-01 00:00:00",
+                        "to": "1992-04-01 00:00:00"
+                    }
+                },
+                "caption": {
+                    "style": {
+                        "font-weight": "normal"
+                    }
+                },
+                "subCaption": {
+                    "style": {
+                        "font-weight": "normal"
+                    }
+                }
+            }
+        }
+    },
+    "FTV3-1002-day-tc1": {
+        "id": "FTV3-1002-day-tc1",
+        "description": "Central alignment of plot and tick w.r.t. bin for day unit with multiplier = 1",
+        "options": {
+            "data-id": "data-FTV3-1002-year-month-day-bin",
+            "schema-id": "schema-FTV3-1002-year-month-day-bin",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "yAxis": [
+                    {
+                        "plotType": "column",
+                        "plot": [
+                            {
+                                "value": "Total Purchase"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "paletteColors": "#ff0000,#00ff00,#0000ff",
+                    "multiCanvas": 1,
+                    "enableNavigator": "1",
+                    "animation": "0",
+                    "showToolTip": 1
+                },
+                "xaxis": {
+                    "binning": {
+                        "day": [ 1 ],
+                        "hour": []
+                    },
+                    "initialInterval": {
+                        "from": "1991-06-29 00:00:00",
+                        "to": "1991-08-10 00:00:00"
+                    }
+                },
+                "caption": {
+                    "style": {
+                        "font-weight": "normal"
+                    }
+                },
+                "subCaption": {
+                    "style": {
+                        "font-weight": "normal"
+                    }
+                }
+            }
+        }
+    },
+    "FTV3-1002-day-tc2": {
+        "id": "FTV3-1002-day-tc2",
+        "description": "Central alignment of plot and tick w.r.t. bin for day unit with multiplier > 1",
+        "options": {
+            "data-id": "data-FTV3-1002-year-month-day-bin",
+            "schema-id": "schema-FTV3-1002-year-month-day-bin",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "yAxis": [
+                    {
+                        "plotType": "column",
+                        "plot": [
+                            {
+                                "value": "Total Purchase"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "paletteColors": "#ff0000,#00ff00,#0000ff",
+                    "multiCanvas": 1,
+                    "enableNavigator": "1",
+                    "animation": "0",
+                    "showToolTip": 1
+                },
+                "xaxis": {
+                    "binning": {
+                        "day": [ 2 ],
+                        "hour": []
+                    },
+                    "initialInterval": {
+                        "from": "1991-06-29 00:00:00",
+                        "to": "1991-08-10 00:00:00"
+                    }
+                },
+                "caption": {
+                    "style": {
+                        "font-weight": "normal"
+                    }
+                },
+                "subCaption": {
+                    "style": {
+                        "font-weight": "normal"
+                    }
+                }
+            }
+        }
+    }
+}

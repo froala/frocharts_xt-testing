@@ -1,0 +1,225 @@
+<html>
+
+<head>
+    <title>Event Spec</title>
+    <script type="text/javascript" src="../../fusioncharts/fusioncharts.js"></script>
+    <style>
+    </style>
+    <script type="text/javascript">
+    FusionCharts.addEventListener('initialized', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts' + 'width!^!' + args.width + '!^!height!^!' + args.height);
+    });
+
+    FusionCharts.addEventListener('dataLoaded', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts');
+    });
+
+    FusionCharts.addEventListener('rendered', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts');
+    });
+
+    FusionCharts.addEventListener('renderComplete', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts');
+    });
+
+    FusionCharts.addEventListener('dataplotClick', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts' + 'chartX!^!' + args.chartX + '!^!chartY!^!' + args.chartY + '!^!pageX!^!' + args.pageX + '!^!pageY!^!' + args.pageY + '!^!datasetIndex!^!' + args.datasetIndex + '!^!datasetName!^!' + args.datasetName + '!^!dataIndex!^!' + args.dataIndex + '!^!dataValue!^!' + args.dataValue + '!^!displayValue!^!' + args.displayValue + '!^!categoryLabel!^!' + args.categoryLabel + '!^!toolText!^!' + args.toolText);
+    });
+
+    FusionCharts.addEventListener('dataplotrollout', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts' + 'chartX!^!' + args.chartX + '!^!chartY!^!' + args.chartY + '!^!pageX!^!' + args.pageX + '!^!pageY!^!' + args.pageY + '!^!datasetIndex!^!' + args.datasetIndex + '!^!datasetName!^!' + args.datasetName + '!^!dataIndex!^!' + args.dataIndex + '!^!dataValue!^!' + args.dataValue + '!^!displayValue!^!' + args.displayValue + '!^!categoryLabel!^!' + args.categoryLabel + '!^!toolText!^!' + args.toolText);
+    });
+
+    FusionCharts.addEventListener('dataplotrollover', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts' + 'chartX!^!' + args.chartX + '!^!chartY!^!' + args.chartY + '!^!pageX!^!' + args.pageX + '!^!pageY!^!' + args.pageY + '!^!datasetIndex!^!' + args.datasetIndex + '!^!datasetName!^!' + args.datasetName + '!^!dataIndex!^!' + args.dataIndex + '!^!dataValue!^!' + args.dataValue + '!^!displayValue!^!' + args.displayValue + '!^!categoryLabel!^!' + args.categoryLabel + '!^!toolText!^!' + args.toolText);
+    });
+
+    FusionCharts.ready(function() {
+        RChart = new FusionCharts({
+            type: 'dragcolumn2d',
+            renderAt: 'chart-container',
+            width: '500',
+            height: '350',
+            dataFormat: 'json',
+            dataSource: {
+                "chart": {
+                    "caption": "Inventory status - Bakersfield Central",
+                    "subCaption": "Top 5 Food items",
+                    "xAxisName": "Food Item",
+                    "yAxisName": "No. of Units",
+                    "paletteColors": "#0075c2,#1aaf5d",
+                    "bgColor": "#ffffff",
+                    "showAlternateHGridColor": "0",
+                    "showBorder": "0",
+                    "showCanvasBorder": "0",
+                    "baseFontColor": "#333333",
+                    "baseFont": "Helvetica Neue,Arial",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "usePlotGradientColor": "0",
+                    "toolTipColor": "#ffffff",
+                    "toolTipBorderThickness": "0",
+                    "toolTipBgColor": "#000000",
+                    "toolTipBgAlpha": "80",
+                    "toolTipBorderRadius": "2",
+                    "toolTipPadding": "5",
+                    "legendBgAlpha": "0",
+                    "legendBorderAlpha": "0",
+                    "legendShadow": "0",
+                    "legendItemFontSize": "10",
+                    "legendItemFontColor": "#666666",
+                    "legendCaptionFontSize": "9",
+                    "divlineAlpha": "100",
+                    "divlineColor": "#999999",
+                    "divlineThickness": "1",
+                    "divLineDashed": "1",
+                    "divLineDashLen": "1",
+                    "divLineGapLen": "1",
+                },
+                "categories": [{
+                    "category": [{
+                        "label": "Poultry"
+                    }, {
+                        "label": "Rice"
+                    }, {
+                        "label": "Peanut Butter"
+                    }, {
+                        "label": "Salmon"
+                    }, {
+                        "label": "Cereal"
+                    }]
+                }],
+                "dataset": [{
+                    "seriesname": "Available Stock",
+                    "allowDrag": "0",
+                    "data": [{
+                        "value": "6000"
+                    }, {
+                        "value": "9500"
+                    }, {
+                        "value": "11900"
+                    }, {
+                        "value": "8000"
+                    }, {
+                        "value": "9700"
+                    }]
+                }, {
+                    "seriesname": "Estimated Demand",
+                    "dashed": "1",
+                    "data": [{
+                        "value": "19000"
+                    }, {
+                        "value": "16500"
+                    }, {
+                        "value": "14300"
+                    }, {
+                        "value": "10000"
+                    }, {
+                        "value": "9800"
+                    }]
+                }]
+            },
+            "events": {
+                'beforeRender': function(evt, args) {
+                    // create wrapper div for values table
+                    var tableDiv = document.createElement('div');
+                    tableDiv.setAttribute('id', 'dragcolumn-table');
+                    // form table inside wrapper div
+                    tableDiv.innerHTML = "<table id='dragcolumn2d-sample-table'><tr><td></td><th>Poultry</th><th>Rice</th><th>Peanut Butter</th><th>Salmon</th><th>Cereal</th></tr><tr><td>Estimated Demand</td><td>19000</td><td>16500</td><td>14300</td><td>10000</td><td>9800</td></tr></table>";
+
+                    // setting css styles for wrapper div
+                    tableDiv.style.cssText = 'width: 100%;';
+                    // setting css styles for table
+                    var table = tableDiv.getElementsByTagName('table').item(0);
+                    table.style.cssText = 'margin:25px auto; margin-left:0px; border-collapse:collapse; border:1px solid; border-bottom:2px solid #1aaf5d;';
+                    // setting css styles for table header cells
+                    var th = table.getElementsByTagName('th');
+                    for (var i = 0; i < th.length; i++) {
+                        th[i].style.cssText = 'background-color:#0075c2; color:#ffffff; border:1px solid #333; padding:10px 5px; min-width:70px; text-align:center;';
+                    }
+                    // setting css styles for table data cells
+                    var td = table.getElementsByTagName('td');
+                    for (i = 0; i < td.length; i++) {
+                        td[i].style.cssText = 'border:1px solid #333; padding:10px 5px; min-width:70px; text-align:center;';
+                        td[i].style.cssText += (i == 0 ? 'border-color:#fff' : (i == 1 ? 'background-color:#1aaf5d; color:#fff' : 'color:#1aaf5d')) + ';';
+                    }
+
+                    args.container.appendChild(tableDiv);
+                },
+
+                "dataplotDragEnd": function(evt, arg) {
+                    var dataIndex = arg && arg.dataIndex,
+                        prevVal = arg && arg.startValue,
+                        newVal = arg && parseInt(arg.endValue, 10),
+                        valuerow = document.getElementById("dragcolumn2d-sample-table")
+                        .getElementsByTagName("tr")[1]
+                        .getElementsByTagName('td');
+
+                    valuerow[dataIndex].innerHTML = newVal;
+                },
+                "dataRestored": function(evtObj) {
+                    var estimatedOrigValues = ["19000", "16500", "14300", "10000", "9800"],
+                        i = 0,
+                        numVals = estimatedOrigValues.length,
+                        val,
+                        valuerow = document.getElementById("dragcolumn2d-sample-table")
+                        .getElementsByTagName("tr")[1]
+                        .getElementsByTagName('td');
+
+                    for (i; i < numVals; i += 1) {
+                        val = estimatedOrigValues[i];
+
+                        //set the original values
+                        valuerow[i + 1].innerHTML = val;
+                    }
+                }
+            }
+        });
+
+        RChart.render();
+    });
+    /*
+        (function() {
+            document.onclick = handleMouseMove;
+
+            function handleMouseMove(event) {
+                var dot, eventDoc, doc, body, pageX, pageY;
+
+                event = event || window.event; // IE-ism
+
+                // If pageX/Y aren't available and clientX/Y are,
+                // calculate pageX/Y - logic taken from jQuery.
+                // (This is to support old IE)
+                if (event.pageX == null && event.clientX != null) {
+                    eventDoc = (event.target && event.target.ownerDocument) || document;
+                    doc = eventDoc.documentElement;
+                    body = eventDoc.body;
+
+                    event.pageX = event.clientX +
+                        (doc && doc.scrollLeft || body && body.scrollLeft || 0) -
+                        (doc && doc.clientLeft || body && body.clientLeft || 0);
+                    event.pageY = event.clientY +
+                        (doc && doc.scrollTop || body && body.scrollTop || 0) -
+                        (doc && doc.clientTop || body && body.clientTop || 0);
+                }
+
+                console.log("X " + event.pageX + " Y " + event.pageY);
+            }
+        })(); */
+    </script>
+</head>
+
+<body>
+    <div id="chart-container">
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html ng-app="HelloApp">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+<script type="text/javascript" src="http://fusioncharts.github.io/angular-fusioncharts/demos/js/angular-fusioncharts.min.js"></script>
+
+<body ng-controller="MyController">
+
+    <fusioncharts id="mychartcontainer" chartid="mychart" width="{{width}}" height="400" type="{{type}}" dataSource="{{dataSource}}" config="{{chartoptions}}"></fusioncharts>
+    <input type="button" ng-click="changeOpacity()" value="Toggle Show Labels" />
+    <script type="text/javascript">
+        var app = angular.module('HelloApp', ["ng-fusioncharts"])
+        app.controller('MyController', function($scope) {
+            $scope.type = "bar2d";
+            $scope.width = 600;
+
+            $scope.dataSource = {
+                chart: {
+                    animationDuration: 0.5,
+                    baseFont: "Roboto",
+                    baseFontColor: "000000",
+                    bgcolor: "ffffff",
+                    canvasBorderThickness: 0,
+                    canvasPadding: 5,
+                    divLineColor: "757575",
+                    inthousandseparator: ",",
+                    manageLabelOverflow: 1,
+                    maxLabelWidthPercent: 25,
+                    paletteColors: "#db0a5b,#FF2D00,#ff8366,#ff6d00,#f7ca18,#199451,#87d37c,#7196ff,#00cfff,#663399,#730046,#FF7BAC",
+                    plotBorderColor: "ffffff",
+                    rotateValues: "1",
+                    showAlternateHGridColor: "0",
+                    showAlternateVGridColor: "0",
+                    showBorder: 0,
+                    showLabels: 1,
+                    showLegend: "1",
+                    showValues: true,
+                    showYAxisValues: "1",
+                    showshadow: 0,
+                    toolTipBgColor: "ffffff",
+                    toolTipBorderColor: "ffffff",
+                    use3dlighting: 0,
+                    useEllipsesWhenOverflow: 1,
+                    usePlotGradientColor: "0",
+                    xAxisName: "Pay Rule",
+                    yAxisName: "Daily Hours"
+                },
+                data: [{
+                        "label": "Full Time",
+                        "value": "150.00",
+                        "displayvalue": "150:00",
+                        "toolText": "Full Time, 150:00",
+                        "drillDownValue": "Full Time"
+                    },
+                    {
+                        "label": "Manufacturing Intern",
+                        "value": "144.00",
+                        "displayvalue": "144:00",
+                        "toolText": "Manufacturing Intern, 144:00",
+                        "drillDownValue": "Manufacturing Intern"
+                    },
+                    {
+                        "label": "Manufacturing Bi-Weekly PFS",
+                        "value": "16.00",
+                        "displayvalue": "16:00",
+                        "toolText": "Manufacturing Bi-Weekly PFS, 16:00",
+                        "drillDownValue": "Manufacturing Bi-Weekly PFS"
+                    },
+                    {
+                        "label": "Manufacturing Weekly",
+                        "value": "8.00",
+                        "displayvalue": "8:00",
+                        "toolText": "Manufacturing Weekly, 8:00",
+                        "drillDownValue": "Manufacturing Weekly"
+                    },
+                    {
+                        "label": "Manufacturing Bi-Weekly",
+                        "value": "8.00",
+                        "displayvalue": "8:00",
+                        "toolText": "Manufacturing Bi-Weekly, 8:00",
+                        "drillDownValue": "Manufacturing Bi-Weekly"
+                    },
+                    {
+                        "label": "Manufacturing Bi-Weekly PartTime",
+                        "value": "16.00",
+                        "displayvalue": "16:00",
+                        "toolText": "Manufacturing Bi-Weekly PartTime, 16:00",
+                        "drillDownValue": "Manufacturing Bi-Weekly PartTime"
+                    },
+                    {
+                        "label": "US FLSA Weekly",
+                        "value": "32.00",
+                        "displayvalue": "32:00",
+                        "toolText": "US FLSA Weekly, 32:00",
+                        "drillDownValue": "US FLSA Weekly"
+                    },
+                    {
+                        "label": "Manufacturing Bi-Weekly Project",
+                        "value": "8.00",
+                        "displayvalue": "8:00",
+                        "toolText": "Manufacturing Bi-Weekly Project, 8:00",
+                        "drillDownValue": "Manufacturing Bi-Weekly Project"
+                    },
+                    {
+                        "label": "Manufacturing Clerk",
+                        "value": "32.00",
+                        "displayvalue": "32:00",
+                        "toolText": "Manufacturing Clerk, 32:00",
+                        "drillDownValue": "Manufacturing Clerk"
+                    }
+                ]
+
+            };
+
+            $scope.changeOpacity = function() {
+
+                $scope.dataSource.chart.showlabels = !$scope.dataSource.chart.showlabels;
+            };
+
+        });
+    </script>
+
+
+</body>
+
+</html>

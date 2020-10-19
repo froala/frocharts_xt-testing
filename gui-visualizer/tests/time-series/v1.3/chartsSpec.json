@@ -1,0 +1,1433 @@
+{
+    "RED-FTV3-1022": {
+        "description": "defaultformat for y-axis and toooltip not working for specific values when no format is mentioned",
+        "options": {
+            "data-id": "FTV3-1022",
+            "schema-id": "FTV3-1022-sample",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0"
+                },
+                "xAxis": {
+                    "plot": "Time"
+                },
+                "caption": {
+                    "text": "Apple Inc. Stock Price"
+                },
+                "subcaption": {
+                    "text": "Stock prices from January 1980 - November 2011"
+                },
+                "yAxis": [{
+                    "plot": {
+                        "value": {
+                            "open": "Open",
+                            "high": "High",
+                            "low": "Low",
+                            "close": "Close"
+                        },
+                        "type": "candlestick"
+                    },
+                    "format": {
+                        "prefix": "$"
+                    },
+                    "title": "Stock Value"
+                }]
+            }
+        },
+        "id": "RED-FTV3-1022"
+    },
+    "RED-FTV3-1014": {
+        "description": "Performance issue in timeseries chart.",
+        "options": {
+            "data-id": "FTV3-1022",
+            "schema-id": "FTV3-1022-sample",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multiCanvas": 0
+                },
+                "xAxis": {
+                    "plot": "Time"
+                },
+                "caption": {
+                    "text": "Apple Inc. Stock Price"
+                },
+                "subcaption": {
+                    "text": "Stock prices from January 1980 - November 2011"
+                },
+                "yaxis": [{
+                        "plot": {
+                            "value": "Open",
+                            "type": "column"
+                        },
+                        "orientation": "right"
+                    },
+                    {
+                        "plot": {
+                            "value": "High",
+                            "type": "area"
+                        },
+                        "orientation": "left"
+                    },
+                    {
+                        "plot": {
+                            "value": "Low",
+                            "type": "line"
+                        },
+                        "orientation": "right"
+                    },
+                    {
+                        "plot": {
+                            "value": "Close",
+                            "type": "step-line"
+                        },
+                        "orientation": "left"
+                    }
+                ]
+            }
+        },
+        "id": "RED-FTV3-1014"
+    },
+    "RED-FTV3-983": {
+        "description": "Data Markers of different time are grouped together",
+        "options": {
+            "data-id": "FTV3-983",
+            "schema-id": "FTV3-983-sample",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multiCanvas": 0
+                },
+                "xAxis": {
+                    "plot": "Time"
+                },
+                "caption": {
+                    "text": "Apple Inc. Stock Price"
+                },
+                "subcaption": {
+                    "text": "Stock prices from January 1980 - November 2011"
+                },
+                "yAxis": {
+                    "plot": {
+                        "value": "Interest Rate",
+                        "type": "line"
+                    },
+                    "title": "Interest Rate"
+                },
+                "datamarker": [{
+                        "time": "Mar-1980",
+                        "identifier": "A",
+                        "timeformat": "%b-%Y",
+                        "tooltext": "A"
+                    },
+                    {
+                        "time": "May-1989",
+                        "identifier": "C",
+                        "timeformat": "%b-%Y",
+                        "tooltext": "C"
+                    },
+                    {
+                        "time": "Mar-1980",
+                        "identifier": "B",
+                        "timeformat": "%b-%Y",
+                        "tooltext": "B"
+                    }
+                ]
+            }
+        },
+        "id": "RED-FTV3-983"
+    },
+    "RED-FTV3-982": {
+        "description": "Date is shown multiple times in consolidated Data Marker.",
+        "options": {
+            "data-id": "FTV3-983",
+            "schema-id": "FTV3-983-sample",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multiCanvas": 0
+                },
+                "xAxis": {
+                    "plot": "Time"
+                },
+                "caption": {
+                    "text": "Apple Inc. Stock Price"
+                },
+                "subcaption": {
+                    "text": "Stock prices from January 1980 - November 2011"
+                },
+                "yAxis": {
+                    "plot": {
+                        "value": "Interest Rate",
+                        "type": "line"
+                    },
+                    "title": "Interest Rate"
+                },
+                "datamarker": [{
+                        "time": "Mar-1980",
+                        "identifier": "A",
+                        "timeformat": "%b-%Y",
+                        "tooltext": "A"
+                    },
+                    {
+                        "time": "Mar-1980",
+                        "identifier": "C",
+                        "timeformat": "%b-%Y",
+                        "tooltext": "C"
+                    },
+                    {
+                        "time": "Mar-1980",
+                        "identifier": "B",
+                        "timeformat": "%b-%Y",
+                        "tooltext": "B"
+                    }
+                ]
+            }
+        },
+        "id": "RED-FTV3-982"
+    },
+    "RED-FTV3-981": {
+        "description": "Introduce new data marker type - pin.",
+        "options": {
+            "data-id": "FTV3-983",
+            "schema-id": "FTV3-983-sample",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multiCanvas": 0
+                },
+                "xAxis": {
+                    "plot": "Time"
+                },
+                "caption": {
+                    "text": "Apple Inc. Stock Price"
+                },
+                "subcaption": {
+                    "text": "Stock prices from January 1980 - November 2011"
+                },
+                "yAxis": {
+                    "plot": {
+                        "value": "Interest Rate",
+                        "type": "line"
+                    },
+                    "title": "Interest Rate"
+                },
+                "datamarker": [{
+                        "time": "Mar-1980",
+                        "identifier": "A",
+                        "timeformat": "%b-%Y",
+                        "tooltext": "A",
+                        "type": "pin"
+                    },
+                    {
+                        "time": "Feb-1990",
+                        "identifier": "B",
+                        "timeformat": "%b-%Y",
+                        "tooltext": "AB+"
+                    },
+                    {
+                        "time": "Dec-1989",
+                        "identifier": "C",
+                        "type": "pin",
+                        "timeformat": "%b-%Y",
+                        "tooltext": "C"
+                    },
+                    {
+                        "time": "Sep-1982",
+                        "identifier": "B",
+                        "timeformat": "%b-%Y",
+                        "tooltext": "B"
+                    }
+                ]
+            }
+        },
+        "id": "RED-FTV3-981"
+    },
+    "RED-FTV3-980": {
+        "description": "Implement yaxis grid bands",
+        "options": {
+            "data-id": "FTV3-983",
+            "schema-id": "FTV3-983-sample",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multiCanvas": 0
+                },
+                "xAxis": {
+                    "plot": "Time"
+                },
+                "caption": {
+                    "text": "Apple Inc. Stock Price"
+                },
+                "subcaption": {
+                    "text": "Stock prices from January 1980 - November 2011"
+                },
+                "yAxis": {
+                    "plot": {
+                        "value": "Interest Rate",
+                        "type": "line"
+                    },
+                    "title": "Interest Rate",
+                    "showGridband": "1",
+                    "style": {
+                        "grid-band": {
+                            "fill": "#00ff00"
+                        }
+                    },
+                    "datamarker": [{
+                        "time": "Mar-1980",
+                        "identifier": "A",
+                        "timeformat": "%b-%Y",
+                        "tooltext": "A",
+                        "type": "pin"
+                    }]
+                }
+            }
+        },
+        "id": "RED-FTV3-980"
+    },
+    "RED-FTV3-979.1": {
+        "description": "Data markers, time markers should be implemented in stock charts.",
+        "options": {
+            "data-id": "FTV3-979",
+            "schema-id": "FTV3-979-sample",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0"
+                },
+                "xAxis": {
+                    "plot": "Time",
+                    "timemarker": [{
+                            "start": "1971-02-17",
+                            "label": "This is the first time marker.",
+                            "timeFormat": "%Y-%m-%d",
+                            "type": "full",
+                            "repeat": {
+                                "unit": "Year",
+                                "multiplier": 5
+                            },
+                            "style": {
+                                "marker": {
+                                    "fill": "#00ff00"
+                                }
+                            }
+                        },
+                        {
+                            "start": "1971-04-17",
+                            "end": "1971-08-04",
+                            "label": "This is a time marker.",
+                            "timeFormat": "%Y-%m-%d",
+                            "type": "full",
+                            "repeat": {
+                                "unit": "Year",
+                                "multiplier": 5
+                            },
+                            "style": {
+                                "marker": {
+                                    "fill": "#f8b8b7"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "caption": {
+                    "text": "NASDAQ Composite Index"
+                },
+                "subcaption": {
+                    "text": "Index of the years 1971 and 1972"
+                },
+                "yAxis": [{
+                    "plot": {
+                        "value": {
+                            "open": "Open",
+                            "high": "High",
+                            "low": "Low",
+                            "close": "Close"
+                        },
+                        "type": "ohlc"
+                    },
+                    "title": "Index Value"
+                }],
+                "dataMarker": [{
+                        "series": "Predictive index value",
+                        "time": "1971-02-11",
+                        "type": "flag",
+                        "identifier": "H",
+                        "timeFormat": "%Y-%m-%d",
+                        "tooltext": "As a part of credit control program."
+                    },
+                    {
+                        "series": "Predictive index value",
+                        "time": "1971-02-19",
+                        "type": "pin",
+                        "identifier": "H",
+                        "timeFormat": "%Y-%m-%d",
+                        "tooltext": "As a part of credit control program."
+                    }
+                ]
+            }
+        },
+        "id": "RED-FTV3-979.1"
+    },
+    "RED-FTV3-979.2": {
+        "description": " Reference lines and zones should be implemented in stock charts.",
+        "options": {
+            "data-id": "FTV3-979",
+            "schema-id": "FTV3-979-sample",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0"
+                },
+                "xAxis": {
+                    "plot": "Time"
+                },
+                "caption": {
+                    "text": "NASDAQ Composite Index"
+                },
+                "subcaption": {
+                    "text": "Index of the years 1971 and 1972"
+                },
+                "yAxis": [{
+                    "plot": {
+                        "value": {
+                            "open": "Open",
+                            "high": "High",
+                            "low": "Low",
+                            "close": "Close"
+                        },
+                        "type": "ohlc"
+                    },
+                    "title": "Index Value",
+                    "referenceLine": [{
+                        "label": "Daily Target",
+                        "value": 140
+                    }],
+                    "referenceZone": [{
+                        "label": "This is a reference zone..",
+                        "valueMin": "25",
+                        "valueMax": "95",
+                        "style": {
+                            "marker": {
+                                "fill": "#0000ff",
+                                "stroke": "#D2C9FF"
+                            },
+                            "marker-text": {
+                                "fill": "#000000"
+                            },
+                            "marker:hover": {
+                                "fill": "#D2C9FF"
+                            },
+                            "marker-zone:hover": {
+                                "stroke": "#D2C9FF"
+                            },
+                            "marker-notch:hover": {
+                                "stroke": "#D2C9FF"
+                            }
+                        }
+                    }]
+                }]
+            }
+        },
+        "id": "RED-FTV3-979.2"
+    },
+    "RED-FTV3-979.3": {
+        "description": "Data markers, time markers should be implemented in stock charts.",
+        "options": {
+            "data-id": "FTV3-979",
+            "schema-id": "FTV3-979-sample",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0"
+                },
+                "xAxis": {
+                    "plot": "Time",
+                    "timemarker": [{
+                            "start": "1971-04-17",
+                            "label": "This is the first time marker.",
+                            "timeFormat": "%Y-%m-%d",
+                            "type": "full",
+                            "repeat": {
+                                "unit": "Year",
+                                "multiplier": 5
+                            },
+                            "style": {
+                                "marker": {
+                                    "fill": "#f8b8b7"
+                                }
+                            }
+                        },
+                        {
+                            "start": "1971-06-27",
+                            "end": "1971-09-04",
+                            "label": "This is the second time marker.",
+                            "timeFormat": "%Y-%m-%d",
+                            "type": "full",
+                            "repeat": {
+                                "unit": "Year",
+                                "multiplier": 5
+                            },
+                            "style": {
+                                "marker": {
+                                    "fill": "#00ff00"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "caption": {
+                    "text": "NASDAQ Composite Index"
+                },
+                "subcaption": {
+                    "text": "Index of the years 1971 and 1972"
+                },
+                "yAxis": [{
+                    "plot": {
+                        "value": {
+                            "open": "Open",
+                            "high": "High",
+                            "low": "Low",
+                            "close": "Close"
+                        },
+                        "type": "candlestick"
+                    },
+                    "title": "Index Value"
+                }],
+                "dataMarker": [{
+                        "series": "Predictive index value",
+                        "time": "1971-04-27",
+                        "type": "flag",
+                        "identifier": "H",
+                        "timeFormat": "%Y-%m-%d",
+                        "tooltext": "As a part of credit control program."
+                    },
+                    {
+                        "series": "Predictive index value",
+                        "time": "1971-09-20",
+                        "type": "pin",
+                        "identifier": "H",
+                        "timeFormat": "%Y-%m-%d",
+                        "tooltext": "As a part of credit control program."
+                    }
+                ]
+            }
+        },
+        "id": "RED-FTV3-979.3"
+    },
+    "RED-FTV3-979.4": {
+        "description": "Reference line and zones should be implemented in stock charts.",
+        "options": {
+            "data-id": "FTV3-979",
+            "schema-id": "FTV3-979-sample",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0"
+                },
+                "xAxis": {
+                    "plot": "Time"
+                },
+                "caption": {
+                    "text": "NASDAQ Composite Index"
+                },
+                "subcaption": {
+                    "text": "Index of the years 1971 and 1972"
+                },
+                "yAxis": [{
+                    "plot": {
+                        "value": {
+                            "open": "Open",
+                            "high": "High",
+                            "low": "Low",
+                            "close": "Close"
+                        },
+                        "type": "candlestick"
+                    },
+                    "title": "Index Value",
+                    "referenceLine": [{
+                            "label": "Controlled NMHC",
+                            "value": "150",
+                            "style": {
+                                "marker": {
+                                    "fill": "#A4A7D5",
+                                    "stroke": "#A4A7D5"
+                                }
+                            }
+                        },
+                        {
+                            "label": "Controlled NO₂",
+                            "value": "80",
+                            "style": {
+                                "marker": {
+                                    "fill": "#87DEDB",
+                                    "stroke": "#87DEDB"
+                                }
+                            }
+                        }
+                    ],
+                    "referenceZone": [{
+                        "label": "Target",
+                        "valueMax": 140,
+                        "valueMin": 135
+                    }]
+                }]
+            }
+        },
+        "id": "RED-FTV3-979.4"
+    },
+    "RED-FTV3-977.lowercase": {
+        "description": "aggregation not working if provided in uppercase or camelcase",
+        "options": {
+            "data-id": "FTV3-977",
+            "schema-id": "FTV3-977-sample",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0"
+                },
+                "yAxis": [{
+                        "plot": [{
+                            "value": "Sales",
+                            "type": "column"
+                        }],
+                        "title": "Minimum",
+                        "aggregation": "min"
+                    },
+                    {
+                        "plot": [{
+                            "value": "Sales",
+                            "type": "column"
+                        }],
+                        "title": "Maximum",
+                        "aggregation": "max"
+                    },
+                    {
+                        "plot": [{
+                            "value": "Sales",
+                            "type": "column"
+                        }],
+                        "title": "Sum",
+                        "aggregation": "sum"
+                    }
+                ]
+            }
+        },
+        "id": "RED-FTV3-977.lowercase"
+    },
+    "RED-FTV3-977.uppercase": {
+        "description": "aggregation not working if provided in uppercase or camelcase",
+        "options": {
+            "data-id": "FTV3-977",
+            "schema-id": "FTV3-977-sample",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0"
+                },
+                "yAxis": [{
+                        "plot": [{
+                            "value": "Sales",
+                            "type": "column"
+                        }],
+                        "title": "Minimum",
+                        "aggregation": "MIN"
+                    },
+                    {
+                        "plot": [{
+                            "value": "Sales",
+                            "type": "column"
+                        }],
+                        "title": "Maximum",
+                        "aggregation": "Max"
+                    },
+                    {
+                        "plot": [{
+                            "value": "Sales",
+                            "type": "column"
+                        }],
+                        "title": "Sum",
+                        "aggregation": "Sum"
+                    }
+                ]
+            }
+        },
+        "id": "RED-FTV3-977.uppercase"
+    },
+    "RED-FTV3-975.1": {
+        "description": "Notch connectors in ReferenceZone for Dual Y axis is not visible",
+        "options": {
+            "data-id": "FTV3-975",
+            "schema-id": "FTV3-975-sample",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multicanvas": 0
+                },
+                "yAxis": [{
+                        "plot": [{
+                            "value": "Energy",
+                            "connectNullData": true,
+                            "type": "line"
+                        }],
+                        "referenceZone": [{
+                            "label": "This is a reference zone..",
+                            "valueMin": "170",
+                            "valueMax": "220"
+                        }],
+                        "format": {
+                            "suffix": " kWh"
+                        }
+                    },
+                    {
+                        "plot": [{
+                            "value": "Temperature",
+                            "connectNullData": true,
+                            "type": "line"
+                        }],
+                        "referenceZone": [{
+                            "label": "This is a reference zone..",
+                            "valueMin": "3",
+                            "valueMax": "4.5",
+                            "style": {
+                                "marker": {
+                                    "fill": "#0000ff",
+                                    "stroke": "#D2C9FF"
+                                },
+                                "marker-text": {
+                                    "fill": "#000000"
+                                },
+                                "marker:hover": {
+                                    "fill": "#D2C9FF"
+                                },
+                                "marker-zone:hover": {
+                                    "stroke": "#D2C9FF"
+                                },
+                                "marker-notch:hover": {
+                                    "stroke": "#D2C9FF"
+                                }
+                            }
+                        }],
+                        "format": {
+                            "suffix": " °C"
+                        }
+                    }
+                ]
+            }
+        },
+        "id": "RED-FTV3-975"
+    },
+    "RED-FTV3-975.2": {
+        "description": "Notch connectors in ReferenceZone for Dual Y axis is not visible",
+        "options": {
+            "data-id": "FTV3-1022",
+            "schema-id": "FTV3-1022-sample",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multicanvas": 0
+                },
+                "yAxis": [{
+                        "plot": [{
+                            "value": "Open",
+                            "connectNullData": true,
+                            "type": "line"
+                        }],
+                        "referenceZone": [{
+                            "label": "This is a reference zone..",
+                            "valueMin": "0.2",
+                            "valueMax": "0.3"
+                        }],
+                        "format": {
+                            "Prefix": "$"
+                        }
+                    },
+                    {
+                        "plot": [{
+                            "value": "Close",
+                            "connectNullData": true,
+                            "type": "line"
+                        }],
+                        "referenceZone": [{
+                            "label": "This is a reference zone..",
+                            "valueMin": "0.4",
+                            "valueMax": "0.5",
+                            "style": {
+                                "marker": {
+                                    "fill": "#0000ff",
+                                    "stroke": "#D2C9FF"
+                                },
+                                "marker-text": {
+                                    "fill": "#000000"
+                                },
+                                "marker:hover": {
+                                    "fill": "#D2C9FF"
+                                },
+                                "marker-zone:hover": {
+                                    "stroke": "#D2C9FF"
+                                },
+                                "marker-notch:hover": {
+                                    "stroke": "#D2C9FF"
+                                }
+                            }
+                        }],
+                        "format": {
+                            "prefix": " Rs"
+                        }
+                    }
+                ]
+            }
+        },
+        "id": "RED-FTV3-975.2"
+    },
+    "RED-FTV3-973": {
+        "description": "Reference zone when added in dual Y-axis does not highlight the plots within the zone properly.",
+        "options": {
+            "data-id": "FTV3-975",
+            "schema-id": "FTV3-975-sample",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multicanvas": 0
+                },
+                "yAxis": [{
+                        "plot": [{
+                            "value": "Energy",
+                            "connectNullData": true,
+                            "type": "line"
+                        }],
+                        "referenceZone": [{
+                            "label": "This is a reference zone..",
+                            "valueMin": "170",
+                            "valueMax": "220"
+                        }],
+                        "format": {
+                            "suffix": " kWh"
+                        }
+                    },
+                    {
+                        "plot": [{
+                            "value": "Temperature",
+                            "connectNullData": true,
+                            "type": "line"
+                        }],
+                        "referenceZone": [{
+                            "label": "This is a reference zone..",
+                            "valueMin": "3",
+                            "valueMax": "4.5",
+                            "style": {
+                                "marker": {
+                                    "fill": "#0000ff",
+                                    "stroke": "#D2C9FF"
+                                },
+                                "marker-text": {
+                                    "fill": "#000000"
+                                },
+                                "marker:hover": {
+                                    "fill": "#D2C9FF"
+                                },
+                                "marker-zone:hover": {
+                                    "stroke": "#D2C9FF"
+                                },
+                                "marker-notch:hover": {
+                                    "stroke": "#D2C9FF"
+                                }
+                            }
+                        }],
+                        "format": {
+                            "suffix": " °C"
+                        }
+                    }
+                ]
+            }
+        },
+        "id": "RED-FTV3-973"
+    },
+    "RED-FTV3-972": {
+        "description": "Reference zone marker tag text overflows when prefix/suffix are added",
+        "options": {
+            "data-id": "FTV3-975",
+            "schema-id": "FTV3-975-sample",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multicanvas": 0
+                },
+                "yAxis": [{
+                        "plot": [{
+                            "value": "Energy",
+                            "connectNullData": true,
+                            "type": "line"
+                        }],
+                        "referenceZone": [{
+                            "label": "This is a reference zone..",
+                            "valueMin": "170",
+                            "valueMax": "220"
+                        }],
+                        "format": {
+                            "suffix": " kWatth"
+                        }
+                    },
+                    {
+                        "plot": [{
+                            "value": "Temperature",
+                            "connectNullData": true,
+                            "type": "line"
+                        }],
+                        "referenceZone": [{
+                            "label": "This is a reference zone..",
+                            "valueMin": "3",
+                            "valueMax": "4.5",
+                            "style": {
+                                "marker": {
+                                    "fill": "#0000ff",
+                                    "stroke": "#D2C9FF"
+                                },
+                                "marker-text": {
+                                    "fill": "#000000"
+                                },
+                                "marker:hover": {
+                                    "fill": "#D2C9FF"
+                                },
+                                "marker-zone:hover": {
+                                    "stroke": "#D2C9FF"
+                                },
+                                "marker-notch:hover": {
+                                    "stroke": "#D2C9FF"
+                                }
+                            }
+                        }],
+                        "format": {
+                            "suffix": " deg.C"
+                        }
+                    }
+                ]
+            }
+        },
+        "id": "RED-FTV3-972"
+    },
+    "RED-FTV3-968.1": {
+        "description": "Binning shouldn't happen below the lowest atomicity.",
+        "options": {
+            "data-id": "FTV3-968",
+            "schema-id": "FTV3-968-sample",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multicanvas": 0
+                },
+                "caption": {
+                    "text": "Temperature readings of an Italian Town"
+                },
+                "yAxis": [{
+                    "plot": "Temperature",
+                    "title": "Temperature",
+                    "plotType": "column",
+                    "format": {
+                        "suffix": "°C",
+                        "label": "Controlled Temperature",
+                        "value": "10"
+                    }
+                }],
+                "xAxis": {
+                    "binning": {
+                        "month": [
+                            1
+                        ],
+                        "day": [
+                            1
+                        ],
+                        "hour": [
+                            3,
+                            6
+                        ]
+                    }
+                }
+            }
+        },
+        "id": "RED-FTV3-968.1"
+    },
+    "RED-FTV3-968.2": {
+        "description": "Binning shouldn't happen below the lowest atomicity.",
+        "options": {
+            "data-id": "FTV3-968",
+            "schema-id": "FTV3-968-sample",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multicanvas": 0
+                },
+                "caption": {
+                    "text": "Temperature readings of an Italian Town"
+                },
+                "yAxis": [{
+                    "plot": "Temperature",
+                    "title": "Temperature",
+                    "plotType": "column",
+                    "format": {
+                        "suffix": "°C",
+                        "label": "Controlled Temperature",
+                        "value": "10"
+                    }
+                }],
+                "xAxis": {
+                    "binning": {
+                        "month": [
+                            1
+                        ],
+                        "day": [
+                            1
+                        ],
+                        "hour": [
+                            3,
+                            6
+                        ],
+                        "minute": [],
+                        "second": [],
+                        "milisecond": []
+                    }
+                }
+            }
+        },
+        "id": "RED-FTV3-968.2"
+    },
+    "RED-FTV3-940": {
+        "description": "Selection from SRS for larger time interval does not work if Time Navigator is dragged to the extreme left.",
+        "options": {
+            "data-id": "FTV3-968",
+            "schema-id": "FTV3-968-sample",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multicanvas": 0
+                },
+                "caption": {
+                    "text": "Temperature readings of an Italian Town"
+                },
+                "yAxis": [{
+                    "plot": "Temperature",
+                    "title": "Temperature",
+                    "plotType": "column",
+                    "format": {
+                        "suffix": "°C",
+                        "label": "Controlled Temperature",
+                        "value": "10"
+                    }
+                }],
+                "xAxis": {
+                    "binning": {
+                        "month": [
+                            1
+                        ],
+                        "day": [
+                            1
+                        ],
+                        "hour": [
+                            3,
+                            6
+                        ]
+                    }
+                }
+            }
+        },
+        "id": "RED-FTV3-940"
+    },
+    "RED-FTV3-939": {
+        "description": "SRS not selected when relevant selections are made from CRS or xAxis.initialInterval",
+        "options": {
+            "data-id": "FTV3-1022",
+            "schema-id": "FTV3-1022-sample",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0"
+                },
+                "xAxis": {
+                    "plot": "Time",
+                    "initialInterval": {
+                        "from": "1980-12-15",
+                        "to": "1981-01-15"
+                    }
+                },
+                "caption": {
+                    "text": "Apple Inc. Stock Price"
+                },
+                "subcaption": {
+                    "text": "Stock prices from January 1980 - November 2011"
+                },
+                "yAxis": [{
+                    "plot": "Open",
+                    "title": "Stock value",
+                    "plotType": "column",
+                    "format": {
+                        "prefix": "$",
+                        "label": "Stock Value"
+                    }
+                }]
+            }
+        },
+        "id": "RED-FTV3-939"
+    },
+    "RED-FTV3-867": {
+        "description": "Wrong name in tooltip of data marker",
+        "options": {
+            "data-id": "FTV3-979",
+            "schema-id": "FTV3-979-sample",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0"
+                },
+                "xAxis": {
+                    "plot": "Time",
+                    "timemarker": [{
+                            "start": "1971-04-17",
+                            "label": "This is the first time marker.",
+                            "timeFormat": "%Y-%m-%d",
+                            "type": "full",
+                            "repeat": {
+                                "unit": "Year",
+                                "multiplier": 5
+                            },
+                            "style": {
+                                "marker": {
+                                    "fill": "#f8b8b7"
+                                }
+                            }
+                        },
+                        {
+                            "start": "1971-06-27",
+                            "end": "1971-09-04",
+                            "label": "This is the second time marker.",
+                            "timeFormat": "%Y-%m-%d",
+                            "type": "full",
+                            "repeat": {
+                                "unit": "Year",
+                                "multiplier": 5
+                            },
+                            "style": {
+                                "marker": {
+                                    "fill": "#00ff00"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "caption": {
+                    "text": "NASDAQ Composite Index"
+                },
+                "subcaption": {
+                    "text": "Index of the years 1971 and 1972"
+                },
+                "yAxis": [{
+                    "plot": "Open",
+                    "title": "Index value",
+                    "plotType": "column",
+                    "format": {
+                        "prefix": "$",
+                        "label": "Index Value"
+                    }
+                }],
+                "dataMarker": [{
+                        "series": "Predictive index value",
+                        "time": "1971-04-27",
+                        "type": "flag",
+                        "identifier": "H",
+                        "timeFormat": "%Y-%m-%d",
+                        "tooltext": "As a part of credit control program."
+                    },
+                    {
+                        "series": "Predictive index value",
+                        "time": "1971-09-20",
+                        "type": "flag",
+                        "identifier": "L",
+                        "timeFormat": "%Y-%m-%d",
+                        "tooltext": "As a part of credit control program."
+                    }
+                ]
+            }
+        },
+        "id": "RED-FTV3-867"
+    },
+    "RED-FTV3-817": {
+        "description": "Time span label with ellipsis goes out of span area",
+        "options": {
+            "data-id": "FTV3-979",
+            "schema-id": "FTV3-979-sample",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0"
+                },
+                "xAxis": {
+                    "plot": "Time",
+                    "timemarker": [{
+                            "start": "1971-04-17",
+                            "end": "1971-05-01",
+                            "label": "This is the first time marker for the year 2017 for Index Values",
+                            "timeFormat": "%Y-%m-%d",
+                            "type": "full",
+                            "repeat": {
+                                "unit": "Year",
+                                "multiplier": 5
+                            },
+                            "style": {
+                                "marker": {
+                                    "fill": "#f8b8b7"
+                                }
+                            }
+                        },
+                        {
+                            "start": "1971-06-27",
+                            "end": "1971-07-21",
+                            "label": "This is the second time marker.",
+                            "timeFormat": "%Y-%m-%d",
+                            "type": "full",
+                            "repeat": {
+                                "unit": "Year",
+                                "multiplier": 5
+                            },
+                            "style": {
+                                "marker": {
+                                    "fill": "#00ff00"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "caption": {
+                    "text": "NASDAQ Composite Index"
+                },
+                "subcaption": {
+                    "text": "Index of the years 1971 and 1972"
+                },
+                "yAxis": [{
+                    "plot": "Open",
+                    "title": "Index value",
+                    "plotType": "column",
+                    "format": {
+                        "prefix": "$",
+                        "label": "Index Value"
+                    }
+                }],
+                "dataMarker": [{
+                    "series": "Predictive index value",
+                    "time": "1971-04-27",
+                    "type": "flag",
+                    "identifier": "H",
+                    "timeFormat": "%Y-%m-%d",
+                    "tooltext": "As a part of credit control program."
+                }]
+            }
+        },
+        "id": "RED-FTV3-817"
+    },
+    "RED-FTV3-801": {
+        "description": "timeMarker timeformat updating the visual format in tooltip",
+        "options": {
+            "data-id": "FTV3-979",
+            "schema-id": "FTV3-979-sample",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0"
+                },
+                "xAxis": {
+                    "plot": "Time",
+                    "timemarker": [{
+                            "start": "1971-04-17",
+                            "end": "1971-05-01",
+                            "label": "This is the first time marker for the year 2017 for Index Values",
+                            "timeFormat": "%Y-%m-%d",
+                            "type": "full",
+                            "repeat": {
+                                "unit": "Year",
+                                "multiplier": 5
+                            },
+                            "style": {
+                                "marker": {
+                                    "fill": "#f8b8b7"
+                                }
+                            }
+                        },
+                        {
+                            "start": "1971-06",
+                            "end": "1971-09",
+                            "label": "This is the second time marker.",
+                            "timeFormat": "%Y-%m",
+                            "type": "full",
+                            "repeat": {
+                                "unit": "Year",
+                                "multiplier": 5
+                            },
+                            "style": {
+                                "marker": {
+                                    "fill": "#00ff00"
+                                }
+                            }
+                        },
+                        {
+                            "start": "1971-08-17",
+                            "label": "This is the third time marker.",
+                            "type": "full",
+                            "repeat": {
+                                "unit": "Year",
+                                "multiplier": 5
+                            },
+                            "style": {
+                                "marker": {
+                                    "fill": "#00ff00"
+                                }
+                            }
+                        },
+                        {
+                            "start": "1972",
+                            "label": "This is the forth time marker.",
+                            "timeFormat": "%Y",
+                            "type": "full",
+                            "repeat": {
+                                "unit": "Year",
+                                "multiplier": 5
+                            },
+                            "style": {
+                                "marker": {
+                                    "fill": "#00ff00"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "caption": {
+                    "text": "NASDAQ Composite Index"
+                },
+                "subcaption": {
+                    "text": "Index of the years 1971 and 1972"
+                },
+                "yAxis": [{
+                    "plot": "Open",
+                    "title": "Index value",
+                    "plotType": "column",
+                    "format": {
+                        "prefix": "$",
+                        "label": "Index Value"
+                    }
+                }],
+                "dataMarker": [{
+                    "series": "Predictive index value",
+                    "time": "1971-04-27",
+                    "type": "flag",
+                    "identifier": "H",
+                    "timeFormat": "%Y-%m-%d",
+                    "tooltext": "As a part of credit control program."
+                }]
+            }
+        },
+        "id": "RED-FTV3-801"
+    }
+}

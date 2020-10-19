@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="fusioncharts/fusioncharts.js"></script>
+</head>
+
+<body>
+
+    <a href="https://fusioncharts.jira.com/browse/RED-6096">RED-6096</a>
+    <div>Pie/Doughnut charts labels are not showing up in <strong style="color:red">Firefox</strong> when multiple charts are rendered.</div>
+    
+    <div id="chart-container1">FusionCharts will render here</div>
+    <div id="chart-container2">FusionCharts will render here</div>
+    <div id="chart-container3">FusionCharts will render here</div>
+    <div id="chart-container4">FusionCharts will render here</div>
+    <div id="chart-container5">FusionCharts will render here</div>
+    <div id="chart-container6">FusionCharts will render here</div>
+
+    <script type="text/javascript">
+        FusionCharts.ready(function () {
+            var demoChart1 = new FusionCharts({
+                type: 'pie2d',
+                renderAt: 'chart-container1',
+                width: '250',
+                height: '250',
+                dataFormat: 'json',
+                dataSource: {
+                "chart": {
+                    "caption": "Monthly revenue for last year",
+                    "subCaption": "Harry's SuperMart",
+                    "xAxisName": "Month",
+                    "yAxisName": "Revenues (In USD)"
+                },
+                "data": [{
+                    "label": "Jan",
+                    "value": "420000"
+                }, {
+                    "label": "Feb",
+                    "value": "810000"
+                }, {
+                    "label": "Mar",
+                    "value": "720000"
+                }, {
+                    "label": "Apr",
+                    "value": "550000"
+                }, {
+                    "label": "May",
+                    "value": "910000"
+                }]
+                }
+            });
+            var demoChart2 = new FusionCharts({
+                type: 'pie2d',
+                renderAt: 'chart-container2',
+                width: '250',
+                height: '250',
+                dataFormat: 'json',
+                dataSource: {
+                "chart": {
+                    "caption": "Monthly revenue for last year",
+                    "subCaption": "Harry's SuperMart",
+                    "xAxisName": "Month",
+                    "yAxisName": "Revenues (In USD)"
+                },
+                "data": [{
+                    "label": "Jan",
+                    "value": "420000"
+                }, {
+                    "label": "Feb",
+                    "value": "810000"
+                }, {
+                    "label": "Mar",
+                    "value": "720000"
+                }, {
+                    "label": "Apr",
+                    "value": "550000"
+                }, {
+                    "label": "May",
+                    "value": "910000"
+                }]
+                }
+            });
+            demoChart1.render();
+            demoChart2.render();
+            var salesChart1 = new FusionCharts({
+                type: 'doughnut2d',
+                renderAt: 'chart-container3',
+                width: '400',
+                height: '300',
+                dataFormat: 'xml',
+                dataSource: "<chart labelStep='1' showBorder='0' showPlotBorder='0' plotFillRatio='100' plotGradientColor='' canvasBorderAlpha='0' bgColor='FFFFFF' bgAlpha='100' formatNumberScale='0' decimalSeparator=',' thousandSeparator=' ' numberSuffix=' \u20AC' showPercentValues='1' startingAngle='90' showZeroPies='0' pieRadius='60' use3DLighting='0' doughnutRadius='33' showShadow='0' decimals='0' baseFont='Tahoma,sans-serif' baseFontSize='11'><set label='Isabelle' color='D85151' value='493055' tooltext='Isabelle : 493 055 \u20AC' isSliced='0'/><set label='Gilles' color='46BDE4' value='493055' tooltext='Gilles : 493 055 \u20AC' isSliced='0'/><set label='Marie' color='F7941D' value='415000' tooltext='Marie : 415 000 \u20AC' isSliced='0'/></chart>"
+            })
+            .render();
+            
+            var salesChart2 = new FusionCharts({
+            type: 'column2d',
+            renderAt: 'chart-container4',
+            width: '400',
+            height: '300',
+            dataFormat: 'xml',
+            dataSource: "<chart labelStep='1' showBorder='0' showPlotBorder='0' plotFillRatio='100' canvasBorderAlpha='0' bgColor='FFFFFF' bgAlpha='100' formatNumberScale='0' decimalSeparator=',' thousandSeparator=' ' numberSuffix=' \u20AC' decimals='0' showValues='1' showPercentValues='0' labelDisplay='NONE' rotateLabels='1' slantLabels='1' showYAxisValues='0' plotGradientColor='' showShadow='0' baseFont='Tahoma,sans-serif' baseFontSize='11' baseFontColor='000' outCnvBaseFont='Tahoma,sans-serif' outCnvBaseFontSize='11' outCnvBaseFontColor='000' chartBottomMargin='40'><styles><definition><style name='myDataLabelsFont' type='font' font='Tahoma,sans-serif' size='9' bold='0'/><style name='effet3D' type='Bevel' blurX='12' angle='0'/></definition><application><apply toObject='DataLabels' styles='myDataLabelsFont'/><apply toObject='DATAPLOT' styles='effet3D'/><apply toObject='DATAPLOTAREA' styles='effet3D'/><apply toObject='DATAPLOTCOLUMN' styles='effet3D'/></application></styles><trendlines><line startValue='0' displayValue=' ' color='808080' alpha='100' showOnTop='0'/></trendlines><set label='Marie' color='F7941D' value='0' tooltext='Marie : 0 \u20AC'/><set label='Gilles' color='46BDE4' value='85913' tooltext='Gilles : 85 913 \u20AC'/><set label='Isabelle' color='D85151' value='85913' tooltext='Isabelle : 85 913 \u20AC'/></chart>"
+             })
+            .render();
+
+            var revenueChart1 = new FusionCharts({
+                "type": "pie2d",
+                "width": "250",
+                "height": "250",
+                "renderAt": "chart-container5",
+                "dataFormat": "json",
+                "dataSource": {
+                "chart": {
+                    //"showlegend": "1"
+                },
+                "data": [{
+                    
+                    "label": "Click only",
+                    "value": "155",
+                    "showLabel": "0"
+                    }, {
+                    "label": "Password entered",
+                    "value": "105",
+                    "showLabel": "0"
+                
+                }]
+                }
+            }).render();
+
+            var revenueChart2 = new FusionCharts({
+                type: 'mscolumn2d',
+                renderAt: 'chart-container6',
+                width: '250',
+                height: '200',
+                dataFormat: 'json',
+                dataSource: {
+                "chart": {
+                    "outCnvBaseFontSize": "14"
+                },
+                "categories": [{
+                    "category": [{
+                    "label": "Bakersfield Central"
+                    }]
+                }],
+                "dataset": [{
+                    "seriesname": "Food ",
+                    "data": [{
+                    "value": "17000"
+                    }]
+                }]
+                }
+            }).render();
+      });
+    </script>
+</body>
+
+</html>

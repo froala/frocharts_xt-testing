@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	 <script type="text/javascript" src="../fusioncharts/fusioncharts.js"></script>
+    <script type="text/javascript" src="../fusioncharts/fusioncharts.charts.js"></script>
+</head>
+<body>
+<a href="https://fusioncharts.jira.com/browse/RED-3974">RED-3974</a>
+<div>ToolTip element stays in it's place when div and chart is scrolled.Can be replicated well in touch devices.(Sample-1)</div>
+<div style="overflow:scroll">
+	<div id="chart-container">FusionCharts will render here</div>
+	<div id="chart-container1">FusionCharts will render here</div>
+	<div style="width: 6000px; background-color:#999; height:10px;"></div>
+</div>
+
+<script type="text/javascript">
+	FusionCharts.ready(function () {
+	    var topStores = new FusionCharts({
+	        type: 'bar2d',
+	        renderAt: 'chart-container',
+	        width: '400',
+	        height: '300',
+	        dataFormat: 'json',
+	        dataSource: {
+	            "chart": {
+	                "caption": "Top 5 Stores by Sales",
+	                "subCaption": "Last month",
+	                "yAxisName": "Sales (In USD)",
+	                "numberPrefix": "$",
+	                "paletteColors": "#0075c2",
+	                "bgColor": "#ffffff",
+	                "showBorder": "0",
+	                "showCanvasBorder": "0",
+	                "usePlotGradientColor": "0",
+	                "plotBorderAlpha": "10",
+	                "placeValuesInside": "1",
+	                "valueFontColor": "#ffffff",
+	                "showAxisLines": "1",
+	                "axisLineAlpha": "25",
+	                "divLineAlpha": "10",
+	                "alignCaptionWithCanvas": "0",
+	                "showAlternateVGridColor": "0",
+	                "captionFontSize": "14",
+	                "subcaptionFontSize": "14",
+	                "subcaptionFontBold": "0",
+	                "toolTipColor": "#ffffff",
+	                "toolTipBorderThickness": "0",
+	                "toolTipBgColor": "#000000",
+	                "toolTipBgAlpha": "80",
+	                "toolTipBorderRadius": "2",
+	                "toolTipPadding": "5"
+	            },
+	            
+	            "data": [
+	                {
+	                    "label": "Bakersfield Central",
+	                    "value": "880000"
+	                }, 
+	                {
+	                    "label": "Garden Groove harbour",
+	                    "value": "730000"
+	                }, 
+	                {
+	                    "label": "Los Angeles Topanga",
+	                    "value": "590000"
+	                }, 
+	                {
+	                    "label": "Compton-Rancho Dom",
+	                    "value": "520000"
+	                }, 
+	                {
+	                    "label": "Daly City Serramonte",
+	                    "value": "330000"
+	                }
+	            ]
+	        }
+	    })
+	    .render();
+	});
+
+	FusionCharts.ready(function () {
+	    var topStores = new FusionCharts({
+	        type: 'bar2d',
+	        renderAt: 'chart-container1',
+	        width: '400',
+	        height: '300',
+	        dataFormat: 'json',
+	        dataSource: {
+	            "chart": {
+	                "caption": "Top 5 Stores by Sales",
+	                "subCaption": "Last month",
+	                "yAxisName": "Sales (In USD)",
+	                "numberPrefix": "$",
+	                "paletteColors": "#0075c2",
+	                "bgColor": "#ffffff",
+	                "showBorder": "0",
+	                "showCanvasBorder": "0",
+	                "usePlotGradientColor": "0",
+	                "plotBorderAlpha": "10",
+	                "placeValuesInside": "1",
+	                "valueFontColor": "#ffffff",
+	                "showAxisLines": "1",
+	                "axisLineAlpha": "25",
+	                "divLineAlpha": "10",
+	                "alignCaptionWithCanvas": "0",
+	                "showAlternateVGridColor": "0",
+	                "captionFontSize": "14",
+	                "subcaptionFontSize": "14",
+	                "subcaptionFontBold": "0",
+	                "toolTipColor": "#ffffff",
+	                "toolTipBorderThickness": "0",
+	                "toolTipBgColor": "#000000",
+	                "toolTipBgAlpha": "80",
+	                "toolTipBorderRadius": "2",
+	                "toolTipPadding": "5"
+	            },
+	            
+	            "data": [
+	                {
+	                    "label": "Bakersfield Central",
+	                    "value": "880000"
+	                }, 
+	                {
+	                    "label": "Garden Groove harbour",
+	                    "value": "730000"
+	                }, 
+	                {
+	                    "label": "Los Angeles Topanga",
+	                    "value": "590000"
+	                }, 
+	                {
+	                    "label": "Compton-Rancho Dom",
+	                    "value": "520000"
+	                }, 
+	                {
+	                    "label": "Daly City Serramonte",
+	                    "value": "330000"
+	                }
+	            ]
+	        }
+	    })
+	    .render();
+	});
+</script>
+
+</body>
+</html>

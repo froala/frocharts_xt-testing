@@ -1,0 +1,282 @@
+<html>
+
+<head>
+    <title>Event Spec</title>
+    <script type="text/javascript" src="../../fusioncharts/fusioncharts.js"></script>
+    <style>
+    </style>
+    <script type="text/javascript">
+    FusionCharts.addEventListener('initialized', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts' + 'width!^!' + args.width + '!^!height!^!' + args.height);
+    });
+
+    FusionCharts.addEventListener('dataLoaded', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts');
+    });
+
+    FusionCharts.addEventListener('rendered', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts');
+    });
+
+    FusionCharts.addEventListener('renderComplete', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts');
+    });
+
+    FusionCharts.addEventListener('entityClick', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts' + 'value!^!' + args.value + '!^!label!^!' + args.label + '!^!shortLabel!^!' + args.shortLabel + '!^!originalId!^!' + args.originalId + '!^!id!^!' + args.id);
+    });
+
+    FusionCharts.addEventListener('entityrollout', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts' + 'value!^!' + args.value + '!^!label!^!' + args.label + '!^!shortLabel!^!' + args.shortLabel + '!^!originalId!^!' + args.originalId + '!^!id!^!' + args.id);
+    });
+
+    FusionCharts.addEventListener('entityrollover', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts' + 'value!^!' + args.value + '!^!label!^!' + args.label + '!^!shortLabel!^!' + args.shortLabel + '!^!originalId!^!' + args.originalId + '!^!id!^!' + args.id);
+    });
+
+    FusionCharts.ready(function() {
+        RChart = new FusionCharts({
+            "type": "usa",
+            "renderAt": "chart-container",
+            "width": "600",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "map": {
+                    "animation": "0",
+                    "showBevel": "0",
+                    "borderColor": "#ffffff",
+                    "showLegend": "1",
+                    "showShadow": "0",
+                    "legendPosition": "BOTTOM",
+                    "legendBorderAlpha": "0",
+                    "legendShadow": "0",
+                    "caption": "Statewise Sales",
+                    "subcaption": "Last year",
+                    "hoverColor": "#cccccc",
+                    "numberScaleValue": "1,1000,1000",
+                    "numberScaleUnit": "K,M,B",
+                    "canvasBorderAlpha": "0",
+                    "numberPrefix": "$"
+                },
+                "colorrange": {
+                    "color": [{
+                        "minvalue": "0",
+                        "maxvalue": "40000",
+                        "displayvalue": "Low (<40M)",
+                        "code": "#e44a00"
+                    }, {
+                        "minvalue": "40000",
+                        "maxvalue": "70000",
+                        "displayvalue": "Moderate (40M - 70M)",
+                        "code": "#f8bd19"
+                    }, {
+                        "minvalue": "70000",
+                        "maxvalue": "100000",
+                        "displayvalue": "High(70M+)",
+                        "code": "#6baa01"
+                    }]
+                },
+                "data": [{
+                    "id": "HI",
+                    "value": "3189"
+                }, {
+                    "id": "DC",
+                    "value": "2879"
+                }, {
+                    "id": "MD",
+                    "value": "920"
+                }, {
+                    "id": "DE",
+                    "value": "4607"
+                }, {
+                    "id": "RI",
+                    "value": "4890"
+                }, {
+                    "id": "WA",
+                    "value": "34927"
+                }, {
+                    "id": "OR",
+                    "value": "65798"
+                }, {
+                    "id": "CA",
+                    "value": "61861"
+                }, {
+                    "id": "AK",
+                    "value": "58911"
+                }, {
+                    "id": "ID",
+                    "value": "42662"
+                }, {
+                    "id": "NV",
+                    "value": "78041"
+                }, {
+                    "id": "AZ",
+                    "value": "41558"
+                }, {
+                    "id": "MT",
+                    "value": "62942"
+                }, {
+                    "id": "WY",
+                    "value": "78834"
+                }, {
+                    "id": "UT",
+                    "value": "50512"
+                }, {
+                    "id": "CO",
+                    "value": "73026"
+                }, {
+                    "id": "NM",
+                    "value": "78865"
+                }, {
+                    "id": "ND",
+                    "value": "50554"
+                }, {
+                    "id": "SD",
+                    "value": "35922"
+                }, {
+                    "id": "NE",
+                    "value": "43736"
+                }, {
+                    "id": "KS",
+                    "value": "32681"
+                }, {
+                    "id": "OK",
+                    "value": "79038"
+                }, {
+                    "id": "TX",
+                    "value": "75425"
+                }, {
+                    "id": "MN",
+                    "value": "43485"
+                }, {
+                    "id": "IA",
+                    "value": "46515"
+                }, {
+                    "id": "MO",
+                    "value": "63715"
+                }, {
+                    "id": "AR",
+                    "value": "34497"
+                }, {
+                    "id": "LA",
+                    "value": "70706"
+                }, {
+                    "id": "WI",
+                    "value": "42382"
+                }, {
+                    "id": "IL",
+                    "value": "73202"
+                }, {
+                    "id": "KY",
+                    "value": "79118"
+                }, {
+                    "id": "TN",
+                    "value": "44657"
+                }, {
+                    "id": "MS",
+                    "value": "66205"
+                }, {
+                    "id": "AL",
+                    "value": "75873"
+                }, {
+                    "id": "GA",
+                    "value": "76895"
+                }, {
+                    "id": "MI",
+                    "value": "67695"
+                }, {
+                    "id": "IN",
+                    "value": "33592"
+                }, {
+                    "id": "OH",
+                    "value": "32960"
+                }, {
+                    "id": "PA",
+                    "value": "54346"
+                }, {
+                    "id": "NY",
+                    "value": "42828"
+                }, {
+                    "id": "VT",
+                    "value": "77411"
+                }, {
+                    "id": "NH",
+                    "value": "51403"
+                }, {
+                    "id": "ME",
+                    "value": "64636"
+                }, {
+                    "id": "MA",
+                    "value": "51767"
+                }, {
+                    "id": "CT",
+                    "value": "57353"
+                }, {
+                    "id": "NJ",
+                    "value": "80788"
+                }, {
+                    "id": "WV",
+                    "value": "95890"
+                }, {
+                    "id": "VA",
+                    "value": "83140"
+                }, {
+                    "id": "NC",
+                    "value": "97344"
+                }, {
+                    "id": "SC",
+                    "value": "88234"
+                }, {
+                    "id": "FL",
+                    "value": "88234"
+                }]
+            }
+        });
+
+        RChart.render();
+    });
+/*
+    (function() {
+        document.onclick = handleMouseMove;
+
+        function handleMouseMove(event) {
+            var dot, eventDoc, doc, body, pageX, pageY;
+
+            event = event || window.event; // IE-ism
+
+            // If pageX/Y aren't available and clientX/Y are,
+            // calculate pageX/Y - logic taken from jQuery.
+            // (This is to support old IE)
+            if (event.pageX == null && event.clientX != null) {
+                eventDoc = (event.target && event.target.ownerDocument) || document;
+                doc = eventDoc.documentElement;
+                body = eventDoc.body;
+
+                event.pageX = event.clientX +
+                    (doc && doc.scrollLeft || body && body.scrollLeft || 0) -
+                    (doc && doc.clientLeft || body && body.clientLeft || 0);
+                event.pageY = event.clientY +
+                    (doc && doc.scrollTop || body && body.scrollTop || 0) -
+                    (doc && doc.clientTop || body && body.clientTop || 0);
+            }
+
+            console.log("X " + event.pageX + " Y " + event.pageY);
+        }
+    })(); */
+    </script>
+</head>
+
+<body>
+    <div id="chart-container">
+    </div>
+</body>
+
+</html>

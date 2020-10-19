@@ -1,0 +1,545 @@
+{
+    "annotations-inverseYaxis_01": {
+        "description": "annotations",
+        "options": {
+            "type": "inversemsarea",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Store footfall vs Online visitors ",
+                    "subCaption": "Last Year",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "xAxisName": "Quarter",
+                    "yAxisName": "No of visitors",
+                    "showvalues": "0",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Q1"
+                            },
+                            {
+                                "label": "Q2"
+                            },
+                            {
+                                "label": "Q3"
+                            },
+                            {
+                                "label": "Q4"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Total footfalls",
+                        "data": [
+                            {
+                                "value": "126734"
+                            },
+                            {
+                                "value": "159851"
+                            },
+                            {
+                                "value": "197393"
+                            },
+                            {
+                                "value": "168560"
+                            },
+                            {
+                                "value": "199428"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Online Visits",
+                        "data": [
+                            {
+                                "value": "1126059"
+                            },
+                            {
+                                "value": "1292145"
+                            },
+                            {
+                                "value": "1496849"
+                            },
+                            {
+                                "value": "1460249"
+                            },
+                            {
+                                "value": "1083962"
+                            }
+                        ]
+                    }
+                ],
+                "annotations": {
+                    "origw": "400",
+                    "origh": "300",
+                    "autoscale": "1",
+                    "showbelow": "0",
+                    "groups": [
+                        {
+                            "items": [
+                                {
+                                    "id": "high-line",
+                                    "type": "line",
+                                    "x": "$canvasStartX",
+                                    "y": "$dataset.0.set.2.y",
+                                    "tox": "$canvasEndX",
+                                    "toy": "$dataset.0.set.2.y",
+                                    "color": "#ff0000",
+                                    "dashed": "1",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "id": "label",
+                                    "type": "text",
+                                    "text": "Target",
+                                    "fillcolor": "#ff0000",
+                                    "rotate": "90",
+                                    "x": "$canvasEndX - 120",
+                                    "y": "$dataset.0.set.2.y - 10"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$chartstartx+20",
+                                    "y": "$chartendy-20",
+                                    "radius": "15",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "5",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$chartstartx+80",
+                                    "y": "$chartendy-20",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$canvasstartx+20",
+                                    "y": "$canvasstarty+20",
+                                    "color": "#660000"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "5",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$legendendx+40",
+                                    "y": "$legendendy-10",
+                                    "radius": "18"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                }
+                            ]
+                        },
+                        {
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartstartx",
+                                    "y": "$chartstarty",
+                                    "xScale": "100",
+                                    "yScale": "80"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/annotations/PowerChartsXT/inverseYaxis/ref-images/annotations-inverseYaxis_01-snapshot.png",
+        "id": "annotations-inverseYaxis_01"
+    },
+    "annotations-inverseYaxis_02": {
+        "description": "annotations",
+        "options": {
+            "type": "inversemscolumn2d",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Store footfall vs Online visitors ",
+                    "subCaption": "Last Year",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "xAxisName": "Quarter",
+                    "yAxisName": "No of visitors",
+                    "showvalues": "0",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Q1"
+                            },
+                            {
+                                "label": "Q2"
+                            },
+                            {
+                                "label": "Q3"
+                            },
+                            {
+                                "label": "Q4"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Total footfalls",
+                        "data": [
+                            {
+                                "value": "126734"
+                            },
+                            {
+                                "value": "159851"
+                            },
+                            {
+                                "value": "197393"
+                            },
+                            {
+                                "value": "168560"
+                            },
+                            {
+                                "value": "199428"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Online Visits",
+                        "data": [
+                            {
+                                "value": "1126059"
+                            },
+                            {
+                                "value": "1292145"
+                            },
+                            {
+                                "value": "1496849"
+                            },
+                            {
+                                "value": "1460249"
+                            },
+                            {
+                                "value": "1083962"
+                            }
+                        ]
+                    }
+                ],
+                "annotations": {
+                    "origw": "400",
+                    "origh": "300",
+                    "autoscale": "1",
+                    "showbelow": "0",
+                    "groups": [
+                        {
+                            "items": [
+                                {
+                                    "id": "high-line",
+                                    "type": "line",
+                                    "x": "$canvasStartX",
+                                    "y": "$dataset.0.set.2.y",
+                                    "tox": "$canvasEndX",
+                                    "toy": "$dataset.0.set.2.y",
+                                    "color": "#ff0000",
+                                    "dashed": "1",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "id": "label",
+                                    "type": "text",
+                                    "text": "Target",
+                                    "fillcolor": "#ff0000",
+                                    "rotate": "90",
+                                    "x": "$canvasEndX - 120",
+                                    "y": "$dataset.0.set.2.y - 10"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$chartstartx+20",
+                                    "y": "$chartendy-20",
+                                    "radius": "15",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "5",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$chartstartx+80",
+                                    "y": "$chartendy-20",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$chartcenterx",
+                                    "y": "$chartcentery",
+                                    "color": "#660000"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "5",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$legendendx+40",
+                                    "y": "$legendendy-10",
+                                    "radius": "18"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                }
+                            ]
+                        },
+                        {
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartstartx",
+                                    "y": "$chartstarty",
+                                    "xScale": "100",
+                                    "yScale": "80"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/annotations/PowerChartsXT/inverseYaxis/ref-images/annotations-inverseYaxis_02-snapshot.png",
+        "id": "annotations-inverseYaxis_02"
+    },
+    "annotations-inverseYaxis_03": {
+        "description": "annotations",
+        "options": {
+            "type": "inversemsline",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Store footfall vs Online visitors ",
+                    "subCaption": "Last Year",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "xAxisName": "Quarter",
+                    "yAxisName": "No of visitors",
+                    "showvalues": "0",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Q1"
+                            },
+                            {
+                                "label": "Q2"
+                            },
+                            {
+                                "label": "Q3"
+                            },
+                            {
+                                "label": "Q4"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Total footfalls",
+                        "data": [
+                            {
+                                "value": "126734"
+                            },
+                            {
+                                "value": "159851"
+                            },
+                            {
+                                "value": "197393"
+                            },
+                            {
+                                "value": "168560"
+                            },
+                            {
+                                "value": "199428"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Online Visits",
+                        "data": [
+                            {
+                                "value": "1126059"
+                            },
+                            {
+                                "value": "1292145"
+                            },
+                            {
+                                "value": "1496849"
+                            },
+                            {
+                                "value": "1460249"
+                            },
+                            {
+                                "value": "1083962"
+                            }
+                        ]
+                    }
+                ],
+                "annotations": {
+                    "origw": "400",
+                    "origh": "300",
+                    "autoscale": "1",
+                    "showbelow": "0",
+                    "groups": [
+                        {
+                            "items": [
+                                {
+                                    "id": "high-line",
+                                    "type": "line",
+                                    "x": "$canvasStartX",
+                                    "y": "$dataset.0.set.2.y",
+                                    "tox": "$canvasEndX",
+                                    "toy": "$dataset.0.set.2.y",
+                                    "color": "#ff0000",
+                                    "dashed": "1",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "id": "label",
+                                    "type": "text",
+                                    "text": "Target",
+                                    "fillcolor": "#ff0000",
+                                    "rotate": "90",
+                                    "x": "$canvasEndX - 120",
+                                    "y": "$dataset.0.set.2.y - 10"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$chartstartx+20",
+                                    "y": "$chartendy-20",
+                                    "radius": "15",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "5",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$chartstartx+80",
+                                    "y": "$chartendy-20",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$chartcenterx",
+                                    "y": "$chartcentery",
+                                    "color": "#660000"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "5",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$legendendx+40",
+                                    "y": "$legendendy-10",
+                                    "radius": "18"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                }
+                            ]
+                        },
+                        {
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartstartx",
+                                    "y": "$chartstarty",
+                                    "xScale": "100",
+                                    "yScale": "80"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/annotations/PowerChartsXT/inverseYaxis/ref-images/annotations-inverseYaxis_03-snapshot.png",
+        "id": "annotations-inverseYaxis_03"
+    }
+}

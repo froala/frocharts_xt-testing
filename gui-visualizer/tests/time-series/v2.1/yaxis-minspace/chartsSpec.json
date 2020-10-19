@@ -1,0 +1,286 @@
+{
+  "FTV3-1071-minSpace": {
+    "id": "FTV3-1071-minSpace",
+    "description": "minSpace = 100 on left. minSpace = 0 on right.",
+    "options": {
+      "data-id": "data-8",
+      "schema-id": "schema-2",
+      "type": "timeseries",
+      "width": "1000",
+      "height": "500",
+      "dataFormat": "json",
+      "dataSource": {
+        "yaxis": [
+          {
+            "plot": {
+              "value": "Measure1",
+              "type": "column"
+            },
+            "orientation": "right",
+            "minSpace": 0,
+            "title": "yAxisName-1",
+            "format": {}
+          },
+          {
+            "plot": {
+              "value": "Measure2",
+              "type": "area"
+            },
+            "orientation": "left",
+            "minSpace": 100,
+            "title": "yAxisName-2",
+            "format": {}
+          },
+          {
+            "plot": {
+              "value": "Measure3",
+              "type": "line"
+            },
+            "orientation": "right",
+            "title": "yAxisName-3",
+            "format": {}
+          },
+          {
+            "plot": {
+              "value": "Measure4",
+              "type": "step-line"
+            },
+            "orientation": "left",
+            "title": "yAxisName-4",
+            "format": {}
+          }
+        ],
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "multiCanvas": 0
+        }
+      }
+    }
+  },
+  "FTV3-1071-1": {
+    "id": "FTV3-1071-1",
+    "description": "decimal data without intialInterval",
+    "options": {
+      "data-id": "1071-1",
+      "schema-id": "1071",
+      "type": "timeseries",
+      "width": "800",
+      "height": "500",
+      "dataFormat": "json",
+      "dataSource": {
+        "styledefinition": {
+          "tick-mark-major": {
+            "stroke": "#0000ff",
+            "stroke-width": 5,
+            "stroke-opacity": 0.7
+          },
+          "label-major": {
+            "fill": "#00ff00",
+            "font-family": "sans-serif",
+            "font-size": "20",
+            "font-weight": "bold",
+            "font-style": "italic",
+            "opacity": 0.4
+          }
+        },
+        "yaxis": [
+          {
+            "plot": {
+              "value": "Measure1",
+              "type": "column"
+            },
+            "title": "yAxisName-1",
+            "_style": {
+              "tick-mark-major": "tick-mark-major",
+              "label-major": "label-major",
+              "title": "title"
+            },
+            "format": {}
+          }
+        ],
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "chartLeftMargin": 0
+        }
+      }
+    }
+  },
+  "FTV3-1071-1_1": {
+    "id": "FTV3-1071-1_1",
+    "description": "decimal data with intialInterval.",
+    "options": {
+      "data-id": "1071-1",
+      "schema-id": "1071",
+      "type": "timeseries",
+      "width": "800",
+      "height": "500",
+      "dataFormat": "json",
+      "dataSource": {
+        "styledefinition": {
+          "tick-mark-major": {
+            "stroke": "#0000ff",
+            "stroke-width": 5,
+            "stroke-opacity": 0.7
+          },
+          "label-major": {
+            "fill": "#00ff00",
+            "font-family": "sans-serif",
+            "font-size": "20",
+            "font-weight": "bold",
+            "font-style": "italic",
+            "opacity": 0.4
+          }
+        },
+        "yaxis": [
+          {
+            "plot": {
+              "value": "Measure1",
+              "type": "column"
+            },
+            "title": "yAxisName-1",
+            "_style": {
+              "tick-mark-major": "tick-mark-major",
+              "label-major": "label-major",
+              "title": "title"
+            },
+            "format": {}
+          }
+        ],
+        "xaxis": {
+          "initialInterval": {
+            "from": 1579947557988,
+            "to": 1580207237398
+          }
+        },
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "chartLeftMargin": 0
+        }
+      }
+    }
+  },
+  "FTV3-1071-2": {
+    "id": "FTV3-1071-2",
+    "description": "decimal data 2. ZOOM IN to the extreme right to see yAxis values overlapping with the yAxisName",
+    "options": {
+      "data-id": "1071-2",
+      "schema-id": "1071",
+      "type": "timeseries",
+      "width": "800",
+      "height": "500",
+      "dataFormat": "json",
+      "dataSource": {
+        "styledefinition": {
+          "tick-mark-major": {
+            "stroke": "#0000ff",
+            "stroke-width": 5,
+            "stroke-opacity": 0.7
+          },
+          "label-major": {
+            "fill": "#00ff00",
+            "font-family": "sans-serif",
+            "font-size": "20",
+            "font-weight": "bold",
+            "font-style": "italic",
+            "opacity": 0.4
+          }
+        },
+        "yaxis": [
+          {
+            "plot": {
+              "value": "Measure1",
+              "type": "column"
+            },
+            "title": "yAxisName-1",
+            "style": {
+              "tick-mark-major": "tick-mark-major",
+              "label-major": "label-major",
+              "title": "title"
+            },
+            "format": {}
+          }
+        ],
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0
+        }
+      }
+    }
+  },
+  "FTV3-1071-3": {
+    "id": "FTV3-1071-3",
+    "description": "decimal data 3. ZOOM IN to the extreme right to see yAxis values overlapping with the yAxisName",
+    "options": {
+      "data-id": "1071-3",
+      "schema-id": "1071",
+      "type": "timeseries",
+      "width": "800",
+      "height": "500",
+      "dataFormat": "json",
+      "dataSource": {
+        "styledefinition": {
+          "tick-mark-major": {
+            "stroke": "#0000ff",
+            "stroke-width": 5,
+            "stroke-opacity": 0.7
+          },
+          "label-major": {
+            "fill": "#00ff00",
+            "font-family": "sans-serif",
+            "font-size": "20",
+            "font-weight": "bold",
+            "font-style": "italic",
+            "opacity": 0.4
+          }
+        },
+        "yaxis": [
+          {
+            "plot": {
+              "value": "Measure1",
+              "type": "column"
+            },
+            "title": "yAxisName-1",
+            "style": {
+              "tick-mark-major": "tick-mark-major",
+              "label-major": "label-major",
+              "title": "title"
+            },
+            "format": {}
+          }
+        ],
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0
+        }
+      }
+    }
+  }
+}

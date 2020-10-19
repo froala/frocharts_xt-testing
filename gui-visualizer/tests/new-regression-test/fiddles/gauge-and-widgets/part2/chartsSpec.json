@@ -1,0 +1,3327 @@
+{
+    "gauge-and-widgets-guide-gantt-chart-adding-trend-lines-example-1": {
+        "description": "add trendline in gantt chart",
+        "options": {
+            "type": "gantt",
+            "width": "750",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "mm/dd/yyyy",
+                    "caption": "Social Media Optimization",
+                    "subcaption": "Project Plan",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "08/31/2014",
+                                "label": "Aug '14"
+                            },
+                            {
+                                "start": "09/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Sep '14"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "10/31/2014",
+                                "label": "Oct '14"
+                            },
+                            {
+                                "start": "11/01/2014",
+                                "end": "11/30/2014",
+                                "label": "Nov '14"
+                            },
+                            {
+                                "start": "12/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Dec '14"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "01/31/2015",
+                                "label": "Jan '15"
+                            },
+                            {
+                                "start": "02/01/2015",
+                                "end": "02/28/2015",
+                                "label": "Feb '15"
+                            },
+                            {
+                                "start": "03/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Mar '15"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "fontsize": "12",
+                    "isbold": "1",
+                    "align": "left",
+                    "process": [
+                        {
+                            "label": "Identify Customers"
+                        },
+                        {
+                            "label": "Survey 500 Customers"
+                        },
+                        {
+                            "label": "Interpret Requirements"
+                        },
+                        {
+                            "label": "Market Analysis"
+                        },
+                        {
+                            "label": "Brainstorm concepts"
+                        },
+                        {
+                            "label": "Define Ad Requirements"
+                        },
+                        {
+                            "label": "Design & Develop"
+                        },
+                        {
+                            "label": "Mock test"
+                        },
+                        {
+                            "label": "Documentation"
+                        },
+                        {
+                            "label": "Start Campaign"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "task": [
+                        {
+                            "start": "08/04/2014",
+                            "end": "08/10/2014"
+                        },
+                        {
+                            "start": "08/08/2014",
+                            "end": "08/19/2014"
+                        },
+                        {
+                            "start": "08/19/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "08/24/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "09/02/2014",
+                            "end": "09/21/2014"
+                        },
+                        {
+                            "start": "09/21/2014",
+                            "end": "10/06/2014"
+                        },
+                        {
+                            "start": "10/06/2014",
+                            "end": "01/21/2015"
+                        },
+                        {
+                            "start": "01/21/2015",
+                            "end": "02/19/2015"
+                        },
+                        {
+                            "start": "01/28/2015",
+                            "end": "02/24/2015"
+                        },
+                        {
+                            "start": "02/24/2015",
+                            "end": "03/27/2015"
+                        }
+                    ]
+                },
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "start": "01/21/2015",
+                                "displayValue": "Testing Start",
+                                "color": "#333333",
+                                "thickness": "2",
+                                "dashed": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-gantt-chart-adding-trend-lines-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-gantt-chart-adding-trend-lines-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-gantt-chart-adding-scroll-to-chart-example-4": {
+        "description": "add scroll in gantt chart",
+        "options": {
+            "type": "gantt",
+            "width": "650",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "mm/dd/yyyy",
+                    "caption": "Social Media Optimization",
+                    "subcaption": "Project Plan",
+                    "theme": "fint",
+                    "scrollShowButtons": "1",
+                    "canvasBorderAlpha": "30",
+                    "ganttPaneDuration": "3",
+                    "ganttPaneDurationUnit": "m",
+                    "scrollColor": "#CCCCCC",
+                    "scrollPadding": "4",
+                    "scrollHeight": "20",
+                    "scrollBtnWidth": "25",
+                    "scrollBtnPadding": "5",
+                    "animation": "0"
+                },
+                "datatable": {
+                    "headervalign": "bottom",
+                    "datacolumn": [
+                        {
+                            "headertext": "Owner",
+                            "headerfontsize": "14",
+                            "headervalign": "bottom",
+                            "headeralign": "left",
+                            "align": "left",
+                            "fontsize": "12",
+                            "text": [
+                                {
+                                    "label": "John"
+                                },
+                                {
+                                    "label": "David"
+                                },
+                                {
+                                    "label": "Mary"
+                                },
+                                {
+                                    "label": "John"
+                                },
+                                {
+                                    "label": "Andrew & Harry"
+                                },
+                                {
+                                    "label": "John & Harry"
+                                },
+                                {
+                                    "label": "Neil & Harry"
+                                },
+                                {
+                                    "label": "Neil & Harry"
+                                },
+                                {
+                                    "label": "Chris"
+                                },
+                                {
+                                    "label": "John & Richard"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Q3"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Q4"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Q1"
+                            }
+                        ]
+                    },
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "08/31/2014",
+                                "label": "Aug '14"
+                            },
+                            {
+                                "start": "09/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Sep '14"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "10/31/2014",
+                                "label": "Oct '14"
+                            },
+                            {
+                                "start": "11/01/2014",
+                                "end": "11/30/2014",
+                                "label": "Nov '14"
+                            },
+                            {
+                                "start": "12/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Dec '14"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "01/31/2015",
+                                "label": "Jan '15"
+                            },
+                            {
+                                "start": "02/01/2015",
+                                "end": "02/28/2015",
+                                "label": "Feb '15"
+                            },
+                            {
+                                "start": "03/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Mar '15"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "fontsize": "12",
+                    "isbold": "1",
+                    "align": "left",
+                    "headerText": "Steps",
+                    "headerFontSize": "14",
+                    "headerVAlign": "bottom",
+                    "headerAlign": "left",
+                    "process": [
+                        {
+                            "label": "Identify Customers"
+                        },
+                        {
+                            "label": "Survey 500 Customers"
+                        },
+                        {
+                            "label": "Interpret Requirements"
+                        },
+                        {
+                            "label": "Market Analysis"
+                        },
+                        {
+                            "label": "Brainstorm concepts"
+                        },
+                        {
+                            "label": "Define Ad Requirements"
+                        },
+                        {
+                            "label": "Design & Develop"
+                        },
+                        {
+                            "label": "Mock test"
+                        },
+                        {
+                            "label": "Documentation"
+                        },
+                        {
+                            "label": "Start Campaign"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "task": [
+                        {
+                            "start": "08/04/2014",
+                            "end": "08/10/2014"
+                        },
+                        {
+                            "start": "08/08/2014",
+                            "end": "08/19/2014"
+                        },
+                        {
+                            "start": "08/19/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "08/24/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "09/02/2014",
+                            "end": "09/21/2014"
+                        },
+                        {
+                            "start": "09/21/2014",
+                            "end": "10/06/2014"
+                        },
+                        {
+                            "start": "10/06/2014",
+                            "end": "01/21/2015"
+                        },
+                        {
+                            "start": "01/21/2015",
+                            "end": "02/19/2015"
+                        },
+                        {
+                            "start": "01/28/2015",
+                            "end": "02/24/2015"
+                        },
+                        {
+                            "start": "02/24/2015",
+                            "end": "03/27/2015"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-gantt-chart-adding-scroll-to-chart-example-4",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-gantt-chart-adding-scroll-to-chart-example-4-snapshot.png"
+    },
+    "gauge-and-widgets-guide-gantt-chart-adding-scroll-to-chart-example-3": {
+        "description": "add scroll in gantt chart",
+        "options": {
+            "type": "gantt",
+            "width": "650",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "mm/dd/yyyy",
+                    "caption": "Social Media Optimization",
+                    "subcaption": "Project Plan",
+                    "theme": "fint",
+                    "canvasBorderAlpha": "30",
+                    "ganttPaneDuration": "3",
+                    "ganttPaneDurationUnit": "m",
+                    "animation": "0"
+                },
+                "datatable": {
+                    "headervalign": "bottom",
+                    "datacolumn": [
+                        {
+                            "headertext": "Owner",
+                            "headerfontsize": "14",
+                            "headervalign": "bottom",
+                            "headeralign": "left",
+                            "align": "left",
+                            "fontsize": "12",
+                            "text": [
+                                {
+                                    "label": "John"
+                                },
+                                {
+                                    "label": "David"
+                                },
+                                {
+                                    "label": "Mary"
+                                },
+                                {
+                                    "label": "John"
+                                },
+                                {
+                                    "label": "Andrew & Harry"
+                                },
+                                {
+                                    "label": "John & Harry"
+                                },
+                                {
+                                    "label": "Neil & Harry"
+                                },
+                                {
+                                    "label": "Neil & Harry"
+                                },
+                                {
+                                    "label": "Chris"
+                                },
+                                {
+                                    "label": "John & Richard"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Q3"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Q4"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Q1"
+                            }
+                        ]
+                    },
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "08/31/2014",
+                                "label": "Aug '14"
+                            },
+                            {
+                                "start": "09/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Sep '14"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "10/31/2014",
+                                "label": "Oct '14"
+                            },
+                            {
+                                "start": "11/01/2014",
+                                "end": "11/30/2014",
+                                "label": "Nov '14"
+                            },
+                            {
+                                "start": "12/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Dec '14"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "01/31/2015",
+                                "label": "Jan '15"
+                            },
+                            {
+                                "start": "02/01/2015",
+                                "end": "02/28/2015",
+                                "label": "Feb '15"
+                            },
+                            {
+                                "start": "03/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Mar '15"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "fontsize": "12",
+                    "align": "left",
+                    "headerText": "Steps",
+                    "headerFontSize": "14",
+                    "headerVAlign": "bottom",
+                    "headerAlign": "left",
+                    "process": [
+                        {
+                            "label": "Identify Customers"
+                        },
+                        {
+                            "label": "Survey 500 Customers"
+                        },
+                        {
+                            "label": "Interpret Requirements"
+                        },
+                        {
+                            "label": "Market Analysis"
+                        },
+                        {
+                            "label": "Brainstorm concepts"
+                        },
+                        {
+                            "label": "Define Ad Requirements"
+                        },
+                        {
+                            "label": "Design & Develop"
+                        },
+                        {
+                            "label": "Mock test"
+                        },
+                        {
+                            "label": "Documentation"
+                        },
+                        {
+                            "label": "Start Campaign"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "task": [
+                        {
+                            "start": "08/04/2014",
+                            "end": "08/10/2014"
+                        },
+                        {
+                            "start": "08/08/2014",
+                            "end": "08/19/2014"
+                        },
+                        {
+                            "start": "08/19/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "08/24/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "09/02/2014",
+                            "end": "09/21/2014"
+                        },
+                        {
+                            "start": "09/21/2014",
+                            "end": "10/06/2014"
+                        },
+                        {
+                            "start": "10/06/2014",
+                            "end": "01/21/2015"
+                        },
+                        {
+                            "start": "01/21/2015",
+                            "end": "02/19/2015"
+                        },
+                        {
+                            "start": "01/28/2015",
+                            "end": "02/24/2015"
+                        },
+                        {
+                            "start": "02/24/2015",
+                            "end": "03/27/2015"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-gantt-chart-adding-scroll-to-chart-example-3",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-gantt-chart-adding-scroll-to-chart-example-3-snapshot.png"
+    },
+    "gauge-and-widgets-guide-gantt-chart-adding-scroll-to-chart-example-2": {
+        "description": "add scroll in gantt chart",
+        "options": {
+            "type": "gantt",
+            "width": "650",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "mm/dd/yyyy",
+                    "caption": "Social Media Optimization",
+                    "captionFontSize": "16",
+                    "subcaption": "Project Plan",
+                    "theme": "fint",
+                    "canvasBorderAlpha": "30",
+                    "animation": "0"
+                },
+                "datatable": {
+                    "headervalign": "bottom",
+                    "datacolumn": [
+                        {
+                            "headertext": "Owner",
+                            "headerfontsize": "14",
+                            "headervalign": "bottom",
+                            "headeralign": "left",
+                            "align": "left",
+                            "fontsize": "12",
+                            "text": [
+                                {
+                                    "label": "John"
+                                },
+                                {
+                                    "label": "David"
+                                },
+                                {
+                                    "label": "Mary"
+                                },
+                                {
+                                    "label": "John"
+                                },
+                                {
+                                    "label": "Andrew & Harry"
+                                },
+                                {
+                                    "label": "John & Harry"
+                                },
+                                {
+                                    "label": "Neil & Harry"
+                                },
+                                {
+                                    "label": "Neil & Harry"
+                                },
+                                {
+                                    "label": "Chris"
+                                },
+                                {
+                                    "label": "John & Richard"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Q3"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Q4"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Q1"
+                            }
+                        ]
+                    },
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "08/31/2014",
+                                "label": "Aug '14"
+                            },
+                            {
+                                "start": "09/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Sep '14"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "10/31/2014",
+                                "label": "Oct '14"
+                            },
+                            {
+                                "start": "11/01/2014",
+                                "end": "11/30/2014",
+                                "label": "Nov '14"
+                            },
+                            {
+                                "start": "12/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Dec '14"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "01/31/2015",
+                                "label": "Jan '15"
+                            },
+                            {
+                                "start": "02/01/2015",
+                                "end": "02/28/2015",
+                                "label": "Feb '15"
+                            },
+                            {
+                                "start": "03/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Mar '15"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "fontsize": "12",
+                    "isbold": "1",
+                    "align": "left",
+                    "headerText": "Step",
+                    "headerFontSize": "14",
+                    "headerVAlign": "bottom",
+                    "headerAlign": "left",
+                    "process": [
+                        {
+                            "label": "Identify Customers"
+                        },
+                        {
+                            "label": "Survey 500 Customers"
+                        },
+                        {
+                            "label": "Interpret Requirements"
+                        },
+                        {
+                            "label": "Market Analysis"
+                        },
+                        {
+                            "label": "Brainstorm concepts"
+                        },
+                        {
+                            "label": "Define Ad Requirements"
+                        },
+                        {
+                            "label": "Design & Develop"
+                        },
+                        {
+                            "label": "Mock test"
+                        },
+                        {
+                            "label": "Documentation"
+                        },
+                        {
+                            "label": "Start Campaign"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "task": [
+                        {
+                            "start": "08/04/2014",
+                            "end": "08/10/2014"
+                        },
+                        {
+                            "start": "08/08/2014",
+                            "end": "08/19/2014"
+                        },
+                        {
+                            "start": "08/19/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "08/24/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "start": "09/02/2014",
+                            "end": "09/21/2014"
+                        },
+                        {
+                            "start": "09/21/2014",
+                            "end": "10/06/2014"
+                        },
+                        {
+                            "start": "10/06/2014",
+                            "end": "01/21/2015"
+                        },
+                        {
+                            "start": "01/21/2015",
+                            "end": "02/19/2015"
+                        },
+                        {
+                            "start": "01/28/2015",
+                            "end": "02/24/2015"
+                        },
+                        {
+                            "start": "02/24/2015",
+                            "end": "03/27/2015"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-gantt-chart-adding-scroll-to-chart-example-2",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-gantt-chart-adding-scroll-to-chart-example-2-snapshot.png"
+    },
+    "gauge-and-widgets-guide-gantt-chart-adding-multiple-tasks-to-a-process-example-3": {
+        "description": "add multiple tasks to a processes",
+        "options": {
+            "type": "gantt",
+            "width": "650",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "2",
+                    "caption": "Construction Timeline",
+                    "captionFontSize": "16",
+                    "dateformat": "dd/mm/yyyy",
+                    "outputdateformat": "ddds mns",
+                    "showCanvasBorder": "1",
+                    "canvasBorderAlpha": "30",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "1/5/2014",
+                                "end": "31/8/2014",
+                                "label": "Months"
+                            }
+                        ]
+                    },
+                    {
+                        "category": [
+                            {
+                                "start": "1/5/2014",
+                                "end": "31/5/2014",
+                                "label": "May"
+                            },
+                            {
+                                "start": "1/6/2014",
+                                "end": "30/6/2014",
+                                "label": "June"
+                            },
+                            {
+                                "start": "1/7/2014",
+                                "end": "31/7/2014",
+                                "label": "July"
+                            },
+                            {
+                                "start": "1/8/2014",
+                                "end": "31/8/2014",
+                                "label": "August"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "headertext": "Task",
+                    "headerfontsize": "14",
+                    "fontsize": "12",
+                    "process": [
+                        {
+                            "label": "Terrace",
+                            "id": "TRC"
+                        },
+                        {
+                            "label": "Plumbing",
+                            "id": "INS"
+                        },
+                        {
+                            "label": "Wood Work",
+                            "id": "WDW"
+                        },
+                        {
+                            "label": "Interiors",
+                            "id": "INT"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "showlabels": "1",
+                    "showenddate": "1",
+                    "task": [
+                        {
+                            "label": "Planned",
+                            "processid": "TRC",
+                            "start": "5/5/2014",
+                            "end": "2/6/2014",
+                            "id": "5-1",
+                            "color": "#EEEEEE",
+                            "height": "25%",
+                            "toppadding": "22%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "TRC",
+                            "start": "10/5/2014",
+                            "end": "2/6/2014",
+                            "id": "5",
+                            "color": "#4567aa",
+                            "height": "25%",
+                            "toppadding": "70%"
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "INS",
+                            "start": "11/5/2014",
+                            "end": "12/6/2014",
+                            "id": "6-1",
+                            "color": "#EEEEEE",
+                            "height": "25%",
+                            "toppadding": "22%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "INS",
+                            "start": "13/5/2014",
+                            "end": "19/6/2014",
+                            "id": "6",
+                            "color": "#4567aa",
+                            "height": "25%",
+                            "toppadding": "70%"
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "WDW",
+                            "start": "1/6/2014",
+                            "end": "12/7/2014",
+                            "id": "7-1",
+                            "color": "#EEEEEE",
+                            "height": "25%",
+                            "toppadding": "22%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "WDW",
+                            "start": "2/6/2014",
+                            "end": "19/7/2014",
+                            "id": "7",
+                            "color": "#4567aa",
+                            "height": "25%",
+                            "toppadding": "70%"
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "INT",
+                            "start": "1/6/2014",
+                            "end": "12/8/2014",
+                            "id": "8-1",
+                            "color": "#EEEEEE",
+                            "height": "25%",
+                            "toppadding": "22%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "INT",
+                            "start": "1/6/2014",
+                            "end": "19/8/2014",
+                            "id": "8",
+                            "color": "#4567aa",
+                            "height": "25%",
+                            "toppadding": "70%"
+                        }
+                    ]
+                },
+                "legend": {
+                    "item": [
+                        {
+                            "label": "Planned",
+                            "color": "999999"
+                        },
+                        {
+                            "label": "Actual",
+                            "color": "4567aa"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-gantt-chart-adding-multiple-tasks-to-a-process-example-3",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-gantt-chart-adding-multiple-tasks-to-a-process-example-3-snapshot.png"
+    },
+    "gauge-and-widgets-guide-cylinder-gauge-configuring-gauge-example-6": {
+        "description": "configure gauge",
+        "options": {
+            "type": "cylinder",
+            "dataFormat": "json",
+            "width": "200",
+            "height": "350",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Diesel Level in Generator",
+                    "subcaption": "Bakersfield Central",
+                    "lowerLimit": "0",
+                    "upperLimit": "120",
+                    "lowerLimitDisplay": "Empty",
+                    "upperLimitDisplay": "Full",
+                    "numberSuffix": " ltrs",
+                    "showValue": "1",
+                    "chartBottomMargin": "25",
+                    "majorTMNumber": "9",
+                    "minorTMNumber": "1",
+                    "adjustTM": "0",
+                    "animation": "0"
+                },
+                "value": "75"
+            }
+        },
+        "id": "gauge-and-widgets-guide-cylinder-gauge-configuring-gauge-example-6",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-cylinder-gauge-configuring-gauge-example-6-snapshot.png"
+    },
+    "gauge-and-widgets-guide-bullet-graph-configuring-bullet-graph-example-10": {
+        "description": "hbullet chart configure",
+        "options": {
+            "type": "hbullet",
+            "width": "500",
+            "height": "90",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "lowerLimit": "0",
+                    "subCaptionFontSize": "11",
+                    "upperLimit": "120",
+                    "caption": "Last Month Revenue",
+                    "subcaption": "Actual vs Target (Bakersfield Central)",
+                    "numberPrefix": "$",
+                    "numberSuffix": "K",
+                    "chartBottomMargin": "25",
+                    "targetHoverColor": "#1aaf5d",
+                    "targetHoverAlpha": "75",
+                    "targetHoverThickness": "5",
+                    "showPlotBorderOnHover": "1",
+                    "plotBorderHoverColor": "#001421",
+                    "plotBorderHoverAlpha": "75",
+                    "plotBorderHoverThickness": "2",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "50",
+                            "code": "#e44a00",
+                            "alpha": "25"
+                        },
+                        {
+                            "minValue": "50",
+                            "maxValue": "75",
+                            "code": "#f8bd19",
+                            "alpha": "25"
+                        },
+                        {
+                            "minValue": "75",
+                            "maxValue": "120",
+                            "code": "#6baa01",
+                            "alpha": "25"
+                        }
+                    ]
+                },
+                "value": "82",
+                "target": "90"
+            }
+        },
+        "id": "gauge-and-widgets-guide-bullet-graph-configuring-bullet-graph-example-10",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-bullet-graph-configuring-bullet-graph-example-10-snapshot.png"
+    },
+    "gauge-and-widgets-guide-gantt-chart-adding-milestones-to-a-chart-example-1": {
+        "description": "add milestones in gantt chart",
+        "options": {
+            "type": "gantt",
+            "width": "750",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "mm/dd/yyyy",
+                    "caption": "Social Media Optimization",
+                    "captionFontSize": "14",
+                    "subCaption": "Project Plan",
+                    "subCaptionFontSize": "12",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "08/01/2014",
+                                "end": "08/31/2014",
+                                "label": "Aug '14"
+                            },
+                            {
+                                "start": "09/01/2014",
+                                "end": "09/30/2014",
+                                "label": "Sep '14"
+                            },
+                            {
+                                "start": "10/01/2014",
+                                "end": "10/31/2014",
+                                "label": "Oct '14"
+                            },
+                            {
+                                "start": "11/01/2014",
+                                "end": "11/30/2014",
+                                "label": "Nov '14"
+                            },
+                            {
+                                "start": "12/01/2014",
+                                "end": "12/31/2014",
+                                "label": "Dec '14"
+                            },
+                            {
+                                "start": "01/01/2015",
+                                "end": "01/31/2015",
+                                "label": "Jan '15"
+                            },
+                            {
+                                "start": "02/01/2015",
+                                "end": "02/28/2015",
+                                "label": "Feb '15"
+                            },
+                            {
+                                "start": "03/01/2015",
+                                "end": "03/31/2015",
+                                "label": "Mar '15"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "fontsize": "12",
+                    "isbold": "1",
+                    "align": "left",
+                    "process": [
+                        {
+                            "label": "Identify Customers"
+                        },
+                        {
+                            "label": "Survey 500 Customers"
+                        },
+                        {
+                            "label": "Interpret Requirements"
+                        },
+                        {
+                            "label": "Market Analysis"
+                        },
+                        {
+                            "label": "Brainstorm concepts"
+                        },
+                        {
+                            "label": "Define Ad Requirements"
+                        },
+                        {
+                            "label": "Design & Develop"
+                        },
+                        {
+                            "label": "Mock test"
+                        },
+                        {
+                            "label": "Documentation"
+                        },
+                        {
+                            "label": "Start Campaign"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "task": [
+                        {
+                            "id": "1",
+                            "start": "08/04/2014",
+                            "end": "08/10/2014"
+                        },
+                        {
+                            "id": "2",
+                            "start": "08/08/2014",
+                            "end": "08/19/2014"
+                        },
+                        {
+                            "id": "3",
+                            "start": "08/19/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "id": "4",
+                            "start": "08/24/2014",
+                            "end": "09/02/2014"
+                        },
+                        {
+                            "id": "5",
+                            "start": "09/02/2014",
+                            "end": "09/21/2014"
+                        },
+                        {
+                            "id": "6",
+                            "start": "09/21/2014",
+                            "end": "10/06/2014"
+                        },
+                        {
+                            "id": "7",
+                            "start": "10/06/2014",
+                            "end": "01/21/2015"
+                        },
+                        {
+                            "id": "8",
+                            "start": "01/21/2015",
+                            "end": "02/19/2015"
+                        },
+                        {
+                            "id": "9",
+                            "start": "01/28/2015",
+                            "end": "02/24/2015"
+                        },
+                        {
+                            "id": "10",
+                            "start": "02/24/2015",
+                            "end": "03/27/2015"
+                        }
+                    ]
+                },
+                "milestones": {
+                    "milestone": [
+                        {
+                            "date": "1/21/2015",
+                            "taskid": "7",
+                            "color": "#f8bd19",
+                            "shape": "star",
+                            "tooltext": "Development Complete"
+                        },
+                        {
+                            "date": "3/28/2015",
+                            "taskid": "10",
+                            "color": "#f8bd19",
+                            "shape": "star",
+                            "tooltext": "Successful Completion of Campaign"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-gantt-chart-adding-milestones-to-a-chart-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-gantt-chart-adding-milestones-to-a-chart-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-cylinder-gauge-configuring-gauge-example-2": {
+        "description": "configure cylinder gauge",
+        "options": {
+            "type": "cylinder",
+            "dataFormat": "json",
+            "width": "200",
+            "height": "350",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Diesel Level in Generator",
+                    "subcaption": "Bakersfield Central",
+                    "lowerLimit": "0",
+                    "upperLimit": "120",
+                    "lowerLimitDisplay": "Empty",
+                    "upperLimitDisplay": "Full",
+                    "numberSuffix": " ltrs",
+                    "showValue": "1",
+                    "cyloriginx": "30",
+                    "cyloriginy": "260",
+                    "cylradius": "40",
+                    "cylheight": "150",
+                    "animation": "0"
+                },
+                "value": "75"
+            }
+        },
+        "id": "gauge-and-widgets-guide-cylinder-gauge-configuring-gauge-example-2",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-cylinder-gauge-configuring-gauge-example-2-snapshot.png"
+    },
+    "gauge-and-widgets-guide-funnel-chart-configuring-chart-example-5": {
+        "description": "funnel chart configure",
+        "options": {
+            "type": "funnel",
+            "width": "500",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Website visits",
+                    "subcaption": "Purchase - Conversion analysis for last year",
+                    "decimals": "1",
+                    "is2D": "1",
+                    "labelDistance": "15",
+                    "plotTooltext": "Success : $percentOfPrevValue",
+                    "showPercentValues": "1",
+                    "useSameSlantAngle": "1",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Unique Website Visits",
+                        "value": "1460000"
+                    },
+                    {
+                        "label": "Programme Details Section Visits",
+                        "value": "930000"
+                    },
+                    {
+                        "label": "Attempts to Register",
+                        "value": "540000"
+                    },
+                    {
+                        "label": "Successful Registrations",
+                        "value": "210000"
+                    },
+                    {
+                        "label": "Logged In",
+                        "value": "190000"
+                    },
+                    {
+                        "label": "Purchased on Introductory Offers",
+                        "value": "120000"
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-funnel-chart-configuring-chart-example-5",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-funnel-chart-configuring-chart-example-5-snapshot.png"
+    },
+    "gauge-and-widgets-guide-cylinder-gauge-configuring-gauge-example-7": {
+        "description": "cylinder gauge configure",
+        "options": {
+            "type": "cylinder",
+            "dataFormat": "json",
+            "width": "200",
+            "height": "350",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Diesel Level in Generator",
+                    "subcaption": "Bakersfield Central",
+                    "lowerLimit": "0",
+                    "upperLimit": "120",
+                    "lowerLimitDisplay": "Empty",
+                    "upperLimitDisplay": "Full",
+                    "numberSuffix": " ltrs",
+                    "showValue": "1",
+                    "chartBottomMargin": "25",
+                    "majorTMNumber": "8",
+                    "minorTMNumber": "2",
+                    "adjustTM": "0",
+                    "animation": "0"
+                },
+                "value": "75"
+            }
+        },
+        "id": "gauge-and-widgets-guide-cylinder-gauge-configuring-gauge-example-7",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-cylinder-gauge-configuring-gauge-example-7-snapshot.png"
+    },
+    "gauge-and-widgets-guide-funnel-chart-simple-chart-example-example-1": {
+        "description": "funnel chart configure",
+        "options": {
+            "type": "funnel",
+            "width": "500",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Website - Harry's SuperMart",
+                    "subcaption": "Visit to purchase - Conversion analysis for last year",
+                    "decimals": "1",
+                    "is2D": "1",
+                    "plotTooltext": "Success : $percentOfPrevValue",
+                    "showPercentValues": "1",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Unique Website Visits",
+                        "value": "1460000"
+                    },
+                    {
+                        "label": "Programme Details Section Visits",
+                        "value": "930000"
+                    },
+                    {
+                        "label": "Attempts to Register",
+                        "value": "540000"
+                    },
+                    {
+                        "label": "Successful Registrations",
+                        "value": "210000"
+                    },
+                    {
+                        "label": "Logged In",
+                        "value": "190000"
+                    },
+                    {
+                        "label": "Purchased on Introductory Offers",
+                        "value": "120000"
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-funnel-chart-simple-chart-example-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-funnel-chart-simple-chart-example-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-cylinder-gauge-real-time-gauges-example-1": {
+        "description": "real time cylinder",
+        "options": {
+            "type": "cylinder",
+            "dataFormat": "json",
+            "width": "200",
+            "height": "350",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Diesel Level in Generator",
+                    "subcaption": "Bakersfield Central",
+                    "lowerLimit": "0",
+                    "upperLimit": "120",
+                    "lowerLimitDisplay": "Empty",
+                    "upperLimitDisplay": "Full",
+                    "numberSuffix": " ltrs",
+                    "showValue": "1",
+                    "chartBottomMargin": "25",
+                    "animation": "0"
+                },
+                "value": "110"
+            }
+        },
+        "id": "gauge-and-widgets-guide-cylinder-gauge-real-time-gauges-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-cylinder-gauge-real-time-gauges-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-funnel-chart-configuring-chart-example-4": {
+        "description": "funnel chart configure",
+        "options": {
+            "type": "funnel",
+            "width": "500",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Website visits",
+                    "subcaption": "Purchase - Conversion analysis for last year",
+                    "decimals": "1",
+                    "isHollow": "0",
+                    "isSliced": "1",
+                    "labelDistance": "15",
+                    "plotTooltext": "Success : $percentOfPrevValue",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Unique Website Visits",
+                        "value": "1460000"
+                    },
+                    {
+                        "label": "Programme Details Section Visits",
+                        "value": "930000"
+                    },
+                    {
+                        "label": "Attempts to Register",
+                        "value": "540000"
+                    },
+                    {
+                        "label": "Successful Registrations",
+                        "value": "210000"
+                    },
+                    {
+                        "label": "Logged In",
+                        "value": "190000"
+                    },
+                    {
+                        "label": "Purchased on Introductory Offers",
+                        "value": "120000"
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-funnel-chart-configuring-chart-example-4",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-funnel-chart-configuring-chart-example-4-snapshot.png"
+    },
+    "gauge-and-widgets-guide-cylinder-gauge-real-time-gauges-example-2": {
+        "description": "real time cylindar gauge",
+        "options": {
+            "type": "cylinder",
+            "dataFormat": "json",
+            "width": "200",
+            "height": "350",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Diesel Level in Generator",
+                    "subcaption": "Bakersfield Central",
+                    "lowerLimit": "0",
+                    "upperLimit": "120",
+                    "lowerLimitDisplay": "Empty",
+                    "upperLimitDisplay": "Full",
+                    "numberSuffix": " ltrs",
+                    "showValue": "1",
+                    "chartBottomMargin": "45",
+                    "dataStreamUrl": "files/php/gauge-and-widgets-guide-cylinder-gauge-real-time-gauges-php-1.php",
+                    "refreshInterval": "2",
+                    "refreshInstantly": "1",
+                    "animation": "0"
+                },
+                "value": "110"
+            }
+        },
+        "id": "gauge-and-widgets-guide-cylinder-gauge-real-time-gauges-example-2",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-cylinder-gauge-real-time-gauges-example-2-snapshot.png"
+    },
+    "gauge-and-widgets-guide-bullet-graph-configuring-bullet-graph-example-3": {
+        "description": "hbullet chart configure",
+        "options": {
+            "type": "hbullet",
+            "width": "500",
+            "height": "90",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "lowerLimit": "0",
+                    "subCaptionFontSize": "11",
+                    "upperLimit": "120",
+                    "caption": "Last Month Revenue",
+                    "subcaption": "Actual vs Target (Bakersfield Central)",
+                    "numberPrefix": "$",
+                    "numberSuffix": "K",
+                    "chartBottomMargin": "25",
+                    "plotfillpercent": "30",
+                    "targetFillPercent": "30",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "50",
+                            "code": "#e44a00",
+                            "alpha": "25"
+                        },
+                        {
+                            "minValue": "50",
+                            "maxValue": "75",
+                            "code": "#f8bd19",
+                            "alpha": "25"
+                        },
+                        {
+                            "minValue": "75",
+                            "maxValue": "120",
+                            "code": "#6baa01",
+                            "alpha": "25"
+                        }
+                    ]
+                },
+                "value": "82",
+                "target": "90"
+            }
+        },
+        "id": "gauge-and-widgets-guide-bullet-graph-configuring-bullet-graph-example-3",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-bullet-graph-configuring-bullet-graph-example-3-snapshot.png"
+    },
+    "gauge-and-widgets-guide-cylinder-gauge-simple-gauge-example-example-1": {
+        "description": "annotations in cylindar",
+        "options": {
+            "type": "cylinder",
+            "dataFormat": "json",
+            "width": "200",
+            "height": "350",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Diesel Level in Generator",
+                    "subcaption": "Bakersfield Central",
+                    "lowerLimit": "0",
+                    "upperLimit": "120",
+                    "lowerLimitDisplay": "Empty",
+                    "upperLimitDisplay": "Full",
+                    "numberSuffix": " ltrs",
+                    "showValue": "0",
+                    "chartBottomMargin": "45",
+                    "animation": "0"
+                },
+                "value": "110",
+                "annotations": {
+                    "origw": "400",
+                    "origh": "190",
+                    "autoscale": "1",
+                    "groups": [
+                        {
+                            "id": "range",
+                            "items": [
+                                {
+                                    "id": "rangeBg",
+                                    "type": "rectangle",
+                                    "x": "$canvasCenterX-45",
+                                    "y": "$chartEndY-30",
+                                    "tox": "$canvasCenterX +45",
+                                    "toy": "$chartEndY-75",
+                                    "fillcolor": "#6caa03"
+                                },
+                                {
+                                    "id": "rangeText",
+                                    "type": "Text",
+                                    "fontSize": "11",
+                                    "fillcolor": "#333333",
+                                    "text": "80 ltrs",
+                                    "x": "$chartCenterX-45",
+                                    "y": "$chartEndY-50"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-cylinder-gauge-simple-gauge-example-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-cylinder-gauge-simple-gauge-example-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-funnel-chart-configuring-chart-example-2": {
+        "description": "funnel chart configure",
+        "options": {
+            "type": "funnel",
+            "width": "500",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Website visits",
+                    "subcaption": "Purchase - Conversion analysis for last year",
+                    "decimals": "1",
+                    "is2D": "1",
+                    "plotTooltext": "Success : $percentOfPrevValue",
+                    "showLabelsAtCenter": "1",
+                    "plotFillAlpha": "70",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Unique Website Visits",
+                        "value": "1460000"
+                    },
+                    {
+                        "label": "Programme Details Section Visits",
+                        "value": "930000"
+                    },
+                    {
+                        "label": "Attempts to Register",
+                        "value": "540000"
+                    },
+                    {
+                        "label": "Successful Registrations",
+                        "value": "210000"
+                    },
+                    {
+                        "label": "Logged In",
+                        "value": "190000"
+                    },
+                    {
+                        "label": "Purchased on Introductory Offers",
+                        "value": "120000"
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-funnel-chart-configuring-chart-example-2",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-funnel-chart-configuring-chart-example-2-snapshot.png"
+    },
+    "gauge-and-widgets-guide-bulb-gauge-real-time-gauges-example-4": {
+        "description": "",
+        "options": {
+            "type": "bulb",
+            "width": "300",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Temperature status of deep freezers",
+                    "upperlimit": "-5",
+                    "lowerlimit": "-60",
+                    "captionPadding": "30",
+                    "showshadow": "0",
+                    "showvalue": "1",
+                    "useColorNameAsValue": "1",
+                    "placeValuesInside": "1",
+                    "valueFontSize": "16",
+                    "chartBottomMargin": "45",
+                    "plottooltext": "Current Temperature: $valueÂ°C ",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "-60",
+                            "maxvalue": "-35",
+                            "label": "Mission control,{br}we have a situation!",
+                            "code": "#ff0000"
+                        },
+                        {
+                            "minvalue": "-35",
+                            "maxvalue": "-25",
+                            "label": "Something is just{br}not right!",
+                            "code": "#ff9900"
+                        },
+                        {
+                            "minvalue": "-25",
+                            "maxvalue": "-5",
+                            "label": "All well ahoy!",
+                            "code": "#00ff00"
+                        }
+                    ]
+                },
+                "value": "-5",
+                "annotations": {
+                    "showbelow": "0",
+                    "groups": [
+                        {
+                            "id": "valtext",
+                            "items": [
+                                {
+                                    "id": "background",
+                                    "type": "rectangle",
+                                    "alpha": "50",
+                                    "fillColor": "#AABBCC",
+                                    "x": "$chartCenterX-30",
+                                    "tox": "$chartCenterX+30",
+                                    "y": "$chartEndY-35",
+                                    "toy": "$chartEndY-5"
+                                },
+                                {
+                                    "id": "valuetxt",
+                                    "type": "text",
+                                    "text": "-5Â°C",
+                                    "alpha": "100",
+                                    "font": "Helvetica Neue,Arial",
+                                    "bold": "0",
+                                    "fontSize": "14",
+                                    "fontColor": "#00FF00",
+                                    "x": "$chartCenterX",
+                                    "y": "$chartEndY-20"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-bulb-gauge-real-time-gauges-example-4",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-bulb-gauge-real-time-gauges-example-4-snapshot.png"
+    },
+    "gauge-and-widgets-guide-bullet-graph-configuring-bullet-graph-example-4": {
+        "description": "",
+        "options": {
+            "type": "hbullet",
+            "width": "500",
+            "height": "90",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "lowerLimit": "0",
+                    "subCaptionFontSize": "11",
+                    "upperLimit": "120",
+                    "caption": "Last Month Revenue",
+                    "subcaption": "Actual vs Target (Bakersfield Central)",
+                    "numberPrefix": "$",
+                    "numberSuffix": "K",
+                    "chartBottomMargin": "25",
+                    "colorRangeFillMix": "{light-10},{light-70},{dark-10}",
+                    "colorRangeFillRatio": "10,70,20",
+                    "showColorRangeBorder": "1",
+                    "colorRangeBorderColor": "#CCCCCC",
+                    "colorRangeBorderThickness": "1",
+                    "colorRangeBorderAlpha": "100",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "50",
+                            "code": "#e44a00",
+                            "alpha": "50"
+                        },
+                        {
+                            "minValue": "50",
+                            "maxValue": "75",
+                            "code": "#f8bd19",
+                            "alpha": "50"
+                        },
+                        {
+                            "minValue": "75",
+                            "maxValue": "120",
+                            "code": "#6baa01",
+                            "alpha": "50"
+                        }
+                    ]
+                },
+                "value": "82",
+                "target": "90"
+            }
+        },
+        "id": "gauge-and-widgets-guide-bullet-graph-configuring-bullet-graph-example-4",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-bullet-graph-configuring-bullet-graph-example-4-snapshot.png"
+    },
+    "gauge-and-widgets-guide-bulb-gauge-real-time-gauges-example-3": {
+        "description": "",
+        "options": {
+            "type": "bulb",
+            "width": "300",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Temperature status of deep freezers",
+                    "upperlimit": "-5",
+                    "lowerlimit": "-60",
+                    "captionPadding": "30",
+                    "showshadow": "0",
+                    "showvalue": "1",
+                    "useColorNameAsValue": "1",
+                    "placeValuesInside": "1",
+                    "valueFontSize": "16",
+                    "plottooltext": "Current Temperature: $valueÂ°C",
+                    "dataStreamURL": "files/php/gauge-and-widgets-guide-bulb-gauge-real-time-gauges-php-1.php",
+                    "refreshInterval": "5",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "-60",
+                            "maxvalue": "-35",
+                            "label": "Mission control,{br}we have a situation!",
+                            "code": "#ff0000"
+                        },
+                        {
+                            "minvalue": "-35",
+                            "maxvalue": "-25",
+                            "label": "Something is just  not right!",
+                            "code": "#ff9900"
+                        },
+                        {
+                            "minvalue": "-25",
+                            "maxvalue": "-5",
+                            "label": "All well ahoy!",
+                            "code": "#00ff00"
+                        }
+                    ]
+                },
+                "value": "-5"
+            }
+        },
+        "id": "gauge-and-widgets-guide-bulb-gauge-real-time-gauges-example-3",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-bulb-gauge-real-time-gauges-example-3-snapshot.png"
+    },
+    "gauge-and-widgets-guide-cylinder-gauge-real-time-gauges-example-5": {
+        "description": "",
+        "options": {
+            "type": "cylinder",
+            "dataFormat": "json",
+            "width": "200",
+            "height": "350",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Diesel Level in Generator",
+                    "subcaption": "Bakersfield Central",
+                    "lowerLimit": "0",
+                    "upperLimit": "120",
+                    "lowerLimitDisplay": "Empty",
+                    "upperLimitDisplay": "Full",
+                    "numberSuffix": " ltrs",
+                    "showValue": "0",
+                    "chartBottomMargin": "60",
+                    "dataStreamURL": "files/dummyErrorURL/cylinderData.php",
+                    "animation": "0"
+                },
+                "value": "110"
+            }
+        },
+        "id": "gauge-and-widgets-guide-cylinder-gauge-real-time-gauges-example-5",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-cylinder-gauge-real-time-gauges-example-5-snapshot.png"
+    },
+    "gauge-and-widgets-guide-bullet-graph-introduction-example-2": {
+        "description": "",
+        "options": {
+            "type": "vbullet",
+            "width": "140",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "lowerLimit": "0",
+                    "subCaptionFontSize": "11",
+                    "upperLimit": "120",
+                    "caption": "Last Month Revenue",
+                    "subcaption": "Actual vs Target<br>Bakersfield Central",
+                    "numberPrefix": "$",
+                    "numberSuffix": "K",
+                    "chartBottomMargin": "25",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "50",
+                            "code": "#e44a00",
+                            "alpha": "25"
+                        },
+                        {
+                            "minValue": "50",
+                            "maxValue": "75",
+                            "code": "#f8bd19",
+                            "alpha": "25"
+                        },
+                        {
+                            "minValue": "75",
+                            "maxValue": "120",
+                            "code": "#6baa01",
+                            "alpha": "25"
+                        }
+                    ]
+                },
+                "value": "82",
+                "target": "90"
+            }
+        },
+        "id": "gauge-and-widgets-guide-bullet-graph-introduction-example-2",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-bullet-graph-introduction-example-2-snapshot.png"
+    },
+    "gauge-and-widgets-guide-funnel-chart-configuring-chart-example-8": {
+        "description": "",
+        "options": {
+            "type": "funnel",
+            "width": "500",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Website visits",
+                    "subcaption": "Purchase - Conversion analysis for last year",
+                    "decimals": "1",
+                    "is2D": "1",
+                    "labelDistance": "15",
+                    "plotTooltext": "Success : $percentOfPrevValue",
+                    "showPercentValues": "1",
+                    "showPlotBorder": "1",
+                    "PlotBorderAlpha": "0",
+                    "showHoverEffect": "1",
+                    "plotFillHoverColor": "#cccccc",
+                    "plotFillHoverAlpha": "60",
+                    "plotBorderHoverColor": "#333333",
+                    "plotBorderHoverAlpha": "60",
+                    "plotBorderHoverThickness": "2",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Unique Website Visits",
+                        "value": "1460000"
+                    },
+                    {
+                        "label": "Programme Details Section Visits",
+                        "value": "930000"
+                    },
+                    {
+                        "label": "Attempts to Register",
+                        "value": "540000"
+                    },
+                    {
+                        "label": "Successful Registrations",
+                        "value": "210000"
+                    },
+                    {
+                        "label": "Logged In",
+                        "value": "190000"
+                    },
+                    {
+                        "label": "Purchased on Introductory Offers",
+                        "value": "120000"
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-funnel-chart-configuring-chart-example-8",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-funnel-chart-configuring-chart-example-8-snapshot.png"
+    },
+    "gauge-and-widgets-guide-bullet-graph-configuring-bullet-graph-example-5": {
+        "description": "",
+        "options": {
+            "type": "hbullet",
+            "width": "500",
+            "height": "90",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "lowerLimit": "0",
+                    "subCaptionFontSize": "11",
+                    "upperLimit": "120",
+                    "caption": "Last Month Revenue",
+                    "subcaption": "Actual vs Target (Bakersfield Central)",
+                    "showShadow": "0",
+                    "numberPrefix": "$",
+                    "numberSuffix": "K",
+                    "chartBottomMargin": "25",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "50",
+                            "code": "#e44a00",
+                            "alpha": "25"
+                        },
+                        {
+                            "minValue": "50",
+                            "maxValue": "75",
+                            "code": "#f8bd19",
+                            "alpha": "25"
+                        },
+                        {
+                            "minValue": "75",
+                            "maxValue": "120",
+                            "code": "#6baa01",
+                            "alpha": "25"
+                        }
+                    ]
+                },
+                "value": "82",
+                "target": "90"
+            }
+        },
+        "id": "gauge-and-widgets-guide-bullet-graph-configuring-bullet-graph-example-5",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-bullet-graph-configuring-bullet-graph-example-5-snapshot.png"
+    },
+    "gauge-and-widgets-guide-bulb-gauge-real-time-gauges-example-2": {
+        "description": "",
+        "options": {
+            "type": "bulb",
+            "width": "300",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Temperature status of deep freezers",
+                    "upperlimit": "-5",
+                    "lowerlimit": "-60",
+                    "captionPadding": "30",
+                    "showshadow": "0",
+                    "showvalue": "1",
+                    "useColorNameAsValue": "1",
+                    "placeValuesInside": "1",
+                    "valueFontSize": "16",
+                    "plottooltext": "Current Temperature: $valueÂ°C",
+                    "dataStreamURL": "files/php/gauge-and-widgets-guide-bulb-gauge-real-time-gauges-php-1.php",
+                    "refreshInterval": "5",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "-60",
+                            "maxvalue": "-35",
+                            "label": "Mission control,{br}we have a situation!",
+                            "code": "#ff0000"
+                        },
+                        {
+                            "minvalue": "-35",
+                            "maxvalue": "-25",
+                            "label": "Something is just  not right!",
+                            "code": "#ff9900"
+                        },
+                        {
+                            "minvalue": "-25",
+                            "maxvalue": "-5",
+                            "label": "All well ahoy!",
+                            "code": "#00ff00"
+                        }
+                    ]
+                },
+                "value": "-5",
+                "annotations": {
+                    "showbelow": "0",
+                    "groups": [
+                        {
+                            "id": "valtext",
+                            "items": [
+                                {
+                                    "id": "valuetxt",
+                                    "type": "text",
+                                    "text": "-5Â°C",
+                                    "alpha": "100",
+                                    "font": "Helvetica Neue,Arial",
+                                    "bold": "0",
+                                    "fontSize": "14",
+                                    "fontColor": "#00FF00",
+                                    "x": "$chartEndX - 50",
+                                    "y": "$chartStartY +60"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-bulb-gauge-real-time-gauges-example-2",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-bulb-gauge-real-time-gauges-example-2-snapshot.png"
+    },
+    "gauge-and-widgets-guide-cylinder-gauge-configuring-gauge-example-9": {
+        "description": "",
+        "options": {
+            "type": "cylinder",
+            "dataFormat": "json",
+            "width": "200",
+            "height": "350",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Diesel Level in Generator",
+                    "subcaption": "Bakersfield Central",
+                    "lowerLimit": "0",
+                    "upperLimit": "120",
+                    "lowerLimitDisplay": "Empty",
+                    "upperLimitDisplay": "Full",
+                    "numberSuffix": " ltrs",
+                    "showValue": "1",
+                    "chartBottomMargin": "25",
+                    "majorTMColor": "#1aaf5d",
+                    "majorTMAalpha": "100",
+                    "majorTMHeight": "10",
+                    "majorTMThickness": "2",
+                    "minorTMColor": "#1aaf5d",
+                    "minorTMAlpha": "100",
+                    "minorTMHeight": "7",
+                    "minorTMThickness": "1",
+                    "tickmarkDistance": "5",
+                    "animation": "0"
+                },
+                "value": "75"
+            }
+        },
+        "id": "gauge-and-widgets-guide-cylinder-gauge-configuring-gauge-example-9",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-cylinder-gauge-configuring-gauge-example-9-snapshot.png"
+    },
+    "gauge-and-widgets-guide-bullet-graph-creating-bullet-graphs-example-1": {
+        "description": "",
+        "options": {
+            "type": "hbullet",
+            "width": "500",
+            "height": "90",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "lowerLimit": "0",
+                    "subCaptionFontSize": "11",
+                    "upperLimit": "120",
+                    "caption": "Last Month Revenue",
+                    "subcaption": "Actual vs Target (Bakersfield Central)",
+                    "numberPrefix": "$",
+                    "numberSuffix": "K",
+                    "chartBottomMargin": "25",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "50",
+                            "code": "#e44a00",
+                            "alpha": "25"
+                        },
+                        {
+                            "minValue": "50",
+                            "maxValue": "75",
+                            "code": "#f8bd19",
+                            "alpha": "25"
+                        },
+                        {
+                            "minValue": "75",
+                            "maxValue": "120",
+                            "code": "#6baa01",
+                            "alpha": "25"
+                        }
+                    ]
+                },
+                "value": "82",
+                "target": "90"
+            }
+        },
+        "id": "gauge-and-widgets-guide-bullet-graph-creating-bullet-graphs-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-bullet-graph-creating-bullet-graphs-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-cylinder-gauge-configuring-gauge-example-10": {
+        "description": "",
+        "options": {
+            "type": "cylinder",
+            "dataFormat": "json",
+            "width": "200",
+            "height": "350",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Diesel Level in Generator",
+                    "subcaption": "Bakersfield Central",
+                    "lowerLimit": "0",
+                    "upperLimit": "120",
+                    "lowerLimitDisplay": "Empty",
+                    "upperLimitDisplay": "Full",
+                    "numberSuffix": " ltrs",
+                    "showValue": "1",
+                    "chartBottomMargin": "25",
+                    "cylFillHoverColor": "#0099fd",
+                    "cylFillHoverAlpha": "85",
+                    "animation": "0"
+                },
+                "value": "75"
+            }
+        },
+        "id": "gauge-and-widgets-guide-cylinder-gauge-configuring-gauge-example-10",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-cylinder-gauge-configuring-gauge-example-10-snapshot.png"
+    },
+    "gauge-and-widgets-guide-bullet-graph-configuring-bullet-graph-example-8": {
+        "description": "",
+        "options": {
+            "type": "hbullet",
+            "width": "500",
+            "height": "90",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "lowerLimit": "0",
+                    "subCaptionFontSize": "11",
+                    "upperLimit": "120",
+                    "caption": "Last Month Revenue",
+                    "subcaption": "Actual vs Target (Bakersfield Central)",
+                    "numberPrefix": "$",
+                    "numberSuffix": "K",
+                    "chartBottomMargin": "25",
+                    "plotAsDot": "1",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "50",
+                            "code": "#e44a00",
+                            "alpha": "25"
+                        },
+                        {
+                            "minValue": "50",
+                            "maxValue": "75",
+                            "code": "#f8bd19",
+                            "alpha": "25"
+                        },
+                        {
+                            "minValue": "75",
+                            "maxValue": "120",
+                            "code": "#6baa01",
+                            "alpha": "25"
+                        }
+                    ]
+                },
+                "value": "82",
+                "target": "90"
+            }
+        },
+        "id": "gauge-and-widgets-guide-bullet-graph-configuring-bullet-graph-example-8",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-bullet-graph-configuring-bullet-graph-example-8-snapshot.png"
+    },
+    "gauge-and-widgets-guide-bulb-gauge-real-time-gauges-example-5": {
+        "description": "",
+        "options": {
+            "type": "bulb",
+            "width": "300",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Temperature status of deep freezers",
+                    "upperlimit": "-5",
+                    "lowerlimit": "-60",
+                    "captionPadding": "30",
+                    "showshadow": "0",
+                    "showvalue": "1",
+                    "useColorNameAsValue": "1",
+                    "placeValuesInside": "1",
+                    "valueFontSize": "16",
+                    "plottooltext": "Current Temperature: $valueÂ°C",
+                    "dataStreamURL": "bulbData.php",
+                    "refreshInterval": "5",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "-60",
+                            "maxvalue": "-35",
+                            "label": "Mission control,{br}we have a situation!",
+                            "code": "#ff0000"
+                        },
+                        {
+                            "minvalue": "-35",
+                            "maxvalue": "-25",
+                            "label": "Something is just  not right!",
+                            "code": "#ff9900"
+                        },
+                        {
+                            "minvalue": "-25",
+                            "maxvalue": "-5",
+                            "label": "All well ahoy!",
+                            "code": "#00ff00"
+                        }
+                    ]
+                },
+                "value": "-5"
+            }
+        },
+        "id": "gauge-and-widgets-guide-bulb-gauge-real-time-gauges-example-5",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-bulb-gauge-real-time-gauges-example-5-snapshot.png"
+    },
+    "gauge-and-widgets-guide-cylinder-gauge-configuring-gauge-example-1": {
+        "description": "",
+        "options": {
+            "type": "cylinder",
+            "dataFormat": "json",
+            "width": "200",
+            "height": "350",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Diesel Level in Generator",
+                    "subcaption": "Bakersfield Central",
+                    "lowerLimit": "0",
+                    "upperLimit": "120",
+                    "lowerLimitDisplay": "Empty",
+                    "upperLimitDisplay": "Full",
+                    "numberSuffix": " ltrs",
+                    "showValue": "1",
+                    "chartBottomMargin": "25",
+                    "cylFillColor": "#1aaf5d",
+                    "animation": "0"
+                },
+                "value": "75"
+            }
+        },
+        "id": "gauge-and-widgets-guide-cylinder-gauge-configuring-gauge-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-cylinder-gauge-configuring-gauge-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-gantt-chart-adding-multiple-tasks-to-a-process-example-1": {
+        "description": "",
+        "options": {
+            "type": "gantt",
+            "width": "650",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Development Division - Work Schedule",
+                    "subcaption": "Week 2 - (21st July to 25th July)",
+                    "dateformat": "mm/dd/yyyy hh:mm:ss",
+                    "outputDateFormat": "ddds mnl, yyyy hh12:mn ampm",
+                    "canvasBorderAlpha": "30",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "7/21/2014 00:00:00",
+                                "end": "7/21/2014 23:59:59",
+                                "label": "Monday"
+                            },
+                            {
+                                "start": "7/22/2014 00:00:00",
+                                "end": "7/22/2014 23:59:59",
+                                "label": "Tuesday"
+                            },
+                            {
+                                "start": "7/23/2014 00:00:00",
+                                "end": "7/23/2014 23:59:59",
+                                "label": "Wednesday"
+                            },
+                            {
+                                "start": "7/24/2014 00:00:00",
+                                "end": "7/24/2014 23:59:59",
+                                "label": "Thursday"
+                            },
+                            {
+                                "start": "7/25/2014 00:00:00",
+                                "end": "7/25/2014 23:59:59",
+                                "label": "Friday"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "fontsize": "12",
+                    "isbold": "1",
+                    "align": "left",
+                    "headertext": "Employee",
+                    "headerfontsize": "14",
+                    "headervalign": "middle",
+                    "headeralign": "left",
+                    "process": [
+                        {
+                            "label": "John S.",
+                            "id": "EMP121"
+                        },
+                        {
+                            "label": "David G.",
+                            "id": "EMP122"
+                        },
+                        {
+                            "label": "Mary P.",
+                            "id": "EMP123"
+                        },
+                        {
+                            "label": "Andrew H.",
+                            "id": "EMP124"
+                        },
+                        {
+                            "label": "Neil M.",
+                            "id": "EMP125"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "showlabels": "1",
+                    "task": [
+                        {
+                            "processid": "EMP121",
+                            "start": "7/21/2014 09:30:00",
+                            "end": "7/21/2014 17:00:00",
+                            "label": "Logo-I"
+                        },
+                        {
+                            "processid": "EMP121",
+                            "start": "7/22/2014 09:30:00",
+                            "end": "7/22/2014 16:30:00",
+                            "label": "Logo-II"
+                        },
+                        {
+                            "processid": "EMP121",
+                            "start": "7/23/2014 14:00:00",
+                            "end": "7/24/2014 16:30:00",
+                            "label": "Website template"
+                        },
+                        {
+                            "processid": "EMP122",
+                            "start": "7/21/2014 10:00:00",
+                            "end": "7/25/2014 14:30:00",
+                            "label": "PHP Blueprint"
+                        },
+                        {
+                            "processid": "EMP123",
+                            "start": "7/21/2014 10:00:00",
+                            "end": "7/21/2014 15:30:00",
+                            "label": "Testing Specification"
+                        },
+                        {
+                            "processid": "EMP123",
+                            "start": "7/22/2014 09:30:00",
+                            "end": "7/22/2014 16:00:00",
+                            "label": "Testing tool research"
+                        },
+                        {
+                            "processid": "EMP123",
+                            "start": "7/23/2014 09:30:00",
+                            "end": "7/25/2014 16:30:00",
+                            "label": "Testing tool integration"
+                        },
+                        {
+                            "processid": "EMP124",
+                            "start": "7/22/2014 09:30:00",
+                            "end": "7/22/2014 16:30:00",
+                            "label": "QA"
+                        },
+                        {
+                            "processid": "EMP124",
+                            "start": "7/23/2014 09:00:00",
+                            "end": "7/23/2014 16:30:00",
+                            "label": "QA"
+                        },
+                        {
+                            "processid": "EMP124",
+                            "start": "7/24/2014 09:30:00",
+                            "end": "7/25/2014 14:30:00",
+                            "label": "QA"
+                        },
+                        {
+                            "processid": "EMP125",
+                            "start": "7/25/2014 15:00:00",
+                            "end": "7/25/2014 16:59:00",
+                            "label": "Weekly Meet"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-gantt-chart-adding-multiple-tasks-to-a-process-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-gantt-chart-adding-multiple-tasks-to-a-process-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-funnel-chart-introduction-example-1": {
+        "description": "",
+        "options": {
+            "type": "funnel",
+            "width": "500",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Website - Harry's SuperMart",
+                    "subcaption": "Visit to purchase - Conversion analysis for last year",
+                    "decimals": "1",
+                    "is2D": "1",
+                    "plotTooltext": "Success : $percentOfPrevValue",
+                    "showPercentValues": "1",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Unique Website Visits",
+                        "value": "1460000"
+                    },
+                    {
+                        "label": "Programme Details Section Visits",
+                        "value": "930000"
+                    },
+                    {
+                        "label": "Attempts to Register",
+                        "value": "540000"
+                    },
+                    {
+                        "label": "Successful Registrations",
+                        "value": "210000"
+                    },
+                    {
+                        "label": "Logged In",
+                        "value": "190000"
+                    },
+                    {
+                        "label": "Purchased on Introductory Offers",
+                        "value": "120000"
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-funnel-chart-introduction-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-funnel-chart-introduction-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-bullet-graph-introduction-example-1": {
+        "description": "",
+        "options": {
+            "type": "hbullet",
+            "width": "500",
+            "height": "90",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "lowerLimit": "0",
+                    "subCaptionFontSize": "11",
+                    "upperLimit": "120",
+                    "caption": "Last Month Revenue",
+                    "subcaption": "Actual vs Target (Bakersfield Central)",
+                    "numberPrefix": "$",
+                    "numberSuffix": "K",
+                    "chartBottomMargin": "25",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "50",
+                            "code": "#e44a00",
+                            "alpha": "25"
+                        },
+                        {
+                            "minValue": "50",
+                            "maxValue": "75",
+                            "code": "#f8bd19",
+                            "alpha": "25"
+                        },
+                        {
+                            "minValue": "75",
+                            "maxValue": "120",
+                            "code": "#6baa01",
+                            "alpha": "25"
+                        }
+                    ]
+                },
+                "value": "82",
+                "target": "90"
+            }
+        },
+        "id": "gauge-and-widgets-guide-bullet-graph-introduction-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-bullet-graph-introduction-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-cylinder-gauge-introduction-example-1": {
+        "description": "",
+        "options": {
+            "type": "cylinder",
+            "dataFormat": "json",
+            "width": "200",
+            "height": "350",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Diesel Level in Generator",
+                    "subcaption": "Bakersfield Central",
+                    "lowerLimit": "0",
+                    "upperLimit": "120",
+                    "lowerLimitDisplay": "Empty",
+                    "upperLimitDisplay": "Full",
+                    "numberSuffix": " ltrs",
+                    "showValue": "0",
+                    "chartBottomMargin": "45",
+                    "animation": "0"
+                },
+                "value": "110",
+                "annotations": {
+                    "origw": "400",
+                    "origh": "190",
+                    "autoscale": "1",
+                    "groups": [
+                        {
+                            "id": "range",
+                            "items": [
+                                {
+                                    "id": "rangeBg",
+                                    "type": "rectangle",
+                                    "x": "$canvasCenterX-45",
+                                    "y": "$chartEndY-30",
+                                    "tox": "$canvasCenterX +45",
+                                    "toy": "$chartEndY-75",
+                                    "fillcolor": "#6caa03"
+                                },
+                                {
+                                    "id": "rangeText",
+                                    "type": "Text",
+                                    "fontSize": "11",
+                                    "fillcolor": "#333333",
+                                    "text": "80 ltrs",
+                                    "x": "$chartCenterX-45",
+                                    "y": "$chartEndY-50"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-cylinder-gauge-introduction-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-cylinder-gauge-introduction-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-bullet-graph-configuring-bullet-graph-example-9": {
+        "description": "",
+        "options": {
+            "type": "hbullet",
+            "width": "500",
+            "height": "90",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "lowerLimit": "0",
+                    "subCaptionFontSize": "11",
+                    "upperLimit": "120",
+                    "caption": "Last Month Revenue",
+                    "subcaption": "Actual vs Target (Bakersfield Central)",
+                    "numberPrefix": "$",
+                    "numberSuffix": "K",
+                    "chartBottomMargin": "25",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "50",
+                            "code": "#e44a00",
+                            "alpha": "25"
+                        },
+                        {
+                            "minValue": "50",
+                            "maxValue": "75",
+                            "code": "#f8bd19",
+                            "alpha": "25"
+                        },
+                        {
+                            "minValue": "75",
+                            "maxValue": "120",
+                            "code": "#6baa01",
+                            "alpha": "25"
+                        }
+                    ]
+                },
+                "value": "82",
+                "target": "90"
+            }
+        },
+        "id": "gauge-and-widgets-guide-bullet-graph-configuring-bullet-graph-example-9",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-bullet-graph-configuring-bullet-graph-example-9-snapshot.png"
+    },
+    "gauge-and-widgets-guide-bullet-graph-configuring-bullet-graph-example-7": {
+        "description": "",
+        "options": {
+            "type": "hbullet",
+            "width": "500",
+            "height": "90",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "lowerLimit": "0",
+                    "subCaptionFontSize": "11",
+                    "upperLimit": "120",
+                    "caption": "Last Month Revenue",
+                    "subcaption": "Actual vs Target (Bakersfield Central)",
+                    "numberPrefix": "$",
+                    "numberSuffix": "K",
+                    "chartBottomMargin": "25",
+                    "minorTMNumber": "3",
+                    "majorTMcolor": "#0075c2",
+                    "majorTMalpha": "50",
+                    "majorTMheight": "5",
+                    "majorTMthickness": "2",
+                    "minorTMcolor": "#0075c2",
+                    "minorTMalpha": "50",
+                    "minorTMheight": "2",
+                    "minorTMThickness": "1",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "50",
+                            "code": "#e44a00",
+                            "alpha": "25"
+                        },
+                        {
+                            "minValue": "50",
+                            "maxValue": "75",
+                            "code": "#f8bd19",
+                            "alpha": "25"
+                        },
+                        {
+                            "minValue": "75",
+                            "maxValue": "120",
+                            "code": "#6baa01",
+                            "alpha": "25"
+                        }
+                    ]
+                },
+                "value": "82",
+                "target": "90"
+            }
+        },
+        "id": "gauge-and-widgets-guide-bullet-graph-configuring-bullet-graph-example-7",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-bullet-graph-configuring-bullet-graph-example-7-snapshot.png"
+    },
+    "gauge-and-widgets-guide-funnel-chart-configuring-chart-example-3": {
+        "description": "",
+        "options": {
+            "type": "funnel",
+            "width": "450",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Website visits",
+                    "subcaption": "Purchase - Conversion analysis for last year",
+                    "decimals": "1",
+                    "is2D": "0",
+                    "streamlinedData": "0",
+                    "showLegend": "1",
+                    "showLabels": "0",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Unique Website Visits",
+                        "value": "1460000"
+                    },
+                    {
+                        "label": "Programme Details Section Visits",
+                        "value": "930000"
+                    },
+                    {
+                        "label": "Attempts to Register",
+                        "value": "540000"
+                    },
+                    {
+                        "label": "Successful Registrations",
+                        "value": "210000"
+                    },
+                    {
+                        "label": "Logged In",
+                        "value": "190000"
+                    },
+                    {
+                        "label": "Purchased on Introductory Offers",
+                        "value": "120000"
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-funnel-chart-configuring-chart-example-3",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-funnel-chart-configuring-chart-example-3-snapshot.png"
+    },
+    "gauge-and-widgets-guide-cylinder-gauge-configuring-gauge-example-4": {
+        "description": "",
+        "options": {
+            "type": "cylinder",
+            "dataFormat": "json",
+            "width": "150",
+            "height": "350",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Diesel Level in Generator",
+                    "subcaption": "Bakersfield Central",
+                    "lowerLimit": "0",
+                    "upperLimit": "120",
+                    "lowerLimitDisplay": "Empty",
+                    "upperLimitDisplay": "Full",
+                    "numberSuffix": " ltrs",
+                    "showValue": "1",
+                    "chartBottomMargin": "25",
+                    "ticksOnRight": "1",
+                    "animation": "0"
+                },
+                "value": "75"
+            }
+        },
+        "id": "gauge-and-widgets-guide-cylinder-gauge-configuring-gauge-example-4",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-cylinder-gauge-configuring-gauge-example-4-snapshot.png"
+    },
+    "gauge-and-widgets-guide-cylinder-gauge-configuring-gauge-example-8": {
+        "description": "",
+        "options": {
+            "type": "cylinder",
+            "dataFormat": "json",
+            "width": "200",
+            "height": "350",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Diesel Level in Generator",
+                    "subcaption": "Bakersfield Central",
+                    "lowerLimit": "0",
+                    "upperLimit": "120",
+                    "lowerLimitDisplay": "Empty",
+                    "upperLimitDisplay": "Full",
+                    "numberSuffix": " ltrs",
+                    "showValue": "1",
+                    "chartBottomMargin": "25",
+                    "majorTMNumber": "13",
+                    "minorTMNumber": "1",
+                    "adjustTM": "0",
+                    "tickValueStep": "2",
+                    "animation": "0"
+                },
+                "value": "75"
+            }
+        },
+        "id": "gauge-and-widgets-guide-cylinder-gauge-configuring-gauge-example-8",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-cylinder-gauge-configuring-gauge-example-8-snapshot.png"
+    },
+    "gauge-and-widgets-guide-bulb-gauge-real-time-gauges-example-1": {
+        "description": "",
+        "options": {
+            "type": "bulb",
+            "width": "300",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Temperature status of deep freezers",
+                    "upperlimit": "-5",
+                    "lowerlimit": "-60",
+                    "captionPadding": "30",
+                    "showshadow": "0",
+                    "showvalue": "1",
+                    "useColorNameAsValue": "1",
+                    "placeValuesInside": "1",
+                    "valueFontSize": "16",
+                    "plottooltext": "Current Temperature:$valueÂ°C",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "-60",
+                            "maxvalue": "-35",
+                            "label": "Mission control,{br}we have a situation!",
+                            "code": "#ff0000"
+                        },
+                        {
+                            "minvalue": "-35",
+                            "maxvalue": "-25",
+                            "label": "Something is just  not right!",
+                            "code": "#ff9900"
+                        },
+                        {
+                            "minvalue": "-25",
+                            "maxvalue": "-5",
+                            "label": "All well ahoy!",
+                            "code": "#00ff00"
+                        }
+                    ]
+                },
+                "value": "-5"
+            }
+        },
+        "id": "gauge-and-widgets-guide-bulb-gauge-real-time-gauges-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-bulb-gauge-real-time-gauges-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-cylinder-gauge-real-time-gauges-example-4": {
+        "description": "",
+        "options": {
+            "type": "cylinder",
+            "dataFormat": "json",
+            "width": "200",
+            "height": "350",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Diesel Level in Generator",
+                    "subcaption": "Bakersfield Central",
+                    "lowerLimit": "0",
+                    "upperLimit": "120",
+                    "lowerLimitDisplay": "Empty",
+                    "upperLimitDisplay": "Full",
+                    "numberSuffix": " ltrs",
+                    "showValue": "0",
+                    "chartBottomMargin": "60",
+                    "animation": "0"
+                },
+                "value": "110",
+                "annotations": {
+                    "origw": "400",
+                    "origh": "190",
+                    "autoscale": "1",
+                    "groups": [
+                        {
+                            "id": "range",
+                            "items": [
+                                {
+                                    "id": "rangeBg",
+                                    "type": "rectangle",
+                                    "x": "$canvasCenterX-125",
+                                    "y": "$chartEndY-50",
+                                    "tox": "$canvasCenterX +145",
+                                    "toy": "$chartEndY-95",
+                                    "fillcolor": "#6caa03"
+                                },
+                                {
+                                    "id": "rangeText",
+                                    "type": "Text",
+                                    "fontSize": "11",
+                                    "fillcolor": "#333333",
+                                    "text": "Available Volume : 110 ltrs",
+                                    "x": "$chartCenterX-35",
+                                    "y": "$chartEndY-70"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-cylinder-gauge-real-time-gauges-example-4",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-cylinder-gauge-real-time-gauges-example-4-snapshot.png"
+    },
+    "gauge-and-widgets-guide-cylinder-gauge-real-time-gauges-example-3": {
+        "description": "",
+        "options": {
+            "type": "cylinder",
+            "width": "200",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Diesel Level in Generator",
+                    "subcaption": "Bakersfield Central",
+                    "lowerLimit": "0",
+                    "upperLimit": "120",
+                    "dataStreamUrl": "files/php/gauge-and-widgets-guide-cylinder-gauge-real-time-gauges-php-2.php",
+                    "lowerLimitDisplay": "Empty",
+                    "upperLimitDisplay": "Full",
+                    "numberSuffix": " ltrs",
+                    "showValue": "1",
+                    "chartBottomMargin": "45",
+                    "refreshInterval": "2",
+                    "animation": "0"
+                },
+                "value": "110"
+            }
+        },
+        "id": "gauge-and-widgets-guide-cylinder-gauge-real-time-gauges-example-3",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-cylinder-gauge-real-time-gauges-example-3-snapshot.png"
+    },
+    "gauge-and-widgets-guide-funnel-chart-configuring-chart-example-1": {
+        "description": "",
+        "options": {
+            "type": "funnel",
+            "width": "500",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Website visits",
+                    "subcaption": "Purchase - Conversion analysis for last year",
+                    "decimals": "1",
+                    "labelDistance": "15",
+                    "plotTooltext": "Success : $percentOfPrevValue",
+                    "showPercentValues": "1",
+                    "theme": "fint",
+                    "is2D": "1",
+                    "showPlotBorder": "1",
+                    "plotBorderColor": "#333333",
+                    "plotBorderThickness": "1",
+                    "plotBorderAlpha": "50",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Unique Website Visits",
+                        "value": "1460000"
+                    },
+                    {
+                        "label": "Programme Details Section Visits",
+                        "value": "930000"
+                    },
+                    {
+                        "label": "Attempts to Register",
+                        "value": "540000"
+                    },
+                    {
+                        "label": "Successful Registrations",
+                        "value": "210000"
+                    },
+                    {
+                        "label": "Logged In",
+                        "value": "190000"
+                    },
+                    {
+                        "label": "Purchased on Introductory Offers",
+                        "value": "120000"
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-funnel-chart-configuring-chart-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-funnel-chart-configuring-chart-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-bulb-gauge-introduction-example-1": {
+        "description": "",
+        "options": {
+            "type": "bulb",
+            "width": "300",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Temperature status of deep freezers",
+                    "upperlimit": "-5",
+                    "lowerlimit": "-60",
+                    "captionPadding": "30",
+                    "showshadow": "0",
+                    "showvalue": "1",
+                    "useColorNameAsValue": "1",
+                    "placeValuesInside": "1",
+                    "valueFontSize": "16",
+                    "plottooltext": "<span id='headerdiv' style='font-family:\"Arial\", \"Helvetica\";font-size: 13px;font-weight: bold;'>Current Temperature:</span>{br}<div id='valueDiv' style=' color: #EEEEEE; text-align:center;font-size: 25px; padding: 10px;  margin-top:5px; font-family:\"Arial\", \"Helvetica\"; font-weight: bold;'>$valueÂ°C</div>",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "-60",
+                            "maxvalue": "-35",
+                            "label": "Mission control, <br> we have a situation!",
+                            "code": "#ff0000"
+                        },
+                        {
+                            "minvalue": "-35",
+                            "maxvalue": "-25",
+                            "label": "Something is just  not right!",
+                            "code": "#ff9900"
+                        },
+                        {
+                            "minvalue": "-25",
+                            "maxvalue": "-5",
+                            "label": "All well ahoy!",
+                            "code": "#00ff00"
+                        }
+                    ]
+                },
+                "value": "-5"
+            }
+        },
+        "id": "gauge-and-widgets-guide-bulb-gauge-introduction-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-bulb-gauge-introduction-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-bulb-gauge-simple-gauge-example-example-1": {
+        "description": "",
+        "options": {
+            "type": "bulb",
+            "width": "300",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Temperature status of deep freezers",
+                    "upperlimit": "-5",
+                    "lowerlimit": "-60",
+                    "captionPadding": "30",
+                    "showshadow": "0",
+                    "showvalue": "1",
+                    "useColorNameAsValue": "1",
+                    "placeValuesInside": "1",
+                    "valueFontSize": "16",
+                    "plottooltext": "Current Temperature:{br}$valueÂ°C",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "-60",
+                            "maxvalue": "-35",
+                            "label": "Mission control,{br}we have a situation!",
+                            "code": "#ff0000"
+                        },
+                        {
+                            "minvalue": "-35",
+                            "maxvalue": "-25",
+                            "label": "Something is just  not right!",
+                            "code": "#ff9900"
+                        },
+                        {
+                            "minvalue": "-25",
+                            "maxvalue": "-5",
+                            "label": "All well ahoy!",
+                            "code": "#00ff00"
+                        }
+                    ]
+                },
+                "value": "-5"
+            }
+        },
+        "id": "gauge-and-widgets-guide-bulb-gauge-simple-gauge-example-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-bulb-gauge-simple-gauge-example-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-funnel-chart-configuring-chart-example-7": {
+        "description": "",
+        "options": {
+            "type": "funnel",
+            "width": "500",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Website visits",
+                    "subcaption": "Purchase - Conversion analysis for last year",
+                    "decimals": "1",
+                    "is2D": "1",
+                    "labelDistance": "15",
+                    "plotTooltext": "Success : $percentOfPrevValue",
+                    "showPercentValues": "1",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Unique Website Visits",
+                        "value": "1460000"
+                    },
+                    {
+                        "label": "Programme Details Section Visits",
+                        "value": "930000"
+                    },
+                    {
+                        "label": "Attempts to Register",
+                        "value": "540000",
+                        "isSliced": "1"
+                    },
+                    {
+                        "label": "Successful Registrations",
+                        "value": "210000"
+                    },
+                    {
+                        "label": "Logged In",
+                        "value": "190000"
+                    },
+                    {
+                        "label": "Purchased on Introductory Offers",
+                        "value": "120000"
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-funnel-chart-configuring-chart-example-7",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-funnel-chart-configuring-chart-example-7-snapshot.png"
+    },
+    "gauge-and-widgets-guide-bullet-graph-configuring-bullet-graph-example-1": {
+        "description": "",
+        "options": {
+            "type": "hbullet",
+            "width": "500",
+            "height": "90",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "lowerLimit": "0",
+                    "subCaptionFontSize": "11",
+                    "upperLimit": "120",
+                    "caption": "Last Month Revenue",
+                    "subcaption": "Actual vs Target (Bakersfield Central)",
+                    "numberPrefix": "$",
+                    "numberSuffix": "K",
+                    "chartBottomMargin": "25",
+                    "plotFillColor": "#5b0101",
+                    "plotFillAlpha": "90",
+                    "targetColor": "#5b0101",
+                    "targetThickness": "4",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "50",
+                            "code": "#e44a00",
+                            "alpha": "25"
+                        },
+                        {
+                            "minValue": "50",
+                            "maxValue": "75",
+                            "code": "#f8bd19",
+                            "alpha": "25"
+                        },
+                        {
+                            "minValue": "75",
+                            "maxValue": "120",
+                            "code": "#6baa01",
+                            "alpha": "25"
+                        }
+                    ]
+                },
+                "value": "82",
+                "target": "90"
+            }
+        },
+        "id": "gauge-and-widgets-guide-bullet-graph-configuring-bullet-graph-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-bullet-graph-configuring-bullet-graph-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-cylinder-gauge-configuring-gauge-example-5": {
+        "description": "",
+        "options": {
+            "type": "cylinder",
+            "dataFormat": "json",
+            "width": "200",
+            "height": "350",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Diesel Level in Generator",
+                    "subcaption": "Bakersfield Central",
+                    "lowerLimit": "0",
+                    "upperLimit": "120",
+                    "lowerLimitDisplay": "Empty",
+                    "upperLimitDisplay": "Full",
+                    "numberSuffix": " ltrs",
+                    "showValue": "1",
+                    "chartBottomMargin": "25",
+                    "ticksOnRight": "0",
+                    "animation": "0"
+                },
+                "value": "75"
+            }
+        },
+        "id": "gauge-and-widgets-guide-cylinder-gauge-configuring-gauge-example-5",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part2/ref-images/gauge-and-widgets-guide-cylinder-gauge-configuring-gauge-example-5-snapshot.png"
+    }
+}

@@ -1,0 +1,1224 @@
+{
+    "FT_FTV3-949_TC01": {
+        "id": "FT_FTV3-949_TC01",
+        "description": "SRS - Flat CSS style structure, introduced in V1.2 - FTV3-949",
+        "options": {
+            "data-id": "data-FT_TS14_TC01",
+            "schema-id": "schema-FT_TS14_TC01",
+            "type": "timeseries",
+            "width": "900",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "extensions": {
+                    "standardRangeSelector": {
+                        "enabled": "1",
+                        "style": {
+                            "button-text": {
+                                "fill": "#ffffff",
+                                "font-family": "Source Sans Pro",
+                                "font-size": "12px",
+                                "line-height": "14px"
+                            },
+                            "button-background": {
+                                "border-radius": "2px",
+                                "fill": "#006600",
+                                "fill-opacity": "0.5",
+                                "_stroke-width": 1,
+                                "stroke": "#000066",
+                                "stroke-dasharray": "5 2"
+                            },
+                            "button-text:hover": {
+                                "color": "#ffffff",
+                                "font-family": "Source Sans Pro",
+                                "font-size": "12px",
+                                "font-weight": 600,
+                                "line-height": "14px"
+                            },
+                            "button-background:hover": {
+                                "border-radius": "2px",
+                                "fill": "#333333",
+                                "stroke-width": 1,
+                                "stroke": "#ff0000",
+                                "stroke-dasharray": "5 2"
+                            },
+                            "button-text:active": {
+                                "color": "#006600",
+                                "font-family": "Source Sans Pro",
+                                "font-size": "12px",
+                                "line-height": "14px"
+                            },
+                            "button-background:active": {
+                                "border-radius": "2px",
+                                "fill": "#ff0000",
+                                "stroke-width": 1,
+                                "stroke": "#00ffff",
+                                "stroke-dasharray": "5 2",
+                                "fill-opacity": "0.5"
+                            },
+                            "separator": {
+                                "stroke": "#0000ff",
+                                "stroke-opacity": "0.9",
+                                "stroke-width": 3
+                            }
+                        }
+                    }
+                },
+                "caption": {
+                    "text": "Weather Forecast"
+                },
+                "subcaption": {
+                    "text": "Visualization of different weather parameters"
+                },
+                "chart": {
+                    "multiCanvas": 0,
+                    "nimation": 0,
+                    "animation": 0
+                },
+                "xAxis": [
+                    {
+                        "plot": "Date"
+                    }
+                ],
+                "yAxis": [
+                    {
+                        "plot": [
+                            {
+                                "value": "Temp(°C)",
+                                "type": "line"
+                            }
+                        ],
+                        "format": {
+                            "suffix": "°C",
+                            "_prefix": "Temp "
+                        },
+                        "title": "Temperature  vs  Dew Point"
+                    },
+                    {
+                        "plot": [
+                            {
+                                "value": "Wind Gust (kph)",
+                                "type": "line"
+                            }
+                        ],
+                        "format": {
+                            "suffix": " kph",
+                            "prefix": "Gust "
+                        },
+                        "title": "Wind Speed  vs  Wind Gust"
+                    }
+                ]
+            }
+        }
+    },
+    "FT_FTV3-933_TC01": {
+        "id": "FT_FTV3-933_TC01",
+        "description": "Brush Labels customization for navigator [Since v1.2] - FTV3-933",
+        "options": {
+            "data-id": "data-1-niladri",
+            "schema-id": "schema-1-niladri",
+            "type": "timeseries",
+            "width": "900",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "navigator": {
+                    "window": {
+                        "style": {
+                            "label": {
+                                "fill": "#ffff00",
+                                "opacity": 0.7,
+                                "font-size": "15",
+                                "font-family": "Droid Serif"
+                            },
+                            "label-background": {
+                                "fill": "#555555",
+                                "opacity": 0.5,
+                                "stroke": "#ff0000",
+                                "stroke-width": 3,
+                                "stroke-dasharray": "5 3"
+                            }
+                        }
+                    }
+                },
+                "chart": {
+                    "paletteColors": "#f4cdcd, #a3e2ba, #bcb3f2",
+                    "animation": 0,
+                    "nimation": 0
+                },
+                "yAxis": [
+                    "Measure1",
+                    "Measure2"
+                ],
+                "xAxis": {
+                    "title": "xAxisName"
+                }
+            }
+        }
+    },
+    "FT_FTV3-918_TC01": {
+        "id": "FT_FTV3-918_TC01",
+        "description": "Reference Zone - Default setting, introduced in V1.2 - FTV3-918",
+        "options": {
+            "data-id": "data-FT_TS14_TC01",
+            "schema-id": "schema-FT_TS14_TC01",
+            "type": "timeseries",
+            "width": "900",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "caption": {
+                    "text": "Weather Forecast"
+                },
+                "subcaption": {
+                    "text": "Visualization of different weather parameters"
+                },
+                "xAxis": [
+                    {
+                        "plot": "Date"
+                    }
+                ],
+                "yAxis": [
+                    {
+                        "plot": [
+                            {
+                                "value": "Temp(°C)",
+                                "type": "line"
+                            },
+                            {
+                                "value": "Wind Gust (kph)",
+                                "type": "line"
+                            }
+                        ],
+                        "title": "Temperature  vs  Wind Gust",
+                        "referenceZone": [
+                            {
+                                "label": "Last Year Range",
+                                "valueMin": "18",
+                                "valueMax": "35"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "nimation": 0,
+                    "animation": 0
+                }
+            }
+        }
+    },
+    "FT_FTV3-918_TC02": {
+        "id": "FT_FTV3-918_TC02",
+        "description": "Reference Zone - Multiple ReferenceZone in a canvas",
+        "options": {
+            "data-id": "data-FT_TS14_TC01",
+            "schema-id": "schema-FT_TS14_TC01",
+            "type": "timeseries",
+            "width": "900",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "caption": {
+                    "text": "Weather Forecast"
+                },
+                "subcaption": {
+                    "text": "Visualization of different weather parameters"
+                },
+                "xAxis": [
+                    {
+                        "plot": "Date"
+                    }
+                ],
+                "yAxis": [
+                    {
+                        "plot": [
+                            {
+                                "value": "Temp(°C)",
+                                "type": "line"
+                            },
+                            {
+                                "value": "Wind Gust (kph)",
+                                "type": "line"
+                            }
+                        ],
+                        "title": "Temperature  vs  Wind Gust",
+                        "referenceZone": [
+                            {
+                                "label": "Target",
+                                "valueMin": "18",
+                                "valueMax": "35"
+                            },
+                            {
+                                "label": "Last Year Range",
+                                "valueMin": "15",
+                                "valueMax": "8"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "nimation": 0,
+                    "animation": 0
+                }
+            }
+        }
+    },
+    "FT_FTV3-918_TC03": {
+        "id": "FTV3-918_TC03",
+        "description": "Reference Zone - ReferenceZone in a multiVariate",
+        "options": {
+            "data-id": "data-FT_TS14_TC01",
+            "schema-id": "schema-FT_TS14_TC01",
+            "type": "timeseries",
+            "width": "900",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "caption": {
+                    "text": "Weather Forecast"
+                },
+                "subcaption": {
+                    "text": "Visualization of different weather parameters"
+                },
+                "xAxis": [
+                    {
+                        "plot": "Date"
+                    }
+                ],
+                "yAxis": [
+                    {
+                        "plot": [
+                            {
+                                "value": "Temp(°C)",
+                                "type": "line"
+                            }
+                        ],
+                        "title": "Temperature  vs  Wind Gust",
+                        "referenceZone": [
+                            {
+                                "label": "Target",
+                                "valueMin": "10",
+                                "valueMax": "15"
+                            }
+                        ]
+                    },
+                    {
+                        "plot": [
+                            {
+                                "value": "Wind Gust (kph)",
+                                "type": "line"
+                            }
+                        ],
+                        "title": "Temperature  vs  Wind Gust",
+                        "referenceZone": [
+                            {
+                                "label": "Last Year Range",
+                                "valueMin": "30",
+                                "valueMax": "8"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "nimation": 0,
+                    "animation": 0
+                }
+            }
+        }
+    },
+    "FT_FTV3-918_TC04": {
+        "id": "FT_FTV3-918_TC04",
+        "description": "Reference Zone - ReferenceZone Custom Styling - plot level",
+        "options": {
+            "data-id": "data-FT_TS14_TC01",
+            "schema-id": "schema-FT_TS14_TC01",
+            "type": "timeseries",
+            "width": "900",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "caption": {
+                    "text": "Weather Forecast"
+                },
+                "subcaption": {
+                    "text": "Visualization of different weather parameters"
+                },
+                "xAxis": [
+                    {
+                        "plot": "Date"
+                    }
+                ],
+                "yAxis": [
+                    {
+                        "plot": [
+                            {
+                                "value": "Temp(°C)",
+                                "type": "line"
+                            }
+                        ],
+                        "title": "Temperature  vs  Wind Gust",
+                        "referenceZone": [
+                            {
+                                "label": "Target",
+                                "valueMin": "9",
+                                "valueMax": "13",
+                                "style": {
+                                    "marker-zone": {
+                                        "stroke-dasharray": "12 3",
+                                        "stroke-width": 2,
+                                        "fill": "#444444",
+                                        "stroke": "#008800"
+                                    },
+                                    "marker-tag": {
+                                        "fill": "#ffff00",
+                                        "stroke-dasharray": "12 3",
+                                        "stroke-width": 2
+                                    },
+                                    "text": {
+                                        "fill": "#0000ff",
+                                        "font-size": "22",
+                                        "font-family": "",
+                                        "font-weight": "bold"
+                                    },
+                                    "marker-text": {
+                                        "fill": "#0000ff",
+                                        "font-size": "22",
+                                        "font-family": "",
+                                        "font-weight": "bold"
+                                    },
+                                    "marker-notch": {
+                                        "fill": "#0000ff",
+                                        "stroke": "#ff0000",
+                                        "stroke-width": "1"
+                                    },
+                                    "marker-notch-connector": {
+                                        "stroke-dasharray": "12 3",
+                                        "stroke": "#008800",
+                                        "stroke-width": 6
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "plot": [
+                            {
+                                "value": "Wind Gust (kph)",
+                                "type": "line"
+                            }
+                        ],
+                        "title": "Temperature  vs  Wind Gust",
+                        "referenceZone": [
+                            {
+                                "label": "Last Year Range",
+                                "valueMin": "30",
+                                "valueMax": "8",
+                                "style": {
+                                    "marker-zone": {
+                                        "stroke-width": 2,
+                                        "fill": "#444444",
+                                        "stroke": "#000088"
+                                    },
+                                    "marker-tag": {
+                                        "fill": "#ffff00",
+                                        "stroke-dasharray": "12 3",
+                                        "stroke-width": 2
+                                    },
+                                    "text": {
+                                        "fill": "#0000ff",
+                                        "font-size": "22",
+                                        "font-family": "",
+                                        "font-weight": "bold"
+                                    },
+                                    "marker-text": {
+                                        "fill": "#0000ff",
+                                        "font-size": "22",
+                                        "font-family": "",
+                                        "font-weight": "bold"
+                                    },
+                                    "marker-notch": {
+                                        "fill": "#0000ff",
+                                        "stroke": "#ff0000",
+                                        "stroke-width": "1"
+                                    },
+                                    "marker-notch-connector": {
+                                        "stroke": "#000088",
+                                        "stroke-width": 6
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "nimation": 0,
+                    "animation": 0
+                }
+            }
+        }
+    },
+    "FT_FTV3-918_TC05": {
+        "id": "FT_FTV3-918_TC05",
+        "description": "Reference Zone - ReferenceZone Custom Styling - via style definition",
+        "options": {
+            "data-id": "data-FT_TS14_TC01",
+            "schema-id": "schema-FT_TS14_TC01",
+            "type": "timeseries",
+            "width": "900",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "styleDefinition": {
+                    "styleMarkerZone": {
+                        "stroke-dasharray": "12 3",
+                        "stroke-width": 1,
+                        "stroke": "#008800",
+                        "fill": "#111111"
+                    },
+                    "styleMarkerZoneHover": {
+                        "stroke-width": 3,
+                        "fill": "#444444",
+                        "stroke": "#008800"
+                    },
+                    "styleMarkerTag": {
+                        "fill": "#ffff00",
+                        "stroke-dasharray": "12 3",
+                        "stroke-width": 2
+                    },
+                    "styleText": {
+                        "fill": "#0000ff",
+                        "font-size": "22",
+                        "font-family": "",
+                        "font-weight": "bold"
+                    },
+                    "styleMarkerText": {
+                        "fill": "#0000ff",
+                        "font-size": "22",
+                        "font-family": "",
+                        "font-weight": "bold"
+                    },
+                    "styleMarkerNotch": {
+                        "fill": "#0000ff",
+                        "stroke": "#ff0000",
+                        "stroke-width": "1"
+                    },
+                    "styleMarkerNotchConnector": {
+                        "stroke-dasharray": "12 3",
+                        "stroke": "#008800",
+                        "stroke-width": 6
+                    }
+                },
+                "caption": {
+                    "text": "Weather Forecast"
+                },
+                "subcaption": {
+                    "text": "Visualization of different weather parameters"
+                },
+                "xAxis": [
+                    {
+                        "plot": "Date"
+                    }
+                ],
+                "yAxis": [
+                    {
+                        "plot": [
+                            {
+                                "value": "Temp(°C)",
+                                "type": "line"
+                            }
+                        ],
+                        "title": "Temperature  vs  Wind Gust",
+                        "referenceZone": [
+                            {
+                                "label": "Target",
+                                "valueMin": "9",
+                                "valueMax": "13",
+                                "style": {
+                                    "marker-zone": "styleMarkerZone",
+                                    "marker-zone:hover": "styleMarkerZoneHover",
+                                    "marker-tag": "styleMarkerTag",
+                                    "text": "styleText",
+                                    "marker-text": "styleMarkerText",
+                                    "marker-notch": "styleMarkerNotch",
+                                    "marker-notch-connector": "styleMarkerNotchConnector"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "plot": [
+                            {
+                                "value": "Wind Gust (kph)",
+                                "type": "line"
+                            }
+                        ],
+                        "title": "Temperature  vs  Wind Gust",
+                        "referenceZone": [
+                            {
+                                "label": "Last Year Range",
+                                "valueMin": "30",
+                                "valueMax": "8",
+                                "style": {
+                                    "marker-zone": {
+                                        "stroke-width": 1,
+                                        "stroke": "#000088",
+                                        "fill": "#111111"
+                                    },
+                                    "marker-zone:hover": {
+                                        "stroke-width": 3,
+                                        "fill": "#444444"
+                                    },
+                                    "marker-tag": {
+                                        "fill": "#ffff00",
+                                        "stroke-dasharray": "12 3",
+                                        "stroke-width": 2
+                                    },
+                                    "text": {
+                                        "fill": "#0000ff",
+                                        "font-size": "22",
+                                        "font-family": "",
+                                        "font-weight": "bold"
+                                    },
+                                    "marker-text": {
+                                        "fill": "#0000ff",
+                                        "font-size": "22",
+                                        "font-family": "",
+                                        "font-weight": "bold"
+                                    },
+                                    "marker-notch": {
+                                        "fill": "#0000ff",
+                                        "stroke": "#ff0000",
+                                        "stroke-width": "1"
+                                    },
+                                    "marker-notch-connector": {
+                                        "stroke": "#000088",
+                                        "stroke-width": 6
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "nimation": 0,
+                    "animation": 0
+                }
+            }
+        }
+    },
+    "FT_TFTV3-918_TC06": {
+        "id": "FT_FTV3-918_TC06",
+        "description": "Reference Zone - ReferenceZone in Dual Y-Axis",
+        "options": {
+            "data-id": "data-FT_TS14_TC01",
+            "schema-id": "schema-FT_TS14_TC01",
+            "type": "timeseries",
+            "width": "900",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "multiCanvas": 0,
+                    "nimation": 0,
+                    "animation": 0
+                },
+                "styleDefinition": {
+                    "styleMarkerZone": {
+                        "stroke-dasharray": "12 3",
+                        "stroke-width": 1,
+                        "stroke": "#008800",
+                        "fill": "#111111"
+                    },
+                    "styleMarkerZoneHover": {
+                        "stroke-width": 3,
+                        "fill": "#444444",
+                        "stroke": "#008800"
+                    },
+                    "styleMarkerTag": {
+                        "fill": "#ffff00",
+                        "stroke-dasharray": "12 3",
+                        "stroke-width": 2
+                    },
+                    "styleText": {
+                        "fill": "#0000ff",
+                        "font-size": "22",
+                        "font-family": "",
+                        "font-weight": "bold"
+                    },
+                    "styleMarkerText": {
+                        "fill": "#0000ff",
+                        "font-size": "22",
+                        "font-family": "",
+                        "font-weight": "bold"
+                    },
+                    "styleMarkerNotch": {
+                        "fill": "#0000ff",
+                        "stroke": "#ff0000",
+                        "stroke-width": "1"
+                    },
+                    "styleMarkerNotchConnector": {
+                        "stroke-dasharray": "12 3",
+                        "stroke": "#008800",
+                        "stroke-width": 6
+                    }
+                },
+                "caption": {
+                    "text": "Weather Forecast"
+                },
+                "subcaption": {
+                    "text": "Visualization of different weather parameters"
+                },
+                "xAxis": [
+                    {
+                        "plot": "Date"
+                    }
+                ],
+                "yAxis": [
+                    {
+                        "plot": [
+                            {
+                                "value": "Temp(°C)",
+                                "type": "line"
+                            }
+                        ],
+                        "title": "Temperature  vs  Wind Gust",
+                        "referenceZone": [
+                            {
+                                "label": "Target",
+                                "valueMin": "10",
+                                "valueMax": "14",
+                                "style": {
+                                    "marker-zone": "styleMarkerZone",
+                                    "marker-zone:hover": "styleMarkerZoneHover",
+                                    "marker-tag": "styleMarkerTag",
+                                    "text": "styleText",
+                                    "marker-text": "styleMarkerText",
+                                    "marker-notch": "styleMarkerNotch",
+                                    "marker-notch-connector": "styleMarkerNotchConnector"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "plot": [
+                            {
+                                "value": "Wind Gust (kph)",
+                                "type": "line"
+                            }
+                        ],
+                        "title": "Temperature  vs  Wind Gust",
+                        "referenceZone": [
+                            {
+                                "label": "Last Year Range",
+                                "valueMin": "10",
+                                "valueMax": "4",
+                                "style": {
+                                    "marker-zone": {
+                                        "stroke-width": 1,
+                                        "stroke": "#000088",
+                                        "fill": "#111111"
+                                    },
+                                    "marker-zone:hover": {
+                                        "stroke-width": 3,
+                                        "fill": "#444444"
+                                    },
+                                    "marker-tag": {
+                                        "fill": "#ffff00",
+                                        "stroke-dasharray": "12 3",
+                                        "stroke-width": 2
+                                    },
+                                    "text": {
+                                        "fill": "#0000ff",
+                                        "font-size": "22",
+                                        "font-family": "",
+                                        "font-weight": "bold"
+                                    },
+                                    "marker-text": {
+                                        "fill": "#0000ff",
+                                        "font-size": "22",
+                                        "font-family": "",
+                                        "font-weight": "bold"
+                                    },
+                                    "marker-notch": {
+                                        "fill": "#0000ff",
+                                        "stroke": "#ff0000",
+                                        "stroke-width": "1"
+                                    },
+                                    "marker-notch-connector": {
+                                        "stroke": "#000088",
+                                        "stroke-width": 6
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "FT_FTV3-918_TC07": {
+        "id": "FT_FTV3-918_TC07",
+        "description": "Reference Zone - TimeMarker, DataMarker Overlapping",
+        "options": {
+            "data-id": "data-FT_TS14_TC01",
+            "schema-id": "schema-FT_TS14_TC01",
+            "type": "timeseries",
+            "width": "900",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "multiCanvas": 0,
+                    "nimation": 0,
+                    "animation": 0
+                },
+                "styleDefinition": {
+                    "styleMarkerZone": {
+                        "stroke-dasharray": "12 3",
+                        "stroke-width": 1,
+                        "stroke": "#008800",
+                        "fill": "#111111"
+                    },
+                    "styleMarkerZoneHover": {
+                        "stroke-width": 3,
+                        "fill": "#444444",
+                        "stroke": "#008800"
+                    },
+                    "styleMarkerTag": {
+                        "fill": "#ffff00",
+                        "stroke-dasharray": "12 3",
+                        "stroke-width": 2
+                    },
+                    "styleText": {
+                        "fill": "#0000ff",
+                        "font-size": "22",
+                        "font-family": "",
+                        "font-weight": "bold"
+                    },
+                    "styleMarkerText": {
+                        "fill": "#0000ff",
+                        "font-size": "22",
+                        "font-family": "",
+                        "font-weight": "bold"
+                    },
+                    "styleMarkerNotch": {
+                        "fill": "#0000ff",
+                        "stroke": "#ff0000",
+                        "stroke-width": "1"
+                    },
+                    "styleMarkerNotchConnector": {
+                        "stroke-dasharray": "12 3",
+                        "stroke": "#008800",
+                        "stroke-width": 6
+                    }
+                },
+                "caption": {
+                    "text": "Weather Forecast"
+                },
+                "subcaption": {
+                    "text": "Visualization of different weather parameters"
+                },
+                "xAxis": [
+                    {
+                        "plot": "Date",
+                        "timemarker": [
+                            {
+                                "start": "2018-11-28 22:00:00",
+                                "end": "2018-11-28 22:30:00",
+                                "label": "TimeSpan Marker",
+                                "type": "full",
+                                "timeformat": "%Y-%m-%d %H:%M:%S"
+                            },
+                            {
+                                "start": "2018-11-28 22:20:00",
+                                "label": "2nd Marker",
+                                "type": "full",
+                                "timeformat": "%Y-%m-%d %H:%M:%S",
+                                "style": {
+                                    "text": {
+                                        "font-family": "mono",
+                                        "fill": "#ff0000",
+                                        "font-weight": "bold",
+                                        "font-size": "10px",
+                                        "opacity": "1"
+                                    },
+                                    "marker": {
+                                        "fill": "#0000ff",
+                                        "_opacity": 0.4,
+                                        "stroke": "#0000ff",
+                                        "stroke-width": 2,
+                                        "stroke-dasharray": "10 3"
+                                    },
+                                    "marker:hover": {
+                                        "fill": "#006600",
+                                        "_opacity": 0.4,
+                                        "stroke": "#ff0000",
+                                        "stroke-width": 2,
+                                        "stroke-dasharray": "10 3"
+                                    }
+                                }
+                            },
+                            {
+                                "start": "2018-11-28 22:05:00",
+                                "label": "1st Marker",
+                                "type": "minimal",
+                                "timeformat": "%Y-%m-%d %H:%M:%S"
+                            }
+                        ]
+                    }
+                ],
+                "yAxis": [
+                    {
+                        "plot": [
+                            {
+                                "value": "Temp(°C)",
+                                "type": "line"
+                            }
+                        ],
+                        "title": "Temperature  vs  Wind Gust",
+                        "referenceZone": [
+                            {
+                                "label": "Target",
+                                "valueMin": "10",
+                                "valueMax": "14",
+                                "style": {
+                                    "marker-zone": "styleMarkerZone",
+                                    "marker-zone:hover": "styleMarkerZoneHover",
+                                    "marker-tag": "styleMarkerTag",
+                                    "text": "styleText",
+                                    "marker-text": "styleMarkerText",
+                                    "marker-notch": "styleMarkerNotch",
+                                    "marker-notch-connector": "styleMarkerNotchConnector"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "plot": [
+                            {
+                                "value": "Wind Gust (kph)",
+                                "type": "line"
+                            }
+                        ],
+                        "title": "Temperature  vs  Wind Gust",
+                        "referenceZone": [
+                            {
+                                "label": "Last Year Range",
+                                "valueMin": "10",
+                                "valueMax": "-1",
+                                "style": {
+                                    "marker-zone": {
+                                        "stroke-width": 1,
+                                        "stroke": "#000088",
+                                        "fill": "#111111"
+                                    },
+                                    "marker-zone:hover": {
+                                        "stroke-width": 3,
+                                        "fill": "#444444"
+                                    },
+                                    "marker-tag": {
+                                        "fill": "#ffff00",
+                                        "stroke-dasharray": "12 3",
+                                        "stroke-width": 2
+                                    },
+                                    "text": {
+                                        "fill": "#0000ff",
+                                        "font-size": "22",
+                                        "font-family": "",
+                                        "font-weight": "bold"
+                                    },
+                                    "marker-text": {
+                                        "fill": "#0000ff",
+                                        "font-size": "22",
+                                        "font-family": "",
+                                        "font-weight": "bold"
+                                    },
+                                    "marker-notch": {
+                                        "fill": "#0000ff",
+                                        "stroke": "#ff0000",
+                                        "stroke-width": "1"
+                                    },
+                                    "marker-notch-connector": {
+                                        "stroke": "#000088",
+                                        "stroke-width": 6
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "dataMarker": [
+                    {
+                        "value": "Wind Gust (kph)",
+                        "time": "2018-11-28 22:14:00",
+                        "timeFormat": "%Y-%m-%d %H:%M:%S",
+                        "type": "flag",
+                        "identifier": "X",
+                        "tooltext": "HIGHEST WIND GUST",
+                        "style": {
+                            "text": {
+                                "font-family": "mono",
+                                "fill": "#ff0000",
+                                "font-weight": "bold",
+                                "opacity": 0.8
+                            },
+                            "marker": {
+                                "fill": "#0000ff",
+                                "fill-opacity": 0.3,
+                                "stroke": "#0000ff",
+                                "stroke-width": 5,
+                                "stroke-opacity": 0.3
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "FT_FTV3-922_TC01": {
+        "id": "FT_FTV3-922_TC01",
+        "description": "Custom Time Formatter for x-Axis and Tooltip [Since V1.2] [Year, Month, Day, Hour]",
+        "options": {
+            "data-id": "data-FT_TS26_TC10",
+            "schema-id": "schema-FT_TS26_TC10",
+            "type": "timeseries",
+            "width": "900",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "caption": {
+                    "text": "Temperature readings in Italy"
+                },
+                "tooltip": {
+                    "outputTimeFormat": {
+                        "year": "Year of %Y",
+                        "month": "This is Month of %B",
+                        "day": "%-d of %b Year %Y",
+                        "hour": "%b %-d, %Y, %-I %p Hrs",
+                        "minute": "%b %-d, %Y, %-I:%M:%S Hrs",
+                        "second": "%b %-d, %Y, %-I:%-M:%S %p Hrs",
+                        "millisecond": " %B %d, %Y, %-I:%-M:%-S:%-L %p"
+                    }
+                },
+                "xAxis": {
+                    "plot": "Time",
+                    "outputTimeFormat": {
+                        "year": "Year of %Y",
+                        "month": "This is Month of %B",
+                        "day": "%-d of %b Year %Y",
+                        "hour": "%b %-d, %Y, %-I:%M:%S Hrs",
+                        "minute": "%b %-d, %Y, %-I:%M:%S Hours",
+                        "second": "%b %-d, %Y, %-I:%-M:%S %p Hours",
+                        "millisecond": " %B %d, %Y, %-I:%-M:%-S:%-L %p"
+                    }
+                },
+                "yAxis": [
+                    {
+                        "plot": [
+                            {
+                                "value": "Temperature",
+                                "type": "line"
+                            }
+                        ],
+                        "title": "Temperature",
+                        "format": {
+                            "suffix": "°C"
+                        }
+                    },
+                    {
+                        "plot": [
+                            {
+                                "value": "Temperature",
+                                "type": "column"
+                            }
+                        ],
+                        "title": "Temperature",
+                        "format": {
+                            "suffix": "°C"
+                        }
+                    },
+                    {
+                        "plot": [
+                            {
+                                "value": "Temperature",
+                                "type": "area"
+                            }
+                        ],
+                        "title": "Temperature",
+                        "format": {
+                            "suffix": "°C"
+                        }
+                    }
+                ],
+                "chart": {
+                    "nimation": 0,
+                    "animation": 0
+                }
+            }
+        }
+    },
+    "FT_FTV3-922_TC02": {
+        "id": "FT_FTV3-922_TC02",
+        "description": "Custom Time Formatter for x-Axis and Tooltip [Since V1.2] [Second, Millisec]",
+        "options": {
+            "data-id": "data-FT_TS26_TC11",
+            "schema-id": "schema-FT_TS26_TC11",
+            "type": "timeseries",
+            "width": "900",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "caption": {
+                    "text": "Temperature readings in Italy"
+                },
+                "tooltip": {
+                    "outputTimeFormat": {
+                        "year": "Year of %Y",
+                        "month": "This is Month of %B",
+                        "day": "%-d of %b Year %Y",
+                        "hour": "%b %-d, %Y, %-I %p Hrs",
+                        "minute": "%b %-d, %Y, %-I:%M:%S Minute",
+                        "second": "%b %-d, %Y, %-I:%-M:%S %p Second",
+                        "millisecond": " %B %d, %Y, %-I:%-M:%-S:%-L %p MS"
+                    }
+                },
+                "xAxis": {
+                    "plot": "Time",
+                    "outputTimeFormat": {
+                        "year": "Year of %Y",
+                        "month": "This is Month of %B",
+                        "day": "%-d of %b Year %Y",
+                        "hour": "%b %-d, %Y, %-I:%M:%S Hrs",
+                        "minute": "%b %-d, %Y, %-I:%M:%S Minute",
+                        "second": "%b %-d, %Y, %-I:%-M:%S %p Second",
+                        "millisecond": " %B %d, %Y, %-I:%-M:%-S:%-L %p MS"
+                    }
+                },
+                "yAxis": [
+                    {
+                        "plot": [
+                            {
+                                "value": "Temperature",
+                                "type": "line"
+                            }
+                        ],
+                        "title": "Temperature",
+                        "format": {
+                            "suffix": "°C"
+                        }
+                    },
+                    {
+                        "plot": [
+                            {
+                                "value": "Temperature",
+                                "type": "column"
+                            }
+                        ],
+                        "title": "Temperature",
+                        "format": {
+                            "suffix": "°C"
+                        }
+                    },
+                    {
+                        "plot": [
+                            {
+                                "value": "Temperature",
+                                "type": "area"
+                            }
+                        ],
+                        "title": "Temperature",
+                        "format": {
+                            "suffix": "°C"
+                        }
+                    }
+                ],
+                "chart": {
+                    "nimation": 0,
+                    "animation": 0
+                }
+            }
+        }
+    },
+    "FT_FTV3-922_TC03": {
+        "id": "FT_FTV3-922_TC03",
+        "description": "Custom Time Formatter for x-Axis and Tooltip [Since V1.2] [Minute]",
+        "options": {
+            "data-id": "data-FT_TS26_TC12",
+            "schema-id": "schema-FT_TS26_TC11",
+            "type": "timeseries",
+            "width": "900",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "caption": {
+                    "text": "Temperature readings in Italy"
+                },
+                "tooltip": {
+                    "outputTimeFormat": {
+                        "year": "Year of %Y",
+                        "month": "This is Month of %B",
+                        "day": "%-d of %b Year %Y",
+                        "hour": "%b %-d, %Y, %-I %p Hrs",
+                        "minute": "%b %-d, %Y, %-I:%M:%S Minute",
+                        "second": "%b %-d, %Y, %-I:%-M:%S %p Second",
+                        "millisecond": " %B %d, %Y, %-I:%-M:%-S:%-L %p MS"
+                    }
+                },
+                "xAxis": {
+                    "plot": "Time",
+                    "outputTimeFormat": {
+                        "year": "Year of %Y",
+                        "month": "This is Month of %B",
+                        "day": "%-d of %b Year %Y",
+                        "hour": "%b %-d, %Y, %-I:%M:%S Hrs",
+                        "minute": "%b %-d, %Y, %-I:%M:%S Minute",
+                        "second": "%b %-d, %Y, %-I:%-M:%S %p Second",
+                        "millisecond": " %B %d, %Y, %-I:%-M:%-S:%-L %p MS"
+                    }
+                },
+                "yAxis": [
+                    {
+                        "plot": [
+                            {
+                                "value": "Temperature",
+                                "type": "line"
+                            }
+                        ],
+                        "title": "Temperature",
+                        "format": {
+                            "suffix": "°C"
+                        }
+                    },
+                    {
+                        "plot": [
+                            {
+                                "value": "Temperature",
+                                "type": "column"
+                            }
+                        ],
+                        "title": "Temperature",
+                        "format": {
+                            "suffix": "°C"
+                        }
+                    },
+                    {
+                        "plot": [
+                            {
+                                "value": "Temperature",
+                                "type": "area"
+                            }
+                        ],
+                        "title": "Temperature",
+                        "format": {
+                            "suffix": "°C"
+                        }
+                    }
+                ],
+                "chart": {
+                    "nimation": 0,
+                    "animation": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,146 @@
+{
+    "SUPPORT-1824-line-tc1": {
+        "id": "SUPPORT-1824-line-tc1",
+        "description": "plot is visible in plotype line if null-value is present before and after value",
+        "options": {
+            "data-id": "data-SUPPORT-1824-line",
+            "schema-id": "schema-SUPPORT-1824-line",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "yaxis": [
+                    {
+                        "plot": {
+                            "type": "line",
+                            "value": "Grocery Sales Value"
+                        },
+                        "format": {
+                            "prefix": "$"
+                        },
+                        "title": "Sale Value"
+                    }
+                ],
+                "xaxis": {
+                    "binning": {
+                        "year": [],
+                        "month": [],
+                        "day": [ 1 ]
+                    },
+                    "initialInterval": {
+                        "from": "28-Oct-11",
+                        "to": "10-Dec-11"
+                    }
+                },
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multicanvas": 0
+                },
+                "caption": {
+                    "text": "Sales Analysis"
+                },
+                "subcaption": {
+                    "text": "Grocery"
+                }
+            }
+        }
+    },
+    "SUPPORT-1824-line-tc2": {
+        "id": "SUPPORT-1824-line-tc2",
+        "description": "plot is visible in plotype step-line if null-value is present before and after value",
+        "options": {
+            "data-id": "data-SUPPORT-1824-line",
+            "schema-id": "schema-SUPPORT-1824-line",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "yaxis": [
+                    {
+                        "plot": {
+                            "type": "step-line",
+                            "value": "Grocery Sales Value"
+                        },
+                        "format": {
+                            "prefix": "$"
+                        },
+                        "title": "Sale Value"
+                    }
+                ],
+                "xaxis": {
+                    "binning": {
+                        "year": [],
+                        "month": [],
+                        "day": [ 1 ]
+                    },
+                    "initialInterval": {
+                        "from": "28-Oct-11",
+                        "to": "10-Dec-11"
+                    }
+                },
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multicanvas": 0
+                },
+                "caption": {
+                    "text": "Sales Analysis"
+                },
+                "subcaption": {
+                    "text": "Grocery"
+                }
+            }
+        }
+    },
+    "SUPPORT-1824-line-tc3": {
+        "id": "SUPPORT-1824-line-tc3",
+        "description": "plot is visible in plotype smooth-line if null-value is present before and after value",
+        "options": {
+            "data-id": "data-SUPPORT-1824-line",
+            "schema-id": "schema-SUPPORT-1824-line",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "yaxis": [
+                    {
+                        "plot": {
+                            "type": "smooth-line",
+                            "value": "Grocery Sales Value"
+                        },
+                        "format": {
+                            "prefix": "$"
+                        },
+                        "title": "Sale Value"
+                    }
+                ],
+                "xaxis": {
+                    "binning": {
+                        "year": [],
+                        "month": [],
+                        "day": [ 1 ]
+                    },
+                    "initialInterval": {
+                        "from": "28-Oct-11",
+                        "to": "10-Dec-11"
+                    }
+                },
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multicanvas": 0
+                },
+                "caption": {
+                    "text": "Sales Analysis"
+                },
+                "subcaption": {
+                    "text": "Grocery"
+                }
+            }
+        }
+    }
+}

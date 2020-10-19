@@ -1,0 +1,611 @@
+{
+    "candlestick": {
+        "description": "candlestick 900 * 550 size test",
+        "id": "candlestick",
+        "options": {
+            "type": "candlestick",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "animation": "0",
+                    "caption": "Monthly Revenue",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "anchorradius": 5
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1",
+                                "x": 1
+                            },
+                            {
+                                "label": "Label-2",
+                                "x": 2
+                            },
+                            {
+                                "label": "Label-3",
+                                "x": 3
+                            },
+                            {
+                                "label": "Label-4",
+                                "x": 4
+                            },
+                            {
+                                "label": "Label-5",
+                                "x": 5
+                            },
+                            {
+                                "label": "Label-6",
+                                "x": 6
+                            },
+                            {
+                                "label": "Label-7",
+                                "x": 7
+                            },
+                            {
+                                "label": "Label-8",
+                                "x": 8
+                            },
+                            {
+                                "label": "Label-9",
+                                "x": 9
+                            },
+                            {
+                                "label": "Label-10",
+                                "x": 10
+                            },
+                            {
+                                "label": "Label-11",
+                                "x": 11
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Series-1",
+                        "data": [
+                            {
+                                "low": 1,
+                                "open": 2,
+                                "close": 3,
+                                "high": 4,
+                                "x": 1,
+                                "volume": 1
+                            },
+                            {
+                                "low": 2,
+                                "open": 3,
+                                "close": 4,
+                                "high": 5,
+                                "x": 2,
+                                "volume": 2
+                            },
+                            {
+                                "low": 3,
+                                "open": 4,
+                                "close": 5,
+                                "high": 6,
+                                "x": 3,
+                                "volume": 3
+                            },
+                            {
+                                "low": 4,
+                                "open": 5,
+                                "close": 6,
+                                "high": 7,
+                                "x": 4,
+                                "volume": 4
+                            },
+                            {
+                                "low": 5,
+                                "open": 6,
+                                "close": 7,
+                                "high": 8,
+                                "x": 5,
+                                "volume": 5
+                            },
+                            {
+                                "low": 6,
+                                "open": 7,
+                                "close": 8,
+                                "high": 9,
+                                "x": 6,
+                                "volume": 6
+                            },
+                            {
+                                "low": 7,
+                                "open": 8,
+                                "close": 9,
+                                "high": 10,
+                                "x": 7,
+                                "volume": 7
+                            },
+                            {
+                                "low": 8,
+                                "open": 9,
+                                "close": 10,
+                                "high": 11,
+                                "x": 8,
+                                "volume": 8
+                            },
+                            {
+                                "low": 9,
+                                "open": 10,
+                                "close": 11,
+                                "high": 12,
+                                "x": 9,
+                                "volume": 9
+                            },
+                            {
+                                "low": 10,
+                                "open": 11,
+                                "close": 12,
+                                "high": 13,
+                                "x": 10,
+                                "volume": 10
+                            },
+                            {
+                                "low": 11,
+                                "open": 12,
+                                "close": 13,
+                                "high": 14,
+                                "x": 11,
+                                "volume": 11
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Series-2",
+                        "data": [
+                            {
+                                "low": 1,
+                                "open": 2,
+                                "close": 3,
+                                "high": 4,
+                                "x": 1,
+                                "volume": 1
+                            },
+                            {
+                                "low": 2,
+                                "open": 3,
+                                "close": 4,
+                                "high": 5,
+                                "x": 2,
+                                "volume": 2
+                            },
+                            {
+                                "low": 3,
+                                "open": 4,
+                                "close": 5,
+                                "high": 6,
+                                "x": 3,
+                                "volume": 3
+                            },
+                            {
+                                "low": 4,
+                                "open": 5,
+                                "close": 6,
+                                "high": 7,
+                                "x": 4,
+                                "volume": 4
+                            },
+                            {
+                                "low": 5,
+                                "open": 6,
+                                "close": 7,
+                                "high": 8,
+                                "x": 5,
+                                "volume": 5
+                            },
+                            {
+                                "low": 6,
+                                "open": 7,
+                                "close": 8,
+                                "high": 9,
+                                "x": 6,
+                                "volume": 6
+                            },
+                            {
+                                "low": 7,
+                                "open": 8,
+                                "close": 9,
+                                "high": 10,
+                                "x": 7,
+                                "volume": 7
+                            },
+                            {
+                                "low": 8,
+                                "open": 9,
+                                "close": 10,
+                                "high": 11,
+                                "x": 8,
+                                "volume": 8
+                            },
+                            {
+                                "low": 9,
+                                "open": 10,
+                                "close": 11,
+                                "high": 12,
+                                "x": 9,
+                                "volume": 9
+                            },
+                            {
+                                "low": 10,
+                                "open": 11,
+                                "close": 12,
+                                "high": 13,
+                                "x": 10,
+                                "volume": 10
+                            },
+                            {
+                                "low": 11,
+                                "open": 12,
+                                "close": 13,
+                                "high": 14,
+                                "x": 11,
+                                "volume": 11
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Series-3",
+                        "data": [
+                            {
+                                "low": 1,
+                                "open": 2,
+                                "close": 3,
+                                "high": 4,
+                                "x": 1,
+                                "volume": 1
+                            },
+                            {
+                                "low": 2,
+                                "open": 3,
+                                "close": 4,
+                                "high": 5,
+                                "x": 2,
+                                "volume": 2
+                            },
+                            {
+                                "low": 3,
+                                "open": 4,
+                                "close": 5,
+                                "high": 6,
+                                "x": 3,
+                                "volume": 3
+                            },
+                            {
+                                "low": 4,
+                                "open": 5,
+                                "close": 6,
+                                "high": 7,
+                                "x": 4,
+                                "volume": 4
+                            },
+                            {
+                                "low": 5,
+                                "open": 6,
+                                "close": 7,
+                                "high": 8,
+                                "x": 5,
+                                "volume": 5
+                            },
+                            {
+                                "low": 6,
+                                "open": 7,
+                                "close": 8,
+                                "high": 9,
+                                "x": 6,
+                                "volume": 6
+                            },
+                            {
+                                "low": 7,
+                                "open": 8,
+                                "close": 9,
+                                "high": 10,
+                                "x": 7,
+                                "volume": 7
+                            },
+                            {
+                                "low": 8,
+                                "open": 9,
+                                "close": 10,
+                                "high": 11,
+                                "x": 8,
+                                "volume": 8
+                            },
+                            {
+                                "low": 9,
+                                "open": 10,
+                                "close": 11,
+                                "high": 12,
+                                "x": 9,
+                                "volume": 9
+                            },
+                            {
+                                "low": 10,
+                                "open": 11,
+                                "close": 12,
+                                "high": 13,
+                                "x": 10,
+                                "volume": 10
+                            },
+                            {
+                                "low": 11,
+                                "open": 12,
+                                "close": 13,
+                                "high": 14,
+                                "x": 11,
+                                "volume": 11
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "resizeData": [
+                    {
+                        "width": "900",
+                        "height": "550"
+                    }
+                ]
+            }
+        ]
+    },
+    "candlestick_2": {
+        "description": "candlestick 350 * 250 size test",
+        "id": "candlestick",
+        "options": {
+            "type": "candlestick",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "animation": "0",
+                    "caption": "Monthly Revenue",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "anchorradius": 5
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1",
+                                "x": 1
+                            },
+                            {
+                                "label": "Label-2",
+                                "x": 2
+                            },
+                            {
+                                "label": "Label-3",
+                                "x": 3
+                            },
+                            {
+                                "label": "Label-4",
+                                "x": 4
+                            },
+                            {
+                                "label": "Label-5",
+                                "x": 5
+                            },
+                            {
+                                "label": "Label-6",
+                                "x": 6
+                            },
+                            {
+                                "label": "Label-7",
+                                "x": 7
+                            },
+                            {
+                                "label": "Label-8",
+                                "x": 8
+                            },
+                            {
+                                "label": "Label-9",
+                                "x": 9
+                            },
+                            {
+                                "label": "Label-10",
+                                "x": 10
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Series-1",
+                        "data": [
+                            {
+                                "low": 1,
+                                "open": 2,
+                                "close": 3,
+                                "high": 4,
+                                "x": 1,
+                                "volume": 1
+                            },
+                            {
+                                "low": 2,
+                                "open": 3,
+                                "close": 4,
+                                "high": 5,
+                                "x": 2,
+                                "volume": 2
+                            },
+                            {
+                                "low": 3,
+                                "open": 4,
+                                "close": 5,
+                                "high": 6,
+                                "x": 3,
+                                "volume": 3
+                            },
+                            {
+                                "low": 4,
+                                "open": 5,
+                                "close": 6,
+                                "high": 7,
+                                "x": 4,
+                                "volume": 4
+                            },
+                            {
+                                "low": 5,
+                                "open": 6,
+                                "close": 7,
+                                "high": 8,
+                                "x": 5,
+                                "volume": 5
+                            },
+                            {
+                                "low": 6,
+                                "open": 7,
+                                "close": 8,
+                                "high": 9,
+                                "x": 6,
+                                "volume": 6
+                            },
+                            {
+                                "low": 7,
+                                "open": 8,
+                                "close": 9,
+                                "high": 10,
+                                "x": 7,
+                                "volume": 7
+                            },
+                            {
+                                "low": 8,
+                                "open": 9,
+                                "close": 10,
+                                "high": 11,
+                                "x": 8,
+                                "volume": 8
+                            },
+                            {
+                                "low": 9,
+                                "open": 10,
+                                "close": 11,
+                                "high": 12,
+                                "x": 9,
+                                "volume": 9
+                            },
+                            {
+                                "low": 10,
+                                "open": 11,
+                                "close": 12,
+                                "high": 13,
+                                "x": 10,
+                                "volume": 10
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Series-2",
+                        "data": [
+                            {
+                                "low": 1,
+                                "open": 2,
+                                "close": 3,
+                                "high": 4,
+                                "x": 1,
+                                "volume": 1
+                            },
+                            {
+                                "low": 2,
+                                "open": 3,
+                                "close": 4,
+                                "high": 5,
+                                "x": 2,
+                                "volume": 2
+                            },
+                            {
+                                "low": 3,
+                                "open": 4,
+                                "close": 5,
+                                "high": 6,
+                                "x": 3,
+                                "volume": 3
+                            },
+                            {
+                                "low": 4,
+                                "open": 5,
+                                "close": 6,
+                                "high": 7,
+                                "x": 4,
+                                "volume": 4
+                            },
+                            {
+                                "low": 5,
+                                "open": 6,
+                                "close": 7,
+                                "high": 8,
+                                "x": 5,
+                                "volume": 5
+                            },
+                            {
+                                "low": 6,
+                                "open": 7,
+                                "close": 8,
+                                "high": 9,
+                                "x": 6,
+                                "volume": 6
+                            },
+                            {
+                                "low": 7,
+                                "open": 8,
+                                "close": 9,
+                                "high": 10,
+                                "x": 7,
+                                "volume": 7
+                            },
+                            {
+                                "low": 8,
+                                "open": 9,
+                                "close": 10,
+                                "high": 11,
+                                "x": 8,
+                                "volume": 8
+                            },
+                            {
+                                "low": 9,
+                                "open": 10,
+                                "close": 11,
+                                "high": 12,
+                                "x": 9,
+                                "volume": 9
+                            },
+                            {
+                                "low": 10,
+                                "open": 11,
+                                "close": 12,
+                                "high": 13,
+                                "x": 10,
+                                "volume": 10
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "resizeData": [
+                    {
+                        "width": "350",
+                        "height": "250"
+                    }
+                ]
+            }
+        ]
+    }
+}

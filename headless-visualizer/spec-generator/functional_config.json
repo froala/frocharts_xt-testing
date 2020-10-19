@@ -1,0 +1,100 @@
+{
+    "globals": {
+        "base_data_dir": "base",
+        "base_output_dir": "tests/functional-attributes",
+        "fc_ref_version": "3.4.1",
+        "fc_comp_version": "3.5.0-rc.1",
+        "japp_config_threshold": "0"
+    },
+    "setup": {
+        "single_series": {
+            "base_data": "baseData/single_series/data.json",
+            "chart_types": ["pie2d", "column3d", "column2d", "funnel"]
+        },
+        "multi_series": {
+            "base_data": "baseData/multi_series/data.json",
+            "chart_types": ["msspline", "mscolumn3d", "mscolumn2d", "msline", "msarea", "dragcolumn2d",
+                             "logmsline", "radar", "scrollcolumn2d", "sparkline", "realtimeline"]
+         },
+        "xy_plot_chart": {
+            "base_data": "baseData/xy_plot_series/data.json",
+            "chart_types": ["scatter"]
+        },
+        "xyz_plot_chart": {
+             "base_data": "baseData/xyz_plot_series/data.json",
+              "chart_types": ["bubble"]
+        },
+        "multi_series_dy":{
+            "base_data": "baseData/multi_series_dy/data.json",
+            "chart_types": ["mssplinedy"]
+        },
+        "stack_sries": {
+            "base_data": "baseData/stack_series/data.json",
+            "chart_types": ["stackedcolumn2d"]
+        },
+        "combi_sries": {
+            "base_data": "baseData/combi_series/data.json",
+            "chart_types": ["mscombi2d"]
+        },
+        "combi_series_dy": {
+            "base_data": "baseData/combi_series_dy/data.json",
+            "chart_types": ["mscombidy2d", "scrollcombidy2d"]
+        },
+        "multi_series_stack": {
+            "base_data": "baseData/multi_series_stack/data.json",
+            "chart_types": ["msstackedcolumn2d"]
+        },
+        "zoomline": {
+            "base_data": "baseData/zoomline/data.json",
+            "chart_types": ["zoomline"]
+        },
+        "single_value_widget": {
+            "base_data": "baseData/single_value_widget/data.json",
+            "chart_types": ["angulargauge", "hbullet"]
+        },
+        "heatmap": {
+            "base_data": "baseData/heatmap/data.json",
+            "chart_types": ["heatmap"]
+        },
+        "multi_axis_line": {
+            "base_data": "baseData/multi_axis_line/data.json",
+            "chart_types":["multiaxisline"]
+        },
+        "gantt": {
+            "base_data": "baseData/gantt/data.json",
+            "chart_types": ["gantt"]
+        },
+        "map": {
+            "base_data": "baseData/map/data.json",
+            "chart_types": ["usa"]
+        }
+    },
+    "attributes" : {
+        "pallete": {
+            "names": ["pallete", "palleteColors"],
+            "type": ["number", "color"],
+            "range": ["1-5", null]
+        },
+        "labels": {
+            "names": ["showLabels", "labelDisplay", "rotateLabels", "slantLabels", "labelStep"],
+            "type": ["boolean", "labelDisplay", "boolean", "boolean", "number"],
+            "range": [null, null, null, null, "1-5"]
+        },
+        "values": {
+            "names": ["showValues", "rotateValues"],
+            "type": ["boolean", "boolean"],
+            "range": [null, null]
+        }
+    },
+    "forced_attributes": {
+        "all": {
+            "animation": "0"
+        },
+        "pie2d": {
+            "showLegend": "1"
+        },
+        "funnel": {
+            "showLegend": "1"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+This folder contains images generated using the version which is being tested. Test case will pass or fail depending on their comparison with the reference images.

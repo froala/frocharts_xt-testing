@@ -1,0 +1,330 @@
+{
+    "numvisibleplot_showing_more_plot": {
+        "description": "numvisibleplot_showing_more_plot",
+        "options": {
+            "type": "scrollcombi2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "xaxislinethickness": "",
+                    "showxaxisline": "1",
+                    "xaxislinecolor": "ff0000",
+                    "numvisibleplot": "5",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jannn{br}nnnnn"
+                            },
+                            {
+                                "label": "Febbb{br}bbbbbb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "-2740"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": ""
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "renderas": "Area",
+                        "data": [
+                            {
+                                "value": "01000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": ""
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "-11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2004",
+                        "renderas": "Line",
+                        "data": [
+                            {
+                                "value": "-7000"
+                            },
+                            {
+                                "value": "10500"
+                            },
+                            {
+                                "value": ""
+                            },
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "9000"
+                            },
+                            {
+                                "value": "8800"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "15700"
+                            },
+                            {
+                                "value": "16700"
+                            },
+                            {
+                                "value": "14900"
+                            },
+                            {
+                                "value": "12900"
+                            },
+                            {
+                                "value": "8800"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "22000",
+                                "color": "91C728",
+                                "displayvalue": "Target",
+                                "showontop": "1"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/scrollcombi2d/ref-images/numvisibleplot_showing_more_plot-snapshot.png",
+        "id": "numvisibleplot_showing_more_plot"
+    },
+    "line_not_drawn_fully_with_empty_dataset": {
+        "description": "line_not_drawn_fully_with_empty_dataset",
+        "options": {
+            "type": "scrollcombi2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "-2740"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "-25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "renderas": "Area",
+                        "data": [
+                            {
+                                "value": "01000"
+                            },
+                            {
+                                "value": "-11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "-11000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2004",
+                        "renderas": "Line",
+                        "data": [
+                            {
+                                "value": "-7000"
+                            },
+                            {
+                                "value": "10500"
+                            },
+                            {
+                                "value": "9500"
+                            },
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "9000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2003",
+                        "renderas": "Line",
+                        "data": [
+                            {
+                                "value": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/scrollcombi2d/ref-images/line_not_drawn_fully_with_empty_dataset-snapshot.png",
+        "id": "line_not_drawn_fully_with_empty_dataset"
+    }
+}

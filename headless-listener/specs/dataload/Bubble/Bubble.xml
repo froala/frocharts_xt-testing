@@ -1,0 +1,33 @@
+<chart palette='3' numberPrefix='$' is3D='1' xAxisMaxValue='100' showPlotBorder='0'  showPrintMenuItem='1' clickURL='http://www.google.com' exportEnabled='1' exportHandler='http://107.21.74.91/'  xAxisName='Stickiness' yAxisName='Cost Per Service' chartRightMargin='30'>
+
+   <categories>
+      <category label='0%' x='0' />
+      <category label='20%' x='20' showVerticalLine='1'/>
+      <category label='40%' x='40' showVerticalLine='1'/>
+      <category label='60%' x='60' showVerticalLine='1'/>
+      <category label='80%' x='80' showVerticalLine='1'/>
+      <category label='100%' x='100' showVerticalLine='1'/>
+   </categories>
+
+   <dataSet seriesName='Bubbles'>
+      <set x='30' y='.3' z='116' name='Traders' link="JavaScript: isJavaScriptCall=true; alert('hi JS!'); myJS('USA'); myJS('235')" />
+      <set x='3' y='3.5' z='99' name='Farmers' link='j-myJS-Hong Kong, 235'/>
+      <set x='8' y='2.1' z='33' name='Individuals' link='F-detailsFrame-setXMLDatapassingxmlstring.html' />
+      <set x='62' y='2.5' z='72' name='Medium Business Houses' link='P-detailsPopUp,width=400,height=300,toolbar=Yes, 
+      scrollbars=no,resizable=no-map.html'/>
+      <set x='78' y='2.3' z='55' name='Corporate Group A' link='N-map.html'/>
+      <set x='75' y='1.4' z='58' name='Corporate Group C'/>
+      <set x='97' y='3.7' z='80' name='HNW Individuals'/>
+      <set x='50' y='4.5' z='105' name='Small Business Houses'/>
+   </dataSet>
+
+   <trendlines>
+      <line startValue='2.5' isTrendZone='0' displayValue='Median Cost' color='0372AB'/>
+   </trendlines>
+
+   <vTrendlines>
+      <line startValue='0' endValue='60' isTrendZone='1' displayValue='Potential Wins' color='663333' alpha='10'/>
+      <line startValue='60' endValue='100' isTrendZone='1' displayValue='Cash Cows' color='990099' alpha='5'/>
+   </vTrendlines>
+
+</chart>

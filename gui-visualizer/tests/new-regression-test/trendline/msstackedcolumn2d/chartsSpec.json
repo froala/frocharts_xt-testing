@@ -1,0 +1,838 @@
+{
+    "trendlines-0-line-0_istrendzone-0_withother_boolean-0": {
+        "description": "istrendzone as 0 with other other boolean attribute as 0 ",
+        "options": {
+            "type": "msstackedcolumn2d",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0",
+                    "trendValueFont": "Arial",
+                    "trendValueFontSize": "10",
+                    "trendValueFontBold": "0",
+                    "trendValueFontItalic": "0",
+                    "trendValueBgColor": "#CCFFFF",
+                    "trendValueBorderColor": "#6699FF",
+                    "trendValueAlpha": "10",
+                    "trendValueBgAlpha": "100",
+                    "trendValueBorderAlpha": "100",
+                    "trendValueBorderPadding": "3",
+                    "trendValueBorderRadius": "5",
+                    "trendValueBorderThickness": "3",
+                    "trendValueBorderDashed": "0",
+                    "trendValueBorderDashLen": "10"
+                },
+                "categories": [
+                    {
+                        "font": "Arial",
+                        "fontsize": "12",
+                        "fontcolor": "000000",
+                        "category": [
+                            {
+                                "label": "2001"
+                            },
+                            {
+                                "label": "2002"
+                            },
+                            {
+                                "label": "2003"
+                            },
+                            {
+                                "label": "2004"
+                            },
+                            {
+                                "label": "2005"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Product A",
+                                "color": "AFD8F8",
+                                "data": [
+                                    {
+                                        "value": "30"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "29"
+                                    },
+                                    {
+                                        "value": "31"
+                                    },
+                                    {
+                                        "value": "34"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Product B",
+                                "color": "F6BD0F",
+                                "data": [
+                                    {
+                                        "value": "21"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "39"
+                                    },
+                                    {
+                                        "value": "41"
+                                    },
+                                    {
+                                        "value": "24"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Service A",
+                                "color": "8BBA00",
+                                "data": [
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "25"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "10"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Service B",
+                                "color": "A66EDD",
+                                "data": [
+                                    {
+                                        "value": "17"
+                                    },
+                                    {
+                                        "value": "15"
+                                    },
+                                    {
+                                        "value": "18"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "10"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Service C",
+                                "color": "F984A1",
+                                "data": [
+                                    {
+                                        "value": "12"
+                                    },
+                                    {
+                                        "value": "17"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "15"
+                                    },
+                                    {
+                                        "value": "12"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "40",
+                                "endvalue": "45",
+                                "color": "#1aaf5d",
+                                "isTrendZone": "0",
+                                "valueOnRight": "0",
+                                "showOnTop": "0",
+                                "thickness": "10",
+                                "alpha": "10",
+                                "dashed": "0",
+                                "dashlen": "20",
+                                "dashGap": "20",
+                                "displayvalue": "Monthly Target",
+                                "tooltext": "123456"
+                            },
+                            {
+                                "startvalue": "12",
+                                "color": "#ff0000",
+                                "isTrendZone": "0",
+                                "valueOnRight": "1",
+                                "showOnTop": "0",
+                                "thickness": "5",
+                                "alpha": "100",
+                                "dashed": "0",
+                                "dashlen": "10",
+                                "dashGap": "50",
+                                "displayvalue": "",
+                                "tooltext": "nice day"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/trendlines/msstackedcolumn2d/ref-images/trendlines_msstackedcolumn2d_1-snapshot.png",
+        "id": "trendlines_msstackedcolumn2d_1"
+    },
+    "trendlines-0-line-0_istrendzone-0_withother_boolean-1": {
+        "description": "istrendzone as 0 with other boolean attribute as 1",
+        "options": {
+            "type": "msstackedcolumn2d",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0",
+                    "trendValueFont": "Arial",
+                    "trendValueFontSize": "30",
+                    "trendValueFontBold": "1",
+                    "trendValueFontItalic": "1",
+                    "trendValueBgColor": "#CCFFFF",
+                    "trendValueBorderColor": "#6699FF",
+                    "trendValueAlpha": "100",
+                    "trendValueBgAlpha": "10",
+                    "trendValueBorderAlpha": "10",
+                    "trendValueBorderPadding": "8",
+                    "trendValueBorderRadius": "1",
+                    "trendValueBorderThickness": "5",
+                    "trendValueBorderDashed": "1",
+                    "trendValueBorderDashLen": "10"
+                },
+                "categories": [
+                    {
+                        "font": "Arial",
+                        "fontsize": "12",
+                        "fontcolor": "000000",
+                        "category": [
+                            {
+                                "label": "2001"
+                            },
+                            {
+                                "label": "2002"
+                            },
+                            {
+                                "label": "2003"
+                            },
+                            {
+                                "label": "2004"
+                            },
+                            {
+                                "label": "2005"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Product A",
+                                "color": "AFD8F8",
+                                "data": [
+                                    {
+                                        "value": "30"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "29"
+                                    },
+                                    {
+                                        "value": "31"
+                                    },
+                                    {
+                                        "value": "34"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Product B",
+                                "color": "F6BD0F",
+                                "data": [
+                                    {
+                                        "value": "21"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "39"
+                                    },
+                                    {
+                                        "value": "41"
+                                    },
+                                    {
+                                        "value": "24"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Service A",
+                                "color": "8BBA00",
+                                "data": [
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "25"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "10"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Service B",
+                                "color": "A66EDD",
+                                "data": [
+                                    {
+                                        "value": "17"
+                                    },
+                                    {
+                                        "value": "15"
+                                    },
+                                    {
+                                        "value": "18"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "10"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Service C",
+                                "color": "F984A1",
+                                "data": [
+                                    {
+                                        "value": "12"
+                                    },
+                                    {
+                                        "value": "17"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "15"
+                                    },
+                                    {
+                                        "value": "12"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "15",
+                                "endvalue": "25",
+                                "color": "#1aaf5d",
+                                "isTrendZone": "0",
+                                "valueOnRight": "1",
+                                "showOnTop": "1",
+                                "thickness": "4",
+                                "alpha": "100",
+                                "dashed": "1",
+                                "dashlen": "12",
+                                "dashGap": "9",
+                                "displayvalue": "Monthly Target",
+                                "tooltext": "123456"
+                            },
+                            {
+                                "startvalue": "50",
+                                "color": "#ff0000",
+                                "isTrendZone": "0",
+                                "valueOnRight": "0",
+                                "showOnTop": "1",
+                                "thickness": "5",
+                                "alpha": "10",
+                                "dashed": "1",
+                                "dashlen": "20",
+                                "dashGap": "20",
+                                "displayvalue": "",
+                                "tooltext": "nice day"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/trendlines/msstackedcolumn2d/ref-images/trendlines_msstackedcolumn2d_2-snapshot.png",
+        "id": "trendlines_msstackedcolumn2d_2"
+    },
+    "trendlines-0-line-0_istrendzone-1_withother_boolean-0": {
+        "description": "istrendzone as 1 with other  boolean attribute as 0",
+        "options": {
+            "type": "msstackedcolumn2d",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0",
+                    "trendValueFont": "Arial",
+                    "trendValueFontSize": "40",
+                    "trendValueFontBold": "0",
+                    "trendValueFontItalic": "0",
+                    "trendValueBgColor": "#CCFFFF",
+                    "trendValueBorderColor": "#6699FF",
+                    "trendValueAlpha": "100",
+                    "trendValueBgAlpha": "100",
+                    "trendValueBorderAlpha": "10",
+                    "trendValueBorderPadding": "8",
+                    "trendValueBorderRadius": "1",
+                    "trendValueBorderThickness": "5",
+                    "trendValueBorderDashed": "0",
+                    "trendValueBorderDashLen": "10"
+                },
+                "categories": [
+                    {
+                        "font": "Arial",
+                        "fontsize": "12",
+                        "fontcolor": "000000",
+                        "category": [
+                            {
+                                "label": "2001"
+                            },
+                            {
+                                "label": "2002"
+                            },
+                            {
+                                "label": "2003"
+                            },
+                            {
+                                "label": "2004"
+                            },
+                            {
+                                "label": "2005"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Product A",
+                                "color": "AFD8F8",
+                                "data": [
+                                    {
+                                        "value": "30"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "29"
+                                    },
+                                    {
+                                        "value": "31"
+                                    },
+                                    {
+                                        "value": "34"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Product B",
+                                "color": "F6BD0F",
+                                "data": [
+                                    {
+                                        "value": "21"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "39"
+                                    },
+                                    {
+                                        "value": "41"
+                                    },
+                                    {
+                                        "value": "24"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Service A",
+                                "color": "8BBA00",
+                                "data": [
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "25"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "10"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Service B",
+                                "color": "A66EDD",
+                                "data": [
+                                    {
+                                        "value": "17"
+                                    },
+                                    {
+                                        "value": "15"
+                                    },
+                                    {
+                                        "value": "18"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "10"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Service C",
+                                "color": "F984A1",
+                                "data": [
+                                    {
+                                        "value": "12"
+                                    },
+                                    {
+                                        "value": "17"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "15"
+                                    },
+                                    {
+                                        "value": "12"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "15",
+                                "endvalue": "20",
+                                "color": "#1aaf5d",
+                                "isTrendZone": "1",
+                                "valueOnRight": "0",
+                                "showOnTop": "0",
+                                "thickness": "4",
+                                "alpha": "100",
+                                "dashed": "0",
+                                "dashlen": "12",
+                                "dashGap": "9",
+                                "displayvalue": "",
+                                "tooltext": "123456"
+                            },
+                            {
+                                "startvalue": "65",
+                                "color": "#ff0000",
+                                "isTrendZone": "1",
+                                "valueOnRight": "1",
+                                "showOnTop": "0",
+                                "thickness": "5",
+                                "alpha": "10",
+                                "dashed": "0",
+                                "dashlen": "20",
+                                "dashGap": "20",
+                                "displayvalue": "Monthly Target",
+                                "tooltext": "nice day"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/trendlines/msstackedcolumn2d/ref-images/trendlines_msstackedcolumn2d_3-snapshot.png",
+        "id": "trendlines_msstackedcolumn2d_3"
+    },
+    "trendlines-0-line-0_istrendzone-1_withother_boolean-1": {
+        "description": "istrendzone as 1 with other  boolean attribute as 1",
+        "options": {
+            "type": "msstackedcolumn2d",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0",
+                    "trendValueFont": "Arial",
+                    "trendValueFontSize": "8",
+                    "trendValueFontBold": "1",
+                    "trendValueFontItalic": "1",
+                    "trendValueBgColor": "#CCFFFF",
+                    "trendValueBorderColor": "#6699FF",
+                    "trendValueAlpha": "100",
+                    "trendValueBgAlpha": "100",
+                    "trendValueBorderAlpha": "50",
+                    "trendValueBorderPadding": "8",
+                    "trendValueBorderRadius": "1",
+                    "trendValueBorderThickness": "5",
+                    "trendValueBorderDashed": "1",
+                    "trendValueBorderDashLen": "10"
+                },
+                "categories": [
+                    {
+                        "font": "Arial",
+                        "fontsize": "12",
+                        "fontcolor": "000000",
+                        "category": [
+                            {
+                                "label": "2001"
+                            },
+                            {
+                                "label": "2002"
+                            },
+                            {
+                                "label": "2003"
+                            },
+                            {
+                                "label": "2004"
+                            },
+                            {
+                                "label": "2005"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Product A",
+                                "color": "AFD8F8",
+                                "data": [
+                                    {
+                                        "value": "30"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "29"
+                                    },
+                                    {
+                                        "value": "31"
+                                    },
+                                    {
+                                        "value": "34"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Product B",
+                                "color": "F6BD0F",
+                                "data": [
+                                    {
+                                        "value": "21"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "39"
+                                    },
+                                    {
+                                        "value": "41"
+                                    },
+                                    {
+                                        "value": "24"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Service A",
+                                "color": "8BBA00",
+                                "data": [
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "25"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "10"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Service B",
+                                "color": "A66EDD",
+                                "data": [
+                                    {
+                                        "value": "17"
+                                    },
+                                    {
+                                        "value": "15"
+                                    },
+                                    {
+                                        "value": "18"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "10"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Service C",
+                                "color": "F984A1",
+                                "data": [
+                                    {
+                                        "value": "12"
+                                    },
+                                    {
+                                        "value": "17"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "15"
+                                    },
+                                    {
+                                        "value": "12"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "55",
+                                "endvalue": "70",
+                                "color": "#1aaf5d",
+                                "isTrendZone": "1",
+                                "valueOnRight": "1",
+                                "showOnTop": "1",
+                                "thickness": "4",
+                                "alpha": "100",
+                                "dashed": "1",
+                                "dashlen": "12",
+                                "dashGap": "9",
+                                "displayvalue": "Monthly Target",
+                                "tooltext": "123456"
+                            },
+                            {
+                                "startvalue": "9",
+                                "color": "#ff0000",
+                                "isTrendZone": "1",
+                                "valueOnRight": "0",
+                                "showOnTop": "1",
+                                "thickness": "5",
+                                "alpha": "100",
+                                "dashed": "1",
+                                "dashlen": "10",
+                                "dashGap": "15",
+                                "displayvalue": "Monthly Target",
+                                "tooltext": "nice day"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/trendlines/msstackedcolumn2d/ref-images/trendlines_msstackedcolumn2d_4-snapshot.png",
+        "id": "trendlines_msstackedcolumn2d_4"
+    }
+}

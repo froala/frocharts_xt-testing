@@ -1,0 +1,272 @@
+{
+    "FTV3-1031_FT_TS01_TC01": {
+        "id": "FTV3-1031_FT_TS01_TC01",
+        "description": "Setting different heights for different canvases in multi-variate charts.",
+        "options": {
+            "data-id": "data-FTV3-1031",
+            "schema-id": "schema-FTV3-1031",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "canvasHeightProportion": "4:3:2:1",
+                    "animation":0
+                },
+                "caption": {
+                    "text": "Web visits & downloads"
+                },
+                "subcaption": {
+                    "text": "since 2015"
+                },
+                "yAxis": [{
+                        "plot": [{
+                                "value": "Downloads",
+                                "type": "column"
+                            },
+                            {
+                                "value": "Web Visits",
+                                "type": "line"
+                            }
+                        ]
+                    },
+                    {
+                        "plot": [{
+                            "value": "Web Visits",
+                            "type": "area"
+                        }]
+                    },
+                    {
+                        "plot": [{
+                            "value": "Web Visits",
+                            "type": "stepline"
+                        }]
+                    },
+                    {
+                        "plot": [{
+                            "value": "Downloads",
+                            "type": "smooth-line"
+                        }]
+                    }
+                ]
+            }
+        }
+    },
+    "FTV3-1031_FT_TS01_TC02": {
+        "id": "FTV3-1031_FT_TS01_TC02",
+        "description": "Not all the ratio are mentioned for different heights for different canvases in multi-variate charts.",
+        "options": {
+            "data-id": "data-FTV3-1031",
+            "schema-id": "schema-FTV3-1031",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "canvasHeightProportion": "4:3",
+                    "animation":0
+                },
+                "caption": {
+                    "text": "Web visits & downloads"
+                },
+                "subcaption": {
+                    "text": "since 2015"
+                },
+                "yAxis": [{
+                        "plot": [{
+                                "value": "Downloads",
+                                "type": "column"
+                            },
+                            {
+                                "value": "Web Visits",
+                                "type": "line"
+                            }
+                        ]
+                    },
+                    {
+                        "plot": [{
+                            "value": "Web Visits",
+                            "type": "area"
+                        }]
+                    },
+                    {
+                        "plot": [{
+                            "value": "Web Visits",
+                            "type": "stepline"
+                        }]
+                    },
+                    {
+                        "plot": [{
+                            "value": "Downloads",
+                            "type": "smooth-line"
+                        }]
+                    }
+                ]
+            }
+        }
+    },
+    "FTV3-1031_FT_TS01_TC03": {
+        "id": "FTV3-1031_FT_TS01_TC03",
+        "description": "negative value as one of the height ratio for different canvases in multi-variate charts.",
+        "options": {
+            "data-id": "data-FTV3-1031",
+            "schema-id": "schema-FTV3-1031",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "canvasHeightProportion": "4:-3:2:1",
+                    "animation":0
+                },
+                "caption": {
+                    "text": "Web visits & downloads"
+                },
+                "subcaption": {
+                    "text": "since 2015"
+                },
+                "yAxis": [{
+                        "plot": [{
+                                "value": "Downloads",
+                                "type": "column"
+                            },
+                            {
+                                "value": "Web Visits",
+                                "type": "line"
+                            }
+                        ]
+                    },
+                    {
+                        "plot": [{
+                            "value": "Web Visits",
+                            "type": "area"
+                        }]
+                    },
+                    {
+                        "plot": [{
+                            "value": "Web Visits",
+                            "type": "stepline"
+                        }]
+                    },
+                    {
+                        "plot": [{
+                            "value": "Downloads",
+                            "type": "smooth-line"
+                        }]
+                    }
+                ]
+            }
+        }
+    },
+    "FTV3-1031_FT_TS01_TC04": {
+        "id": "FTV3-1031_FT_TS01_TC04",
+        "description": "0 value as one of the height ratio for different canvases in multi-variate charts.",
+        "options": {
+            "data-id": "data-FTV3-1031",
+            "schema-id": "schema-FTV3-1031",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "canvasHeightProportion": "4:3:2:0",
+                    "animation":0
+                },
+                "caption": {
+                    "text": "Web visits & downloads"
+                },
+                "subcaption": {
+                    "text": "since 2015"
+                },
+                "yAxis": [{
+                        "plot": [{
+                                "value": "Downloads",
+                                "type": "column"
+                            },
+                            {
+                                "value": "Web Visits",
+                                "type": "line"
+                            }
+                        ]
+                    },
+                    {
+                        "plot": [{
+                            "value": "Web Visits",
+                            "type": "area"
+                        }]
+                    },
+                    {
+                        "plot": [{
+                            "value": "Web Visits",
+                            "type": "stepline"
+                        }]
+                    },
+                    {
+                        "plot": [{
+                            "value": "Downloads",
+                            "type": "smooth-line"
+                        }]
+                    }
+                ]
+            }
+        }
+    },
+    "FTV3-1031_FT_TS01_TC05": {
+        "id": "FTV3-1031_FT_TS01_TC05",
+        "description": "Total canvas-4, ratio for canvas height defined-5 for different canvases in multi-variate charts.",
+        "options": {
+            "data-id": "data-FTV3-1031",
+            "schema-id": "schema-FTV3-1031",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "canvasHeightProportion": "4:3:2:1:9",
+                    "animation":0
+                },
+                "caption": {
+                    "text": "Web visits & downloads"
+                },
+                "subcaption": {
+                    "text": "since 2015"
+                },
+                "yAxis": [{
+                        "plot": [{
+                                "value": "Downloads",
+                                "type": "column"
+                            },
+                            {
+                                "value": "Web Visits",
+                                "type": "line"
+                            }
+                        ]
+                    },
+                    {
+                        "plot": [{
+                            "value": "Web Visits",
+                            "type": "area"
+                        }]
+                    },
+                    {
+                        "plot": [{
+                            "value": "Web Visits",
+                            "type": "stepline"
+                        }]
+                    },
+                    {
+                        "plot": [{
+                            "value": "Downloads",
+                            "type": "smooth-line"
+                        }]
+                    }
+                ]
+            }
+        }
+    }
+}

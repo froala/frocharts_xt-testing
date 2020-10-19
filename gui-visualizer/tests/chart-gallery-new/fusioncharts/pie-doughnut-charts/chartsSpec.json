@@ -1,0 +1,665 @@
+{
+    "fusioncharts-pie-doughnut-charts-pie-chart-slicing-animation": {
+        "description": "2D Pie Chart with slicing and rotation",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Expenditures Incurred in Publishing a Book",
+                    "bgcolor": "FFFFFF",
+                    "showvalues": "1",
+                    "showpercentvalues": "1",
+                    "showborder": "0",
+                    "showplotborder": "0",
+                    "showlegend": "1",
+                    "legendborder": "0",
+                    "legendposition": "bottom",
+                    "enablesmartlabels": "1",
+                    "use3dlighting": "0",
+                    "showshadow": "0",
+                    "legendBgColor": "#CCCCCC",
+                    "legendBgAlpha": "20",
+                    "legendBorderAlpha": "0",
+                    "legendShadow": "0",
+                    "legendNumColumns": "3",
+                    "showBorder": "0",
+                    "palettecolors": "#f8bd19,#e44a00,#008ee4,#33bdda,#6baa01,#583e78",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Paper Cost",
+                        "value": "25"
+                    },
+                    {
+                        "label": "Binding",
+                        "value": "20"
+                    },
+                    {
+                        "label": "Printing Cost",
+                        "value": "20"
+                    },
+                    {
+                        "label": "Royality",
+                        "value": "15"
+                    },
+                    {
+                        "label": "Transportation Cost",
+                        "value": "10"
+                    },
+                    {
+                        "label": "Promotion Cost",
+                        "value": "10"
+                    }
+                ]
+            },
+            "width": "500",
+            "height": "350",
+            "type": "pie2d"
+        },
+        "id": "fusioncharts-pie-doughnut-charts-pie-chart-slicing-animation"
+    },
+    "fusioncharts-pie-doughnut-charts-pie-chart-one-slice-out": {
+        "description": "2D Pie Chart with one slice out",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Marketing Expenses for 2013",
+                    "numberprefix": "$",
+                    "plotgradientcolor": "",
+                    "bgcolor": "FFFFFF",
+                    "showalternatehgridcolor": "0",
+                    "showplotborder": "0",
+                    "divlinecolor": "CCCCCC",
+                    "showvalues": "1",
+                    "showcanvasborder": "0",
+                    "canvasbordercolor": "CCCCCC",
+                    "canvasborderthickness": "1",
+                    "yaxismaxvalue": "30000",
+                    "captionpadding": "30",
+                    "linethickness": "3",
+                    "sshowanchors": "0",
+                    "yaxisvaluespadding": "15",
+                    "showlegend": "1",
+                    "use3dlighting": "0",
+                    "showshadow": "0",
+                    "legendshadow": "0",
+                    "legendborderalpha": "0",
+                    "showBorder": "0",
+                    "palettecolors": "#EED17F,#97CBE7,#074868,#B0D67A,#2C560A,#DD9D82",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Online Ads",
+                        "value": "125000",
+                        "issliced": "1"
+                    },
+                    {
+                        "label": "Print Ads",
+                        "value": "110000"
+                    },
+                    {
+                        "label": "Content Marketing",
+                        "value": "95000"
+                    },
+                    {
+                        "label": "Tradeshows",
+                        "value": "60000"
+                    }
+                ]
+            },
+            "width": "450",
+            "height": "300",
+            "type": "pie2d"
+        },
+        "id": "fusioncharts-pie-doughnut-charts-pie-chart-one-slice-out"
+    },
+    "fusioncharts-pie-doughnut-charts-3d-pie-chart-with-theme": {
+        "description": "3D Pie Chart (With predefined theme)",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Age profile of website visitors",
+                    "subCaption": "Last Year",
+                    "startingAngle": "120",
+                    "showLabels": "0",
+                    "showLegend": "1",
+                    "enableMultiSlicing": "0",
+                    "slicingDistance": "15",
+                    "showPercentValues": "1",
+                    "showPercentInTooltip": "0",
+                    "plotTooltext": "Age group : $label<br>Total visit : $datavalue",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Teenage",
+                        "value": "1250400"
+                    },
+                    {
+                        "label": "Adult",
+                        "value": "1463300"
+                    },
+                    {
+                        "label": "Mid-age",
+                        "value": "1050700"
+                    },
+                    {
+                        "label": "Senior",
+                        "value": "491000"
+                    }
+                ]
+            },
+            "width": "450",
+            "height": "400",
+            "type": "pie3d"
+        },
+        "id": "fusioncharts-pie-doughnut-charts-3d-pie-chart-with-theme"
+    },
+    "fusioncharts-pie-doughnut-charts-3d-pie-chart-two-slices-out": {
+        "description": "3D Pie Chart with 2 slices out",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales Per Employee for 2014",
+                    "palette": "2",
+                    "animation": "0",
+                    "formatnumberscale": "1",
+                    "decimals": "0",
+                    "numberprefix": "$",
+                    "pieslicedepth": "30",
+                    "startingangle": "125",
+                    "showBorder": "0"
+                },
+                "data": [
+                    {
+                        "label": "Leverling",
+                        "value": "100524",
+                        "issliced": "1"
+                    },
+                    {
+                        "label": "Fuller",
+                        "value": "87790",
+                        "issliced": "1"
+                    },
+                    {
+                        "label": "Davolio",
+                        "value": "81898",
+                        "issliced": "0"
+                    },
+                    {
+                        "label": "Peacock",
+                        "value": "76438",
+                        "issliced": "0"
+                    },
+                    {
+                        "label": "King",
+                        "value": "57430",
+                        "issliced": "0"
+                    },
+                    {
+                        "label": "Callahan",
+                        "value": "55091",
+                        "issliced": "0"
+                    },
+                    {
+                        "label": "Dodsworth",
+                        "value": "43962",
+                        "issliced": "0"
+                    },
+                    {
+                        "label": "Suyama",
+                        "value": "22474",
+                        "issliced": "0"
+                    },
+                    {
+                        "label": "Buchanan",
+                        "value": "21637",
+                        "issliced": "0"
+                    }
+                ]
+            },
+            "width": "600",
+            "height": "400",
+            "type": "pie3d"
+        },
+        "id": "fusioncharts-pie-doughnut-charts-3d-pie-chart-two-slices-out"
+    },
+    "fusioncharts-pie-doughnut-charts-3d-pie-chart-smart-labels": {
+        "description": "3D Pie Chart with smart labels",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Alphabet Usage in a Novel",
+                    "formatnumberscale": "0",
+                    "showBorder": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "B",
+                        "value": "51852"
+                    },
+                    {
+                        "label": "C",
+                        "value": "88168"
+                    },
+                    {
+                        "label": "D",
+                        "value": "73897"
+                    },
+                    {
+                        "label": "E",
+                        "value": "93933"
+                    },
+                    {
+                        "label": "F",
+                        "value": "19289"
+                    },
+                    {
+                        "label": "G",
+                        "value": "79623"
+                    },
+                    {
+                        "label": "H",
+                        "value": "48262"
+                    },
+                    {
+                        "label": "I",
+                        "value": "29162"
+                    },
+                    {
+                        "label": "J",
+                        "value": "96878"
+                    },
+                    {
+                        "label": "K",
+                        "value": "81241"
+                    },
+                    {
+                        "label": "L",
+                        "value": "40652",
+                        "issliced": "1"
+                    },
+                    {
+                        "label": "M",
+                        "value": "37581",
+                        "issliced": "1"
+                    },
+                    {
+                        "label": "N",
+                        "value": "2882"
+                    },
+                    {
+                        "label": "O",
+                        "value": "746"
+                    },
+                    {
+                        "label": "P",
+                        "value": "7155"
+                    },
+                    {
+                        "label": "Q",
+                        "value": "12072"
+                    },
+                    {
+                        "label": "R",
+                        "value": "45608"
+                    },
+                    {
+                        "label": "S",
+                        "value": "72570"
+                    },
+                    {
+                        "label": "T",
+                        "value": "44799"
+                    },
+                    {
+                        "label": "U",
+                        "value": "71887"
+                    },
+                    {
+                        "label": "V",
+                        "value": "78170"
+                    }
+                ]
+            },
+            "width": "400",
+            "height": "300",
+            "type": "pie3d"
+        },
+        "id": "fusioncharts-pie-doughnut-charts-3d-pie-chart-smart-labels"
+    },
+    "fusioncharts-pie-doughnut-charts-2d-pie-chart": {
+        "description": "2D Pie Chart",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Distribution of traffic from Social Media",
+                    "subcaption": "For 2013",
+                    "showvalues": "1",
+                    "showpercentvalues": "1",
+                    "showPercentInToolTip": "0",
+                    "bgcolor": "#FFFFFF",
+                    "basefontcolor": "#400D1B",
+                    "showshadow": "0",
+                    "animation": "0",
+                    "showBorder": "0",
+                    "palettecolors": "#BE3243,#986667,#BE6F71,#CB999A,#DFC0B1,#E0D0D0"
+                },
+                "data": [
+                    {
+                        "label": "Twitter",
+                        "value": "78242"
+                    },
+                    {
+                        "label": "Facebook",
+                        "value": "75223"
+                    },
+                    {
+                        "label": "LinkedIn",
+                        "value": "30343"
+                    },
+                    {
+                        "label": "Pinterest",
+                        "value": "22343"
+                    },
+                    {
+                        "label": "Tumblr",
+                        "value": "13343"
+                    },
+                    {
+                        "label": "Others",
+                        "value": "11343"
+                    }
+                ]
+            },
+            "width": "500",
+            "height": "350",
+            "type": "pie2d"
+        },
+        "id": "fusioncharts-pie-doughnut-charts-2d-pie-chart"
+    },
+    "fusioncharts-pie-doughnut-charts-3d-pie-chart-custom-palette": {
+        "description": "3D Pie Chart (With custom color palette for data plots)",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Distribution of traffic from Social Media",
+                    "subcaption": "For 2013",
+                    "showvalues": "1",
+                    "showpercentvalues": "1",
+                    "showPercentInToolTip": "0",
+                    "bgcolor": "#FFFFFF",
+                    "basefontcolor": "#400D1B",
+                    "showshadow": "0",
+                    "animation": "0",
+                    "showBorder": "0",
+                    "palettecolors": "#BE3243,#986667,#BE6F71,#CB999A,#DFC0B1,#E0D0D0"
+                },
+                "data": [
+                    {
+                        "label": "Twitter",
+                        "value": "78242"
+                    },
+                    {
+                        "label": "Facebook",
+                        "value": "75223"
+                    },
+                    {
+                        "label": "LinkedIn",
+                        "value": "30343"
+                    },
+                    {
+                        "label": "Pinterest",
+                        "value": "22343"
+                    },
+                    {
+                        "label": "Tumblr",
+                        "value": "13343"
+                    },
+                    {
+                        "label": "Others",
+                        "value": "11343"
+                    }
+                ]
+            },
+            "width": "600",
+            "height": "350",
+            "type": "pie3d"
+        },
+        "id": "fusioncharts-pie-doughnut-charts-3d-pie-chart-custom-palette"
+    },
+    "fusioncharts-pie-doughnut-charts-pie-chart-with-bevel": {
+        "description": "2D Pie Chart with bevel",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Airline Delay Causes",
+                    "showpercentageinlabel": "1",
+                    "showvalues": "0",
+                    "showlabels": "0",
+                    "showlegend": "1",
+                    "showBorder": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "14.94",
+                        "label": "Weather",
+                        "color": "429EAD"
+                    },
+                    {
+                        "value": "19.17",
+                        "label": "Volume",
+                        "color": "4249AD"
+                    },
+                    {
+                        "value": "7.14",
+                        "label": "Closed Runway",
+                        "color": "AD42A2"
+                    },
+                    {
+                        "value": "7.75",
+                        "label": "Others",
+                        "color": "D4AC31"
+                    }
+                ]
+            },
+            "width": "400",
+            "height": "300",
+            "type": "pie2d"
+        },
+        "id": "fusioncharts-pie-doughnut-charts-pie-chart-with-bevel"
+    },
+    "fusioncharts-pie-doughnut-charts-2d-doughnut-chart": {
+        "description": "2D Doughnut Chart",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Split of Revenue by Product Categories",
+                    "subCaption": "Los Angeles Topanga - Last month",
+                    "numberPrefix": "$",
+                    "startingAngle": "310",
+                    "decimals": "0",
+                    "defaultCenterLabel": "Total revenue: $60K",
+                    "centerLabel": "Revenue from $label: $value",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Food",
+                        "value": "28504"
+                    },
+                    {
+                        "label": "Apparels",
+                        "value": "14633"
+                    },
+                    {
+                        "label": "Electronics",
+                        "value": "10507"
+                    },
+                    {
+                        "label": "Household",
+                        "value": "4910"
+                    }
+                ]
+            },
+            "width": "400",
+            "height": "300",
+            "type": "doughnut2d"
+        },
+        "id": "fusioncharts-pie-doughnut-charts-2d-doughnut-chart"
+    },
+    "fusioncharts-pie-doughnut-charts-doughnut-chart-smart-labels": {
+        "description": "2D Doughnut Chart with smart labels",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "formatnumberscale": "0",
+                    "showBorder": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "B",
+                        "value": "51852"
+                    },
+                    {
+                        "label": "C",
+                        "value": "88168"
+                    },
+                    {
+                        "label": "D",
+                        "value": "73897"
+                    },
+                    {
+                        "label": "E",
+                        "value": "93933"
+                    },
+                    {
+                        "label": "F",
+                        "value": "19289"
+                    },
+                    {
+                        "label": "G",
+                        "value": "79623"
+                    },
+                    {
+                        "label": "H",
+                        "value": "48262"
+                    },
+                    {
+                        "label": "I",
+                        "value": "29162"
+                    },
+                    {
+                        "label": "J",
+                        "value": "96878"
+                    },
+                    {
+                        "label": "K",
+                        "value": "81241"
+                    },
+                    {
+                        "label": "L",
+                        "value": "40652"
+                    },
+                    {
+                        "label": "M",
+                        "value": "37581"
+                    },
+                    {
+                        "label": "N",
+                        "value": "2882"
+                    },
+                    {
+                        "label": "Q",
+                        "value": "12072"
+                    },
+                    {
+                        "label": "R",
+                        "value": "45608"
+                    },
+                    {
+                        "label": "S",
+                        "value": "72570"
+                    },
+                    {
+                        "label": "T",
+                        "value": "44799"
+                    },
+                    {
+                        "label": "U",
+                        "value": "71887"
+                    },
+                    {
+                        "label": "V",
+                        "value": "78170"
+                    }
+                ]
+            },
+            "width": "400",
+            "height": "300",
+            "type": "doughnut2d"
+        },
+        "id": "fusioncharts-pie-doughnut-charts-doughnut-chart-smart-labels"
+    },
+    "fusioncharts-pie-doughnut-charts-doughnut-chart-custom-y-angle": {
+        "description": "3D Doughnut Chart with custom y-angle",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales by country",
+                    "bgcolor": "#FFFFFF",
+                    "pieyscale": "50",
+                    "smartlinecolor": "7D8892",
+                    "smartlinethickness": "2",
+                    "showpercentvalues": "1",
+                    "showpercentintooltip": "0",
+                    "palettecolors": "#91AF64,#B0BF92,#D0DFA3,#E0F0E0",
+                    "showlegend": "1",
+                    "legendshadow": "1",
+                    "legendborderalpha": "0",
+                    "showBorder": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "243",
+                        "label": "USA"
+                    },
+                    {
+                        "value": "207",
+                        "label": "UK"
+                    },
+                    {
+                        "value": "82",
+                        "label": "Canada"
+                    },
+                    {
+                        "value": "65",
+                        "label": "France"
+                    }
+                ]
+            },
+            "width": "400",
+            "height": "300",
+            "type": "doughnut3d"
+        },
+        "id": "fusioncharts-pie-doughnut-charts-doughnut-chart-custom-y-angle"
+    }
+}

@@ -1,0 +1,28 @@
+#!/usr/bin/env node
+
+var program = require('commander'),
+    japp = require('../index.js');
+
+program
+  .version('0.0.16')
+  .option('-s, --save', 'Build the images repository')
+  .option('-p, --savePath [path]', 'Path in which to save the images')
+  .option('-o, --overwriteRef', 'Over write the ref image in the spec')
+  .option('-g, --generateSpecs', 'Convert data files to specs')
+  .option('-d, --dataSourceFolder [path]', 'Convert data files to specs')
+  .option('-D, --debugMode', 'Enable additional logs for debugging')
+  .option('-g, --mergeSpecs', 'Convert data files to specs')
+  .option('-m, --maxThreads [number]', 'Number of threads used for executing the tests')
+  .option('-z, --specSource [path]', 'Path containing the json that has all the chart information')
+  .option('-r, --refImagesRoot [path]', 'Path containing the json that has all the chart information')
+  .option('-ss, --snapshotsPath [path]', 'Path in which to temporarily save the images to build the result htmls')
+  .option('-f, --jsSourceRoot [path]', 'Path containing the json that has all the chart information')
+  .option('-m, --mapsPathPrefix [path]', 'Path containing the json that has all the chart information')
+  .option('-c, --config [path]', 'A config file containing default value of the command line options', 'japp_config.json')
+  .option('-t, --threshold [number]', 'Allowed difference between two images being compared')
+  .option('-cc, --compare [path]', 'Source image')
+  .option('-tt, --to [path]', 'Target image')
+  .option('-v, --verbose', 'Enable verbose logging')
+  .parse(process.argv);
+
+japp.cli(program);

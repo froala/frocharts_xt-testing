@@ -1,0 +1,72 @@
+{
+    "SUPPORT-1881-area-tc1": {
+        "id": "SUPPORT-1881-area-tc1",
+        "description": "line border does not comes to base of plot when negative value is plotted for area plot type",
+        "options": {
+            "data-id": "data-SUPPORT-1881-area",
+            "schema-id": "schema-SUPPORT-1881-area",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "series": "Type",
+                "yAxis": [
+                    {
+
+                        "plot": "Pressure",
+                        "title": "Pressure (in atm)",
+                        "min": "980",
+                        "max": "1040",
+                        "plottype": "area"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "palettecolors": [ "5d62b5", "f2726f" ]
+                },
+                "caption": {
+                    "text": "Weather Report"
+                },
+                "subCaption": {
+                    "text": "Analysis of Atmospheric Pressure"
+                }
+            }
+        }
+    },
+    "SUPPORT-1881-smooth-area-tc1": {
+        "id": "SUPPORT-1881-smooth-area-tc1",
+        "description": "line border does not comes to base of plot when negative value is plotted for smooth area plot type",
+        "options": {
+            "data-id": "data-SUPPORT-1881-area",
+            "schema-id": "schema-SUPPORT-1881-area",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "series": "Type",
+                "yAxis": [
+                    {
+
+                        "plot": "Pressure",
+                        "title": "Pressure (in atm)",
+                        "min": "980",
+                        "max": "1040",
+                        "plottype": "smooth-area"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "palettecolors": [ "5d62b5", "f2726f" ]
+                },
+                "caption": {
+                    "text": "Weather Report"
+                },
+                "subCaption": {
+                    "text": "Analysis of Atmospheric Pressure"
+                }
+            }
+        }
+    }
+}

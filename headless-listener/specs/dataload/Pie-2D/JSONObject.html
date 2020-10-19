@@ -1,0 +1,49 @@
+<html>
+	<head>        
+		<title>FusionCharts XT - listen to DrawComplete event</title>       
+		<script type="text/javascript" src="../../../fusioncharts/fusioncharts.js">
+		</script>
+			
+	</head>   
+	<body>     
+		<div id="chartContainer">FusionCharts XT will load here!</div>          
+		<script type="text/javascript"><!--  
+			
+			
+			var featureTestPass1 = false;
+			//var featureTestPass2 = false;
+			//FusionCharts.addEventListener("Initialized", myChartListener1);
+			  var objJSON = {
+    "chart": {
+        "caption": "Company Revenue",
+        "showpercentagevalues": "1",
+        "animation": "0"
+    },
+    "data": [
+        {
+            "label": "Services",
+            "value": "26"
+        },
+        {
+            "label": "Hardware",
+            "value": "32"
+        },
+        {
+            "label": "Software",
+            "value": "42"
+        }
+    ]
+};
+			  
+			//Chart setup code
+			var myChart = new FusionCharts({type: 'Pie2D', width: '600', height: '400', debugMode: false, bgColor: 'ffff0f', renderAt: 'chartContainer', id: "myChartId", dataSource: objJSON, dataFormat: 'json', renderer: 'javascript'
+					});
+			
+			
+		    myChart.render();
+			
+			
+		// -->     
+		</script>      
+	</body> 
+	</html>

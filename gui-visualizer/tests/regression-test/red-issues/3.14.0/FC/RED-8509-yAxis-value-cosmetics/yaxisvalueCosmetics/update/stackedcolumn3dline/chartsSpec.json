@@ -1,0 +1,652 @@
+{
+    "test-1": {
+        "descriptions": "Update with all the yaxisValue attributes",
+        "id": "test-1",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "stackedcolumn3dline",
+            "dataSource": {
+                "chart": {
+                    "animation": 0
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "2001"
+                            },
+                            {
+                                "label": "2002"
+                            },
+                            {
+                                "label": "2003"
+                            },
+                            {
+                                "label": "2004"
+                            },
+                            {
+                                "label": "2005"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Product A",
+                        "data": [
+                            {
+                                "value": "25601"
+                            },
+                            {
+                                "value": "20148"
+                            },
+                            {
+                                "value": "17372"
+                            },
+                            {
+                                "value": "35407"
+                            },
+                            {
+                                "value": "38105"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Product B",
+                        "data": [
+                            {
+                                "value": "57401"
+                            },
+                            {
+                                "value": "41941"
+                            },
+                            {
+                                "value": "45263"
+                            },
+                            {
+                                "value": "117320"
+                            },
+                            {
+                                "value": "114845"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Quantity",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": "45000"
+                            },
+                            {
+                                "value": "44803"
+                            },
+                            {
+                                "value": "42830"
+                            },
+                            {
+                                "value": "77550"
+                            },
+                            {
+                                "value": "92630"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "yAxisValueFont": "times",
+                            "yAxisValueFontSize": "17",
+                            "yaxisValueFontColor": "#0000ff",
+                            "yaxisValueFontItalic": "1",
+                            "yaxisValueFontBold": "1",
+                            "yAxisValueBgColor": "#ff00ff",
+                            "yAxisValueBorderColor": "#00ff00",
+                            "yaxisvaluealpha": "30",
+                            "yaxisvalueBgalpha": "80",
+                            "yAxisValueBorderAlpha": "1",
+                            "yaxisValueBorderPadding": "10",
+                            "yAxisValueBorderRadius": "3",
+                            "yaxisvalueborderthickness": "3",
+                            "yaxisvalueborderdashed": "1",
+                            "yaxisvalueborderdashlen": "7",
+                            "yaxisvaluelink": "p-http://google.com",
+                            "_clickurl": "p-http://yahoo.com",
+                            "animation": 0
+                        },
+                        "categories": [
+                            {
+                                "category": [
+                                    {
+                                        "label": "2001"
+                                    },
+                                    {
+                                        "label": "2002"
+                                    },
+                                    {
+                                        "label": "2003"
+                                    },
+                                    {
+                                        "label": "2004"
+                                    },
+                                    {
+                                        "label": "2005"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dataset": [
+                            {
+                                "seriesname": "Product A",
+                                "data": [
+                                    {
+                                        "value": "25601"
+                                    },
+                                    {
+                                        "value": "20148"
+                                    },
+                                    {
+                                        "value": "17372"
+                                    },
+                                    {
+                                        "value": "35407"
+                                    },
+                                    {
+                                        "value": "38105"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Product B",
+                                "data": [
+                                    {
+                                        "value": "57401"
+                                    },
+                                    {
+                                        "value": "41941"
+                                    },
+                                    {
+                                        "value": "45263"
+                                    },
+                                    {
+                                        "value": "117320"
+                                    },
+                                    {
+                                        "value": "114845"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Quantity",
+                                "renderas": "line",
+                                "data": [
+                                    {
+                                        "value": "45000"
+                                    },
+                                    {
+                                        "value": "44803"
+                                    },
+                                    {
+                                        "value": "42830"
+                                    },
+                                    {
+                                        "value": "77550"
+                                    },
+                                    {
+                                        "value": "92630"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "test-2": {
+        "descriptions": "Update the yaxisValue boolean attributes 1 to 0 and also changing the other attributes value",
+        "id": "test-2",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "stackedcolumn3dline",
+            "dataSource": {
+                "chart": {
+                    "yAxisValueFont": "times",
+                    "yAxisValueFontSize": "17",
+                    "yaxisValueFontColor": "#0000ff",
+                    "yaxisValueFontItalic": "1",
+                    "yaxisValueFontBold": "1",
+                    "yAxisValueBgColor": "#ff00ff",
+                    "yAxisValueBorderColor": "#00ff00",
+                    "yaxisvaluealpha": "30",
+                    "yaxisvalueBgalpha": "80",
+                    "yAxisValueBorderAlpha": "1",
+                    "yaxisValueBorderPadding": "10",
+                    "yAxisValueBorderRadius": "3",
+                    "yaxisvalueborderthickness": "3",
+                    "yaxisvalueborderdashed": "1",
+                    "yaxisvalueborderdashlen": "7",
+                    "yaxisvaluelink": "p-http://google.com",
+                    "_clickurl": "p-http://yahoo.com",
+                    "animation": 0
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "2001"
+                            },
+                            {
+                                "label": "2002"
+                            },
+                            {
+                                "label": "2003"
+                            },
+                            {
+                                "label": "2004"
+                            },
+                            {
+                                "label": "2005"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Product A",
+                        "data": [
+                            {
+                                "value": "25601"
+                            },
+                            {
+                                "value": "20148"
+                            },
+                            {
+                                "value": "17372"
+                            },
+                            {
+                                "value": "35407"
+                            },
+                            {
+                                "value": "38105"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Product B",
+                        "data": [
+                            {
+                                "value": "57401"
+                            },
+                            {
+                                "value": "41941"
+                            },
+                            {
+                                "value": "45263"
+                            },
+                            {
+                                "value": "117320"
+                            },
+                            {
+                                "value": "114845"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Quantity",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": "45000"
+                            },
+                            {
+                                "value": "44803"
+                            },
+                            {
+                                "value": "42830"
+                            },
+                            {
+                                "value": "77550"
+                            },
+                            {
+                                "value": "92630"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "yAxisValueFont": "sans-seriff",
+                            "yAxisValueFontSize": "13",
+                            "yaxisValueFontColor": "#ff00ff",
+                            "yaxisValueFontItalic": "0",
+                            "yaxisValueFontBold": "0",
+                            "yAxisValueBgColor": "#00ff00",
+                            "yAxisValueBorderColor": "#ffff00",
+                            "yaxisvaluealpha": "80",
+                            "yaxisvalueBgalpha": "10",
+                            "yAxisValueBorderAlpha": "100",
+                            "yaxisValueBorderPadding": "4",
+                            "yAxisValueBorderRadius": "1",
+                            "yaxisvalueborderthickness": "31",
+                            "yaxisvalueborderdashed": "10",
+                            "yaxisvalueborderdashlen": "7",
+                            "_yaxisvaluelink": "p-http://google.com",
+                            "_clickurl": "p-http://yahoo.com",
+                            "animation": 0
+                        },
+                        "categories": [
+                            {
+                                "category": [
+                                    {
+                                        "label": "2001"
+                                    },
+                                    {
+                                        "label": "2002"
+                                    },
+                                    {
+                                        "label": "2003"
+                                    },
+                                    {
+                                        "label": "2004"
+                                    },
+                                    {
+                                        "label": "2005"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dataset": [
+                            {
+                                "seriesname": "Product A",
+                                "data": [
+                                    {
+                                        "value": "25601"
+                                    },
+                                    {
+                                        "value": "20148"
+                                    },
+                                    {
+                                        "value": "17372"
+                                    },
+                                    {
+                                        "value": "35407"
+                                    },
+                                    {
+                                        "value": "38105"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Product B",
+                                "data": [
+                                    {
+                                        "value": "57401"
+                                    },
+                                    {
+                                        "value": "41941"
+                                    },
+                                    {
+                                        "value": "45263"
+                                    },
+                                    {
+                                        "value": "117320"
+                                    },
+                                    {
+                                        "value": "114845"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Quantity",
+                                "renderas": "line",
+                                "data": [
+                                    {
+                                        "value": "45000"
+                                    },
+                                    {
+                                        "value": "44803"
+                                    },
+                                    {
+                                        "value": "42830"
+                                    },
+                                    {
+                                        "value": "77550"
+                                    },
+                                    {
+                                        "value": "92630"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "test-3": {
+        "descriptions": "Remove all yaxisvalue cosmetics through update",
+        "id": "test-3",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "stackedcolumn3dline",
+            "dataSource": {
+                "chart": {
+                    "yAxisValueFont": "times",
+                    "yAxisValueFontSize": "17",
+                    "yaxisValueFontColor": "#0000ff",
+                    "yaxisValueFontItalic": "1",
+                    "yaxisValueFontBold": "1",
+                    "yAxisValueBgColor": "#ff00ff",
+                    "yAxisValueBorderColor": "#00ff00",
+                    "yaxisvaluealpha": "30",
+                    "yaxisvalueBgalpha": "80",
+                    "yAxisValueBorderAlpha": "1",
+                    "yaxisValueBorderPadding": "10",
+                    "yAxisValueBorderRadius": "3",
+                    "yaxisvalueborderthickness": "3",
+                    "yaxisvalueborderdashed": "1",
+                    "yaxisvalueborderdashlen": "7",
+                    "yaxisvaluelink": "p-http://google.com",
+                    "_clickurl": "p-http://yahoo.com",
+                    "animation": 0
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "2001"
+                            },
+                            {
+                                "label": "2002"
+                            },
+                            {
+                                "label": "2003"
+                            },
+                            {
+                                "label": "2004"
+                            },
+                            {
+                                "label": "2005"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Product A",
+                        "data": [
+                            {
+                                "value": "25601"
+                            },
+                            {
+                                "value": "20148"
+                            },
+                            {
+                                "value": "17372"
+                            },
+                            {
+                                "value": "35407"
+                            },
+                            {
+                                "value": "38105"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Product B",
+                        "data": [
+                            {
+                                "value": "57401"
+                            },
+                            {
+                                "value": "41941"
+                            },
+                            {
+                                "value": "45263"
+                            },
+                            {
+                                "value": "117320"
+                            },
+                            {
+                                "value": "114845"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Quantity",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": "45000"
+                            },
+                            {
+                                "value": "44803"
+                            },
+                            {
+                                "value": "42830"
+                            },
+                            {
+                                "value": "77550"
+                            },
+                            {
+                                "value": "92630"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "animation": 0
+                        },
+                        "categories": [
+                            {
+                                "category": [
+                                    {
+                                        "label": "2001"
+                                    },
+                                    {
+                                        "label": "2002"
+                                    },
+                                    {
+                                        "label": "2003"
+                                    },
+                                    {
+                                        "label": "2004"
+                                    },
+                                    {
+                                        "label": "2005"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dataset": [
+                            {
+                                "seriesname": "Product A",
+                                "data": [
+                                    {
+                                        "value": "25601"
+                                    },
+                                    {
+                                        "value": "20148"
+                                    },
+                                    {
+                                        "value": "17372"
+                                    },
+                                    {
+                                        "value": "35407"
+                                    },
+                                    {
+                                        "value": "38105"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Product B",
+                                "data": [
+                                    {
+                                        "value": "57401"
+                                    },
+                                    {
+                                        "value": "41941"
+                                    },
+                                    {
+                                        "value": "45263"
+                                    },
+                                    {
+                                        "value": "117320"
+                                    },
+                                    {
+                                        "value": "114845"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Quantity",
+                                "renderas": "line",
+                                "data": [
+                                    {
+                                        "value": "45000"
+                                    },
+                                    {
+                                        "value": "44803"
+                                    },
+                                    {
+                                        "value": "42830"
+                                    },
+                                    {
+                                        "value": "77550"
+                                    },
+                                    {
+                                        "value": "92630"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

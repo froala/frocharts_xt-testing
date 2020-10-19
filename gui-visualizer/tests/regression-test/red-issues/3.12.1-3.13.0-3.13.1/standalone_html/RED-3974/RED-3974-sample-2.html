@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />	
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>MIS Dashboard</title>
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+        <meta name="viewport" content="width=device-width" />
+        <link href="paper_dashboard.css" rel="stylesheet">
+        <link href="fa_v4.7/css/font-awesome.min.css" rel="stylesheet">
+        <link href="bootstrap_4/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="dashboard.css" rel="stylesheet">
+
+    </head>
+   
+    <body ng-app="testApp" ng-controller="testController" id="testController" >
+
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" style='padding:0px 8px;'>
+            <a href="javascript:void(0);" class="navbar-brand clsCardPointer">Test Dashboard</a>            
+        </nav>
+
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark" style='padding:0px 8px;visibility:hidden;'>
+            <a href="/home/" class="navbar-brand">Test Dashboard</a>
+            
+        </nav>
+
+        <div class='row content'>&nbsp;</div>
+
+     
+        <div id='divMainContent'>
+                <a href="https://fusioncharts.jira.com/browse/RED-3974">RED-3974</a>
+                <div><b>ToolTip element stays in it's place when div and chart is scrolled.Can be replicated well in touch devices. (Sample-1)</b></div>
+            <div class="content" ng-app="testApp" ng-controller="testController2" id="testController2" >
+    <input  type='hidden' id='strMgmtContrl' value='1' />
+    <div class="container-fluid">
+
+        <!-- Top Panel -->
+        <div class="row">
+
+            <!-- New Package -->
+            <div class="col-lg-2 col-6">
+                <div class="card clsCardPointer">
+                    <div class="content" ng-init="data_te9">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-4 col-4">
+                                <!--
+                                <div class="icon-big text-center clsTE9Color">
+                                    <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                                </div>
+                                -->
+                                <div id='divTE9SparkLine' class='clsSparkLinkMinHeight'>&nbsp;</div>
+                            </div>
+                            <div class="col-lg-8 col-sm-8 col-8">
+                                <div class="numbers"  >
+                                    <p class="clsTileTitle">Name 1</p>
+                                    <p class="clsTileData" >{{data_te9['new_count']}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer" style='display: '>
+                            <hr />
+                            <div class="numbers">
+                                    <p class="clsTileGraphText" style="float:left;">Target : {{data_te9['target_count']}}</p>
+                                    <p class="clsTileGraphText">({{data_te9['percentage']}}%)</p>
+                                </div>
+                            <div class="progress" style="height: 6px;" >
+                                    <div class="progress-bar clsTE9BgColor" role="progressbar" style="width:{{data_te9['percentage']}}%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TSS -->
+            <div class="col-lg-2 col-6">
+                <div class="card clsCardPointer">
+                    <div class="content" ng-init="data_tss">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-4 col-4">
+                                <!--<div class="icon-big text-center clsTSSColor">
+                                    <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                                </div>-->
+                                <div id='divTSSSparkLine' class='clsSparkLinkMinHeight'>&nbsp;</div>
+                            </div>
+                            <div class="col-lg-8 col-sm-8 col-8">
+                                <div class="numbers">
+                                    <p class="clsTileTitle">Name 2</p>
+                                    <p class="clsTileData">{{data_tss['new_count']}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer" style='display: '>
+                            <hr />
+                            <div class="numbers">
+                                <p class="clsTileGraphText" style="float:left;">Target : {{data_tss['target_count']}}</p>
+                                <p class="clsTileGraphText">({{data_tss['percentage']}}%)</p>                                            
+                            </div>
+                            <div class="progress" style="height: 6px;" >
+                                    <div class="progress-bar clsTSSBgColor" role="progressbar" style="width: {{data_tss['percentage']}}%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+
+            <!-- TS9 -->
+            <div class="col-lg-2 col-6">
+                <div class="card clsCardPointer">
+                    <div class="content" ng-init="data_ts9">
+                        <div class="row">
+                            <div class="col-lg-5 col-sm-5 col-5">
+                                <!--<div class="icon-big text-center clsTS9Color">
+                                    <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                                </div>-->
+                                <div id='divTS9SparkLine' class='clsSparkLinkMinHeight'>&nbsp;</div>
+                            </div>
+                            <div class="col-lg-7 col-sm-7 col-7">
+                                <div class="numbers">
+                                    <p class="clsTileTitle">Name 3</p>
+                                    <p class="clsTileData">{{data_ts9['new_count']}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer" style='display: '>
+                            <hr />
+                            <div class="numbers">
+                                <p class="clsTileGraphText" style="float:left;">Target : {{data_ts9['target_count']}}</p>
+                                <p class="clsTileGraphText">({{data_ts9['percentage']}}%)</p>                                            
+                            </div>
+                            <div class="progress" style="height: 6px;" >
+                                    <div class="progress-bar clsTS9BgColor" role="progressbar" style="width: {{data_ts9['percentage']}}%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Upgrades -->
+            <div class="col-lg-2 col-6">
+                <div class="card clsCardPointer">
+                    <div class="content" ng-init="data_upgrade">
+                        <div class="row">
+                            <div class="col-lg-5 col-sm-5 col-5">
+                                <!--<div class="icon-big text-center clsUpgradeColor">
+                                    <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                                </div>-->
+                                <div id='divUpgradeSparkLine' class='clsSparkLinkMinHeight'>&nbsp;</div>
+                            </div>
+                            <div class="col-lg-7 col-sm-7 col-7">
+                                <div class="numbers">
+                                    <p class="clsTileTitle">Name 4</p>
+                                    <p class="clsTileData">{{data_upgrade['new_count']}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer" style='display: '>
+                            <hr />
+                            <div class="numbers">
+                                <p class="clsTileGraphText" style="float:left;">Target : {{data_upgrade['target_count']}}</p>
+                                <p class="clsTileGraphText">({{data_upgrade['percentage']}}%)</p>                                            
+                            </div>
+                            <div class="progress" style="height: 6px;" >
+                                    <div class="progress-bar clsUpgradeBgColor" role="progressbar" style="width: {{data_upgrade['percentage']}}%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Activation Value -->
+            <div class="col-lg-2 col-6">
+                <div class="card clsCardPointer" >
+                    <div class="content" ng-init="data_actv_rev">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-4 col-4">
+                                <!--<div class="icon-big text-center clsActValColor">
+                                    <i class="fa fa-inr" aria-hidden="true"></i>
+                                </div>-->
+                                <div id='divActvnValueSparkLine' class='clsSparkLinkMinHeight'>&nbsp;</div>
+                            </div>
+                            <div class="col-lg-8 col-sm-8 col-8">
+                                <div class="numbers">
+                                    <p class="clsTileTitle">Name 5</p>
+                                    <p class="clsTileData">{{data_actv_rev['new_count']}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer" style='display: '>
+                            <hr />
+                            <div class="numbers">
+                                <p class="clsTileGraphText" style="float:left;">Target : {{data_actv_rev['target_count']}}</p>
+                                <p class="clsTileGraphText">({{data_actv_rev['percentage']}}%)</p>                                            
+                            </div>
+                            <div class="progress" style="height: 6px;" >
+                                    <div class="progress-bar clsActValBgColor" role="progressbar" style="width: {{data_actv_rev['percentage']}}%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Total Revenue -->
+            <div class="col-lg-2 col-6">
+                <div class="card clsCardPointer">
+                    <div class="content" ng-init="data_actv_rev" >
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-4 col-4">
+                                <!--<div class="icon-big text-center clsRevenueColor">
+                                    <i class="fa fa-inr" aria-hidden="true"></i>
+                                </div>-->
+                                <div id='divRevenueSparkLine' class='clsSparkLinkMinHeight'>&nbsp;</div>
+                            </div>
+                            <div class="col-lg-8 col-sm-8 col-8">
+                                <div class="numbers">
+                                    <p class="clsTileTitle">Name 6</p>
+                                    <p class="clsTileData">{{data_revenue['new_count']}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer" style='display: '>
+                            <hr />
+                            <div class="numbers">
+                                <p class="clsTileGraphText" style="float:left;">Target : {{data_revenue['target_count']}}</p>
+                                <p class="clsTileGraphText">({{data_revenue['percentage']}}%)</p>                                            
+                            </div>
+                            <div class="progress" style="height: 6px;" >
+                                    <div class="progress-bar clsRevenueBgColor" role="progressbar" style="width: {{data_revenue['percentage']}}%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Top Panel Ends-->
+        <div class="row">
+            <div class="col-lg-6 col-sm-12 col-12">
+                
+                    <div class="col-lg-12 col-sm-12 col-12" style="padding:0px;">
+                        <div class="card"  >
+                            <div class="header">
+                                <div>
+                                    <h4 class="title pull-left">XYZ Data</h4>
+                                    <span class="pull-right" style="padding:5px;" ng-init="day_wise_revenue">
+                                        <i class="fa fa-table clsCardPointer" aria-hidden="true" 
+                                        onclick="onChange7DaysView(1);" data-toggle="tooltip" title="View in Table" ></i>
+                                        &nbsp;&nbsp;
+                                        <i class="fa fa-line-chart clsCardPointer" aria-hidden="true" 
+                                        onclick="onChange7DaysView(2);" data-toggle="tooltip" title="View in Graph" ></i>
+                                    </span>
+                                </div>
+                                <div style='clear:both;'>
+                                    <p class="category pull-left">The on-going trend (<span id='strLast7Text'></span>)</p>                        
+                                </div>                                                            
+                            </div>
+                            <div class="content">
+                                
+                                <div class="footer">
+                                    <hr>
+                                    <div class="stats">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+            </div>
+
+            <div class="col-lg-6 col-sm-12 col-12">
+                <div class="card" >
+                    <div class="header">
+                        <div>
+                            <h4 class="title pull-left">Data - Zone Wise</h4>
+                            <span class="pull-right" style="padding:5px;" ng-init="day_wise_revenue">
+                                <i class="fa fa-bar-chart clsCardPointer" aria-hidden="true" 
+                                onclick="onChangeChartType('mscolumn2d');" data-toggle="tooltip" title="View in Column Graph" ></i>
+                                &nbsp;&nbsp;
+                                <i class="fa fa-line-chart clsCardPointer" aria-hidden="true" 
+                                onclick="onChangeChartType('msline');" data-toggle="tooltip" title="View in Line Graph" ></i>
+                            </span>
+                        </div>
+                        <div style='clear:both;'>
+                            <p class="category pull-left">test data</p>                        
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div id="divZoneWiseEarningChart" style="height: 320px; margin: 0 auto"></div>
+                        <div class="footer">
+                            <hr>
+                            <div class="stats">
+                                <!-- <i class="fa fa-refresh" aria-hidden="true"></i>Updated 3 minutes ago  
+                                <button class='btn btn-info clsBtn pull-right' onclick="vGoToActivationDrillDown();">More..</button> -->                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div><!-- close container-fluid-->  
+</div><!-- close content-->
+
+        </div>
+
+        <script src="jquery-3.2.1.slim.min.js"></script>
+        <script src="popper.min.js"></script>
+        <script src="bootstrap_4/dist/js/bootstrap.min.js"></script>
+        <script src="bootstrap_4/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="../fusioncharts/fusioncharts.js"></script>
+        <script src="../fusioncharts/fusioncharts.charts.js"></script>
+        <script src="../fusioncharts/fusioncharts.maps.js"></script>
+        <script src="../fusioncharts/themes/fusioncharts.theme.fint.js"></script>
+        <script src="angular.1.6.4.min.js"></script>
+        <script src="angular-route.min.js"></script>
+        <script src="main_test.js"></script>
+        <script src="testContrl.js"></script>
+        <script src="testContrl_2.js"></script>
+    </body>
+</html>

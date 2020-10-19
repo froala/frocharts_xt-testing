@@ -1,0 +1,2288 @@
+{
+    "functional-attributes-1": {
+        "description": "clickURL-palette-annRenderDelay--5-showPrintMenuItem-manageResize-1-showPrintMenuItem-1",
+        "options": {
+            "type": "hled",
+            "width": "250",
+            "height": "120",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED  fsfff {br}af afasdfsdf sdfsf sf <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample HLED gauge <sample> &lt; &gt;to show the attributes functionality working",
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "numbersuffix": "dB",
+                    "clickurl": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com",
+                    "palette": "4",
+                    "palettethemecolor": "#ff0000,#00ff00",
+                    "annrenderdelay": "",
+                    "showvalue": "1",
+                    "showshadow": "1",
+                    "showprintmenuitem": "1",
+                    "refreshinstantly": "1",
+                    "useellipseswhenoverflow": "1",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "FF0000"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00"
+                        }
+                    ]
+                },
+                "value": "120"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/functional-attributes-1-snapshot.png",
+        "id": "functional-attributes-1"
+    },
+    "functional-attributes-2": {
+        "description": "paletteThemeColor-hasRTLText",
+        "options": {
+            "type": "hled",
+            "width": "300",
+            "height": "120",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "lowerlimitdisplay": "السلام {br} عليكم",
+                    "upperlimitdisplay": "عليكم {br} السلام",
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "numbersuffix": "dB",
+                    "clickurl": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com",
+                    "palettethemecolor": "#00ff00",
+                    "annrenderdelay": "5",
+                    "showvalue": "1",
+                    "showshadow": "1",
+                    "manageresize": "1",
+                    "showprintmenuitem": "1",
+                    "refreshinstantly": "1",
+                    "useellipseswhenoverflow": "1",
+                    "hasrtltext": "1",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "FF0000"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00"
+                        }
+                    ]
+                },
+                "value": "120"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/functional-attributes-2-snapshot.png",
+        "id": "functional-attributes-2"
+    },
+    "axis-&-tick-mark-properties-1": {
+        "description": "upperLimit-lowerLimit-upperLimitDisplay-lowerLimitDisplay-showTickMarks-showTickValues-showLimits-ticksBelowGauge-tickValueStep",
+        "options": {
+            "type": "hled",
+            "width": "300",
+            "height": "120",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "showtickmarks": "1",
+                    "showtickvalues": "1",
+                    "showlimits": "1",
+                    "ticksbelowgauge": "1",
+                    "tickvaluestep": "2",
+                    "numbersuffix": "dB",
+                    "showvalue": "1",
+                    "hasrtltext": "1",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "FF0000"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00"
+                        }
+                    ]
+                },
+                "value": "120"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/axis-&-tick-mark-properties-1-snapshot.png",
+        "id": "axis-&-tick-mark-properties-1"
+    },
+    "axis-&-tick-mark-properties-2": {
+        "description": "showTickMarks-0-showTickValues-0-showLimits-0-ticksbelowgauge-0",
+        "options": {
+            "type": "hled",
+            "width": "300",
+            "height": "120",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "showtickmarks": "0",
+                    "showtickvalues": "0",
+                    "showlimits": "0",
+                    "ticksbelowgauge": "0",
+                    "numbersuffix": "dB",
+                    "showvalue": "1",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "FF0000"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00"
+                        }
+                    ]
+                },
+                "value": "120"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/axis-&-tick-mark-properties-2-snapshot.png",
+        "id": "axis-&-tick-mark-properties-2"
+    },
+    "axis-&-tick-mark-properties-3": {
+        "description": "majorTM-minorTM-tickMarkDistance-tickValueDistance-10-tickMarkDistance-forceTickValueDecimals-1-tickValueStep-1",
+        "options": {
+            "type": "hled",
+            "width": "300",
+            "height": "130",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "showtickmarks": "1",
+                    "showtickvalues": "1",
+                    "showlimits": "1",
+                    "ticksbelowgauge": "1",
+                    "majortmnumber": "5",
+                    "majortmcolor": "#ff0000",
+                    "majortmalpha": "40",
+                    "majortmheight": "20",
+                    "majortmthickness": "3",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#0000ff",
+                    "minortmalpha": "20",
+                    "minortmheight": "10",
+                    "minortmthickness": "2",
+                    "tickmarkdistance": "10",
+                    "tickvaluedistance": "10",
+                    "tickvaluestep": "1",
+                    "tickvaluedecimals": "1",
+                    "forcetickvaluedecimals": "1",
+                    "numbersuffix": "dB",
+                    "showvalue": "1",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "FF0000"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00"
+                        }
+                    ]
+                },
+                "value": "120"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/axis-&-tick-mark-properties-3-snapshot.png",
+        "id": "axis-&-tick-mark-properties-3"
+    },
+    "axis-&-tick-mark-properties-4": {
+        "description": "majorTM-minorTM-tickMarkDistance-tickValueDistance-40-tickMarkDistance-40-forceTickValueDecimals-1-tickValueStep-1",
+        "options": {
+            "type": "hled",
+            "width": "300",
+            "height": "130",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "showtickmarks": "1",
+                    "showtickvalues": "1",
+                    "showlimits": "1",
+                    "ticksbelowgauge": "1",
+                    "majortmnumber": "5",
+                    "majortmcolor": "#ff0000",
+                    "majortmalpha": "40",
+                    "majortmheight": "20",
+                    "majortmthickness": "3",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#0000ff",
+                    "minortmalpha": "20",
+                    "minortmheight": "10",
+                    "minortmthickness": "2",
+                    "tickmarkdistance": "40",
+                    "tickvaluedistance": "40",
+                    "tickvaluestep": "1",
+                    "tickvaluedecimals": "1",
+                    "forcetickvaluedecimals": "1",
+                    "numbersuffix": "dB",
+                    "showvalue": "1",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "FF0000"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00"
+                        }
+                    ]
+                },
+                "value": "120"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/axis-&-tick-mark-properties-4-snapshot.png",
+        "id": "axis-&-tick-mark-properties-4"
+    },
+    "chart-caption-cosmetics-1": {
+        "description": "captionAlignment-captionOnTop-0-caption-cosmetics-subcaption-cosmetics-alignCaptionWithCanvas-1-captionHorizontalPadding-20",
+        "options": {
+            "type": "hled",
+            "width": "300",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "showtickmarks": "1",
+                    "showtickvalues": "1",
+                    "showlimits": "1",
+                    "ticksbelowgauge": "1",
+                    "majortmnumber": "5",
+                    "majortmcolor": "#ff0000",
+                    "majortmalpha": "40",
+                    "majortmheight": "20",
+                    "majortmthickness": "3",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#0000ff",
+                    "minortmalpha": "20",
+                    "minortmheight": "10",
+                    "minortmthickness": "2",
+                    "tickmarkdistance": "10",
+                    "tickvaluedistance": "10",
+                    "tickvaluestep": "1",
+                    "tickvaluedecimals": "1",
+                    "forcetickvaluedecimals": "1",
+                    "captionAlignment": "left",
+                    "captionOnTop": "0",
+                    "captionFontSize": "22",
+                    "subCaptionFontSize": "20",
+                    "captionFont": "arial",
+                    "subCaptionFont": "sans-seriff",
+                    "captionFontColor": "#0000ff",
+                    "subCaptionFontColor": "#330000",
+                    "captionFontBold": "1",
+                    "subCaptionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "20",
+                    "numbersuffix": "dB",
+                    "showvalue": "1",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "FF0000"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00"
+                        }
+                    ]
+                },
+                "value": "120"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/chart-caption-cosmetics-1-snapshot.png",
+        "id": "chart-caption-cosmetics-1"
+    },
+    "chart-caption-cosmetics-2": {
+        "description": "captionAlignment-right-captionOnTop-1-caption-cosmetics-subcaption-cosmetics-alignCaptionWithCanvas-0-captionHorizontalPadding-60",
+        "options": {
+            "type": "hled",
+            "width": "300",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "showtickmarks": "1",
+                    "showtickvalues": "1",
+                    "showlimits": "1",
+                    "ticksbelowgauge": "1",
+                    "majortmnumber": "5",
+                    "majortmcolor": "#ff0000",
+                    "majortmalpha": "40",
+                    "majortmheight": "20",
+                    "majortmthickness": "3",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#0000ff",
+                    "minortmalpha": "20",
+                    "minortmheight": "10",
+                    "minortmthickness": "2",
+                    "tickmarkdistance": "10",
+                    "tickvaluedistance": "10",
+                    "tickvaluestep": "1",
+                    "tickvaluedecimals": "1",
+                    "forcetickvaluedecimals": "1",
+                    "captionalignment": "right",
+                    "captionontop": "1",
+                    "captionfontsize": "22",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "60",
+                    "numbersuffix": "dB",
+                    "showvalue": "1",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "FF0000"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00"
+                        }
+                    ]
+                },
+                "value": "120"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/chart-caption-cosmetics-2-snapshot.png",
+        "id": "chart-caption-cosmetics-2"
+    },
+    "gauge-scale-(color-range)-properties-1": {
+        "description": "gaugeFillColor-showGaugeBorder-gaugeBorder-cosmetics",
+        "options": {
+            "type": "hled",
+            "width": "300",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "showtickmarks": "1",
+                    "showtickvalues": "1",
+                    "showlimits": "1",
+                    "ticksbelowgauge": "1",
+                    "majortmnumber": "5",
+                    "majortmcolor": "#ff0000",
+                    "majortmalpha": "40",
+                    "majortmheight": "20",
+                    "majortmthickness": "3",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#0000ff",
+                    "minortmalpha": "20",
+                    "minortmheight": "10",
+                    "minortmthickness": "2",
+                    "tickmarkdistance": "10",
+                    "tickvaluedistance": "10",
+                    "tickvaluestep": "1",
+                    "tickvaluedecimals": "1",
+                    "forcetickvaluedecimals": "1",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "22",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "1",
+                    "numbersuffix": "dB",
+                    "showvalue": "1",
+                    "gaugefillcolor": "#ffffff",
+                    "showgaugeborder": "1",
+                    "gaugebordercolor": "#0000ff",
+                    "gaugeborderthickness": "5",
+                    "gaugeborderalpha": "30",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "FF0000"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00"
+                        }
+                    ]
+                },
+                "value": "120"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/gauge-scale-(color-range)-properties-1-snapshot.png",
+        "id": "gauge-scale-(color-range)-properties-1"
+    },
+    "led-properties-1": {
+        "description": "ledSize-ledGap-useSameFillColor-1-useSameFillBgColor-1",
+        "options": {
+            "type": "hled",
+            "width": "300",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "showtickmarks": "1",
+                    "showtickvalues": "1",
+                    "showlimits": "1",
+                    "ticksbelowgauge": "1",
+                    "majortmnumber": "5",
+                    "majortmcolor": "#ff0000",
+                    "majortmalpha": "40",
+                    "majortmheight": "20",
+                    "majortmthickness": "3",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#0000ff",
+                    "minortmalpha": "20",
+                    "minortmheight": "10",
+                    "minortmthickness": "2",
+                    "tickmarkdistance": "10",
+                    "tickvaluedistance": "10",
+                    "tickvaluestep": "1",
+                    "tickvaluedecimals": "1",
+                    "forcetickvaluedecimals": "1",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "22",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "1",
+                    "numbersuffix": "dB",
+                    "showvalue": "1",
+                    "showgaugeborder": "1",
+                    "gaugebordercolor": "#0000ff",
+                    "gaugeborderthickness": "5",
+                    "gaugeborderalpha": "30",
+                    "ledsize": "4",
+                    "ledgap": "2",
+                    "usesamefillcolor": "1",
+                    "usesamefillbgcolor": "1",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "FF0000"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00"
+                        }
+                    ]
+                },
+                "value": "120"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/led-properties-1-snapshot.png",
+        "id": "led-properties-1"
+    },
+    "led-properties-2": {
+        "description": "ledSize-0-ledGap-0-useSameFillColor-0-useSameFillBgColor-0",
+        "options": {
+            "type": "hled",
+            "width": "300",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "showtickmarks": "1",
+                    "showtickvalues": "1",
+                    "showlimits": "1",
+                    "ticksbelowgauge": "1",
+                    "majortmnumber": "5",
+                    "majortmcolor": "#ff0000",
+                    "majortmalpha": "40",
+                    "majortmheight": "20",
+                    "majortmthickness": "3",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#0000ff",
+                    "minortmalpha": "20",
+                    "minortmheight": "10",
+                    "minortmthickness": "2",
+                    "tickmarkdistance": "10",
+                    "tickvaluedistance": "10",
+                    "tickvaluestep": "1",
+                    "tickvaluedecimals": "1",
+                    "forcetickvaluedecimals": "1",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "22",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "1",
+                    "numbersuffix": "dB",
+                    "showvalue": "1",
+                    "showgaugeborder": "1",
+                    "gaugebordercolor": "#0000ff",
+                    "gaugeborderthickness": "5",
+                    "gaugeborderalpha": "30",
+                    "ledsize": "0",
+                    "ledgap": "0",
+                    "usesamefillcolor": "0",
+                    "usesamefillbgcolor": "0",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "FF0000"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00"
+                        }
+                    ]
+                },
+                "value": "120"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/led-properties-2-snapshot.png",
+        "id": "led-properties-2"
+    },
+    "data-value-cosmetics-1": {
+        "description": "valuefont-and-cosmetics-border-and-cosmetics",
+        "options": {
+            "type": "hled",
+            "width": "300",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "showtickmarks": "1",
+                    "showtickvalues": "1",
+                    "showlimits": "1",
+                    "ticksbelowgauge": "1",
+                    "majortmnumber": "5",
+                    "majortmcolor": "#ff0000",
+                    "majortmalpha": "40",
+                    "majortmheight": "20",
+                    "majortmthickness": "3",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#0000ff",
+                    "minortmalpha": "20",
+                    "minortmheight": "10",
+                    "minortmthickness": "2",
+                    "tickmarkdistance": "10",
+                    "tickvaluedistance": "10",
+                    "tickvaluestep": "1",
+                    "tickvaluedecimals": "1",
+                    "forcetickvaluedecimals": "1",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "22",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "1",
+                    "numbersuffix": "dB",
+                    "showvalue": "1",
+                    "showgaugeborder": "1",
+                    "gaugebordercolor": "#0000ff",
+                    "gaugeborderthickness": "5",
+                    "gaugeborderalpha": "30",
+                    "ledsize": "2",
+                    "ledgap": "2",
+                    "usesamefillcolor": "0",
+                    "usesamefillbgcolor": "0",
+                    "valuefont": "san-seriff",
+                    "valuefontcolor": "ff0000",
+                    "valuefontsize": "25",
+                    "valuefontbold": "1",
+                    "valuefontitalic": "1",
+                    "valuebgcolor": "696969",
+                    "valuebordercolor": "0000ff",
+                    "valuealpha": "20",
+                    "valuefontalpha": "90",
+                    "valuebgalpha": "30",
+                    "valueborderalpha": "70",
+                    "valueborderthickness": "2.5",
+                    "valueborderpadding": "4",
+                    "valueborderradius": "7",
+                    "valueborderdashed": "1",
+                    "valueborderdashgap": "5",
+                    "valueborderdashlen": "15",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "FF0000"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00"
+                        }
+                    ]
+                },
+                "value": "120"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/data-value-cosmetics-1-snapshot.png",
+        "id": "data-value-cosmetics-1"
+    },
+    "font-properties-1": {
+        "description": "basefont-basefontsize-basefontcolor",
+        "options": {
+            "type": "hled",
+            "width": "300",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "showtickmarks": "1",
+                    "showtickvalues": "1",
+                    "showlimits": "1",
+                    "ticksbelowgauge": "1",
+                    "majortmnumber": "5",
+                    "majortmcolor": "#ff0000",
+                    "majortmalpha": "40",
+                    "majortmheight": "20",
+                    "majortmthickness": "3",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#0000ff",
+                    "minortmalpha": "20",
+                    "minortmheight": "10",
+                    "minortmthickness": "2",
+                    "tickmarkdistance": "10",
+                    "tickvaluedistance": "10",
+                    "tickvaluestep": "1",
+                    "tickvaluedecimals": "1",
+                    "forcetickvaluedecimals": "1",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "22",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "1",
+                    "numbersuffix": "dB",
+                    "showvalue": "1",
+                    "showgaugeborder": "1",
+                    "gaugebordercolor": "#0000ff",
+                    "gaugeborderthickness": "5",
+                    "gaugeborderalpha": "30",
+                    "ledsize": "2",
+                    "ledgap": "2",
+                    "usesamefillcolor": "0",
+                    "usesamefillbgcolor": "0",
+                    "valuefont": "san-seriff",
+                    "valuefontcolor": "ff0000",
+                    "valuefontsize": "25",
+                    "valuefontbold": "1",
+                    "valuefontitalic": "1",
+                    "valuebgcolor": "696969",
+                    "valuebordercolor": "0000ff",
+                    "valuealpha": "20",
+                    "valuefontalpha": "90",
+                    "valuebgalpha": "30",
+                    "valueborderalpha": "70",
+                    "valueborderthickness": "2.5",
+                    "valueborderpadding": "4",
+                    "valueborderradius": "7",
+                    "valueborderdashed": "1",
+                    "valueborderdashgap": "5",
+                    "valueborderdashlen": "15",
+                    "basefont": "arial",
+                    "basefontsize": "25",
+                    "basefontcolor": "#00ff00",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "FF0000"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00"
+                        }
+                    ]
+                },
+                "value": "120"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/font-properties-1-snapshot.png",
+        "id": "font-properties-1"
+    },
+    "tooltip-properties-1": {
+        "description": "showToolTip-1-tooltip-color-border-shadow-showToolTipShadow-1",
+        "options": {
+            "type": "hled",
+            "width": "300",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "showtickmarks": "1",
+                    "showtickvalues": "1",
+                    "showlimits": "1",
+                    "ticksbelowgauge": "1",
+                    "majortmnumber": "5",
+                    "majortmcolor": "#ff0000",
+                    "majortmalpha": "40",
+                    "majortmheight": "20",
+                    "majortmthickness": "3",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#0000ff",
+                    "minortmalpha": "20",
+                    "minortmheight": "10",
+                    "minortmthickness": "2",
+                    "tickmarkdistance": "10",
+                    "tickvaluedistance": "10",
+                    "tickvaluestep": "1",
+                    "tickvaluedecimals": "1",
+                    "forcetickvaluedecimals": "1",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "22",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "1",
+                    "numbersuffix": "dB",
+                    "showvalue": "1",
+                    "showgaugeborder": "1",
+                    "gaugebordercolor": "#0000ff",
+                    "gaugeborderthickness": "5",
+                    "gaugeborderalpha": "30",
+                    "ledsize": "2",
+                    "ledgap": "2",
+                    "usesamefillcolor": "0",
+                    "usesamefillbgcolor": "0",
+                    "valuefont": "san-seriff",
+                    "valuefontcolor": "ff0000",
+                    "valuefontsize": "25",
+                    "valuefontbold": "1",
+                    "valuefontitalic": "1",
+                    "valuebgcolor": "696969",
+                    "valuebordercolor": "0000ff",
+                    "valuealpha": "20",
+                    "valuefontalpha": "90",
+                    "valuebgalpha": "30",
+                    "valueborderalpha": "70",
+                    "valueborderthickness": "2.5",
+                    "valueborderpadding": "4",
+                    "valueborderradius": "7",
+                    "valueborderdashed": "1",
+                    "valueborderdashgap": "5",
+                    "valueborderdashlen": "15",
+                    "showtooltip": "1",
+                    "tooltipbgcolor": "#cccccc",
+                    "tooltipcolor": "#0000ff",
+                    "tooltipbordercolor": "#ff0000",
+                    "showtooltipshadow": "1",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "FF0000"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00"
+                        }
+                    ]
+                },
+                "value": "120"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/tooltip-properties-1-snapshot.png",
+        "id": "tooltip-properties-1"
+    },
+    "tooltip-properties-2": {
+        "description": "showToolTip-0-tooltip-color-border-shadow-showToolTipShadow-0",
+        "options": {
+            "type": "hled",
+            "width": "300",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "showtickmarks": "1",
+                    "showtickvalues": "1",
+                    "showlimits": "1",
+                    "ticksbelowgauge": "1",
+                    "majortmnumber": "5",
+                    "majortmcolor": "#ff0000",
+                    "majortmalpha": "40",
+                    "majortmheight": "20",
+                    "majortmthickness": "3",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#0000ff",
+                    "minortmalpha": "20",
+                    "minortmheight": "10",
+                    "minortmthickness": "2",
+                    "tickmarkdistance": "10",
+                    "tickvaluedistance": "10",
+                    "tickvaluestep": "1",
+                    "tickvaluedecimals": "1",
+                    "forcetickvaluedecimals": "1",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "22",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "1",
+                    "numbersuffix": "dB",
+                    "showvalue": "1",
+                    "showgaugeborder": "1",
+                    "gaugebordercolor": "#0000ff",
+                    "gaugeborderthickness": "5",
+                    "gaugeborderalpha": "30",
+                    "ledsize": "2",
+                    "ledgap": "2",
+                    "usesamefillcolor": "0",
+                    "usesamefillbgcolor": "0",
+                    "valuefont": "san-seriff",
+                    "valuefontcolor": "ff0000",
+                    "valuefontsize": "25",
+                    "valuefontbold": "1",
+                    "valuefontitalic": "1",
+                    "valuebgcolor": "696969",
+                    "valuebordercolor": "0000ff",
+                    "valuealpha": "20",
+                    "valuefontalpha": "90",
+                    "valuebgalpha": "30",
+                    "valueborderalpha": "70",
+                    "valueborderthickness": "2.5",
+                    "valueborderpadding": "4",
+                    "valueborderradius": "7",
+                    "valueborderdashed": "1",
+                    "valueborderdashgap": "5",
+                    "valueborderdashlen": "15",
+                    "showtooltip": "0",
+                    "tooltipbgcolor": "#cccccc",
+                    "tooltipcolor": "#0000ff",
+                    "tooltipbordercolor": "#ff0000",
+                    "showtooltipshadow": "0",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "FF0000"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00"
+                        }
+                    ]
+                },
+                "value": "120"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/tooltip-properties-2-snapshot.png",
+        "id": "tooltip-properties-2"
+    },
+    "chart-paddings-&-margins-1": {
+        "description": "captionPadding-80-valuePadding",
+        "options": {
+            "type": "hled",
+            "width": "300",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "showtickmarks": "1",
+                    "showtickvalues": "1",
+                    "showlimits": "1",
+                    "ticksbelowgauge": "1",
+                    "majortmnumber": "5",
+                    "majortmcolor": "#ff0000",
+                    "majortmalpha": "10",
+                    "majortmheight": "5",
+                    "majortmthickness": "3",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#0000ff",
+                    "minortmalpha": "20",
+                    "minortmheight": "10",
+                    "minortmthickness": "2",
+                    "tickvaluestep": "1",
+                    "tickvaluedecimals": "1",
+                    "forcetickvaluedecimals": "1",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "22",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "1",
+                    "numbersuffix": "dB",
+                    "showvalue": "1",
+                    "showgaugeborder": "1",
+                    "gaugebordercolor": "#0000ff",
+                    "gaugeborderthickness": "5",
+                    "gaugeborderalpha": "30",
+                    "ledsize": "2",
+                    "ledgap": "2",
+                    "usesamefillcolor": "0",
+                    "usesamefillbgcolor": "0",
+                    "valuefont": "san-seriff",
+                    "valuefontcolor": "ff0000",
+                    "valuefontsize": "25",
+                    "valuefontbold": "1",
+                    "valuefontitalic": "1",
+                    "valuebgcolor": "696969",
+                    "valuebordercolor": "0000ff",
+                    "valuealpha": "20",
+                    "valuefontalpha": "90",
+                    "valuebgalpha": "30",
+                    "valueborderalpha": "70",
+                    "valueborderthickness": "2.5",
+                    "valueborderpadding": "4",
+                    "valueborderradius": "7",
+                    "valueborderdashed": "1",
+                    "valueborderdashgap": "5",
+                    "valueborderdashlen": "15",
+                    "showtooltip": "0",
+                    "tooltipbgcolor": "#cccccc",
+                    "tooltipcolor": "#0000ff",
+                    "tooltipbordercolor": "#ff0000",
+                    "showtooltipshadow": "0",
+                    "valuepadding": "50",
+                    "captionpadding": "80",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "FF0000"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00"
+                        }
+                    ]
+                },
+                "value": "120"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/chart-paddings-&-margins-1-snapshot.png",
+        "id": "chart-paddings-&-margins-1"
+    },
+    "chart-paddings-&-margins-2": {
+        "description": "captionPadding-50-valuePadding",
+        "options": {
+            "type": "hled",
+            "width": "300",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "showtickmarks": "1",
+                    "showtickvalues": "1",
+                    "showlimits": "1",
+                    "ticksbelowgauge": "1",
+                    "majortmnumber": "5",
+                    "majortmcolor": "#ff0000",
+                    "majortmalpha": "10",
+                    "majortmheight": "5",
+                    "majortmthickness": "3",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#0000ff",
+                    "minortmalpha": "20",
+                    "minortmheight": "10",
+                    "minortmthickness": "2",
+                    "tickvaluestep": "1",
+                    "tickvaluedecimals": "1",
+                    "forcetickvaluedecimals": "1",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "22",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "1",
+                    "numbersuffix": "dB",
+                    "showvalue": "1",
+                    "showgaugeborder": "1",
+                    "gaugebordercolor": "#0000ff",
+                    "gaugeborderthickness": "5",
+                    "gaugeborderalpha": "30",
+                    "ledsize": "2",
+                    "ledgap": "2",
+                    "usesamefillcolor": "0",
+                    "usesamefillbgcolor": "0",
+                    "valuefont": "san-seriff",
+                    "valuefontcolor": "ff0000",
+                    "valuefontsize": "25",
+                    "valuefontbold": "1",
+                    "valuefontitalic": "1",
+                    "valuebgcolor": "696969",
+                    "valuebordercolor": "0000ff",
+                    "valuealpha": "20",
+                    "valuefontalpha": "90",
+                    "valuebgalpha": "30",
+                    "valueborderalpha": "70",
+                    "valueborderthickness": "2.5",
+                    "valueborderpadding": "4",
+                    "valueborderradius": "7",
+                    "valueborderdashed": "1",
+                    "valueborderdashgap": "5",
+                    "valueborderdashlen": "15",
+                    "showtooltip": "0",
+                    "tooltipbgcolor": "#cccccc",
+                    "tooltipcolor": "#0000ff",
+                    "tooltipbordercolor": "#ff0000",
+                    "showtooltipshadow": "0",
+                    "valuepadding": "50",
+                    "captionpadding": "50",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "FF0000"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00"
+                        }
+                    ]
+                },
+                "value": "120"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/chart-paddings-&-margins-2-snapshot.png",
+        "id": "chart-paddings-&-margins-2"
+    },
+    "chart-paddings-&-margins-3": {
+        "description": "captionPadding-50-valuePaddingchart-4-side-margin-30",
+        "options": {
+            "type": "hled",
+            "width": "300",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "showtickmarks": "1",
+                    "showtickvalues": "1",
+                    "showlimits": "1",
+                    "ticksbelowgauge": "1",
+                    "majortmnumber": "5",
+                    "majortmcolor": "#ff0000",
+                    "majortmalpha": "10",
+                    "majortmheight": "5",
+                    "majortmthickness": "3",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#0000ff",
+                    "minortmalpha": "20",
+                    "minortmheight": "10",
+                    "minortmthickness": "2",
+                    "tickvaluestep": "1",
+                    "tickvaluedecimals": "1",
+                    "forcetickvaluedecimals": "1",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "22",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "1",
+                    "numbersuffix": "dB",
+                    "showvalue": "1",
+                    "showgaugeborder": "1",
+                    "gaugebordercolor": "#0000ff",
+                    "gaugeborderthickness": "5",
+                    "gaugeborderalpha": "30",
+                    "ledsize": "2",
+                    "ledgap": "2",
+                    "usesamefillcolor": "0",
+                    "usesamefillbgcolor": "0",
+                    "valuefont": "san-seriff",
+                    "valuefontcolor": "ff0000",
+                    "valuefontsize": "25",
+                    "valuefontbold": "1",
+                    "valuefontitalic": "1",
+                    "valuebgcolor": "696969",
+                    "valuebordercolor": "0000ff",
+                    "valuealpha": "20",
+                    "valuefontalpha": "90",
+                    "valuebgalpha": "30",
+                    "valueborderalpha": "70",
+                    "valueborderthickness": "2.5",
+                    "valueborderpadding": "4",
+                    "valueborderradius": "7",
+                    "valueborderdashed": "1",
+                    "valueborderdashgap": "5",
+                    "valueborderdashlen": "15",
+                    "showtooltip": "0",
+                    "tooltipbgcolor": "#cccccc",
+                    "tooltipcolor": "#0000ff",
+                    "tooltipbordercolor": "#ff0000",
+                    "showtooltipshadow": "0",
+                    "valuepadding": "50",
+                    "captionpadding": "50",
+                    "chartleftmargin": "30",
+                    "chartrightmargin": "30",
+                    "charttopmargin": "30",
+                    "chartbottommargin": "30",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "FF0000"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00"
+                        }
+                    ]
+                },
+                "value": "120"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/chart-paddings-&-margins-3-snapshot.png",
+        "id": "chart-paddings-&-margins-3"
+    },
+    "the-color-object-and-the-colorrange-object-1": {
+        "description": "color-object-alpha-border-code-max,min-value",
+        "options": {
+            "type": "hled",
+            "width": "300",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "usesamefillcolor": "",
+                    "usesamefillbgcolor": "",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "ff0000",
+                            "borderalpha": "60",
+                            "bordercolor": "#0000ff"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00",
+                            "borderalpha": "60",
+                            "bordercolor": "#0000ff"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00",
+                            "borderalpha": "60",
+                            "bordercolor": "#0000ff"
+                        }
+                    ]
+                },
+                "value": "120"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/the-color-object-and-the-colorrange-object-1-snapshot.png",
+        "id": "the-color-object-and-the-colorrange-object-1"
+    },
+    "functional-issue-1": {
+        "description": "color-not-uniformly-distributed",
+        "options": {
+            "type": "hled",
+            "width": "300",
+            "height": "120",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "ledsize": "20",
+                    "ledgap": "0.5",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "ff0000"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00"
+                        }
+                    ]
+                },
+                "value": "120"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/functional-issue-1-snapshot.png",
+        "id": "functional-issue-1"
+    },
+    "functional-issue-2": {
+        "description": "shadow-appear-in-between-color-range",
+        "options": {
+            "type": "hled",
+            "width": "300",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "ledsize": "20",
+                    "ledgap": "1",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "ff0000",
+                            "borderalpha": "60",
+                            "bordercolor": "#0000ff"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00",
+                            "borderalpha": "60",
+                            "bordercolor": "#0000ff"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00",
+                            "borderalpha": "60",
+                            "bordercolor": "#0000ff"
+                        }
+                    ]
+                },
+                "value": "120"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/functional-issue-2-snapshot.png",
+        "id": "functional-issue-2"
+    },
+    "functional-issue-3": {
+        "description": "color-not-uniformly-distributed-2",
+        "options": {
+            "type": "hled",
+            "width": "300",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "ledsize": "23",
+                    "ledgap": "14",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "ff0000",
+                            "borderalpha": "60",
+                            "bordercolor": "#0000ff"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00",
+                            "borderalpha": "60",
+                            "bordercolor": "#0000ff"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00",
+                            "borderalpha": "60",
+                            "bordercolor": "#0000ff"
+                        }
+                    ]
+                },
+                "value": "120"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/functional-issue-3-snapshot.png",
+        "id": "functional-issue-3"
+    },
+    "functional-issue-4": {
+        "description": "color-not-uniformly-distributed-3",
+        "options": {
+            "type": "hled",
+            "width": "300",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "ledsize": "14",
+                    "ledgap": "23",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "ff0000",
+                            "borderalpha": "60",
+                            "bordercolor": "#0000ff"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00",
+                            "borderalpha": "60",
+                            "bordercolor": "#0000ff"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00",
+                            "borderalpha": "60",
+                            "bordercolor": "#0000ff"
+                        }
+                    ]
+                },
+                "value": "120"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/functional-issue-4-snapshot.png",
+        "id": "functional-issue-4"
+    },
+    "functional-issue-5": {
+        "description": "ledSize-1-ledGap-2",
+        "options": {
+            "type": "hled",
+            "width": "300",
+            "height": "130",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "ledsize": "1",
+                    "ledgap": "2",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "ff0000",
+                            "borderalpha": "60",
+                            "bordercolor": "#0000ff"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00",
+                            "borderalpha": "60",
+                            "bordercolor": "#0000ff"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00",
+                            "borderalpha": "60",
+                            "bordercolor": "#0000ff"
+                        }
+                    ]
+                },
+                "value": "120"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/functional-issue-5-snapshot.png",
+        "id": "functional-issue-5"
+    },
+    "functional-issue-6": {
+        "description": "upperLimitDisplay-does-not-show-in-small-chart",
+        "options": {
+            "type": "hled",
+            "width": "100",
+            "height": "130",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "ledsize": "5.8",
+                    "ledgap": "1",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "ff0000",
+                            "borderalpha": "60",
+                            "bordercolor": "#0000ff"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00",
+                            "borderalpha": "60",
+                            "bordercolor": "#0000ff"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00",
+                            "borderalpha": "60",
+                            "bordercolor": "#0000ff"
+                        }
+                    ]
+                },
+                "value": "120"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/functional-issue-6-snapshot.png",
+        "id": "functional-issue-6"
+    },
+    "functional-issue-7": {
+        "description": "upperLimitDisplay-shows-elipses-even-if-there-is-space",
+        "options": {
+            "type": "hled",
+            "width": "200",
+            "height": "130",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "ledsize": "5.8",
+                    "ledgap": "1",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "ff0000",
+                            "borderalpha": "60",
+                            "bordercolor": "#0000ff"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00",
+                            "borderalpha": "60",
+                            "bordercolor": "#0000ff"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00",
+                            "borderalpha": "60",
+                            "bordercolor": "#0000ff"
+                        }
+                    ]
+                },
+                "value": "120"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/functional-issue-7-snapshot.png",
+        "id": "functional-issue-7"
+    },
+    "functional-issue-8": {
+        "description": "ledSize-1-ledGap-5-shows-gradients-of-led-bars",
+        "options": {
+            "type": "hled",
+            "width": "300",
+            "height": "130",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "ledsize": "1",
+                    "ledgap": "5",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "ff0000",
+                            "borderalpha": "60",
+                            "bordercolor": "#0000ff"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00",
+                            "borderalpha": "60",
+                            "bordercolor": "#0000ff"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00",
+                            "borderalpha": "60",
+                            "bordercolor": "#0000ff"
+                        }
+                    ]
+                },
+                "value": "120"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/functional-issue-8-snapshot.png",
+        "id": "functional-issue-8"
+    },
+    "message-logger-1": {
+        "description": "useMessageLog-1-showRTmenuItem-1-messageLogWPercent-messageLogHPercent-messageLogShowTitle-1-messageLogTitle-messageLogColor-messageGoesToLog-1",
+        "options": {
+            "type": "hled",
+            "width": "600",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "lowerlimit": "100",
+                    "upperlimit": "0",
+                    "ledsize": "3",
+                    "ledgap": "1",
+                    "datastreamurl": "http://static.fusioncharts.com/sampledata/php/streamMessages.php",
+                    "refreshinterval": "10",
+                    "usemessagelog": "1",
+                    "showrtmenuitem": "1",
+                    "messagelogwpercent": "50",
+                    "messageloghpercent": "50",
+                    "messagelogshowtitle": "1",
+                    "messagelogtitle": "Message Log Window",
+                    "messagelogcolor": "#ff0000",
+                    "messagegoestolog": "1",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "ff0000"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "100",
+                            "code": "00FF00"
+                        }
+                    ]
+                },
+                "value": "65"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/message-logger-1-snapshot.png",
+        "id": "message-logger-1"
+    },
+    "message-logger-2": {
+        "description": "messageGoesToJS-1-messageJSHandler-1-messageJSHandler-(define-a-jsfunction-in-the-html-page-for-testing)-messagePassAllToJS",
+        "options": {
+            "type": "hled",
+            "width": "600",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "lowerlimit": "100",
+                    "upperlimit": "0",
+                    "ledsize": "3",
+                    "ledgap": "1",
+                    "datastreamurl": "http://static.fusioncharts.com/sampledata/php/streamMessages.php",
+                    "refreshinterval": "10",
+                    "usemessagelog": "1",
+                    "showrtmenuitem": "1",
+                    "messagelogwpercent": "50",
+                    "messageloghpercent": "50",
+                    "messagelogshowtitle": "1",
+                    "messagelogtitle": "Message Log Window",
+                    "messagelogcolor": "#ff0000",
+                    "messagegoestolog": "0",
+                    "messageGoesToJS": "1",
+                    "messageJSHandler": "sampleFunction",
+                    "messagePassAllToJS": "1",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "ff0000"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "100",
+                            "code": "00FF00"
+                        }
+                    ]
+                },
+                "value": "65"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/message-logger-2-snapshot.png",
+        "id": "message-logger-2"
+    },
+    "real-time-properties-1": {
+        "description": "dataStreamUrl-refreshInterval-useMessageLog-1-showRTmenuItem-1-dataStamp",
+        "options": {
+            "type": "hled",
+            "width": "600",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "lowerlimit": "100",
+                    "upperlimit": "0",
+                    "ledsize": "3",
+                    "ledgap": "1",
+                    "datastreamurl": "http://static.fusioncharts.com/sampledata/php/streamMessages.php",
+                    "refreshinterval": "10",
+                    "usemessagelog": "1",
+                    "showrtmenuitem": "1",
+                    "dataStamp": "13:43:45",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "ff0000"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "100",
+                            "code": "00FF00"
+                        }
+                    ]
+                },
+                "value": "65"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/real-time-properties-1-snapshot.png",
+        "id": "real-time-properties-1"
+    },
+    "annoatation-properties-1": {
+        "description": "common-attributes-rectangle-circle-arc-polygon-image-path",
+        "options": {
+            "type": "hled",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "sample Caption",
+                    "subcaption": "sample subCaption",
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "lowerlimitdisplay": "Low",
+                    "upperlimitdisplay": "High",
+                    "palette": "1",
+                    "numbersuffix": "dB",
+                    "chartrightmargin": "20",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "FF0000"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00"
+                        }
+                    ]
+                },
+                "value": "102",
+                "annotations": {
+                    "origw": "450",
+                    "origh": "300",
+                    "autoscale": "1",
+                    "showbelow": "0",
+                    "groups": [
+                        {
+                            "id": "arcs",
+                            "items": [
+                                {
+                                    "id": "store-cs-bg",
+                                    "type": "rectangle",
+                                    "x": "$chartCenterX-130",
+                                    "y": "$chartEndY - 60",
+                                    "tox": "$chartCenterX + 150",
+                                    "toy": "$chartEndY - 20",
+                                    "fillcolor": "#6A5ACD",
+                                    "showborder": "1",
+                                    "borderalpha": "60",
+                                    "borderthickness": "2",
+                                    "dashed": "1",
+                                    "dashlen": "18",
+                                    "dashgap": "2",
+                                    "tooltext": "sample tooltext rectangle",
+                                    "link": "www.fusioncharts.com",
+                                    "showshadow": "1",
+                                    "bordercolor": "#ff0000"
+                                },
+                                {
+                                    "id": "state-cs-text",
+                                    "type": "Text",
+                                    "color": "#ffffff",
+                                    "label": "An annotation for an hbullet chart",
+                                    "font": "arial",
+                                    "fontsize": "16",
+                                    "align": "center",
+                                    "x": "$chartCenterX + 10",
+                                    "y": "$chartEndY - 40"
+                                },
+                                {
+                                    "id": "state-cs-text",
+                                    "type": "Text",
+                                    "color": "#ffffff",
+                                    "label": "An annotation for a hbullet chart",
+                                    "font": "arial",
+                                    "fontsize": "16",
+                                    "align": "left",
+                                    "valign": "bottom",
+                                    "bold": "1",
+                                    "italic": "1",
+                                    "bgcolor": "#ff0000",
+                                    "leftmargin": "10",
+                                    "rotatetext": "1",
+                                    "wrap": "1",
+                                    "wrapwidth": "180",
+                                    "wrapheight": "18",
+                                    "x": "$chartCenterX - 180",
+                                    "y": "$chartEndY - 40"
+                                },
+                                {
+                                    "id": "state-cs-text",
+                                    "type": "Text",
+                                    "color": "#FF654F",
+                                    "label": "LOW",
+                                    "fontsize": "12",
+                                    "align": "center",
+                                    "x": "$gaugestartx+10",
+                                    "y": "$gaugeendy+40"
+                                },
+                                {
+                                    "id": "state-cs-text",
+                                    "type": "Text",
+                                    "color": "#8BBA00",
+                                    "label": "HIGH",
+                                    "font": "arial",
+                                    "fontsize": "12",
+                                    "x": "$gaugeendx-10",
+                                    "y": "$gaugeendy+40"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                },
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartendx-100",
+                                    "y": "$chartstarty",
+                                    "xscale": "100",
+                                    "yscale": "100"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$gaugeStartX+30",
+                                    "y": "$gaugeStarty-30",
+                                    "radius": "25",
+                                    "fillcolor": "#6A5ACD",
+                                    "showborder": "1",
+                                    "borderalpha": "60",
+                                    "borderthickness": "2",
+                                    "dashed": "1",
+                                    "dashlen": "18",
+                                    "dashgap": "2",
+                                    "tooltext": "sample tooltext circle",
+                                    "link": "www.fusioncharts.com",
+                                    "showshadow": "1",
+                                    "bordercolor": "#ff0000",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "fill-color": "#6A5ACD",
+                                    "showborder": "1",
+                                    "borderalpha": "60",
+                                    "borderthickness": "2",
+                                    "dashed": "1",
+                                    "dashlen": "18",
+                                    "dashgap": "2",
+                                    "tooltext": "sample tooltext arc",
+                                    "link": "www.fusioncharts.com",
+                                    "showshadow": "1",
+                                    "bordercolor": "#0000ff",
+                                    "innerradius": "10",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$gaugecenterX",
+                                    "y": "$gaugeStarty-30",
+                                    "startangle": "0",
+                                    "endangle": "270"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "5",
+                                    "startangle": "270",
+                                    "fillcolor": "#6baa01",
+                                    "showborder": "1",
+                                    "borderalpha": "60",
+                                    "borderthickness": "2",
+                                    "dashed": "1",
+                                    "dashlen": "18",
+                                    "dashgap": "2",
+                                    "tooltext": "sample tooltext polygon",
+                                    "link": "www.fusioncharts.com",
+                                    "showshadow": "1",
+                                    "bordercolor": "#ff0000",
+                                    "x": "$gaugecenterX+50",
+                                    "y": "$gaugeStarty-30",
+                                    "radius": "18"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$gaugeCenterX",
+                                    "y": "$gaugeCentery",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "$gaugeStartX",
+                                    "y": "$chartcenterx+10",
+                                    "tox": "$gaugeendX",
+                                    "toy": "$chartcenterx+10",
+                                    "thickness": "3"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/annoatation-properties-1-snapshot.png",
+        "id": "annoatation-properties-1"
+    },
+    "hled_32": {
+        "description": "hled_32",
+        "options": {
+            "type": "hled",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "ledsize": "5",
+                    "ledgap": "12",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "FF0000"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00"
+                        }
+                    ]
+                },
+                "value": "120"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/hled_32-snapshot.png",
+        "id": "hled_32"
+    }
+}

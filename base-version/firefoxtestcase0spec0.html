@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type='text/javascript' src='..\..\target-version\froalacharts.js'></script>
+<link href='https://fonts.googleapis.com/css?family=Indie+Flower&display=swap' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Felipa&display=swap' rel='stylesheet'>
+<style type='text/css'>
+body, html {
+overflow-x: hidden;
+overflow-y: hidden;
+border: none;
+}
+</style>
+<script type='text/javascript'>
+var options = '__FC_DATA__',
+    imgTimeout = /.jpg|.jpeg|.png|.gif/ig.test(JSON.stringify(options.dataSource)) ? 
+1000
+ : 
+1000
+;
+setTimeout(function () { document.getElementById('chart-container').innerHTML += '<pre></pre>' }, imgTimeout);
+</script>
+<script type='text/javascript'>
+var jsError;
+window.onerror = function (errorMsg, url, lineNumber) {jsError='Error: ' + errorMsg + ' Script: ' + url + ' Line: ' + lineNumber;}
+FroalaCharts.ready(function () { var salesChart = new FroalaCharts({"type":"heatmap","width":"800","height":"600","dataFormat":"json","dataSource":{"chart":{"showBorder":"1","borderColor":"#330000","borderThickness":"3","borderAlpha":"85","bgColor":"#999999,#ffffff","bgAlpha":"100","bgRatio":"10:90","bgAngle":"90","canvasBgColor":"#7E8EA1","canvasBgAlpha":"70","canvasBgRatio":"70:30","canvasBgAngle":"180","canvasBorderColor":"#0000ff","canvasBorderThickness":"3","canvasBorderAlpha":"75","logoURL":"../../images/logo.png","logoPosition":"TR","logoAlpha":"50","logoScale":"70","logoLink":"http://froalacharts.com","showVLineLabelBorder":"1","showLabels":"1","maxLabelHeight":"25","labelDisplay":"ROTATE","useEllipsesWhenOverflow":"0","staggerLines":"1","showValues":"1","showShadow":"1","rotateYAxisName":"0","caption":"Weekly Percentage","subcaption":"In percentage","captionAlignment":"left","captionOnTop":"1","captionFontSize":"20","subCaptionFontSize":"15","captionFont":"verdana","subCaptionFont":"verdana","captionFontColor":"#ff0000","subCaptionFontColor":"#0000ff","captionFontBold":"1","subCaptionFontBold":"1","alignCaptionWithCanvas":"1","captionHorizontalPadding":"10","xaxisname":"Days","showXAxisLine":"1","xAxisNameFontColor":"#770000","xAxisNameFontSize":"20","xAxisNameFontBold":"1","xAxisNameFontItalic":"1","xAxisNameBgColor":"#37f8f9","xAxisNameBorderColor":"#ff0000","xAxisNameAlpha":"100","xAxisNameFontAlpha":"70","xAxisNameBgAlpha":"80","xAxisNameBorderAlpha":"80","xAxisNameBorderPadding":"3","xAxisNameBorderRadius":"3","xAxisNameBorderThickness":"3","xAxisNameBorderDashed":"1","xAxisNameBorderDashLen":"5","xAxisNameBorderDashGap":"2","yaxisname":"Company","yAxisNameFontColor":"#770000","yAxisNameFontSize":"20","yAxisNameFontBold":"1","yAxisNameFontItalic":"1","yAxisNameBgColor":"#37f8f9","yAxisNameBorderColor":"#ff0000","yAxisNameAlpha":"100","yAxisNameFontAlpha":"70","yAxisNameBgAlpha":"80","yAxisNameBorderAlpha":"80","yAxisNameBorderPadding":"3","yAxisNameBorderRadius":"3","yAxisNameBorderThickness":"3","yAxisNameBorderDashed":"1","yAxisNameBorderDashLen":"5","yAxisNameBorderDashGap":"2","showLegend":"1","legendItemFontBold":"1","legendItemFont":"verdana","legendItemFontSize":"16","legendItemFontColor":"#cc0000","legendItemHoverFontColor":"#ffffff","legendCaption":"Interactive Legend","legendCaptionAlignment":"left","legendCaptionFontBold":"1","legendCaptionFont":"verdana","legendCaptionFontSize":"20","legendCaptionFontColor":"#ffffff","legendBgColor":"#333333","legendBgAlpha":"60","legendBorderColor":"#0000ff","legendBorderThickness":"3","legendBorderAlpha":"80","legendAllowDrag":"1","legendScrollBgColor":"0","legendScaleLineColor":"#0000ff","legendScaleLineAlpha":"60","legendScaleLineThickness":"2","numberprefix":"$","animation":"0"},"rows":{"row":[{"id":"Google","label":"Google US"},{"id":"Yahoo","label":"Yahoo US"},{"id":"Microsoft","label":"Microsoft US"}]},"columns":{"column":[{"id":"MON","label":"Monday"},{"id":"TUE","label":"Tuesday"},{"id":"WED","label":"Wednesday"},{"id":"THU","label":"Thursday"},{"id":"FRI","label":"Friday"}]},"dataset":[{"data":[{"rowid":"Yahoo","columnid":"Mon","value":"0"},{"rowid":"Yahoo","columnid":"Tue","value":"71"},{"rowid":"Yahoo","columnid":"Wed","value":"70"},{"rowid":"Yahoo","columnid":"Thu","value":"3"},{"rowid":"Yahoo","columnid":"Fri","value":"79"},{"rowid":"Google","columnid":"Mon","value":"68"},{"rowid":"Google","columnid":"Tue","value":"5"},{"rowid":"Google","columnid":"Wed","value":"95"},{"rowid":"Google","columnid":"Thu","value":"-10"},{"rowid":"Google","columnid":"Fri","value":"55.98"},{"rowid":"Microsoft","columnid":"Mon","value":"98"},{"rowid":"Microsoft","columnid":"Tue","value":"8"},{"rowid":"Microsoft","columnid":"Wed","value":"123"},{"rowid":"Microsoft","columnid":"Thu","value":"79"},{"rowid":"Microsoft","columnid":"Fri","value":"39"}]}],"colorrange":{"mapbypercent":"1","gradient":"1","minvalue":"0","code":"00CCFF","startlabel":"Poor","endlabel":"Good","color":[{"code":"66ADD9","maxvalue":"30","label":"BAD"},{"code":"F2CF63","maxvalue":"70","label":"AVERAGE"},{"code":"D99036","maxvalue":"100"}]}}}).render('chart-container'); });
+</script>
+</head>
+<body><div id='chart-container'></div>
+<div id='console'></div>
+</body>
+</html>

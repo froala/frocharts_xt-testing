@@ -1,0 +1,326 @@
+{
+    "RED-8498-TS_01_TC_09": {
+        "id": "RED-8498-TS_01_TC_09",
+        "description": "resize to large dimension after minRadiusForValue",
+        "options": {
+            "type": "bubble",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "use3dlighting": "0",
+                    "showvalues": "1",
+                    "minradiusforvalue": "20",
+                    "animation": 0
+                },
+                "categories": [{
+                    "category": [{
+                            "label": "$0",
+                            "x": "0"
+                        },
+                        {
+                            "label": "$20",
+                            "x": "20",
+                            "showverticalline": "1"
+                        },
+                        {
+                            "label": "$40",
+                            "x": "40",
+                            "showverticalline": "1"
+                        },
+                        {
+                            "label": "$60",
+                            "x": "60",
+                            "showverticalline": "1"
+                        },
+                        {
+                            "label": "$80",
+                            "x": "80",
+                            "showverticalline": "1"
+                        },
+                        {
+                            "label": "$100",
+                            "x": "100",
+                            "showverticalline": "1"
+                        }
+                    ]
+                }],
+                "dataset": [{
+                        "seriesname": "Bubbles 1",
+                        "color": "#00aee4",
+                        "data": [{
+                                "x": "20",
+                                "y": "15000",
+                                "z": "100",
+                                "name": "Nike Big"
+                            },
+                            {
+                                "x": "80",
+                                "y": "15000",
+                                "z": "24",
+                                "name": "Nike"
+                            },
+                            {
+                                "x": "60",
+                                "y": "18500",
+                                "z": "26",
+                                "name": "Adidas"
+                            },
+                            {
+                                "x": "50",
+                                "y": "19450",
+                                "z": "19",
+                                "name": "Puma"
+                            },
+                            {
+                                "x": "65",
+                                "y": "10500",
+                                "z": "8",
+                                "name": "Fila"
+                            },
+                            {
+                                "x": "43",
+                                "y": "8750",
+                                "z": "5",
+                                "name": "Lotto"
+                            },
+                            {
+                                "x": "32",
+                                "y": "22000",
+                                "z": "10",
+                                "name": "Reebok"
+                            },
+                            {
+                                "x": "44",
+                                "y": "13000",
+                                "z": "9",
+                                "name": "Woodland"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Bubbles 2",
+                        "data": [{
+                                "x": "30",
+                                "y": "3000",
+                                "z": "116",
+                                "name": "Traders"
+                            },
+                            {
+                                "x": "3",
+                                "y": "25000",
+                                "z": "99",
+                                "name": "Farmers"
+                            },
+                            {
+                                "x": "8",
+                                "y": "21000",
+                                "z": "33",
+                                "name": "Individuals"
+                            },
+                            {
+                                "x": "62",
+                                "y": "10300",
+                                "z": "72",
+                                "name": "Medium Business Houses"
+                            },
+                            {
+                                "x": "78",
+                                "y": "22000",
+                                "z": "10",
+                                "name": "Corporate Group A"
+                            },
+                            {
+                                "x": "75",
+                                "y": "14000",
+                                "z": "58",
+                                "name": "Corporate Group C"
+                            },
+                            {
+                                "x": "97",
+                                "y": "17000",
+                                "z": "80",
+                                "name": "HNW Individuals"
+                            },
+                            {
+                                "x": "50",
+                                "y": "4500",
+                                "z": "105",
+                                "name": "Small Business Houses"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "action": [{
+            "resizeData": [{
+                "width": "900",
+                "height": "550"
+            }]
+        }]
+    },
+    "RED-8498-TS_01_TC_09-01": {
+        "id": "RED-8498-TS_01_TC_09-01",
+        "description": "resize to small dimension after minRadiusForValue",
+        "options": {
+            "type": "bubble",
+            "width": "900",
+            "height": "550",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "use3dlighting": "0",
+                    "showvalues": "1",
+                    "minradiusforvalue": "20",
+                    "animation": 0
+                },
+                "categories": [{
+                    "category": [{
+                            "label": "$0",
+                            "x": "0"
+                        },
+                        {
+                            "label": "$20",
+                            "x": "20",
+                            "showverticalline": "1"
+                        },
+                        {
+                            "label": "$40",
+                            "x": "40",
+                            "showverticalline": "1"
+                        },
+                        {
+                            "label": "$60",
+                            "x": "60",
+                            "showverticalline": "1"
+                        },
+                        {
+                            "label": "$80",
+                            "x": "80",
+                            "showverticalline": "1"
+                        },
+                        {
+                            "label": "$100",
+                            "x": "100",
+                            "showverticalline": "1"
+                        }
+                    ]
+                }],
+                "dataset": [{
+                        "seriesname": "Bubbles 1",
+                        "color": "#00aee4",
+                        "data": [{
+                                "x": "20",
+                                "y": "15000",
+                                "z": "100",
+                                "name": "Nike Big"
+                            },
+                            {
+                                "x": "80",
+                                "y": "15000",
+                                "z": "24",
+                                "name": "Nike"
+                            },
+                            {
+                                "x": "60",
+                                "y": "18500",
+                                "z": "26",
+                                "name": "Adidas"
+                            },
+                            {
+                                "x": "50",
+                                "y": "19450",
+                                "z": "19",
+                                "name": "Puma"
+                            },
+                            {
+                                "x": "65",
+                                "y": "10500",
+                                "z": "8",
+                                "name": "Fila"
+                            },
+                            {
+                                "x": "43",
+                                "y": "8750",
+                                "z": "5",
+                                "name": "Lotto"
+                            },
+                            {
+                                "x": "32",
+                                "y": "22000",
+                                "z": "10",
+                                "name": "Reebok"
+                            },
+                            {
+                                "x": "44",
+                                "y": "13000",
+                                "z": "9",
+                                "name": "Woodland"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Bubbles 2",
+                        "data": [{
+                                "x": "30",
+                                "y": "3000",
+                                "z": "116",
+                                "name": "Traders"
+                            },
+                            {
+                                "x": "3",
+                                "y": "25000",
+                                "z": "99",
+                                "name": "Farmers"
+                            },
+                            {
+                                "x": "8",
+                                "y": "21000",
+                                "z": "33",
+                                "name": "Individuals"
+                            },
+                            {
+                                "x": "62",
+                                "y": "10300",
+                                "z": "72",
+                                "name": "Medium Business Houses"
+                            },
+                            {
+                                "x": "78",
+                                "y": "22000",
+                                "z": "10",
+                                "name": "Corporate Group A"
+                            },
+                            {
+                                "x": "75",
+                                "y": "14000",
+                                "z": "58",
+                                "name": "Corporate Group C"
+                            },
+                            {
+                                "x": "97",
+                                "y": "17000",
+                                "z": "80",
+                                "name": "HNW Individuals"
+                            },
+                            {
+                                "x": "50",
+                                "y": "4500",
+                                "z": "105",
+                                "name": "Small Business Houses"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "action": [{
+            "resizeData": [{
+                "width": "300",
+                "height": "200"
+            }]
+        }]
+    }
+}

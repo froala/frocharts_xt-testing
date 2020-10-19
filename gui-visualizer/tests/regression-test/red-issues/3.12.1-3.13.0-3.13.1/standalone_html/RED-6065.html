@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <script type="text/javascript" src="fusioncharts/fusioncharts.js"></script>
+</head>
+
+<body>
+
+    <a href="https://fusioncharts.jira.com/browse/RED-6065">RED-6065</a>
+    <div>Support for - (hyphen) character in parameter of Javascript function of `link` Attribute.</div>
+    <div id="chart-container">FusionCharts will render here</div>
+    <div id="args">Arguments will show here</div>
+    <script type="text/javascript">
+        function handleFormSubmit(event, url, arg3, arg4, arg5) {
+            document.getElementById("args").innerHTML = "<p>Arguments:</p>" +
+                "<p>event = " + event + "</p><p>url = " + url +
+                "</p><p>arg3 = " + arg3 +
+                "</p><p>arg4 = " + arg4 +
+                "</p><p>arg5 = " + arg5 + "</p>"
+        };
+        FusionCharts.ready(function () {
+            var topStores = new FusionCharts({
+                    type: 'column2d',
+                    renderAt: 'chart-container',
+                    width: '400',
+                    height: '300',
+                    dataFormat: 'json',
+                    dataSource: {
+                        "chart": {
+                            "caption": "Top 5 Stores by Sales",
+                            "subCaption": "Last month",
+                            "yAxisName": "Sales (In USD)",
+                            "numberPrefix": "$",
+                            "paletteColors": "#0075c2",
+                            "bgColor": "#ffffff",
+                            "showBorder": "0",
+                            "showCanvasBorder": "0",
+                            "usePlotGradientColor": "0",
+                            "plotBorderAlpha": "10",
+                            "placeValuesInside": "1",
+                            "valueFontColor": "#ffffff",
+                            "showAxisLines": "1",
+                            "axisLineAlpha": "25",
+                            "divLineAlpha": "10",
+                            "alignCaptionWithCanvas": "0",
+                            "showAlternateVGridColor": "0",
+                            "captionFontSize": "14",
+                            "subcaptionFontSize": "14",
+                            "subcaptionFontBold": "0",
+                            "toolTipColor": "#ffffff",
+                            "toolTipBorderThickness": "0",
+                            "toolTipBgColor": "#000000",
+                            "toolTipBgAlpha": "80",
+                            "toolTipBorderRadius": "2",
+                            "toolTipPadding": "5"
+                        },
+
+                        "data": [{
+                                "label": "Bakersfield Central",
+                                "value": "880000",
+                                "link": "JavaScript:handleFormSubmit(null,'report?container=data_content&rqstid=10243&drillaspect=DOWN1&drillvl=TOTAL/SDEPT_00-100&drillparent=TOTAL',false,true);"
+                            },
+                            {
+                                "label": "Garden Groove harbour",
+                                "value": "730000",
+                                "link": "JavaScript:handleFormSubmit(null,'report?container=data_content&rqstid=10243&drillaspect=DOWN1&drillvl=TOTAL/SDEPT_00-200&drillparent=TOTAL',false,true);"
+                            },
+                            {
+                                "label": "Los Angeles Topanga",
+                                "value": "590000",
+                                "link": "JavaScript:handleFormSubmit(null,'report?container=data_content&rqstid=10243&drillaspect=DOWN1&drillvl=TOTAL/SDEPT_00-300&drillparent=TOTAL',false,true);"
+                            },
+                            {
+                                "label": "Compton-Rancho Dom",
+                                "value": "520000",
+                                "link": "JavaScript:handleFormSubmit(null,'report?container=data_content&rqstid=10243&drillaspect=DOWN1&drillvl=TOTAL/SDEPT_00-400&drillparent=TOTAL',false,true);"
+                            },
+                            {
+                                "label": "Daly City Serramonte",
+                                "value": "330000",
+                                "link": "JavaScript:handleFormSubmit(null,'report?container=data_content&rqstid=10243&drillaspect=DOWN1&drillvl=TOTAL/SDEPT_00&minus;500&drillparent=TOTAL',false,true);"
+                            }
+                        ]
+                    }
+                })
+                .render();
+        });
+
+        function handleFormSubmit(event, url, arg3, arg4, arg5) {
+            document.getElementById("args").innerHTML = "<p>Arguments:</p>" +
+                "<p>event = " + event + "</p><p>url = " + url +
+                "</p><p>arg3 = " + arg3 +
+                "</p><p>arg4 = " + arg4 +
+                "</p><p>arg5 = " + arg5 + "</p>"
+        };
+    </script>
+</body>
+
+</html>

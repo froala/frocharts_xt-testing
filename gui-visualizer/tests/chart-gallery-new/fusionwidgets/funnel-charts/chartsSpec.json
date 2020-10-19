@@ -1,0 +1,308 @@
+{
+    "fusionwidgets-funnel-charts-funnel-chart-1": {
+        "description": "Funnel Chart",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "bgcolor": "FFFFFF",
+                    "caption": "Conversion Funnel - 2013",
+                    "decimals": "1",
+                    "basefontsize": "11",
+                    "issliced": "0",
+                    "ishollow": "1",
+                    "labeldistance": "8",
+                    "showBorder": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "145631",
+                        "color": "008ee4"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564",
+                        "color": "f8bd19"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "50654",
+                        "color": "6baa01"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "25342",
+                        "color": "e44a00"
+                    }
+                ]
+            },
+            "width": "430",
+            "height": "520",
+            "type": "funnel"
+        },
+        "id": "fusionwidgets-funnel-charts-funnel-chart-1"
+    },
+    "fusionwidgets-funnel-charts-funnel-chart-all-items-sliced-out": {
+        "description": "Funnel Chart with all items sliced out",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio",
+                    "subcaption": "May 2007",
+                    "showpercentvalues": "1",
+                    "decimals": "1",
+                    "basefontsize": "11",
+                    "issliced": "1",
+                    "showBorder": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            },
+            "width": "450",
+            "height": "500",
+            "type": "funnel"
+        },
+        "id": "fusionwidgets-funnel-charts-funnel-chart-all-items-sliced-out"
+    },
+    "fusionwidgets-funnel-charts-funnel-chart-filled-from-inside": {
+        "description": "Funnel Chart filled from inside",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "bgcolor": "FFFFFF",
+                    "bgalpha": "0",
+                    "showborder": "0",
+                    "caption": "Sales distribution by Employee",
+                    "subcaption": "Jan 07 - Jul 07",
+                    "numberprefix": "$",
+                    "issliced": "1",
+                    "streamlineddata": "0",
+                    "ishollow": "0",
+                    "chartrightmargin": "",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Buchanan",
+                        "value": "20000",
+                        "color": "333333"
+                    },
+                    {
+                        "label": "Callahan",
+                        "value": "49000",
+                        "color": "AEC0CA"
+                    },
+                    {
+                        "label": "Davolio",
+                        "value": "63000",
+                        "color": "333333"
+                    },
+                    {
+                        "label": "Dodsworth",
+                        "value": "41000",
+                        "color": "AEC0CA"
+                    },
+                    {
+                        "label": "Fuller",
+                        "value": "74000",
+                        "color": "333333"
+                    },
+                    {
+                        "label": "King",
+                        "value": "49000",
+                        "color": "AEC0CA"
+                    },
+                    {
+                        "label": "Leverling",
+                        "value": "77000",
+                        "color": "333333"
+                    },
+                    {
+                        "label": "Peacock",
+                        "value": "54000",
+                        "color": "AEC0CA"
+                    },
+                    {
+                        "label": "Suyama",
+                        "value": "14000",
+                        "color": "333333"
+                    }
+                ],
+                "annotations": {
+                    "groups": [
+                        {
+                            "id": "Grp1",
+                            "showbelow": "1",
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "x": "0",
+                                    "y": "0",
+                                    "tox": "500",
+                                    "toy": "480",
+                                    "radius": "10",
+                                    "fillcolor": "AEC0CA, 333333, AEC0CA",
+                                    "fillangle": "90"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "5",
+                                    "y": "5",
+                                    "tox": "495",
+                                    "toy": "485",
+                                    "radius": "10",
+                                    "fillcolor": "333333, C3D0D8, 333333",
+                                    "fillangle": "90"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "10",
+                                    "y": "10",
+                                    "tox": "490",
+                                    "toy": "480",
+                                    "radius": "10",
+                                    "fillcolor": "C4D5DC, A3A5A4",
+                                    "fillangle": "180"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "width": "500",
+            "height": "500",
+            "type": "funnel"
+        },
+        "id": "fusionwidgets-funnel-charts-funnel-chart-filled-from-inside"
+    },
+    "fusionwidgets-funnel-charts-funnel-chart-same-slant-angle-all-slice": {
+        "description": "Funnel Chart with same slant angle for all slices",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio",
+                    "subcaption": "May 2007",
+                    "decimals": "1",
+                    "basefontsize": "11",
+                    "issliced": "0",
+                    "usesameslantangle": "1",
+                    "ishollow": "0",
+                    "labeldistance": "5",
+                    "showBorder": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "18342"
+                    }
+                ]
+            },
+            "width": "400",
+            "height": "500",
+            "type": "funnel"
+        },
+        "id": "fusionwidgets-funnel-charts-funnel-chart-same-slant-angle-all-slice"
+    },
+    "fusionwidgets-funnel-charts-2d-funnel-chart": {
+        "description": "2D Funnel Chart",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales distribution by Employee",
+                    "subcaption": "Jan 07 - Jul 07",
+                    "numberprefix": "$",
+                    "is2d": "1",
+                    "issliced": "1",
+                    "showplotborder": "1",
+                    "plotborderthickness": "1",
+                    "plotbordercolor": "000000",
+                    "streamlineddata": "0",
+                    "showBorder": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Buchanan",
+                        "value": "50000"
+                    },
+                    {
+                        "label": "Callahan",
+                        "value": "49000"
+                    },
+                    {
+                        "label": "Davolio",
+                        "value": "63000"
+                    },
+                    {
+                        "label": "Dodsworth",
+                        "value": "41000"
+                    },
+                    {
+                        "label": "Fuller",
+                        "value": "74000"
+                    },
+                    {
+                        "label": "King",
+                        "value": "49000"
+                    },
+                    {
+                        "label": "Leverling",
+                        "value": "77000"
+                    }
+                ]
+            },
+            "width": "400",
+            "height": "500",
+            "type": "funnel"
+        },
+        "id": "fusionwidgets-funnel-charts-2d-funnel-chart"
+    }
+}

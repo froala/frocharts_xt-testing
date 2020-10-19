@@ -1,0 +1,827 @@
+{
+    "test_1": {
+        "description": "Border, logo, bg, caption, subcaption, canvas, axes related changes",
+        "options": {
+            "type": "stackedbar",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showBorder": "1",
+                    "borderColor": "#330000",
+                    "borderThickness": "3",
+                    "borderAlpha": "85",
+                    "bgColor": "#999999,#ffffff",
+                    "bgAlpha": "100",
+                    "bgRatio": "10:90",
+                    "bgAngle": "90",
+                    "showcanvasborder": "1",
+                    "canvasBgColor": "#7E8EA1",
+                    "canvasBgAlpha": "70",
+                    "canvasBgRatio": "70:30",
+                    "canvasBgAngle": "180",
+                    "canvasBorderColor": "#0000ff",
+                    "canvasBorderThickness": "3",
+                    "canvasBorderAlpha": "75",                   
+                    "logoPosition": "TR",
+                    "logoAlpha": "50",
+                    "logoScale": "70",                   
+                    "showVLineLabelBorder": "1",
+                    "showLabels": "1",
+                    "maxLabelHeight": "25",
+                    "labelDisplay": "ROTATE",
+                    "useEllipsesWhenOverflow": "0",
+                    "rotateLabels": "1",
+                    "slantLabels": "1",
+                    "labelStep": "1",
+                    "staggerLines": "1",
+                    "showValues": "1",
+                    "rotateValues": "1",
+                    "placeValuesInside": "1",
+                    "showYAxisValues": "1",
+                    "showLimits": "1",
+                    "showDivLineValues": "1",
+                    "yAxisValuesStep": "2",
+                    "showShadow": "1",
+                    "adjustDiv": "0",
+                    "rotateYAxisName": "0",
+                    "yAxisMinValue": "5",
+                    "yAxisMaxValue": "50",
+                    "setAdaptiveYMin": "",
+                    "useDataPlotColorForLabels": "1",
+                    "caption": "Company Revenue",
+                    "subcaption": "In Million $",
+                    "captionAlignment": "left",
+                    "captionOnTop": "1",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "subCaptionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "10",
+                    "showLegend": "1",
+                    "legendItemFontBold": "1",
+                    "legendItemFont": "verdana",
+                    "legendItemFontSize": "16",
+                    "legendItemFontColor": "#cc0000",
+                    "legendItemHoverFontColor": "#ffffff",
+                    "legendCaption": "Interactive Legend",
+                    "legendCaptionAlignment": "left",
+                    "legendCaptionFontBold": "1",
+                    "legendCaptionFont": "verdana",
+                    "legendCaptionFontSize": "20",
+                    "legendCaptionFontColor": "#ffffff",
+                    "legendItemHiddenColor": "#ff0000",
+                    "legendIconScale": "110",
+                    "legendBgColor": "#333333",
+                    "legendBgAlpha": "60",
+                    "legendBorderColor": "#0000ff",
+                    "legendBorderThickness": "3",
+                    "legendBorderAlpha": "80",
+                    "legendAllowDrag": "1",
+                    "legendScrollBgColor": "0",
+                    "reverseLegend": "1",
+                    "interactiveLegend": "1",
+                    "legendNumColumns": "2",
+                    "xAxisName": "Month",
+                    "showXAxisLine": "1",
+                    "xAxisLineColor": "#00ffff",
+                    "xAxisLineThickness": "3",
+                    "xAxisNameFontColor": "#770000",
+                    "xAxisNameFontSize": "20",
+                    "xAxisNameFontBold": "1",
+                    "xAxisNameFontItalic": "1",
+                    "xAxisNameBgColor": "#37f8f9",
+                    "xAxisNameBorderColor": "#ff0000",
+                    "xAxisNameAlpha": "100",
+                    "xAxisNameFontAlpha": "70",
+                    "xAxisNameBgAlpha": "80",
+                    "xAxisNameBorderAlpha": "80",
+                    "xAxisNameBorderPadding": "3",
+                    "xAxisNameBorderRadius": "3",
+                    "xAxisNameBorderThickness": "3",
+                    "xAxisNameBorderDashed": "1",
+                    "xAxisNameBorderDashLen": "5",
+                    "xAxisNameBorderDashGap": "2",
+                    "yAxisName": "Revenue",
+                    "showYAxisLine": "1",
+                    "yAxisLineColor": "#cc0000",
+                    "yAxisLineThickness": "3",
+                    "yAxisNameFontColor": "#770000",
+                    "yAxisNameFontSize": "20",
+                    "yAxisNameFontBold": "1",
+                    "yAxisNameFontItalic": "1",
+                    "yAxisNameBgColor": "#37f8f9",
+                    "yAxisNameBorderColor": "#ff0000",
+                    "yAxisNameAlpha": "100",
+                    "yAxisNameFontAlpha": "70",
+                    "yAxisNameBgAlpha": "80",
+                    "yAxisNameBorderAlpha": "80",
+                    "yAxisNameBorderPadding": "3",
+                    "yAxisNameBorderRadius": "3",
+                    "yAxisNameBorderThickness": "3",
+                    "yAxisNameBorderDashed": "1",
+                    "yAxisNameBorderDashLen": "5",
+                    "yAxisNameBorderDashGap": "2",
+                    "numberprefix": "$",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Product A",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Product B",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/froalacharts/stackedbar/ref-images/test_1_stackedbar-snapshot.png",
+        "id": "test_1"
+    },
+    "test_2": {
+        "description": "Data plots, values and Label, tooltip related tests.",
+        "options": {
+            "type": "stackedbar",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "bgImage": "http://phoenixinsure.com/images/background/4.jpg",
+                    "bgImageAlpha": "50",
+                    "bgImageVAlign": "middle",
+                    "bgImageHAlign": "left",
+                    "bgImageScale": "22",
+                    "bgImageDisplayMode": "stretch",
+                    "showVLineLabelBorder": "0",
+                    "caption": "Company Revenue",
+                    "subcaption": "In Million $",
+                    "captionAlignment": "right",
+                    "captionOnTop": "0",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "subCaptionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "10",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0",
+                    "useRoundEdges": "0",
+                    "showPlotBorder": "1",
+                    "plotBorderColor": "#0000ff",
+                    "plotBorderThickness": "2",
+                    "plotBorderAlpha": "60",
+                    "plotBorderDashed": "1",
+                    "plotBorderDashLen": "6",
+                    "plotBorderDashGap": "3",
+                    "plotFillAngle": "60",
+                    "plotFillRatio": "30:70",
+                    "plotFillAlpha": "60",
+                    "plotGradientColor": "#000033,#0000ff",
+                    "valueFont": "verdana",
+                    "rotateValues": "1",
+                    "valueFontColor": "#cc0000",
+                    "valueFontSize": "12",
+                    "valueFontBold": "1",
+                    "valueFontItalic": "1",
+                    "valueBgColor": "#ffffff",
+                    "valueBorderColor": "#000033",
+                    "valueAlpha": "70",
+                    "valueFontAlpha": "75",
+                    "valueBgAlpha": "85",
+                    "valueBorderAlpha": "90",
+                    "valueBorderThickness": "2",
+                    "valueBorderRadius": "5",
+                    "valueBorderDashed": "1",
+                    "valueBorderDashGap": "3",
+                    "valueBorderDashLen": "6",
+                    "valueHoverAlpha": "100",
+                    "valueFontHoverAlpha": "100",
+                    "valueBgHoverAlpha": "100",
+                    "valueBorderHoverAlpha": "100",
+                    "showValuesOnHover": "1",
+                    "showLabels": "1",
+                    "maxLabelHeight": "45",
+                    "labelDisplay": "ROTATE",
+                    "useEllipsesWhenOverflow": "0",
+                    "rotateLabels": "1",
+                    "slantLabels": "1",
+                    "labelStep": "1",
+                    "staggerLines": "1",
+                    "showHoverEffect": "1",
+                    "plotHoverEffect": "1",
+                    "plotFillHoverColor": "#ff0000",
+                    "plotFillHoverAlpha": "80",
+                    "showToolTip": "1",
+                    "toolTipBgColor": "#00ff00",
+                    "toolTipColor": "#cc0000",
+                    "toolTipBorderColor": "#000000",
+                    "showToolTipShadow": "1",
+                    "seriesNameInToolTip": "1",
+                    "labelFont": "verdana",
+                    "labelFontColor": "#cc0000",
+                    "labelFontSize": "10",
+                    "labelFontBold": "1",
+                    "labelFontItalic": "1",
+                    "labelBgColor": "#00ff00",
+                    "labelBorderColor": "#cc0000",
+                    "labelAlpha": "85",
+                    "labelBgAlpha": "60",
+                    "labelBorderAlpha": "90",
+                    "labelBorderPadding": "2",
+                    "labelBorderRadius": "5",
+                    "labelBorderThickness": "2",
+                    "labelBorderDashed": "1",
+                    "labelBorderDashLen": "6",
+                    "labelBorderDashGap": "3",
+                    "labelLink": "http://www.froala.com"
+                },
+                "categories": [
+                    {
+                        "font": "Arial",
+                        "fontsize": "12",
+                        "fontcolor": "000000",
+                        "category": [
+                            {
+                                "label": "Jan",
+                                "showLabel": "1",
+                                "toolText": "froalacharts",
+                                "font": "arial",
+                                "fontColor": "#000ff00",
+                                "fontSize": "15",
+                                "fontBold": "1",
+                                "fontItalic": "1",
+                                "bgColor": "#ff0000",
+                                "borderColor": "#000000",
+                                "alpha": "80",
+                                "bgAlpha": "70",
+                                "borderAlpha": "75",
+                                "borderPadding": "3",
+                                "borderRadius": "5",
+                                "borderThickness": "3",
+                                "borderDashed": "1",
+                                "borderDashLen": "8",
+                                "borderDashGap": "6",
+                                "link": "http://www.google.com"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr",
+                                "showLabel": "1",
+                                "toolText": "froalacharts",
+                                "font": "arial",
+                                "fontColor": "#000ff00",
+                                "fontSize": "20",
+                                "fontBold": "1",
+                                "fontItalic": "0",
+                                "bgColor": "#0000ff",
+                                "borderColor": "#ff0000",
+                                "alpha": "70",
+                                "bgAlpha": "60",
+                                "borderAlpha": "45",
+                                "borderPadding": "3",
+                                "borderRadius": "9",
+                                "borderThickness": "5",
+                                "borderDashed": "0",
+                                "borderDashLen": "8",
+                                "borderDashGap": "6",
+                                "link": "http://www.google.com"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Product A",
+                        "color": "#ff0000",
+                        "alpha": "50",
+                        "showValues": "1",
+                        "dashed": "1",
+                        "includeInLegend": "1",
+                        "data": [
+                            {
+                                "value": "27400",
+                                "alpha": "70",
+                                "color": "#ff0000",
+                                "dashed": "0",
+                                "displayValue": "420000",
+                                "link": "http://www.froala.com",
+                                "showLabel": "1",
+                                "showValue": "0",
+                                "toolText": "Powercharts"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Product B",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/froalacharts/stackedbar/ref-images/test_2_stackedbar-snapshot.png",
+        "id": "test_2"
+    },
+    "test_3": {
+        "description": "Divlines, VLines, Trendlines, Trendzones releated tests",
+        "options": {
+            "type": "stackedbar",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "subcaption": "In Million $",
+                    "captionAlignment": "center",
+                    "captionOnTop": "1",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "subCaptionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "10",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0",
+                    "palette": "3",
+                    "numDivLines": "3",
+                    "divLineColor": "#cc0000",
+                    "divLineThickness": "4",
+                    "divLineAlpha": "85",
+                    "divLineDashed": "1",
+                    "divLineDashLen": "5",
+                    "divLineDashGap": "3",
+                    "zeroPlaneColor": "#0000ff",
+                    "zeroPlaneThickness": "9",
+                    "zeroPlaneAlpha": "85",
+                    "showZeroPlaneValue": "1",
+                    "showAlternateVGridColor": "1",
+                    "alternateVGridColor": "#0000ff",
+                    "alternateVGridAlpha": "20",
+                    "trendValueFont": "arial",
+                    "trendValueFontSize": "15",
+                    "trendValueFontBold": "1",
+                    "trendValueFontItalic": "1",
+                    "trendValueBgColor": "#00FF00",
+                    "trendValueBorderColor": "#993333",
+                    "trendValueAlpha": "100",
+                    "trendValueBgAlpha": "50",
+                    "trendValueBorderAlpha": "80",
+                    "trendValueBorderPadding": "5",
+                    "trendValueBorderRadius": "5",
+                    "trendValueBorderThickness": "3",
+                    "trendValueBorderDashed": "1",
+                    "trendValueBorderDashLen": "12",
+                    "trendValueBorderDashGap": "10"
+                },
+                "categories": [
+                    {
+                        "font": "Arial",
+                        "fontsize": "12",
+                        "fontcolor": "000000",
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Appraisal_1",
+                                "vline": "true",
+                                "color": "#ff0000",
+                                "thickness": "3",
+                                "dashed": "true",
+                                "dashLen": "5",
+                                "dashGap": "2",
+                                "showLabelBorder": "0",
+                                "linePosition": "1",
+                                "labelPosition": "0",
+                                "labelHAlign": "left",
+                                "labelVAlign": "top"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Appraisal_2",
+                                "vline": "true",
+                                "color": "#0000ff",
+                                "thickness": "2",
+                                "dashed": "1",
+                                "dashLen": "6",
+                                "dashGap": "3",
+                                "showLabelBorder": "1",
+                                "linePosition": "0.5",
+                                "labelPosition": "0.5",
+                                "labelHAlign": "right",
+                                "labelVAlign": "bottom"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Year End Bonus",
+                                "vline": "true",
+                                "color": "#ff0000",
+                                "thickness": "3",
+                                "dashed": "0",
+                                "dashLen": "6",
+                                "dashGap": "3",
+                                "showLabelBorder": "0",
+                                "linePosition": "1",
+                                "labelPosition": "1",
+                                "labelHAlign": "right",
+                                "labelVAlign": "middle"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Product A",
+                        "color": "#ff0000",
+                        "alpha": "50",
+                        "showValues": "1",
+                        "dashed": "1",
+                        "includeInLegend": "1",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "-29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Product B",
+                        "data": [
+                            {
+                                "value": "-10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "-11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "-21900"
+                            },
+                            {
+                                "value": "-22900"
+                            },
+                            {
+                                "value": "-20800"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "22900",
+                                "endValue": "30000",
+                                "istrendzone": "1",
+                                "valueonright": "1",
+                                "tooltext": "Powercharts",
+                                "color": "#00a7ff",
+                                "displayvalue": "Last Year Trend",
+                                "alpha": "70",
+                                "showontop": "1",
+                                "thickness": "5"
+                            },
+                            {
+                                "startvalue": "11000",
+                                "istrendzone": "0",
+                                "valueonright": "0",
+                                "tooltext": "froalacharts",
+                                "color": "#cc0000",
+                                "displayvalue": "Target",
+                                "showontop": "0",
+                                "thickness": "3",
+                                "alpha": "75",
+                                "dashed": "0",
+                                "dashLen": "6",
+                                "dashGap": "3"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/froalacharts/stackedbar/ref-images/test_3_stackedbar-snapshot.png",
+        "id": "test_3"
+    }
+}

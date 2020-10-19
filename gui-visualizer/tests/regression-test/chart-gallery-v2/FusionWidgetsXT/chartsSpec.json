@@ -1,0 +1,4369 @@
+{
+    "fusioncharts-xt-chart-gallery-gauges-kpis-rating-meter": {
+        "description": "Rating Meter : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Nordstorm's Customer Satisfaction Score for 2017",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "showValue": "1",
+                    "numberSuffix": "%",
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "showToolTip": "0"
+                },
+                "colorRange": {
+                    "color": [{
+                        "minValue": "0",
+                        "maxValue": "50",
+                        "code": "#F2726F"
+                    }, {
+                        "minValue": "50",
+                        "maxValue": "75",
+                        "code": "#FFC533"
+                    }, {
+                        "minValue": "75",
+                        "maxValue": "100",
+                        "code": "#62B58F"
+                    }]
+                },
+                "dials": {
+                    "dial": [{
+                        "value": "81"
+                    }]
+                }
+            },
+            "height": "250",
+            "type": "angulargauge",
+            "width": "250"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-gauges-kpis-rating-meter.png",
+        "id": "fusioncharts-xt-chart-gallery-gauges-kpis-rating-meter"
+    },
+    "fusioncharts-xt-chart-gallery-gauges-kpis-speedometer": {
+        "description": "Speedometer : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "captionPadding": "0",
+                    "origw": "320",
+                    "origh": "300",
+                    "gaugeouterradius": "115",
+                    "gaugestartangle": "270",
+                    "gaugeendangle": "-25",
+                    "showValue": "1",
+                    "valueFontSize": "30",
+                    "majorTMNumber": "13",
+                    "majortmthickness": "2",
+                    "majorTMHeight": "13",
+                    "minorTMHeight": "7",
+                    "minorTMthickness": "1",
+                    "minorTMNumber": "1",
+                    "showGaugeBorder": "0",
+                    "theme": "fusion",
+ 					"animation": 0
+                },
+                "colorRange": {
+                    "color": [{
+                        "minValue": "0",
+                        "maxValue": "110",
+                        "code": "#999999"
+                    }, {
+                        "minValue": "110",
+                        "maxValue": "280",
+                        "code": "#F6F6F6"
+                    }]
+                },
+                "dials": {
+                    "dial": [{
+                        "value": "110",
+                        "bgColor": "#F20F2F",
+                        "baseWidth": "8"
+                    }]
+                },
+                "annotations": {
+                    "groups": [{
+                        "items": [{
+                            "type": "text",
+                            "id": "text",
+                            "text": "mph",
+                            "x": "$gaugeCenterX",
+                            "y": "$gaugeCenterY + 40",
+                            "fontSize": "20",
+                            "color": "#555555"
+                        }]
+                    }]
+                }
+            },
+            "height": "400",
+            "type": "angulargauge",
+            "width": "400"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-gauges-kpis-speedometer.png",
+        "id": "fusioncharts-xt-chart-gallery-gauges-kpis-speedometer"
+    },
+    "fusioncharts-xt-chart-gallery-gauges-kpis-quarter-gauge": {
+        "description": "Quarter gauge : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Pressure",
+                    "captionOnTop": "0",
+                    "origw": "380",
+                    "origh": "250",
+                    "gaugeStartAngle": "135",
+                    "gaugeEndAngle": "45",
+                    "gaugeOriginX": "190",
+                    "gaugeOriginY": "220",
+                    "gaugeOuterRadius": "190",
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "showValue": "1",
+                    "numberSuffix": " MPa",
+                    "valueFontSize": "25"
+                },
+                "colorRange": {
+                    "color": [{
+                        "minValue": "0",
+                        "maxValue": "0.2",
+                        "code": "#62B58F"
+                    }, {
+                        "minValue": "0.2",
+                        "maxValue": "0.4",
+                        "code": "#FFC533"
+                    }, {
+                        "minValue": "0.4",
+                        "maxValue": "0.6",
+                        "code": "#F2726F"
+                    }]
+                },
+                "dials": {
+                    "dial": [{
+                        "value": "0.3",
+                        "toolText": "Moderate Pressure"
+                    }]
+                }
+            },
+            "height": "350",
+            "type": "angulargauge",
+            "width": "350"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-gauges-kpis-quarter-gauge.png",
+        "id": "fusioncharts-xt-chart-gallery-gauges-kpis-quarter-gauge"
+    },
+    "fusioncharts-xt-chart-gallery-gauges-kpis-gauge-with-trend": {
+        "description": "Gauge with trend : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Walmart's Customer Satisfaction Score",
+                    "subCaption": "2017",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "showValue": "1",
+                    "numberSuffix": "%",
+                    "theme": "fusion",
+ 					"animation": 0
+                },
+                "colorRange": {
+                    "color": [{
+                        "minValue": "0",
+                        "maxValue": "50",
+                        "code": "#F2726F"
+                    }, {
+                        "minValue": "50",
+                        "maxValue": "75",
+                        "code": "#FFC533"
+                    }, {
+                        "minValue": "75",
+                        "maxValue": "100",
+                        "code": "#62B58F"
+                    }]
+                },
+                "dials": {
+                    "dial": [{
+                        "value": "71",
+                        "toolText": "<b>9%</b> lesser that target"
+                    }]
+                },
+                "trendPoints": {
+                    "point": [{
+                        "startValue": "80",
+                        "displayValue": "Target",
+                        "thickness": "2",
+                        "color": "#E15A26",
+                        "useMarker": "1",
+                        "markerBorderColor": "#E15A26",
+                        "markerTooltext": "80%"
+                    }]
+                }
+            },
+            "height": "250",
+            "type": "angulargauge",
+            "width": "250"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-gauges-kpis-gauge-with-trend.png",
+        "id": "fusioncharts-xt-chart-gallery-gauges-kpis-gauge-with-trend"
+    },
+    "fusioncharts-xt-chart-gallery-gauges-kpis-linear-scale": {
+        "description": "Linear Scale : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Electromagnetic Water Flow Meter",
+                    "subCaption": "Pressure Reading",
+                    "numberSuffix": "psi",
+                    "gaugeFillMix": "{dark-20},{light+70},{dark-10}",
+                    "theme": "fusion",
+ 					"animation": 0
+                },
+                "colorRange": {
+                    "color": [{
+                        "minValue": "0",
+                        "maxValue": "5",
+                        "label": "Below{br}Average",
+                        "code": "#F2726F"
+                    }, {
+                        "minValue": "5",
+                        "maxValue": "7.5",
+                        "label": "Average",
+                        "code": "#FFC533"
+                    }, {
+                        "minValue": "7.5",
+                        "maxValue": "10",
+                        "label": "High",
+                        "code": "#62B58F"
+                    }]
+                },
+                "pointers": {
+                    "pointer": [{
+                        "value": "5"
+                    }]
+                }
+            },
+            "height": "200",
+            "type": "hlineargauge",
+            "width": "200"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-gauges-kpis-linear-scale.png",
+        "id": "fusioncharts-xt-chart-gallery-gauges-kpis-linear-scale"
+    },
+    "fusioncharts-xt-chart-gallery-gauges-kpis-linear-scale-with-colored-categories": {
+        "description": "Linear Scale with colored categories : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Customer Satisfaction Score",
+                    "subcaption": "Current week - Garden Groove Harbour",
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "showValue": "0",
+                    "pointerBgHoverColor": "#ffffff",
+                    "pointerBgHoverAlpha": "80",
+                    "pointerHoverRadius": "12",
+                    "showBorderOnHover": "1",
+                    "pointerBorderHoverColor": "#333333",
+                    "pointerBorderHoverThickness": "2",
+                    "showTickMarks": "0",
+                    "numberSuffix": "%"
+                },
+                "colorRange": {
+                    "color": [{
+                        "minValue": "0",
+                        "maxValue": "35",
+                        "label": "Low",
+                        "code": "#e44a00"
+                    }, {
+                        "minValue": "35",
+                        "maxValue": "70",
+                        "label": "Moderate",
+                        "code": "#f8bd19"
+                    }, {
+                        "minValue": "70",
+                        "maxValue": "100",
+                        "label": "High",
+                        "code": "#6baa01"
+                    }]
+                },
+                "pointers": {
+                    "pointer": [{
+                        "value": "72.5",
+                        "toolText": "Higher degree of satisfaction score of $datavalue  "
+                    }]
+                }
+            },
+            "height": "140",
+            "type": "hlineargauge",
+            "width": "140"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-gauges-kpis-linear-scale-with-colored-categories.png",
+        "id": "fusioncharts-xt-chart-gallery-gauges-kpis-linear-scale-with-colored-categories"
+    },
+    "fusioncharts-xt-chart-gallery-gauges-kpis-cylinder-fill": {
+        "description": "Cylinder fill : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "LPG Level Indicator",
+                    "lowerLimit": "0",
+                    "upperLimit": "25",
+                    "lowerLimitDisplay": "Empty",
+                    "upperLimitDisplay": "Full",
+                    "numberSuffix": " ltrs",
+                    "cylFillColor": "#5D62B5",
+                    "plottooltext": "LPG Consumption: <b>20 ltrs</b>",
+                    "cylFillHoverAlpha": "85",
+                    "theme": "fusion",
+ 					"animation": 0
+                },
+                "value": "20"
+            },
+            "height": "250",
+            "type": "cylinder",
+            "width": "250"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-gauges-kpis-cylinder-fill.png",
+        "id": "fusioncharts-xt-chart-gallery-gauges-kpis-cylinder-fill"
+    },
+    "fusioncharts-xt-chart-gallery-gauges-kpis-horizontal-leds": {
+        "description": "Horizontal LEDs : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "RPM Monitor",
+                    "lowerLimitDisplay": "Min",
+                    "upperLimitDisplay": "Max",
+                    "numberSuffix": " rpm",
+                    "chartBottomMargin": "35",
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "showValue": "0"
+                },
+                "colorRange": {
+                    "color": [{
+                        "minValue": "0",
+                        "maxValue": "5"
+                    }, {
+                        "minValue": "5",
+                        "maxValue": "7.5"
+                    }, {
+                        "minValue": "7.5",
+                        "maxValue": "10"
+                    }]
+                },
+                "value": "8"
+            },
+            "height": "200",
+            "type": "hled",
+            "width": "200"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-gauges-kpis-horizontal-leds.png",
+        "id": "fusioncharts-xt-chart-gallery-gauges-kpis-horizontal-leds"
+    },
+    "fusioncharts-xt-chart-gallery-gauges-kpis-vertical-leds": {
+        "description": "Vertical LEDs : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "LA New Years Eve",
+                    "subCaption": "(Decibel Meter)",
+                    "upperLimit": "200",
+                    "numberSuffix": " db",
+                    "showValue": "0",
+                    "chartBottomMargin": "50",
+                    "ledGap": "1",
+                    "theme": "fusion",
+ 					"animation": 0
+                },
+                "colorRange": {
+                    "color": [{
+                        "minValue": "100",
+                        "maxValue": "150",
+                        "code": "#80dfff"
+                    }, {
+                        "minValue": "150",
+                        "maxValue": "180",
+                        "code": "#ff944d"
+                    }, {
+                        "minValue": "180",
+                        "maxValue": "200",
+                        "code": "#ff3300"
+                    }]
+                },
+                "value": "125"
+            },
+            "height": "400",
+            "type": "vled",
+            "width": "400"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-gauges-kpis-vertical-leds.png",
+        "id": "fusioncharts-xt-chart-gallery-gauges-kpis-vertical-leds"
+    },
+    "fusioncharts-xt-chart-gallery-gauges-kpis-thermometer-display": {
+        "description": "Thermometer display : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Car Engine Temperature",
+                    "subCaption": "(Per Quarter minute)",
+                    "lowerLimit": "120",
+                    "upperLimit": "200",
+                    "numberSuffix": "°F",
+                    "thmFillColor": "#008ee4",
+                    "showGaugeBorder": "1",
+                    "gaugeBorderColor": "#008ee4",
+                    "gaugeBorderThickness": "2",
+                    "plotToolText": "Temperature: <b>$datavalue</b> ",
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "showValue": "0"
+                },
+                "value": "140"
+            },
+            "height": "400",
+            "type": "thermometer",
+            "width": "400"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-gauges-kpis-thermometer-display.png",
+        "id": "fusioncharts-xt-chart-gallery-gauges-kpis-thermometer-display"
+    },
+    "fusioncharts-xt-chart-gallery-gauges-kpis-bulb-indicator": {
+        "description": "Bulb indicator : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "RAM Overload Indicator",
+                    "upperlimit": "0",
+                    "lowerlimit": "25",
+                    "useColorNameAsValue": "1",
+                    "placeValuesInside": "1",
+                    "valueFontSize": "20",
+                    "plottooltext": "$value Apps Running",
+                    "theme": "fusion",
+ 					"animation": 0
+                },
+                "colorrange": {
+                    "color": [{
+                        "minvalue": "0",
+                        "maxvalue": "10",
+                        "label": "Under",
+                        "code": "#62B58F"
+                    }, {
+                        "minvalue": "10",
+                        "maxvalue": "20",
+                        "label": "Moderate",
+                        "code": "#FFC533"
+                    }, {
+                        "minvalue": "20",
+                        "maxvalue": "25",
+                        "label": "High",
+                        "code": "#F2726F"
+                    }]
+                },
+                "value": "9"
+            },
+            "height": "200",
+            "type": "bulb",
+            "width": "200"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-gauges-kpis-bulb-indicator.png",
+        "id": "fusioncharts-xt-chart-gallery-gauges-kpis-bulb-indicator"
+    },
+    "fusioncharts-xt-chart-gallery-gantt-project-charts-simple-gantt": {
+        "description": "Simple gantt : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "mm/dd/yyyy",
+                    "caption": "Event Planning Process",
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "canvasBorderAlpha": "40",
+                    "ganttLineAlpha": "50"
+                },
+                "tasks": {
+                    "color": "#5D62B5",
+                    "task": [{
+                        "start": "03/07/2018",
+                        "end": "03/17/2018"
+                    }, {
+                        "start": "03/14/2018",
+                        "end": "03/28/2018"
+                    }, {
+                        "start": "03/15/2018",
+                        "end": "03/31/2018"
+                    }, {
+                        "start": "04/02/2018",
+                        "end": "04/12/2018"
+                    }, {
+                        "start": "04/12/2018",
+                        "end": "04/30/2018"
+                    }, {
+                        "start": "04/20/2018",
+                        "end": "05/06/2018"
+                    }, {
+                        "start": "04/30/2018",
+                        "end": "05/10/2018"
+                    }, {
+                        "start": "04/30/2018",
+                        "end": "05/25/2018"
+                    }, {
+                        "start": "05/04/2018",
+                        "end": "06/05/2018"
+                    }]
+                },
+                "processes": {
+                    "headertext": "Task",
+                    "headerAlign": "left",
+                    "fontsize": "14",
+                    "isbold": "0",
+                    "align": "left",
+                    "process": [{
+                        "label": "Define event goals"
+                    }, {
+                        "label": "Source venue options"
+                    }, {
+                        "label": "Finalize speaker reach out list"
+                    }, {
+                        "label": "Compose sponsorship strategy"
+                    }, {
+                        "label": "Reach out to sponsors"
+                    }, {
+                        "label": "Create social media campaign"
+                    }, {
+                        "label": "Reach out to blogs for backlinks"
+                    }, {
+                        "label": "Optimize SEO ranking"
+                    }, {
+                        "label": "Publish event lead up vlog series"
+                    }]
+                },
+                "categories": [{
+                    "category": [{
+                        "start": "03/05/2018",
+                        "end": "03/31/2018",
+                        "label": "March"
+                    }, {
+                        "start": "04/01/2018",
+                        "end": "04/30/2018",
+                        "label": "April"
+                    }, {
+                        "start": "05/01/2018",
+                        "end": "05/31/2018",
+                        "label": "May"
+                    }, {
+                        "start": "06/01/2018",
+                        "end": "06/10/2018",
+                        "label": "June"
+                    }]
+                }, {
+                    "category": [{
+                        "start": "03/05/2018",
+                        "end": "03/11/2018",
+                        "label": "W 1"
+                    }, {
+                        "start": "03/12/2018",
+                        "end": "03/18/2018",
+                        "label": "W 2"
+                    }, {
+                        "start": "03/19/2018",
+                        "end": "03/25/2018",
+                        "label": "W 3"
+                    }, {
+                        "start": "03/26/2018",
+                        "end": "04/01/2018",
+                        "label": "W 4"
+                    }, {
+                        "start": "04/02/2018",
+                        "end": "04/08/2018",
+                        "label": "W 5"
+                    }, {
+                        "start": "04/09/2018",
+                        "end": "04/15/2018",
+                        "label": "W 6"
+                    }, {
+                        "start": "04/16/2018",
+                        "end": "04/22/2018",
+                        "label": "W 7"
+                    }, {
+                        "start": "04/23/2018",
+                        "end": "04/29/2018",
+                        "label": "W 8"
+                    }, {
+                        "start": "04/30/2018",
+                        "end": "05/06/2018",
+                        "label": "W 9"
+                    }, {
+                        "start": "05/07/2018",
+                        "end": "05/13/2018",
+                        "label": "W 10"
+                    }, {
+                        "start": "05/14/2018",
+                        "end": "05/20/2018",
+                        "label": "W 11"
+                    }, {
+                        "start": "05/21/2018",
+                        "end": "05/27/2018",
+                        "label": "W 12"
+                    }, {
+                        "start": "05/28/2018",
+                        "end": "06/03/2018",
+                        "label": "W 13"
+                    }, {
+                        "start": "06/04/2018",
+                        "end": "06/10/2018",
+                        "label": "W 14"
+                    }]
+                }]
+            },
+            "height": "500",
+            "type": "gantt",
+            "width": "500"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-gantt-project-charts-simple-gantt.png",
+        "id": "fusioncharts-xt-chart-gallery-gantt-project-charts-simple-gantt"
+    },
+    "fusioncharts-xt-chart-gallery-gantt-project-charts-with-progress-indicators-for-each-task": {
+        "description": "With progress indicators for each task : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "mm/dd/yyyy",
+                    "caption": "Project Schedule for Operation BigHead",
+                    "subcaption": "",
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "canvasBorderAlpha": "40",
+                    "ganttLineAlpha": "50",
+                    "plotToolText": "$PercentComplete complete"
+                },
+                "tasks": {
+                    "color": "#008000",
+                    "task": [{
+                        "start": "11/30/2016",
+                        "end": "12/07/2016",
+                        "percentComplete": "100",
+                        "height": "27%",
+                        "toppadding": "32%"
+                    }, {
+                        "start": "12/05/2016",
+                        "end": "12/16/2016",
+                        "percentComplete": "100",
+                        "height": "27%",
+                        "toppadding": "32%"
+                    }, {
+                        "start": "12/05/2016",
+                        "end": "01/08/2017",
+                        "percentComplete": "75",
+                        "height": "27%",
+                        "toppadding": "32%"
+                    }, {
+                        "start": "12/05/2016",
+                        "end": "01/09/2017",
+                        "percentComplete": "80",
+                        "height": "27%",
+                        "toppadding": "32%"
+                    }, {
+                        "start": "12/10/2016",
+                        "end": "01/20/2017",
+                        "percentComplete": "60",
+                        "height": "27%",
+                        "toppadding": "32%"
+                    }, {
+                        "start": "12/14/2016",
+                        "end": "12/28/2016",
+                        "percentComplete": "35",
+                        "height": "27%",
+                        "toppadding": "32%"
+                    }, {
+                        "start": "12/26/2016",
+                        "end": "01/10/2017",
+                        "percentComplete": "40",
+                        "height": "27%",
+                        "toppadding": "32%"
+                    }, {
+                        "start": "12/26/2016",
+                        "end": "01/10/2017",
+                        "percentComplete": "50",
+                        "height": "27%",
+                        "toppadding": "32%"
+                    }, {
+                        "start": "01/10/2017",
+                        "end": "01/17/2017",
+                        "percentComplete": "20",
+                        "height": "27%",
+                        "toppadding": "32%"
+                    }, {
+                        "start": "01/18/2017",
+                        "end": "02/02/2017",
+                        "percentComplete": "5",
+                        "height": "27%",
+                        "toppadding": "32%"
+                    }, {
+                        "start": "01/18/2017",
+                        "end": "02/02/2017",
+                        "percentComplete": "0",
+                        "height": "27%",
+                        "toppadding": "32%"
+                    }, {
+                        "start": "02/02/2017",
+                        "end": "02/05/2017",
+                        "percentComplete": "20",
+                        "height": "27%",
+                        "toppadding": "32%"
+                    }]
+                },
+                "processes": {
+                    "headertext": "Task",
+                    "headerAlign": "left",
+                    "fontsize": "14",
+                    "isbold": "0",
+                    "align": "left",
+                    "process": [{
+                        "label": "Finalize and Approve Plan"
+                    }, {
+                        "label": "Prerpare Drawings"
+                    }, {
+                        "label": "Analyze Potential Market"
+                    }, {
+                        "label": "Write Specification"
+                    }, {
+                        "label": "Develop Marketing Concept"
+                    }, {
+                        "label": "Build Prototype"
+                    }, {
+                        "label": "Procure Raw Materials"
+                    }, {
+                        "label": "Prepare Manufacturing Facility"
+                    }, {
+                        "label": "Initial Production Run"
+                    }, {
+                        "label": "Evaluate Product In-House"
+                    }, {
+                        "label": "Test Product In Sample Market"
+                    }, {
+                        "label": "Begin Full Scale Marketing"
+                    }]
+                },
+                "categories": [{
+                    "category": [{
+                        "start": "11/23/2016",
+                        "end": "11/30/2016",
+                        "label": "Nov {br} 30"
+                    }, {
+                        "start": "12/01/2016",
+                        "end": "12/07/2016",
+                        "label": "Dec{br}07"
+                    }, {
+                        "start": "12/08/2016",
+                        "end": "12/14/2016",
+                        "label": "Dec{br}14"
+                    }, {
+                        "start": "12/15/2016",
+                        "end": "12/21/2016",
+                        "label": "Dec{br}21"
+                    }, {
+                        "start": "12/22/2016",
+                        "end": "12/28/2016",
+                        "label": "Dec{br}28"
+                    }, {
+                        "start": "12/28/2016",
+                        "end": "01/04/2017",
+                        "label": "Jan{br}04"
+                    }, {
+                        "start": "01/05/2017",
+                        "end": "01/11/2017",
+                        "label": "Jan{br}11"
+                    }, {
+                        "start": "01/12/2017",
+                        "end": "01/18/2017",
+                        "label": "Jan{br}18"
+                    }, {
+                        "start": "01/19/2017",
+                        "end": "01/25/2017",
+                        "label": "Jan{br}25"
+                    }, {
+                        "start": "01/26/2017",
+                        "end": "02/01/2017",
+                        "label": "Feb{br}01"
+                    }, {
+                        "start": "02/02/2017",
+                        "end": "02/08/2017",
+                        "label": "Feb{br}08"
+                    }, {
+                        "start": "02/09/2017",
+                        "end": "02/15/2017",
+                        "label": "Feb{br}15"
+                    }]
+                }]
+            },
+            "height": "550",
+            "type": "gantt",
+            "width": "550"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-gantt-project-charts-with-progress-indicators-for-each-task.png",
+        "id": "fusioncharts-xt-chart-gallery-gantt-project-charts-with-progress-indicators-for-each-task"
+    },
+    "fusioncharts-xt-chart-gallery-gantt-project-charts-with-task-owner-listed---multi-level-dates": {
+        "description": "With task owner listed & multi-level dates : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "mm/dd/yyyy",
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "useVerticalScrolling": "0"
+                },
+                "datatable": {
+                    "headervalign": "bottom",
+                    "datacolumn": [{
+                        "headertext": "Owner",
+                        "headervalign": "bottom",
+                        "headeralign": "left",
+                        "align": "left",
+                        "text": [{
+                            "label": "Product Team"
+                        }, {
+                            "label": "Marketing Team"
+                        }, {
+                            "label": "Product Team"
+                        }, {
+                            "label": "Dev Team"
+                        }, {
+                            "label": "Design Team"
+                        }, {
+                            "label": "Dev Team"
+                        }, {
+                            "label": "QA Team"
+                        }, {
+                            "label": "Product Team"
+                        }, {
+                            "label": "Marketing Team"
+                        }]
+                    }]
+                },
+                "tasks": {
+                    "task": [{
+                        "start": "1/1/2018",
+                        "end": "1/13/2018",
+                        "color": "#5D62B5"
+                    }, {
+                        "start": "1/4/2018",
+                        "end": "1/21/2018",
+                        "color": "#29C3BE"
+                    }, {
+                        "start": "1/22/2018",
+                        "end": "2/4/2018",
+                        "color": "#5D62B5"
+                    }, {
+                        "start": "2/5/2018",
+                        "end": "2/11/2018",
+                        "color": "#F2726F"
+                    }, {
+                        "start": "2/12/2018",
+                        "end": "2/18/2018",
+                        "color": "#FFC533"
+                    }, {
+                        "start": "2/19/2018",
+                        "end": "3/11/2018",
+                        "color": "#F2726F"
+                    }, {
+                        "start": "3/12/2018",
+                        "end": "3/18/2018",
+                        "color": "#62B58F"
+                    }, {
+                        "start": "3/16/2018",
+                        "end": "3/23/2018",
+                        "color": "#5D62B5"
+                    }, {
+                        "start": "3/24/2018",
+                        "end": "3/29/2018",
+                        "color": "#29C3BE"
+                    }]
+                },
+                "processes": {
+                    "align": "left",
+                    "headerText": "Tasks",
+                    "headerVAlign": "bottom",
+                    "headerAlign": "left",
+                    "process": [{
+                        "label": "PRD & User-Stories"
+                    }, {
+                        "label": "Persona & Journey"
+                    }, {
+                        "label": "Architecture"
+                    }, {
+                        "label": "Prototyping"
+                    }, {
+                        "label": "Design"
+                    }, {
+                        "label": "Development"
+                    }, {
+                        "label": "Testing & QA"
+                    }, {
+                        "label": "UAT Test"
+                    }, {
+                        "label": "Handover & Documentation"
+                    }]
+                },
+                "categories": [{
+                    "category": [{
+                        "start": "1/1/2018",
+                        "end": "4/1/2018",
+                        "label": "Project Pipeline for Q1-2018"
+                    }]
+                }, {
+                    "category": [{
+                        "start": "1/1/2018",
+                        "end": "1/31/2018",
+                        "label": "Jan"
+                    }, {
+                        "start": "2/1/2018",
+                        "end": "2/28/2018",
+                        "label": "Feb"
+                    }, {
+                        "start": "3/1/2018",
+                        "end": "4/1/2018",
+                        "label": "Mar"
+                    }]
+                }, {
+                    "category": [{
+                        "start": "1/1/2018",
+                        "end": "1/7/2018",
+                        "label": "Week 1"
+                    }, {
+                        "start": "1/8/2018",
+                        "end": "1/14/2018",
+                        "label": "Week 2"
+                    }, {
+                        "start": "1/15/2018",
+                        "end": "1/21/2018",
+                        "label": "Week 3"
+                    }, {
+                        "start": "1/22/2018",
+                        "end": "1/28/2018",
+                        "label": "Week 4"
+                    }, {
+                        "start": "1/29/2018",
+                        "end": "2/4/2018",
+                        "label": "Week 5"
+                    }, {
+                        "start": "2/5/2018",
+                        "end": "2/11/2018",
+                        "label": "Week 6"
+                    }, {
+                        "start": "2/12/2018",
+                        "end": "2/18/2018",
+                        "label": "Week 7"
+                    }, {
+                        "start": "2/19/2018",
+                        "end": "2/25/2018",
+                        "label": "Week 8"
+                    }, {
+                        "start": "2/26/2018",
+                        "end": "3/4/2018",
+                        "label": "Week 9"
+                    }, {
+                        "start": "3/5/2018",
+                        "end": "3/11/2018",
+                        "label": "Week 10"
+                    }, {
+                        "start": "3/12/2018",
+                        "end": "3/18/2018",
+                        "label": "Week 11"
+                    }, {
+                        "start": "3/19/2018",
+                        "end": "3/25/2018",
+                        "label": "Week 12"
+                    }, {
+                        "start": "3/26/2018",
+                        "end": "4/1/2018",
+                        "label": "Week 13"
+                    }]
+                }]
+            },
+            "height": "500",
+            "type": "gantt",
+            "width": "500"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-gantt-project-charts-with-task-owner-listed---multi-level-dates.png",
+        "id": "fusioncharts-xt-chart-gallery-gantt-project-charts-with-task-owner-listed---multi-level-dates"
+    },
+    "fusioncharts-xt-chart-gallery-gantt-project-charts-grouped-view-of-tasks": {
+        "description": "Grouped view of tasks : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "dd/mm/yyyy",
+                    "outputdateformat": "ddds mns yy",
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "ganttPaneDuration": "110",
+                    "ganttPaneDurationUnit": "d",
+                    "useVerticalScrolling": "0"
+                },
+                "connectors": [{
+                    "connector": [{
+                        "fromtaskid": "2-A",
+                        "totaskid": "2-B",
+                        "color": "#FFC533",
+                        "thickness": "2"
+                    }, {
+                        "fromtaskid": "3-A",
+                        "totaskid": "3-B",
+                        "color": "#FFC533",
+                        "thickness": "2"
+                    }, {
+                        "fromtaskid": "4-A",
+                        "totaskid": "4-B",
+                        "color": "#FFC533",
+                        "thickness": "2"
+                    }, {
+                        "fromtaskid": "5-A",
+                        "totaskid": "5-B",
+                        "color": "#FFC533",
+                        "thickness": "2"
+                    }, {
+                        "fromtaskid": "5-A",
+                        "totaskid": "6",
+                        "color": "#FFC533",
+                        "thickness": "2"
+                    }]
+                }],
+                "tasks": {
+                    "task": [{
+                        "label": "Rescue the Princess",
+                        "processid": "1",
+                        "start": "1/1/2018",
+                        "end": "30/4/2018",
+                        "id": "1-1",
+                        "color": "#5D62B5",
+                        "showAsGroup": "1"
+                    }, {
+                        "label": "Fight the Minions",
+                        "processid": "2",
+                        "start": "1/1/2018",
+                        "end": "31/1/2018",
+                        "id": "2-2",
+                        "color": "#29C3BE",
+                        "showAsGroup": "1"
+                    }, {
+                        "label": "The Undeads & Bugs",
+                        "processid": "2.1",
+                        "start": "1/1/2018",
+                        "end": "18/1/2018",
+                        "id": "2-A",
+                        "color": "#29C3BE",
+                        "showAsGroup": "0"
+                    }, {
+                        "label": "Sign",
+                        "processid": "2.2",
+                        "start": "18/1/2018",
+                        "end": "31/1/2018",
+                        "id": "2-B",
+                        "color": "#29C3BE",
+                        "showAsGroup": "0"
+                    }, {
+                        "label": "Get to the Castle",
+                        "processid": "3",
+                        "start": "1/2/2018",
+                        "end": "3/3/2018",
+                        "id": "3-3",
+                        "color": "#F2726F",
+                        "showAsGroup": "1"
+                    }, {
+                        "label": "Find the Map",
+                        "processid": "3.1",
+                        "start": "1/2/2018",
+                        "end": "15/2/2018",
+                        "id": "3-A",
+                        "color": "#F2726F",
+                        "showAsGroup": "0"
+                    }, {
+                        "label": "Find the Horse",
+                        "processid": "3.2",
+                        "start": "15/2/2018",
+                        "end": "3/3/2018",
+                        "id": "3-B",
+                        "color": "#F2726F",
+                        "showAsGroup": "0"
+                    }, {
+                        "label": "Get Past Witch",
+                        "processid": "4",
+                        "start": "3/3/2018",
+                        "end": "23/3/2018",
+                        "id": "4-4",
+                        "color": "#62B58F",
+                        "showAsGroup": "1"
+                    }, {
+                        "label": "Shield & Eye Contact",
+                        "processid": "4.1",
+                        "start": "3/3/2018",
+                        "end": "17/3/2018",
+                        "id": "4-A",
+                        "color": "#62B58F",
+                        "showAsGroup": "0"
+                    }, {
+                        "label": "Run when She's calm",
+                        "processid": "4.2",
+                        "start": "17/3/2018",
+                        "end": "23/3/2018",
+                        "id": "4-B",
+                        "color": "#62B58F",
+                        "showAsGroup": "0"
+                    }, {
+                        "label": "Battle",
+                        "processid": "5",
+                        "start": "23/3/2018",
+                        "end": "24/4/2018",
+                        "id": "5-5",
+                        "color": "#BC95DF",
+                        "showAsGroup": "1"
+                    }, {
+                        "label": "Find new Sword & Shield",
+                        "processid": "5.1",
+                        "start": "23/3/2018",
+                        "end": "10/4/2018",
+                        "id": "5-A",
+                        "color": "#BC95DF",
+                        "showAsGroup": "0"
+                    }, {
+                        "label": "Prepare for Battle",
+                        "processid": "5.2",
+                        "start": "10/4/2018",
+                        "end": "24/4/2018",
+                        "id": "5-B",
+                        "color": "#BC95DF",
+                        "showAsGroup": "0"
+                    }, {
+                        "label": "Marry the Princess",
+                        "processid": "6",
+                        "start": "24/4/2018",
+                        "end": "30/4/2018",
+                        "id": "6-6",
+                        "color": "#67CDF2",
+                        "showAsGroup": "0"
+                    }]
+                },
+                "processes": {
+                    "headertext": "Task",
+                    "isanimated": "1",
+                    "headervalign": "bottom",
+                    "headeralign": "left",
+                    "align": "left",
+                    "process": [{
+                        "label": "Rescue the Princess",
+                        "id": "1"
+                    }, {
+                        "label": "Fight the Minions",
+                        "id": "2"
+                    }, {
+                        "label": "The Undeads & Bugs",
+                        "id": "2.1"
+                    }, {
+                        "label": "Sign",
+                        "id": "2.2"
+                    }, {
+                        "label": "Get to the Castle",
+                        "id": "3"
+                    }, {
+                        "label": "Find the Map",
+                        "id": "3.1"
+                    }, {
+                        "label": "Find the Horse",
+                        "id": "3.2"
+                    }, {
+                        "label": "Get Past Witch",
+                        "id": "4"
+                    }, {
+                        "label": "Shield & Eye Contact",
+                        "id": "4.1"
+                    }, {
+                        "label": "Run when She's calm",
+                        "id": "4.2"
+                    }, {
+                        "label": "Battle",
+                        "id": "5"
+                    }, {
+                        "label": "Find new Sword & Shield",
+                        "id": "5.1"
+                    }, {
+                        "label": "Prepare for Battle",
+                        "id": "5.2"
+                    }, {
+                        "label": "Marry the Princess",
+                        "id": "6"
+                    }]
+                },
+                "categories": [{
+                    "category": [{
+                        "start": "1/1/2018",
+                        "end": "30/4/2018",
+                        "label": "2018",
+                        "align": "middle"
+                    }]
+                }, {
+                    "align": "middle",
+                    "category": [{
+                        "start": "1/1/2018",
+                        "end": "31/1/2018",
+                        "label": "January"
+                    }, {
+                        "start": "1/2/2018",
+                        "end": "28/2/2018",
+                        "label": "February"
+                    }, {
+                        "start": "1/3/2018",
+                        "end": "31/3/2018",
+                        "label": "March"
+                    }, {
+                        "start": "1/4/2018",
+                        "end": "30/4/2018",
+                        "label": "April"
+                    }]
+                }]
+            },
+            "height": "500",
+            "type": "gantt",
+            "width": "500"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-gantt-project-charts-grouped-view-of-tasks.png",
+        "id": "fusioncharts-xt-chart-gallery-gantt-project-charts-grouped-view-of-tasks"
+    },
+    "fusioncharts-xt-chart-gallery-gantt-project-charts-showing-planning-vs-actuals": {
+        "description": "Showing planning vs actuals : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "dd/mm/yyyy",
+                    "caption": "Planned vs Actual",
+                    "subcaption": "For BigHead v3",
+                    "plottooltext": "<b>$label</b><br>Start: <b>$start</b><br>End: <b>$end</b>",
+                    "theme": "fusion",
+ 					"animation": 0
+                },
+                "legend": {
+                    "item": [{
+                        "label": "Planned",
+                        "color": "#0000AA"
+                    }, {
+                        "label": "Actual",
+                        "color": "#88D8B0"
+                    }, {
+                        "label": "Slack (Delay)",
+                        "color": "#e44a00"
+                    }]
+                },
+                "tasks": {
+                    "task": [{
+                        "label": "Planned",
+                        "processid": "1",
+                        "start": "5/4/2018",
+                        "end": "12/4/2018",
+                        "id": "1-1",
+                        "color": "#0000AA",
+                        "alpha": "100",
+                        "height": "27%",
+                        "toppadding": "32%"
+                    }, {
+                        "label": "Actual",
+                        "processid": "1",
+                        "start": "5/4/2018",
+                        "end": "12/4/2018",
+                        "id": "1",
+                        "color": "#88D8B0",
+                        "alpha": "100",
+                        "height": "27%",
+                        "toppadding": "65%"
+                    }, {
+                        "label": "Planned",
+                        "processid": "2",
+                        "start": "10/4/2018",
+                        "end": "20/4/2018",
+                        "id": "2-1",
+                        "color": "#0000AA",
+                        "alpha": "100",
+                        "height": "27%",
+                        "toppadding": "32%"
+                    }, {
+                        "label": "Actual",
+                        "processid": "2",
+                        "start": "10/4/2018",
+                        "end": "22/4/2018",
+                        "id": "2",
+                        "color": "#88D8B0",
+                        "alpha": "100",
+                        "height": "27%",
+                        "toppadding": "65%"
+                    }, {
+                        "label": "Delay",
+                        "processid": "2",
+                        "start": "20/4/2018",
+                        "end": "22/4/2018",
+                        "id": "2-2",
+                        "color": "#FF6F69",
+                        "alpha": "100",
+                        "height": "27%",
+                        "toppadding": "65%",
+                        "tooltext": "Delayed by 2 days."
+                    }, {
+                        "label": "Planned",
+                        "processid": "3",
+                        "start": "21/4/2018",
+                        "end": "30/4/2018",
+                        "id": "3-1",
+                        "color": "#0000AA",
+                        "alpha": "100",
+                        "height": "27%",
+                        "toppadding": "32%"
+                    }, {
+                        "label": "Actual",
+                        "processid": "3",
+                        "start": "22/4/2018",
+                        "end": "1/5/2018",
+                        "id": "3",
+                        "color": "#88D8B0",
+                        "alpha": "100",
+                        "height": "27%",
+                        "toppadding": "65%"
+                    }, {
+                        "label": "Delay",
+                        "processid": "3",
+                        "start": "30/4/2018",
+                        "end": "1/5/2018",
+                        "id": "3-2",
+                        "color": "#FF6F69",
+                        "alpha": "100",
+                        "height": "27%",
+                        "toppadding": "65%",
+                        "tooltext": "Delayed by 1 day"
+                    }, {
+                        "label": "Planned",
+                        "processid": "4",
+                        "start": "02/5/2018",
+                        "end": "10/5/2018",
+                        "id": "4-1",
+                        "color": "#0000AA",
+                        "alpha": "100",
+                        "height": "27%",
+                        "toppadding": "32%"
+                    }, {
+                        "label": "Actual",
+                        "processid": "4",
+                        "start": "4/5/2018",
+                        "end": "10/5/2018",
+                        "id": "4",
+                        "color": "#88D8B0",
+                        "alpha": "100",
+                        "height": "27%",
+                        "toppadding": "65%"
+                    }, {
+                        "label": "Planned",
+                        "processid": "5",
+                        "start": "5/5/2018",
+                        "end": "16/5/2018",
+                        "id": "5-1",
+                        "color": "#0000AA",
+                        "alpha": "100",
+                        "height": "27%",
+                        "toppadding": "32%"
+                    }, {
+                        "label": "Actual",
+                        "processid": "5",
+                        "start": "6/5/2018",
+                        "end": "16/5/2018",
+                        "id": "5",
+                        "color": "#88D8B0",
+                        "alpha": "100",
+                        "height": "27%",
+                        "toppadding": "65%"
+                    }, {
+                        "label": "Planned",
+                        "processid": "6",
+                        "start": "16/5/2018",
+                        "end": "27/5/2018",
+                        "id": "6-1",
+                        "color": "#0000AA",
+                        "alpha": "100",
+                        "height": "27%",
+                        "toppadding": "32%"
+                    }, {
+                        "label": "Actual",
+                        "processid": "6",
+                        "start": "15/5/2018",
+                        "end": "31/5/2018",
+                        "id": "6",
+                        "color": "#88D8B0",
+                        "alpha": "100",
+                        "height": "27%",
+                        "toppadding": "65%"
+                    }, {
+                        "label": "Delay",
+                        "processid": "6",
+                        "start": "27/5/2018",
+                        "end": "1/6/2018",
+                        "id": "6-2",
+                        "color": "#FF6F69",
+                        "alpha": "100",
+                        "height": "27%",
+                        "toppadding": "65%",
+                        "tooltext": "Delayed by 4 days"
+                    }, {
+                        "label": "Planned",
+                        "processid": "7",
+                        "start": "1/6/2018",
+                        "end": "12/5/2018",
+                        "id": "7-1",
+                        "color": "#0000AA",
+                        "alpha": "100",
+                        "height": "27%",
+                        "toppadding": "32%"
+                    }, {
+                        "label": "Actual",
+                        "processid": "7",
+                        "start": "1/6/2018",
+                        "end": "12/5/2018",
+                        "id": "7",
+                        "color": "#88D8B0",
+                        "alpha": "100",
+                        "height": "27%",
+                        "toppadding": "65%"
+                    }, {
+                        "label": "Planned",
+                        "processid": "8",
+                        "start": "12/6/2018",
+                        "end": "20/6/2018",
+                        "id": "8-1",
+                        "color": "#0000AA",
+                        "alpha": "100",
+                        "height": "27%",
+                        "toppadding": "32%"
+                    }, {
+                        "label": "Actual",
+                        "processid": "8",
+                        "start": "12/6/2018",
+                        "end": "19/6/2018",
+                        "id": "8",
+                        "color": "#88D8B0",
+                        "alpha": "100",
+                        "height": "27%",
+                        "toppadding": "65%"
+                    }, {
+                        "label": "Planned",
+                        "processid": "9",
+                        "start": "20/6/2018",
+                        "end": "27/6/2018",
+                        "id": "9-1",
+                        "color": "#0000AA",
+                        "alpha": "100",
+                        "height": "27%",
+                        "toppadding": "32%"
+                    }, {
+                        "label": "Actual",
+                        "processid": "9",
+                        "start": "20/6/2018",
+                        "end": "30/6/2018",
+                        "id": "9",
+                        "color": "#88D8B0",
+                        "alpha": "100",
+                        "height": "27%",
+                        "toppadding": "65%"
+                    }, {
+                        "label": "Delay",
+                        "processid": "9",
+                        "start": "27/6/2018",
+                        "end": "30/6/2018",
+                        "id": "9-2",
+                        "color": "#FF6F69",
+                        "alpha": "100",
+                        "height": "27%",
+                        "toppadding": "65%",
+                        "tooltext": "Delayed by 3 days"
+                    }]
+                },
+                "processes": {
+                    "headertext": "Task",
+                    "align": "left",
+                    "process": [{
+                        "label": "Market Research",
+                        "id": "1"
+                    }, {
+                        "label": "Define Specifications",
+                        "id": "2"
+                    }, {
+                        "label": "Overall Architecture",
+                        "id": "3"
+                    }, {
+                        "label": "Project Planning",
+                        "id": "4"
+                    }, {
+                        "label": "Detail Design",
+                        "id": "5"
+                    }, {
+                        "label": "Software Development",
+                        "id": "6"
+                    }, {
+                        "label": "Test Plan",
+                        "id": "7"
+                    }, {
+                        "label": "Testing & QA",
+                        "id": "8"
+                    }, {
+                        "label": "User Documentation",
+                        "id": "9"
+                    }]
+                },
+                "categories": [{
+                    "category": [{
+                        "start": "1/4/2018",
+                        "end": "30/4/2018",
+                        "label": "April"
+                    }, {
+                        "start": "1/5/2018",
+                        "end": "31/5/2018",
+                        "label": "May"
+                    }, {
+                        "start": "1/6/2018",
+                        "end": "30/6/2018",
+                        "label": "June"
+                    }]
+                }, {
+                    "category": [{
+                        "start": "1/4/2018",
+                        "end": "7/4/2018",
+                        "label": "W 1"
+                    }, {
+                        "start": "8/4/2018",
+                        "end": "14/4/2018",
+                        "label": "W 2"
+                    }, {
+                        "start": "15/4/2018",
+                        "end": "21/4/2018",
+                        "label": "W 3"
+                    }, {
+                        "start": "22/4/2018",
+                        "end": "28/4/2018",
+                        "label": "W 4"
+                    }, {
+                        "start": "29/4/2018",
+                        "end": "5/5/2018",
+                        "label": "W 5"
+                    }, {
+                        "start": "6/5/2018",
+                        "end": "12/5/2018",
+                        "label": "W 6"
+                    }, {
+                        "start": "13/5/2018",
+                        "end": "19/5/2018",
+                        "label": "W 7"
+                    }, {
+                        "start": "20/5/2018",
+                        "end": "26/5/2018",
+                        "label": "W 8"
+                    }, {
+                        "start": "27/5/2018",
+                        "end": "2/6/2018",
+                        "label": "W 9"
+                    }, {
+                        "start": "3/6/2018",
+                        "end": "9/6/2018",
+                        "label": "W 10"
+                    }, {
+                        "start": "10/6/2018",
+                        "end": "16/6/2018",
+                        "label": "W 11"
+                    }, {
+                        "start": "17/6/2018",
+                        "end": "23/6/2018",
+                        "label": "W 12"
+                    }, {
+                        "start": "24/6/2018",
+                        "end": "30/6/2018",
+                        "label": "W 13"
+                    }]
+                }]
+            },
+            "height": "600",
+            "type": "gantt",
+            "width": "600"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-gantt-project-charts-showing-planning-vs-actuals.png",
+        "id": "fusioncharts-xt-chart-gallery-gantt-project-charts-showing-planning-vs-actuals"
+    },
+    "fusioncharts-xt-chart-gallery-gantt-project-charts-weekly-task-distribution": {
+        "description": "Weekly task distribution : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Weekly Maintenance Checks for Denver Plant",
+                    "subcaption": "Sun Industries",
+                    "dateformat": "mm/dd/yyyy hh:mm:ss",
+                    "outputDateFormat": "ddds mnl, yyyy hh12:mn ampm",
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "plotToolText": "<b>$label</b><br>Start: <b>$start</b><br>End: <b>$end</b>"
+                },
+                "tasks": {
+                    "showlabels": "0",
+                    "color": "#5D62B5",
+                    "task": [{
+                        "processid": "MC7",
+                        "start": "04/02/2018 12:00:00",
+                        "end": "04/02/2018 23:00:00",
+                        "label": "11 Hrs"
+                    }, {
+                        "processid": "MC7",
+                        "start": "04/04/2018 12:00:00",
+                        "end": "04/04/2018 23:00:00",
+                        "label": "11 Hrs"
+                    }, {
+                        "processid": "MC7",
+                        "start": "04/06/2018 12:00:00",
+                        "end": "04/06/2018 23:00:00",
+                        "label": "11 Hrs"
+                    }, {
+                        "processid": "MC6",
+                        "start": "04/02/2018 8:00:00",
+                        "end": "04/02/2018 16:00:00",
+                        "label": "8 Hrs"
+                    }, {
+                        "processid": "MC6",
+                        "start": "04/07/2018 8:00:00",
+                        "end": "04/07/2018 16:00:00",
+                        "label": "8 Hrs"
+                    }, {
+                        "processid": "MC5",
+                        "start": "04/04/2018 10:00:00",
+                        "end": "04/04/2018 23:00:00",
+                        "label": "13 Hrs"
+                    }, {
+                        "processid": "MC4",
+                        "start": "04/03/2018 13:30:00",
+                        "end": "04/03/2018 22:30:00",
+                        "label": "9 Hrs"
+                    }, {
+                        "processid": "MC4",
+                        "start": "04/06/2018 13:30:00",
+                        "end": "04/06/2018 22:30:00",
+                        "label": "9 Hrs"
+                    }, {
+                        "processid": "MC3",
+                        "start": "04/05/2018 11:30:00",
+                        "end": "04/05/2018 22:30:00",
+                        "label": "11 Hrs"
+                    }, {
+                        "processid": "MC2",
+                        "start": "04/07/2018 13:30:00",
+                        "end": "04/07/2018 23:30:00",
+                        "label": "10 Hrs"
+                    }, {
+                        "processid": "MC1",
+                        "start": "04/04/2018 11:45:00",
+                        "end": "04/04/2018 23:45:00",
+                        "label": "12 Hrs"
+                    }]
+                },
+                "processes": {
+                    "align": "left",
+                    "headertext": "Tasks",
+                    "headervalign": "middle",
+                    "headeralign": "left",
+                    "process": [{
+                        "label": "Bedplate Latch Bolts",
+                        "id": "MC1"
+                    }, {
+                        "label": "Bedplate Hydraulic Hoses",
+                        "id": "MC2"
+                    }, {
+                        "label": "Dust Stops Leakage",
+                        "id": "MC3"
+                    }, {
+                        "label": "Mixing Chamber Oiling",
+                        "id": "MC4"
+                    }, {
+                        "label": "Latch Stroke",
+                        "id": "MC5"
+                    }, {
+                        "label": "Latch Cylinder Leakage",
+                        "id": "MC6"
+                    }, {
+                        "label": "Latch Fastener Tightness",
+                        "id": "MC7"
+                    }]
+                },
+                "categories": [{
+                    "category": [{
+                        "start": "04/02/2018 00:00:00",
+                        "end": "04/02/2018 23:59:59",
+                        "label": "Monday"
+                    }, {
+                        "start": "04/03/2018 00:00:00",
+                        "end": "04/03/2018 23:59:59",
+                        "label": "Tuesday"
+                    }, {
+                        "start": "04/04/2018 00:00:00",
+                        "end": "04/04/2018 23:59:59",
+                        "label": "Wednesday"
+                    }, {
+                        "start": "04/05/2018 00:00:00",
+                        "end": "04/05/2018 23:59:59",
+                        "label": "Thursday"
+                    }, {
+                        "start": "04/06/2018 00:00:00",
+                        "end": "04/06/2018 23:59:59",
+                        "label": "Friday"
+                    }, {
+                        "start": "04/07/2018 00:00:00",
+                        "end": "04/07/2018 23:59:59",
+                        "label": "Saturday"
+                    }]
+                }]
+            },
+            "height": "500",
+            "type": "gantt",
+            "width": "500"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-gantt-project-charts-weekly-task-distribution.png",
+        "id": "fusioncharts-xt-chart-gallery-gantt-project-charts-weekly-task-distribution"
+    },
+    "fusioncharts-xt-chart-gallery-gantt-project-charts-hourly-tasks": {
+        "description": "Hourly tasks : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "dd/mm/yyyy",
+                    "outputdateformat": "hh12:mn ampm",
+                    "caption": "Shift Roster for June",
+                    "subCaption": "Customer Success Team<br>Sensibill",
+                    "ganttPaneDuration": "22",
+                    "ganttPaneDurationUnit": "h",
+                    "scrollToDate": "09:00:00",
+                    "useVerticalScrolling": "0",
+                    "theme": "fusion",
+ 					"animation": 0
+                },
+                "tasks": {
+                    "showlabels": "1",
+                    "color": "#5D62B5",
+                    "task": [{
+                        "processid": "EMP120",
+                        "start": "07:00:00",
+                        "end": "16:00:00",
+                        "label": "Morning Shift"
+                    }, {
+                        "processid": "EMP121",
+                        "start": "14:00:00",
+                        "end": "22:00:00",
+                        "label": "Afternoon Shift"
+                    }, {
+                        "processid": "EMP122",
+                        "start": "14:00:00",
+                        "end": "18:30:00",
+                        "label": "Half Day"
+                    }, {
+                        "processid": "EMP123",
+                        "start": "07:00:00",
+                        "end": "16:00:00",
+                        "label": "Morning Shift"
+                    }, {
+                        "processid": "EMP124",
+                        "start": "14:00:00",
+                        "end": "22:00:00",
+                        "label": "Afternoon Shift"
+                    }, {
+                        "processid": "EMP125",
+                        "start": "00:00:00",
+                        "end": "08:00:00",
+                        "label": "Early Morning support"
+                    }, {
+                        "processid": "EMP126",
+                        "start": "07:00:00",
+                        "end": "11:30:00",
+                        "label": "Half Day"
+                    }]
+                },
+                "processes": {
+                    "fontsize": "12",
+                    "isbold": "1",
+                    "align": "Center",
+                    "headertext": "Employee",
+                    "headerfontsize": "14",
+                    "headervalign": "middle",
+                    "headeralign": "left",
+                    "process": [{
+                        "label": "Betty",
+                        "id": "EMP120"
+                    }, {
+                        "label": "William",
+                        "id": "EMP121"
+                    }, {
+                        "label": "Emma",
+                        "id": "EMP122"
+                    }, {
+                        "label": "Oliver",
+                        "id": "EMP123"
+                    }, {
+                        "label": "Lucas",
+                        "id": "EMP124"
+                    }, {
+                        "label": "Alex",
+                        "id": "EMP125"
+                    }, {
+                        "label": "John",
+                        "id": "EMP126"
+                    }]
+                },
+                "categories": [{
+                    "category": [{
+                        "start": "00:00:00",
+                        "end": "23:59:59",
+                        "label": "Time"
+                    }]
+                }, {
+                    "align": "center",
+                    "category": [{
+                        "start": "00:00:00",
+                        "end": "02:59:59",
+                        "label": "Midnight"
+                    }, {
+                        "start": "03:00:00",
+                        "end": "05:59:59",
+                        "label": "3 AM"
+                    }, {
+                        "start": "06:00:00",
+                        "end": "08:59:59",
+                        "label": "6 AM"
+                    }, {
+                        "start": "09:00:00",
+                        "end": "11:59:59",
+                        "label": "9 AM"
+                    }, {
+                        "start": "12:00:00",
+                        "end": "14:59:59",
+                        "label": "12 PM"
+                    }, {
+                        "start": "15:00:00",
+                        "end": "17:59:59",
+                        "label": "3 PM"
+                    }, {
+                        "start": "18:00:00",
+                        "end": "20:59:59",
+                        "label": "6 PM"
+                    }, {
+                        "start": "21:00:00",
+                        "end": "23:59:59",
+                        "label": "9 PM"
+                    }]
+                }]
+            },
+            "height": "500",
+            "type": "gantt",
+            "width": "500"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-gantt-project-charts-hourly-tasks.png",
+        "id": "fusioncharts-xt-chart-gallery-gantt-project-charts-hourly-tasks"
+    },
+    "fusioncharts-xt-chart-gallery-gantt-project-charts-milestone-indicators": {
+        "description": "Milestone indicators : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "mm/dd/yyyy",
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "useVerticalScrolling": "0"
+                },
+                "datatable": {
+                    "headervalign": "bottom",
+                    "datacolumn": [{
+                        "headertext": "Owner",
+                        "headervalign": "bottom",
+                        "headeralign": "left",
+                        "align": "left",
+                        "text": [{
+                            "label": "Product Team"
+                        }, {
+                            "label": "Marketing Team"
+                        }, {
+                            "label": "Product Team"
+                        }, {
+                            "label": "Dev Team"
+                        }, {
+                            "label": "Design Team"
+                        }, {
+                            "label": "Dev Team"
+                        }, {
+                            "label": "QA Team"
+                        }, {
+                            "label": "Product Team"
+                        }, {
+                            "label": "Marketing Team"
+                        }]
+                    }]
+                },
+                "milestones": {
+                    "milestone": [{
+                        "date": "2/11/2018",
+                        "taskid": "4",
+                        "color": "#F2726F",
+                        "shape": "star",
+                        "tooltext": "Prototyping Approved"
+                    }, {
+                        "date": "3/11/2018",
+                        "taskid": "6",
+                        "color": "#F2726F",
+                        "shape": "star",
+                        "tooltext": "Development Completed"
+                    }, {
+                        "date": "3/23/2018",
+                        "taskid": "8",
+                        "color": "#F2726F",
+                        "shape": "star",
+                        "tooltext": "UAT Tests Passed"
+                    }, {
+                        "date": "3/29/2018",
+                        "taskid": "9",
+                        "color": "#F2726F",
+                        "shape": "star",
+                        "tooltext": "Product Launched"
+                    }]
+                },
+                "tasks": {
+                    "task": [{
+                        "id": "1",
+                        "start": "1/1/2018",
+                        "end": "1/13/2018",
+                        "color": "#5D62B5"
+                    }, {
+                        "id": "2",
+                        "start": "1/4/2018",
+                        "end": "1/21/2018",
+                        "color": "#29C3BE"
+                    }, {
+                        "id": "3",
+                        "start": "1/22/2018",
+                        "end": "2/4/2018",
+                        "color": "#5D62B5"
+                    }, {
+                        "id": "4",
+                        "start": "2/5/2018",
+                        "end": "2/11/2018",
+                        "color": "#67CDF2"
+                    }, {
+                        "id": "5",
+                        "start": "2/12/2018",
+                        "end": "2/18/2018",
+                        "color": "#FFC533"
+                    }, {
+                        "id": "6",
+                        "start": "2/19/2018",
+                        "end": "3/11/2018",
+                        "color": "#67CDF2"
+                    }, {
+                        "id": "7",
+                        "start": "3/12/2018",
+                        "end": "3/18/2018",
+                        "color": "#62B58F"
+                    }, {
+                        "id": "8",
+                        "start": "3/16/2018",
+                        "end": "3/23/2018",
+                        "color": "#5D62B5"
+                    }, {
+                        "id": "9",
+                        "start": "3/24/2018",
+                        "end": "3/29/2018",
+                        "color": "#29C3BE"
+                    }]
+                },
+                "processes": {
+                    "align": "left",
+                    "headerText": "Tasks",
+                    "headerVAlign": "bottom",
+                    "headerAlign": "left",
+                    "process": [{
+                        "label": "PRD & User-Stories"
+                    }, {
+                        "label": "Persona & Journey"
+                    }, {
+                        "label": "Architecture"
+                    }, {
+                        "label": "Prototyping"
+                    }, {
+                        "label": "Design"
+                    }, {
+                        "label": "Development"
+                    }, {
+                        "label": "Testing & QA"
+                    }, {
+                        "label": "UAT Test"
+                    }, {
+                        "label": "Handover & Documentation"
+                    }]
+                },
+                "categories": [{
+                    "category": [{
+                        "start": "1/1/2018",
+                        "end": "4/1/2018",
+                        "label": "Project Pipeline for Q1-2018"
+                    }]
+                }, {
+                    "category": [{
+                        "start": "1/1/2018",
+                        "end": "1/31/2018",
+                        "label": "Jan"
+                    }, {
+                        "start": "2/1/2018",
+                        "end": "2/28/2018",
+                        "label": "Feb"
+                    }, {
+                        "start": "3/1/2018",
+                        "end": "4/1/2018",
+                        "label": "Mar"
+                    }]
+                }, {
+                    "category": [{
+                        "start": "1/1/2018",
+                        "end": "1/7/2018",
+                        "label": "Week 1"
+                    }, {
+                        "start": "1/8/2018",
+                        "end": "1/14/2018",
+                        "label": "Week 2"
+                    }, {
+                        "start": "1/15/2018",
+                        "end": "1/21/2018",
+                        "label": "Week 3"
+                    }, {
+                        "start": "1/22/2018",
+                        "end": "1/28/2018",
+                        "label": "Week 4"
+                    }, {
+                        "start": "1/29/2018",
+                        "end": "2/4/2018",
+                        "label": "Week 5"
+                    }, {
+                        "start": "2/5/2018",
+                        "end": "2/11/2018",
+                        "label": "Week 6"
+                    }, {
+                        "start": "2/12/2018",
+                        "end": "2/18/2018",
+                        "label": "Week 7"
+                    }, {
+                        "start": "2/19/2018",
+                        "end": "2/25/2018",
+                        "label": "Week 8"
+                    }, {
+                        "start": "2/26/2018",
+                        "end": "3/4/2018",
+                        "label": "Week 9"
+                    }, {
+                        "start": "3/5/2018",
+                        "end": "3/11/2018",
+                        "label": "Week 10"
+                    }, {
+                        "start": "3/12/2018",
+                        "end": "3/18/2018",
+                        "label": "Week 11"
+                    }, {
+                        "start": "3/19/2018",
+                        "end": "3/25/2018",
+                        "label": "Week 12"
+                    }, {
+                        "start": "3/26/2018",
+                        "end": "4/1/2018",
+                        "label": "Week 13"
+                    }]
+                }]
+            },
+            "height": "500",
+            "type": "gantt",
+            "width": "500"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-gantt-project-charts-milestone-indicators.png",
+        "id": "fusioncharts-xt-chart-gallery-gantt-project-charts-milestone-indicators"
+    },
+    "fusioncharts-xt-chart-gallery-gantt-project-charts-showing-dependent-tasks": {
+        "description": "Showing dependent tasks : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "New Store Opening - Project Plan",
+                    "dateformat": "dd/mm/yyyy",
+                    "outputdateformat": "ddds mns yy",
+                    "ganttwidthpercent": "60",
+                    "ganttPaneDuration": "40",
+                    "ganttPaneDurationUnit": "d",
+                    "useVerticalScrolling": "0",
+                    "plottooltext": "<b>$label</b><br>Start: <b>$start</b><br>End: <b>$end</b>",
+                    "theme": "fusion",
+ 					"animation": 0
+                },
+                "connectors": [{
+                    "connector": [{
+                        "fromtaskid": "1-1",
+                        "totaskid": "2-1",
+                        "color": "#F2726F",
+                        "thickness": "2"
+                    }, {
+                        "fromtaskid": "2-1",
+                        "totaskid": "3-1",
+                        "color": "#F2726F",
+                        "thickness": "2"
+                    }, {
+                        "fromtaskid": "3-1",
+                        "totaskid": "4-1",
+                        "color": "#F2726F",
+                        "thickness": "2"
+                    }, {
+                        "fromtaskid": "4-1",
+                        "totaskid": "5-1",
+                        "color": "#F2726F",
+                        "thickness": "2"
+                    }, {
+                        "fromtaskid": "5-1",
+                        "totaskid": "6-1",
+                        "color": "#F2726F",
+                        "thickness": "2"
+                    }, {
+                        "fromtaskid": "6-1",
+                        "totaskid": "7-1",
+                        "color": "#F2726F",
+                        "thickness": "2"
+                    }, {
+                        "fromtaskid": "7-1",
+                        "totaskid": "8-1",
+                        "color": "#F2726F",
+                        "thickness": "2"
+                    }, {
+                        "fromtaskid": "8-1",
+                        "totaskid": "9-1",
+                        "color": "#F2726F",
+                        "thickness": "2"
+                    }, {
+                        "fromtaskid": "9-1",
+                        "totaskid": "10-1",
+                        "color": "#F2726F",
+                        "thickness": "2"
+                    }]
+                }],
+                "trendlines": [{
+                    "line": [{
+                        "start": "14/4/2018",
+                        "displayvalue": "AC Testing",
+                        "color": "5D5D5D",
+                        "thickness": "1",
+                        "dashed": "1"
+                    }]
+                }],
+                "milestones": {
+                    "milestone": [{
+                        "date": "30/4/2018",
+                        "taskid": "10-1",
+                        "color": "#f8bd19",
+                        "shape": "star",
+                        "tooltext": "Store Opening"
+                    }]
+                },
+                "tasks": {
+                    "task": [{
+                        "label": "Clear Site (4 Days)",
+                        "processid": "1",
+                        "start": "1/3/2018",
+                        "end": "5/3/2018",
+                        "id": "1-1",
+                        "color": "#5D62B5"
+                    }, {
+                        "label": "Drainage & Foundation (7 Days)",
+                        "processid": "2",
+                        "start": "6/3/2018",
+                        "end": "13/3/2018",
+                        "id": "2-1",
+                        "color": "#5D62B5"
+                    }, {
+                        "label": "Ground Floor (8 Days)",
+                        "processid": "3",
+                        "start": "14/3/2018",
+                        "end": "22/3/2018",
+                        "id": "3-1",
+                        "color": "#5D62B5"
+                    }, {
+                        "label": "First Floor (5 Days)",
+                        "processid": "4",
+                        "start": "23/3/2018",
+                        "end": "28/3/2018",
+                        "id": "4-1",
+                        "color": "#5D62B5"
+                    }, {
+                        "label": "Roofing (5 Days)",
+                        "processid": "5",
+                        "start": "29/3/2018",
+                        "end": "3/4/2018",
+                        "id": "5-1",
+                        "color": "#5D62B5"
+                    }, {
+                        "label": "Connect Electricity (6 Days)",
+                        "processid": "6",
+                        "start": "4/4/2018",
+                        "end": "10/4/2018",
+                        "id": "6-1",
+                        "color": "#5D62B5"
+                    }, {
+                        "label": "Air Conditioning (3 Days)",
+                        "processid": "7",
+                        "start": "11/4/2018",
+                        "end": "14/4/2018",
+                        "id": "7-1",
+                        "color": "#5D62B5"
+                    }, {
+                        "label": "Interiors (8 Days)",
+                        "processid": "8",
+                        "start": "15/4/2018",
+                        "end": "23/4/2018",
+                        "id": "8-1",
+                        "color": "#5D62B5"
+                    }, {
+                        "label": "Racking (3 Days)",
+                        "processid": "9",
+                        "start": "24/4/2018",
+                        "end": "28/4/2018",
+                        "id": "9-1",
+                        "color": "#5D62B5"
+                    }, {
+                        "label": "Stock Shelving (1 Days)",
+                        "processid": "10",
+                        "start": "29/4/2018",
+                        "end": "30/4/2018",
+                        "id": "10-1",
+                        "color": "#5D62B5",
+                        "topPadding": "9"
+                    }]
+                },
+                "processes": {
+                    "headertext": "Task",
+                    "isanimated": "1",
+                    "headervalign": "bottom",
+                    "headeralign": "left",
+                    "align": "left",
+                    "isbold": "1",
+                    "bgalpha": "25",
+                    "process": [{
+                        "label": "Clear site",
+                        "id": "1"
+                    }, {
+                        "label": "Drainage & Foundation",
+                        "id": "2"
+                    }, {
+                        "label": "Ground Floor",
+                        "id": "3"
+                    }, {
+                        "label": "First Floor",
+                        "id": "4"
+                    }, {
+                        "label": "Roofing",
+                        "id": "5"
+                    }, {
+                        "label": "Connect Electricity",
+                        "id": "6"
+                    }, {
+                        "label": "Air Conditioning",
+                        "id": "7"
+                    }, {
+                        "label": "Interiors",
+                        "id": "8"
+                    }, {
+                        "label": "Racking",
+                        "id": "9"
+                    }, {
+                        "label": "Stock Shelving",
+                        "id": "10"
+                    }]
+                },
+                "categories": [{
+                    "align": "middle",
+                    "category": [{
+                        "start": "1/3/2018",
+                        "end": "31/3/2018",
+                        "label": "March"
+                    }, {
+                        "start": "1/4/2018",
+                        "end": "1/5/2018",
+                        "label": "April"
+                    }]
+                }, {
+                    "align": "center",
+                    "category": [{
+                        "start": "1/3/2018",
+                        "end": "7/3/2018",
+                        "label": "Week 1"
+                    }, {
+                        "start": "8/3/2018",
+                        "end": "14/3/2018",
+                        "label": "Week 2"
+                    }, {
+                        "start": "15/3/2018",
+                        "end": "21/3/2018",
+                        "label": "Week 3"
+                    }, {
+                        "start": "22/3/2018",
+                        "end": "28/3/2018",
+                        "label": "Week 4"
+                    }, {
+                        "start": "29/3/2018",
+                        "end": "5/4/2018",
+                        "label": "Week 5"
+                    }, {
+                        "start": "6/4/2018",
+                        "end": "12/4/2018",
+                        "label": "Week 6"
+                    }, {
+                        "start": "13/4/2018",
+                        "end": "19/4/2018",
+                        "label": "Week 7"
+                    }, {
+                        "start": "19/4/2018",
+                        "end": "25/4/2018",
+                        "label": "Week 8"
+                    }, {
+                        "start": "25/4/2018",
+                        "end": "1/5/2018",
+                        "label": "Week 9"
+                    }]
+                }]
+            },
+            "height": "500",
+            "type": "gantt",
+            "width": "500"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-gantt-project-charts-showing-dependent-tasks.png",
+        "id": "fusioncharts-xt-chart-gallery-gantt-project-charts-showing-dependent-tasks"
+    },
+    "fusioncharts-xt-chart-gallery-gantt-project-charts-machine-operating-schedule": {
+        "description": "Machine operating schedule : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Machine Operating Schedule For Sun Industries",
+                    "subCaption": "Denver Plant",
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "dateformat": "dd/mm/yyyy",
+                    "plotToolText": "Status for period <b>$start - $end</b> is <b>$label</b>"
+                },
+                "legend": {
+                    "item": [{
+                        "label": "In use",
+                        "color": "#62B58D"
+                    }, {
+                        "label": "Repair",
+                        "color": "#FFC533"
+                    }, {
+                        "label": "Idle",
+                        "color": "#F2726F"
+                    }]
+                },
+                "tasks": {
+                    "task": [{
+                        "label": "In Use",
+                        "processid": "A",
+                        "start": "1/1/2018",
+                        "end": "13/1/2018",
+                        "bordercolor": "#62B58D",
+                        "color": "#62B58D",
+                        "id": "1"
+                    }, {
+                        "label": "Idle",
+                        "processid": "A",
+                        "start": "13/1/2018",
+                        "end": "18/1/2018",
+                        "bordercolor": "#F2726F",
+                        "color": "#F2726F",
+                        "id": "2"
+                    }, {
+                        "label": "In Use",
+                        "processid": "A",
+                        "start": "18/1/2018",
+                        "end": "27/1/2018",
+                        "bordercolor": "#62B58D",
+                        "color": "#62B58D",
+                        "id": "3"
+                    }, {
+                        "label": "Repair",
+                        "processid": "A",
+                        "start": "27/1/2018",
+                        "end": "29/1/2018",
+                        "bordercolor": "#FFC533",
+                        "color": "#FFC533",
+                        "id": "4"
+                    }, {
+                        "label": "In Use",
+                        "processid": "A",
+                        "start": "29/1/2018",
+                        "end": "4/2/2018",
+                        "bordercolor": "#62B58D",
+                        "color": "#62B58D",
+                        "id": "5"
+                    }, {
+                        "label": "Idle",
+                        "processid": "B",
+                        "start": "1/1/2018",
+                        "end": "7/1/2018",
+                        "bordercolor": "#F2726F",
+                        "color": "#F2726F",
+                        "id": "6"
+                    }, {
+                        "label": "In Use",
+                        "processid": "B",
+                        "start": "7/1/2018",
+                        "end": "18/1/2018",
+                        "bordercolor": "#62B58D",
+                        "color": "#62B58D",
+                        "id": "7"
+                    }, {
+                        "label": "Repair",
+                        "processid": "B",
+                        "start": "18/1/2018",
+                        "end": "24/1/2018",
+                        "bordercolor": "#FFC533",
+                        "color": "#FFC533",
+                        "id": "8"
+                    }, {
+                        "label": "In Use",
+                        "processid": "B",
+                        "start": "24/1/2018",
+                        "end": "4/2/2018",
+                        "bordercolor": "#62B58D",
+                        "color": "#62B58D",
+                        "id": "9"
+                    }, {
+                        "label": "Idle",
+                        "processid": "C",
+                        "start": "1/1/2018",
+                        "end": "14/1/2018",
+                        "bordercolor": "#F2726F",
+                        "color": "#F2726F",
+                        "id": "10"
+                    }, {
+                        "label": "In Use",
+                        "processid": "C",
+                        "start": "14/1/2018",
+                        "end": "3/2/2018",
+                        "bordercolor": "#62B58D",
+                        "color": "#62B58D",
+                        "id": "11"
+                    }, {
+                        "label": "Idle",
+                        "processid": "C",
+                        "start": "3/2/2018",
+                        "end": "4/2/2018",
+                        "bordercolor": "#F2726F",
+                        "color": "#F2726F",
+                        "id": "12"
+                    }, {
+                        "label": "Repair",
+                        "processid": "D",
+                        "start": "1/1/2018",
+                        "end": "7/1/2018",
+                        "bordercolor": "#FFC533",
+                        "color": "#FFC533",
+                        "id": "13"
+                    }, {
+                        "label": "Idle",
+                        "processid": "D",
+                        "start": "7/1/2018",
+                        "end": "11/1/2018",
+                        "bordercolor": "#F2726F",
+                        "color": "#F2726F",
+                        "id": "14"
+                    }, {
+                        "label": "In Use",
+                        "processid": "D",
+                        "start": "11/1/2018",
+                        "end": "27/1/2018",
+                        "bordercolor": "#62B58D",
+                        "color": "#62B58D",
+                        "id": "15"
+                    }, {
+                        "label": "Repair",
+                        "processid": "D",
+                        "start": "27/1/2018",
+                        "end": "4/2/2018",
+                        "bordercolor": "#FFC533",
+                        "color": "#FFC533",
+                        "id": "16"
+                    }, {
+                        "label": "Idle",
+                        "processid": "E",
+                        "start": "1/1/2018",
+                        "end": "18/1/2018",
+                        "bordercolor": "#F2726F",
+                        "color": "#F2726F",
+                        "id": "17"
+                    }, {
+                        "label": "In Use",
+                        "processid": "E",
+                        "start": "18/1/2018",
+                        "end": "3/2/2018",
+                        "bordercolor": "#62B58D",
+                        "color": "#62B58D",
+                        "id": "18"
+                    }, {
+                        "label": "Idle",
+                        "processid": "E",
+                        "start": "3/2/2018",
+                        "end": "4/2/2018",
+                        "bordercolor": "#F2726F",
+                        "color": "#F2726F",
+                        "id": "19"
+                    }, {
+                        "label": "In Use",
+                        "processid": "F",
+                        "start": "1/1/2018",
+                        "end": "8/1/2018",
+                        "bordercolor": "#62B58D",
+                        "color": "#62B58D",
+                        "id": "20"
+                    }, {
+                        "label": "Repair",
+                        "processid": "F",
+                        "start": "8/1/2018",
+                        "end": "11/1/2018",
+                        "bordercolor": "#FFC533",
+                        "color": "#FFC533",
+                        "id": "21"
+                    }, {
+                        "label": "In Use",
+                        "processid": "F",
+                        "start": "11/1/2018",
+                        "end": "18/1/2018",
+                        "bordercolor": "#62B58D",
+                        "color": "#62B58D",
+                        "id": "22"
+                    }, {
+                        "label": "Repair",
+                        "processid": "F",
+                        "start": "18/1/2018",
+                        "end": "21/1/2018",
+                        "bordercolor": "#FFC533",
+                        "color": "#FFC533",
+                        "id": "23"
+                    }, {
+                        "label": "Idle",
+                        "processid": "F",
+                        "start": "21/1/2018",
+                        "end": "4/2/2018",
+                        "bordercolor": "#F2726F",
+                        "color": "#F2726F",
+                        "id": "24"
+                    }, {
+                        "label": "In Use",
+                        "processid": "G",
+                        "start": "1/1/2018",
+                        "end": "13/1/2018",
+                        "bordercolor": "#62B58D",
+                        "color": "#62B58D",
+                        "id": "25"
+                    }, {
+                        "label": "Idle",
+                        "processid": "G",
+                        "start": "13/1/2018",
+                        "end": "20/1/2018",
+                        "bordercolor": "#F2726F",
+                        "color": "#F2726F",
+                        "id": "26"
+                    }, {
+                        "label": "In Use",
+                        "processid": "G",
+                        "start": "20/1/2018",
+                        "end": "27/1/2018",
+                        "bordercolor": "#62B58D",
+                        "color": "#62B58D",
+                        "id": "27"
+                    }, {
+                        "label": "Repair",
+                        "processid": "G",
+                        "start": "27/1/2018",
+                        "end": "4/2/2018",
+                        "bordercolor": "#FFC533",
+                        "color": "#FFC533",
+                        "id": "28"
+                    }, {
+                        "label": "In Use",
+                        "processid": "H",
+                        "start": "1/1/2018",
+                        "end": "8/1/2018",
+                        "bordercolor": "#62B58D",
+                        "color": "#62B58D",
+                        "id": "29"
+                    }, {
+                        "label": "Idle",
+                        "processid": "H",
+                        "start": "8/1/2018",
+                        "end": "18/1/2018",
+                        "bordercolor": "#F2726F",
+                        "color": "#F2726F",
+                        "id": "30"
+                    }, {
+                        "label": "In Use",
+                        "processid": "H",
+                        "start": "18/1/2018",
+                        "end": "27/1/2018",
+                        "bordercolor": "#62B58D",
+                        "color": "#62B58D",
+                        "id": "31"
+                    }, {
+                        "label": "Repair",
+                        "processid": "H",
+                        "start": "27/1/2018",
+                        "end": "29/1/2018",
+                        "bordercolor": "#FFC533",
+                        "color": "#FFC533",
+                        "id": "32"
+                    }, {
+                        "label": "In Use",
+                        "processid": "H",
+                        "start": "29/1/2018",
+                        "end": "4/2/2018",
+                        "bordercolor": "#62B58D",
+                        "color": "#62B58D",
+                        "id": "33"
+                    }]
+                },
+                "processes": {
+                    "isbold": "1",
+                    "headertext": "Machines",
+                    "process": [{
+                        "label": "Machine A",
+                        "id": "A"
+                    }, {
+                        "label": "Machine B",
+                        "id": "B"
+                    }, {
+                        "label": "Machine C",
+                        "id": "C"
+                    }, {
+                        "label": "Machine D",
+                        "id": "D"
+                    }, {
+                        "label": "Machine E",
+                        "id": "E"
+                    }, {
+                        "label": "Machine F",
+                        "id": "F"
+                    }, {
+                        "label": "Machine G",
+                        "id": "G"
+                    }, {
+                        "label": "Machine H",
+                        "id": "H"
+                    }]
+                },
+                "categories": [{
+                    "category": [{
+                        "start": "1/1/2018",
+                        "end": "4/2/2018",
+                        "name": "January 2018"
+                    }]
+                }, {
+                    "bgalpha": "0",
+                    "category": [{
+                        "start": "1/1/2018",
+                        "end": "7/1/2018",
+                        "label": "Week 1"
+                    }, {
+                        "start": "8/1/2018",
+                        "end": "14/1/2018",
+                        "label": "Week 2"
+                    }, {
+                        "start": "15/1/2018",
+                        "end": "21/1/2018",
+                        "label": "Week 3"
+                    }, {
+                        "start": "22/1/2018",
+                        "end": "28/1/2018",
+                        "label": "Week 4"
+                    }, {
+                        "start": "29/1/2018",
+                        "end": "4/2/2018",
+                        "label": "Week 5"
+                    }]
+                }]
+            },
+            "height": "500",
+            "type": "gantt",
+            "width": "500"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-gantt-project-charts-machine-operating-schedule.png",
+        "id": "fusioncharts-xt-chart-gallery-gantt-project-charts-machine-operating-schedule"
+    },
+    "fusioncharts-xt-chart-gallery-funnel-pyramid-charts-simple-funnel": {
+        "description": "Simple funnel : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Website visits",
+                    "subcaption": "Purchase - Conversion analysis for last year",
+                    "decimals": "1",
+                    "showValues": "1",
+                    "plotTooltext": "$label: <b>$dataValue</b>",
+                    "plotFillAlpha": "70",
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "streamlinedData": "0"
+                },
+                "data": [{
+                    "label": "Website Visits",
+                    "value": "17362"
+                }, {
+                    "label": "Downloads",
+                    "value": "8039"
+                }, {
+                    "label": "Checked Pricing",
+                    "value": "5509"
+                }, {
+                    "label": "Asked for Quotation",
+                    "value": "3962"
+                }, {
+                    "label": "Purchased",
+                    "value": "2397"
+                }]
+            },
+            "height": "450",
+            "type": "funnel",
+            "width": "450"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-funnel-pyramid-charts-simple-funnel.png",
+        "id": "fusioncharts-xt-chart-gallery-funnel-pyramid-charts-simple-funnel"
+    },
+    "fusioncharts-xt-chart-gallery-funnel-pyramid-charts-funnel-with-percent-values": {
+        "description": "Funnel with % Values : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Visit to Purchase Conversion Analysis for 2017",
+                    "subcaption": "GameStop",
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "plotTooltext": "$label: <b>$dataValue</b><br>Success: <b>$percentOfPrevValue</b>",
+                    "showValues": "1",
+                    "decimals": "1",
+                    "useSameSlantAngle": "0",
+                    "showPercentValues": "1"
+                },
+                "data": [{
+                    "label": "Unique Website Visits",
+                    "value": "1620000"
+                }, {
+                    "label": "Programme Details Section Visits",
+                    "value": "730000"
+                }, {
+                    "label": "Attempts to Register",
+                    "value": "620000"
+                }, {
+                    "label": "Successful Registrations",
+                    "value": "390000"
+                }, {
+                    "label": "Logged In",
+                    "value": "260000"
+                }, {
+                    "label": "Purchased on Introductory Offers",
+                    "value": "180000"
+                }]
+            },
+            "height": "450",
+            "type": "funnel",
+            "width": "450"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-funnel-pyramid-charts-funnel-with-percent-values.png",
+        "id": "fusioncharts-xt-chart-gallery-funnel-pyramid-charts-funnel-with-percent-values"
+    },
+    "fusioncharts-xt-chart-gallery-funnel-pyramid-charts-funnel-in-3d": {
+        "description": "Funnel in 3D : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Visits Conversion Funnel - 2017",
+                    "subCaption": "Twilio",
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "is2D": "0",
+                    "isHollow": "0",
+                    "useSameSlantAngle": "0",
+                    "plotToolText": "$label: <b>$percentValue ($dataValue)</b>",
+                    "showValues": "1",
+                    "decimals": "1"
+                },
+                "data": [{
+                    "label": "Website Visits",
+                    "value": "385634"
+                }, {
+                    "label": "Sign-ups",
+                    "value": "145631"
+                }, {
+                    "label": "Interested to buy",
+                    "value": "84564"
+                }, {
+                    "label": "Contract finalized",
+                    "value": "50654"
+                }, {
+                    "label": "Purchased",
+                    "value": "25342"
+                }]
+            },
+            "height": "475",
+            "type": "funnel",
+            "width": "475"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-funnel-pyramid-charts-funnel-in-3d.png",
+        "id": "fusioncharts-xt-chart-gallery-funnel-pyramid-charts-funnel-in-3d"
+    },
+    "fusioncharts-xt-chart-gallery-funnel-pyramid-charts-funnel-to-show-part-to-whole": {
+        "description": "Funnel to show part-to-whole : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Recruitment Analysis for Engineering Positions @ Peoplefy",
+                    "subcaption": "For the year 2017",
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "showLabels": "1",
+                    "showValues": "1",
+                    "showpercentvalues": "1",
+                    "streamlineddata": "0",
+                    "plotToolText": "$label: <b>$dataValue</b>"
+                },
+                "data": [{
+                    "label": "Applications Received",
+                    "value": "3000"
+                }, {
+                    "label": "CVs Shortlisted",
+                    "value": "1500"
+                }, {
+                    "label": "Cleared Machine Test",
+                    "value": "1000"
+                }, {
+                    "label": "Cleared Technical Rounds",
+                    "value": "500"
+                }, {
+                    "label": "Cleared Cultural Fit Round",
+                    "value": "300"
+                }, {
+                    "label": "Final Selection",
+                    "value": "200"
+                }]
+            },
+            "height": "450",
+            "type": "funnel",
+            "width": "450"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-funnel-pyramid-charts-funnel-to-show-part-to-whole.png",
+        "id": "fusioncharts-xt-chart-gallery-funnel-pyramid-charts-funnel-to-show-part-to-whole"
+    },
+    "fusioncharts-xt-chart-gallery-funnel-pyramid-charts-simple-pyramid": {
+        "description": "Simple Pyramid : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "caption": "The Global Wealth Pyramid",
+                    "subcaption": "Credit Suisse 2017",
+                    "showValues": "1",
+                    "numberSuffix": " trn",
+                    "numberPrefix": "$",
+                    "plotToolText": "<b>$label</b> of world population owns <b>$dataValue</b> of global wealth"
+                },
+                "data": [{
+                    "label": "Top 32M",
+                    "value": "128.7"
+                }, {
+                    "label": "Next 391M",
+                    "value": "111.4"
+                }, {
+                    "label": "Next 1054M",
+                    "value": "32.5"
+                }, {
+                    "label": "Last 3474M",
+                    "value": "7.6"
+                }]
+            },
+            "height": "500",
+            "type": "pyramid",
+            "width": "500"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-funnel-pyramid-charts-simple-pyramid.png",
+        "id": "fusioncharts-xt-chart-gallery-funnel-pyramid-charts-simple-pyramid"
+    },
+    "fusioncharts-xt-chart-gallery-funnel-pyramid-charts-pyramid-with-percent-values": {
+        "description": "Pyramid with % values : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "caption": "Most Feared Things in LA",
+                    "subcaption": "Source: Psych Survey",
+                    "showValues": "1",
+                    "numberSuffix": "%",
+                    "plotToolText": "<b>$dataValue</b> of people have a fear for <b>$label</b>"
+                },
+                "data": [{
+                    "label": "Lonliness",
+                    "value": "2"
+                }, {
+                    "label": "Snakes",
+                    "value": "2"
+                }, {
+                    "label": "Losing People I Love",
+                    "value": "3"
+                }, {
+                    "label": "Clowns",
+                    "value": "5"
+                }, {
+                    "label": "People",
+                    "value": "6"
+                }, {
+                    "label": "Heights",
+                    "value": "11"
+                }, {
+                    "label": "Spiders and Other Bugs",
+                    "value": "12"
+                }, {
+                    "label": "Death",
+                    "value": "17"
+                }, {
+                    "label": "Failure",
+                    "value": "18"
+                }, {
+                    "label": "Others",
+                    "value": "24"
+                }]
+            },
+            "height": "500",
+            "type": "pyramid",
+            "width": "500"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-funnel-pyramid-charts-pyramid-with-percent-values.png",
+        "id": "fusioncharts-xt-chart-gallery-funnel-pyramid-charts-pyramid-with-percent-values"
+    },
+    "fusioncharts-xt-chart-gallery-funnel-pyramid-charts-pyramid-in-3d": {
+        "description": "Pyramid in 3D : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "caption": "The Global Wealth Pyramid",
+                    "subcaption": "Credit Suisse 2017",
+                    "showValues": "1",
+                    "numberSuffix": " trn",
+                    "numberPrefix": "$",
+                    "plotToolText": "<b>$label</b> of world population owns <b>$dataValue</b> of global wealth",
+                    "is2d": "0"
+                },
+                "data": [{
+                    "label": "Top 32M",
+                    "value": "128.7"
+                }, {
+                    "label": "Next 391M",
+                    "value": "111.4"
+                }, {
+                    "label": "Next 1054M",
+                    "value": "32.5"
+                }, {
+                    "label": "Last 3474M",
+                    "value": "7.6"
+                }]
+            },
+            "height": "500",
+            "type": "pyramid",
+            "width": "500"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-funnel-pyramid-charts-pyramid-in-3d.png",
+        "id": "fusioncharts-xt-chart-gallery-funnel-pyramid-charts-pyramid-in-3d"
+    },
+    "fusioncharts-xt-chart-gallery-bullet-spark-micro-charts-horizontal-bullet-graph": {
+        "description": "Horizontal Bullet Graph : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Website downloads for 2017",
+                    "subcaption": "Actual vs Target",
+                    "numberSuffix": "K",
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "plotToolText": "Downloaded $datavalue times against a target of $targetDataValue"
+                },
+                "colorRange": {
+                    "color": [{
+                        "minValue": "0",
+                        "maxValue": "50",
+                        "code": "#F2726F"
+                    }, {
+                        "minValue": "50",
+                        "maxValue": "75",
+                        "code": "#FFC533"
+                    }, {
+                        "minValue": "75",
+                        "maxValue": "100",
+                        "code": "#62B58F"
+                    }]
+                },
+                "value": "90",
+                "target": "95"
+            },
+            "height": "100",
+            "type": "hbullet",
+            "width": "100"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-bullet-spark-micro-charts-horizontal-bullet-graph.png",
+        "id": "fusioncharts-xt-chart-gallery-bullet-spark-micro-charts-horizontal-bullet-graph"
+    },
+    "fusioncharts-xt-chart-gallery-bullet-spark-micro-charts-horizontal-bullet-with-dot": {
+        "description": "Horizontal Bullet with Dot : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Website downloads for 2017",
+                    "subcaption": "Actual vs Target",
+                    "numberSuffix": "K",
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "plotToolText": "Downloaded $datavalue times against a target of $targetDataValue",
+                    "plotAsDot": "1"
+                },
+                "colorRange": {
+                    "color": [{
+                        "minValue": "0",
+                        "maxValue": "50",
+                        "code": "#F2726F"
+                    }, {
+                        "minValue": "50",
+                        "maxValue": "75",
+                        "code": "#FFC533"
+                    }, {
+                        "minValue": "75",
+                        "maxValue": "100",
+                        "code": "#62B58F"
+                    }]
+                },
+                "value": "90",
+                "target": "95"
+            },
+            "height": "100",
+            "type": "hbullet",
+            "width": "100"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-bullet-spark-micro-charts-horizontal-bullet-with-dot.png",
+        "id": "fusioncharts-xt-chart-gallery-bullet-spark-micro-charts-horizontal-bullet-with-dot"
+    },
+    "fusioncharts-xt-chart-gallery-bullet-spark-micro-charts-vertical-bullet-graph": {
+        "description": "Vertical Bullet Graph : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Customer Satisfaction Score",
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "ticksOnRight": "1",
+                    "plotToolText": "Score: <b>$datavalue</b>",
+                    "targetToolText": "Target: $targetValue"
+                },
+                "colorRange": {
+                    "color": [{
+                        "minValue": "0",
+                        "maxValue": "2",
+                        "code": "#F2726F"
+                    }, {
+                        "minValue": "2",
+                        "maxValue": "4",
+                        "code": "#FFC533"
+                    }, {
+                        "minValue": "4",
+                        "maxValue": "5",
+                        "code": "#62B58F"
+                    }]
+                },
+                "value": "3.5",
+                "target": "4.5"
+            },
+            "height": "400",
+            "type": "vbullet",
+            "width": "400"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-bullet-spark-micro-charts-vertical-bullet-graph.png",
+        "id": "fusioncharts-xt-chart-gallery-bullet-spark-micro-charts-vertical-bullet-graph"
+    },
+    "fusioncharts-xt-chart-gallery-bullet-spark-micro-charts-simple-sparkline": {
+        "description": "Simple sparkline : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Tesla Stock Price",
+                    "subcaption": "May 2018",
+                    "numberPrefix": "$",
+                    "chartTopMargin": "10",
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "showCloseValue": "1",
+                    "showOpenValue": "1",
+                    "setAdaptiveYMin": "1"
+                },
+                "dataset": [{
+                    "data": [{
+                        "toolText": "2-May: <b>$dataValue</b>",
+                        "value": 251.3
+                    }, {
+                        "toolText": "3-May: <b>$dataValue</b>",
+                        "value": 230.93
+                    }, {
+                        "toolText": "4-May: <b>$dataValue</b>",
+                        "value": 240.41
+                    }, {
+                        "toolText": "7-May: <b>$dataValue</b>",
+                        "value": 255.7
+                    }, {
+                        "toolText": "8-May: <b>$dataValue</b>",
+                        "value": 257.91
+                    }, {
+                        "toolText": "9-May: <b>$dataValue</b>",
+                        "value": 253.4
+                    }, {
+                        "toolText": "11-May: <b>$dataValue</b>",
+                        "value": 252.49
+                    }, {
+                        "toolText": "14-May: <b>$dataValue</b>",
+                        "value": 250.91
+                    }, {
+                        "toolText": "15-May: <b>$dataValue</b>",
+                        "value": 239.11
+                    }, {
+                        "toolText": "16-May: <b>$dataValue</b>",
+                        "value": 240.15
+                    }, {
+                        "toolText": "17-May: <b>$dataValue</b>",
+                        "value": 244.76
+                    }, {
+                        "toolText": "18-May: <b>$dataValue</b>",
+                        "value": 236.69
+                    }, {
+                        "toolText": "22-May: <b>$dataValue</b>",
+                        "value": 234.55
+                    }, {
+                        "toolText": "23-May: <b>$dataValue</b>",
+                        "value": 235.45
+                    }, {
+                        "toolText": "24-May: <b>$dataValue</b>",
+                        "value": 238.02
+                    }, {
+                        "toolText": "25-May: <b>$dataValue</b>",
+                        "value": 238.9
+                    }, {
+                        "toolText": "28-May: <b>$dataValue</b>",
+                        "value": 239.9
+                    }, {
+                        "toolText": "29-May: <b>$dataValue</b>",
+                        "value": 245.7
+                    }, {
+                        "toolText": "30-May: <b>$dataValue</b>",
+                        "value": 246.3
+                    }]
+                }]
+            },
+            "height": "100",
+            "type": "sparkline",
+            "width": "767"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-bullet-spark-micro-charts-simple-sparkline.png",
+        "id": "fusioncharts-xt-chart-gallery-bullet-spark-micro-charts-simple-sparkline"
+    },
+     "fusioncharts-xt-chart-gallery-bullet-spark-micro-charts-sparkline-with-period-indicators": {
+        "description": "Sparkline with period indicators : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Amazon Inc. Stock Price",
+                    "subcaption": "Jan - May 2018",
+                    "numberPrefix": "$",
+                    "chartTopMargin": "10",
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "showCloseValue": "1",
+                    "showOpenValue": "1",
+                    "setAdaptiveYMin": "1",
+                    "periodlength": "21"
+                },
+                "dataset": [{
+                    "data": [{
+                        "tooltext": "Jan 02, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1629.62
+                    }, {
+                        "tooltext": "Jan 03, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1624.89
+                    }, {
+                        "tooltext": "Jan 04, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1612.87
+                    }, {
+                        "tooltext": "Jan 05, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1610.15
+                    }, {
+                        "tooltext": "Jan 08, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1603.07
+                    }, {
+                        "tooltext": "Jan 09, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1601.86
+                    }, {
+                        "tooltext": "Jan 10, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1581.4
+                    }, {
+                        "tooltext": "Jan 11, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1585.46
+                    }, {
+                        "tooltext": "Jan 12, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1574.37
+                    }, {
+                        "tooltext": "Jan 16, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1581.76
+                    }, {
+                        "tooltext": "Jan 17, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1587.28
+                    }, {
+                        "tooltext": "Jan 18, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1576.12
+                    }, {
+                        "tooltext": "Jan 19, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1601.54
+                    }, {
+                        "tooltext": "Jan 22, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1602.91
+                    }, {
+                        "tooltext": "Jan 23, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1609.08
+                    }, {
+                        "tooltext": "Jan 24, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1608
+                    }, {
+                        "tooltext": "Jan 25, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1592.39
+                    }, {
+                        "tooltext": "Jan 26, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1600.14
+                    }, {
+                        "tooltext": "Jan 29, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1580.95
+                    }, {
+                        "tooltext": "Jan 30, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1572.08
+                    }, {
+                        "tooltext": "Jan 31, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1569.68
+                    }, {
+                        "tooltext": "Feb 01, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1582.26
+                    }, {
+                        "tooltext": "Feb 02, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1566.13
+                    }, {
+                        "tooltext": "Feb 05, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1572.62
+                    }, {
+                        "tooltext": "Feb 06, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1517.96
+                    }, {
+                        "tooltext": "Feb 07, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1460.17
+                    }, {
+                        "tooltext": "Feb 08, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1460.09
+                    }, {
+                        "tooltext": "Feb 09, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1517.86
+                    }, {
+                        "tooltext": "Feb 12, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1527.49
+                    }, {
+                        "tooltext": "Feb 13, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1556.91
+                    }, {
+                        "tooltext": "Feb 14, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1527.84
+                    }, {
+                        "tooltext": "Feb 15, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1503.83
+                    }, {
+                        "tooltext": "Feb 16, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1441.5
+                    }, {
+                        "tooltext": "Feb 20, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1430.79
+                    }, {
+                        "tooltext": "Feb 21, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1448.5
+                    }, {
+                        "tooltext": "Feb 22, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1427.05
+                    }, {
+                        "tooltext": "Feb 23, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1436.22
+                    }, {
+                        "tooltext": "Feb 26, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1406.08
+                    }, {
+                        "tooltext": "Feb 27, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1405.23
+                    }, {
+                        "tooltext": "Feb 28, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1451.75
+                    }, {
+                        "tooltext": "Mar 01, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1410.57
+                    }, {
+                        "tooltext": "Mar 02, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1392.05
+                    }, {
+                        "tooltext": "Mar 05, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1371.99
+                    }, {
+                        "tooltext": "Mar 06, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1447.34
+                    }, {
+                        "tooltext": "Mar 07, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1431.42
+                    }, {
+                        "tooltext": "Mar 08, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1497.05
+                    }, {
+                        "tooltext": "Mar 09, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1555.86
+                    }, {
+                        "tooltext": "Mar 12, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1495.56
+                    }, {
+                        "tooltext": "Mar 13, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1544.92
+                    }, {
+                        "tooltext": "Mar 14, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1581.86
+                    }, {
+                        "tooltext": "Mar 15, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1586.51
+                    }, {
+                        "tooltext": "Mar 16, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1544.93
+                    }, {
+                        "tooltext": "Mar 19, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1571.68
+                    }, {
+                        "tooltext": "Mar 20, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1582.32
+                    }, {
+                        "tooltext": "Mar 21, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1591
+                    }, {
+                        "tooltext": "Mar 22, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1588.18
+                    }, {
+                        "tooltext": "Mar 23, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1598.39
+                    }, {
+                        "tooltext": "Mar 26, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1578.89
+                    }, {
+                        "tooltext": "Mar 27, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1551.86
+                    }, {
+                        "tooltext": "Mar 28, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1545
+                    }, {
+                        "tooltext": "Mar 29, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1537.64
+                    }, {
+                        "tooltext": "Apr 02, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1523.61
+                    }, {
+                        "tooltext": "Apr 03, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1500.25
+                    }, {
+                        "tooltext": "Apr 04, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1493.45
+                    }, {
+                        "tooltext": "Apr 05, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1512.45
+                    }, {
+                        "tooltext": "Apr 06, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1511.98
+                    }, {
+                        "tooltext": "Apr 09, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1521.95
+                    }, {
+                        "tooltext": "Apr 10, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1500
+                    }, {
+                        "tooltext": "Apr 11, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1485.34
+                    }, {
+                        "tooltext": "Apr 12, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1482.92
+                    }, {
+                        "tooltext": "Apr 13, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1468.35
+                    }, {
+                        "tooltext": "Apr 16, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1448.69
+                    }, {
+                        "tooltext": "Apr 17, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1461.76
+                    }, {
+                        "tooltext": "Apr 18, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1451.05
+                    }, {
+                        "tooltext": "Apr 19, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1414.51
+                    }, {
+                        "tooltext": "Apr 20, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1386.23
+                    }, {
+                        "tooltext": "Apr 23, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1339.6
+                    }, {
+                        "tooltext": "Apr 24, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1350.5
+                    }, {
+                        "tooltext": "Apr 25, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1416.78
+                    }, {
+                        "tooltext": "Apr 26, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1442.84
+                    }, {
+                        "tooltext": "Apr 27, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1390
+                    }, {
+                        "tooltext": "Apr 30, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1429.95
+                    }, {
+                        "tooltext": "May 01, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1390
+                    }, {
+                        "tooltext": "May 02, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1450.89
+                    }, {
+                        "tooltext": "May 03, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1437.82
+                    }, {
+                        "tooltext": "May 04, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1417.68
+                    }, {
+                        "tooltext": "May 07, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1402.05
+                    }, {
+                        "tooltext": "May 08, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1377.95
+                    }, {
+                        "tooltext": "May 09, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1357.51
+                    }, {
+                        "tooltext": "May 10, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1362.54
+                    }, {
+                        "tooltext": "May 11, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1327.31
+                    }, {
+                        "tooltext": "May 14, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1294.58
+                    }, {
+                        "tooltext": "May 15, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1293.32
+                    }, {
+                        "tooltext": "May 16, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1295
+                    }, {
+                        "tooltext": "May 17, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1304.86
+                    }, {
+                        "tooltext": "May 18, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1305.2
+                    }, {
+                        "tooltext": "May 21, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1276.68
+                    }, {
+                        "tooltext": "May 22, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1254.33
+                    }, {
+                        "tooltext": "May 23, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1252.7
+                    }, {
+                        "tooltext": "May 24, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1246.87
+                    }, {
+                        "tooltext": "May 25, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1229.14
+                    }, {
+                        "tooltext": "May 29, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1209.59
+                    }, {
+                        "tooltext": "May 30, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1204.2
+                    }, {
+                        "tooltext": "May 31, 2018<br>Price: <b>$dataValue</b>",
+                        "value": 1189.01
+                    }]
+                }]
+            },
+            "height": "80",
+            "type": "sparkline",
+            "width": "80"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-bullet-spark-micro-charts-sparkline-with-period-indicators.png",
+        "id": "fusioncharts-xt-chart-gallery-bullet-spark-micro-charts-sparkline-with-period-indicators"
+    },
+    "fusioncharts-xt-chart-gallery-bullet-spark-micro-charts-sparkline-with-dots-only": {
+        "description": "Sparkline with dots only",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Tesla Stock Price",
+                    "subcaption": "May 2018",
+                    "numberPrefix": "$",
+                    "chartTopMargin": "10",
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "showCloseValue": "1",
+                    "showOpenValue": "1",
+                    "setAdaptiveYMin": "1",
+                    "drawAnchors": "1",
+                    "lineAlpha": "0",
+                    "anchorSides": "4",
+                    "anchorRadius": "4",
+                    "anchorColor": "#ee8f49",
+                    "showOpenAnchor": "1",
+                    "showCloseAnchor": "1",
+                    "highColor": "#ee8f49",
+                    "lowColor": "#ee8f49"
+                },
+                "dataset": [{
+                    "data": [{
+                        "toolText": "2-May: <b>$dataValue</b>",
+                        "value": 246.3
+                    }, {
+                        "toolText": "3-May: <b>$dataValue</b>",
+                        "value": 240.93
+                    }, {
+                        "toolText": "4-May: <b>$dataValue</b>",
+                        "value": 240.41
+                    }, {
+                        "toolText": "7-May: <b>$dataValue</b>",
+                        "value": 245.7
+                    }, {
+                        "toolText": "8-May: <b>$dataValue</b>",
+                        "value": 252.91
+                    }, {
+                        "toolText": "9-May: <b>$dataValue</b>",
+                        "value": 253.4
+                    }, {
+                        "toolText": "11-May: <b>$dataValue</b>",
+                        "value": 252.49
+                    }, {
+                        "toolText": "14-May: <b>$dataValue</b>",
+                        "value": 250.91
+                    }, {
+                        "toolText": "15-May: <b>$dataValue</b>",
+                        "value": 249.11
+                    }, {
+                        "toolText": "16-May: <b>$dataValue</b>",
+                        "value": 240.15
+                    }, {
+                        "toolText": "17-May: <b>$dataValue</b>",
+                        "value": 244.76
+                    }, {
+                        "toolText": "18-May: <b>$dataValue</b>",
+                        "value": 236.69
+                    }, {
+                        "toolText": "22-May: <b>$dataValue</b>",
+                        "value": 234.55
+                    }, {
+                        "toolText": "23-May: <b>$dataValue</b>",
+                        "value": 235.45
+                    }, {
+                        "toolText": "24-May: <b>$dataValue</b>",
+                        "value": 238.02
+                    }, {
+                        "toolText": "25-May: <b>$dataValue</b>",
+                        "value": 238.9
+                    }, {
+                        "toolText": "28-May: <b>$dataValue</b>",
+                        "value": 239.9
+                    }, {
+                        "toolText": "29-May: <b>$dataValue</b>",
+                        "value": 245.7
+                    }, {
+                        "toolText": "30-May: <b>$dataValue</b>",
+                        "value": 246.3
+                    }]
+                }]
+            },
+            "height": "100",
+            "type": "sparkline",
+            "width": "100"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-bullet-spark-micro-charts-sparkline-with-dots-only.png",
+        "id": "fusioncharts-xt-chart-gallery-bullet-spark-micro-charts-sparkline-with-dots-only"
+    },
+    "fusioncharts-xt-chart-gallery-bullet-spark-micro-charts-simple-spark-columns": {
+        "description": "Simple spark-columns : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Euro to INR Conversion",
+                    "subcaption": "(2007-2017)",
+                    "chartTopMargin": "10",
+                    "numberPrefix": "₹",
+                    "theme": "fusion",
+ 					"animation": 0
+                },
+                "dataset": [{
+                    "data": [{
+                        "value": "56.42",
+                        "toolText": "2007: <b>$dataValue</b>"
+                    }, {
+                        "value": "63.61",
+                        "toolText": "2008: <b>$dataValue</b>"
+                    }, {
+                        "value": "67.36",
+                        "toolText": "2009: <b>$dataValue</b>"
+                    }, {
+                        "value": "60.59",
+                        "toolText": "2010: <b>$dataValue</b>"
+                    }, {
+                        "value": "64.89",
+                        "toolText": "2011: <b>$dataValue</b>"
+                    }, {
+                        "value": "68.60",
+                        "toolText": "2012: <b>$dataValue</b>"
+                    }, {
+                        "value": "77.93",
+                        "toolText": "2013: <b>$dataValue</b>"
+                    }, {
+                        "value": "81.04",
+                        "toolText": "2014: <b>$dataValue</b>"
+                    }, {
+                        "value": "71.20",
+                        "toolText": "2015: <b>$dataValue</b>"
+                    }, {
+                        "value": "74.37",
+                        "toolText": "2016: <b>$dataValue</b>"
+                    }, {
+                        "value": "73.53",
+                        "toolText": "2017: <b>$dataValue</b>"
+                    }]
+                }]
+            },
+            "height": "80",
+            "type": "sparkcolumn",
+            "width": "80"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-bullet-spark-micro-charts-simple-spark-columns.png",
+        "id": "fusioncharts-xt-chart-gallery-bullet-spark-micro-charts-simple-spark-columns"
+    },
+    "fusioncharts-xt-chart-gallery-bullet-spark-micro-charts-spark-columns-with-period-indicators": {
+        "description": "Spark-columns with period indicators : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "caption": "Daily Orders Trend",
+                    "subcaption": "Zulily App<br>Jan 2018",
+                    "periodlength": "10"
+                },
+                "dataset": [{
+                    "data": [{
+                        "tooltext": "Jan 01, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 500
+                    }, {
+                        "tooltext": "Jan 02, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 350
+                    }, {
+                        "tooltext": "Jan 03, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 400
+                    }, {
+                        "tooltext": "Jan 04, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 410
+                    }, {
+                        "tooltext": "Jan 05, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 390
+                    }, {
+                        "tooltext": "Jan 06, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 310
+                    }, {
+                        "tooltext": "Jan 07, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 330
+                    }, {
+                        "tooltext": "Jan 08, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 440
+                    }, {
+                        "tooltext": "Jan 09, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 450
+                    }, {
+                        "tooltext": "Jan 10, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 310
+                    }, {
+                        "tooltext": "Jan 11, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 320
+                    }, {
+                        "tooltext": "Jan 12, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 500
+                    }, {
+                        "tooltext": "Jan 13, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 500
+                    }, {
+                        "tooltext": "Jan 14, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 350
+                    }, {
+                        "tooltext": "Jan 15, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 400
+                    }, {
+                        "tooltext": "Jan 16, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 330
+                    }, {
+                        "tooltext": "Jan 17, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 440
+                    }, {
+                        "tooltext": "Jan 18, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 450
+                    }, {
+                        "tooltext": "Jan 19, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 310
+                    }, {
+                        "tooltext": "Jan 20, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 320
+                    }, {
+                        "tooltext": "Jan 21, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 450
+                    }, {
+                        "tooltext": "Jan 22, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 500
+                    }, {
+                        "tooltext": "Jan 23, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 350
+                    }, {
+                        "tooltext": "Jan 24, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 400
+                    }, {
+                        "tooltext": "Jan 25, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 330
+                    }, {
+                        "tooltext": "Jan 26, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 440
+                    }, {
+                        "tooltext": "Jan 27, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 450
+                    }, {
+                        "tooltext": "Jan 28, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 310
+                    }, {
+                        "tooltext": "Jan 29, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 390
+                    }, {
+                        "tooltext": "Jan 30, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 500
+                    }, {
+                        "tooltext": "Jan 31, 2018<br>No. of Orders: <b>$dataValue</b>",
+                        "value": 350
+                    }]
+                }]
+            },
+            "height": "80",
+            "type": "sparkcolumn",
+            "width": "80"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-bullet-spark-micro-charts-spark-columns-with-period-indicators.png",
+        "id": "fusioncharts-xt-chart-gallery-bullet-spark-micro-charts-spark-columns-with-period-indicators"
+    },
+    "fusioncharts-xt-chart-gallery-bullet-spark-micro-charts-win-loss-micro-charts": {
+        "description": "Win/loss micro charts : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Stats for Germany (FIFA)",
+                    "subcaption": "(1990-2014)",
+                    "chartTopMargin": "10",
+                    "theme": "fusion",
+ 					"animation": 0
+                },
+                "dataset": [{
+                    "data": [{
+                        "value": "W"
+                    }, {
+                        "value": "W"
+                    }, {
+                        "value": "D"
+                    }, {
+                        "value": "W"
+                    }, {
+                        "value": "W"
+                    }, {
+                        "value": "W"
+                    }, {
+                        "value": "D"
+                    }, {
+                        "value": "D"
+                    }, {
+                        "value": "W"
+                    }, {
+                        "value": "W"
+                    }, {
+                        "value": "W"
+                    }, {
+                        "value": "D"
+                    }, {
+                        "value": "W"
+                    }, {
+                        "value": "L"
+                    }, {
+                        "value": "D"
+                    }, {
+                        "value": "W"
+                    }, {
+                        "value": "W"
+                    }, {
+                        "value": "W"
+                    }, {
+                        "value": "W"
+                    }, {
+                        "value": "D"
+                    }, {
+                        "value": "D"
+                    }, {
+                        "value": "L"
+                    }, {
+                        "value": "D"
+                    }, {
+                        "value": "L"
+                    }, {
+                        "value": "W"
+                    }, {
+                        "value": "L"
+                    }, {
+                        "value": "w"
+                    }, {
+                        "value": "D"
+                    }, {
+                        "value": "W"
+                    }, {
+                        "value": "D"
+                    }, {
+                        "value": "W"
+                    }, {
+                        "value": "W"
+                    }, {
+                        "value": "L"
+                    }, {
+                        "value": "W"
+                    }, {
+                        "value": "D"
+                    }, {
+                        "value": "W"
+                    }]
+                }]
+            },
+            "height": "70",
+            "type": "sparkwinloss",
+            "width": "70"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-bullet-spark-micro-charts-win-loss-micro-charts.png",
+        "id": "fusioncharts-xt-chart-gallery-bullet-spark-micro-charts-win-loss-micro-charts"
+    },
+    "fusioncharts-xt-chart-gallery-self-updating-real-time-charts-line": {
+        "description": "Line : Self updating Line chart",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Bitcoin Price Ticker",
+                    "subCaption": "Aug 22, 2018",
+                    "numberPrefix": "$",
+                    "numdisplaysets": "10",
+                    "labeldisplay": "rotate",
+                    "showRealTimeValue": "0",
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "plotToolText": "$label<br>Price: <b>$dataValue</b>",
+                    "setAdaptiveYMin": "1"
+                },
+                "categories": [{
+                    "category": [{
+                        "label": "17:55:-1"
+                    }, {
+                        "label": "17:55:0"
+                    }, {
+                        "label": "17:55:1"
+                    }]
+                }],
+                "dataset": [{
+                    "data": [{
+                        "value": "7358"
+                    }, {
+                        "value": "7361"
+                    }, {
+                        "value": "7362"
+                    }]
+                }]
+            },
+            "height": "400",
+            "type": "realtimeline",
+            "width": "400"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-self-updating-real-time-charts-line.png",
+        "id": "fusioncharts-xt-chart-gallery-self-updating-real-time-charts-line"
+    },
+    "fusioncharts-xt-chart-gallery-self-updating-real-time-charts-dual-axis-line": {
+        "description": "Self updating Dual axis - Line : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Average Electricity Consumption Reading",
+                    "subCaption": "Hillside Village Aparments{br}Rate per unit vs Units Consumed",
+                    "showRealTimeValue": "0",
+                    "numberprefix": "$",
+                    "setadaptiveymin": "1",
+                    "setadaptivesymin": "1",
+                    "yAxisName": "Rate (cents/kilowatt-hour)",
+                    "sYAxisName": "Units",
+                    "labeldisplay": "Rotate",
+                    "numDisplaySets": "10",
+                    "theme": "fusion",
+ 					"animation": 0
+                },
+                "categories": [{
+                    "category": [{
+                        "label": "Start"
+                    }]
+                }],
+                "dataset": [{
+                    "seriesname": "Rate/unit",
+                    "plotToolText": "<b>$label</b><br>$seriesName: <b>$dataValue</b>",
+                    "data": [{
+                        "value": "2.3"
+                    }]
+                }, {
+                    "seriesname": "Units Consumed",
+                    "parentyaxis": "S",
+                    "plotToolText": "<b>$label</b><br>$seriesName # <b>$dataValue Units</b>",
+                    "data": [{
+                        "value": "23"
+                    }]
+                }]
+            },
+            "height": "400",
+            "type": "realtimelinedy",
+            "width": "400"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-self-updating-real-time-charts-dual-axis-line.png",
+        "id": "fusioncharts-xt-chart-gallery-self-updating-real-time-charts-dual-axis-line"
+    },
+    "fusioncharts-xt-chart-gallery-self-updating-real-time-charts-area": {
+        "description": "Self updating Area chart : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Live visitors on web",
+                    "subCaption": "Skatter Tech",
+                    "refreshinterval": "3",
+                    "numdisplaysets": "10",
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "drawAnchors": "0",
+                    "plotToolText": "$label: <b>$dataValue Feeds</b>",
+                    "showRealTimeValue": "0",
+                    "labelDisplay": "rotate"
+                },
+                "categories": [{
+                    "category": [{
+                        "label": "Start"
+                    }]
+                }],
+                "dataset": [{
+                    "data": [{
+                        "value": "35.27"
+                    }]
+                }]
+            },
+            "height": "400",
+            "type": "realtimearea",
+            "width": "400"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-self-updating-real-time-charts-area.png",
+        "id": "fusioncharts-xt-chart-gallery-self-updating-real-time-charts-area"
+    },
+    "fusioncharts-xt-chart-gallery-self-updating-real-time-charts-stacked-area": {
+        "description": "Real-time stacked area chart : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "The Clorox Co. Production Rate",
+                    "subCaption": "Product: Plumr Cleaner",
+                    "xAxisName": "Time",
+                    "yAxisName": "Units Produced",
+                    "numdisplaysets": "10",
+                    "showRealTimeValue": "0",
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "rotateLabels": "1",
+                    "plotToolText": "<b>$label</b><br>$seriesName units produced: <b>$dataValue</b>"
+                },
+                "categories": [{
+                    "category": [{
+                        "label": "Day Start"
+                    }]
+                }],
+                "dataset": [{
+                    "seriesName": "Wyoming Plant",
+                    "data": [{
+                        "value": "4700"
+                    }]
+                }, {
+                    "seriesName": "Louisville Plant",
+                    "data": [{
+                        "value": "5600"
+                    }]
+                }, {
+                    "seriesName": "Dearborn Plant",
+                    "data": [{
+                        "value": "3800"
+                    }]
+                }]
+            },
+            "height": "400",
+            "type": "realtimestackedarea",
+            "width": "400"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-self-updating-real-time-charts-stacked-area.png",
+        "id": "fusioncharts-xt-chart-gallery-self-updating-real-time-charts-stacked-area"
+    },
+    "fusioncharts-xt-chart-gallery-self-updating-real-time-charts-column": {
+        "description": "Self updating Column chart : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Products Sold Per Second",
+                    "subCaption": "Gibzal Online",
+                    "showrealtimevalue": "0",
+                    "numdisplaysets": "10",
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "labeldisplay": "rotate",
+                    "showValues": "1",
+                    "placeValuesInside": "0",
+                    "plotToolText": "<b>$label</b><br>Products Sold: <b>$dataValue</b>"
+                },
+                "categories": [{
+                    "category": [{
+                        "label": "Start"
+                    }]
+                }],
+                "dataset": [{
+                    "seriesname": "",
+                    "alpha": "100",
+                    "data": [{
+                        "value": "12"
+                    }]
+                }]
+            },
+            "height": "400",
+            "type": "realtimecolumn",
+            "width": "400"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-self-updating-real-time-charts-column.png",
+        "id": "fusioncharts-xt-chart-gallery-self-updating-real-time-charts-column"
+    },
+    "fusioncharts-xt-chart-gallery-self-updating-real-time-charts-stacked-column": {
+        "description": "Self updating Stacked Column : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Altria Group Production Rate",
+                    "subCaption": "Philip Morris & Co., Ltd.<br>Product: English Ovals",
+                    "xAxisName": "Time",
+                    "yAxisName": "Units Produced",
+                    "numdisplaysets": "10",
+                    "showRealTimeValue": "0",
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "rotateLabels": "1",
+                    "yAxisMaxValue": "20000",
+                    "plotToolText": "<b>$label</b><br>$seriesName units produced: <b>$dataValue units</b>",
+                    "showSum": "1",
+                    "placeValuesInside": "0"
+                },
+                "categories": [{
+                    "category": [{
+                        "label": "Day Start"
+                    }]
+                }],
+                "dataset": [{
+                    "seriesName": "Richmond Plant",
+                    "data": [{
+                        "value": "4700"
+                    }]
+                }, {
+                    "seriesName": "Crazy Mountain Ranch Plant",
+                    "data": [{
+                        "value": "5600"
+                    }]
+                }, {
+                    "seriesName": "Park 500",
+                    "data": [{
+                        "value": "3800"
+                    }]
+                }]
+            },
+            "height": "400",
+            "type": "realtimestackedcolumn",
+            "width": "400"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-self-updating-real-time-charts-stacked-column.png",
+        "id": "fusioncharts-xt-chart-gallery-self-updating-real-time-charts-stacked-column"
+    },
+    "fusioncharts-xt-chart-gallery-self-updating-real-time-charts-speedometer": {
+        "description": "Self updating Speedometer : Charts Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fly Ash Generation Rate",
+                    "subCaption": "Belews Creek Power Station<br>In Metric Tonnes",
+                    "theme": "fusion",
+ 					"animation": 0,
+                    "showValue": "1"
+                },
+                "colorRange": {
+                    "color": [{
+                        "minValue": "0",
+                        "maxValue": "10",
+                        "code": "#62B58F"
+                    }, {
+                        "minValue": "10",
+                        "maxValue": "20",
+                        "code": "#FFC533"
+                    }, {
+                        "minValue": "20",
+                        "maxValue": "30",
+                        "code": "#F2726F"
+                    }]
+                },
+                "dials": {
+                    "dial": [{
+                        "value": "9.8",
+                        "toolText": "<b>$dataValue metric tonnes</b>"
+                    }]
+                }
+            },
+            "height": "300",
+            "type": "angulargauge",
+            "width": "300"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-self-updating-real-time-charts-speedometer.png",
+        "id": "fusioncharts-xt-chart-gallery-self-updating-real-time-charts-speedometer"
+    },
+    "fusioncharts-xt-chart-gallery-self-updating-real-time-charts-cylinder-fill": {
+        "description": "Self updating Cylinder Gauge : Charts Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Oxygen Level Indicator",
+                    "lowerLimit": "0",
+                    "upperLimit": "25",
+                    "numberSuffix": " mPA",
+                    "plottooltext": "Oxygen Pressure: <b>$dataValue</b>",
+                    "theme": "fusion",
+ 					"animation": 0
+                },
+                "value": "23"
+            },
+            "height": "300",
+            "type": "cylinder",
+            "width": "300"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-self-updating-real-time-charts-cylinder-fill.png",
+        "id": "fusioncharts-xt-chart-gallery-self-updating-real-time-charts-cylinder-fill"
+    },
+    "fusioncharts-xt-chart-gallery-self-updating-real-time-charts-led": {
+        "description": "Real-time Horizontal LED Gauge : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Order Processing Indicator",
+                    "subCaption": "Joey's Pizza",
+                    "lowerLimit": "0",
+                    "upperLimit": "20",
+                    "lowerLimitDisplay": "Min",
+                    "upperLimitDisplay": "Max",
+                    "chartBottomMargin": "60",
+                    "theme": "fusion",
+ 					"animation": 0
+                },
+                "colorRange": {
+                    "color": [{
+                        "minValue": "0",
+                        "maxValue": "10",
+                        "code": "#62B58F"
+                    }, {
+                        "minValue": "10",
+                        "maxValue": "15",
+                        "code": "#FFC533"
+                    }, {
+                        "minValue": "15",
+                        "maxValue": "20",
+                        "code": "#F2726F"
+                    }]
+                },
+                "value": "9",
+                "annotations": {
+                    "showbelow": "1",
+                    "groups": [{
+                        "id": "indicator",
+                        "items": [{
+                            "id": "background",
+                            "type": "rectangle",
+                            "alpha": "100",
+                            "fillColor": "#62B58F",
+                            "x": "$gaugeCenterX-75",
+                            "tox": "$gaugeCenterX+75",
+                            "y": "$chartEndY-45",
+                            "toy": "$chartEndY-25"
+                        }, {
+                            "id": "message",
+                            "align": "CENTER",
+                            "bold": "1",
+                            "fontSize": "14",
+                            "type": "text",
+                            "text": "Normal Queue",
+                            "color": "#FFFFFF",
+                            "x": "$chartCenterX",
+                            "y": "$chartEndY-35"
+                        }]
+                    }]
+                }
+            },
+            "height": "200",
+            "type": "hled",
+            "width": "200"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-self-updating-real-time-charts-led.png",
+        "id": "fusioncharts-xt-chart-gallery-self-updating-real-time-charts-led"
+    },
+    "fusioncharts-xt-chart-gallery-self-updating-real-time-charts-thermometer": {
+        "description": "Self updating Thermometer : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Temperature Monitor",
+                    "subCaption": "Kansas City Cold Storage",
+                    "lowerLimit": "-60",
+                    "upperLimit": "10",
+                    "numberSuffix": "°F",
+                    "thmFillColor": "#29C3BE",
+                    "plotToolText": "Temperature: <b>$datavalue</b> ",
+                    "theme": "fusion",
+ 					"animation": 0
+                },
+                "value": "-13"
+            },
+            "height": "400",
+            "type": "thermometer",
+            "width": "400"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-self-updating-real-time-charts-thermometer.png",
+        "id": "fusioncharts-xt-chart-gallery-self-updating-real-time-charts-thermometer"
+    },
+    "fusioncharts-xt-chart-gallery-self-updating-real-time-charts-bulb": {
+        "description": "Real-time Bulb Gauge : Chart Gallery",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Deep Freezers Temperature Status",
+                    "upperlimit": "-1",
+                    "lowerlimit": "-50",
+                    "numberSuffix": "°C",
+                    "useColorNameAsValue": "1",
+                    "placeValuesInside": "1",
+                    "plottooltext": "Current Temperature: <b>$dataValue</b>",
+                    "theme": "fusion",
+ 					"animation": 0
+                },
+                "colorrange": {
+                    "color": [{
+                        "minvalue": "-50",
+                        "maxvalue": "-30",
+                        "label": "All well ahoy!",
+                        "code": "#62B58F"
+                    }, {
+                        "minvalue": "-30",
+                        "maxvalue": "-15",
+                        "label": "Something is wrong!",
+                        "code": "#FFC533"
+                    }, {
+                        "minvalue": "-15",
+                        "maxvalue": "-1",
+                        "label": "Mission control, <br>we have a situation!",
+                        "code": "#F2726F"
+                    }]
+                },
+                "value": "-33"
+            },
+            "height": "200",
+            "type": "bulb",
+            "width": "200"
+        },
+        "refimage": "./test/regression-test/chart-gallery/ref-images/fusioncharts-xt-chart-gallery-self-updating-real-time-charts-bulb.png",
+        "id": "fusioncharts-xt-chart-gallery-self-updating-real-time-charts-bulb"
+    }
+}

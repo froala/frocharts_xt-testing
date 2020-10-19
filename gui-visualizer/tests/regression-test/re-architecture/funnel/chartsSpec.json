@@ -1,0 +1,2019 @@
+{
+    "1": {
+        "description": "Issue---- color is different",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio",
+                    "subcaption": "May 2007",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/1-snapshot.png",
+        "id": "1"
+    },
+    "2": {
+        "description": "Issue---- bgalpha changed,labels get distorted after clicking on funnel,clickurl not working",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio",
+                    "subcaption": "May 2007",
+                    "clickurl": "p-http://www.fusioncharts.com",
+                    "clickurloverridesplotlinks": "",
+                    "palette": "",
+                    "palettethemecolor": "",
+                    "annrenderdelay": "",
+                    "showprintmenuitem": "",
+                    "manageresize": "",
+                    "useellipseswhenoverflow": "",
+                    "hasrtltext": "",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/2-snapshot.png",
+        "id": "2"
+    },
+    "3": {
+        "description": "issue-- palletthemecolor is not working",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio",
+                    "subcaption": "May 2007",
+                    "clickurl": "p-http://www.fusioncharts.com",
+                    "clickurloverridesplotlinks": "",
+                    "palette": "5",
+                    "palettethemecolor": "ff0000,00ffff,00ff00,ffff00",
+                    "annrenderdelay": "",
+                    "showprintmenuitem": "",
+                    "manageresize": "",
+                    "useellipseswhenoverflow": "",
+                    "hasrtltext": "",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/3-snapshot.png",
+        "id": "3"
+    },
+    "4": {
+        "description": "Issue--showprintmenuitem,labels are going out from chart",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "clickurl": "p-http://www.fusioncharts.com",
+                    "clickurloverridesplotlinks": "",
+                    "palette": "5",
+                    "palettethemecolor": "ff0000,00ffff,00ff00,ffff00",
+                    "annrenderdelay": "",
+                    "showprintmenuitem": "1",
+                    "manageresize": "1",
+                    "useellipseswhenoverflow": "1",
+                    "hasrtltext": "",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits Ratio Ratio Ratio v Ratio Ratio Ratio Ratio",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/4-snapshot.png",
+        "id": "4"
+    },
+    "5": {
+        "description": "Issue--- subcaption cosmetics and tooltip is not visible.....",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionalignment": "center",
+                    "captionontop": "1",
+                    "captionfontsize": "20",
+                    "subcaptionfontsize": "15",
+                    "captionfont": "san-seriff",
+                    "subcaptionfont": "arial",
+                    "captionfontcolor": "ff0000",
+                    "subcaptionfontcolor": "#0000ff",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "1",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "20",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/5-snapshot.png",
+        "id": "5"
+    },
+    "6": {
+        "description": "caption subcaption---",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "20",
+                    "subcaptionfontsize": "15",
+                    "captionfont": "san-seriff",
+                    "subcaptionfont": "arial",
+                    "captionfontcolor": "ff0000",
+                    "subcaptionfontcolor": "#0000ff",
+                    "captionfontbold": "1",
+                    "subcaptionfontbold": "1",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "20",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/6-snapshot.png",
+        "id": "6"
+    },
+    "7": {
+        "description": "caption subcaption---",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionalignment": "right",
+                    "captionontop": "1",
+                    "captionfontsize": "20",
+                    "subcaptionfontsize": "15",
+                    "captionfont": "san-seriff",
+                    "subcaptionfont": "arial",
+                    "captionfontcolor": "ff0000",
+                    "subcaptionfontcolor": "#0000ff",
+                    "captionfontbold": "1",
+                    "subcaptionfontbold": "1",
+                    "aligncaptionwithcanvas": "1",
+                    "captionhorizontalpadding": "2",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/7-snapshot.png",
+        "id": "7"
+    },
+    "8": {
+        "description": "caption subcaption--- caption on top not woks",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionalignment": "right",
+                    "captionontop": "0",
+                    "captionfontsize": "20",
+                    "subcaptionfontsize": "15",
+                    "captionfont": "san-seriff",
+                    "subcaptionfont": "arial",
+                    "captionfontcolor": "ff0000",
+                    "subcaptionfontcolor": "#0000ff",
+                    "captionfontbold": "1",
+                    "subcaptionfontbold": "1",
+                    "aligncaptionwithcanvas": "1",
+                    "captionhorizontalpadding": "2",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/8-snapshot.png",
+        "id": "8"
+    },
+    "9": {
+        "description": "caption subcaption---",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionalignment": "right",
+                    "captionontop": "0",
+                    "captionfontsize": "20",
+                    "subcaptionfontsize": "15",
+                    "captionfont": "san-seriff",
+                    "subcaptionfont": "arial",
+                    "captionfontcolor": "ff0000",
+                    "subcaptionfontcolor": "#0000ff",
+                    "captionfontbold": "1",
+                    "subcaptionfontbold": "1",
+                    "aligncaptionwithcanvas": "1",
+                    "captionhorizontalpadding": "2",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/9-snapshot.png",
+        "id": "9"
+    },
+    "10": {
+        "description": "caption subcaption---",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionalignment": "right",
+                    "captionontop": "0",
+                    "captionfontsize": "20",
+                    "subcaptionfontsize": "15",
+                    "captionfont": "san-seriff",
+                    "subcaptionfont": "arial",
+                    "captionfontcolor": "ff0000",
+                    "subcaptionfontcolor": "#0000ff",
+                    "captionfontbold": "1",
+                    "subcaptionfontbold": "1",
+                    "aligncaptionwithcanvas": "1",
+                    "captionhorizontalpadding": "2",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/10-snapshot.png",
+        "id": "10"
+    },
+    "11": {
+        "description": "chart-labels-values----- showlabels 0",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionalignment": "center",
+                    "showlabels": "0",
+                    "showlabelsatcenter": "",
+                    "labeldistance": "",
+                    "labelsepchar": "",
+                    "enablesmartlabels": "",
+                    "smartlinecolor": "",
+                    "smartlinethickness": "",
+                    "smartlinealpha": "",
+                    "showvalues": "",
+                    "showpercentvalues": "",
+                    "percentofprevious": "",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/11-snapshot.png",
+        "id": "11"
+    },
+    "12": {
+        "description": "chart-labels-values----- showlabelatcenter",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionalignment": "center",
+                    "showlabels": "1",
+                    "showlabelsatcenter": "1",
+                    "labeldistance": "",
+                    "labelsepchar": "",
+                    "enablesmartlabels": "",
+                    "smartlinecolor": "",
+                    "smartlinethickness": "",
+                    "smartlinealpha": "",
+                    "showvalues": "",
+                    "showpercentvalues": "",
+                    "percentofprevious": "",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/12-snapshot.png",
+        "id": "12"
+    },
+    "13": {
+        "description": "chart-labels-values-----labeldistance",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionalignment": "center",
+                    "showlabels": "1",
+                    "showlabelsatcenter": "0",
+                    "labeldistance": "52",
+                    "labelsepchar": "",
+                    "enablesmartlabels": "",
+                    "smartlinecolor": "",
+                    "smartlinethickness": "",
+                    "smartlinealpha": "",
+                    "showvalues": "",
+                    "showpercentvalues": "",
+                    "percentofprevious": "",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/13-snapshot.png",
+        "id": "13"
+    },
+    "14": {
+        "description": "Issue- enablesmartlabels are not workin",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionalignment": "center",
+                    "showlabels": "1",
+                    "showlabelsatcenter": "0",
+                    "labeldistance": "52",
+                    "labelsepchar": "///",
+                    "enablesmartlabels": "0",
+                    "smartlinecolor": "",
+                    "smartlinethickness": "",
+                    "smartlinealpha": "",
+                    "showvalues": "",
+                    "showpercentvalues": "",
+                    "percentofprevious": "",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/14-snapshot.png",
+        "id": "14"
+    },
+    "15": {
+        "description": "chart-labels-values-----",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionalignment": "center",
+                    "showlabels": "1",
+                    "showlabelsatcenter": "0",
+                    "labeldistance": "52",
+                    "labelsepchar": "///",
+                    "enablesmartlabels": "1",
+                    "smartlinecolor": "0000ff",
+                    "smartlinethickness": "4",
+                    "smartlinealpha": "100",
+                    "showvalues": "0",
+                    "showpercentvalues": "",
+                    "percentofprevious": "",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/15-snapshot.png",
+        "id": "15"
+    },
+    "16": {
+        "description": "chart-labels-values----- showpercentvalues",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionalignment": "center",
+                    "showlabels": "1",
+                    "showlabelsatcenter": "0",
+                    "labeldistance": "52",
+                    "labelsepchar": "///",
+                    "enablesmartlabels": "1",
+                    "smartlinecolor": "0000ff",
+                    "smartlinethickness": "4",
+                    "smartlinealpha": "100",
+                    "showvalues": "1",
+                    "showpercentvalues": "1",
+                    "percentofprevious": "",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/16-snapshot.png",
+        "id": "16"
+    },
+    "17": {
+        "description": "Issue--- showpercentvalues and percentofprevios is not working",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionalignment": "center",
+                    "showlabels": "1",
+                    "showlabelsatcenter": "0",
+                    "labeldistance": "52",
+                    "labelsepchar": "///",
+                    "enablesmartlabels": "1",
+                    "smartlinecolor": "0000ff",
+                    "smartlinethickness": "4",
+                    "smartlinealpha": "100",
+                    "showvalues": "1",
+                    "showpercentvalues": "1",
+                    "percentofprevious": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/17-snapshot.png",
+        "id": "17"
+    },
+    "18": {
+        "description": "funnel functional---- streamlinedata=0",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionalignment": "center",
+                    "streamlineddata": "0",
+                    "is2d": "",
+                    "issliced": "",
+                    "ishollow": "",
+                    "usesameslantangle": "",
+                    "funnelyscale": "",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/18-snapshot.png",
+        "id": "18"
+    },
+    "19": {
+        "description": "funnel functional---- is 2d",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionalignment": "center",
+                    "streamlineddata": "0",
+                    "is2d": "1",
+                    "issliced": "",
+                    "ishollow": "",
+                    "usesameslantangle": "",
+                    "funnelyscale": "",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/19-snapshot.png",
+        "id": "19"
+    },
+    "20": {
+        "description": "Issue--- issliced not working",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionalignment": "center",
+                    "streamlineddata": "0",
+                    "is2d": "1",
+                    "issliced": "1",
+                    "ishollow": "",
+                    "usesameslantangle": "",
+                    "funnelyscale": "",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/20-snapshot.png",
+        "id": "20"
+    },
+    "21": {
+        "description": "funnel functional---- ishollow",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionalignment": "center",
+                    "streamlineddata": "0",
+                    "is2d": "0",
+                    "issliced": "",
+                    "ishollow": "1",
+                    "usesameslantangle": "",
+                    "funnelyscale": "",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/21-snapshot.png",
+        "id": "21"
+    },
+    "22": {
+        "description": "funnel functional----",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionalignment": "center",
+                    "streamlineddata": "0",
+                    "is2d": "0",
+                    "issliced": "",
+                    "ishollow": "1",
+                    "usesameslantangle": "1",
+                    "funnelyscale": "40",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/22-snapshot.png",
+        "id": "22"
+    },
+    "23": {
+        "description": "funnel functional----",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionalignment": "center",
+                    "streamlineddata": "0",
+                    "is2d": "0",
+                    "issliced": "",
+                    "ishollow": "1",
+                    "usesameslantangle": "0",
+                    "funnelyscale": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/23-snapshot.png",
+        "id": "23"
+    },
+    "24": {
+        "description": "funnel cosmetics----",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionalignment": "center",
+                    "is2d": "1",
+                    "showplotborder": "1",
+                    "plotbordercolor": "0000ff",
+                    "plotborderthickness": "4",
+                    "plotborderalpha": "100",
+                    "plotfillalpha": "100",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/24-snapshot.png",
+        "id": "24"
+    },
+    "25": {
+        "description": "funnel cosmetics----",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionalignment": "center",
+                    "is2d": "1",
+                    "showplotborder": "0",
+                    "plotbordercolor": "0000ff",
+                    "plotborderthickness": "4",
+                    "plotborderalpha": "100",
+                    "plotfillalpha": "100",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/25-snapshot.png",
+        "id": "25"
+    },
+    "26": {
+        "description": "Issue-- plotfillalpha not working",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionalignment": "center",
+                    "is2d": "1",
+                    "showplotborder": "1",
+                    "plotbordercolor": "0000ff",
+                    "plotborderthickness": "4",
+                    "plotborderalpha": "10",
+                    "plotfillalpha": "10",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/26-snapshot.png",
+        "id": "26"
+    },
+    "27": {
+        "description": "chart cosmetics----",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionalignment": "center",
+                    "showborder": "1",
+                    "bordercolor": "ff0000",
+                    "borderthickness": "22",
+                    "borderalpha": "10",
+                    "bgcolor": "527a7a",
+                    "bgalpha": "40",
+                    "bgratio": "20",
+                    "bgangle": "45",
+                    "bgimage": "http://upload.wikimedia.org/wikipedia/commons/7/79/Misc_fruit.jpg",
+                    "bgimagealpha": "40",
+                    "showcanvasborder": "1",
+                    "bgimagedisplaymode": "",
+                    "bgimagevalign": "bottom",
+                    "bgimagehalign": "left",
+                    "bgimagescale": "5",
+                    "canvasbgcolor": "ff0000,0000ff",
+                    "canvasbgalpha": "10",
+                    "canvasbgratio": "40,40",
+                    "canvasbgangle": "45",
+                    "canvasbordercolor": "00ff00",
+                    "canvasborderthickness": "10",
+                    "canvasborderalpha": "10",
+                    "logourl": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                    "logoposition": "BR",
+                    "logoalpha": "60",
+                    "logoscale": "50",
+                    "logolink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/27-snapshot.png",
+        "id": "27"
+    },
+    "28": {
+        "description": "issue---bgimage alpha not working",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionalignment": "center",
+                    "showborder": "1",
+                    "bordercolor": "ff0000",
+                    "borderthickness": "22",
+                    "borderalpha": "10",
+                    "bgcolor": "527a7a",
+                    "bgalpha": "40",
+                    "bgratio": "20",
+                    "bgangle": "45",
+                    "bgimage": "http://upload.wikimedia.org/wikipedia/commons/7/79/Misc_fruit.jpg",
+                    "bgimagealpha": "10",
+                    "showcanvasborder": "1",
+                    "bgimagedisplaymode": "",
+                    "bgimagevalign": "bottom",
+                    "bgimagehalign": "left",
+                    "bgimagescale": "5",
+                    "canvasbgcolor": "ff0000,0000ff",
+                    "canvasbgalpha": "10",
+                    "canvasbgratio": "40,40",
+                    "canvasbgangle": "45",
+                    "canvasbordercolor": "00ff00",
+                    "canvasborderthickness": "10",
+                    "canvasborderalpha": "10",
+                    "logourl": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                    "logoposition": "BR",
+                    "logoalpha": "60",
+                    "logoscale": "50",
+                    "logolink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/28-snapshot.png",
+        "id": "28"
+    },
+    "29": {
+        "description": "chart cosmetics----",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionalignment": "center",
+                    "showborder": "1",
+                    "bordercolor": "ff0000",
+                    "borderthickness": "22",
+                    "borderalpha": "10",
+                    "bgcolor": "527a7a",
+                    "bgalpha": "40",
+                    "bgratio": "20",
+                    "bgangle": "45",
+                    "bgimage": "http://upload.wikimedia.org/wikipedia/commons/7/79/Misc_fruit.jpg",
+                    "bgimagealpha": "10",
+                    "showcanvasborder": "0",
+                    "bgimagedisplaymode": "tile",
+                    "bgimagevalign": "bottom",
+                    "bgimagehalign": "left",
+                    "bgimagescale": "5",
+                    "canvasbgcolor": "ff0000,0000ff",
+                    "canvasbgalpha": "10",
+                    "canvasbgratio": "40,40",
+                    "canvasbgangle": "45",
+                    "canvasbordercolor": "00ff00",
+                    "canvasborderthickness": "10",
+                    "canvasborderalpha": "10",
+                    "logourl": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                    "logoposition": "BR",
+                    "logoalpha": "60",
+                    "logoscale": "50",
+                    "logolink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/29-snapshot.png",
+        "id": "29"
+    },
+    "30": {
+        "description": "chart cosmetics---- logo not working",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionalignment": "center",
+                    "showborder": "1",
+                    "bordercolor": "ff0000",
+                    "borderthickness": "22",
+                    "borderalpha": "10",
+                    "bgcolor": "527a7a",
+                    "bgalpha": "40",
+                    "bgratio": "20",
+                    "bgangle": "45",
+                    "bgimage": "http://upload.wikimedia.org/wikipedia/commons/7/79/Misc_fruit.jpg",
+                    "bgimagealpha": "10",
+                    "showcanvasborder": "0",
+                    "bgimagedisplaymode": "none",
+                    "bgimagevalign": "top",
+                    "bgimagehalign": "right",
+                    "bgimagescale": "5",
+                    "canvasbgcolor": "ff0000,0000ff",
+                    "canvasbgalpha": "100",
+                    "canvasbgratio": "40,40",
+                    "canvasbgangle": "45",
+                    "canvasbordercolor": "00ff00",
+                    "canvasborderthickness": "10",
+                    "canvasborderalpha": "100",
+                    "logourl": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                    "logoposition": "BR",
+                    "logoalpha": "60",
+                    "logoscale": "50",
+                    "logolink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/30-snapshot.png",
+        "id": "30"
+    },
+    "31": {
+        "description": "Issue---- label fontcolor not applied and label not visile at top,labelalpha not applied on font",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionalignment": "center",
+                    "labelfont": "times",
+                    "labelfontcolor": "ff0000",
+                    "labelfontsize": "16",
+                    "labelfontbold": "0",
+                    "labelfontitalic": "0",
+                    "labelbgcolor": "0000ff",
+                    "labelbordercolor": "ffff00",
+                    "labelalpha": "100",
+                    "labelbgalpha": "100",
+                    "labelborderalpha": "100",
+                    "labelborderpadding": "",
+                    "labelborderradius": "5",
+                    "labelborderthickness": "2",
+                    "labelborderdashed": "1",
+                    "labelborderdashlen": "20",
+                    "labelborderdashgap": "5",
+                    "labellink": "p-http://www.google.com",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/31-snapshot.png",
+        "id": "31"
+    },
+    "32": {
+        "description": "Issue---basefont is not applied on labels",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "basefont": "times",
+                    "basefontsize": "20",
+                    "basefontcolor": "00ffff",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/32-snapshot.png",
+        "id": "32"
+    },
+    "33": {
+        "description": "Issue---legend is not visible",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "showlegend": "1",
+                    "legendposition": "bottom",
+                    "legenditemfontbold": "1",
+                    "legenditemfont": "arial",
+                    "legenditemfontsize": "22",
+                    "legenditemfontcolor": "#9900cc",
+                    "legenditemhoverfontcolor": "#ffffff",
+                    "legendcaption": "Drag Legend",
+                    "legendcaptionalignment": "right",
+                    "legendcaptionfontbold": "1",
+                    "legendcaptionfont": "verdana",
+                    "legendcaptionfontsize": "16",
+                    "legendcaptionfontcolor": "#ffffff",
+                    "legenditemhiddencolor": "#000000",
+                    "legendiconscale": "5",
+                    "legendbgcolor": "#b8b893",
+                    "legendbgalpha": "100",
+                    "legendbordercolor": "#ff80b3",
+                    "legendborderthickness": "5",
+                    "legendborderalpha": "40",
+                    "legendallowdrag": "0",
+                    "legendscrollbgcolor": "00ff00",
+                    "reverselegend": "1",
+                    "interactivelegend": "0",
+                    "legendnumcolumns": "1",
+                    "minimisewrappinginlegend": "",
+                    "legendshadow": "1",
+                    "drawcustomlegendicon": "0",
+                    "legendiconbordercolor": "#ff0000",
+                    "legendiconbgcolor": "#99b3ff",
+                    "legendiconalpha": "50",
+                    "legendiconbgalpha": "100",
+                    "legendiconsides": "3",
+                    "legendiconborderthickness": "2",
+                    "legendiconstartangle": "150",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/33-snapshot.png",
+        "id": "33"
+    },
+    "34": {
+        "description": "Issue--tooltip 0 But tooltip visible",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "showtooltip": "0",
+                    "tooltipbgcolor": "80b3ff",
+                    "tooltipcolor": "ff0000",
+                    "tooltipbordercolor": "00ff00",
+                    "tooltipsepchar": ":-",
+                    "seriesnameintooltip": "0",
+                    "showpercentintooltip": "",
+                    "plottooltext": "tooltext",
+                    "showtooltipshadow": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/34-snapshot.png",
+        "id": "34"
+    },
+    "35": {
+        "description": "Issue---tooltip cosmetics and plottoltext not working",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "showtooltip": "1",
+                    "tooltipbgcolor": "80b3ff",
+                    "tooltipcolor": "ff0000",
+                    "tooltipbordercolor": "00ff00",
+                    "tooltipsepchar": ":-",
+                    "seriesnameintooltip": "1",
+                    "showpercentintooltip": "1",
+                    "plottooltext": "tooltext",
+                    "showtooltipshadow": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/35-snapshot.png",
+        "id": "35"
+    },
+    "36": {
+        "description": "Issue---chart padding margin not working",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionpadding": "100",
+                    "chartleftmargin": "60",
+                    "chartrightmargin": "100",
+                    "charttopmargin": "70",
+                    "chartbottommargin": "40",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/36-snapshot.png",
+        "id": "36"
+    },
+    "37": {
+        "description": "dataobject---issliced,labelfontcolor",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionpadding": "100",
+                    "chartleftmargin": "60",
+                    "chartrightmargin": "100",
+                    "charttopmargin": "70",
+                    "chartbottommargin": "40",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631",
+                        "link": "p-http://www.fusioncharts.com",
+                        "tooltext": "yoooooooooo",
+                        "color": "ff0000",
+                        "alpha": "100",
+                        "showvalue": "1",
+                        "bordercolor": "ffff00",
+                        "borderalpha": "100",
+                        "issliced": "1",
+                        "labelfont": "times",
+                        "labelfontcolor": "00ff00",
+                        "labelfontsize": "19",
+                        "labelfontbold": "1",
+                        "labelfontitalic": "1",
+                        "labelbgcolor": "00ffff",
+                        "labelbordercolor": "ffffff",
+                        "labelalpha": "100",
+                        "labelbgalpha": "100",
+                        "labelborderalpha": "100",
+                        "labelborderpadding": "",
+                        "labelborderradius": "7",
+                        "labelborderthickness": "3",
+                        "labelborderdashed": "1",
+                        "labelborderdashlen": "20",
+                        "labelborderdashgap": "7",
+                        "labellink": "p-http://www.google.com"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/37-snapshot.png",
+        "id": "37"
+    },
+    "38": {
+        "description": "dataobject----labelfontcolor,labelfontalpha,alpha not working,link,labellink",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio Ratio Ratio Ratio Ratio Ratio Ratio Ratio v v Ratio Ratio Ratio Ratio v",
+                    "subcaption": "May 2007",
+                    "captionpadding": "100",
+                    "chartleftmargin": "60",
+                    "chartrightmargin": "100",
+                    "charttopmargin": "70",
+                    "chartbottommargin": "40",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits ",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631",
+                        "link": "p-http://www.fusioncharts.com",
+                        "tooltext": "yoooooooooo",
+                        "color": "ff0000",
+                        "alpha": "10",
+                        "showvalue": "0",
+                        "bordercolor": "ffff00",
+                        "borderalpha": "10",
+                        "issliced": "1",
+                        "labelfont": "times",
+                        "labelfontcolor": "00ff00",
+                        "labelfontsize": "19",
+                        "labelfontbold": "1",
+                        "labelfontitalic": "1",
+                        "labelbgcolor": "00ffff",
+                        "labelbordercolor": "ffffff",
+                        "labelalpha": "10",
+                        "labelbgalpha": "10",
+                        "labelborderalpha": "10",
+                        "labelborderpadding": "",
+                        "labelborderradius": "7",
+                        "labelborderthickness": "3",
+                        "labelborderdashed": "1",
+                        "labelborderdashlen": "20",
+                        "labelborderdashgap": "7",
+                        "labellink": "p-http://www.google.com"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/38-snapshot.png",
+        "id": "38"
+    }
+}

@@ -1,0 +1,634 @@
+{
+    "test-1": {
+        "descriptions": "Update with all the yaxisValue attributes",
+        "id": "test-1",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "errorscatter",
+            "dataSource": {
+                "chart": {
+                    "animation": 0
+                },
+                "categories": [
+                    {
+                        "verticallinecolor": "AA6666",
+                        "verticallinethickness": "1",
+                        "category": [
+                            {
+                                "label": "20",
+                                "x": "15",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "30",
+                                "x": "25",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "40",
+                                "x": "35",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "50",
+                                "x": "45",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "60",
+                                "x": "55",
+                                "showverticalline": "1"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "id": "DS1",
+                        "seriesname": "Dataset 1",
+                        "color": "ff5904",
+                        "plotborderthickness": "0",
+                        "showplotborder": "1",
+                        "usehorizontalerrorbar": "1",
+                        "drawline": "0",
+                        "data": [
+                            {
+                                "id": "S1",
+                                "x": "20",
+                                "y": "20",
+                                "errorvalue": "15",
+                                "usehorizontalerrorbar": "1"
+                            },
+                            {
+                                "id": "S2",
+                                "x": "30",
+                                "y": "70",
+                                "errorvalue": "50",
+                                "usehorizontalerrorbar": ""
+                            },
+                            {
+                                "id": "S3",
+                                "x": "40",
+                                "y": "40",
+                                "errorvalue": "21",
+                                "usehorizontalerrorbar": "0"
+                            },
+                            {
+                                "id": "S4",
+                                "x": "50",
+                                "y": "50",
+                                "errorvalue": "10",
+                                "usehorizontalerrorbar": ""
+                            },
+                            {
+                                "id": "S5",
+                                "x": "60",
+                                "y": "60",
+                                "errorvalue": "11",
+                                "usehorizontalerrorbar": "0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "yAxisValueFont": "times",
+                            "yAxisValueFontSize": "17",
+                            "yaxisValueFontColor": "#0000ff",
+                            "yaxisValueFontItalic": "1",
+                            "yaxisValueFontBold": "1",
+                            "yAxisValueBgColor": "#ff00ff",
+                            "yAxisValueBorderColor": "#00ff00",
+                            "yaxisvaluealpha": "30",
+                            "yaxisvalueBgalpha": "80",
+                            "yAxisValueBorderAlpha": "1",
+                            "yaxisValueBorderPadding": "10",
+                            "yAxisValueBorderRadius": "3",
+                            "yaxisvalueborderthickness": "3",
+                            "yaxisvalueborderdashed": "1",
+                            "yaxisvalueborderdashlen": "7",
+                            "yaxisvaluelink": "p-http://google.com",
+                            "_clickurl": "p-http://yahoo.com",
+                            "animation": 0
+                        },
+                        "categories": [
+                            {
+                                "verticallinecolor": "AA6666",
+                                "verticallinethickness": "1",
+                                "category": [
+                                    {
+                                        "label": "20",
+                                        "x": "15",
+                                        "showverticalline": "1"
+                                    },
+                                    {
+                                        "label": "30",
+                                        "x": "25",
+                                        "showverticalline": "1"
+                                    },
+                                    {
+                                        "label": "40",
+                                        "x": "35",
+                                        "showverticalline": "1"
+                                    },
+                                    {
+                                        "label": "50",
+                                        "x": "45",
+                                        "showverticalline": "1"
+                                    },
+                                    {
+                                        "label": "60",
+                                        "x": "55",
+                                        "showverticalline": "1"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dataset": [
+                            {
+                                "id": "DS1",
+                                "seriesname": "Dataset 1",
+                                "color": "ff5904",
+                                "plotborderthickness": "0",
+                                "showplotborder": "1",
+                                "usehorizontalerrorbar": "1",
+                                "drawline": "0",
+                                "data": [
+                                    {
+                                        "id": "S1",
+                                        "x": "20",
+                                        "y": "20",
+                                        "errorvalue": "15",
+                                        "usehorizontalerrorbar": "1"
+                                    },
+                                    {
+                                        "id": "S2",
+                                        "x": "30",
+                                        "y": "70",
+                                        "errorvalue": "50",
+                                        "usehorizontalerrorbar": ""
+                                    },
+                                    {
+                                        "id": "S3",
+                                        "x": "40",
+                                        "y": "40",
+                                        "errorvalue": "21",
+                                        "usehorizontalerrorbar": "0"
+                                    },
+                                    {
+                                        "id": "S4",
+                                        "x": "50",
+                                        "y": "50",
+                                        "errorvalue": "10",
+                                        "usehorizontalerrorbar": ""
+                                    },
+                                    {
+                                        "id": "S5",
+                                        "x": "60",
+                                        "y": "60",
+                                        "errorvalue": "11",
+                                        "usehorizontalerrorbar": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "test-2": {
+        "descriptions": "Update the yaxisValue boolean attributes 1 to 0 and also changing the other attributes value",
+        "id": "test-2",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "errorscatter",
+            "dataSource": {
+                "chart": {
+                    "yAxisValueFont": "times",
+                    "yAxisValueFontSize": "17",
+                    "yaxisValueFontColor": "#0000ff",
+                    "yaxisValueFontItalic": "1",
+                    "yaxisValueFontBold": "1",
+                    "yAxisValueBgColor": "#ff00ff",
+                    "yAxisValueBorderColor": "#00ff00",
+                    "yaxisvaluealpha": "30",
+                    "yaxisvalueBgalpha": "80",
+                    "yAxisValueBorderAlpha": "1",
+                    "yaxisValueBorderPadding": "10",
+                    "yAxisValueBorderRadius": "3",
+                    "yaxisvalueborderthickness": "3",
+                    "yaxisvalueborderdashed": "1",
+                    "yaxisvalueborderdashlen": "7",
+                    "yaxisvaluelink": "p-http://google.com",
+                    "_clickurl": "p-http://yahoo.com",
+                    "animation": 0
+                },
+                "categories": [
+                    {
+                        "verticallinecolor": "AA6666",
+                        "verticallinethickness": "1",
+                        "category": [
+                            {
+                                "label": "20",
+                                "x": "15",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "30",
+                                "x": "25",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "40",
+                                "x": "35",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "50",
+                                "x": "45",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "60",
+                                "x": "55",
+                                "showverticalline": "1"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "id": "DS1",
+                        "seriesname": "Dataset 1",
+                        "color": "ff5904",
+                        "plotborderthickness": "0",
+                        "showplotborder": "1",
+                        "usehorizontalerrorbar": "1",
+                        "drawline": "0",
+                        "data": [
+                            {
+                                "id": "S1",
+                                "x": "20",
+                                "y": "20",
+                                "errorvalue": "15",
+                                "usehorizontalerrorbar": "1"
+                            },
+                            {
+                                "id": "S2",
+                                "x": "30",
+                                "y": "70",
+                                "errorvalue": "50",
+                                "usehorizontalerrorbar": ""
+                            },
+                            {
+                                "id": "S3",
+                                "x": "40",
+                                "y": "40",
+                                "errorvalue": "21",
+                                "usehorizontalerrorbar": "0"
+                            },
+                            {
+                                "id": "S4",
+                                "x": "50",
+                                "y": "50",
+                                "errorvalue": "10",
+                                "usehorizontalerrorbar": ""
+                            },
+                            {
+                                "id": "S5",
+                                "x": "60",
+                                "y": "60",
+                                "errorvalue": "11",
+                                "usehorizontalerrorbar": "0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "yAxisValueFont": "sans-seriff",
+                            "yAxisValueFontSize": "13",
+                            "yaxisValueFontColor": "#ff00ff",
+                            "yaxisValueFontItalic": "0",
+                            "yaxisValueFontBold": "0",
+                            "yAxisValueBgColor": "#00ff00",
+                            "yAxisValueBorderColor": "#ffff00",
+                            "yaxisvaluealpha": "80",
+                            "yaxisvalueBgalpha": "10",
+                            "yAxisValueBorderAlpha": "100",
+                            "yaxisValueBorderPadding": "4",
+                            "yAxisValueBorderRadius": "1",
+                            "yaxisvalueborderthickness": "31",
+                            "yaxisvalueborderdashed": "10",
+                            "yaxisvalueborderdashlen": "7",
+                            "_yaxisvaluelink": "p-http://google.com",
+                            "_clickurl": "p-http://yahoo.com",
+                            "animation": 0
+                        },
+                        "categories": [
+                            {
+                                "verticallinecolor": "AA6666",
+                                "verticallinethickness": "1",
+                                "category": [
+                                    {
+                                        "label": "20",
+                                        "x": "15",
+                                        "showverticalline": "1"
+                                    },
+                                    {
+                                        "label": "30",
+                                        "x": "25",
+                                        "showverticalline": "1"
+                                    },
+                                    {
+                                        "label": "40",
+                                        "x": "35",
+                                        "showverticalline": "1"
+                                    },
+                                    {
+                                        "label": "50",
+                                        "x": "45",
+                                        "showverticalline": "1"
+                                    },
+                                    {
+                                        "label": "60",
+                                        "x": "55",
+                                        "showverticalline": "1"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dataset": [
+                            {
+                                "id": "DS1",
+                                "seriesname": "Dataset 1",
+                                "color": "ff5904",
+                                "plotborderthickness": "0",
+                                "showplotborder": "1",
+                                "usehorizontalerrorbar": "1",
+                                "drawline": "0",
+                                "data": [
+                                    {
+                                        "id": "S1",
+                                        "x": "20",
+                                        "y": "20",
+                                        "errorvalue": "15",
+                                        "usehorizontalerrorbar": "1"
+                                    },
+                                    {
+                                        "id": "S2",
+                                        "x": "30",
+                                        "y": "70",
+                                        "errorvalue": "50",
+                                        "usehorizontalerrorbar": ""
+                                    },
+                                    {
+                                        "id": "S3",
+                                        "x": "40",
+                                        "y": "40",
+                                        "errorvalue": "21",
+                                        "usehorizontalerrorbar": "0"
+                                    },
+                                    {
+                                        "id": "S4",
+                                        "x": "50",
+                                        "y": "50",
+                                        "errorvalue": "10",
+                                        "usehorizontalerrorbar": ""
+                                    },
+                                    {
+                                        "id": "S5",
+                                        "x": "60",
+                                        "y": "60",
+                                        "errorvalue": "11",
+                                        "usehorizontalerrorbar": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "test-3": {
+        "descriptions": "Remove all yaxisvalue cosmetics through update",
+        "id": "test-3",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "errorscatter",
+            "dataSource": {
+                "chart": {
+                    "yAxisValueFont": "times",
+                    "yAxisValueFontSize": "17",
+                    "yaxisValueFontColor": "#0000ff",
+                    "yaxisValueFontItalic": "1",
+                    "yaxisValueFontBold": "1",
+                    "yAxisValueBgColor": "#ff00ff",
+                    "yAxisValueBorderColor": "#00ff00",
+                    "yaxisvaluealpha": "30",
+                    "yaxisvalueBgalpha": "80",
+                    "yAxisValueBorderAlpha": "1",
+                    "yaxisValueBorderPadding": "10",
+                    "yAxisValueBorderRadius": "3",
+                    "yaxisvalueborderthickness": "3",
+                    "yaxisvalueborderdashed": "1",
+                    "yaxisvalueborderdashlen": "7",
+                    "yaxisvaluelink": "p-http://google.com",
+                    "_clickurl": "p-http://yahoo.com",
+                    "animation": 0
+                },
+                "categories": [
+                    {
+                        "verticallinecolor": "AA6666",
+                        "verticallinethickness": "1",
+                        "category": [
+                            {
+                                "label": "20",
+                                "x": "15",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "30",
+                                "x": "25",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "40",
+                                "x": "35",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "50",
+                                "x": "45",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "60",
+                                "x": "55",
+                                "showverticalline": "1"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "id": "DS1",
+                        "seriesname": "Dataset 1",
+                        "color": "ff5904",
+                        "plotborderthickness": "0",
+                        "showplotborder": "1",
+                        "usehorizontalerrorbar": "1",
+                        "drawline": "0",
+                        "data": [
+                            {
+                                "id": "S1",
+                                "x": "20",
+                                "y": "20",
+                                "errorvalue": "15",
+                                "usehorizontalerrorbar": "1"
+                            },
+                            {
+                                "id": "S2",
+                                "x": "30",
+                                "y": "70",
+                                "errorvalue": "50",
+                                "usehorizontalerrorbar": ""
+                            },
+                            {
+                                "id": "S3",
+                                "x": "40",
+                                "y": "40",
+                                "errorvalue": "21",
+                                "usehorizontalerrorbar": "0"
+                            },
+                            {
+                                "id": "S4",
+                                "x": "50",
+                                "y": "50",
+                                "errorvalue": "10",
+                                "usehorizontalerrorbar": ""
+                            },
+                            {
+                                "id": "S5",
+                                "x": "60",
+                                "y": "60",
+                                "errorvalue": "11",
+                                "usehorizontalerrorbar": "0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "animation": 0
+                        },
+                        "categories": [
+                            {
+                                "verticallinecolor": "AA6666",
+                                "verticallinethickness": "1",
+                                "category": [
+                                    {
+                                        "label": "20",
+                                        "x": "15",
+                                        "showverticalline": "1"
+                                    },
+                                    {
+                                        "label": "30",
+                                        "x": "25",
+                                        "showverticalline": "1"
+                                    },
+                                    {
+                                        "label": "40",
+                                        "x": "35",
+                                        "showverticalline": "1"
+                                    },
+                                    {
+                                        "label": "50",
+                                        "x": "45",
+                                        "showverticalline": "1"
+                                    },
+                                    {
+                                        "label": "60",
+                                        "x": "55",
+                                        "showverticalline": "1"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dataset": [
+                            {
+                                "id": "DS1",
+                                "seriesname": "Dataset 1",
+                                "color": "ff5904",
+                                "plotborderthickness": "0",
+                                "showplotborder": "1",
+                                "usehorizontalerrorbar": "1",
+                                "drawline": "0",
+                                "data": [
+                                    {
+                                        "id": "S1",
+                                        "x": "20",
+                                        "y": "20",
+                                        "errorvalue": "15",
+                                        "usehorizontalerrorbar": "1"
+                                    },
+                                    {
+                                        "id": "S2",
+                                        "x": "30",
+                                        "y": "70",
+                                        "errorvalue": "50",
+                                        "usehorizontalerrorbar": ""
+                                    },
+                                    {
+                                        "id": "S3",
+                                        "x": "40",
+                                        "y": "40",
+                                        "errorvalue": "21",
+                                        "usehorizontalerrorbar": "0"
+                                    },
+                                    {
+                                        "id": "S4",
+                                        "x": "50",
+                                        "y": "50",
+                                        "errorvalue": "10",
+                                        "usehorizontalerrorbar": ""
+                                    },
+                                    {
+                                        "id": "S5",
+                                        "x": "60",
+                                        "y": "60",
+                                        "errorvalue": "11",
+                                        "usehorizontalerrorbar": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

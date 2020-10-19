@@ -1,0 +1,223 @@
+{
+    "TS_08_TC_147-heatmap": {
+        "id": "TS_08_TC_147-heatmap",
+        "description": "placeXAxisLabelsOnTop = 1 with xAxisPosition = bottom",
+        "options": {
+            "type": "heatmap",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "rows": {
+                    "row": [
+                        {
+                            "id": "row-Label-1",
+                            "label": "Row-1"
+                        },
+                        {
+                            "id": "row-Label-2",
+                            "label": "Row-2"
+                        },
+                        {
+                            "id": "row-Label-3",
+                            "label": "Row-3"
+                        }
+                    ]
+                },
+                "columns": {
+                    "column": [
+                        {
+                            "id": "col-Label-1",
+                            "label": "Column-1"
+                        },
+                        {
+                            "id": "col-Label-2",
+                            "label": "Column-2"
+                        },
+                        {
+                            "id": "col-Label-3",
+                            "label": "Column-3"
+                        }
+                    ]
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "rowid": "row-Label-1",
+                                "columnid": "col-Label-1",
+                                "value": 1
+                            },
+                            {
+                                "rowid": "row-Label-1",
+                                "columnid": "col-Label-2",
+                                "value": 2
+                            },
+                            {
+                                "rowid": "row-Label-1",
+                                "columnid": "col-Label-3",
+                                "value": 3
+                            },
+                            {
+                                "rowid": "row-Label-2",
+                                "columnid": "col-Label-1",
+                                "value": 4
+                            },
+                            {
+                                "rowid": "row-Label-2",
+                                "columnid": "col-Label-2",
+                                "value": 5
+                            },
+                            {
+                                "rowid": "row-Label-2",
+                                "columnid": "col-Label-3",
+                                "value": 6
+                            },
+                            {
+                                "rowid": "row-Label-3",
+                                "columnid": "col-Label-1",
+                                "value": 7
+                            },
+                            {
+                                "rowid": "row-Label-3",
+                                "columnid": "col-Label-2",
+                                "value": 8
+                            },
+                            {
+                                "rowid": "row-Label-3",
+                                "columnid": "col-Label-3",
+                                "value": 9
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "caption": "caption",
+                    "subcaption": "subCaption",
+                    "xaxisname": "xAxisName",
+                    "yaxisname": "yAxisName",
+                    "xaxisposition": "bottom",
+                    "labelfontcolor": "#ff0000",
+                    "placexaxislabelsontop": 1
+                },
+                "colorrange": {
+                    "mapbypercent": "1",
+                    "gradient": "1",
+                    "minvalue": 0,
+                    "maxvalue": 100
+                }
+            }
+        }
+    },
+    "TS_08_TC_146-heatmap": {
+        "id": "TS_08_TC_146-heatmap",
+        "description": "placeXAxisLabelsOnTop = 0",
+        "options": {
+            "type": "heatmap",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "rows": {
+                    "row": [
+                        {
+                            "id": "row-Label-1",
+                            "label": "Row-1"
+                        },
+                        {
+                            "id": "row-Label-2",
+                            "label": "Row-2"
+                        },
+                        {
+                            "id": "row-Label-3",
+                            "label": "Row-3"
+                        }
+                    ]
+                },
+                "columns": {
+                    "column": [
+                        {
+                            "id": "col-Label-1",
+                            "label": "Column-1"
+                        },
+                        {
+                            "id": "col-Label-2",
+                            "label": "Column-2"
+                        },
+                        {
+                            "id": "col-Label-3",
+                            "label": "Column-3"
+                        }
+                    ]
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "rowid": "row-Label-1",
+                                "columnid": "col-Label-1",
+                                "value": 1
+                            },
+                            {
+                                "rowid": "row-Label-1",
+                                "columnid": "col-Label-2",
+                                "value": 2
+                            },
+                            {
+                                "rowid": "row-Label-1",
+                                "columnid": "col-Label-3",
+                                "value": 3
+                            },
+                            {
+                                "rowid": "row-Label-2",
+                                "columnid": "col-Label-1",
+                                "value": 4
+                            },
+                            {
+                                "rowid": "row-Label-2",
+                                "columnid": "col-Label-2",
+                                "value": 5
+                            },
+                            {
+                                "rowid": "row-Label-2",
+                                "columnid": "col-Label-3",
+                                "value": 6
+                            },
+                            {
+                                "rowid": "row-Label-3",
+                                "columnid": "col-Label-1",
+                                "value": 7
+                            },
+                            {
+                                "rowid": "row-Label-3",
+                                "columnid": "col-Label-2",
+                                "value": 8
+                            },
+                            {
+                                "rowid": "row-Label-3",
+                                "columnid": "col-Label-3",
+                                "value": 9
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "caption": "caption",
+                    "subcaption": "subCaption",
+                    "xaxisname": "xAxisName",
+                    "yaxisname": "yAxisName",
+                    "labelfontcolor": "#ff0000",
+                    "placexaxislabelsontop": 1
+                },
+                "colorrange": {
+                    "mapbypercent": "1",
+                    "gradient": "1",
+                    "minvalue": 0,
+                    "maxvalue": 100
+                }
+            }
+        }
+    }
+}

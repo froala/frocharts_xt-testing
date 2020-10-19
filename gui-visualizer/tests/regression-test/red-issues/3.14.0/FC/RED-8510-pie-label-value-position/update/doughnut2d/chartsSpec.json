@@ -1,0 +1,134 @@
+{
+    "test-1": {
+        "description": "valueposition and labelposition is updated from inside to outside from chart level and outside to inside from data level",
+        "id": "doughnut2d",
+        "options": {
+            "type": "doughnut2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "animation":"0",
+                    "showpercentagevalues": "1",
+                    "valueposition": "inside",
+                    "labelposition": "inside"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26",
+                        "valueposition": "outside",
+                        "labelposition": "outside"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "caption": "Company Revenue",
+                            "animation":"0",
+                            "showpercentagevalues": "1",
+                            "valueposition": "outside",
+                            "labelposition": "outside"
+                        },
+                        "data": [
+                            {
+                                "label": "Services",
+                                "value": "26",
+                                "valueposition": "inside",
+                                "labelposition": "inside"
+                            },
+                            {
+                                "label": "Hardware",
+                                "value": "32"
+                            },
+                            {
+                                "label": "Software",
+                                "value": "42"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "test-2": {
+        "description": "valueposition and labelposition is updated from outside to inside from chart level and inside to outside from data level",
+        "id": "doughnut2d",
+        "options": {
+            "type": "doughnut2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "animation":"0",
+                    "showpercentagevalues": "1",
+                    "valueposition": "outside",
+                    "labelposition": "outside"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26",
+                        "valueposition": "inside",
+                        "labelposition": "inside"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "caption": "Company Revenue",
+                            "animation":"0",
+                            "showpercentagevalues": "1",
+                            "valueposition": "inside",
+                            "labelposition": "inside"
+                        },
+                        "data": [
+                            {
+                                "label": "Services",
+                                "value": "26",
+                                "valueposition": "outside",
+                                "labelposition": "outside"
+                            },
+                            {
+                                "label": "Hardware",
+                                "value": "32"
+                            },
+                            {
+                                "label": "Software",
+                                "value": "42"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,2563 @@
+{
+    "RED-3915-A": {
+        "description": "For MS Column charts, with initiallyhidden =1,hidden plots value gets displayed",
+        "category": "static",
+        "options": {
+            "type": "mscolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Comparison of Quarterly Revenue",
+                    "subcaption": "Last year Vs This year",
+                    "xaxisname": "Quarter",
+                    "yaxisname": "Revenue (In USD)",
+                    "numberprefix": "$",
+                    "legendbgcolor": "#CCCCCC",
+                    "legendbgalpha": "20",
+                    "legendbordercolor": "#666666",
+                    "legendborderthickness": "1",
+                    "legendborderalpha": "40",
+                    "legendshadow": "1",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Q1"
+                            },
+                            {
+                                "label": "Q2"
+                            },
+                            {
+                                "label": "Q3"
+                            },
+                            {
+                                "label": "Q4"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Last Year",
+                        "initiallyhidden": "1",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "This Year",
+                        "data": [
+                            {
+                                "value": "25400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "21800"
+                            },
+                            {
+                                "value": "26800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/mscolumn2d/ref-images/RED-3915-A-snapshot.png",
+        "id": "RED-3915-A"
+    },
+    "RED-3915-B": {
+        "description": "For MS Column charts, with initiallyhidden =1,hidden plots value gets displayed",
+        "category": "static",
+        "options": {
+            "type": "msbar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Comparison of Quarterly Revenue",
+                    "subcaption": "Last year Vs This year",
+                    "xaxisname": "Quarter",
+                    "yaxisname": "Revenue (In USD)",
+                    "numberprefix": "$",
+                    "legendbgcolor": "#CCCCCC",
+                    "legendbgalpha": "20",
+                    "legendbordercolor": "#666666",
+                    "legendborderthickness": "1",
+                    "legendborderalpha": "40",
+                    "legendshadow": "1",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Q1"
+                            },
+                            {
+                                "label": "Q2"
+                            },
+                            {
+                                "label": "Q3"
+                            },
+                            {
+                                "label": "Q4"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Last Year",
+                        "initiallyhidden": "1",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "This Year",
+                        "data": [
+                            {
+                                "value": "25400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "21800"
+                            },
+                            {
+                                "value": "26800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/msbar3d/ref-images/RED-3915-B-snapshot.png",
+        "id": "RED-3915-B"
+    },
+    "RED-3915-C": {
+        "description": "For MS Column charts, with initiallyhidden =1,hidden plots value gets displayed",
+        "category": "static",
+        "options": {
+            "type": "msarea",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Comparison of Quarterly Revenue",
+                    "subcaption": "Last year Vs This year",
+                    "xaxisname": "Quarter",
+                    "yaxisname": "Revenue (In USD)",
+                    "numberprefix": "$",
+                    "legendbgcolor": "#CCCCCC",
+                    "legendbgalpha": "20",
+                    "legendbordercolor": "#666666",
+                    "legendborderthickness": "1",
+                    "legendborderalpha": "40",
+                    "legendshadow": "1",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Q1"
+                            },
+                            {
+                                "label": "Q2"
+                            },
+                            {
+                                "label": "Q3"
+                            },
+                            {
+                                "label": "Q4"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Last Year",
+                        "initiallyhidden": "1",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "This Year",
+                        "data": [
+                            {
+                                "value": "25400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "21800"
+                            },
+                            {
+                                "value": "26800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/msarea/ref-images/RED-3915-C-snapshot.png",
+        "id": "RED-3915-C"
+    },
+    "RED-3915-D": {
+        "description": "For MS Column charts, with initiallyhidden =1,hidden plots value gets displayed",
+        "category": "static",
+        "options": {
+            "type": "stackedbar2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Comparison of Quarterly Revenue",
+                    "subcaption": "Last year Vs This year",
+                    "xaxisname": "Quarter",
+                    "yaxisname": "Revenue (In USD)",
+                    "numberprefix": "$",
+                    "legendbgcolor": "#CCCCCC",
+                    "legendbgalpha": "20",
+                    "legendbordercolor": "#666666",
+                    "legendborderthickness": "1",
+                    "legendborderalpha": "40",
+                    "legendshadow": "1",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Q1"
+                            },
+                            {
+                                "label": "Q2"
+                            },
+                            {
+                                "label": "Q3"
+                            },
+                            {
+                                "label": "Q4"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Last Year",
+                        "initiallyhidden": "1",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "This Year",
+                        "data": [
+                            {
+                                "value": "25400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "21800"
+                            },
+                            {
+                                "value": "26800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/stackedbar2d/ref-images/RED-3915-D-snapshot.png",
+        "id": "RED-3915-D"
+    },
+    "RED-3915-E": {
+        "description": "For MS Column charts, with initiallyhidden =1,hidden plots value gets displayed",
+        "category": "static",
+        "options": {
+            "type": "dragline",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Comparison of Quarterly Revenue",
+                    "subcaption": "Last year Vs This year",
+                    "xaxisname": "Quarter",
+                    "yaxisname": "Revenue (In USD)",
+                    "numberprefix": "$",
+                    "legendbgcolor": "#CCCCCC",
+                    "legendbgalpha": "20",
+                    "legendbordercolor": "#666666",
+                    "legendborderthickness": "1",
+                    "legendborderalpha": "40",
+                    "legendshadow": "1",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Q1"
+                            },
+                            {
+                                "label": "Q2"
+                            },
+                            {
+                                "label": "Q3"
+                            },
+                            {
+                                "label": "Q4"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Last Year",
+                        "initiallyhidden": "1",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "This Year",
+                        "data": [
+                            {
+                                "value": "25400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "21800"
+                            },
+                            {
+                                "value": "26800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/dragline/ref-images/RED-3915-E-snapshot.png",
+        "id": "RED-3915-E"
+    },
+    "RED-3952": {
+        "description": "For heatmap chart, JS error throws for given datasource.",
+        "category": "static",
+        "options": {
+            "type": "heatmap",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "animation": "0"
+                },
+                "rows": {
+                    "row": [
+                        {
+                            "id": "NY",
+                            "label": "New York"
+                        },
+                        {
+                            "id": "LA",
+                            "label": "Los Angeles"
+                        },
+                        {
+                            "id": "CH",
+                            "label": "Chicago"
+                        },
+                        {
+                            "id": "HO",
+                            "label": "Houston"
+                        }
+                    ]
+                },
+                "columns": {
+                    "column": [
+                        {
+                            "id": "wI",
+                            "label": "Winter"
+                        },
+                        {
+                            "id": "SU",
+                            "label": "Summer"
+                        },
+                        {
+                            "id": "SP",
+                            "label": "Spring"
+                        },
+                        {
+                            "id": "AU",
+                            "label": "Autumn"
+                        }
+                    ]
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "rowid": "LA",
+                                "columnid": "WI",
+                                "value": "60.10",
+                                "colorrangelabel": "Warm"
+                            },
+                            {
+                                "rowid": "LA",
+                                "columnid": "SP",
+                                "displayvalue": "64.5",
+                                "colorrangelabel": "Warm"
+                            }
+                        ]
+                    }
+                ],
+                "colorrange": {
+                    "color": [
+                        {
+                            "code": "#6da81e",
+                            "minvalue": "0",
+                            "maxvalue": "50",
+                            "label": "Freezing"
+                        },
+                        {
+                            "code": "#f6bc33",
+                            "minvalue": "50",
+                            "maxvalue": "70",
+                            "label": "Warm"
+                        },
+                        {
+                            "code": "#e24b1a",
+                            "minvalue": "70",
+                            "maxvalue": "85",
+                            "label": "Hot"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/heatmap/ref-images/RED-3952-snapshot.png",
+        "id": "RED-3952"
+    },
+    "RED-3916": {
+        "description": "In Bubble chart, plot labels are visible outside of canvas in chrome, in IE11 its cropped at the edge.",
+        "category": "static",
+        "options": {
+            "type": "bubble",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "AdWords campaign of Harry's SuperMart",
+                    "subcaption": "Performance analysis - conversions in % of total",
+                    "palettecolors": "#008ee4",
+                    "use3dlighting": "0",
+                    "xaxisminvalue": "0",
+                    "xaxismaxvalue": "6000",
+                    "yaxisminvalue": "0",
+                    "yaxismaxvalue": "30",
+                    "showplotborder": "0",
+                    "showalternatehgridcolor": "0",
+                    "xaxisname": "Conversions",
+                    "yaxisname": "Cost Per Conversion",
+                    "numberprefix": "$",
+                    "chartrightmargin": "30",
+                    "bgalpha": "0",
+                    "borderalpha": "20",
+                    "canvasborderalpha": "0",
+                    "plotborderalpha": "10",
+                    "plotfillalpha": "70",
+                    "captionpadding": "20",
+                    "showaxislines": "1",
+                    "axislinealpha": "25",
+                    "divlinealpha": "15",
+                    "legendshadow": "0",
+                    "legendborderalpha": "0",
+                    "plotfillhovercolor": "#6baa01",
+                    "numdivlines": "2",
+                    "showtrendlinelabels": "0",
+                    "plottooltext": "$name : Share in total conversion is $zvalue%",
+                    "showvalues": "1",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "verticallinealpha": "20",
+                        "category": [
+                            {
+                                "label": "0",
+                                "x": "0"
+                            },
+                            {
+                                "label": "1500",
+                                "x": "1500",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "3000",
+                                "x": "3000",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "4500",
+                                "x": "4500",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "6000",
+                                "x": "6000",
+                                "showverticalline": "1"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "x": "5540",
+                                "y": "16.09",
+                                "z": "30.63",
+                                "name": "campaign#1"
+                            },
+                            {
+                                "x": "4406",
+                                "y": "12.74",
+                                "z": "24.36",
+                                "name": "campaign#2"
+                            },
+                            {
+                                "x": "1079",
+                                "y": "15.79",
+                                "z": "5.97",
+                                "name": "campaign#3"
+                            },
+                            {
+                                "x": "1700",
+                                "y": "8.27",
+                                "z": "9.4",
+                                "name": "campaign#4"
+                            },
+                            {
+                                "x": "853",
+                                "y": "15.89",
+                                "z": "4.71",
+                                "name": "campaign#5"
+                            },
+                            {
+                                "x": "1202",
+                                "y": "10.74",
+                                "z": "6.65",
+                                "name": "campaign#6"
+                            },
+                            {
+                                "x": "2018",
+                                "y": "6.14",
+                                "z": "11.16",
+                                "name": "campaign#7"
+                            },
+                            {
+                                "x": "413",
+                                "y": "19.83",
+                                "z": "2.28",
+                                "name": "campaign#8"
+                            },
+                            {
+                                "x": "586",
+                                "y": "13.96",
+                                "z": "3.24",
+                                "name": "campaign#9"
+                            },
+                            {
+                                "x": "184",
+                                "y": "15.82",
+                                "z": "1.02",
+                                "name": "campaign#10"
+                            },
+                            {
+                                "x": "311",
+                                "y": "5.83",
+                                "z": "1.72",
+                                "name": "campaign#11"
+                            },
+                            {
+                                "x": "35",
+                                "y": "10.76",
+                                "z": "0.19",
+                                "name": "campaign#12"
+                            },
+                            {
+                                "x": "55",
+                                "y": "2.73",
+                                "z": "0.3",
+                                "name": "campaign#13"
+                            },
+                            {
+                                "x": "6",
+                                "y": "21.22",
+                                "z": "0.03",
+                                "name": "campaign#14"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "20",
+                                "endvalue": "30",
+                                "istrendzone": "1",
+                                "color": "#aaaaaa",
+                                "alpha": "14"
+                            },
+                            {
+                                "startvalue": "10",
+                                "endvalue": "20",
+                                "istrendzone": "1",
+                                "color": "#aaaaaa",
+                                "alpha": "7"
+                            },
+                            {
+                                "startvalue": "0",
+                                "endvalue": "10",
+                                "istrendzone": "1",
+                                "color": "#aaaaaa",
+                                "alpha": "0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bubble/ref-images/RED-3916-snapshot.png",
+        "id": "RED-3916"
+    },
+    "RED-3972": {
+        "description": "In Gantt chart, label font color not working",
+        "category": "static",
+        "options": {
+            "type": "gantt",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "bordercolor": "#330000",
+                    "borderthickness": "3",
+                    "borderalpha": "85",
+                    "canvasbgcolor": "#7E8EA1",
+                    "canvasbgalpha": "70",
+                    "canvasbgratio": "70:30",
+                    "canvasbgangle": "180",
+                    "canvasbordercolor": "#0000ff",
+                    "canvasborderthickness": "3",
+                    "canvasborderalpha": "75",
+                    "captionpadding": "15",
+                    "chartleftmargin": "15",
+                    "chartrightmargin": "15",
+                    "charttopmargin": "15",
+                    "chartbottommargin": "15",
+                    "bgcolor": "#999999,#ffffff",
+                    "bgalpha": "100",
+                    "bgratio": "10:90",
+                    "bgangle": "90",
+                    "logourl": "../../images/logo.png",
+                    "logoposition": "TR",
+                    "logoalpha": "50",
+                    "logoscale": "70",
+                    "logolink": "http://fusioncharts.com",
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Current Year",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "20",
+                    "subcaptionfontsize": "15",
+                    "captionfont": "verdana",
+                    "subcaptionfont": "verdana",
+                    "captionfontcolor": "#ff0000",
+                    "subcaptionfontcolor": "#0000ff",
+                    "captionfontbold": "1",
+                    "subcaptionfontbold": "1",
+                    "aligncaptionwithcanvas": "1",
+                    "captionhorizontalpadding": "10",
+                    "dateformat": "dd/mm/yyyy",
+                    "outputdateformat": "ddds mns yy",
+                    "ganttwidthpercent": "60",
+                    "ganttpaneduration": "40",
+                    "ganttpanedurationunit": "d",
+                    "plottooltext": "$processName{br} $label starting date $start{br}$label ending date $end",
+                    "showlegend": "1",
+                    "legenditemfontbold": "1",
+                    "legenditemfont": "verdana",
+                    "legenditemfontsize": "16",
+                    "legenditemfontcolor": "#cc0000",
+                    "legenditemhoverfontcolor": "#ffffff",
+                    "legendcaption": "Interactive Legend",
+                    "legendcaptionalignment": "left",
+                    "legendcaptionfontbold": "1",
+                    "legendcaptionfont": "verdana",
+                    "legendcaptionfontsize": "20",
+                    "legendcaptionfontcolor": "#000000",
+                    "legenditemhiddencolor": "#ff0000",
+                    "legendiconscale": "110",
+                    "legendbgcolor": "#333333",
+                    "legendbgalpha": "60",
+                    "legendbordercolor": "#0000ff",
+                    "legendborderthickness": "3",
+                    "legendborderalpha": "80",
+                    "legendallowdrag": "1",
+                    "legendscrollbgcolor": "0",
+                    "reverselegend": "1",
+                    "interactivelegend": "1",
+                    "legendnumcolumns": "3",
+                    "minimisewrappinginlegend": "",
+                    "numberprefix": "$",
+                    "animation": "0",
+                    "showlabels": "1"
+                },
+                "categories": [
+                    {
+                        "bgcolor": "#999999",
+                        "category": [
+                            {
+                                "start": "1/4/2014",
+                                "end": "30/6/2014",
+                                "label": "Months",
+                                "align": "middle",
+                                "fontcolor": "#ff0000",
+                                "fontsize": "12"
+                            }
+                        ]
+                    },
+                    {
+                        "bgcolor": "#999999",
+                        "align": "middle",
+                        "fontcolor": "#0000ff",
+                        "fontsize": "12",
+                        "category": [
+                            {
+                                "start": "1/4/2014",
+                                "end": "30/4/2014",
+                                "label": "April"
+                            },
+                            {
+                                "start": "1/5/2014",
+                                "end": "31/5/2014",
+                                "label": "May"
+                            },
+                            {
+                                "start": "1/6/2014",
+                                "end": "30/6/2014",
+                                "label": "June"
+                            }
+                        ]
+                    },
+                    {
+                        "bgcolor": "#ffffff",
+                        "fontcolor": "#333333",
+                        "fontsize": "11",
+                        "align": "center",
+                        "category": [
+                            {
+                                "start": "1/4/2014",
+                                "end": "5/4/2014",
+                                "label": "Week 1",
+                                "fontcolor": "#ff0000"
+                            },
+                            {
+                                "start": "6/4/2014",
+                                "end": "12/4/2014",
+                                "label": "Week 2"
+                            },
+                            {
+                                "start": "13/4/2014",
+                                "end": "19/4/2014",
+                                "label": "Week 3"
+                            },
+                            {
+                                "start": "20/4/2014",
+                                "end": "26/4/2014",
+                                "label": "Week 4"
+                            },
+                            {
+                                "start": "27/4/2014",
+                                "end": "3/5/2014",
+                                "label": "Week 5"
+                            },
+                            {
+                                "start": "4/5/2014",
+                                "end": "10/5/2014",
+                                "label": "Week 6"
+                            },
+                            {
+                                "start": "11/5/2014",
+                                "end": "17/5/2014",
+                                "label": "Week 7"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "headertext": "Task",
+                    "fontcolor": "#00ff00",
+                    "fontsize": "11",
+                    "isanimated": "1",
+                    "bgcolor": "#6baa01",
+                    "headervalign": "bottom",
+                    "headeralign": "left",
+                    "headerbgcolor": "#999999",
+                    "headerfontcolor": "#ffff00",
+                    "headerfontsize": "12",
+                    "align": "left",
+                    "isbold": "1",
+                    "bgalpha": "25",
+                    "process": [
+                        {
+                            "label": "Clear site",
+                            "id": "1"
+                        },
+                        {
+                            "label": "Excavate Foundation",
+                            "id": "2",
+                            "hoverbandcolor": "#e44a00",
+                            "hoverbandalpha": "40"
+                        },
+                        {
+                            "label": "Concrete Foundation",
+                            "id": "3",
+                            "hoverbandcolor": "#e44a00",
+                            "hoverbandalpha": "40"
+                        },
+                        {
+                            "label": "Footing to DPC",
+                            "id": "4",
+                            "hoverbandcolor": "#e44a00",
+                            "hoverbandalpha": "40"
+                        },
+                        {
+                            "label": "Drainage Services",
+                            "id": "5",
+                            "hoverbandcolor": "#e44a00",
+                            "hoverbandalpha": "40"
+                        },
+                        {
+                            "label": "Backfill",
+                            "id": "6",
+                            "hoverbandcolor": "#e44a00",
+                            "hoverbandalpha": "40"
+                        },
+                        {
+                            "label": "Ground Floor",
+                            "id": "7"
+                        },
+                        {
+                            "label": "Walls on First Floor",
+                            "id": "8"
+                        },
+                        {
+                            "label": "First Floor Carcass",
+                            "id": "9",
+                            "hoverbandcolor": "#e44a00",
+                            "hoverbandalpha": "40"
+                        },
+                        {
+                            "label": "First Floor Deck",
+                            "id": "10",
+                            "hoverbandcolor": "#e44a00",
+                            "hoverbandalpha": "40"
+                        },
+                        {
+                            "label": "Roof Structure",
+                            "id": "11"
+                        }
+                    ]
+                },
+                "datatable": {
+                    "showprocessname": "1",
+                    "namealign": "left",
+                    "fontcolor": "#000000",
+                    "fontsize": "10",
+                    "valign": "right",
+                    "align": "center",
+                    "headervalign": "bottom",
+                    "headeralign": "center",
+                    "headerbgcolor": "#999999",
+                    "headerfontcolor": "#ff0000",
+                    "headerfontsize": "16",
+                    "datacolumn": [
+                        {
+                            "bgcolor": "#eeeeee",
+                            "headertext": "Actual{br}Start{br}Date",
+                            "text": [
+                                {
+                                    "label": "9/4/2014"
+                                },
+                                {
+                                    "label": "13/4/2014"
+                                },
+                                {
+                                    "label": "26/4/2014",
+                                    "bgcolor": "#e44a00",
+                                    "bgalpha": "40"
+                                },
+                                {
+                                    "label": "4/5/2014",
+                                    "bgcolor": "#e44a00",
+                                    "bgalpha": "40"
+                                },
+                                {
+                                    "label": "6/5/2014"
+                                },
+                                {
+                                    "label": "5/5/2014",
+                                    "bgcolor": "#e44a00",
+                                    "bgalpha": "40"
+                                },
+                                {
+                                    "label": "11/5/2014"
+                                },
+                                {
+                                    "label": "16/5/2014"
+                                },
+                                {
+                                    "label": "16/5/2014"
+                                },
+                                {
+                                    "label": "21/5/2014",
+                                    "bgcolor": "#e44a00",
+                                    "bgalpha": "40"
+                                },
+                                {
+                                    "label": "25/5/2014"
+                                },
+                                {
+                                    "label": "28/5/2014"
+                                },
+                                {
+                                    "label": "4/6/2014"
+                                },
+                                {
+                                    "label": "4/6/2014"
+                                },
+                                {
+                                    "label": "4/6/2014"
+                                },
+                                {
+                                    "label": "2/6/2014"
+                                },
+                                {
+                                    "label": "5/6/2014"
+                                },
+                                {
+                                    "label": "18/6/2014",
+                                    "bgcolor": "#e44a00",
+                                    "bgalpha": "40"
+                                },
+                                {
+                                    "label": "16/6/2014",
+                                    "bgcolor": "#e44a00",
+                                    "bgalpha": "40"
+                                },
+                                {
+                                    "label": "23/6/2014"
+                                },
+                                {
+                                    "label": "18/6/2014"
+                                },
+                                {
+                                    "label": "25/6/2014"
+                                }
+                            ]
+                        },
+                        {
+                            "bgcolor": "#eeeeee",
+                            "headertext": "Actual{br}End{br}Date",
+                            "text": [
+                                {
+                                    "label": "12/4/2014",
+                                    "fontcolor": "ff0000"
+                                },
+                                {
+                                    "label": "25/4/2014",
+                                    "bgcolor": "#e44a00",
+                                    "bgalpha": "40"
+                                },
+                                {
+                                    "label": "4/5/2014",
+                                    "bgcolor": "#e44a00",
+                                    "bgalpha": "40"
+                                },
+                                {
+                                    "label": "10/5/2014"
+                                },
+                                {
+                                    "label": "10/5/2014"
+                                },
+                                {
+                                    "label": "11/5/2014",
+                                    "bgcolor": "#e44a00",
+                                    "bgalpha": "40"
+                                },
+                                {
+                                    "label": "14/5/2014"
+                                },
+                                {
+                                    "label": "19/5/2014"
+                                },
+                                {
+                                    "label": "21/5/2014",
+                                    "bgcolor": "#e44a00",
+                                    "bgalpha": "40"
+                                },
+                                {
+                                    "label": "24/5/2014",
+                                    "bgcolor": "#e44a00",
+                                    "bgalpha": "40"
+                                },
+                                {
+                                    "label": "27/5/2014"
+                                },
+                                {
+                                    "label": "1/6/2014"
+                                },
+                                {
+                                    "label": "6/6/2014"
+                                },
+                                {
+                                    "label": "4/6/2014"
+                                },
+                                {
+                                    "label": "4/6/2014"
+                                },
+                                {
+                                    "label": "7/6/2014"
+                                },
+                                {
+                                    "label": "17/6/2014",
+                                    "bgcolor": "#e44a00",
+                                    "bgalpha": "40"
+                                },
+                                {
+                                    "label": "20/6/2014",
+                                    "bgcolor": "#e44a00",
+                                    "bgalpha": "40"
+                                },
+                                {
+                                    "label": "23/6/2014"
+                                },
+                                {
+                                    "label": "23/6/2014"
+                                },
+                                {
+                                    "label": "23/6/2014",
+                                    "bgcolor": "#e44a00",
+                                    "bgalpha": "40"
+                                },
+                                {
+                                    "label": "28/6/2014"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "tasks": {
+                    "showlabels": "1",
+                    "fontcolor": "#ff0000",
+                    "task": [
+                        {
+                            "label": "Planned",
+                            "fontcolor": "#0000ff",
+                            "processid": "1",
+                            "start": "9/4/2014",
+                            "end": "12/4/2014",
+                            "id": "1-1",
+                            "color": "#008ee4",
+                            "height": "32%",
+                            "toppadding": "12%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "1",
+                            "start": "9/4/2014",
+                            "end": "12/4/2014",
+                            "id": "1",
+                            "color": "#6baa01",
+                            "toppadding": "56%",
+                            "height": "32%"
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "2",
+                            "start": "13/4/2014",
+                            "end": "23/4/2014",
+                            "id": "2-1",
+                            "color": "#008ee4",
+                            "height": "32%",
+                            "toppadding": "12%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "2",
+                            "start": "13/4/2014",
+                            "end": "25/4/2014",
+                            "id": "2",
+                            "color": "#6baa01",
+                            "toppadding": "56%",
+                            "height": "32%"
+                        },
+                        {
+                            "label": "Delay",
+                            "processid": "2",
+                            "start": "23/4/2014",
+                            "end": "25/4/2014",
+                            "id": "2-2",
+                            "color": "#e44a00",
+                            "toppadding": "56%",
+                            "height": "32%",
+                            "tooltext": "Delayed by 2 days."
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "3",
+                            "start": "23/4/2014",
+                            "end": "30/4/2014",
+                            "id": "3-1",
+                            "color": "#008ee4",
+                            "height": "32%",
+                            "toppadding": "12%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "3",
+                            "start": "26/4/2014",
+                            "end": "4/5/2014",
+                            "id": "3",
+                            "color": "#6baa01",
+                            "toppadding": "56%",
+                            "height": "32%"
+                        },
+                        {
+                            "label": "Delay",
+                            "processid": "3",
+                            "start": "3/5/2014",
+                            "end": "4/5/2014",
+                            "id": "3-2",
+                            "color": "#e44a00",
+                            "toppadding": "56%",
+                            "height": "32%",
+                            "tooltext": "Delayed by 1 days."
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "4",
+                            "start": "3/5/2014",
+                            "end": "10/5/2014",
+                            "id": "4-1",
+                            "color": "#008ee4",
+                            "height": "32%",
+                            "toppadding": "12%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "4",
+                            "start": "4/5/2014",
+                            "end": "10/5/2014",
+                            "id": "4",
+                            "color": "#6baa01",
+                            "toppadding": "56%",
+                            "height": "32%"
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "5",
+                            "start": "6/5/2014",
+                            "end": "11/5/2014",
+                            "id": "5-1",
+                            "color": "#008ee4",
+                            "height": "32%",
+                            "toppadding": "12%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "5",
+                            "start": "6/5/2014",
+                            "end": "10/5/2014",
+                            "id": "5",
+                            "color": "#6baa01",
+                            "toppadding": "56%",
+                            "height": "32%"
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "6",
+                            "start": "4/5/2014",
+                            "end": "7/5/2014",
+                            "id": "6-1",
+                            "color": "#008ee4",
+                            "height": "32%",
+                            "toppadding": "12%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "6",
+                            "start": "5/5/2014",
+                            "end": "11/5/2014",
+                            "id": "6",
+                            "color": "#6baa01",
+                            "toppadding": "56%",
+                            "height": "32%"
+                        },
+                        {
+                            "label": "Delay",
+                            "processid": "6",
+                            "start": "7/5/2014",
+                            "end": "11/5/2014",
+                            "id": "6-2",
+                            "color": "#e44a00",
+                            "toppadding": "56%",
+                            "height": "32%",
+                            "tooltext": "Delayed by 4 days."
+                        }
+                    ]
+                },
+                "connectors": [
+                    {
+                        "connector": [
+                            {
+                                "fromtaskid": "1",
+                                "totaskid": "2",
+                                "color": "#008ee4",
+                                "thickness": "2",
+                                "fromtaskconnectstart_": "1"
+                            }
+                        ]
+                    }
+                ],
+                "milestones": {
+                    "milestone": [
+                        {
+                            "date": "2/6/2014",
+                            "taskid": "12",
+                            "color": "#f8bd19",
+                            "shape": "star",
+                            "tooltext": "Completion of Phase 1",
+                            "label": "gdggeg eegwegew",
+                            "fontcolor": "#ffffff"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/gantt/ref-images/RED-3972-snapshot.png",
+        "id": "RED-3972"
+    },
+    "RED-3883-A": {
+        "description": "In Maps, \"useSNameInLabels\": \"0\" not showing long labels",
+        "category": "static",
+        "options": {
+            "type": "usa",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Global Population",
+                    "theme": "fint",
+                    "formatnumberscale": "0",
+                    "numbersuffix": "M",
+                    "showlabels": "1",
+                    "includenameinlabels": "1",
+                    "usesnameinlabels": "0",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "minvalue": "0",
+                    "startlabel": "Low",
+                    "endlabel": "High",
+                    "code": "#e44a00",
+                    "gradient": "1",
+                    "color": [
+                        {
+                            "maxvalue": "56580",
+                            "displayvalue": "Average",
+                            "code": "#f8bd19"
+                        },
+                        {
+                            "maxvalue": "100000",
+                            "code": "#6baa01"
+                        }
+                    ]
+                },
+                "data": [
+                    {
+                        "id": "HI",
+                        "value": "3189"
+                    },
+                    {
+                        "id": "DC",
+                        "value": "2879"
+                    },
+                    {
+                        "id": "MD",
+                        "value": "920"
+                    },
+                    {
+                        "id": "DE",
+                        "value": "4607"
+                    },
+                    {
+                        "id": "RI",
+                        "value": "4890"
+                    },
+                    {
+                        "id": "WA",
+                        "value": "34927"
+                    },
+                    {
+                        "id": "OR",
+                        "value": "65798"
+                    },
+                    {
+                        "id": "CA",
+                        "value": "61861"
+                    },
+                    {
+                        "id": "AK",
+                        "value": "58911"
+                    },
+                    {
+                        "id": "ID",
+                        "value": "42662"
+                    },
+                    {
+                        "id": "NV",
+                        "value": "78041"
+                    },
+                    {
+                        "id": "AZ",
+                        "value": "41558"
+                    },
+                    {
+                        "id": "MT",
+                        "value": "62942"
+                    },
+                    {
+                        "id": "WY",
+                        "value": "78834"
+                    },
+                    {
+                        "id": "UT",
+                        "value": "50512"
+                    },
+                    {
+                        "id": "CO",
+                        "value": "73026"
+                    },
+                    {
+                        "id": "NM",
+                        "value": "78865"
+                    },
+                    {
+                        "id": "ND",
+                        "value": "50554"
+                    },
+                    {
+                        "id": "SD",
+                        "value": "35922"
+                    },
+                    {
+                        "id": "NE",
+                        "value": "43736"
+                    },
+                    {
+                        "id": "KS",
+                        "value": "32681"
+                    },
+                    {
+                        "id": "OK",
+                        "value": "79038"
+                    },
+                    {
+                        "id": "TX",
+                        "value": "75425"
+                    },
+                    {
+                        "id": "MN",
+                        "value": "43485"
+                    },
+                    {
+                        "id": "IA",
+                        "value": "46515"
+                    },
+                    {
+                        "id": "MO",
+                        "value": "63715"
+                    },
+                    {
+                        "id": "AR",
+                        "value": "34497"
+                    },
+                    {
+                        "id": "LA",
+                        "value": "70706"
+                    },
+                    {
+                        "id": "WI",
+                        "value": "42382"
+                    },
+                    {
+                        "id": "IL",
+                        "value": "73202"
+                    },
+                    {
+                        "id": "KY",
+                        "value": "79118"
+                    },
+                    {
+                        "id": "TN",
+                        "value": "44657"
+                    },
+                    {
+                        "id": "MS",
+                        "value": "66205"
+                    },
+                    {
+                        "id": "AL",
+                        "value": "75873"
+                    },
+                    {
+                        "id": "GA",
+                        "value": "76895"
+                    },
+                    {
+                        "id": "MI",
+                        "value": "67695"
+                    },
+                    {
+                        "id": "IN",
+                        "value": "33592"
+                    },
+                    {
+                        "id": "OH",
+                        "value": "32960"
+                    },
+                    {
+                        "id": "PA",
+                        "value": "54346"
+                    },
+                    {
+                        "id": "NY",
+                        "value": "42828"
+                    },
+                    {
+                        "id": "VT",
+                        "value": "77411"
+                    },
+                    {
+                        "id": "NH",
+                        "value": "51403"
+                    },
+                    {
+                        "id": "ME",
+                        "value": "64636"
+                    },
+                    {
+                        "id": "MA",
+                        "value": "51767"
+                    },
+                    {
+                        "id": "CT",
+                        "value": "57353"
+                    },
+                    {
+                        "id": "NJ",
+                        "value": "80788"
+                    },
+                    {
+                        "id": "WV",
+                        "value": "95890"
+                    },
+                    {
+                        "id": "VA",
+                        "value": "83140"
+                    },
+                    {
+                        "id": "NC",
+                        "value": "97344"
+                    },
+                    {
+                        "id": "SC",
+                        "value": "88234"
+                    },
+                    {
+                        "id": "FL",
+                        "value": "88234"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/usa/ref-images/RED-3883-A-snapshot.png",
+        "id": "RED-3883-A"
+    },
+    "RED-3883-B": {
+        "description": "In Maps, \"useSNameInLabels\": \"0\" not showing long labels",
+        "category": "static",
+        "options": {
+            "type": "world",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Global Population",
+                    "theme": "fint",
+                    "formatnumberscale": "0",
+                    "numbersuffix": "M",
+                    "showlabels": "1",
+                    "includenameinlabels": "1",
+                    "usesnameinlabels": "0",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "minvalue": "0",
+                    "startlabel": "Low",
+                    "endlabel": "High",
+                    "code": "#FF4411",
+                    "gradient": "1",
+                    "color": [
+                        {
+                            "maxvalue": "25",
+                            "code": "#FFDD44",
+                            "displayvalue": "Median"
+                        },
+                        {
+                            "maxvalue": "100",
+                            "code": "#6baa01"
+                        }
+                    ]
+                },
+                "data": [
+                    {
+                        "id": "NA",
+                        "value": "22.1",
+                        "showlabel": "1",
+                        "displayvalue": "Moderate"
+                    },
+                    {
+                        "id": "SA",
+                        "value": "22.0",
+                        "showlabel": "1",
+                        "displayvalue": "Moderate"
+                    },
+                    {
+                        "id": "AS",
+                        "value": "95.0",
+                        "showlabel": "1",
+                        "displayvalue": "Dense"
+                    },
+                    {
+                        "id": "EU",
+                        "value": "72.5",
+                        "showlabel": "1",
+                        "displayvalue": "Dense"
+                    },
+                    {
+                        "id": "AF",
+                        "value": "33.7",
+                        "showlabel": "1",
+                        "displayvalue": "Moderate"
+                    },
+                    {
+                        "id": "AU",
+                        "value": "3.2",
+                        "showlabel": "1",
+                        "displayvalue": "Sparse"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/world/ref-images/RED-3883-B-snapshot.png",
+        "id": "RED-3883-B"
+    },
+    "RED-3872": {
+        "description": "In dragnode chart, connector label background color is not set, even when color attribute has been used",
+        "category": "static",
+        "options": {
+            "type": "dragnode",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "2",
+                    "xaxisminvalue": "0",
+                    "xaxismaxvalue": "100",
+                    "yaxisminvalue": "0",
+                    "yaxismaxvalue": "100",
+                    "is3d": "1",
+                    "showformbtn": "1",
+                    "viewmode": "0",
+                    "animation": "0"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "x": "12",
+                                "y": "79",
+                                "width": "70",
+                                "height": "56",
+                                "name": "Node 1 with a long label",
+                                "color": "FE3233",
+                                "id": "1"
+                            },
+                            {
+                                "x": "59",
+                                "y": "15",
+                                "width": "40",
+                                "height": "56",
+                                "name": "Node 2",
+                                "color": "FE9191",
+                                "id": "2"
+                            },
+                            {
+                                "x": "88",
+                                "y": "75",
+                                "radius": "37",
+                                "shape": "circle",
+                                "name": "Node 3",
+                                "color": "62D0FE",
+                                "id": "3"
+                            },
+                            {
+                                "x": "33",
+                                "y": "35",
+                                "radius": "37",
+                                "shape": "circle",
+                                "name": "Node 4",
+                                "color": "FE8181",
+                                "id": "4"
+                            },
+                            {
+                                "x": "40",
+                                "y": "85",
+                                "width": "45",
+                                "height": "67",
+                                "name": "Node 5",
+                                "color": "FE7272",
+                                "bordercolor": "ff5904",
+                                "id": "5"
+                            },
+                            {
+                                "x": "69",
+                                "y": "85",
+                                "width": "45",
+                                "height": "67",
+                                "name": "Node 6",
+                                "color": "72D4FE",
+                                "id": "6"
+                            },
+                            {
+                                "x": "87",
+                                "y": "45",
+                                "radius": "47",
+                                "shape": "polygon",
+                                "numsides": "3",
+                                "name": "Node 7",
+                                "color": "FE5151",
+                                "id": "7"
+                            },
+                            {
+                                "x": "65",
+                                "y": "60",
+                                "radius": "47",
+                                "shape": "polygon",
+                                "numsides": "5",
+                                "name": "Node 8",
+                                "color": "FE9191",
+                                "id": "8"
+                            },
+                            {
+                                "x": "12",
+                                "y": "20",
+                                "radius": "37",
+                                "shape": "circle",
+                                "name": "Node 9",
+                                "color": "33C1FE",
+                                "id": "9"
+                            },
+                            {
+                                "x": "80",
+                                "y": "12",
+                                "radius": "47",
+                                "shape": "polygon",
+                                "numsides": "4",
+                                "name": "Node 10",
+                                "color": "33C1FE",
+                                "id": "10"
+                            }
+                        ]
+                    }
+                ],
+                "connectors": [
+                    {
+                        "color": "FF0000",
+                        "stdthickness": "5",
+                        "connector": [
+                            {
+                                "strength": "0.96",
+                                "label": "link label",
+                                "from": "1",
+                                "to": "9",
+                                "color": "BBBB00",
+                                "arrowatstart": "1",
+                                "arrowatend": "1"
+                            },
+                            {
+                                "strength": "0.8",
+                                "label": "link12",
+                                "from": "1",
+                                "to": "5",
+                                "color": "BBBB00",
+                                "arrowatstart": "1",
+                                "arrowatend": "1"
+                            },
+                            {
+                                "strength": "0.8",
+                                "label": "link2",
+                                "from": "1",
+                                "to": "8",
+                                "color": "BBBB00"
+                            },
+                            {
+                                "strength": "0.3",
+                                "label": "link3",
+                                "from": "1",
+                                "to": "4",
+                                "color": "BBBB00",
+                                "arrowatstart": "1",
+                                "arrowatend": "1"
+                            },
+                            {
+                                "strength": "0.4",
+                                "label": "link4",
+                                "from": "2",
+                                "to": "4",
+                                "color": "BBBB00",
+                                "arrowatstart": "1",
+                                "arrowatend": "1"
+                            },
+                            {
+                                "strength": "0.6",
+                                "label": "link5",
+                                "from": "4",
+                                "to": "2",
+                                "color": "BBBB00",
+                                "arrowatstart": "1",
+                                "arrowatend": "1"
+                            },
+                            {
+                                "strength": "0.33",
+                                "label": "link1",
+                                "from": "2",
+                                "to": "8",
+                                "color": "BBBB00"
+                            },
+                            {
+                                "strength": "0.66",
+                                "label": "link7",
+                                "from": "8",
+                                "to": "3",
+                                "color": "BBBB00",
+                                "arrowatstart": "1",
+                                "arrowatend": "1"
+                            },
+                            {
+                                "strength": "0.7",
+                                "label": "link6",
+                                "from": "4",
+                                "to": "5",
+                                "color": "BBBB00",
+                                "arrowatstart": "1",
+                                "arrowatend": "1"
+                            },
+                            {
+                                "strength": "0.6",
+                                "from": "4",
+                                "to": "8",
+                                "color": "FF5904",
+                                "arrowatstart": "1",
+                                "arrowatend": "1"
+                            },
+                            {
+                                "strength": "0.6",
+                                "label": "link9",
+                                "from": "5",
+                                "to": "8",
+                                "color": "BBBB00"
+                            },
+                            {
+                                "strength": "0.5",
+                                "label": "link10",
+                                "from": "7",
+                                "to": "8",
+                                "color": "BBBB00",
+                                "arrowatstart": "1",
+                                "arrowatend": "1"
+                            },
+                            {
+                                "strength": "0.3",
+                                "label": "link11",
+                                "from": "7",
+                                "to": "10",
+                                "color": "BBBB00"
+                            }
+                        ]
+                    }
+                ],
+                "labels": [
+                    {
+                        "label": [
+                            {
+                                "text": "test",
+                                "x": "50",
+                                "y": "50",
+                                "color": "00ff00",
+                                "alpha": "100",
+                                "bgcolor": "cccccc",
+                                "bordercolor": "ff0000",
+                                "fontsize": "22",
+                                "allowdrag": 1,
+                                "padding": "",
+                                "add": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/dragnode/ref-images/RED-3872-snapshot.png",
+        "id": "RED-3872"
+    },
+    "RED-3869": {
+        "description": "In dragnode, connectors appear at the top when there is blank dataset given",
+        "category": "static",
+        "options": {
+            "type": "dragnode",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "is3d": "1",
+                    "palette": "2",
+                    "showborder": "0",
+                    "showformbtn": "0",
+                    "viewmode": "0",
+                    "xaxismaxvalue": "100",
+                    "xaxisminvalue": "0",
+                    "yaxismaxvalue": "100",
+                    "yaxisminvalue": "0",
+                    "animation": "0"
+                },
+                "connectors": [
+                    {
+                        "color": "FF0000",
+                        "connector": [
+                            {
+                                "arrowatend": "1",
+                                "arrowatstart": "1",
+                                "color": "BBBB00",
+                                "from": "1",
+                                "label": "link label",
+                                "strength": "0.96",
+                                "to": "9"
+                            },
+                            {
+                                "arrowatend": "1",
+                                "arrowatstart": "1",
+                                "color": "BBBB00",
+                                "from": "1",
+                                "label": "link12",
+                                "strength": "0.8",
+                                "to": "5"
+                            },
+                            {
+                                "color": "BBBB00",
+                                "from": "1",
+                                "label": "link2",
+                                "strength": "0.8",
+                                "to": "8"
+                            },
+                            {
+                                "arrowatend": "1",
+                                "arrowatstart": "1",
+                                "color": "BBBB00",
+                                "from": "1",
+                                "label": "link3",
+                                "strength": "0.3",
+                                "to": "4"
+                            },
+                            {
+                                "arrowatend": "1",
+                                "arrowatstart": "1",
+                                "color": "BBBB00",
+                                "from": "2",
+                                "label": "link4",
+                                "strength": "0.4",
+                                "to": "4"
+                            },
+                            {
+                                "arrowatend": "1",
+                                "arrowatstart": "1",
+                                "color": "BBBB00",
+                                "from": "4",
+                                "label": "link5",
+                                "strength": "0.6",
+                                "to": "2"
+                            },
+                            {
+                                "color": "BBBB00",
+                                "from": "2",
+                                "label": "link1",
+                                "strength": "0.33",
+                                "to": "8"
+                            },
+                            {
+                                "arrowatend": "1",
+                                "arrowatstart": "1",
+                                "color": "BBBB00",
+                                "from": "8",
+                                "label": "link7",
+                                "strength": "0.66",
+                                "to": "3"
+                            },
+                            {
+                                "arrowatend": "1",
+                                "arrowatstart": "1",
+                                "color": "BBBB00",
+                                "from": "4",
+                                "label": "link6",
+                                "strength": "0.7",
+                                "to": "5"
+                            },
+                            {
+                                "arrowatend": "1",
+                                "arrowatstart": "1",
+                                "color": "FF5904",
+                                "from": "4",
+                                "strength": "0.6",
+                                "to": "8"
+                            },
+                            {
+                                "color": "BBBB00",
+                                "from": "5",
+                                "label": "link9",
+                                "strength": "0.6",
+                                "to": "8"
+                            },
+                            {
+                                "arrowatend": "1",
+                                "arrowatstart": "1",
+                                "color": "BBBB00",
+                                "from": "7",
+                                "label": "link10",
+                                "strength": "0.5",
+                                "to": "8"
+                            },
+                            {
+                                "color": "BBBB00",
+                                "from": "7",
+                                "label": "link11",
+                                "strength": "0.3",
+                                "to": "10"
+                            }
+                        ],
+                        "stdthickness": "5"
+                    }
+                ],
+                "dataset": [
+                    {
+                        "data": []
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/dragnode/ref-images/RED-3869-snapshot.png",
+        "id": "RED-3869"
+    },
+    "RED-3912-A": {
+        "description": "`baseFont` Attribute is not Working in Pyramid and Funnel Charts",
+        "category": "static",
+        "options": {
+            "type": "pyramid",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "basefont": "Verdana",
+                    "caption": "Website visits",
+                    "subcaption": "Purchase - Conversion analysis for last year",
+                    "decimals": "1",
+                    "is2d": "1",
+                    "labeldistance": "15",
+                    "plottooltext": "Success : $percentOfPrevValue",
+                    "showpercentvalues": "1",
+                    "usesameslantangle": "1",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Unique Website Visits",
+                        "value": "1460000"
+                    },
+                    {
+                        "label": "Programme Details Section Visits",
+                        "value": "930000"
+                    },
+                    {
+                        "label": "Attempts to Register",
+                        "value": "540000"
+                    },
+                    {
+                        "label": "Successful Registrations",
+                        "value": "210000"
+                    },
+                    {
+                        "label": "Logged In",
+                        "value": "190000"
+                    },
+                    {
+                        "label": "Purchased on Introductory Offers",
+                        "value": "120000"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/pyramid/ref-images/RED-3912-A-snapshot.png",
+        "id": "RED-3912-A"
+    },
+    "RED-3912-B": {
+        "description": "`baseFont` Attribute is not Working in Pyramid and Funnel Charts",
+        "category": "static",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "basefont": "Verdana",
+                    "caption": "Website visits",
+                    "subcaption": "Purchase - Conversion analysis for last year",
+                    "decimals": "1",
+                    "is2d": "1",
+                    "labeldistance": "15",
+                    "plottooltext": "Success : $percentOfPrevValue",
+                    "showpercentvalues": "1",
+                    "usesameslantangle": "1",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Unique Website Visits",
+                        "value": "1460000"
+                    },
+                    {
+                        "label": "Programme Details Section Visits",
+                        "value": "930000"
+                    },
+                    {
+                        "label": "Attempts to Register",
+                        "value": "540000"
+                    },
+                    {
+                        "label": "Successful Registrations",
+                        "value": "210000"
+                    },
+                    {
+                        "label": "Logged In",
+                        "value": "190000"
+                    },
+                    {
+                        "label": "Purchased on Introductory Offers",
+                        "value": "120000"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/funnel/ref-images/RED-3912-B-snapshot.png",
+        "id": "RED-3912-B"
+    },
+    "RED-3948": {
+        "description": "candlestick chart is not rendered and throws JS error.",
+        "category": "static",
+        "options": {
+            "type": "candlestick",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "numpdivlines": "5",
+                    "caption": "XYZ - 3 Months",
+                    "numberprefix": "$",
+                    "bearbordercolor": "E33C3C",
+                    "bearfillcolor": "E33C3C",
+                    "bullbordercolor": "1F3165",
+                    "pyaxisname": "Price",
+                    "vyaxisname": "Volume (In Millions)",
+                    "volumeheightpercent": "20",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "2006",
+                                "x": "1",
+                                "showline": "1"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "open": "24.6",
+                                "high": "25.24",
+                                "low": "24.58",
+                                "close": "25.19",
+                                "x": "1",
+                                "volume": "17856350"
+                            },
+                            {
+                                "open": "24.36",
+                                "high": "24.58",
+                                "low": "24.18",
+                                "close": "24.41",
+                                "x": "2",
+                                "volume": "3599252"
+                            },
+                            {
+                                "open": "24.63",
+                                "high": "24.66",
+                                "low": "24.11",
+                                "close": "24.95",
+                                "x": "3",
+                                "volume": "74685351"
+                            },
+                            {
+                                "open": "24.53",
+                                "high": "24.84",
+                                "low": "24.01",
+                                "close": "24.95",
+                                "x": "4",
+                                "volume": "49236987"
+                            },
+                            {
+                                "open": "24.84",
+                                "high": "24.94",
+                                "low": "24.56",
+                                "close": "24.93",
+                                "x": "5",
+                                "volume": "18247006"
+                            },
+                            {
+                                "open": "24.96",
+                                "high": "25.03",
+                                "low": "24.58",
+                                "close": "24.89",
+                                "x": "6",
+                                "volume": "67419690"
+                            },
+                            {
+                                "open": "25.25",
+                                "high": "25.46",
+                                "low": "25.11",
+                                "close": "25.13",
+                                "x": "7",
+                                "volume": "95517555"
+                            },
+                            {
+                                "open": "25.27",
+                                "high": "25.37",
+                                "low": "25.0999",
+                                "close": "25.18",
+                                "x": "8",
+                                "volume": "83656552"
+                            },
+                            {
+                                "open": "25.33",
+                                "high": "25.43",
+                                "low": "25.06",
+                                "close": "25.16",
+                                "x": "9",
+                                "volume": "42177624"
+                            },
+                            {
+                                "open": "25.38",
+                                "high": "25.51",
+                                "low": "25.23",
+                                "close": "25.38",
+                                "x": "10",
+                                "volume": "40668662"
+                            },
+                            {
+                                "open": "25.2",
+                                "high": "25.78",
+                                "low": "25.07",
+                                "close": "25.09",
+                                "x": "11",
+                                "volume": "78602232"
+                            },
+                            {
+                                "open": "25.66",
+                                "high": "25.8",
+                                "low": "25.35",
+                                "close": "25.37",
+                                "x": "12",
+                                "volume": "10338104"
+                            },
+                            {
+                                "open": "25.77",
+                                "high": "25.97",
+                                "low": "25.54",
+                                "close": "25.72",
+                                "x": "13",
+                                "volume": "38067037"
+                            },
+                            {
+                                "open": "26.31",
+                                "high": "26.35",
+                                "low": "25.81",
+                                "close": "25.83",
+                                "x": "14",
+                                "volume": "52104215"
+                            },
+                            {
+                                "open": "26.23",
+                                "high": "26.6",
+                                "low": "26.2",
+                                "close": "26.35",
+                                "x": "15",
+                                "volume": "46274157"
+                            }
+                        ]
+                    }
+                ],
+                "trendset": [
+                    {
+                        "name": "Simple Moving Average",
+                        "color": "0099FF",
+                        "thickness": "0.5",
+                        "alpha": "100",
+                        "includeinlegend": "1",
+                        "data": [
+                            {
+                                "x": "1",
+                                "value": "24.6"
+                            },
+                            {
+                                "x": "2",
+                                "value": "24.69"
+                            },
+                            {
+                                "x": "3",
+                                "value": "24.89"
+                            },
+                            {
+                                "x": "4",
+                                "value": "24.92"
+                            },
+                            {
+                                "x": "5",
+                                "value": "25.2"
+                            },
+                            {
+                                "x": "6",
+                                "value": "25.1"
+                            },
+                            {
+                                "x": "7",
+                                "value": "25.17"
+                            },
+                            {
+                                "x": "8",
+                                "value": "25.2"
+                            },
+                            {
+                                "x": "9",
+                                "value": "25.2"
+                            },
+                            {
+                                "x": "10",
+                                "value": "25.31"
+                            },
+                            {
+                                "x": "11",
+                                "value": "25.28"
+                            },
+                            {
+                                "x": "12",
+                                "value": "25.52"
+                            },
+                            {
+                                "x": "13",
+                                "value": "25.7"
+                            },
+                            {
+                                "x": "14",
+                                "value": "25.9"
+                            },
+                            {
+                                "x": "15",
+                                "value": "26"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "24.2",
+                                "color": "0372AB",
+                                "displayvalue": "S1",
+                                "thickness": "0.5",
+                                "dashed": "1",
+                                "dashlen": "2",
+                                "dashgap": "2"
+                            },
+                            {
+                                "startvalue": "23.35",
+                                "color": "0372AB",
+                                "displayvalue": "S2",
+                                "thickness": "0.5",
+                                "dashed": "1",
+                                "dashlen": "2",
+                                "dashgap": "2"
+                            },
+                            {
+                                "startvalue": "28.2",
+                                "color": "0372AB",
+                                "displayvalue": "R2",
+                                "thickness": "0.5",
+                                "dashed": "1",
+                                "dashlen": "2",
+                                "dashgap": "2"
+                            },
+                            {
+                                "startvalue": "27.65",
+                                "color": "0372AB",
+                                "displayvalue": "R1",
+                                "thickness": "0.5",
+                                "dashed": "1",
+                                "dashlen": "2",
+                                "dashgap": "2"
+                            }
+                        ]
+                    }
+                ],
+                "vtrendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "10",
+                                "endvalue": "13",
+                                "color": "FF5904",
+                                "displayvalue": "Results Impact",
+                                "istrendzone": "1",
+                                "alpha": "10"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/candlestick/ref-images/RED-3948-snapshot.png",
+        "id": "RED-3948"
+    },
+    "RED-3953": {
+        "description": "errorScatter throws js error when xAxisLabelMode = auto",
+        "category": "static",
+        "options": {
+            "type": "errorscatter",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "1",
+                    "caption": "Please select the required points from chart below",
+                    "yaxisname": "Value",
+                    "xaxisname": "Load (TPS)",
+                    "showhovereffect": "1",
+                    "xaxislabelmode": "auto",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "verticallinecolor": "AA6666",
+                        "verticallinethickness": "1",
+                        "category": [
+                            {
+                                "label": "20",
+                                "x": "15",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "30",
+                                "x": "25",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "40",
+                                "x": "35",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "50",
+                                "x": "45",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "60",
+                                "x": "55",
+                                "showverticalline": "1"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "id": "DS1",
+                        "seriesname": "Dataset 1",
+                        "color": "ff5904",
+                        "plotborderthickness": "0",
+                        "showplotborder": "1",
+                        "usehorizontalerrorbar": "1",
+                        "drawline": "0",
+                        "data": [
+                            {
+                                "id": "S1",
+                                "x": "20",
+                                "y": "20",
+                                "errorvalue": "15",
+                                "usehorizontalerrorbar": "1"
+                            },
+                            {
+                                "id": "S2",
+                                "x": "30",
+                                "y": "70",
+                                "errorvalue": "50",
+                                "usehorizontalerrorbar": ""
+                            },
+                            {
+                                "id": "S3",
+                                "x": "40",
+                                "y": "40",
+                                "errorvalue": "21",
+                                "usehorizontalerrorbar": "0"
+                            },
+                            {
+                                "id": "S4",
+                                "x": "50",
+                                "y": "50",
+                                "errorvalue": "10",
+                                "usehorizontalerrorbar": ""
+                            },
+                            {
+                                "id": "S5",
+                                "x": "60",
+                                "y": "60",
+                                "errorvalue": "11",
+                                "usehorizontalerrorbar": "0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/errorscatter/ref-images/RED-3953-snapshot.png",
+        "id": "RED-3953"
+    }
+}

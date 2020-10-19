@@ -1,0 +1,165 @@
+	<html>
+	<head>        
+		<title>FusionCharts XT - listen to DrawComplete event</title>       
+		<script type="text/javascript" src="../../../fusioncharts/fusioncharts.js">
+		</script>
+			
+	</head>   
+	<body>     
+		<div id="chartContainer">FusionCharts XT will load here!</div>          
+		<script type="text/javascript"><!--  
+			
+					
+			//Flag for our test writer
+			//By default assume that feature has failed.
+			var featureTestPass1 = false;
+			//var featureTestPass2 = false;
+			//FusionCharts.addEventListener("Initialized", myChartListener1);
+			  var objJSON = {
+    "chart": {
+        "caption": "Power Generator",
+        "xaxisname": "Time",
+        "showvalues": "1",
+        "divlinealpha": "100",
+        "numvdivlines": "4",
+        "vdivlinealpha": "0",
+        "showalternatevgridcolor": "1",
+        "alternatevgridalpha": "5",
+        "animation": "0"
+    },
+    "categories": [
+        {
+            "category": [
+                {
+                    "label": "00:00s"
+                },
+                {
+                    "label": "00:04s"
+                },
+                {
+                    "label": "00:08s"
+                },
+                {
+                    "label": "00:12s"
+                },
+                {
+                    "label": "00:16s"
+                },
+                {
+                    "label": "00:20s"
+                }
+            ]
+        }
+    ],
+    "axis": [
+        {
+            "title": "Power",
+            "titlepos": "left",
+            "tickwidth": "10",
+            "divlineisdashed": "1",
+            "dataset": [
+                {
+                    "seriesname": "Power [W]",
+                    "data": [
+                        {
+                            "value": "6"
+                        },
+                        {
+                            "value": "26"
+                        },
+                        {
+                            "value": "16"
+                        },
+                        {
+                            "value": "27"
+                        },
+                        {
+                            "value": "28"
+                        },
+                        {
+                            "value": "33"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Temp.",
+            "titlepos": "left",
+            "numdivlines": "14",
+            "tickwidth": "10",
+            "divlineisdashed": "1",
+            "dataset": [
+                {
+                    "seriesname": "Temperature",
+                    "data": [
+                        {
+                            "value": "296"
+                        },
+                        {
+                            "value": "311"
+                        },
+                        {
+                            "value": "336"
+                        },
+                        {
+                            "value": "371"
+                        },
+                        {
+                            "value": "389"
+                        },
+                        {
+                            "value": "393"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Speed[RPM]",
+            "titlepos": "RIGHT",
+            "axisonleft": "0",
+            "numdivlines": "10",
+            "tickwidth": "10",
+            "divlineisdashed": "1",
+            "dataset": [
+                {
+                    "seriesname": "Speed",
+                    "data": [
+                        {
+                            "value": "1"
+                        },
+                        {
+                            "value": "11"
+                        },
+                        {
+                            "value": "36"
+                        },
+                        {
+                            "value": "49"
+                        },
+                        {
+                            "value": "68"
+                        },
+                        {
+                            "value": "88"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+};
+			  
+			//Chart setup code
+			var myChart = new FusionCharts({type: 'MultiAxisLine', width: '400', height: '300', debugMode: false, bgColor: 'ffff0f', renderAt: 'chartContainer', id: "myChartId", dataSource: objJSON, dataFormat: 'json', renderer: 'javascript'
+					});
+			
+			
+			myChart.render();
+			
+				  
+			// -->     
+		</script>      
+	</body> 
+	</html>

@@ -1,0 +1,2674 @@
+﻿{
+    "FC14_msstackedcolumn2d_tc1": {
+        "id": "FC14_msstackedcolumn2d_tc1",
+        "description": "% symbol is displayed in stacked 100 percent column chart when trendlines coincides with div lines",
+        "options": {
+            "type": "msstackedcolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Product-wise break-up of quarterly revenue in last year",
+                    "subcaption": "Harry's SuperMart",
+                    "xaxisname": "Quarter",
+                    "yaxisname": "Sales (In USD)",
+                    "yAxisMinValue": "0",
+                    "yAxisMaxValue": "100",
+                    "showDivLineValues": "1",
+                    "numDivLines": "9",
+                    "adjustDiv": "0",
+                    "animation": "0",
+                    "stack100Percent": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Q1"
+                            },
+                            {
+                                "label": "Q2"
+                            },
+                            {
+                                "label": "Q3"
+                            },
+                            {
+                                "label": "Q4"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Processed Food",
+                                "data": [
+                                    {
+                                        "value": "30"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "29"
+                                    },
+                                    {
+                                        "value": "31"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Un-Processed Food",
+                                "data": [
+                                    {
+                                        "value": "21"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "39"
+                                    },
+                                    {
+                                        "value": "41"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Electronics",
+                                "data": [
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "25"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "26"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Apparels",
+                                "data": [
+                                    {
+                                        "value": "17"
+                                    },
+                                    {
+                                        "value": "15"
+                                    },
+                                    {
+                                        "value": "18"
+                                    },
+                                    {
+                                        "value": "16"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Others",
+                                "data": [
+                                    {
+                                        "value": "12"
+                                    },
+                                    {
+                                        "value": "17"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "15"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "alpha": "100",
+                                "color": "888888",
+                                "displayvalue": "Warning",
+                                "startValue": "10",
+                                "isTrendZone": "0",
+                                "showOnTop": "1",
+                                "toolText": "$startDataValue",
+                                "valueOnRight": "1"
+                            },
+                            {
+                                "alpha": "100",
+                                "color": "FFC0CB",
+                                "displayvalue": "DANGER",
+                                "startValue": "16",
+                                "endValue": "30",
+                                "isTrendZone": "1",
+                                "showOnTop": "1",
+                                "toolText": "Max: $endDataValue<br>Min: $startDataValue",
+                                "valueOnRight": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8926-stack100Percent/ref-images/test_1_msstackedcolumn2d-stack100Percent-snapshot.png"
+    },
+    "FC14_msstackedcolumn2dlinedy_tc2": {
+        "id": "FC14_msstackedcolumn2dlinedy_tc2",
+        "description": "% symbol is displayed in stacked 100 percent column chart when trendlines coincides with div lines",
+        "options": {
+            "type": "msstackedcolumn2dlinedy",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Quarterly Sales vs. Profit % in Last Year",
+                    "subcaption": "Product-wise Break-up - Harry's SuperMart",
+                    "xAxisName": "Quarter",
+                    "pYAxisName": "Sales",
+                    "sYAxisName": "Profit %",
+                    "yAxisMinValue": "0",
+                    "yAxisMaxValue": "100",
+                    "animation": "0",
+                    "showDivLineValues": "1",
+                    "numDivLines": "9",
+                    "adjustDiv": "0",
+                    "stack100Percent": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Q1"
+                            },
+                            {
+                                "label": "Q2"
+                            },
+                            {
+                                "label": "Q3"
+                            },
+                            {
+                                "label": "Q4"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Processed Food",
+                                "data": [
+                                    {
+                                        "value": "30"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "33"
+                                    },
+                                    {
+                                        "value": "31"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Un-Processed Food",
+                                "data": [
+                                    {
+                                        "value": "21"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "39"
+                                    },
+                                    {
+                                        "value": "41"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Electronics",
+                                "data": [
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "25"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "26"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Apparels",
+                                "data": [
+                                    {
+                                        "value": "17"
+                                    },
+                                    {
+                                        "value": "15"
+                                    },
+                                    {
+                                        "value": "18"
+                                    },
+                                    {
+                                        "value": "16"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "lineset": [
+                    {
+                        "seriesname": "Profit %",
+                        "showValues": "0",
+                        "data": [
+                            {
+                                "value": "14"
+                            },
+                            {
+                                "value": "16"
+                            },
+                            {
+                                "value": "15"
+                            },
+                            {
+                                "value": "17"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "alpha": "100",
+                                "color": "888888",
+                                "displayvalue": "Warning",
+                                "startValue": "10",
+                                "isTrendZone": "0",
+                                "showOnTop": "1",
+                                "toolText": "$startDataValue",
+                                "valueOnRight": "1"
+                            },
+                            {
+                                "alpha": "100",
+                                "color": "FFC0CB",
+                                "displayvalue": "DANGER",
+                                "startValue": "16",
+                                "endValue": "30",
+                                "isTrendZone": "1",
+                                "showOnTop": "1",
+                                "toolText": "Max: $endDataValue<br>Min: $startDataValue",
+                                "valueOnRight": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8926-stack100Percent/ref-images/test_2_msstackedcolumn2dlinedy-stack100Percent-snapshot.png"
+    },
+    "FC14_realtimestackedarea_tc3": {
+        "id": "FC14_realtimestackedarea_tc3",
+        "description": "% symbol is displayed in stacked 100 percent column chart when trendlines coincides with div lines",
+        "options": {
+            "type": "realtimestackedarea",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "animation": "0",
+                    "showDivLineValues": "1",
+                    "numDivLines": "9",
+                    "adjustDiv": "0",
+                    "stack100Percent": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Product A",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Product B",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "alpha": "100",
+                                "color": "FFC0CB",
+                                "displayvalue": "DANGER",
+                                "startValue": "20",
+                                "endValue": "40",
+                                "isTrendZone": "1",
+                                "showOnTop": "1",
+                                "toolText": "Max: $endDataValue<br>Min: $startDataValue",
+                                "valueOnRight": "1"
+                            }
+
+
+
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8926-stack100Percent/ref-images/test_3_realtimestackedarea-stack100Percent-snapshot.png"
+    },
+    "FC14_realtimestackedcolumn_tc4": {
+        "id": "FC14_realtimestackedcolumn_tc4",
+        "description": "% symbol is displayed in stacked 100 percent column chart when trendlines coincides with div lines",
+        "options": {
+            "type": "realtimestackedcolumn",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "animation": "0",
+                    "showDivLineValues": "1",
+                    "numDivLines": "9",
+                    "adjustDiv": "0",
+                    "stack100Percent": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Product A",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Product B",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "alpha": "100",
+                                "color": "FFC0CB",
+                                "displayvalue": "DANGER",
+                                "startValue": "20",
+                                "endValue": "40",
+                                "isTrendZone": "1",
+                                "showOnTop": "1",
+                                "toolText": "Max: $endDataValue<br>Min: $startDataValue",
+                                "valueOnRight": "1"
+                            }
+
+
+
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8926-stack100Percent/ref-images/test_4_realtimestackedcolumn-stack100Percent-snapshot.png"
+    },
+    "FC14_scrollmsstackedcolumn2d_tc5": {
+        "id": "FC14_scrollmsstackedcolumn2d_tc5",
+        "description": "% symbol is displayed in stacked 100 percent column chart when trendlines coincides with div lines",
+        "options": {
+            "type": "scrollmsstackedcolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "numVisiblePlot": "5",
+                    "caption": "Avocado sales among different states",
+                    "subcaption": "2015-2017",
+                    "plottooltext": "<b>$seriesName</b><hr>$label: <b>$dataValue</b>",
+                    "xaxisname": "Quarter",
+                    "yaxisname": "Sales (In USD)",
+                    "animation": "0",
+                    "showDivLineValues": "1",
+                    "numDivLines": "9",
+                    "adjustDiv": "0",
+                    "stack100Percent": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "2015-Q1"
+                            },
+                            {
+                                "label": "2015-Q2"
+                            },
+                            {
+                                "label": "2015-Q3"
+                            },
+                            {
+                                "label": "2015-Q4"
+                            },
+                            {
+                                "label": "2016-Q1"
+                            },
+                            {
+                                "label": "2016-Q2"
+                            },
+                            {
+                                "label": "2016-Q3"
+                            },
+                            {
+                                "label": "2016-Q4"
+                            },
+                            {
+                                "label": "2017-Q1"
+                            },
+                            {
+                                "label": "2017-Q2"
+                            },
+                            {
+                                "label": "2017-Q3"
+                            },
+                            {
+                                "label": "2017-Q4"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "New York",
+                                "data": [
+                                    {
+                                        "value": "510344.4"
+                                    },
+                                    {
+                                        "value": "825541.86"
+                                    },
+                                    {
+                                        "value": "1078603.31"
+                                    },
+                                    {
+                                        "value": "895751.26"
+                                    },
+                                    {
+                                        "value": "1213115.71"
+                                    },
+                                    {
+                                        "value": "1207901.26"
+                                    },
+                                    {
+                                        "value": "1163397.45"
+                                    },
+                                    {
+                                        "value": "841621.26"
+                                    },
+                                    {
+                                        "value": "1245085.8"
+                                    },
+                                    {
+                                        "value": "1103347.9"
+                                    },
+                                    {
+                                        "value": "1022076.68"
+                                    },
+                                    {
+                                        "value": "1025565.8"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Georgia",
+                                "data": [
+                                    {
+                                        "value": "5318642.2"
+                                    },
+                                    {
+                                        "value": "5701956"
+                                    },
+                                    {
+                                        "value": "5095298.61"
+                                    },
+                                    {
+                                        "value": "4118810.44"
+                                    },
+                                    {
+                                        "value": "5240363.94"
+                                    },
+                                    {
+                                        "value": "5212220.71"
+                                    },
+                                    {
+                                        "value": "4522632.08"
+                                    },
+                                    {
+                                        "value": "3374924.99"
+                                    },
+                                    {
+                                        "value": "4764169.41"
+                                    },
+                                    {
+                                        "value": "4424022.98"
+                                    },
+                                    {
+                                        "value": "3989718.21"
+                                    },
+                                    {
+                                        "value": "3970043.21"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Maryland",
+                                "data": [
+                                    {
+                                        "value": "7524659.79"
+                                    },
+                                    {
+                                        "value": "8196424.21"
+                                    },
+                                    {
+                                        "value": "8325170.33"
+                                    },
+                                    {
+                                        "value": "7111010.55"
+                                    },
+                                    {
+                                        "value": "8694218.26"
+                                    },
+                                    {
+                                        "value": "8895865.95"
+                                    },
+                                    {
+                                        "value": "7244663.98"
+                                    },
+                                    {
+                                        "value": "5703274.8"
+                                    },
+                                    {
+                                        "value": "8419998.48"
+                                    },
+                                    {
+                                        "value": "7388812.3"
+                                    },
+                                    {
+                                        "value": "6517872.07"
+                                    },
+                                    {
+                                        "value": "7064818.95"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Idaho",
+                                "data": [
+                                    {
+                                        "value": "887124.05"
+                                    },
+                                    {
+                                        "value": "993801.32"
+                                    },
+                                    {
+                                        "value": "803841.86"
+                                    },
+                                    {
+                                        "value": "581555.6"
+                                    },
+                                    {
+                                        "value": "696292.47"
+                                    },
+                                    {
+                                        "value": "577209.67"
+                                    },
+                                    {
+                                        "value": "563216.54"
+                                    },
+                                    {
+                                        "value": "520417.15"
+                                    },
+                                    {
+                                        "value": "688505.86"
+                                    },
+                                    {
+                                        "value": "718619.31"
+                                    },
+                                    {
+                                        "value": "630249.87"
+                                    },
+                                    {
+                                        "value": "628688"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Massachusetts",
+                                "data": [
+                                    {
+                                        "value": "4441861.75"
+                                    },
+                                    {
+                                        "value": "5404269.51"
+                                    },
+                                    {
+                                        "value": "6223966.11"
+                                    },
+                                    {
+                                        "value": "5626179.46"
+                                    },
+                                    {
+                                        "value": "6722592.97"
+                                    },
+                                    {
+                                        "value": "6931022.03"
+                                    },
+                                    {
+                                        "value": "5220110.38"
+                                    },
+                                    {
+                                        "value": "4765293.29"
+                                    },
+                                    {
+                                        "value": "6584454.42"
+                                    },
+                                    {
+                                        "value": "5961664.26"
+                                    },
+                                    {
+                                        "value": "5567418.89"
+                                    },
+                                    {
+                                        "value": "5466678.99"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "alpha": "100",
+                                "color": "888888",
+                                "displayvalue": "Warning",
+                                "startValue": "10",
+                                "isTrendZone": "0",
+                                "showOnTop": "1",
+                                "toolText": "$startDataValue",
+                                "valueOnRight": "1"
+                            },
+                            {
+                                "alpha": "100",
+                                "color": "FFC0CB",
+                                "displayvalue": "DANGER",
+                                "startValue": "16",
+                                "endValue": "30",
+                                "isTrendZone": "1",
+                                "showOnTop": "1",
+                                "toolText": "Max: $endDataValue<br>Min: $startDataValue",
+                                "valueOnRight": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8926-stack100Percent/ref-images/test_5_scrollmsstackedcolumn2d-stack100Percent-snapshot.png"
+    },
+    "FC14_scrollmsstackedcolumn2dlinedy_tc6": {
+        "id": "FC14_scrollmsstackedcolumn2dlinedy_tc6",
+        "description": "% symbol is displayed in stacked 100 percent column chart when trendlines coincides with div lines",
+        "options": {
+            "type": "scrollmsstackedcolumn2dlinedy",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Quarterly Sales vs. Profit % in Last Year",
+                    "subcaption": "Product-wise Break-up - Harry's SuperMart",
+                    "xAxisName": "Quarter",
+                    "pYAxisName": "Sales",
+                    "sYAxisName": "Profit %",
+                    "yAxisMinValue": "0",
+                    "yAxisMaxValue": "100",
+                    "animation": "0",
+                    "showDivLineValues": "1",
+                    "numDivLines": "9",
+                    "adjustDiv": "0",
+                    "stack100Percent": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Q1"
+                            },
+                            {
+                                "label": "Q2"
+                            },
+                            {
+                                "label": "Q3"
+                            },
+                            {
+                                "label": "Q4"
+                            },
+                            {
+                                "label": "Q1-B"
+                            },
+                            {
+                                "label": "Q2-B"
+                            },
+                            {
+                                "label": "Q3-B"
+                            },
+                            {
+                                "label": "Q4-B"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Processed Food",
+                                "data": [
+                                    {
+                                        "value": "30"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "33"
+                                    },
+                                    {
+                                        "value": "31"
+                                    },
+                                    {
+                                        "value": "30"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "33"
+                                    },
+                                    {
+                                        "value": "31"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Un-Processed Food",
+                                "data": [
+                                    {
+                                        "value": "21"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "39"
+                                    },
+                                    {
+                                        "value": "41"
+                                    },
+                                    {
+                                        "value": "21"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "39"
+                                    },
+                                    {
+                                        "value": "41"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Electronics",
+                                "data": [
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "25"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "25"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "26"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Apparels",
+                                "data": [
+                                    {
+                                        "value": "17"
+                                    },
+                                    {
+                                        "value": "15"
+                                    },
+                                    {
+                                        "value": "18"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "17"
+                                    },
+                                    {
+                                        "value": "15"
+                                    },
+                                    {
+                                        "value": "18"
+                                    },
+                                    {
+                                        "value": "16"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "lineset": [
+                    {
+                        "seriesname": "Profit %",
+                        "showValues": "0",
+                        "data": [
+                            {
+                                "value": "14"
+                            },
+                            {
+                                "value": "16"
+                            },
+                            {
+                                "value": "15"
+                            },
+                            {
+                                "value": "17"
+                            },
+                            {
+                                "value": "14"
+                            },
+                            {
+                                "value": "16"
+                            },
+                            {
+                                "value": "15"
+                            },
+                            {
+                                "value": "17"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "alpha": "100",
+                                "color": "888888",
+                                "displayvalue": "Warning",
+                                "startValue": "10",
+                                "isTrendZone": "0",
+                                "showOnTop": "1",
+                                "toolText": "$startDataValue",
+                                "valueOnRight": "1"
+                            },
+                            {
+                                "alpha": "100",
+                                "color": "FFC0CB",
+                                "displayvalue": "DANGER",
+                                "startValue": "16",
+                                "endValue": "30",
+                                "isTrendZone": "1",
+                                "showOnTop": "1",
+                                "toolText": "Max: $endDataValue<br>Min: $startDataValue",
+                                "valueOnRight": "1"
+                            }
+                        ]
+                    }
+                ]
+
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8926-stack100Percent/ref-images/test_6_scrollmsstackedcolumn2dlinedy-stack100Percent-snapshot.png"
+    },
+    "FC14_scrollstackedbar2d_tc7": {
+        "id": "FC14_scrollstackedbar2d_tc7",
+        "description": "% symbol is displayed in stacked 100 percent column chart when trendlines coincides with div lines",
+        "options": {
+            "type": "scrollstackedbar2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+
+                    "animation": "0",
+                    "showDivLineValues": "1",
+                    "numDivLines": "9",
+                    "adjustDiv": "0",
+                    "stack100Percent": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Product A",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Product B",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8926-stack100Percent/ref-images/test_7_scrollstackedbar2d-stack100Percent-snapshot.png"
+    },
+    "FC14_scrollstackedcolumn2d_tc8": {
+        "id": "FC14_scrollstackedcolumn2d_tc8",
+        "description": "% symbol is displayed in stacked 100 percent column chart when trendlines coincides with div lines",
+        "options": {
+            "type": "scrollstackedcolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+
+                    "animation": "0",
+                    "showDivLineValues": "1",
+                    "numDivLines": "9",
+                    "adjustDiv": "0",
+                    "stack100Percent": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Product A",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Product B",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "alpha": "100",
+                                "color": "888888",
+                                "displayvalue": "Warning",
+                                "startValue": "10",
+                                "isTrendZone": "0",
+                                "showOnTop": "1",
+                                "toolText": "$startDataValue",
+                                "valueOnRight": "1"
+                            },
+                            {
+                                "alpha": "100",
+                                "color": "FFC0CB",
+                                "displayvalue": "DANGER",
+                                "startValue": "16",
+                                "endValue": "30",
+                                "isTrendZone": "1",
+                                "showOnTop": "1",
+                                "toolText": "Max: $endDataValue<br>Min: $startDataValue",
+                                "valueOnRight": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8926-stack100Percent/ref-images/test_8_scrollstackedcolumn2d-stack100Percent-snapshot.png"
+    },
+    "FC14_stackedcolumn2dline_tc9": {
+        "id": "FC14_stackedcolumn2dline_tc9",
+        "description": "% symbol is displayed in stacked 100 percent column chart when trendlines coincides with div lines",
+        "options": {
+            "type": "stackedcolumn2dline",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "animation": "0",
+                    "showDivLineValues": "1",
+                    "numDivLines": "9",
+                    "adjustDiv": "0",
+                    "stack100Percent": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Product A",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Product B",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Profit",
+                        "renderAs": "line",
+                        "showValues": "0",
+                        "data": [
+                            {
+                                "value": "10"
+                            },
+                            {
+                                "value": "15"
+                            },
+                            {
+                                "value": "35"
+                            },
+                            {
+                                "value": "45"
+                            },
+                            {
+                                "value": "18"
+                            },
+                            {
+                                "value": "65"
+                            },
+                            {
+                                "value": "55"
+                            },
+                            {
+                                "value": "45"
+                            },
+                            {
+                                "value": "20"
+                            },
+                            {
+                                "value": "29"
+                            },
+                            {
+                                "value": "15"
+                            },
+                            {
+                                "value": "10"
+                            }
+                        ]
+                    }
+                ],
+
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "alpha": "100",
+                                "color": "FFC0CB",
+                                "displayvalue": "DANGER",
+                                "startValue": "20",
+                                "endValue": "40",
+                                "isTrendZone": "1",
+                                "showOnTop": "1",
+                                "toolText": "Max: $endDataValue<br>Min: $startDataValue",
+                                "valueOnRight": "1"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8926-stack100Percent/ref-images/test_9_stackedcolumn2dline-stack100Percent-snapshot.png"
+    },
+    "FC14_stackedarea2d_tc10": {
+        "id": "FC14_stackedarea2d_tc10",
+        "description": "% symbol is displayed in stacked 100 percent column chart when trendlines coincides with div lines",
+        "options": {
+            "type": "stackedarea2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+
+                    "animation": "0",
+                    "showDivLineValues": "1",
+                    "numDivLines": "9",
+                    "adjustDiv": "0",
+                    "stack100Percent": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Product A",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Product B",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "alpha": "100",
+                                "color": "FFC0CB",
+                                "displayvalue": "DANGER",
+                                "startValue": "20",
+                                "endValue": "40",
+                                "isTrendZone": "1",
+                                "showOnTop": "1",
+                                "toolText": "Max: $endDataValue<br>Min: $startDataValue",
+                                "valueOnRight": "1"
+                            }
+
+
+
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8926-stack100Percent/ref-images/test_10_stackedarea2d-stack100Percent-snapshot.png"
+    },
+    "FC14_stackedarea2dlinedy_tc11": {
+        "id": "FC14_stackedarea2dlinedy_tc11",
+        "description": "% symbol is displayed in stacked 100 percent column chart when trendlines coincides with div lines",
+        "options": {
+            "type": "stackedarea2dlinedy",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Energy Data for consumption vs. Price ",
+                    "subCaption": "2010-2014",
+                    "xAxisname": "Year",
+                    "pYAxisName": "Total consumption-in billion BTU",
+                    "sYAxisName": "Price-in USD per million BTU",
+                    "showanchors": "0",
+                    "pYAxisMinValue": "0",
+                    "pYAxisMaxValue": "100",
+                    "sYAxisMinValue": "0",
+                    "sYAxisMaxValue": "6000",
+                    "showDivLineValues": "1",
+                    "numDivLines": "9",
+                    "adjustDiv": "0",
+                    "animation": "0",
+
+                    "stack100Percent": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "2010"
+                            },
+                            {
+                                "label": "2011"
+                            },
+                            {
+                                "label": "2012"
+                            },
+                            {
+                                "label": "2013"
+                            },
+                            {
+                                "label": "2014"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Coal",
+                        "data": [
+                            {
+                                "value": "41"
+                            },
+                            {
+                                "value": "39"
+                            },
+                            {
+                                "value": "34"
+                            },
+                            {
+                                "value": "36"
+                            },
+                            {
+                                "value": "35"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Electricity",
+                        "data": [
+                            {
+                                "value": "25"
+                            },
+                            {
+                                "value": "25"
+                            },
+                            {
+                                "value": "25"
+                            },
+                            {
+                                "value": "25"
+                            },
+                            {
+                                "value": "25"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Natural Gas",
+                        "data": [
+                            {
+                                "value": "49"
+                            },
+                            {
+                                "value": "50"
+                            },
+                            {
+                                "value": "52"
+                            },
+                            {
+                                "value": "53"
+                            },
+                            {
+                                "value": "55"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "LPG",
+                        "data": [
+                            {
+                                "value": "56"
+                            },
+                            {
+                                "value": "56"
+                            },
+                            {
+                                "value": "58"
+                            },
+                            {
+                                "value": "63"
+                            },
+                            {
+                                "value": "61"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Total Price",
+                        "renderAs": "line",
+                        "showanchors": "1",
+                        "parentYAxis": "S",
+                        "showValues": "0",
+                        "data": [
+                            {
+                                "value": "3386.97"
+                            },
+                            {
+                                "value": "3571.81‬"
+                            },
+                            {
+                                "value": "5370.72‬"
+                            },
+                            {
+                                "value": "5658.28‬"
+                            },
+                            {
+                                "value": "5974.85‬‬"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "alpha": "100",
+                                "color": "888888",
+                                "displayvalue": "Warning",
+                                "startValue": "10",
+                                "isTrendZone": "0",
+                                "showOnTop": "1",
+                                "toolText": "$startDataValue",
+                                "valueOnRight": "1"
+                            },
+                            {
+                                "alpha": "100",
+                                "color": "FFC0CB",
+                                "displayvalue": "DANGER",
+                                "startValue": "16",
+                                "endValue": "32",
+                                "isTrendZone": "1",
+                                "showOnTop": "1",
+                                "toolText": "Max: $endDataValue<br>Min: $startDataValue",
+                                "valueOnRight": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8926-stack100Percent/ref-images/test_11_stackedarea2dlinedy-stack100Percent-snapshot.png"
+    },
+    "FC14_stackedbar2d_tc12": {
+        "id": "FC14_stackedbar2d_tc12",
+        "description": "% symbol is displayed in stacked 100 percent column chart when trendlines coincides with div lines",
+        "options": {
+            "type": "stackedbar2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "animation": "0",
+                    "stack100Percent": "1",
+                    "showDivLineValues": "1",
+                    "numDivLines": "9",
+                    "adjustDiv": "0",
+                    "stack100Percent": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Product A",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Product B",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8926-stack100Percent/ref-images/test_12_stackedbar2d-stack100Percent-snapshot.png"
+    },
+    "FC14_stackedcolumn2d_tc13": {
+        "id": "FC14_stackedcolumn2d_tc13",
+        "description": "% symbol is displayed in stacked 100 percent column chart when trendlines coincides with div lines",
+        "options": {
+            "type": "stackedcolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "animation": "0",
+                    "showDivLineValues": "1",
+                    "numDivLines": "9",
+                    "adjustDiv": "0",
+                    "stack100Percent": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Product A",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Product B",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "alpha": "100",
+                                "color": "FFC0CB",
+                                "displayvalue": "DANGER",
+                                "startValue": "20",
+                                "endValue": "40",
+                                "isTrendZone": "1",
+                                "showOnTop": "1",
+                                "toolText": "Max: $endDataValue<br>Min: $startDataValue",
+                                "valueOnRight": "1"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8926-stack100Percent/ref-images/test_13_stackedcolumn2d-stack100Percent-snapshot.png"
+    },
+    "FC14_stackedcolumn2dlinedy_tc14": {
+        "id": "FC14_stackedcolumn2dlinedy_tc14",
+        "description": "% symbol is displayed in stacked 100 percent column chart when trendlines coincides with div lines",
+        "options": {
+            "type": "stackedcolumn2dlinedy",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Global Robotic Process Automation Market",
+                    "subcaption": "2016 - 2021",
+                    "yaxisname": "Market Size (in $ Millions)",
+                    "syaxisname": "YoY growth in %",
+                    "plottooltext": "Market size for $seriesName in $label is <b>$dataValue</b>",
+                    "pYAxisMaxValue": "100",
+                    "sYAxisMaxValue": "100",
+                    "animation": "0",
+                    "showDivLineValues": "1",
+                    "numDivLines": "9",
+                    "adjustDiv": "0",
+                    "stack100Percent": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "2016"
+                            },
+                            {
+                                "label": "2017"
+                            },
+                            {
+                                "label": "2018"
+                            },
+                            {
+                                "label": "2019"
+                            },
+                            {
+                                "label": "2020"
+                            },
+                            {
+                                "label": "2021"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "RPA Software",
+                        "data": [
+                            {
+                                "value": "73"
+                            },
+                            {
+                                "value": "15"
+                            },
+                            {
+                                "value": "20"
+                            },
+                            {
+                                "value": "45"
+                            },
+                            {
+                                "value": "60"
+                            },
+                            {
+                                "value": "75"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "RPA Services",
+                        "data": [
+                            {
+                                "value": "40"
+                            },
+                            {
+                                "value": "70"
+                            },
+                            {
+                                "value": "55"
+                            },
+                            {
+                                "value": "65"
+                            },
+                            {
+                                "value": "45"
+                            },
+                            {
+                                "value": "30"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "YoY Growth",
+                        "parentyaxis": "S",
+                        "plottooltext": "$dataValue growth expected in $label",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": "80"
+                            },
+                            {
+                                "value": "50"
+                            },
+                            {
+                                "value": "42"
+                            },
+                            {
+                                "value": "31"
+                            },
+                            {
+                                "value": "24"
+                            },
+                            {
+                                "value": "20"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "alpha": "100",
+                                "color": "888888",
+                                "displayvalue": "Warning",
+                                "startValue": "10",
+                                "isTrendZone": "0",
+                                "showOnTop": "1",
+                                "toolText": "$startDataValue",
+                                "valueOnRight": "1"
+                            },
+                            {
+                                "alpha": "100",
+                                "color": "FFC0CB",
+                                "displayvalue": "DANGER",
+                                "startValue": "16",
+                                "endValue": "30",
+                                "isTrendZone": "1",
+                                "showOnTop": "1",
+                                "toolText": "Max: $endDataValue<br>Min: $startDataValue",
+                                "valueOnRight": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8926-stack100Percent/ref-images/test_14_stackedcolumn2dlinedy-stack100Percent-snapshot.png"
+    }
+}

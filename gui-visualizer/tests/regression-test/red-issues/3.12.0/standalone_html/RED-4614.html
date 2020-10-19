@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript" src="http://localhost/repos/GUIs/build_files/3.12.0-rc.5/fusioncharts.js"></script>
+</head>
+
+<body>
+    <button onclick="draw()">Render</button>
+    <div>when funnel and pyramid chart is rendered side by side with asyncRender = 1 then charts throw js error.</div>
+    <div id="chartsContainer"></div>
+    <script type="text/javascript">
+        var eventObj = {},
+            charts = ["funnel", "pyramid"],
+            instances = [];
+        data = {
+            pyramid: {
+                "chart": {
+                    "caption": "Sales distribution by Employee",
+                    "subcaption": "Jan 07 - Jul 07",
+                    "numberprefix": "$",
+                    "animation": "0"
+                },
+                "data": [{
+                        "label": "Buchanan",
+                        "value": "20000"
+                    },
+                    {
+                        "label": "Callahan",
+                        "value": "49000"
+                    },
+                    {
+                        "label": "Davolio",
+                        "value": "63000"
+                    },
+                    {
+                        "label": "Dodsworth",
+                        "value": "41000"
+                    },
+                    {
+                        "label": "Fuller",
+                        "value": "74000"
+                    },
+                    {
+                        "label": "King",
+                        "value": "49000"
+                    },
+                    {
+                        "label": "Leverling",
+                        "value": "77000"
+                    },
+                    {
+                        "label": "Peacock",
+                        "value": "54000"
+                    },
+                    {
+                        "label": "Suyama",
+                        "value": "14000"
+                    }
+                ]
+            },
+            funnel: {
+                "chart": {
+                    "caption": "Conversion Ratio",
+                    "subcaption": "May 2007",
+                    "animation": "0"
+                },
+                "data": [{
+                        "label": "Website Visits",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ],
+                "styles": {
+                    "definition": [{
+                        "type": "font",
+                        "name": "captionFont",
+                        "size": "15"
+                    }],
+                    "application": [{
+                        "toobject": "CAPTION",
+                        "styles": "captionFont"
+                    }]
+                }
+            }
+        };
+
+        function draw() {
+
+            for (var i = 0; i < charts.length; i++) {
+                (function(i) {
+                    var localobj = eventObj[charts[i]] = {};
+                    var c = 0;
+                    chart_container = document.createElement("span");
+                    chart_container.setAttribute("id", "chart_container" + i);
+                    chart_container.style.paddingLeft = "10px";
+                    document.getElementById("chartsContainer").appendChild(chart_container);
+                    data[charts[i]].chart.showPrintMenuitem = 1;
+                    instances[i] = new FusionCharts({
+                        id: "chartobject-" + i,
+                        type: charts[i],
+                        renderAt: "chart_container" + i,
+                        width: '600',
+                        asyncRender: 1,
+                        height: '350',
+                        dataFormat: 'json',
+                        dataSource: data[charts[i]]
+                    }).render();
+
+
+                })(i);
+            }
+        };
+    </script>
+</body>
+
+
+</html>

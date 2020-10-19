@@ -1,0 +1,50 @@
+{
+    "FTV3-1172-year-tc1": {
+        "id": "FTV3-1172-year-tc1",
+        "description": "Removing gridbands from timeline navigator that does not have labels",
+        "options": {
+            "data-id": "data-FTV3-year-1172",
+            "schema-id": "schema-FTV3-year-1172",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "series": "State",
+                "yaxis": [
+                    {
+                        "plot": [
+                            {
+                                "value": "Rainfall",
+                                "type": "area",
+                                "style": {
+                                    "plot": {
+                                        "fill-opacity": "0.8"
+                                    }
+                                }
+                            }
+                        ],
+                        "title": "Rainfall (in mm)"
+                    }
+                ],
+                "chart": {
+                    "animation": "0",
+                    "multicanvas": 0
+                },
+                "xaxis": {
+                    "style": {
+                        "grid-line": {
+                            "stroke": "#ff0000"
+                        }
+                    }
+                },
+                "caption": {
+                    "text": "Total Rainfall of Assam and Tripura"
+                },
+                "subcaption": {
+                    "text": "For over a century (1901-2015)"
+                }
+            }
+        }
+    }
+}

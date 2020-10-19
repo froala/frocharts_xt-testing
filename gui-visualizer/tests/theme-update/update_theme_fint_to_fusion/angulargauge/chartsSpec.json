@@ -1,0 +1,214 @@
+{
+    "angulargauge": {
+        "descriptions": "update theme from fint to fusion",
+        "id": "angulargauge",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "angulargauge",
+            "dataSource": {
+                "chart": {
+                    "bgcolor": "FFFFFF",
+                    "upperlimit": "100",
+                    "lowerlimit": "0",
+                    "showlimits": "1",
+                    "basefontcolor": "666666",
+                    "majortmnumber": "11",
+                    "majortmcolor": "666666",
+                    "majortmheight": "8",
+                    "minortmnumber": "5",
+                    "minortmcolor": "666666",
+                    "minortmheight": "3",
+                    "pivotradius": "20",
+                    "showgaugeborder": "0",
+                    "gaugeouterradius": "100",
+                    "gaugeinnerradius": "90",
+                    "gaugeoriginx": "170",
+                    "gaugeoriginy": "170",
+                    "gaugescaleangle": "320",
+                    "displayvaluedistance": "10",
+                    "placevaluesinside": "1",
+                    "gaugefillmix": "",
+                    "pivotfillmix": "{F0EFEA}, {BEBCB0}",
+                    "pivotbordercolor": "BEBCB0",
+                    "pivotfillratio": "80,20",
+                    "animation": 0,
+                    "datastreamurl": "realtime/multipleData.php",
+                    "theme": "fint"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "80",
+                            "code": "00FF00",
+                            "alpha": "0"
+                        },
+                        {
+                            "minvalue": "80",
+                            "maxvalue": "100",
+                            "name": "Danger",
+                            "code": "FF0000",
+                            "alpha": "50"
+                        }
+                    ]
+                },
+                "dials": {
+                    "dial": [
+                        {
+                            "value": "65",
+                            "bordercolor": "FFFFFF",
+                            "bgcolor": "bebcb0, f0efea, bebcb0",
+                            "borderalpha": "0",
+                            "basewidth": "10",
+                            "topwidth": "3"
+                        }
+                    ]
+                },
+                "annotations": {
+                    "groups": [
+                        {
+                            "xpos": "170",
+                            "ypos": "170",
+                            "fillratio": "10,125,254",
+                            "fillpattern": "radial",
+                            "items": [
+                                {
+                                    "type": "circle",
+                                    "xpos": "0",
+                                    "ypos": "0",
+                                    "radius": "150",
+                                    "bordercolor": "bebcb0",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "f0efea, bebcb0",
+                                    "fillratio": "85,15"
+                                },
+                                {
+                                    "type": "circle",
+                                    "xpos": "0",
+                                    "ypos": "0",
+                                    "radius": "120",
+                                    "fillcolor": "bebcb0, f0efea",
+                                    "fillratio": "85,15"
+                                },
+                                {
+                                    "type": "circle",
+                                    "xpos": "0",
+                                    "color": "FFFFFF",
+                                    "ypos": "0",
+                                    "radius": "100",
+                                    "bordercolor": "f0efea"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "bgcolor": "FFFFFF",
+                            "upperlimit": "100",
+                            "lowerlimit": "0",
+                            "showlimits": "1",
+                            "basefontcolor": "666666",
+                            "majortmnumber": "11",
+                            "majortmcolor": "666666",
+                            "majortmheight": "8",
+                            "minortmnumber": "5",
+                            "minortmcolor": "666666",
+                            "minortmheight": "3",
+                            "pivotradius": "20",
+                            "showgaugeborder": "0",
+                            "gaugeouterradius": "100",
+                            "gaugeinnerradius": "90",
+                            "gaugeoriginx": "170",
+                            "gaugeoriginy": "170",
+                            "gaugescaleangle": "320",
+                            "displayvaluedistance": "10",
+                            "placevaluesinside": "1",
+                            "gaugefillmix": "",
+                            "pivotfillmix": "{F0EFEA}, {BEBCB0}",
+                            "pivotbordercolor": "BEBCB0",
+                            "pivotfillratio": "80,20",
+                            "animation": 0,
+                            "datastreamurl": "realtime/multipleData.php",
+                            "theme": "fusion"
+                        },
+                        "colorrange": {
+                            "color": [
+                                {
+                                    "minvalue": "0",
+                                    "maxvalue": "80",
+                                    "code": "00FF00",
+                                    "alpha": "0"
+                                },
+                                {
+                                    "minvalue": "80",
+                                    "maxvalue": "100",
+                                    "name": "Danger",
+                                    "code": "FF0000",
+                                    "alpha": "50"
+                                }
+                            ]
+                        },
+                        "dials": {
+                            "dial": [
+                                {
+                                    "value": "65",
+                                    "bordercolor": "FFFFFF",
+                                    "bgcolor": "bebcb0, f0efea, bebcb0",
+                                    "borderalpha": "0",
+                                    "basewidth": "10",
+                                    "topwidth": "3"
+                                }
+                            ]
+                        },
+                        "annotations": {
+                            "groups": [
+                                {
+                                    "xpos": "170",
+                                    "ypos": "170",
+                                    "fillratio": "10,125,254",
+                                    "fillpattern": "radial",
+                                    "items": [
+                                        {
+                                            "type": "circle",
+                                            "xpos": "0",
+                                            "ypos": "0",
+                                            "radius": "150",
+                                            "bordercolor": "bebcb0",
+                                            "fillasgradient": "1",
+                                            "fillcolor": "f0efea, bebcb0",
+                                            "fillratio": "85,15"
+                                        },
+                                        {
+                                            "type": "circle",
+                                            "xpos": "0",
+                                            "ypos": "0",
+                                            "radius": "120",
+                                            "fillcolor": "bebcb0, f0efea",
+                                            "fillratio": "85,15"
+                                        },
+                                        {
+                                            "type": "circle",
+                                            "xpos": "0",
+                                            "color": "FFFFFF",
+                                            "ypos": "0",
+                                            "radius": "100",
+                                            "bordercolor": "f0efea"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

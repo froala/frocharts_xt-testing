@@ -1,0 +1,2916 @@
+{
+  "FTV3-979_TC_0": {
+      "id": "FTV3-979_TC_0",
+      "description": "XAxis Testing - Adding time marker - Stock Charts",
+      "options": {
+          "data-id": "data-FT_TS11_TC01",
+          "schema-id": "schema-FT_TS11_TC01",
+          "type": "timeseries",
+          "width": "800",
+          "height": "600",
+          "dataFormat": "json",
+          "dataSource": {
+              "chart": {
+                  "animation": 0
+              },
+              "xAxis": {
+                  "plot": "Time",
+                  "title": "xAxisName",
+                  "activeMin": "",
+                  "activeMax": "",
+                  "timeMarker": [
+                      {
+                          "start": "2016-10-30 9:45:00",
+                          "_label": "Time Instant Sample - FULL",
+                          "type": "full",
+                          "timeformat": "%Y-%m-%d %H:%M:%S",
+                          "style": {
+                              "text": {
+                                  "font-family": "mono",
+                                  "fill": "#ff0000",
+                                  "font-weight": "bold",
+                                  "_font-size": "10px",
+                                  "opacity": 1
+                              },
+                              "marker": {
+                                  "fill": "#0000ff",
+                                  "_opacity": 0.4,
+                                  "stroke": "#0000ff",
+                                  "stroke-width": 2,
+                                  "stroke-dasharray": "10 3"
+                              }
+                          }
+                      },
+                      {
+                          "start": "2016-10-30 10:00:00",
+                          "label": "Time Instant Sample - FULL",
+                          "type": "full",
+                          "timeformat": "%Y-%m-%d %H:%M:%S"
+                      },
+                      {
+                          "start": "2016-10-30 10:15:00",
+                          "label": "Time Instant Sample - MINIMAL",
+                          "type": "minimal",
+                          "timeformat": "%Y-%m-%d %H:%M:%S"
+                      },
+                      {
+                          "start": "2016-10-30 11:00:00",
+                          "end": "2016-10-30 11:30:00",
+                          "label": "Time Span Sample fnaflqf qfqif qf fwif qfo qhfqo - FULL",
+                          "type": "full",
+                          "timeformat": "%Y-%m-%d %H:%M:%S"
+                      },
+                      {
+                          "start": "2016-10-30 10:25:00",
+                          "end": "2016-10-30 10:30:00",
+                          "_label": "Time Span Sample - MINIMAL",
+                          "type": "minimal",
+                          "timeformat": "%Y-%m-%d %H:%M:%S"
+                      }
+                  ]
+              },
+              "yAxis": [
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Measure1",
+                              "high": "Measure2",
+                              "low": "Measure1",
+                              "close": "Measure3"
+                          },
+                          "type": "candlestick"
+                      }
+                  },
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Measure1",
+                              "high": "Measure2",
+                              "low": "Measure1",
+                              "close": "Measure3"
+                          },
+                          "type": "ohlc"
+                      }
+                  }
+              ]
+          }
+      }
+  },
+  "FTV3-979_TC_1": {
+      "id": "FTV3-979_TC_1",
+      "description": "XAxis Testing - Defining styles via style definition - Stock Charts",
+      "options": {
+          "data-id": "data-FT_TS11_TC01",
+          "schema-id": "schema-FT_TS11_TC01",
+          "type": "timeseries",
+          "width": "800",
+          "height": "600",
+          "dataFormat": "json",
+          "dataSource": {
+              "chart": {
+                  "animation": 0
+              },
+              "styleDefinition": {
+                  "def-tick-mark-major": {
+                      "stroke": "#ff0000",
+                      "stroke-width": 5,
+                      "stroke-opacity": 0.5
+                  },
+                  "def-tick-mark-minor": {
+                      "stroke": "#0000ff",
+                      "stroke-width": 2,
+                      "stroke-opacity": 0.9
+                  },
+                  "def-label-major": {
+                      "fill": "#00ff00",
+                      "font-family": "Felipa",
+                      "font-size": "20",
+                      "font-weight": "bold"
+                  },
+                  "def-label-minor": {
+                      "fill": "#f442d1",
+                      "font-family": "Indie Flower",
+                      "font-size": "15",
+                      "font-style": "italic"
+                  },
+                  "def-label-context": {
+                      "fill": "#ff0000",
+                      "font-family": "Indie Flower",
+                      "font-size": "35"
+                  },
+                  "def-title": {
+                      "fill": "#0000ff",
+                      "font-family": "Felipa",
+                      "font-size": "43",
+                      "font-style": "italic"
+                  }
+              },
+              "xAxis": {
+                  "plot": "Time",
+                  "title": "xAxisName",
+                  "activeMin": "",
+                  "activeMax": "",
+                  "timeMarker": [
+                      {
+                          "start": "2016-10-30 9:45:00",
+                          "_label": "Time Instant Sample - FULL",
+                          "type": "full",
+                          "timeformat": "%Y-%m-%d %H:%M:%S",
+                          "style": {
+                              "text": {
+                                  "font-family": "mono",
+                                  "fill": "#ff0000",
+                                  "font-weight": "bold",
+                                  "_font-size": "10px",
+                                  "opacity": 1
+                              },
+                              "marker": {
+                                  "fill": "#0000ff",
+                                  "_opacity": 0.4,
+                                  "stroke": "#0000ff",
+                                  "stroke-width": 2,
+                                  "stroke-dasharray": "10 3"
+                              }
+                          }
+                      },
+                      {
+                          "start": "2016-10-30 10:00:00",
+                          "label": "Time Instant Sample - FULL",
+                          "type": "full",
+                          "timeformat": "%Y-%m-%d %H:%M:%S"
+                      },
+                      {
+                          "start": "2016-10-30 10:15:00",
+                          "label": "Time Instant Sample - MINIMAL",
+                          "type": "minimal",
+                          "timeformat": "%Y-%m-%d %H:%M:%S"
+                      },
+                      {
+                          "start": "2016-10-30 11:00:00",
+                          "end": "2016-10-30 11:30:00",
+                          "label": "Time Span Sample fnaflqf qfqif qf fwif qfo qhfqo - FULL",
+                          "type": "full",
+                          "timeformat": "%Y-%m-%d %H:%M:%S"
+                      },
+                      {
+                          "start": "2016-10-30 10:25:00",
+                          "end": "2016-10-30 10:30:00",
+                          "_label": "Time Span Sample - MINIMAL",
+                          "type": "minimal",
+                          "timeformat": "%Y-%m-%d %H:%M:%S"
+                      }
+                  ],
+                  "style": {
+                      "tick-mark-major": "def-tick-mark-major",
+                      "tick-mark-minor": "def-tick-mark-minor",
+                      "label-major": "def-label-major",
+                      "label-minor": "def-label-minor",
+                      "label-context": "def-label-context",
+                      "title": "def-title"
+                  }
+              },
+              "yAxis": [
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Measure1",
+                              "high": "Measure2",
+                              "low": "Measure1",
+                              "close": "Measure3"
+                          },
+                          "type": "candlestick"
+                      }
+                  },
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Measure1",
+                              "high": "Measure2",
+                              "low": "Measure1",
+                              "close": "Measure3"
+                          },
+                          "type": "ohlc"
+                      }
+                  }
+              ]
+          }
+      }
+  },
+  "FTV3-979_TC_2": {
+      "id": "FTV3-979_TC_2",
+      "description": "Time Marker: Label, Start, End, timeFormat, Type, Time Instant, Time Span - Stock Charts",
+      "options": {
+          "data-id": "data-1",
+          "schema-id": "schema-1",
+          "type": "timeseries",
+          "width": "800",
+          "height": "600",
+          "dataFormat": "json",
+          "dataSource": {
+              "chart": {
+                  "enablenavigator": 1,
+                  "paletteColors": "#4286f4, #b65fcc, #a2d39a",
+                  "animation": 0
+              },
+              "xAxis": {
+                  "plot": "Time",
+                  "title": "xAxisName",
+                  "timemarker": [
+                      {
+                          "start": "2016-10-30 9:45:00",
+                          "_label": "Time Instant Sample - FULL",
+                          "type": "full",
+                          "timeformat": "%Y-%m-%d %H:%M:%S",
+                          "style": {
+                              "text": {
+                                  "font-family": "mono",
+                                  "fill": "#ff0000",
+                                  "font-weight": "bold",
+                                  "font-size": "10px",
+                                  "opacity": "1"
+                              },
+                              "marker": {
+                                  "fill": "#0000ff",
+                                  "_opacity": 0.4,
+                                  "stroke": "#0000ff",
+                                  "stroke-width": 2,
+                                  "stroke-dasharray": "10 3"
+                              }
+                          }
+                      },
+                      {
+                          "start": "2016-10-30 10:00:00",
+                          "label": "Time Instant Sample - FULL",
+                          "type": "full",
+                          "timeformat": "%Y-%m-%d %H:%M:%S"
+                      },
+                      {
+                          "start": "2016-10-30 10:15:00",
+                          "label": "Time Instant Sample - MINIMAL",
+                          "type": "minimal",
+                          "timeformat": "%Y-%m-%d %H:%M:%S"
+                      },
+                      {
+                          "start": "2016-10-30 11:00:00",
+                          "end": "2016-10-30 11:30:00",
+                          "label": "Time Span Sample fnaflqf qfqif qf fwif qfo qhfqo - FULL",
+                          "type": "full",
+                          "timeformat": "%Y-%m-%d %H:%M:%S",
+                          "repeat": {},
+                          "style": {
+                              "text": {
+                                  "font-family": "mono",
+                                  "fill": "#ff0000",
+                                  "font-weight": "bold",
+                                  "font-size": 10,
+                                  "opacity": 1
+                              },
+                              "marker": {
+                                  "fill": "#0000ff",
+                                  "opacity": 0.7,
+                                  "stroke": "#ff0000",
+                                  "stroke-width": 5
+                              }
+                          }
+                      },
+                      {
+                          "start": "2016-10-30 10:25:00",
+                          "end": "2016-10-30 10:30:00",
+                          "_label": "Time Span Sample - MINIMAL",
+                          "type": "minimal",
+                          "timeformat": "%Y-%m-%d %H:%M:%S",
+                          "repeat": {},
+                          "_style": {
+                              "text": {
+                                  "font-family": "mono",
+                                  "fill": "#ffffff",
+                                  "font-weight": "bold",
+                                  "font-size": 12,
+                                  "opacity": 0.5
+                              },
+                              "marker": {
+                                  "fill": "#0000ff",
+                                  "opacity": 0.7,
+                                  "stroke": "#ff0000",
+                                  "stroke-width": 5
+                              }
+                          }
+                      }
+                  ],
+                  "_style": {
+                      "ticks": {
+                          "major": {
+                              "fill": "#ff0000"
+                          },
+                          "minor": {
+                              "fill": "#0000ff"
+                          }
+                      },
+                      "text": {
+                          "font-family": "times",
+                          "font-weight": "bold"
+                      },
+                      "title": {
+                          "font-family": "times",
+                          "font-weight": "bold",
+                          "font-style": "italic",
+                          "fill": "#ff0000",
+                          "font-size": 20,
+                          "fill-opacity": 0.2
+                      },
+                      "line": {
+                          "stroke-width": 5
+                      }
+                  }
+              },
+              "yAxis": [
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Measure1",
+                              "high": "Measure2",
+                              "low": "Measure1",
+                              "close": "Measure3"
+                          },
+                          "type": "candlestick"
+                      },
+                      "title": "yAxisName",
+                      "orientation": "right",
+                      "referenceLine": [
+                          {
+                              "label": "Reference line \n new line",
+                              "value": "28",
+                              "style": {
+                                  "text": {
+                                      "fill": "#ff0000",
+                                      "_color": "#ffffff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "23",
+                                      "vertical-align": "bottom",
+                                      "_opacity": 0.2,
+                                      "_fill-opacity": 0.2
+                                  },
+                                  "marker": {
+                                      "fill": "#00ff00",
+                                      "color": "#000ff",
+                                      "font-family": "sans-serif",
+                                      "_font-size": "33",
+                                      "stroke-dasharray": "10 2",
+                                      "stroke-width": "2px",
+                                      "stroke-opacity": 0.5
+                                  }
+                              }
+                          }
+                      ]
+                  },
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Measure1",
+                              "high": "Measure2",
+                              "low": "Measure1",
+                              "close": "Measure3"
+                          },
+                          "type": "ohlc"
+                      },
+                      "title": "yAxisName",
+                      "orientation": "right",
+                      "referenceLine": [
+                          {
+                              "label": "Reference line \n new line",
+                              "value": "28",
+                              "style": {
+                                  "text": {
+                                      "fill": "#ff0000",
+                                      "_color": "#ffffff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "23",
+                                      "vertical-align": "bottom",
+                                      "_opacity": 0.2,
+                                      "_fill-opacity": 0.2
+                                  },
+                                  "marker": {
+                                      "fill": "#00ff00",
+                                      "color": "#000ff",
+                                      "font-family": "sans-serif",
+                                      "_font-size": "33",
+                                      "stroke-dasharray": "10 2",
+                                      "stroke-width": "2px",
+                                      "stroke-opacity": 0.5
+                                  }
+                              }
+                          }
+                      ]
+                  }
+              ],
+              "dataMarker": [
+                  {
+                      "time": "2016-10-30 10:00:00",
+                      "timeFormat": "%Y-%m-%d %H:%M:%S",
+                      "type": "flag",
+                      "identifier": "X",
+                      "tooltext": "Custom Datamarker ToolText on Measure3",
+                      "style": {
+                          "text": {
+                              "font-family": "mono",
+                              "fill": "#ff0000",
+                              "font-weight": "bold",
+                              "opacity": 0.8
+                          },
+                          "marker": {
+                              "fill": "#0000ff",
+                              "fill-opacity": 0.3,
+                              "stroke": "#0000ff",
+                              "stroke-width": 5,
+                              "stroke-opacity": 0.3
+                          }
+                      }
+                  },
+                  {
+                      "time": "2016-10-30 11:00:00",
+                      "timeFormat": "%Y-%m-%d %H:%M:%S",
+                      "type": "pin",
+                      "identifier": "Z",
+                      "tooltext": "Custom Datamarker ToolText on Measure3"
+                  },
+                  {
+                      "time": "2016-10-30 09:30:00",
+                      "timeFormat": "%Y-%m-%d %H:%M:%S",
+                      "type": "pin",
+                      "identifier": "Z",
+                      "tooltext": "Custom Datamarker ToolText on Measure3 a"
+                  },
+                  {
+                      "time": "2016-10-30 09:30:00",
+                      "timeFormat": "%Y-%m-%d %H:%M:%S",
+                      "type": "flag",
+                      "identifier": "Y",
+                      "tooltext": "Custom Datamarker ToolText on Measure3 b"
+                  }
+              ]
+          }
+      }
+  },
+  "FTV3-979_TC_3": {
+      "id": "FTV3-979_TC_3",
+      "description": "Time Marker: Cyclic Time Instant - Stock Charts",
+      "options": {
+          "data-id": "data-1",
+          "schema-id": "schema-1",
+          "type": "timeseries",
+          "width": "800",
+          "height": "600",
+          "dataFormat": "json",
+          "dataSource": {
+              "chart": {
+                  "enablenavigator": 1,
+                  "paletteColors": "#4286f4, #b65fcc, #a2d39a",
+                  "animation": 0
+              },
+              "xAxis": {
+                  "plot": "Time",
+                  "title": "xAxisName",
+                  "timemarker": [
+                      {
+                          "start": "2016-10-30 9:00:00",
+                          "label": "Cylic Time Instant Sample - FULL",
+                          "type": "full",
+                          "timeformat": "%Y-%m-%d %H:%M:%S",
+                          "repeat": {
+                              "unit": "minute",
+                              "multiplier": 30
+                          },
+                          "_style": {
+                              "text": {
+                                  "font-family": "mono",
+                                  "fill": "#ff0000",
+                                  "font-weight": "bold",
+                                  "font-size": 10,
+                                  "opacity": 1
+                              },
+                              "marker": {
+                                  "fill": "#0000ff",
+                                  "_opacity": 0.4,
+                                  "stroke": "#0000ff",
+                                  "stroke-width": 2,
+                                  "stroke-dasharray": "10 3"
+                              }
+                          }
+                      },
+                      {
+                          "start": "2016-10-30 9:10:00",
+                          "label": "Cylic Time Instant Sample - MINIMAL",
+                          "type": "minimal",
+                          "timeformat": "%Y-%m-%d %H:%M:%S",
+                          "repeat": {
+                              "unit": "minute",
+                              "multiplier": 17
+                          },
+                          "style": {
+                              "text": {
+                                  "font-family": "mono",
+                                  "fill": "#ff0000",
+                                  "font-weight": "bold",
+                                  "font-size": 10,
+                                  "opacity": 1
+                              },
+                              "marker": {
+                                  "fill": "#00ff00",
+                                  "_opacity": 0.4,
+                                  "stroke": "#0000ff",
+                                  "stroke-width": 2,
+                                  "stroke-dasharray": "10 3"
+                              }
+                          }
+                      },
+                      {
+                          "start": "2016-10-30 9:05:00",
+                          "label": "Cylic Time Instant Sample - FULL",
+                          "type": "full",
+                          "timeformat": "%Y-%m-%d %H:%M:%S",
+                          "repeat": {
+                              "unit": "hour",
+                              "multiplier": 1
+                          },
+                          "style": {
+                              "text": {
+                                  "font-family": "mono",
+                                  "fill": "#ff0000",
+                                  "font-weight": "bold",
+                                  "font-size": 10,
+                                  "opacity": 1
+                              },
+                              "marker": {
+                                  "fill": "#0000ff",
+                                  "_opacity": 0.4,
+                                  "stroke": "#0000ff",
+                                  "stroke-width": 2,
+                                  "stroke-dasharray": "10 3"
+                              }
+                          }
+                      }
+                  ],
+                  "_style": {
+                      "ticks": {
+                          "major": {
+                              "fill": "#ff0000"
+                          },
+                          "minor": {
+                              "fill": "#0000ff"
+                          }
+                      },
+                      "text": {
+                          "font-family": "times",
+                          "font-weight": "bold"
+                      },
+                      "title": {
+                          "font-family": "times",
+                          "font-weight": "bold",
+                          "font-style": "italic",
+                          "fill": "#ff0000",
+                          "font-size": 20,
+                          "fill-opacity": 0.2
+                      },
+                      "line": {
+                          "stroke-width": 5
+                      }
+                  }
+              },
+              "yAxis": [
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Measure1",
+                              "high": "Measure2",
+                              "low": "Measure1",
+                              "close": "Measure3"
+                          },
+                          "type": "candlestick"
+                      },
+                      "title": "yAxisName",
+                      "orientation": "right",
+                      "referenceLine": [
+                          {
+                              "label": "Reference line \n new line",
+                              "value": "28",
+                              "style": {
+                                  "text": {
+                                      "fill": "#ff0000",
+                                      "_color": "#ffffff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "23",
+                                      "vertical-align": "bottom",
+                                      "_opacity": 0.2,
+                                      "_fill-opacity": 0.2
+                                  },
+                                  "marker": {
+                                      "fill": "#00ff00",
+                                      "color": "#000ff",
+                                      "font-family": "sans-serif",
+                                      "_font-size": "33",
+                                      "stroke-dasharray": "10 2",
+                                      "stroke-width": "2px",
+                                      "stroke-opacity": 0.5
+                                  }
+                              }
+                          }
+                      ]
+                  },
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Measure1",
+                              "high": "Measure2",
+                              "low": "Measure1",
+                              "close": "Measure3"
+                          },
+                          "type": "ohlc"
+                      },
+                      "title": "yAxisName",
+                      "orientation": "right",
+                      "referenceLine": [
+                          {
+                              "label": "Reference line \n new line",
+                              "value": "28",
+                              "style": {
+                                  "text": {
+                                      "fill": "#ff0000",
+                                      "_color": "#ffffff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "23",
+                                      "vertical-align": "bottom",
+                                      "_opacity": 0.2,
+                                      "_fill-opacity": 0.2
+                                  },
+                                  "marker": {
+                                      "fill": "#00ff00",
+                                      "color": "#000ff",
+                                      "font-family": "sans-serif",
+                                      "_font-size": "33",
+                                      "stroke-dasharray": "10 2",
+                                      "stroke-width": "2px",
+                                      "stroke-opacity": 0.5
+                                  }
+                              }
+                          }
+                      ]
+                  }
+              ],
+              "dataMarker": [
+                  {
+                      "time": "2016-10-30 10:00:00",
+                      "timeFormat": "%Y-%m-%d %H:%M:%S",
+                      "type": "flag",
+                      "identifier": "X",
+                      "tooltext": "Custom Datamarker ToolText on Measure3",
+                      "style": {
+                          "text": {
+                              "font-family": "mono",
+                              "fill": "#ff0000",
+                              "font-weight": "bold",
+                              "opacity": 0.8
+                          },
+                          "marker": {
+                              "fill": "#0000ff",
+                              "fill-opacity": 0.3,
+                              "stroke": "#0000ff",
+                              "stroke-width": 5,
+                              "stroke-opacity": 0.3
+                          }
+                      }
+                  },
+                  {
+                      "time": "2016-10-30 11:00:00",
+                      "timeFormat": "%Y-%m-%d %H:%M:%S",
+                      "type": "pin",
+                      "identifier": "Z",
+                      "tooltext": "Custom Datamarker ToolText on Measure3"
+                  },
+                  {
+                      "time": "2016-10-30 09:30:00",
+                      "timeFormat": "%Y-%m-%d %H:%M:%S",
+                      "type": "pin",
+                      "identifier": "Z",
+                      "tooltext": "Custom Datamarker ToolText on Measure3 a"
+                  },
+                  {
+                      "time": "2016-10-30 09:30:00",
+                      "timeFormat": "%Y-%m-%d %H:%M:%S",
+                      "type": "flag",
+                      "identifier": "Y",
+                      "tooltext": "Custom Datamarker ToolText on Measure3 b"
+                  }
+              ]
+          }
+      }
+  },
+  "FTV3-979_TC_4": {
+      "id": "FTV3-979_TC_4",
+      "description": "Time Marker: Cylic Time Span - Stock Charts",
+      "options": {
+          "data-id": "data-FT_TS09_TC03",
+          "schema-id": "schema-FT_TS09_TC03",
+          "type": "timeseries",
+          "width": "800",
+          "height": "600",
+          "dataFormat": "json",
+          "dataSource": {
+              "chart": {
+                  "enablenavigator": 1,
+                  "paletteColors": "#4286f4, #b65fcc, #a2d39a",
+                  "animation": 0
+              },
+              "xAxis": {
+                  "plot": "Time",
+                  "title": "xAxisName",
+                  "timemarker": [
+                      {
+                          "start": "2016-10-30 09:00:00",
+                          "end": "2016-10-30 18:00:00",
+                          "label": "Time Span Sample fnaflqf qfqif qf fwif qfo qhfqo - FULL",
+                          "type": "full",
+                          "timeformat": "%Y-%m-%d %H:%M:%S",
+                          "repeat": {
+                              "unit": "day",
+                              "multiplier": 1
+                          },
+                          "style": {
+                              "text": {
+                                  "font-family": "mono",
+                                  "fill": "#ff0000",
+                                  "font-weight": "bold",
+                                  "font-size": 10,
+                                  "opacity": 1
+                              },
+                              "marker": {
+                                  "fill": "#0000ff",
+                                  "opacity": 0.7,
+                                  "stroke": "#ff0000",
+                                  "stroke-width": 1
+                              }
+                          }
+                      },
+                      {
+                          "start": "2016-10-30 10:25:00",
+                          "end": "2016-10-30 10:30:00",
+                          "label": "Time Span Sample - MINIMAL",
+                          "type": "minimal",
+                          "timeformat": "%Y-%m-%d %H:%M:%S",
+                          "repeat": {},
+                          "_style": {
+                              "text": {
+                                  "font-family": "mono",
+                                  "fill": "#ffffff",
+                                  "font-weight": "bold",
+                                  "font-size": 12,
+                                  "opacity": 0.5
+                              },
+                              "marker": {
+                                  "fill": "#0000ff",
+                                  "opacity": 0.7,
+                                  "stroke": "#ff0000",
+                                  "stroke-width": 5
+                              }
+                          }
+                      }
+                  ],
+                  "_style": {
+                      "ticks": {
+                          "major": {
+                              "fill": "#ff0000"
+                          },
+                          "minor": {
+                              "fill": "#0000ff"
+                          }
+                      },
+                      "text": {
+                          "font-family": "times",
+                          "font-weight": "bold"
+                      },
+                      "title": {
+                          "font-family": "times",
+                          "font-weight": "bold",
+                          "font-style": "italic",
+                          "fill": "#ff0000",
+                          "font-size": 20,
+                          "fill-opacity": 0.2
+                      },
+                      "line": {
+                          "stroke-width": 5
+                      }
+                  }
+              },
+              "yAxis": [
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Transaction",
+                              "high": "Value",
+                              "low": "Transaction",
+                              "close": "Value"
+                          },
+                          "type": "candlestick"
+                      },
+                      "title": "yAxisName",
+                      "orientation": "right",
+                      "referenceLine": [
+                          {
+                              "label": "Reference line \n new line",
+                              "value": "28",
+                              "style": {
+                                  "text": {
+                                      "fill": "#ff0000",
+                                      "_color": "#ffffff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "23",
+                                      "vertical-align": "bottom",
+                                      "_opacity": 0.2,
+                                      "_fill-opacity": 0.2
+                                  },
+                                  "marker": {
+                                      "fill": "#00ff00",
+                                      "color": "#000ff",
+                                      "font-family": "sans-serif",
+                                      "_font-size": "33",
+                                      "stroke-dasharray": "10 2",
+                                      "stroke-width": "2px",
+                                      "stroke-opacity": 0.5
+                                  }
+                              }
+                          }
+                      ]
+                  },
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Transaction",
+                              "high": "Value",
+                              "low": "Transaction",
+                              "close": "Value"
+                          },
+                          "type": "ohlc"
+                      },
+                      "title": "yAxisName",
+                      "orientation": "right",
+                      "referenceLine": [
+                          {
+                              "label": "Reference line \n new line",
+                              "value": "28",
+                              "style": {
+                                  "text": {
+                                      "fill": "#ff0000",
+                                      "_color": "#ffffff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "23",
+                                      "vertical-align": "bottom",
+                                      "_opacity": 0.2,
+                                      "_fill-opacity": 0.2
+                                  },
+                                  "marker": {
+                                      "fill": "#00ff00",
+                                      "color": "#000ff",
+                                      "font-family": "sans-serif",
+                                      "_font-size": "33",
+                                      "stroke-dasharray": "10 2",
+                                      "stroke-width": "2px",
+                                      "stroke-opacity": 0.5
+                                  }
+                              }
+                          }
+                      ]
+                  }
+              ]
+          }
+      }
+  },
+  "FTV3-979_TC_5": {
+      "id": "FTV3-979_TC_5",
+      "description": "Time Marker: Instant and Span With hover effects - Stock Charts",
+      "options": {
+          "data-id": "data-1",
+          "schema-id": "schema-1",
+          "type": "timeseries",
+          "width": "800",
+          "height": "600",
+          "dataFormat": "json",
+          "dataSource": {
+              "chart": {
+                  "enablenavigator": 1,
+                  "paletteColors": "#4286f4, #b65fcc, #a2d39a",
+                  "animation": 0
+              },
+              "xAxis": {
+                  "plot": "Time",
+                  "title": "xAxisName",
+                  "timemarker": [
+                      {
+                          "start": "2016-10-30 9:45:00",
+                          "_label": "Time Instant Sample - FULL",
+                          "type": "full",
+                          "timeformat": "%Y-%m-%d %H:%M:%S",
+                          "style": {
+                              "text": {
+                                  "font-family": "mono",
+                                  "fill": "#ff0000",
+                                  "font-weight": "bold",
+                                  "_font-size": "10px",
+                                  "opacity": "1"
+                              },
+                              "marker": {
+                                  "fill": "#0000ff",
+                                  "_opacity": 0.4,
+                                  "stroke": "#0000ff",
+                                  "stroke-width": 2,
+                                  "stroke-dasharray": "10 3"
+                              },
+                              "marker:hover": {
+                                  "fill": "#006600",
+                                  "_opacity": 0.4,
+                                  "stroke": "#ff0000",
+                                  "stroke-width": 2,
+                                  "stroke-dasharray": "10 3"
+                              }
+                          }
+                      },
+                      {
+                          "start": "2016-10-30 10:00:00",
+                          "label": "Time Instant Sample - FULL",
+                          "type": "full",
+                          "timeformat": "%Y-%m-%d %H:%M:%S",
+                          "style": {
+                              "text": {
+                                  "font-family": "mono",
+                                  "fill": "#ff0000",
+                                  "font-weight": "bold",
+                                  "_font-size": "10px",
+                                  "opacity": "1"
+                              },
+                              "marker:hover": {
+                                  "fill": "#006600",
+                                  "_opacity": 0.4,
+                                  "stroke": "#ff0000",
+                                  "stroke-width": 2,
+                                  "stroke-dasharray": "10 3"
+                              }
+                          }
+                      },
+                      {
+                          "start": "2016-10-30 10:15:00",
+                          "label": "Time Instant Sample - MINIMAL",
+                          "type": "minimal",
+                          "timeformat": "%Y-%m-%d %H:%M:%S",
+                          "style": {
+                              "text": {
+                                  "font-family": "mono",
+                                  "fill": "#ff0000",
+                                  "font-weight": "bold",
+                                  "_font-size": "10px",
+                                  "opacity": "1"
+                              },
+                              "marker:hover": {
+                                  "fill": "#006600",
+                                  "_opacity": 0.4,
+                                  "stroke": "#ff0000",
+                                  "stroke-width": 2,
+                                  "stroke-dasharray": "10 3"
+                              }
+                          }
+                      },
+                      {
+                          "start": "2016-10-30 11:00:00",
+                          "end": "2016-10-30 11:30:00",
+                          "label": "Time Span Sample fnaflqf qfqif qf fwif qfo qhfqo - FULL",
+                          "type": "full",
+                          "timeformat": "%Y-%m-%d %H:%M:%S",
+                          "repeat": {},
+                          "style": {
+                              "text": {
+                                  "font-family": "mono",
+                                  "fill": "#ff0000",
+                                  "font-weight": "bold",
+                                  "font-size": 10,
+                                  "opacity": 1
+                              },
+                              "text:hover": {
+                                  "font-family": "mono",
+                                  "fill": "#ffffff",
+                                  "font-size": 20,
+                                  "opacity": 0.5
+                              },
+                              "marker": {
+                                  "fill": "#0000ff",
+                                  "opacity": 0.7,
+                                  "stroke": "#ff0000",
+                                  "stroke-width": 5
+                              },
+                              "marker:hover": {
+                                  "fill": "#006600",
+                                  "stroke": "#0000ff",
+                                  "stroke-width": 5,
+                                  "stroke-dasharray": "10 2"
+                              }
+                          }
+                      },
+                      {
+                          "start": "2016-10-30 10:25:00",
+                          "end": "2016-10-30 10:30:00",
+                          "_label": "Time Span Sample - MINIMAL",
+                          "type": "minimal",
+                          "timeformat": "%Y-%m-%d %H:%M:%S",
+                          "repeat": {},
+                          "_style": {
+                              "text": {
+                                  "font-family": "mono",
+                                  "fill": "#ffffff",
+                                  "font-weight": "bold",
+                                  "font-size": 12,
+                                  "opacity": 0.5
+                              },
+                              "marker": {
+                                  "fill": "#0000ff",
+                                  "opacity": 0.7,
+                                  "stroke": "#ff0000",
+                                  "stroke-width": 5
+                              }
+                          }
+                      }
+                  ],
+                  "_style": {
+                      "ticks": {
+                          "major": {
+                              "fill": "#ff0000"
+                          },
+                          "minor": {
+                              "fill": "#0000ff"
+                          }
+                      },
+                      "text": {
+                          "font-family": "times",
+                          "font-weight": "bold"
+                      },
+                      "title": {
+                          "font-family": "times",
+                          "font-weight": "bold",
+                          "font-style": "italic",
+                          "fill": "#ff0000",
+                          "font-size": 20,
+                          "fill-opacity": 0.2
+                      },
+                      "line": {
+                          "stroke-width": 5
+                      }
+                  }
+              },
+              "yAxis": [
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Measure1",
+                              "high": "Measure2",
+                              "low": "Measure1",
+                              "close": "Measure3"
+                          },
+                          "type": "candlestick"
+                      },
+                      "title": "yAxisName",
+                      "orientation": "right",
+                      "referenceLine": [
+                          {
+                              "label": "Reference line \n new line",
+                              "value": "28",
+                              "style": {
+                                  "text": {
+                                      "fill": "#ff0000",
+                                      "_color": "#ffffff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "23",
+                                      "vertical-align": "bottom",
+                                      "_opacity": 0.2,
+                                      "_fill-opacity": 0.2
+                                  },
+                                  "marker": {
+                                      "fill": "#00ff00",
+                                      "color": "#000ff",
+                                      "font-family": "sans-serif",
+                                      "_font-size": "33",
+                                      "stroke-dasharray": "10 2",
+                                      "stroke-width": "2px",
+                                      "stroke-opacity": 0.5
+                                  }
+                              }
+                          }
+                      ]
+                  },
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Measure1",
+                              "high": "Measure2",
+                              "low": "Measure1",
+                              "close": "Measure3"
+                          },
+                          "type": "ohlc"
+                      },
+                      "title": "yAxisName",
+                      "orientation": "right",
+                      "referenceLine": [
+                          {
+                              "label": "Reference line \n new line",
+                              "value": "28",
+                              "style": {
+                                  "text": {
+                                      "fill": "#ff0000",
+                                      "_color": "#ffffff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "23",
+                                      "vertical-align": "bottom",
+                                      "_opacity": 0.2,
+                                      "_fill-opacity": 0.2
+                                  },
+                                  "marker": {
+                                      "fill": "#00ff00",
+                                      "color": "#000ff",
+                                      "font-family": "sans-serif",
+                                      "_font-size": "33",
+                                      "stroke-dasharray": "10 2",
+                                      "stroke-width": "2px",
+                                      "stroke-opacity": 0.5
+                                  }
+                              }
+                          }
+                      ]
+                  }
+              ],
+              "dataMarker": [
+                  {
+                      "time": "2016-10-30 10:00:00",
+                      "timeFormat": "%Y-%m-%d %H:%M:%S",
+                      "type": "flag",
+                      "identifier": "X",
+                      "tooltext": "Custom Datamarker ToolText on Measure3",
+                      "style": {
+                          "text": {
+                              "font-family": "mono",
+                              "fill": "#ff0000",
+                              "font-weight": "bold",
+                              "opacity": 0.8
+                          },
+                          "marker": {
+                              "fill": "#0000ff",
+                              "fill-opacity": 0.3,
+                              "stroke": "#0000ff",
+                              "stroke-width": 5,
+                              "stroke-opacity": 0.3
+                          }
+                      }
+                  },
+                  {
+                      "time": "2016-10-30 11:00:00",
+                      "timeFormat": "%Y-%m-%d %H:%M:%S",
+                      "type": "pin",
+                      "identifier": "Z",
+                      "tooltext": "Custom Datamarker ToolText on Measure3"
+                  },
+                  {
+                      "time": "2016-10-30 09:30:00",
+                      "timeFormat": "%Y-%m-%d %H:%M:%S",
+                      "type": "pin",
+                      "identifier": "Z",
+                      "tooltext": "Custom Datamarker ToolText on Measure3 a"
+                  },
+                  {
+                      "time": "2016-10-30 09:30:00",
+                      "timeFormat": "%Y-%m-%d %H:%M:%S",
+                      "type": "flag",
+                      "identifier": "Y",
+                      "tooltext": "Custom Datamarker ToolText on Measure3 b"
+                  }
+              ]
+          }
+      }
+  },
+  "FTV3-979_TC_6": {
+      "id": "FTV3-979_TC_6",
+      "description": "Time Marker: Instant, Span with new style object config (Box, Line, Notch) - Stock Charts",
+      "options": {
+          "data-id": "data-1",
+          "schema-id": "schema-1",
+          "type": "timeseries",
+          "width": "800",
+          "height": "600",
+          "dataFormat": "json",
+          "dataSource": {
+              "chart": {
+                  "enablenavigator": 1,
+                  "paletteColors": "#4286f4, #b65fcc, #a2d39a",
+                  "animation": 0
+              },
+              "xAxis": {
+                  "plot": "Time",
+                  "title": "xAxisName",
+                  "timemarker": [
+                      {
+                          "start": "2016-10-30 9:45:00",
+                          "label": "Time Instant Sample - FULL",
+                          "type": "full",
+                          "timeformat": "%Y-%m-%d %H:%M:%S",
+                          "style": {
+                              "text": {
+                                  "font-family": "mono",
+                                  "fill": "#ff0000",
+                                  "font-weight": "bold",
+                                  "_font-size": "10px",
+                                  "opacity": "1"
+                              },
+                              "marker-box": {
+                                  "fill": "#0000ff",
+                                  "_opacity": 0.4,
+                                  "stroke": "#0000ff",
+                                  "stroke-width": 2,
+                                  "stroke-dasharray": "10 3"
+                              },
+                              "marker:hover": {
+                                  "fill": "#006600",
+                                  "_opacity": 0.4,
+                                  "stroke": "#ffff00",
+                                  "stroke-width": 2,
+                                  "stroke-dasharray": "10 3"
+                              },
+                              "marker-line": {
+                                  "_fill": "#ff0000",
+                                  "_opacity": 0.4,
+                                  "stroke": "#0000ff",
+                                  "stroke-width": 2,
+                                  "stroke-dasharray": "10 3"
+                              },
+                              "marker-line:hover": {
+                                  "fill": "#00ffff",
+                                  "_opacity": 0.4,
+                                  "stroke": "#ff0000",
+                                  "stroke-width": 2,
+                                  "stroke-dasharray": "10 3"
+                              },
+                              "marker-notch": {
+                                  "fill": "#0000ff",
+                                  "_opacity": 0.4,
+                                  "stroke": "#0000ff",
+                                  "stroke-width": 2,
+                                  "stroke-dasharray": "10 3"
+                              },
+                              "marker-notch:hover": {
+                                  "fill": "#aaaa00",
+                                  "_opacity": 0.4,
+                                  "stroke": "#0000ff",
+                                  "stroke-width": 0.5,
+                                  "stroke-dasharray": "10 3"
+                              }
+                          }
+                      },
+                      {
+                          "start": "2016-10-30 10:00:00",
+                          "label": "Time Instant Sample - FULL",
+                          "type": "full",
+                          "timeformat": "%Y-%m-%d %H:%M:%S",
+                          "style": {
+                              "text": {
+                                  "font-family": "mono",
+                                  "fill": "#ff0000",
+                                  "font-weight": "bold",
+                                  "_font-size": "10px",
+                                  "opacity": "1"
+                              },
+                              "marker:hover": {
+                                  "fill": "#006600",
+                                  "_opacity": 0.4,
+                                  "stroke": "#ffff00",
+                                  "stroke-width": 2,
+                                  "stroke-dasharray": "10 3"
+                              },
+                              "marker-line:hover": {
+                                  "fill": "#00ffff",
+                                  "_opacity": 0.4,
+                                  "stroke": "#ff0000",
+                                  "stroke-width": 2,
+                                  "stroke-dasharray": "10 3"
+                              },
+                              "marker-notch": {
+                                  "fill": "#0000ff",
+                                  "_opacity": 0.4,
+                                  "stroke": "#0000ff",
+                                  "stroke-width": 2,
+                                  "stroke-dasharray": "10 3"
+                              },
+                              "marker-notch:hover": {
+                                  "fill": "#aaaa00",
+                                  "_opacity": 0.4,
+                                  "stroke": "#0000ff",
+                                  "stroke-width": 0.5,
+                                  "stroke-dasharray": "10 3"
+                              }
+                          }
+                      },
+                      {
+                          "start": "2016-10-30 10:15:00",
+                          "label": "Time Instant Sample - MINIMAL",
+                          "type": "minimal",
+                          "timeformat": "%Y-%m-%d %H:%M:%S",
+                          "style": {
+                              "text": {
+                                  "font-family": "mono",
+                                  "fill": "#ff0000",
+                                  "font-weight": "bold",
+                                  "_font-size": "10px",
+                                  "opacity": "1"
+                              },
+                              "marker:hover": {
+                                  "fill": "#006600",
+                                  "_opacity": 0.4,
+                                  "stroke": "#ffff00",
+                                  "stroke-width": 2,
+                                  "stroke-dasharray": "10 3"
+                              },
+                              "marker-line": {
+                                  "_fill": "#ff0000",
+                                  "_opacity": 0.4,
+                                  "stroke": "#0000ff",
+                                  "stroke-width": 2,
+                                  "stroke-dasharray": "10 3"
+                              },
+                              "marker-line:hover": {
+                                  "fill": "#00ffff",
+                                  "_opacity": 0.4,
+                                  "stroke": "#ff0000",
+                                  "stroke-width": 2,
+                                  "stroke-dasharray": "10 3"
+                              },
+                              "marker-notch": {
+                                  "fill": "#0000ff",
+                                  "_opacity": 0.4,
+                                  "stroke": "#0000ff",
+                                  "stroke-width": 2,
+                                  "stroke-dasharray": "10 3"
+                              },
+                              "marker-notch:hover": {
+                                  "fill": "#aaaa00",
+                                  "_opacity": 0.4,
+                                  "stroke": "#0000ff",
+                                  "stroke-width": 0.5,
+                                  "stroke-dasharray": "10 3"
+                              }
+                          }
+                      },
+                      {
+                          "start": "2016-10-30 11:00:00",
+                          "end": "2016-10-30 11:30:00",
+                          "label": "Time Span Sample fnaflqf qfqif qf fwif qfo qhfqo - FULL",
+                          "type": "full",
+                          "timeformat": "%Y-%m-%d %H:%M:%S",
+                          "repeat": {},
+                          "style": {
+                              "text": {
+                                  "font-family": "mono",
+                                  "fill": "#ff0000",
+                                  "font-weight": "bold",
+                                  "font-size": 10,
+                                  "opacity": 1
+                              },
+                              "text:hover": {
+                                  "font-family": "mono",
+                                  "fill": "#ffffff",
+                                  "font-size": 20,
+                                  "opacity": 0.5
+                              },
+                              "marker": {
+                                  "fill": "#0000ff",
+                                  "opacity": 0.7,
+                                  "stroke": "#ff0000",
+                                  "stroke-width": 5
+                              },
+                              "marker:hover": {
+                                  "fill": "#006600",
+                                  "stroke": "#0000ff",
+                                  "stroke-width": 5,
+                                  "stroke-dasharray": "10 2"
+                              }
+                          }
+                      },
+                      {
+                          "start": "2016-10-30 10:25:00",
+                          "end": "2016-10-30 10:30:00",
+                          "_label": "Time Span Sample - MINIMAL",
+                          "type": "minimal",
+                          "timeformat": "%Y-%m-%d %H:%M:%S"
+                      }
+                  ],
+                  "_style": {
+                      "ticks": {
+                          "major": {
+                              "fill": "#ff0000"
+                          },
+                          "minor": {
+                              "fill": "#0000ff"
+                          }
+                      },
+                      "text": {
+                          "font-family": "times",
+                          "font-weight": "bold"
+                      },
+                      "title": {
+                          "font-family": "times",
+                          "font-weight": "bold",
+                          "font-style": "italic",
+                          "fill": "#ff0000",
+                          "font-size": 20,
+                          "fill-opacity": 0.2
+                      },
+                      "line": {
+                          "stroke-width": 5
+                      }
+                  }
+              },
+              "yAxis": [
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Measure1",
+                              "high": "Measure2",
+                              "low": "Measure1",
+                              "close": "Measure3"
+                          },
+                          "type": "candlestick"
+                      },
+                      "title": "yAxisName",
+                      "orientation": "right",
+                      "referenceLine": [
+                          {
+                              "label": "Reference line \n new line",
+                              "value": "28",
+                              "style": {
+                                  "text": {
+                                      "fill": "#ff0000",
+                                      "_color": "#ffffff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "23",
+                                      "vertical-align": "bottom",
+                                      "_opacity": 0.2,
+                                      "_fill-opacity": 0.2
+                                  },
+                                  "marker": {
+                                      "fill": "#00ff00",
+                                      "color": "#000ff",
+                                      "font-family": "sans-serif",
+                                      "_font-size": "33",
+                                      "stroke-dasharray": "10 2",
+                                      "stroke-width": "2px",
+                                      "stroke-opacity": 0.5
+                                  }
+                              }
+                          }
+                      ]
+                  },
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Measure1",
+                              "high": "Measure2",
+                              "low": "Measure1",
+                              "close": "Measure3"
+                          },
+                          "type": "ohlc"
+                      },
+                      "title": "yAxisName",
+                      "orientation": "right",
+                      "referenceLine": [
+                          {
+                              "label": "Reference line \n new line",
+                              "value": "28",
+                              "style": {
+                                  "text": {
+                                      "fill": "#ff0000",
+                                      "_color": "#ffffff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "23",
+                                      "vertical-align": "bottom",
+                                      "_opacity": 0.2,
+                                      "_fill-opacity": 0.2
+                                  },
+                                  "marker": {
+                                      "fill": "#00ff00",
+                                      "color": "#000ff",
+                                      "font-family": "sans-serif",
+                                      "_font-size": "33",
+                                      "stroke-dasharray": "10 2",
+                                      "stroke-width": "2px",
+                                      "stroke-opacity": 0.5
+                                  }
+                              }
+                          }
+                      ]
+                  }
+              ]
+          }
+      }
+  },
+  "FTV3-979_TC_7": {
+      "id": "FTV3-979_TC_7",
+      "description": "Reference line in a single measure chart with default style and setting - Stock Charts",
+      "options": {
+          "data-id": "data-1",
+          "schema-id": "schema-1",
+          "type": "timeseries",
+          "width": "800",
+          "height": "600",
+          "dataFormat": "json",
+          "dataSource": {
+              "chart": {
+                  "paletteColors": "#f4cdcd, #a3e2ba, #bcb3f2",
+                  "animation": 0
+              },
+              "yAxis": [
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Measure1",
+                              "high": "Measure2",
+                              "low": "Measure1",
+                              "close": "Measure3"
+                          },
+                          "type": "candlestick"
+                      },
+                      "referenceLine": [
+                          {
+                              "_label": "Reference line \n new line",
+                              "value": "5",
+                              "_style": {
+                                  "text": {
+                                      "color": "#ffffff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "13",
+                                      "vertical-align": "bottom"
+                                  },
+                                  "marker": {
+                                      "fill": "#00ff00",
+                                      "color": "#000ff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "23",
+                                      "stroke-dasharray": "10 2",
+                                      "stroke-width": "2px"
+                                  }
+                              }
+                          }
+                      ]
+                  },
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Measure1",
+                              "high": "Measure2",
+                              "low": "Measure1",
+                              "close": "Measure3"
+                          },
+                          "type": "ohlc"
+                      },
+                      "referenceLine": [
+                          {
+                              "_label": "Reference line \n new line",
+                              "value": "5",
+                              "_style": {
+                                  "text": {
+                                      "color": "#ffffff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "13",
+                                      "vertical-align": "bottom"
+                                  },
+                                  "marker": {
+                                      "fill": "#00ff00",
+                                      "color": "#000ff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "23",
+                                      "stroke-dasharray": "10 2",
+                                      "stroke-width": "2px"
+                                  }
+                              }
+                          }
+                      ]
+                  }
+              ]
+          }
+      }
+  },
+  "FTV3-979_TC_8": {
+      "id": "FTV3-979_TC_8",
+      "description": "Multiple Reference line in a multi measure chart with default style and setting - Stock Charts",
+      "options": {
+          "data-id": "data-1",
+          "schema-id": "schema-1",
+          "type": "timeseries",
+          "width": "800",
+          "height": "600",
+          "dataFormat": "json",
+          "dataSource": {
+              "chart": {
+                  "paletteColors": "#a3e2ba, #bcb3f2",
+                  "animation": 0
+              },
+              "yAxis": [
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Measure1",
+                              "high": "Measure2",
+                              "low": "Measure1",
+                              "close": "Measure3"
+                          },
+                          "type": "candlestick"
+                      },
+                      "referenceLine": [
+                          {
+                              "label": "Reference line Upper Limit",
+                              "value": "5",
+                              "_style": {
+                                  "text": {
+                                      "color": "#ffffff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "13",
+                                      "vertical-align": "bottom"
+                                  },
+                                  "marker": {
+                                      "fill": "#00ff00",
+                                      "color": "#000ff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "23",
+                                      "stroke-dasharray": "10 2",
+                                      "stroke-width": "2px"
+                                  }
+                              }
+                          },
+                          {
+                              "label": "Reference line 2 Lower Limit",
+                              "value": "3",
+                              "_style": {
+                                  "text": {
+                                      "color": "#ffffff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "13",
+                                      "vertical-align": "bottom"
+                                  },
+                                  "marker": {
+                                      "fill": "#00ff00",
+                                      "color": "#000ff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "23",
+                                      "stroke-dasharray": "10 2",
+                                      "stroke-width": "2px"
+                                  }
+                              }
+                          }
+                      ]
+                  },
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Measure1",
+                              "high": "Measure2",
+                              "low": "Measure1",
+                              "close": "Measure3"
+                          },
+                          "type": "ohlc"
+                      },
+                      "orientation": "right",
+                      "referenceLine": [
+                          {
+                              "label": "Reference line Upper Limit",
+                              "value": "5",
+                              "_style": {
+                                  "text": {
+                                      "color": "#ffffff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "13",
+                                      "vertical-align": "bottom"
+                                  },
+                                  "marker": {
+                                      "fill": "#00ff00",
+                                      "color": "#000ff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "23",
+                                      "stroke-dasharray": "10 2",
+                                      "stroke-width": "2px"
+                                  }
+                              }
+                          },
+                          {
+                              "label": "Reference line 2 Lower Limit",
+                              "value": "3",
+                              "_style": {
+                                  "text": {
+                                      "color": "#ffffff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "13",
+                                      "vertical-align": "bottom"
+                                  },
+                                  "marker": {
+                                      "fill": "#00ff00",
+                                      "color": "#000ff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "23",
+                                      "stroke-dasharray": "10 2",
+                                      "stroke-width": "2px"
+                                  }
+                              }
+                          }
+                      ]
+                  }
+              ]
+          }
+      }
+  },
+  "FTV3-979_TC_9": {
+      "id": "FTV3-979_TC_9",
+      "description": "Multiple Reference line in a multi measure/multi variate chart with style applied - Stock Charts",
+      "options": {
+          "data-id": "data-1",
+          "schema-id": "schema-1",
+          "type": "timeseries",
+          "width": "800",
+          "height": "600",
+          "dataFormat": "json",
+          "dataSource": {
+              "chart": {
+                  "paletteColors": "#f4cdcd,#a3e2ba, #bcb3f2",
+                  "animation": 0
+              },
+              "yAxis": [
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Measure1",
+                              "high": "Measure2",
+                              "low": "Measure1",
+                              "close": "Measure3"
+                          },
+                          "type": "candlestick"
+                      },
+                      "referenceLine": [
+                          {
+                              "label": "Reference line Upper Limit",
+                              "value": "5",
+                              "style": {
+                                  "text": {
+                                      "color": "#ffffff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "13",
+                                      "vertical-align": "bottom"
+                                  },
+                                  "marker": {
+                                      "fill": "#00ff00",
+                                      "color": "#000ff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "23",
+                                      "stroke-dasharray": "10 2",
+                                      "stroke-width": "2px"
+                                  }
+                              }
+                          },
+                          {
+                              "label": "Reference line 2 Lower Limit",
+                              "value": "3",
+                              "style": {
+                                  "text": {
+                                      "color": "#ffffff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "13",
+                                      "vertical-align": "top"
+                                  },
+                                  "marker": {
+                                      "fill": "#00ff00",
+                                      "color": "#000ff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "23",
+                                      "stroke-dasharray": "10 2",
+                                      "stroke-width": "2px"
+                                  }
+                              }
+                          }
+                      ]
+                  },
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Measure1",
+                              "high": "Measure2",
+                              "low": "Measure1",
+                              "close": "Measure3"
+                          },
+                          "type": "ohlc"
+                      },
+                      "_orientation": "right",
+                      "referenceLine": [
+                          {
+                              "label": "Reference line Upper Limit",
+                              "value": "5",
+                              "style": {
+                                  "text": {
+                                      "color": "#ffffff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "13",
+                                      "vertical-align": "middle"
+                                  },
+                                  "marker": {
+                                      "fill": "#00ff00",
+                                      "color": "#000ff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "23",
+                                      "stroke-dasharray": "10 2",
+                                      "stroke-width": "2px"
+                                  }
+                              }
+                          },
+                          {
+                              "label": "Reference line 2 Lower Limit",
+                              "value": "3",
+                              "style": {
+                                  "text": {
+                                      "color": "#ffffff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "13",
+                                      "vertical-align": "top"
+                                  },
+                                  "marker": {
+                                      "fill": "#00ff00",
+                                      "color": "#000ff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "23",
+                                      "stroke-dasharray": "10 2",
+                                      "stroke-width": "2px"
+                                  }
+                              }
+                          }
+                      ]
+                  }
+              ]
+          }
+      }
+  },
+  "FTV3-979_TC_10": {
+      "id": "FTV3-979_TC_10",
+      "description": "Multiple Reference line in a multi measure/multi variate chart with style and orientation left/right - Stock Charts",
+      "options": {
+          "data-id": "data-1",
+          "schema-id": "schema-1",
+          "type": "timeseries",
+          "width": "800",
+          "height": "600",
+          "dataFormat": "json",
+          "dataSource": {
+              "chart": {
+                  "paletteColors": "#f4cdcd,#a3e2ba, #bcb3f2",
+                  "animation": 0
+              },
+              "yAxis": [
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Measure1",
+                              "high": "Measure2",
+                              "low": "Measure1",
+                              "close": "Measure3"
+                          },
+                          "type": "candlestick"
+                      },
+                      "orientation": "left",
+                      "referenceLine": [
+                          {
+                              "label": "Reference line Upper Limit",
+                              "value": "5",
+                              "style": {
+                                  "text": {
+                                      "color": "#ffffff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "13",
+                                      "vertical-align": "bottom"
+                                  },
+                                  "marker": {
+                                      "fill": "#00ff00",
+                                      "color": "#000ff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "23",
+                                      "stroke-dasharray": "10 2",
+                                      "stroke-width": "2px"
+                                  }
+                              }
+                          },
+                          {
+                              "label": "Reference line 2 Lower Limit",
+                              "value": "3",
+                              "style": {
+                                  "text": {
+                                      "color": "#ffffff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "13",
+                                      "vertical-align": "top"
+                                  },
+                                  "marker": {
+                                      "fill": "#00ff00",
+                                      "color": "#000ff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "23",
+                                      "stroke-dasharray": "10 2",
+                                      "stroke-width": "2px"
+                                  }
+                              }
+                          }
+                      ]
+                  },
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Measure1",
+                              "high": "Measure2",
+                              "low": "Measure1",
+                              "close": "Measure3"
+                          },
+                          "type": "ohlc"
+                      },
+                      "orientation": "right",
+                      "referenceLine": [
+                          {
+                              "label": "Reference line Upper Limit",
+                              "value": "5",
+                              "style": {
+                                  "text": {
+                                      "color": "#ffffff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "13",
+                                      "vertical-align": "middle"
+                                  },
+                                  "marker": {
+                                      "fill": "#00ff00",
+                                      "color": "#000ff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "23",
+                                      "stroke-dasharray": "10 2",
+                                      "stroke-width": "2px"
+                                  }
+                              }
+                          },
+                          {
+                              "label": "Reference line 2 Lower Limit",
+                              "value": "3",
+                              "style": {
+                                  "text": {
+                                      "color": "#ffffff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "13",
+                                      "vertical-align": "top"
+                                  },
+                                  "marker": {
+                                      "fill": "#00ff00",
+                                      "color": "#000ff",
+                                      "font-family": "sans-serif",
+                                      "font-size": "23",
+                                      "stroke-dasharray": "10 2",
+                                      "stroke-width": "2px"
+                                  }
+                              }
+                          }
+                      ]
+                  }
+              ]
+          }
+      }
+  },
+  "FTV3-979_TC_11": {
+      "id": "FTV3-979_TC_11",
+      "description": "Reference Zone - Default setting, introduced in V1.2 - FTV3-918 - Stock Charts",
+      "options": {
+          "data-id": "data-FT_TS14_TC01",
+          "schema-id": "schema-FT_TS14_TC01",
+          "type": "timeseries",
+          "width": "900",
+          "height": "500",
+          "dataFormat": "json",
+          "dataSource": {
+              "caption": {
+                  "text": "Weather Forecast"
+              },
+              "subcaption": {
+                  "text": "Visualization of different weather parameters"
+              },
+              "xAxis": [
+                  {
+                      "plot": "Date"
+                  }
+              ],
+              "yAxis": [
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Temp(°C)",
+                              "high": "Wind Gust (kph)",
+                              "low": "Temp(°C)",
+                              "close": "Wind Gust (kph)"
+                          },
+                          "type": "candlestick"
+                      },
+                      "title": "Temperature  vs  Wind Gust",
+                      "referenceZone": [
+                          {
+                              "label": "Last Year Range",
+                              "valueMin": "18",
+                              "valueMax": "35"
+                          }
+                      ]
+                  },
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Temp(°C)",
+                              "high": "Wind Gust (kph)",
+                              "low": "Temp(°C)",
+                              "close": "Wind Gust (kph)"
+                          },
+                          "type": "ohlc"
+                      },
+                      "title": "Temperature  vs  Wind Gust",
+                      "referenceZone": [
+                          {
+                              "label": "Last Year Range",
+                              "valueMin": "18",
+                              "valueMax": "35"
+                          }
+                      ]
+                  }
+              ],
+              "chart": {
+                  "animation": 0
+              }
+          }
+      }
+  },
+  "FTV3-979_TC_12": {
+      "id": "FTV3-979_TC_12",
+      "description": "Reference Zone - Multiple ReferenceZone in a canvas - Stock Charts",
+      "options": {
+          "data-id": "data-FT_TS14_TC01",
+          "schema-id": "schema-FT_TS14_TC01",
+          "type": "timeseries",
+          "width": "900",
+          "height": "500",
+          "dataFormat": "json",
+          "dataSource": {
+              "caption": {
+                  "text": "Weather Forecast"
+              },
+              "subcaption": {
+                  "text": "Visualization of different weather parameters"
+              },
+              "xAxis": [
+                  {
+                      "plot": "Date"
+                  }
+              ],
+              "yAxis": [
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Temp(°C)",
+                              "high": "Wind Gust (kph)",
+                              "low": "Temp(°C)",
+                              "close": "Wind Gust (kph)"
+                          },
+                          "type": "candlestick"
+                      },
+                      "title": "Temperature  vs  Wind Gust",
+                      "referenceZone": [
+                          {
+                              "label": "Target",
+                              "valueMin": "18",
+                              "valueMax": "35"
+                          },
+                          {
+                              "label": "Last Year Range",
+                              "valueMin": "15",
+                              "valueMax": "8"
+                          }
+                      ]
+                  },
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Temp(°C)",
+                              "high": "Wind Gust (kph)",
+                              "low": "Temp(°C)",
+                              "close": "Wind Gust (kph)"
+                          },
+                          "type": "ohlc"
+                      },
+                      "title": "Temperature  vs  Wind Gust",
+                      "referenceZone": [
+                          {
+                              "label": "Target",
+                              "valueMin": "18",
+                              "valueMax": "35"
+                          },
+                          {
+                              "label": "Last Year Range",
+                              "valueMin": "15",
+                              "valueMax": "8"
+                          }
+                      ]
+                  }
+              ],
+              "chart": {
+                  "animation": 0
+              }
+          }
+      }
+  },
+  "FTV3-979_TC_13": {
+      "id": "FTV3-979_TC_13",
+      "description": "Reference Zone - ReferenceZone in a multiVariate - Stock Charts",
+      "options": {
+          "data-id": "data-FT_TS14_TC01",
+          "schema-id": "schema-FT_TS14_TC01",
+          "type": "timeseries",
+          "width": "900",
+          "height": "500",
+          "dataFormat": "json",
+          "dataSource": {
+              "caption": {
+                  "text": "Weather Forecast"
+              },
+              "subcaption": {
+                  "text": "Visualization of different weather parameters"
+              },
+              "xAxis": [
+                  {
+                      "plot": "Date"
+                  }
+              ],
+              "yAxis": [
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Temp(°C)",
+                              "high": "Wind Gust (kph)",
+                              "low": "Temp(°C)",
+                              "close": "Wind Gust (kph)"
+                          },
+                          "type": "candlestick"
+                      },
+                      "title": "Temperature  vs  Wind Gust",
+                      "referenceZone": [
+                          {
+                              "label": "Target",
+                              "valueMin": "10",
+                              "valueMax": "15"
+                          }
+                      ]
+                  },
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Temp(°C)",
+                              "high": "Wind Gust (kph)",
+                              "low": "Temp(°C)",
+                              "close": "Wind Gust (kph)"
+                          },
+                          "type": "ohlc"
+                      },
+                      "title": "Temperature  vs  Wind Gust",
+                      "referenceZone": [
+                          {
+                              "label": "Last Year Range",
+                              "valueMin": "30",
+                              "valueMax": "8"
+                          }
+                      ]
+                  }
+              ],
+              "chart": {
+                  "animation": 0
+              }
+          }
+      }
+  },
+  "FTV3-979_TC_14": {
+      "id": "FTV3-979_TC_14",
+      "description": "Reference Zone - ReferenceZone Custom Styling - plot level - Stock Charts",
+      "options": {
+          "data-id": "data-FT_TS14_TC01",
+          "schema-id": "schema-FT_TS14_TC01",
+          "type": "timeseries",
+          "width": "900",
+          "height": "500",
+          "dataFormat": "json",
+          "dataSource": {
+              "caption": {
+                  "text": "Weather Forecast"
+              },
+              "subcaption": {
+                  "text": "Visualization of different weather parameters"
+              },
+              "xAxis": [
+                  {
+                      "plot": "Date"
+                  }
+              ],
+              "yAxis": [
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Temp(°C)",
+                              "high": "Wind Gust (kph)",
+                              "low": "Temp(°C)",
+                              "close": "Wind Gust (kph)"
+                          },
+                          "type": "candlestick"
+                      },
+                      "title": "Temperature  vs  Wind Gust",
+                      "referenceZone": [
+                          {
+                              "label": "Target",
+                              "valueMin": "9",
+                              "valueMax": "13",
+                              "style": {
+                                  "marker-zone": {
+                                      "stroke-dasharray": "12 3",
+                                      "stroke-width": 2,
+                                      "fill": "#444444",
+                                      "stroke": "#008800"
+                                  },
+                                  "marker-tag": {
+                                      "fill": "#ffff00",
+                                      "stroke-dasharray": "12 3",
+                                      "stroke-width": 2
+                                  },
+                                  "text": {
+                                      "fill": "#0000ff",
+                                      "font-size": "22",
+                                      "font-family": "",
+                                      "font-weight": "bold"
+                                  },
+                                  "marker-text": {
+                                      "fill": "#0000ff",
+                                      "font-size": "22",
+                                      "font-family": "",
+                                      "font-weight": "bold"
+                                  },
+                                  "marker-notch": {
+                                      "fill": "#0000ff",
+                                      "stroke": "#ff0000",
+                                      "stroke-width": "1"
+                                  },
+                                  "marker-notch-connector": {
+                                      "stroke-dasharray": "12 3",
+                                      "stroke": "#008800",
+                                      "stroke-width": 6
+                                  }
+                              }
+                          }
+                      ]
+                  },
+                  {
+                      "plot": {
+                          "value": {
+                              "open": "Temp(°C)",
+                              "high": "Wind Gust (kph)",
+                              "low": "Temp(°C)",
+                              "close": "Wind Gust (kph)"
+                          },
+                          "type": "ohlc"
+                      },
+                      "title": "Temperature  vs  Wind Gust",
+                      "referenceZone": [
+                          {
+                              "label": "Last Year Range",
+                              "valueMin": "30",
+                              "valueMax": "8",
+                              "style": {
+                                  "marker-zone": {
+                                      "stroke-width": 2,
+                                      "fill": "#444444",
+                                      "stroke": "#000088"
+                                  },
+                                  "marker-tag": {
+                                      "fill": "#ffff00",
+                                      "stroke-dasharray": "12 3",
+                                      "stroke-width": 2
+                                  },
+                                  "text": {
+                                      "fill": "#0000ff",
+                                      "font-size": "22",
+                                      "font-family": "",
+                                      "font-weight": "bold"
+                                  },
+                                  "marker-text": {
+                                      "fill": "#0000ff",
+                                      "font-size": "22",
+                                      "font-family": "",
+                                      "font-weight": "bold"
+                                  },
+                                  "marker-notch": {
+                                      "fill": "#0000ff",
+                                      "stroke": "#ff0000",
+                                      "stroke-width": "1"
+                                  },
+                                  "marker-notch-connector": {
+                                      "stroke": "#000088",
+                                      "stroke-width": 6
+                                  }
+                              }
+                          }
+                      ]
+                  }
+              ],
+              "chart": {
+                  "animation": 0
+              }
+          }
+      }
+  },
+  "FTV3-979_TC_15": {
+      "id": "FTV3-979_TC_15",
+      "description": "Reference Zone - ReferenceZone Custom Styling - via style definition - Stock Charts",
+      "options": {
+          "data-id": "data-FT_TS14_TC01",
+          "schema-id": "schema-FT_TS14_TC01",
+          "type": "timeseries",
+          "width": "900",
+          "height": "500",
+          "dataFormat": "json",
+          "dataSource": {
+              "styleDefinition": {
+                  "styleMarkerZone": {
+                      "stroke-dasharray": "12 3",
+                      "stroke-width": 1,
+                      "stroke": "#008800",
+                      "fill": "#111111"
+                  },
+                  "styleMarkerZoneHover": {
+                      "stroke-width": 3,
+                      "fill": "#444444",
+                      "stroke": "#008800"
+                  },
+                  "styleMarkerTag": {
+                      "fill": "#ffff00",
+                      "stroke-dasharray": "12 3",
+                      "stroke-width": 2
+                  },
+                  "styleText": {
+                      "fill": "#0000ff",
+                      "font-size": "22",
+                      "font-family": "",
+                      "font-weight": "bold"
+                  },
+                  "styleMarkerText": {
+                      "fill": "#0000ff",
+                      "font-size": "22",
+                      "font-family": "",
+                      "font-weight": "bold"
+                  },
+                  "styleMarkerNotch": {
+                      "fill": "#0000ff",
+                      "stroke": "#ff0000",
+                      "stroke-width": "1"
+                  },
+                  "styleMarkerNotchConnector": {
+                      "stroke-dasharray": "12 3",
+                      "stroke": "#008800",
+                      "stroke-width": 6
+                  }
+              },
+              "caption": {
+                  "text": "Weather Forecast"
+              },
+              "subcaption": {
+                  "text": "Visualization of different weather parameters"
+              },
+              "xAxis": [
+                  {
+                      "plot": "Date"
+                  }
+              ],
+              "yAxis": [
+                  {
+                      "plot": [
+                          {
+                              "value": {
+                                  "open": "Temp(°C)",
+                                  "high": "Wind Gust (kph)",
+                                  "low": "Temp(°C)",
+                                  "close": "Wind Gust (kph)"
+                              },
+                              "type": "candlestick"
+                          }
+                      ],
+                      "title": "Temperature  vs  Wind Gust",
+                      "referenceZone": [
+                          {
+                              "label": "Target",
+                              "valueMin": "9",
+                              "valueMax": "13",
+                              "style": {
+                                  "marker-zone": "styleMarkerZone",
+                                  "marker-zone:hover": "styleMarkerZoneHover",
+                                  "marker-tag": "styleMarkerTag",
+                                  "text": "styleText",
+                                  "marker-text": "styleMarkerText",
+                                  "marker-notch": "styleMarkerNotch",
+                                  "marker-notch-connector": "styleMarkerNotchConnector"
+                              }
+                          }
+                      ]
+                  },
+                  {
+                      "plot": [
+                          {
+                              "value": {
+                                  "open": "Temp(°C)",
+                                  "high": "Wind Gust (kph)",
+                                  "low": "Temp(°C)",
+                                  "close": "Wind Gust (kph)"
+                              },
+                              "type": "ohlc"
+                          }
+                      ],
+                      "title": "Temperature  vs  Wind Gust",
+                      "referenceZone": [
+                          {
+                              "label": "Last Year Range",
+                              "valueMin": "30",
+                              "valueMax": "8",
+                              "style": {
+                                  "marker-zone": {
+                                      "stroke-width": 1,
+                                      "stroke": "#000088",
+                                      "fill": "#111111"
+                                  },
+                                  "marker-zone:hover": {
+                                      "stroke-width": 3,
+                                      "fill": "#444444"
+                                  },
+                                  "marker-tag": {
+                                      "fill": "#ffff00",
+                                      "stroke-dasharray": "12 3",
+                                      "stroke-width": 2
+                                  },
+                                  "text": {
+                                      "fill": "#0000ff",
+                                      "font-size": "22",
+                                      "font-family": "",
+                                      "font-weight": "bold"
+                                  },
+                                  "marker-text": {
+                                      "fill": "#0000ff",
+                                      "font-size": "22",
+                                      "font-family": "",
+                                      "font-weight": "bold"
+                                  },
+                                  "marker-notch": {
+                                      "fill": "#0000ff",
+                                      "stroke": "#ff0000",
+                                      "stroke-width": "1"
+                                  },
+                                  "marker-notch-connector": {
+                                      "stroke": "#000088",
+                                      "stroke-width": 6
+                                  }
+                              }
+                          }
+                      ]
+                  }
+              ],
+              "chart": {
+                  "animation": 0
+              }
+          }
+      }
+  },
+  "FTV3-979_TC_16": {
+      "id": "FTV3-979_TC_16",
+      "description": "Reference Zone - ReferenceZone in Dual Y-Axis - Stock Charts",
+      "options": {
+          "data-id": "data-FT_TS14_TC01",
+          "schema-id": "schema-FT_TS14_TC01",
+          "type": "timeseries",
+          "width": "900",
+          "height": "500",
+          "dataFormat": "json",
+          "dataSource": {
+              "chart": {
+                  "multiCanvas": 0,
+                  "animation": 0
+              },
+              "styleDefinition": {
+                  "styleMarkerZone": {
+                      "stroke-dasharray": "12 3",
+                      "stroke-width": 1,
+                      "stroke": "#008800",
+                      "fill": "#111111"
+                  },
+                  "styleMarkerZoneHover": {
+                      "stroke-width": 3,
+                      "fill": "#444444",
+                      "stroke": "#008800"
+                  },
+                  "styleMarkerTag": {
+                      "fill": "#ffff00",
+                      "stroke-dasharray": "12 3",
+                      "stroke-width": 2
+                  },
+                  "styleText": {
+                      "fill": "#0000ff",
+                      "font-size": "22",
+                      "font-family": "",
+                      "font-weight": "bold"
+                  },
+                  "styleMarkerText": {
+                      "fill": "#0000ff",
+                      "font-size": "22",
+                      "font-family": "",
+                      "font-weight": "bold"
+                  },
+                  "styleMarkerNotch": {
+                      "fill": "#0000ff",
+                      "stroke": "#ff0000",
+                      "stroke-width": "1"
+                  },
+                  "styleMarkerNotchConnector": {
+                      "stroke-dasharray": "12 3",
+                      "stroke": "#008800",
+                      "stroke-width": 6
+                  }
+              },
+              "caption": {
+                  "text": "Weather Forecast"
+              },
+              "subcaption": {
+                  "text": "Visualization of different weather parameters"
+              },
+              "xAxis": [
+                  {
+                      "plot": "Date"
+                  }
+              ],
+              "yAxis": [
+                  {
+                      "plot": [
+                          {
+                              "value": {
+                                  "open": "Temp(°C)",
+                                  "high": "Wind Gust (kph)",
+                                  "low": "Temp(°C)",
+                                  "close": "Wind Gust (kph)"
+                              },
+                              "type": "candlestick"
+                          }
+                      ],
+                      "title": "Temperature  vs  Wind Gust",
+                      "referenceZone": [
+                          {
+                              "label": "Target",
+                              "valueMin": "10",
+                              "valueMax": "14",
+                              "style": {
+                                  "marker-zone": "styleMarkerZone",
+                                  "marker-zone:hover": "styleMarkerZoneHover",
+                                  "marker-tag": "styleMarkerTag",
+                                  "text": "styleText",
+                                  "marker-text": "styleMarkerText",
+                                  "marker-notch": "styleMarkerNotch",
+                                  "marker-notch-connector": "styleMarkerNotchConnector"
+                              }
+                          }
+                      ]
+                  },
+                  {
+                      "plot": [
+                          {
+                              "value": {
+                                  "open": "Temp(°C)",
+                                  "high": "Wind Gust (kph)",
+                                  "low": "Temp(°C)",
+                                  "close": "Wind Gust (kph)"
+                              },
+                              "type": "ohlc"
+                          }
+                      ],
+                      "title": "Temperature  vs  Wind Gust",
+                      "referenceZone": [
+                          {
+                              "label": "Last Year Range",
+                              "valueMin": "10",
+                              "valueMax": "4",
+                              "style": {
+                                  "marker-zone": {
+                                      "stroke-width": 1,
+                                      "stroke": "#000088",
+                                      "fill": "#111111"
+                                  },
+                                  "marker-zone:hover": {
+                                      "stroke-width": 3,
+                                      "fill": "#444444"
+                                  },
+                                  "marker-tag": {
+                                      "fill": "#ffff00",
+                                      "stroke-dasharray": "12 3",
+                                      "stroke-width": 2
+                                  },
+                                  "text": {
+                                      "fill": "#0000ff",
+                                      "font-size": "22",
+                                      "font-family": "",
+                                      "font-weight": "bold"
+                                  },
+                                  "marker-text": {
+                                      "fill": "#0000ff",
+                                      "font-size": "22",
+                                      "font-family": "",
+                                      "font-weight": "bold"
+                                  },
+                                  "marker-notch": {
+                                      "fill": "#0000ff",
+                                      "stroke": "#ff0000",
+                                      "stroke-width": "1"
+                                  },
+                                  "marker-notch-connector": {
+                                      "stroke": "#000088",
+                                      "stroke-width": 6
+                                  }
+                              }
+                          }
+                      ]
+                  }
+              ]
+          }
+      }
+  },
+  "FTV3-979_TC_17": {
+      "id": "FTV3-979_TC_17",
+      "description": "Reference Zone - TimeMarker, DataMarker Overlapping - Stock Charts",
+      "options": {
+          "data-id": "data-FT_TS14_TC01",
+          "schema-id": "schema-FT_TS14_TC01",
+          "type": "timeseries",
+          "width": "900",
+          "height": "500",
+          "dataFormat": "json",
+          "dataSource": {
+              "chart": {
+                  "multiCanvas": 0,
+                  "animation": 0
+              },
+              "styleDefinition": {
+                  "styleMarkerZone": {
+                      "stroke-dasharray": "12 3",
+                      "stroke-width": 1,
+                      "stroke": "#008800",
+                      "fill": "#111111"
+                  },
+                  "styleMarkerZoneHover": {
+                      "stroke-width": 3,
+                      "fill": "#444444",
+                      "stroke": "#008800"
+                  },
+                  "styleMarkerTag": {
+                      "fill": "#ffff00",
+                      "stroke-dasharray": "12 3",
+                      "stroke-width": 2
+                  },
+                  "styleText": {
+                      "fill": "#0000ff",
+                      "font-size": "22",
+                      "font-family": "",
+                      "font-weight": "bold"
+                  },
+                  "styleMarkerText": {
+                      "fill": "#0000ff",
+                      "font-size": "22",
+                      "font-family": "",
+                      "font-weight": "bold"
+                  },
+                  "styleMarkerNotch": {
+                      "fill": "#0000ff",
+                      "stroke": "#ff0000",
+                      "stroke-width": "1"
+                  },
+                  "styleMarkerNotchConnector": {
+                      "stroke-dasharray": "12 3",
+                      "stroke": "#008800",
+                      "stroke-width": 6
+                  }
+              },
+              "caption": {
+                  "text": "Weather Forecast"
+              },
+              "subcaption": {
+                  "text": "Visualization of different weather parameters"
+              },
+              "xAxis": [
+                  {
+                      "plot": "Date",
+                      "timemarker": [
+                          {
+                              "start": "2018-11-28 22:00:00",
+                              "end": "2018-11-28 22:30:00",
+                              "label": "TimeSpan Marker",
+                              "type": "full",
+                              "timeformat": "%Y-%m-%d %H:%M:%S"
+                          },
+                          {
+                              "start": "2018-11-28 22:20:00",
+                              "label": "2nd Marker",
+                              "type": "full",
+                              "timeformat": "%Y-%m-%d %H:%M:%S",
+                              "style": {
+                                  "text": {
+                                      "font-family": "mono",
+                                      "fill": "#ff0000",
+                                      "font-weight": "bold",
+                                      "font-size": "10px",
+                                      "opacity": "1"
+                                  },
+                                  "marker": {
+                                      "fill": "#0000ff",
+                                      "_opacity": 0.4,
+                                      "stroke": "#0000ff",
+                                      "stroke-width": 2,
+                                      "stroke-dasharray": "10 3"
+                                  },
+                                  "marker:hover": {
+                                      "fill": "#006600",
+                                      "_opacity": 0.4,
+                                      "stroke": "#ff0000",
+                                      "stroke-width": 2,
+                                      "stroke-dasharray": "10 3"
+                                  }
+                              }
+                          },
+                          {
+                              "start": "2018-11-28 22:05:00",
+                              "label": "1st Marker",
+                              "type": "minimal",
+                              "timeformat": "%Y-%m-%d %H:%M:%S"
+                          }
+                      ]
+                  }
+              ],
+              "yAxis": [
+                  {
+                      "plot": [
+                          {
+                              "value": {
+                                  "open": "Temp(°C)",
+                                  "high": "Wind Gust (kph)",
+                                  "low": "Temp(°C)",
+                                  "close": "Wind Gust (kph)"
+                              },
+                              "type": "candlestick"
+                          }
+                      ],
+                      "title": "Temperature  vs  Wind Gust",
+                      "referenceZone": [
+                          {
+                              "label": "Target",
+                              "valueMin": "10",
+                              "valueMax": "14",
+                              "style": {
+                                  "marker-zone": "styleMarkerZone",
+                                  "marker-zone:hover": "styleMarkerZoneHover",
+                                  "marker-tag": "styleMarkerTag",
+                                  "text": "styleText",
+                                  "marker-text": "styleMarkerText",
+                                  "marker-notch": "styleMarkerNotch",
+                                  "marker-notch-connector": "styleMarkerNotchConnector"
+                              }
+                          }
+                      ]
+                  },
+                  {
+                      "plot": [
+                          {
+                              "value": {
+                                  "open": "Temp(°C)",
+                                  "high": "Wind Gust (kph)",
+                                  "low": "Temp(°C)",
+                                  "close": "Wind Gust (kph)"
+                              },
+                              "type": "ohlc"
+                          }
+                      ],
+                      "title": "Temperature  vs  Wind Gust",
+                      "referenceZone": [
+                          {
+                              "label": "Last Year Range",
+                              "valueMin": "10",
+                              "valueMax": "-1",
+                              "style": {
+                                  "marker-zone": {
+                                      "stroke-width": 1,
+                                      "stroke": "#000088",
+                                      "fill": "#111111"
+                                  },
+                                  "marker-zone:hover": {
+                                      "stroke-width": 3,
+                                      "fill": "#444444"
+                                  },
+                                  "marker-tag": {
+                                      "fill": "#ffff00",
+                                      "stroke-dasharray": "12 3",
+                                      "stroke-width": 2
+                                  },
+                                  "text": {
+                                      "fill": "#0000ff",
+                                      "font-size": "22",
+                                      "font-family": "",
+                                      "font-weight": "bold"
+                                  },
+                                  "marker-text": {
+                                      "fill": "#0000ff",
+                                      "font-size": "22",
+                                      "font-family": "",
+                                      "font-weight": "bold"
+                                  },
+                                  "marker-notch": {
+                                      "fill": "#0000ff",
+                                      "stroke": "#ff0000",
+                                      "stroke-width": "1"
+                                  },
+                                  "marker-notch-connector": {
+                                      "stroke": "#000088",
+                                      "stroke-width": 6
+                                  }
+                              }
+                          }
+                      ]
+                  }
+              ],
+              "dataMarker": [
+                  {
+                      "time": "2018-11-28 22:14:00",
+                      "timeFormat": "%Y-%m-%d %H:%M:%S",
+                      "type": "flag",
+                      "identifier": "X",
+                      "tooltext": "HIGHEST WIND GUST",
+                      "style": {
+                          "text": {
+                              "font-family": "mono",
+                              "fill": "#ff0000",
+                              "font-weight": "bold",
+                              "opacity": 0.8
+                          },
+                          "marker": {
+                              "fill": "#0000ff",
+                              "fill-opacity": 0.3,
+                              "stroke": "#0000ff",
+                              "stroke-width": 5,
+                              "stroke-opacity": 0.3
+                          }
+                      }
+                  }
+              ]
+          }
+      }
+  }
+}

@@ -1,0 +1,3755 @@
+{
+    "1111": {
+        "description": "1111",
+        "options": {
+            "type": "drawingpad",
+            "width": "900",
+            "height": "550",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "animation": "0",
+                    "transposeanimation": "1",
+                    "transposeanimduration": ""
+                },
+                "annotations": {
+                    "showbelow": "1",
+                    "autoscale": "0",
+                    "constrainedscale": "0",
+                    "scaletext": "0",
+                    "scaleimages": "0",
+                    "xshift": "",
+                    "yshift": "",
+                    "grpxshift": "",
+                    "grpyshift": "",
+                    "origw": "600",
+                    "origh": "350",
+                    "groups": [
+                        {
+                            "id": "",
+                            "x": "",
+                            "y": "",
+                            "autoscale": "1",
+                            "scaletext": "0",
+                            "scaleimages": "0",
+                            "constrainedscale": "0",
+                            "showbelow": "0",
+                            "origw": "",
+                            "origh": "",
+                            "xshift": "",
+                            "yshift": "",
+                            "grpxshift": "",
+                            "grpyshift": "",
+                            "alpha": "",
+                            "visible": "",
+                            "showshadow": "",
+                            "color": "",
+                            "font": "",
+                            "fontsize": "",
+                            "textalign": "",
+                            "textvalign": "",
+                            "rotatetext": "",
+                            "wraptext": "",
+                            "link": "",
+                            "tooltext": "",
+                            "items": [
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartstartx",
+                                    "y": "$chartstarty",
+                                    "xscale": "100",
+                                    "yscale": "100"
+                                },
+                                {
+                                    "type": "text",
+                                    "fillcolor": "#000000",
+                                    "fontsize": "11",
+                                    "text": "Drawing Pad",
+                                    "bold": "1",
+                                    "wrap": "1",
+                                    "wrapwidth": "350",
+                                    "x": "$chartcenterx",
+                                    "y": "$chartcentery-100"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$chartcenterx-45",
+                                    "y": "$chartcentery",
+                                    "radius": "15",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "80",
+                                    "bordercolor": "#FFFFFF",
+                                    "innerradius": "60",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$chartcenterx-50",
+                                    "y": "$chartcenterx-90",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "$chartstartx",
+                                    "y": "$chartcenterx-90",
+                                    "tox": "$chartendx",
+                                    "toy": "$chartcenterx-90",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "$chartcenterx+90",
+                                    "y": "$chartcenterx",
+                                    "tox": "$chartendx",
+                                    "toy": "$chartcenterx-200",
+                                    "fillcolor": "#696969",
+                                    "showborder": "1",
+                                    "bordercolor": "0000ff",
+                                    "borderalpha": "90",
+                                    "borderthickness": "2",
+                                    "dashed": "1",
+                                    "dashlen": "10",
+                                    "dashgap": "20"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "7",
+                                    "startangle": "270",
+                                    "fillcolor": "#6baa01",
+                                    "x": "$chartcenterx+60",
+                                    "y": "$chartcenterx+30",
+                                    "radius": "18"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$chartcenterx-60",
+                                    "y": "$chartcenterx+30",
+                                    "color": "#660000"
+                                },
+                                {
+                                    "id": "circle-chart_width-height",
+                                    "color": "ff0000",
+                                    "alpha": "90",
+                                    "fillcolor": "00ff00,0000ff",
+                                    "fillalpha": "80",
+                                    "fillratio": "60",
+                                    "fillangle": "180",
+                                    "fillpattern": "radial",
+                                    "showborder": "1",
+                                    "bordercolor": "000000",
+                                    "borderalpha": "90",
+                                    "borderthickness": "3",
+                                    "dashed": "0",
+                                    "dashlen": "5",
+                                    "dashgap": "2",
+                                    "tooltext": "circle-chart_width-height",
+                                    "link": "",
+                                    "showshadow": "1",
+                                    "type": "circle",
+                                    "x": "$chartWidth-90",
+                                    "y": "$chartHeight-80",
+                                    "radius": "35",
+                                    "yradius": "45",
+                                    "startangle": "0",
+                                    "endangle": "360"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/drawingpad/ref-images/1111-snapshot.png",
+        "id": "1111"
+    },
+    "one": {
+        "description": "one",
+        "options": {
+            "type": "drawingpad",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "autoscale": "1",
+                    "basefontsize": "10",
+                    "bgcolor": "F0F0F0",
+                    "bordercolor": "CCCCCC",
+                    "exportaction": "download",
+                    "exportatclient": "0",
+                    "exportdataseparator": "{tab}",
+                    "exportenabled": "1",
+                    "exporthandler": "/Registry/fusionchart/",
+                    "showexportdatamenuitem": "1",
+                    "manageresize": "1",
+                    "showprintmenuitem": "1",
+                    "animation": "0"
+                },
+                "annotations": {
+                    "origw": "360",
+                    "origh": "175",
+                    "autoscale": "1",
+                    "groups": [
+                        {
+                            "autoscale": "1",
+                            "id": "container",
+                            "items": [
+                                {
+                                    "showborder": "1",
+                                    "type": "rectangle",
+                                    "x": "41",
+                                    "y": "15",
+                                    "toxpos": "355",
+                                    "toypos": "160",
+                                    "radius": "0",
+                                    "bordercolor": "666666",
+                                    "borderthickness": "2",
+                                    "color": "FFFFFF"
+                                },
+                                {
+                                    "fontsize": "8",
+                                    "type": "text",
+                                    "x": "26",
+                                    "y": "160",
+                                    "label": "0%",
+                                    "color": "444444"
+                                },
+                                {
+                                    "fontsize": "8",
+                                    "type": "text",
+                                    "x": "26",
+                                    "y": "123",
+                                    "label": "3%",
+                                    "color": "444444"
+                                },
+                                {
+                                    "showborder": "0",
+                                    "type": "rectangle",
+                                    "x": "42",
+                                    "y": "124",
+                                    "toxpos": "354",
+                                    "toypos": "159",
+                                    "radius": "0",
+                                    "bordercolor": "aaaaaa",
+                                    "borderthickness": "0",
+                                    "color": "F0F0F0"
+                                },
+                                {
+                                    "fontsize": "8",
+                                    "type": "text",
+                                    "x": "26",
+                                    "y": "87",
+                                    "label": "6%",
+                                    "color": "444444"
+                                },
+                                {
+                                    "fontsize": "8",
+                                    "type": "text",
+                                    "x": "26",
+                                    "y": "51",
+                                    "label": "9%",
+                                    "color": "444444"
+                                },
+                                {
+                                    "showborder": "0",
+                                    "type": "rectangle",
+                                    "x": "42",
+                                    "y": "52",
+                                    "toxpos": "354",
+                                    "toypos": "87",
+                                    "radius": "0",
+                                    "bordercolor": "aaaaaa",
+                                    "borderthickness": "0",
+                                    "color": "F0F0F0"
+                                },
+                                {
+                                    "fontsize": "8",
+                                    "type": "text",
+                                    "x": "26",
+                                    "y": "15",
+                                    "label": "12%",
+                                    "color": "444444"
+                                },
+                                {
+                                    "fontsize": "12",
+                                    "type": "text",
+                                    "x": "8",
+                                    "y": "80",
+                                    "label": "",
+                                    "color": "333333",
+                                    "bold": "1"
+                                },
+                                {
+                                    "fontsize": "12",
+                                    "type": "text",
+                                    "x": "177",
+                                    "y": "166",
+                                    "label": "",
+                                    "color": "333333",
+                                    "bold": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "autoscale": "1",
+                            "id": "data",
+                            "items": [
+                                {
+                                    "type": "line",
+                                    "x": "56",
+                                    "y": "95",
+                                    "tox": "56",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "4",
+                                    "x": "56",
+                                    "y": "138",
+                                    "radius": "4",
+                                    "color": "505222",
+                                    "bordercolor": "333333",
+                                    "borderthickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "70",
+                                    "y": "93",
+                                    "tox": "70",
+                                    "toy": "160",
+                                    "color": "444444",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "4",
+                                    "x": "70",
+                                    "y": "136",
+                                    "radius": "4",
+                                    "color": "EAE6B8",
+                                    "bordercolor": "333333",
+                                    "borderthickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "85",
+                                    "y": "95",
+                                    "tox": "85",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "4",
+                                    "x": "85",
+                                    "y": "135",
+                                    "radius": "4",
+                                    "color": "505222",
+                                    "bordercolor": "333333",
+                                    "borderthickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "100",
+                                    "y": "91",
+                                    "tox": "100",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "4",
+                                    "x": "100",
+                                    "y": "135",
+                                    "radius": "4",
+                                    "color": "505222",
+                                    "bordercolor": "333333",
+                                    "borderthickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "114",
+                                    "y": "93",
+                                    "tox": "114",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "4",
+                                    "x": "114",
+                                    "y": "135",
+                                    "radius": "4",
+                                    "color": "505222",
+                                    "bordercolor": "333333",
+                                    "borderthickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "129",
+                                    "y": "91",
+                                    "tox": "129",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "4",
+                                    "x": "129",
+                                    "y": "134",
+                                    "radius": "4",
+                                    "color": "505222",
+                                    "bordercolor": "333333",
+                                    "borderthickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "144",
+                                    "y": "90",
+                                    "tox": "144",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "4",
+                                    "x": "144",
+                                    "y": "133",
+                                    "radius": "4",
+                                    "color": "505222",
+                                    "bordercolor": "333333",
+                                    "borderthickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "158",
+                                    "y": "90",
+                                    "tox": "158",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "4",
+                                    "x": "158",
+                                    "y": "133",
+                                    "radius": "4",
+                                    "color": "505222",
+                                    "bordercolor": "333333",
+                                    "borderthickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "173",
+                                    "y": "89",
+                                    "tox": "173",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "4",
+                                    "x": "173",
+                                    "y": "132",
+                                    "radius": "4",
+                                    "color": "505222",
+                                    "bordercolor": "333333",
+                                    "borderthickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "188",
+                                    "y": "89",
+                                    "tox": "188",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "4",
+                                    "x": "188",
+                                    "y": "131",
+                                    "radius": "4",
+                                    "color": "505222",
+                                    "bordercolor": "333333",
+                                    "borderthickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "203",
+                                    "y": "86",
+                                    "tox": "203",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "4",
+                                    "x": "203",
+                                    "y": "130",
+                                    "radius": "4",
+                                    "color": "505222",
+                                    "bordercolor": "333333",
+                                    "borderthickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "217",
+                                    "y": "93",
+                                    "tox": "217",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "4",
+                                    "x": "217",
+                                    "y": "129",
+                                    "radius": "4",
+                                    "color": "505222",
+                                    "bordercolor": "333333",
+                                    "borderthickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "232",
+                                    "y": "87",
+                                    "tox": "232",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "4",
+                                    "x": "232",
+                                    "y": "128",
+                                    "radius": "4",
+                                    "color": "505222",
+                                    "bordercolor": "333333",
+                                    "borderthickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "247",
+                                    "y": "91",
+                                    "tox": "247",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "4",
+                                    "x": "247",
+                                    "y": "126",
+                                    "radius": "4",
+                                    "color": "505222",
+                                    "bordercolor": "333333",
+                                    "borderthickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "261",
+                                    "y": "83",
+                                    "tox": "261",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "4",
+                                    "x": "261",
+                                    "y": "125",
+                                    "radius": "4",
+                                    "color": "505222",
+                                    "bordercolor": "333333",
+                                    "borderthickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "276",
+                                    "y": "79",
+                                    "tox": "276",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "4",
+                                    "x": "276",
+                                    "y": "121",
+                                    "radius": "4",
+                                    "color": "505222",
+                                    "bordercolor": "333333",
+                                    "borderthickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "291",
+                                    "y": "77",
+                                    "tox": "291",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "4",
+                                    "x": "291",
+                                    "y": "120",
+                                    "radius": "4",
+                                    "color": "505222",
+                                    "bordercolor": "333333",
+                                    "borderthickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "305",
+                                    "y": "72",
+                                    "tox": "305",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "4",
+                                    "x": "305",
+                                    "y": "116",
+                                    "radius": "4",
+                                    "color": "505222",
+                                    "bordercolor": "333333",
+                                    "borderthickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "320",
+                                    "y": "70",
+                                    "tox": "320",
+                                    "toy": "158",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "4",
+                                    "x": "320",
+                                    "y": "114",
+                                    "radius": "4",
+                                    "color": "505222",
+                                    "bordercolor": "333333",
+                                    "borderthickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "335",
+                                    "y": "62",
+                                    "tox": "335",
+                                    "toy": "149",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "4",
+                                    "x": "335",
+                                    "y": "106",
+                                    "radius": "4",
+                                    "color": "505222",
+                                    "bordercolor": "333333",
+                                    "borderthickness": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "autoscale": "1",
+                            "id": "data2",
+                            "items": [
+                                {
+                                    "type": "line",
+                                    "x": "52",
+                                    "y": "160",
+                                    "tox": "60",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "52",
+                                    "y": "95",
+                                    "tox": "60",
+                                    "toy": "95",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "66",
+                                    "y": "160",
+                                    "tox": "74",
+                                    "toy": "160",
+                                    "color": "444444",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "66",
+                                    "y": "93",
+                                    "tox": "74",
+                                    "toy": "93",
+                                    "color": "444444",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "81",
+                                    "y": "160",
+                                    "tox": "89",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "81",
+                                    "y": "95",
+                                    "tox": "89",
+                                    "toy": "95",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "96",
+                                    "y": "160",
+                                    "tox": "104",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "96",
+                                    "y": "91",
+                                    "tox": "104",
+                                    "toy": "91",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "110",
+                                    "y": "160",
+                                    "tox": "118",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "110",
+                                    "y": "93",
+                                    "tox": "118",
+                                    "toy": "93",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "125",
+                                    "y": "160",
+                                    "tox": "133",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "125",
+                                    "y": "91",
+                                    "tox": "133",
+                                    "toy": "91",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "140",
+                                    "y": "160",
+                                    "tox": "148",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "140",
+                                    "y": "90",
+                                    "tox": "148",
+                                    "toy": "90",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "154",
+                                    "y": "160",
+                                    "tox": "162",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "154",
+                                    "y": "90",
+                                    "tox": "162",
+                                    "toy": "90",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "169",
+                                    "y": "160",
+                                    "tox": "177",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "169",
+                                    "y": "89",
+                                    "tox": "177",
+                                    "toy": "89",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "184",
+                                    "y": "160",
+                                    "tox": "192",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "184",
+                                    "y": "89",
+                                    "tox": "192",
+                                    "toy": "89",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "199",
+                                    "y": "160",
+                                    "tox": "207",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "199",
+                                    "y": "86",
+                                    "tox": "207",
+                                    "toy": "86",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "213",
+                                    "y": "160",
+                                    "tox": "221",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "213",
+                                    "y": "93",
+                                    "tox": "221",
+                                    "toy": "93",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "228",
+                                    "y": "160",
+                                    "tox": "236",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "228",
+                                    "y": "87",
+                                    "tox": "236",
+                                    "toy": "87",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "243",
+                                    "y": "160",
+                                    "tox": "251",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "243",
+                                    "y": "91",
+                                    "tox": "251",
+                                    "toy": "91",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "257",
+                                    "y": "160",
+                                    "tox": "265",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "257",
+                                    "y": "83",
+                                    "tox": "265",
+                                    "toy": "83",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "272",
+                                    "y": "160",
+                                    "tox": "280",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "272",
+                                    "y": "79",
+                                    "tox": "280",
+                                    "toy": "79",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "287",
+                                    "y": "160",
+                                    "tox": "295",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "287",
+                                    "y": "77",
+                                    "tox": "295",
+                                    "toy": "77",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "301",
+                                    "y": "160",
+                                    "tox": "309",
+                                    "toy": "160",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "301",
+                                    "y": "72",
+                                    "tox": "309",
+                                    "toy": "72",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "316",
+                                    "y": "158",
+                                    "tox": "324",
+                                    "toy": "158",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "316",
+                                    "y": "70",
+                                    "tox": "324",
+                                    "toy": "70",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "331",
+                                    "y": "149",
+                                    "tox": "339",
+                                    "toy": "149",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "331",
+                                    "y": "62",
+                                    "tox": "339",
+                                    "toy": "62",
+                                    "color": "aaaaaa",
+                                    "thickness": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "autoscale": "1",
+                            "id": "selected",
+                            "items": [
+                                {
+                                    "type": "polygon",
+                                    "sides": "4",
+                                    "x": "70",
+                                    "y": "136",
+                                    "radius": "4",
+                                    "color": "EAE6B8",
+                                    "bordercolor": "333333",
+                                    "borderthickness": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "autoscale": "1",
+                            "id": "avg",
+                            "items": [
+                                {
+                                    "type": "line",
+                                    "x": "41",
+                                    "y": "134",
+                                    "tox": "355",
+                                    "toy": "134",
+                                    "color": "880000",
+                                    "thickness": "1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "AnimYScale",
+                            "type": "animation",
+                            "param": "_yScale",
+                            "start": "0",
+                            "end": "100",
+                            "wait": "0",
+                            "duration": "1.0"
+                        },
+                        {
+                            "name": "AnimXScale",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "end": "100",
+                            "wait": "1",
+                            "duration": "0.5"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "data",
+                            "styles": "AnimYScale"
+                        },
+                        {
+                            "toobject": "data2",
+                            "styles": "AnimXScale"
+                        },
+                        {
+                            "toobject": "avg",
+                            "styles": "AnimXScale"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/drawingpad/ref-images/one-snapshot.png",
+        "id": "one"
+    },
+    "sample_2": {
+        "description": "sample_2",
+        "options": {
+            "type": "drawingpad",
+            "width": "600",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "bgalpha": "0",
+                    "animation": "0",
+                    "manageresize": "1"
+                },
+                "annotations": {
+                    "groups": [
+                        {
+                            "id": "mainarea",
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "x": "230",
+                                    "y": "50",
+                                    "toxpos": "570",
+                                    "toypos": "300",
+                                    "radius": "2",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "30",
+                                    "y": "140",
+                                    "toxpos": "570",
+                                    "toypos": "450",
+                                    "radius": "2",
+                                    "color": "#008ee4"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "entryExit",
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "x": "60",
+                                    "y": "132",
+                                    "toxpos": "140",
+                                    "toypos": "160",
+                                    "radius": "2",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "100",
+                                    "y": "142",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "Entry",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "170",
+                                    "y": "132",
+                                    "toxpos": "210",
+                                    "toypos": "160",
+                                    "radius": "2",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "190",
+                                    "y": "170",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "Baggage{br}Counter",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "225",
+                                    "y": "65",
+                                    "toxpos": "245",
+                                    "toypos": "130",
+                                    "radius": "2",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "235",
+                                    "y": "100",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "E{br}x{br}i{br}t",
+                                    "color": "#ffffff"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "departments",
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "x": "40",
+                                    "y": "150",
+                                    "toxpos": "225",
+                                    "toypos": "300",
+                                    "radius": "2",
+                                    "color": "#ffffff",
+                                    "alpha": "30"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "40",
+                                    "y": "310",
+                                    "toxpos": "350",
+                                    "toypos": "440",
+                                    "radius": "2",
+                                    "color": "#ffffff",
+                                    "alpha": "30"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "360",
+                                    "y": "310",
+                                    "toxpos": "560",
+                                    "toypos": "440",
+                                    "radius": "2",
+                                    "color": "#ffffff",
+                                    "alpha": "30"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "360",
+                                    "y": "60",
+                                    "toxpos": "560",
+                                    "toypos": "300",
+                                    "radius": "2",
+                                    "color": "#ffffff",
+                                    "alpha": "30"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "235",
+                                    "y": "150",
+                                    "toxpos": "360",
+                                    "toypos": "300",
+                                    "radius": "0",
+                                    "color": "#ffffff",
+                                    "alpha": "30"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "430",
+                                    "y": "60",
+                                    "toxpos": "560",
+                                    "toypos": "200",
+                                    "radius": "2",
+                                    "color": "#ffffff",
+                                    "alpha": "30"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "245",
+                                    "y": "60",
+                                    "toxpos": "350",
+                                    "toypos": "140",
+                                    "radius": "2",
+                                    "color": "#ffffff",
+                                    "alpha": "30"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "160",
+                                    "y": "150",
+                                    "toxpos": "225",
+                                    "toypos": "190",
+                                    "radius": "2",
+                                    "color": "#ffffff",
+                                    "alpha": "30"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "storemanagers",
+                            "items": [
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "50",
+                                    "y": "210",
+                                    "radius": "10",
+                                    "color": "#e44a00"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "50",
+                                    "startangle": "60",
+                                    "y": "210",
+                                    "radius": "10",
+                                    "color": "#e44a00"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "220",
+                                    "y": "320",
+                                    "radius": "10",
+                                    "color": "#e44a00"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "220",
+                                    "startangle": "60",
+                                    "y": "320",
+                                    "radius": "10",
+                                    "color": "#e44a00"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "380",
+                                    "y": "320",
+                                    "radius": "10",
+                                    "color": "#e44a00"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "380",
+                                    "startangle": "60",
+                                    "y": "320",
+                                    "radius": "10",
+                                    "color": "#e44a00"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "370",
+                                    "y": "150",
+                                    "radius": "10",
+                                    "color": "#e44a00"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "370",
+                                    "y": "150",
+                                    "startangle": "60",
+                                    "radius": "10",
+                                    "color": "#e44a00"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "doorconnectors",
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "x": "225",
+                                    "y": "195",
+                                    "toxpos": "235",
+                                    "toypos": "255",
+                                    "radius": "0",
+                                    "color": "#ffffff",
+                                    "alpha": "50"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "110",
+                                    "y": "300",
+                                    "toxpos": "170",
+                                    "toypos": "310",
+                                    "radius": "0",
+                                    "color": "#ffffff",
+                                    "alpha": "50"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "260",
+                                    "y": "300",
+                                    "toxpos": "320",
+                                    "toypos": "310",
+                                    "radius": "0",
+                                    "color": "#ffffff",
+                                    "alpha": "50"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "430",
+                                    "y": "300",
+                                    "toxpos": "490",
+                                    "toypos": "310",
+                                    "radius": "0",
+                                    "color": "#ffffff",
+                                    "alpha": "50"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "350",
+                                    "y": "345",
+                                    "toxpos": "360",
+                                    "toypos": "405",
+                                    "radius": "0",
+                                    "color": "#ffffff",
+                                    "alpha": "50"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "270",
+                                    "y": "140",
+                                    "toxpos": "325",
+                                    "toypos": "150",
+                                    "radius": "0",
+                                    "color": "#ffffff",
+                                    "alpha": "50"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "350",
+                                    "y": "80",
+                                    "toxpos": "360",
+                                    "toypos": "120",
+                                    "radius": "0",
+                                    "color": "#ffffff",
+                                    "alpha": "50"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "arrows",
+                            "items": [
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "245",
+                                    "y": "218",
+                                    "startangle": "0",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "215",
+                                    "y": "217",
+                                    "toxpos": "245",
+                                    "toypos": "219",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "215",
+                                    "y": "233",
+                                    "startangle": "60",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "215",
+                                    "y": "232",
+                                    "toxpos": "245",
+                                    "toypos": "234",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "370",
+                                    "y": "368",
+                                    "startangle": "0",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "340",
+                                    "y": "367",
+                                    "toxpos": "370",
+                                    "toypos": "369",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "340",
+                                    "y": "383",
+                                    "startangle": "60",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "340",
+                                    "y": "382",
+                                    "toxpos": "370",
+                                    "toypos": "384",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "370",
+                                    "y": "93",
+                                    "startangle": "0",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "340",
+                                    "y": "92",
+                                    "toxpos": "370",
+                                    "toypos": "94",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "340",
+                                    "y": "107",
+                                    "startangle": "60",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "340",
+                                    "y": "106",
+                                    "toxpos": "370",
+                                    "toypos": "108",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "135",
+                                    "y": "285",
+                                    "startangle": "90",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "134",
+                                    "y": "285",
+                                    "toxpos": "136",
+                                    "toypos": "325",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "150",
+                                    "y": "325",
+                                    "startangle": "30",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "149",
+                                    "y": "285",
+                                    "toxpos": "151",
+                                    "toypos": "325",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "285",
+                                    "y": "285",
+                                    "startangle": "90",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "284",
+                                    "y": "285",
+                                    "toxpos": "286",
+                                    "toypos": "325",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "300",
+                                    "y": "325",
+                                    "startangle": "30",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "299",
+                                    "y": "285",
+                                    "toxpos": "301",
+                                    "toypos": "325",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "455",
+                                    "y": "285",
+                                    "startangle": "90",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "454",
+                                    "y": "285",
+                                    "toxpos": "456",
+                                    "toypos": "325",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "470",
+                                    "y": "325",
+                                    "startangle": "30",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "469",
+                                    "y": "285",
+                                    "toxpos": "471",
+                                    "toypos": "325",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "285",
+                                    "y": "125",
+                                    "startangle": "90",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "284",
+                                    "y": "124",
+                                    "toxpos": "286",
+                                    "toypos": "166",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "300",
+                                    "y": "165",
+                                    "startangle": "30",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "299",
+                                    "y": "124",
+                                    "toxpos": "301",
+                                    "toypos": "166",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "185",
+                                    "y": "105",
+                                    "startangle": "90",
+                                    "radius": "6",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "184",
+                                    "y": "105",
+                                    "toxpos": "186",
+                                    "toypos": "125",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "195",
+                                    "y": "125",
+                                    "startangle": "30",
+                                    "radius": "6",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "194",
+                                    "y": "105",
+                                    "toxpos": "196",
+                                    "toypos": "125",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "100",
+                                    "y": "125",
+                                    "startangle": "30",
+                                    "radius": "6",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "99",
+                                    "y": "105",
+                                    "toxpos": "101",
+                                    "toypos": "125",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "200",
+                                    "y": "85",
+                                    "startangle": "60",
+                                    "radius": "6",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "200",
+                                    "y": "84",
+                                    "toxpos": "220",
+                                    "toypos": "86",
+                                    "color": "#008ee4"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "departmentlabels",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "x": "130",
+                                    "y": "220",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "Apparel and{br}Accessories",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "190",
+                                    "y": "370",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "Electronics",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "460",
+                                    "y": "370",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "Baby{br}Products",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "310",
+                                    "y": "220",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "Food and{br}Bevarages",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "300",
+                                    "y": "100",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "Billing",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "490",
+                                    "y": "130",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "Cold{br}Storage",
+                                    "color": "#ffffff"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "legend",
+                            "items": [
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "35",
+                                    "y": "475",
+                                    "radius": "10",
+                                    "color": "#e44a00"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "35",
+                                    "startangle": "60",
+                                    "y": "475",
+                                    "radius": "10",
+                                    "color": "#e44a00"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "50",
+                                    "y": "475",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "Manager's Location",
+                                    "color": "#008ee4",
+                                    "align": "left"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "CapSubcap",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "x": "30",
+                                    "y": "20",
+                                    "fontsize": "14",
+                                    "isbold": "1",
+                                    "label": "Floor Map - Harry's SuperMart",
+                                    "color": "#666666",
+                                    "align": "left"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "30",
+                                    "y": "35",
+                                    "fontsize": "11",
+                                    "isbold": "0",
+                                    "label": "(New York Store)",
+                                    "color": "#666666",
+                                    "align": "left"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/drawingpad/ref-images/sample_2-snapshot.png",
+        "id": "sample_2"
+    },
+    "cosmetics": {
+        "description": "cosmetics",
+        "options": {
+            "type": "drawingpad",
+            "width": "600",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "animation": "0",
+                    "clickurl": "",
+                    "manageresize": "",
+                    "bgcolor": "00ff00,00ff00,0000ff",
+                    "bgalpha": "",
+                    "bgratio": "10",
+                    "bgangle": "45",
+                    "showborder": "1",
+                    "bordercolor": "ff0000",
+                    "borderthickness": "3",
+                    "borderalpha": "90",
+                    "showtooltip": "1",
+                    "tooltipbgcolor": "",
+                    "tooltipbordercolor": ""
+                },
+                "annotations": {
+                    "groups": [
+                        {
+                            "id": "mainarea",
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "x": "230",
+                                    "y": "50",
+                                    "toxpos": "570",
+                                    "toypos": "300",
+                                    "radius": "2",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "30",
+                                    "y": "140",
+                                    "toxpos": "570",
+                                    "toypos": "450",
+                                    "radius": "2",
+                                    "color": "#008ee4"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "entryExit",
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "x": "60",
+                                    "y": "132",
+                                    "toxpos": "140",
+                                    "toypos": "160",
+                                    "radius": "2",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "100",
+                                    "y": "142",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "Entry",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "170",
+                                    "y": "132",
+                                    "toxpos": "210",
+                                    "toypos": "160",
+                                    "radius": "2",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "190",
+                                    "y": "170",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "Baggage{br}Counter",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "225",
+                                    "y": "65",
+                                    "toxpos": "245",
+                                    "toypos": "130",
+                                    "radius": "2",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "235",
+                                    "y": "100",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "E{br}x{br}i{br}t",
+                                    "color": "#ffffff"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "departments",
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "x": "40",
+                                    "y": "150",
+                                    "toxpos": "225",
+                                    "toypos": "300",
+                                    "radius": "2",
+                                    "color": "#ffffff",
+                                    "alpha": "30"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "40",
+                                    "y": "310",
+                                    "toxpos": "350",
+                                    "toypos": "440",
+                                    "radius": "2",
+                                    "color": "#ffffff",
+                                    "alpha": "30"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "360",
+                                    "y": "310",
+                                    "toxpos": "560",
+                                    "toypos": "440",
+                                    "radius": "2",
+                                    "color": "#ffffff",
+                                    "alpha": "30"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "360",
+                                    "y": "60",
+                                    "toxpos": "560",
+                                    "toypos": "300",
+                                    "radius": "2",
+                                    "color": "#ffffff",
+                                    "alpha": "30"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "235",
+                                    "y": "150",
+                                    "toxpos": "360",
+                                    "toypos": "300",
+                                    "radius": "0",
+                                    "color": "#ffffff",
+                                    "alpha": "30"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "430",
+                                    "y": "60",
+                                    "toxpos": "560",
+                                    "toypos": "200",
+                                    "radius": "2",
+                                    "color": "#ffffff",
+                                    "alpha": "30"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "245",
+                                    "y": "60",
+                                    "toxpos": "350",
+                                    "toypos": "140",
+                                    "radius": "2",
+                                    "color": "#ffffff",
+                                    "alpha": "30"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "160",
+                                    "y": "150",
+                                    "toxpos": "225",
+                                    "toypos": "190",
+                                    "radius": "2",
+                                    "color": "#ffffff",
+                                    "alpha": "30"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "storemanagers",
+                            "items": [
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "50",
+                                    "y": "210",
+                                    "radius": "10",
+                                    "color": "#e44a00"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "50",
+                                    "startangle": "60",
+                                    "y": "210",
+                                    "radius": "10",
+                                    "color": "#e44a00"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "220",
+                                    "y": "320",
+                                    "radius": "10",
+                                    "color": "#e44a00"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "220",
+                                    "startangle": "60",
+                                    "y": "320",
+                                    "radius": "10",
+                                    "color": "#e44a00"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "380",
+                                    "y": "320",
+                                    "radius": "10",
+                                    "color": "#e44a00"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "380",
+                                    "startangle": "60",
+                                    "y": "320",
+                                    "radius": "10",
+                                    "color": "#e44a00"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "370",
+                                    "y": "150",
+                                    "radius": "10",
+                                    "color": "#e44a00"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "370",
+                                    "y": "150",
+                                    "startangle": "60",
+                                    "radius": "10",
+                                    "color": "#e44a00"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "doorconnectors",
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "x": "225",
+                                    "y": "195",
+                                    "toxpos": "235",
+                                    "toypos": "255",
+                                    "radius": "0",
+                                    "color": "#ffffff",
+                                    "alpha": "50"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "110",
+                                    "y": "300",
+                                    "toxpos": "170",
+                                    "toypos": "310",
+                                    "radius": "0",
+                                    "color": "#ffffff",
+                                    "alpha": "50"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "260",
+                                    "y": "300",
+                                    "toxpos": "320",
+                                    "toypos": "310",
+                                    "radius": "0",
+                                    "color": "#ffffff",
+                                    "alpha": "50"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "430",
+                                    "y": "300",
+                                    "toxpos": "490",
+                                    "toypos": "310",
+                                    "radius": "0",
+                                    "color": "#ffffff",
+                                    "alpha": "50"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "350",
+                                    "y": "345",
+                                    "toxpos": "360",
+                                    "toypos": "405",
+                                    "radius": "0",
+                                    "color": "#ffffff",
+                                    "alpha": "50"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "270",
+                                    "y": "140",
+                                    "toxpos": "325",
+                                    "toypos": "150",
+                                    "radius": "0",
+                                    "color": "#ffffff",
+                                    "alpha": "50"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "350",
+                                    "y": "80",
+                                    "toxpos": "360",
+                                    "toypos": "120",
+                                    "radius": "0",
+                                    "color": "#ffffff",
+                                    "alpha": "50"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "arrows",
+                            "items": [
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "245",
+                                    "y": "218",
+                                    "startangle": "0",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "215",
+                                    "y": "217",
+                                    "toxpos": "245",
+                                    "toypos": "219",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "215",
+                                    "y": "233",
+                                    "startangle": "60",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "215",
+                                    "y": "232",
+                                    "toxpos": "245",
+                                    "toypos": "234",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "370",
+                                    "y": "368",
+                                    "startangle": "0",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "340",
+                                    "y": "367",
+                                    "toxpos": "370",
+                                    "toypos": "369",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "340",
+                                    "y": "383",
+                                    "startangle": "60",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "340",
+                                    "y": "382",
+                                    "toxpos": "370",
+                                    "toypos": "384",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "370",
+                                    "y": "93",
+                                    "startangle": "0",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "340",
+                                    "y": "92",
+                                    "toxpos": "370",
+                                    "toypos": "94",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "340",
+                                    "y": "107",
+                                    "startangle": "60",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "340",
+                                    "y": "106",
+                                    "toxpos": "370",
+                                    "toypos": "108",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "135",
+                                    "y": "285",
+                                    "startangle": "90",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "134",
+                                    "y": "285",
+                                    "toxpos": "136",
+                                    "toypos": "325",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "150",
+                                    "y": "325",
+                                    "startangle": "30",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "149",
+                                    "y": "285",
+                                    "toxpos": "151",
+                                    "toypos": "325",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "285",
+                                    "y": "285",
+                                    "startangle": "90",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "284",
+                                    "y": "285",
+                                    "toxpos": "286",
+                                    "toypos": "325",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "300",
+                                    "y": "325",
+                                    "startangle": "30",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "299",
+                                    "y": "285",
+                                    "toxpos": "301",
+                                    "toypos": "325",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "455",
+                                    "y": "285",
+                                    "startangle": "90",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "454",
+                                    "y": "285",
+                                    "toxpos": "456",
+                                    "toypos": "325",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "470",
+                                    "y": "325",
+                                    "startangle": "30",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "469",
+                                    "y": "285",
+                                    "toxpos": "471",
+                                    "toypos": "325",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "285",
+                                    "y": "125",
+                                    "startangle": "90",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "284",
+                                    "y": "124",
+                                    "toxpos": "286",
+                                    "toypos": "166",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "300",
+                                    "y": "165",
+                                    "startangle": "30",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "299",
+                                    "y": "124",
+                                    "toxpos": "301",
+                                    "toypos": "166",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "185",
+                                    "y": "105",
+                                    "startangle": "90",
+                                    "radius": "6",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "184",
+                                    "y": "105",
+                                    "toxpos": "186",
+                                    "toypos": "125",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "195",
+                                    "y": "125",
+                                    "startangle": "30",
+                                    "radius": "6",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "194",
+                                    "y": "105",
+                                    "toxpos": "196",
+                                    "toypos": "125",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "100",
+                                    "y": "125",
+                                    "startangle": "30",
+                                    "radius": "6",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "99",
+                                    "y": "105",
+                                    "toxpos": "101",
+                                    "toypos": "125",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "200",
+                                    "y": "85",
+                                    "startangle": "60",
+                                    "radius": "6",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "200",
+                                    "y": "84",
+                                    "toxpos": "220",
+                                    "toypos": "86",
+                                    "color": "#008ee4"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "departmentlabels",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "x": "130",
+                                    "y": "220",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "Apparel and{br}Accessories",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "190",
+                                    "y": "370",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "Electronics",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "460",
+                                    "y": "370",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "Baby{br}Products",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "310",
+                                    "y": "220",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "Food and{br}Bevarages",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "300",
+                                    "y": "100",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "Billing",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "490",
+                                    "y": "130",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "Cold{br}Storage",
+                                    "color": "#ffffff"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "legend",
+                            "items": [
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "35",
+                                    "y": "475",
+                                    "radius": "10",
+                                    "color": "#e44a00"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "35",
+                                    "startangle": "60",
+                                    "y": "475",
+                                    "radius": "10",
+                                    "color": "#e44a00"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "50",
+                                    "y": "475",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "Manager's Location",
+                                    "color": "#008ee4",
+                                    "align": "left"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "CapSubcap",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "x": "30",
+                                    "y": "20",
+                                    "fontsize": "14",
+                                    "isbold": "1",
+                                    "label": "Floor Map - Harry's SuperMart",
+                                    "color": "#666666",
+                                    "align": "left"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "30",
+                                    "y": "35",
+                                    "fontsize": "11",
+                                    "isbold": "0",
+                                    "label": "(New York Store)",
+                                    "color": "#666666",
+                                    "align": "left"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/drawingpad/ref-images/cosmetics-snapshot.png",
+        "id": "cosmetics"
+    },
+    "tooltext": {
+        "description": "tooltext",
+        "options": {
+            "type": "drawingpad",
+            "width": "600",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "animation": "0",
+                    "clickurl": "p-http://www.fusioncharts.com",
+                    "manageresize": "",
+                    "bgcolor": "00ff00,ff0000,0000ff",
+                    "bgalpha": "30",
+                    "bgratio": "10",
+                    "bgangle": "45",
+                    "showborder": "1",
+                    "bordercolor": "ff0000",
+                    "borderthickness": "3",
+                    "borderalpha": "90",
+                    "showtooltip": "1",
+                    "tooltipbgcolor": "ff0000",
+                    "tooltipbordercolor": "0000ff"
+                },
+                "annotations": {
+                    "groups": [
+                        {
+                            "id": "mainarea",
+                            "tooltext": "mainarea",
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "x": "230",
+                                    "y": "50",
+                                    "toxpos": "570",
+                                    "toypos": "300",
+                                    "radius": "2",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "30",
+                                    "y": "140",
+                                    "toxpos": "570",
+                                    "toypos": "450",
+                                    "radius": "2",
+                                    "color": "#008ee4"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "entryExit",
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "x": "60",
+                                    "y": "132",
+                                    "toxpos": "140",
+                                    "toypos": "160",
+                                    "radius": "2",
+                                    "color": "#339966",
+                                    "tooltext": "entry"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "100",
+                                    "y": "142",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "Entry",
+                                    "color": "#ffffff",
+                                    "tooltext": "entry"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "170",
+                                    "y": "132",
+                                    "toxpos": "210",
+                                    "toypos": "160",
+                                    "radius": "2",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "190",
+                                    "y": "170",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "Baggage{br}Counter",
+                                    "color": "#ffffff",
+                                    "tooltext": "Baggage Counter"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "225",
+                                    "y": "65",
+                                    "toxpos": "245",
+                                    "toypos": "130",
+                                    "radius": "2",
+                                    "color": "#b30000",
+                                    "tooltext": "exit"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "235",
+                                    "y": "100",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "E{br}x{br}i{br}t",
+                                    "color": "#ffffff",
+                                    "tooltext": "exit"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "departments",
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "x": "40",
+                                    "y": "150",
+                                    "toxpos": "225",
+                                    "toypos": "300",
+                                    "radius": "2",
+                                    "color": "#ffffff",
+                                    "alpha": "30",
+                                    "tooltext": "Apparel and Accessories Department"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "40",
+                                    "y": "310",
+                                    "toxpos": "350",
+                                    "toypos": "440",
+                                    "radius": "2",
+                                    "color": "#ffffff",
+                                    "alpha": "30",
+                                    "tooltext": "Electronics Department"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "360",
+                                    "y": "310",
+                                    "toxpos": "560",
+                                    "toypos": "440",
+                                    "radius": "2",
+                                    "color": "#ffffff",
+                                    "alpha": "30",
+                                    "tooltext": "Baby Products Department"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "360",
+                                    "y": "60",
+                                    "toxpos": "560",
+                                    "toypos": "300",
+                                    "radius": "2",
+                                    "color": "#ffffff",
+                                    "alpha": "30",
+                                    "tooltext": "Food and Bevarages Department"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "235",
+                                    "y": "150",
+                                    "toxpos": "360",
+                                    "toypos": "300",
+                                    "radius": "0",
+                                    "color": "#ffffff",
+                                    "alpha": "30"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "430",
+                                    "y": "60",
+                                    "toxpos": "560",
+                                    "toypos": "200",
+                                    "radius": "2",
+                                    "color": "#ffffff",
+                                    "alpha": "30"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "245",
+                                    "y": "60",
+                                    "toxpos": "350",
+                                    "toypos": "140",
+                                    "radius": "2",
+                                    "color": "#ffffff",
+                                    "alpha": "30"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "160",
+                                    "y": "150",
+                                    "toxpos": "225",
+                                    "toypos": "190",
+                                    "radius": "2",
+                                    "color": "#ffffff",
+                                    "alpha": "30"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "storemanagers",
+                            "items": [
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "50",
+                                    "y": "210",
+                                    "radius": "10",
+                                    "color": "#e44a00",
+                                    "tooltext": "Apparel and Accessories"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "50",
+                                    "startangle": "60",
+                                    "y": "210",
+                                    "radius": "10",
+                                    "color": "#e44a00",
+                                    "tooltext": "Apparel and Accessories"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "220",
+                                    "y": "320",
+                                    "radius": "10",
+                                    "color": "#e44a00",
+                                    "tooltext": "Electronics"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "220",
+                                    "startangle": "60",
+                                    "y": "320",
+                                    "radius": "10",
+                                    "color": "#e44a00",
+                                    "tooltext": "Electronics"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "380",
+                                    "y": "320",
+                                    "radius": "10",
+                                    "color": "#e44a00",
+                                    "tooltext": "Baby Products"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "380",
+                                    "startangle": "60",
+                                    "y": "320",
+                                    "radius": "10",
+                                    "color": "#e44a00",
+                                    "tooltext": "Baby Products"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "370",
+                                    "y": "150",
+                                    "radius": "10",
+                                    "color": "#e44a00",
+                                    "tooltext": "Food and Bevarages"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "370",
+                                    "y": "150",
+                                    "startangle": "60",
+                                    "radius": "10",
+                                    "color": "#e44a00",
+                                    "tooltext": "Food and Bevarages"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "doorconnectors",
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "x": "225",
+                                    "y": "195",
+                                    "toxpos": "235",
+                                    "toypos": "255",
+                                    "radius": "0",
+                                    "color": "#ffffff",
+                                    "alpha": "50"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "110",
+                                    "y": "300",
+                                    "toxpos": "170",
+                                    "toypos": "310",
+                                    "radius": "0",
+                                    "color": "#ffffff",
+                                    "alpha": "50"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "260",
+                                    "y": "300",
+                                    "toxpos": "320",
+                                    "toypos": "310",
+                                    "radius": "0",
+                                    "color": "#ffffff",
+                                    "alpha": "50"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "430",
+                                    "y": "300",
+                                    "toxpos": "490",
+                                    "toypos": "310",
+                                    "radius": "0",
+                                    "color": "#ffffff",
+                                    "alpha": "50"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "350",
+                                    "y": "345",
+                                    "toxpos": "360",
+                                    "toypos": "405",
+                                    "radius": "0",
+                                    "color": "#ffffff",
+                                    "alpha": "50"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "270",
+                                    "y": "140",
+                                    "toxpos": "325",
+                                    "toypos": "150",
+                                    "radius": "0",
+                                    "color": "#ffffff",
+                                    "alpha": "50"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "350",
+                                    "y": "80",
+                                    "toxpos": "360",
+                                    "toypos": "120",
+                                    "radius": "0",
+                                    "color": "#ffffff",
+                                    "alpha": "50"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "arrows",
+                            "tooltext": "arrows",
+                            "items": [
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "245",
+                                    "y": "218",
+                                    "startangle": "0",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "215",
+                                    "y": "217",
+                                    "toxpos": "245",
+                                    "toypos": "219",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "215",
+                                    "y": "233",
+                                    "startangle": "60",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "215",
+                                    "y": "232",
+                                    "toxpos": "245",
+                                    "toypos": "234",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "370",
+                                    "y": "368",
+                                    "startangle": "0",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "340",
+                                    "y": "367",
+                                    "toxpos": "370",
+                                    "toypos": "369",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "340",
+                                    "y": "383",
+                                    "startangle": "60",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "340",
+                                    "y": "382",
+                                    "toxpos": "370",
+                                    "toypos": "384",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "370",
+                                    "y": "93",
+                                    "startangle": "0",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "340",
+                                    "y": "92",
+                                    "toxpos": "370",
+                                    "toypos": "94",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "340",
+                                    "y": "107",
+                                    "startangle": "60",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "340",
+                                    "y": "106",
+                                    "toxpos": "370",
+                                    "toypos": "108",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "135",
+                                    "y": "285",
+                                    "startangle": "90",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "134",
+                                    "y": "285",
+                                    "toxpos": "136",
+                                    "toypos": "325",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "150",
+                                    "y": "325",
+                                    "startangle": "30",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "149",
+                                    "y": "285",
+                                    "toxpos": "151",
+                                    "toypos": "325",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "285",
+                                    "y": "285",
+                                    "startangle": "90",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "284",
+                                    "y": "285",
+                                    "toxpos": "286",
+                                    "toypos": "325",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "300",
+                                    "y": "325",
+                                    "startangle": "30",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "299",
+                                    "y": "285",
+                                    "toxpos": "301",
+                                    "toypos": "325",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "455",
+                                    "y": "285",
+                                    "startangle": "90",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "454",
+                                    "y": "285",
+                                    "toxpos": "456",
+                                    "toypos": "325",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "470",
+                                    "y": "325",
+                                    "startangle": "30",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "469",
+                                    "y": "285",
+                                    "toxpos": "471",
+                                    "toypos": "325",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "285",
+                                    "y": "125",
+                                    "startangle": "90",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "284",
+                                    "y": "124",
+                                    "toxpos": "286",
+                                    "toypos": "166",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "300",
+                                    "y": "165",
+                                    "startangle": "30",
+                                    "radius": "6",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "299",
+                                    "y": "124",
+                                    "toxpos": "301",
+                                    "toypos": "166",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "185",
+                                    "y": "105",
+                                    "startangle": "90",
+                                    "radius": "6",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "184",
+                                    "y": "105",
+                                    "toxpos": "186",
+                                    "toypos": "125",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "195",
+                                    "y": "125",
+                                    "startangle": "30",
+                                    "radius": "6",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "194",
+                                    "y": "105",
+                                    "toxpos": "196",
+                                    "toypos": "125",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "100",
+                                    "y": "125",
+                                    "startangle": "30",
+                                    "radius": "6",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "99",
+                                    "y": "105",
+                                    "toxpos": "101",
+                                    "toypos": "125",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "200",
+                                    "y": "85",
+                                    "startangle": "60",
+                                    "radius": "6",
+                                    "color": "#008ee4"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "200",
+                                    "y": "84",
+                                    "toxpos": "220",
+                                    "toypos": "86",
+                                    "color": "#008ee4"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "departmentlabels",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "x": "130",
+                                    "y": "220",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "Apparel and{br}Accessories",
+                                    "color": "#ffffff",
+                                    "tooltext": "Apparel and Accessories"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "190",
+                                    "y": "370",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "Electronics",
+                                    "color": "#ffffff",
+                                    "tooltext": "Electronics"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "460",
+                                    "y": "370",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "Baby{br}Products",
+                                    "color": "#ffffff",
+                                    "tooltext": "Baby Products"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "310",
+                                    "y": "220",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "Food and{br}Bevarages",
+                                    "color": "#ffffff",
+                                    "tooltext": "Food and Bevarages"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "300",
+                                    "y": "100",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "Billing",
+                                    "color": "#ffffff",
+                                    "tooltext": "Billing"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "490",
+                                    "y": "130",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "Cold{br}Storage",
+                                    "color": "#ffffff",
+                                    "tooltext": "ColdStorage"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "legend",
+                            "tooltext": "Legend Manager's Location",
+                            "items": [
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "35",
+                                    "y": "475",
+                                    "radius": "10",
+                                    "color": "#00ff00"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "x": "35",
+                                    "startangle": "60",
+                                    "y": "475",
+                                    "radius": "10",
+                                    "color": "#e44a00",
+                                    "tooltext": "Manager's Location"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "50",
+                                    "y": "475",
+                                    "fontsize": "12",
+                                    "isbold": "1",
+                                    "label": "Manager's Location",
+                                    "color": "#008ee4",
+                                    "align": "left"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "CapSubcap",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "x": "30",
+                                    "y": "20",
+                                    "fontsize": "14",
+                                    "isbold": "1",
+                                    "label": "Floor Map - Harry's SuperMart",
+                                    "color": "#666666",
+                                    "align": "left",
+                                    "tooltext": "Floor Map - Harry's SuperMart"
+                                },
+                                {
+                                    "type": "text",
+                                    "x": "30",
+                                    "y": "35",
+                                    "fontsize": "11",
+                                    "isbold": "0",
+                                    "label": "(New York Store)",
+                                    "color": "#666666",
+                                    "align": "left",
+                                    "tooltext": "(New York Store)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/drawingpad/ref-images/tooltext-snapshot.png",
+        "id": "tooltext"
+    },
+    "annotation_types_with_macros": {
+        "description": "annotation_types_with_macros",
+        "options": {
+            "type": "drawingpad",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "animation": "0"
+                },
+                "annotations": {
+                    "showbelow": "1",
+                    "groups": [
+                        {
+                            "items": [
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartstartx",
+                                    "y": "$chartstarty",
+                                    "xscale": "100",
+                                    "yscale": "100"
+                                },
+                                {
+                                    "type": "text",
+                                    "fillcolor": "#000000",
+                                    "fontsize": "11",
+                                    "text": "Drawing Pad",
+                                    "bold": "1",
+                                    "wrap": "1",
+                                    "wrapwidth": "350",
+                                    "x": "$chartcenterx",
+                                    "y": "$chartcenterx"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$chartcenterx-45",
+                                    "y": "$chartcentery",
+                                    "radius": "15",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "80",
+                                    "bordercolor": "#FFFFFF",
+                                    "innerradius": "60",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$chartcenterx-50",
+                                    "y": "$chartcenterx-90",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "$chartstartx",
+                                    "y": "$chartcenterx-90",
+                                    "tox": "$chartendx",
+                                    "toy": "$chartcenterx-90",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "$chartcenterx+90",
+                                    "y": "$chartcenterx",
+                                    "tox": "$chartendx",
+                                    "toy": "$chartcenterx-200",
+                                    "fillcolor": "#696969"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "7",
+                                    "startangle": "270",
+                                    "fillcolor": "#6baa01",
+                                    "x": "$chartcenterx+60",
+                                    "y": "$chartcenterx+30",
+                                    "radius": "18"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$chartcenterx-60",
+                                    "y": "$chartcenterx+30",
+                                    "color": "#660000"
+                                },
+                                {
+                                    "id": "circle-chart_width-height",
+                                    "color": "ff0000",
+                                    "alpha": "90",
+                                    "fillcolor": "00ff00,0000ff",
+                                    "fillalpha": "80",
+                                    "fillratio": "60",
+                                    "fillangle": "180",
+                                    "fillpattern": "radial",
+                                    "showborder": "1",
+                                    "bordercolor": "000000",
+                                    "borderalpha": "90",
+                                    "borderthickness": "3",
+                                    "dashed": "0",
+                                    "dashlen": "5",
+                                    "dashgap": "2",
+                                    "tooltext": "circle-chart_width-height",
+                                    "link": "",
+                                    "showshadow": "1",
+                                    "type": "circle",
+                                    "x": "$chartWidth-90",
+                                    "y": "$chartHeight-80",
+                                    "radius": "35",
+                                    "yradius": "45",
+                                    "startangle": "0",
+                                    "endangle": "360"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/drawingpad/ref-images/annotation_types_with_macros-snapshot.png",
+        "id": "annotation_types_with_macros"
+    },
+    "scale_resize": {
+        "description": "scale_resize",
+        "options": {
+            "type": "drawingpad",
+            "width": "900",
+            "height": "550",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "animation": "0",
+                    "transposeanimation": "1",
+                    "transposeanimduration": "5"
+                },
+                "annotations": {
+                    "showbelow": "1",
+                    "autoscale": "1",
+                    "constrainedscale": "1",
+                    "scaletext": "1",
+                    "scaleimages": "1",
+                    "xshift": "",
+                    "yshift": "",
+                    "grpxshift": "",
+                    "grpyshift": "",
+                    "origw": "600",
+                    "origh": "350",
+                    "groups": [
+                        {
+                            "id": "",
+                            "x": "",
+                            "y": "",
+                            "autoscale": "1",
+                            "scaletext": "1",
+                            "scaleimages": "1",
+                            "constrainedscale": "1",
+                            "showbelow": "0",
+                            "origw": "",
+                            "origh": "",
+                            "xshift": "",
+                            "yshift": "",
+                            "grpxshift": "",
+                            "grpyshift": "",
+                            "alpha": "",
+                            "visible": "",
+                            "showshadow": "",
+                            "color": "",
+                            "font": "",
+                            "fontsize": "",
+                            "textalign": "",
+                            "textvalign": "",
+                            "rotatetext": "",
+                            "wraptext": "",
+                            "link": "",
+                            "tooltext": "",
+                            "items": [
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartstartx",
+                                    "y": "$chartstarty",
+                                    "xscale": "100",
+                                    "yscale": "100"
+                                },
+                                {
+                                    "type": "text",
+                                    "fillcolor": "#000000",
+                                    "fontsize": "11",
+                                    "text": "Drawing Pad",
+                                    "bold": "1",
+                                    "wrap": "1",
+                                    "wrapwidth": "350",
+                                    "x": "$chartcenterx",
+                                    "y": "$chartcentery-100"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$chartcenterx-45",
+                                    "y": "$chartcentery",
+                                    "radius": "15",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "80",
+                                    "bordercolor": "#FFFFFF",
+                                    "innerradius": "60",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$chartcenterx-50",
+                                    "y": "$chartcenterx-90",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "$chartstartx",
+                                    "y": "$chartcenterx-90",
+                                    "tox": "$chartendx",
+                                    "toy": "$chartcenterx-90",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "x": "$chartcenterx+90",
+                                    "y": "$chartcenterx",
+                                    "tox": "$chartendx",
+                                    "toy": "$chartcenterx-200",
+                                    "fillcolor": "#696969",
+                                    "showborder": "1",
+                                    "bordercolor": "0000ff",
+                                    "borderalpha": "90",
+                                    "borderthickness": "2",
+                                    "dashed": "1",
+                                    "dashlen": "10",
+                                    "dashgap": "20"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "7",
+                                    "startangle": "270",
+                                    "fillcolor": "#6baa01",
+                                    "x": "$chartcenterx+60",
+                                    "y": "$chartcenterx+30",
+                                    "radius": "18"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$chartcenterx-60",
+                                    "y": "$chartcenterx+30",
+                                    "color": "#660000"
+                                },
+                                {
+                                    "id": "circle-chart_width-height",
+                                    "color": "ff0000",
+                                    "alpha": "90",
+                                    "fillcolor": "00ff00,0000ff",
+                                    "fillalpha": "80",
+                                    "fillratio": "60",
+                                    "fillangle": "180",
+                                    "fillpattern": "radial",
+                                    "showborder": "1",
+                                    "bordercolor": "000000",
+                                    "borderalpha": "90",
+                                    "borderthickness": "3",
+                                    "dashed": "0",
+                                    "dashlen": "5",
+                                    "dashgap": "2",
+                                    "tooltext": "circle-chart_width-height",
+                                    "link": "",
+                                    "showshadow": "1",
+                                    "type": "circle",
+                                    "x": "$chartWidth-90",
+                                    "y": "$chartHeight-80",
+                                    "radius": "35",
+                                    "yradius": "45",
+                                    "startangle": "0",
+                                    "endangle": "360"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/drawingpad/ref-images/scale_resize-snapshot.png",
+        "id": "scale_resize"
+    }
+}

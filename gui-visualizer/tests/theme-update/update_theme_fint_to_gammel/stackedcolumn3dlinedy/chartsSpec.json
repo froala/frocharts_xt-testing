@@ -1,0 +1,210 @@
+{
+    "stackedcolumn3dlinedy": {
+        "descriptions": "update theme from fint to gammel",
+        "id": "stackedcolumn3dlinedy",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "stackedcolumn3dlinedy",
+            "dataSource": {
+                "chart": {
+                    "palette": "2",
+                    "caption": "Sales Chart",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "pyaxisname": "Sales",
+                    "syaxisname": "Quantity",
+                    "animation": 0,
+                    "theme": "fint"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "2001"
+                            },
+                            {
+                                "label": "2002"
+                            },
+                            {
+                                "label": "2003"
+                            },
+                            {
+                                "label": "2004"
+                            },
+                            {
+                                "label": "2005"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Product A",
+                        "data": [
+                            {
+                                "value": "25601"
+                            },
+                            {
+                                "value": "20148"
+                            },
+                            {
+                                "value": "17372"
+                            },
+                            {
+                                "value": "35407"
+                            },
+                            {
+                                "value": "38105"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Product B",
+                        "data": [
+                            {
+                                "value": "57401"
+                            },
+                            {
+                                "value": "41941"
+                            },
+                            {
+                                "value": "45263"
+                            },
+                            {
+                                "value": "117320"
+                            },
+                            {
+                                "value": "114845"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Quantity",
+                        "parentyaxis": "S",
+                        "data": [
+                            {
+                                "value": "4500"
+                            },
+                            {
+                                "value": "4483"
+                            },
+                            {
+                                "value": "4283"
+                            },
+                            {
+                                "value": "7755"
+                            },
+                            {
+                                "value": "9263"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "palette": "2",
+                            "caption": "Sales Chart",
+                            "showvalues": "0",
+                            "numberprefix": "$",
+                            "pyaxisname": "Sales",
+                            "syaxisname": "Quantity",
+                            "animation": 0,
+                            "theme": "gammel"
+                        },
+                        "categories": [
+                            {
+                                "category": [
+                                    {
+                                        "label": "2001"
+                                    },
+                                    {
+                                        "label": "2002"
+                                    },
+                                    {
+                                        "label": "2003"
+                                    },
+                                    {
+                                        "label": "2004"
+                                    },
+                                    {
+                                        "label": "2005"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dataset": [
+                            {
+                                "seriesname": "Product A",
+                                "data": [
+                                    {
+                                        "value": "25601"
+                                    },
+                                    {
+                                        "value": "20148"
+                                    },
+                                    {
+                                        "value": "17372"
+                                    },
+                                    {
+                                        "value": "35407"
+                                    },
+                                    {
+                                        "value": "38105"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Product B",
+                                "data": [
+                                    {
+                                        "value": "57401"
+                                    },
+                                    {
+                                        "value": "41941"
+                                    },
+                                    {
+                                        "value": "45263"
+                                    },
+                                    {
+                                        "value": "117320"
+                                    },
+                                    {
+                                        "value": "114845"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Quantity",
+                                "parentyaxis": "S",
+                                "data": [
+                                    {
+                                        "value": "4500"
+                                    },
+                                    {
+                                        "value": "4483"
+                                    },
+                                    {
+                                        "value": "4283"
+                                    },
+                                    {
+                                        "value": "7755"
+                                    },
+                                    {
+                                        "value": "9263"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

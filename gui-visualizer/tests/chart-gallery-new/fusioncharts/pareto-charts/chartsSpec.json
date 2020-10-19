@@ -1,0 +1,290 @@
+{
+    "fusioncharts-pareto-charts-2d-pareto-chart": {
+        "description": "2D Pareto Chart (Customer Complaint Report) ",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showvalues": "0",
+                    "caption": "Customer Complaint Report",
+                    "bgcolor": "FFFFFF",
+                    "linecolor": "#F6BC33",
+                    "showplotborder": "0",
+                    "plotgradientcolor": "",
+                    "plotbordercolor": "EFEFEF",
+                    "showalternatehgridcolor": "0",
+                    "canvasborderalpha": "0",
+                    "divlinealpha": "0",
+                    "showshadow": "1",
+                    "anchorradius": "3",
+                    "anchorbgcolor": "FFFFFF",
+                    "anchorborderthickness": "3",
+                    "linethickness": "3",
+                    "palettecolors": "#1790E1",
+                    "animation": "0",
+                    "showBorder": "0"
+                },
+                "data": [
+                    {
+                        "value": "230",
+                        "label": "Poor Quality",
+                        "color": "#1790E1"
+                    },
+                    {
+                        "value": "185",
+                        "label": "Incorrect Pricing",
+                        "color": "#1790E1"
+                    },
+                    {
+                        "value": "115",
+                        "label": "Confusing Layout",
+                        "color": "#1790E1"
+                    },
+                    {
+                        "value": "72",
+                        "label": "Parking Difficulties",
+                        "color": "#1790E1"
+                    },
+                    {
+                        "value": "83",
+                        "label": "Limited Size",
+                        "color": "#1790E1"
+                    },
+                    {
+                        "value": "64",
+                        "label": "Others",
+                        "color": "#1790E1"
+                    }
+                ]
+            },
+            "width": "500",
+            "height": "350",
+            "type": "pareto2d"
+        },
+        "id": "fusioncharts-pareto-charts-2d-pareto-chart"
+    },
+    "fusioncharts-pareto-charts-2d-pareto-chart-fault-analysis": {
+        "description": "2D Pareto Chart (Circuit Board Fault Analysis)",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showvalues": "0",
+                    "caption": "Circuit Board Fault Analysis",
+                    "xaxisname": "Type of Faults",
+                    "animation": "0",
+                    "stack100percent": "0",
+                    "canvasbgangle": "0",
+                    "canvasborderthickness": "1",
+                    "chartleftmargin": "15",
+                    "chartrightmargin": "5",
+                    "charttopmargin": "18",
+                    "chartbottommargin": "18",
+                    "captionpadding": "15",
+                    "xaxisnamepadding": "5",
+                    "yaxisnamepadding": "5",
+                    "yaxisvaluespadding": "2",
+                    "labelpadding": "3",
+                    "valuepadding": "2",
+                    "canvaspadding": "",
+                    "basefontsize": "10",
+                    "outcnvbasefontsize": "13",
+                    "zeroplanealpha": "80",
+                    "zeroplanethickness": "2",
+                    "bgcolor": "F8F8FA",
+                    "slantlabels": "0",
+                    "labeldisplay": "auto",
+                    "showcumulativeline": "1",
+                    "showlinevalues": "0",
+                    "linecolor": "8080FF",
+                    "showplotborder": "0",
+                    "plotgradientcolor": "",
+                    "useroundedges": "0",
+                    "linethickness": "2",
+                    "linedashed": "1",
+                    "plotbordercolor": "7F7F7F",
+                    "showcanvasbg": "1",
+                    "showcanvasbase": "1",
+                    "canvasbasedepth": "11",
+                    "canvasbgdepth": "3",
+                    "zeroplaneshowborder": "1",
+                    "canvasbgcolor": "FFFFFF",
+                    "canvasbgalpha": "100",
+                    "canvasbasecolor": "D3DBCA",
+                    "showalternatehgridcolor": "0",
+                    "bgalpha": "100",
+                    "outcnvbasefont": "Verdana",
+                    "canvasbordercolor": "EFEFEF",
+                    "borderalpha": "30",
+                    "linedashgap": "4",
+                    "anchorradius": "4",
+                    "anchorbgcolor": "FFFFFF",
+                    "anchorbordercolor": "8080FF",
+                    "drawanchors": "1",
+                    "showBorder": "0"
+                },
+                "data": [
+                    {
+                        "value": "205",
+                        "color": "BCC5E1",
+                        "color_cc": "BCC5E1",
+                        "label": "Assembly Error"
+                    },
+                    {
+                        "value": "165",
+                        "color": "9F9F9F",
+                        "color_cc": "9F9F9F",
+                        "label": "Component Failure"
+                    },
+                    {
+                        "value": "85",
+                        "color": "8CB0F2",
+                        "color_cc": "8CB0F2",
+                        "label": "Solder Short"
+                    },
+                    {
+                        "value": "62",
+                        "color": "59ACAC",
+                        "color_cc": "59ACAC",
+                        "label": "Mechanical Damage"
+                    },
+                    {
+                        "value": "33",
+                        "color": "B5D7CC",
+                        "color_cc": "B5D7CC",
+                        "label": "Others"
+                    }
+                ]
+            },
+            "width": "500",
+            "height": "350",
+            "type": "pareto2d"
+        },
+        "id": "fusioncharts-pareto-charts-2d-pareto-chart-fault-analysis"
+    },
+    "fusioncharts-pareto-charts-3d-pareto-chart-testing-report": {
+        "description": "3D Pareto Chart",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showvalues": "0",
+                    "caption": "Software Testing Report",
+                    "xaxisname": "Type of Bugs",
+                    "pyaxisname": "# of Bugs",
+                    "bgalpha": "0",
+                    "canvasbgalpha": "0",
+                    "showborder": "0",
+                    "showalternatevgridcolor": "0",
+                    "divlinealpha": "15",
+                    "showcanvasbg": "0",
+                    "canvasbasecolor": "C8C8C8",
+                    "anchorradius": "4",
+                    "anchorbgcolor": "FFFFFF",
+                    "palettecolors": "#1559CF",
+                    "animation": "0",
+                    "linecolor": "#F6BC33"
+                },
+                "data": [
+                    {
+                        "value": "205",
+                        "color": "#1559CF",
+                        "label": "GUI"
+                    },
+                    {
+                        "value": "165",
+                        "color": "#1559CF",
+                        "label": "Functional"
+                    },
+                    {
+                        "value": "85",
+                        "color": "#1559CF",
+                        "label": "Navigation"
+                    },
+                    {
+                        "value": "62",
+                        "color": "#1559CF",
+                        "label": "Cross Platform"
+                    },
+                    {
+                        "value": "73",
+                        "color": "#1559CF",
+                        "label": "Hardware"
+                    },
+                    {
+                        "value": "131",
+                        "color": "#1559CF",
+                        "label": "Runtime"
+                    },
+                    {
+                        "value": "109",
+                        "color": "#1559CF",
+                        "label": "Load Condition"
+                    }
+                ]
+            },
+            "width": "600",
+            "height": "350",
+            "type": "pareto3d"
+        },
+        "id": "fusioncharts-pareto-charts-3d-pareto-chart-testing-report"
+    },
+    "fusioncharts-pareto-charts-3d-pareto-chart-with-dotted-line": {
+        "description": "3D Pareto Chart with dotted line",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showvalues": "0",
+                    "caption": "Hardware Defects",
+                    "linethickness": "10",
+                    "linedashed": "1",
+                    "showcanvasbg": "0",
+                    "showcanvasbase": "0",
+                    "canvasbasedepth": "5",
+                    "linedashlen": "10",
+                    "anchorradius": "3",
+                    "anchorsides": "10",
+                    "anchoralpha": "0",
+                    "outcnvbasefontcolor": "2D4230",
+                    "bgcolor": "FFFFFF",
+                    "linecolor": "6DA81E",
+                    "showshadow": "0",
+                    "animation": "0",
+                    "showBorder": "0"
+                },
+                "data": [
+                    {
+                        "value": "87",
+                        "color": "#F6BC33",
+                        "label": "Hard Disk"
+                    },
+                    {
+                        "value": "79",
+                        "color": "#F6BC33",
+                        "label": "PCB"
+                    },
+                    {
+                        "value": "37",
+                        "color": "#F6BC33",
+                        "label": "Printer"
+                    },
+                    {
+                        "value": "62",
+                        "color": "#F6BC33",
+                        "label": "Keyboard"
+                    },
+                    {
+                        "value": "43",
+                        "color": "#F6BC33",
+                        "label": "CDROM"
+                    }
+                ]
+            },
+            "width": "500",
+            "height": "350",
+            "type": "pareto3d"
+        },
+        "id": "fusioncharts-pareto-charts-3d-pareto-chart-with-dotted-line"
+    }
+}

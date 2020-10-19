@@ -1,0 +1,104 @@
+{
+    "hlineargauge": {
+        "descriptions": "update theme from fint to candy",
+        "id": "hlineargauge",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "hlineargauge",
+            "dataSource": {
+                "chart": {
+                    "lowerlimit": "0",
+                    "upperlimit": "100",
+                    "lowerlimitdisplay": "Bad",
+                    "upperlimitdisplay": "Good",
+                    "palette": "1",
+                    "numbersuffix": "%",
+                    "chartrightmargin": "20",
+                    "animation": 0,
+                    "datastreamurl": "realtime/multipleData.php",
+                    "theme": "fint"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "75",
+                            "code": "FF654F",
+                            "label": "Bad"
+                        },
+                        {
+                            "minvalue": "75",
+                            "maxvalue": "90",
+                            "code": "F6BD0F",
+                            "label": "Moderate"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "100",
+                            "code": "8BBA00",
+                            "label": "Good"
+                        }
+                    ]
+                },
+                "pointers": {
+                    "pointer": [
+                        {
+                            "value": "92"
+                        }
+                    ]
+                }
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "lowerlimit": "0",
+                            "upperlimit": "100",
+                            "lowerlimitdisplay": "Bad",
+                            "upperlimitdisplay": "Good",
+                            "palette": "1",
+                            "numbersuffix": "%",
+                            "chartrightmargin": "20",
+                            "animation": 0,
+                            "datastreamurl": "realtime/multipleData.php",
+                            "theme": "candy"
+                        },
+                        "colorrange": {
+                            "color": [
+                                {
+                                    "minvalue": "0",
+                                    "maxvalue": "75",
+                                    "code": "FF654F",
+                                    "label": "Bad"
+                                },
+                                {
+                                    "minvalue": "75",
+                                    "maxvalue": "90",
+                                    "code": "F6BD0F",
+                                    "label": "Moderate"
+                                },
+                                {
+                                    "minvalue": "90",
+                                    "maxvalue": "100",
+                                    "code": "8BBA00",
+                                    "label": "Good"
+                                }
+                            ]
+                        },
+                        "pointers": {
+                            "pointer": [
+                                {
+                                    "value": "92"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,260 @@
+{
+    "test_1": {
+        "description": "Border, logo, bg, caption, subcaption, canvas, axes, canvas related changes",
+        "options": {
+            "type": "sankey",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showBorder": "1",
+                    "borderColor": "#330000",
+                    "borderThickness": "3",
+                    "borderAlpha": "85",
+                    "bgColor": "#999999,#ffffff",
+                    "bgAlpha": "100",
+                    "bgRatio": "10:90",
+                    "bgAngle": "90",
+                    "logoPosition": "TR",
+                    "logoAlpha": "50",
+                    "logoScale": "70",                    
+                    "showlabels": "1",
+                    "maxlabelHeight": "25",
+                    "labelDisplay": "ROTATE",
+                    "useEllipsesWhenOverflow": "0",
+                    "rotatelabels": "1",
+                    "slantlabels": "1",
+                    "labelStep": "1",
+                    "staggerLines": "1",
+                    "showvalues": "1",
+                    "rotatevalues": "1",
+                    "placevaluesInside": "1",
+                    "showYAxisvalues": "1",
+                    "showLimits": "1",
+                    "showDivLinevalues": "0",
+                    "showShadow": "1",
+                    "adjustDiv": "0",
+                    "useDataPlotColorForlabels": "0",
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Current Year",
+                    "captionAlignment": "left",
+                    "captionOntop": "1",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "subCaptionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "10",
+                    "showLegend": "1",
+                    "legendItemFontBold": "1",
+                    "legendItemFont": "verdana",
+                    "legendItemFontSize": "16",
+                    "legendItemFontColor": "#cc0000",
+                    "legendItemHoverFontColor": "#ffffff",
+                    "legendCaption": "Interactive Legend",
+                    "legendCaptionAlignment": "left",
+                    "legendCaptionFontBold": "1",
+                    "legendCaptionFont": "verdana",
+                    "legendCaptionFontSize": "20",
+                    "legendCaptionFontColor": "#ffffff",
+                    "legendItemHiddenColor": "#ff0000",
+                    "legendIconScale": "110",
+                    "legendBgColor": "#333333",
+                    "legendBgAlpha": "60",
+                    "legendBorderColor": "#0000ff",
+                    "legendBorderThickness": "3",
+                    "legendBorderAlpha": "80",
+                    "legendAllowDrag": "1",
+                    "legendScrollBgColor": "0",
+                    "reverseLegend": "1",
+                    "interactiveLegend": "1",
+                    "legendNumColumns": "2",
+                    "minimiseWrappingInLegend": "",
+                    "numberprefix": "$",
+                    "animation": "0",
+                    "nodelabelposition":"start"
+                },
+                "nodes": [
+                    {
+                      "label": "Netherlands"
+                    },
+                    {
+                      "label": "Canada"
+                    },
+                    {
+                      "label": "Belgium"
+                    },
+                    {
+                      "label": "Italy"
+                    },
+                    {
+                      "label": "Mexico"
+                    },
+                    {
+                      "label": "Russia"
+                    },
+                    {
+                      "label": "Spain"
+                    },
+                    {
+                      "label": "South Korea"
+                    },
+                    {
+                      "label": "Germany"
+                    },
+                    {
+                      "label": "China"
+                    },
+                    {
+                      "label": "European Union"
+                    },
+                    {
+                      "label": "Japan"
+                    },
+                    {
+                      "label": "United Kingdom"
+                    },
+                    {
+                      "label": "United States"
+                    },
+                    {
+                      "label": "France"
+                    },
+                    {
+                      "label": "Hong Kong"
+                    },
+                    {
+                      "label": "Switzerland"
+                    },
+                    {
+                      "label": "Austria"
+                    },
+                    {
+                      "label": "Sweden"
+                    }
+                  ],
+                  "links": [
+                    {
+                      "from": "Netherlands",
+                      "to": "European Union",
+                      "value": 798744
+                    },
+                    {
+                      "from": "Germany",
+                      "to": "European Union",
+                      "value": 1468990
+                    },
+                    {
+                      "from": "European Union",
+                      "to": "France",
+                      "value": 745931
+                    },
+                    {
+                      "from": "European Union",
+                      "to": "United States",
+                      "value": 660541
+                    },
+                    {
+                      "from": "Canada",
+                      "to": "United States",
+                      "value": 594546
+                    },
+                    {
+                      "from": "Belgium",
+                      "to": "European Union",
+                      "value": 628796
+                    },
+                    {
+                      "from": "China",
+                      "to": "Hong Kong",
+                      "value": 400571
+                    },
+                    {
+                      "from": "China",
+                      "to": "United States",
+                      "value": 526454
+                    },
+                    {
+                      "from": "European Union",
+                      "to": "United Kingdom",
+                      "value": 520318
+                    },
+                    {
+                      "from": "China",
+                      "to": "European Union",
+                      "value": 560536
+                    },
+                    {
+                      "from": "Italy",
+                      "to": "European Union",
+                      "value": 539556
+                    },
+                    {
+                      "from": "Mexico",
+                      "to": "United States",
+                      "value": 492715
+                    },
+                    {
+                      "from": "Russia",
+                      "to": "European Union",
+                      "value": 385778
+                    },
+                    {
+                      "from": "Spain",
+                      "to": "European Union",
+                      "value": 365191
+                    },
+                    {
+                      "from": "China",
+                      "to": "Japan",
+                      "value": 312062
+                    },
+                    {
+                      "from": "European Union",
+                      "to": "Switzerland",
+                      "value": 328609
+                    },
+                    {
+                      "from": "South Korea",
+                      "to": "China",
+                      "value": 229073
+                    },
+                    {
+                      "from": "European Union",
+                      "to": "Austria",
+                      "value": 244913
+                    },
+                    {
+                      "from": "Japan",
+                      "to": "United States",
+                      "value": 206091
+                    },
+                    {
+                      "from": "European Union",
+                      "to": "Sweden",
+                      "value": 204849
+                    },
+                    {
+                      "from": "Germany",
+                      "to": "United States",
+                      "value": 184287
+                    }
+                  ]
+                
+                        
+                    
+                
+               
+            }
+        },
+        "refimage": "./tests/froalacharts/sankey/ref-images/test_1_sankey-snapshot.png",
+        "id": "test_1"
+    }
+   
+    
+}

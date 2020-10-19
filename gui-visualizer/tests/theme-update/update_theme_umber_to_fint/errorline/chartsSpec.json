@@ -1,0 +1,198 @@
+{
+    "errorline": {
+        "descriptions": "update theme from umber to fint",
+        "id": "errorline",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "errorline",
+            "dataSource": {
+                "chart": {
+                    "palette": "2",
+                    "xaxisname": "Appliance",
+                    "yaxisname": "Life Span (yr)",
+                    "caption": "Life Span Chart of Appliances",
+                    "subcaption": "(With Error Values)",
+                    "showvalues": "0",
+                    "halferrorbar": "0",
+                    "errorbarcolor": "ff0000",
+                    "errorbarthickness": "2",
+                    "errorbarwidth": "20",
+                    "canvaspadding": "",
+                    "animation": 0,
+                    "theme": "umber"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "AC - Central"
+                            },
+                            {
+                                "label": "AC - Window"
+                            },
+                            {
+                                "label": "Heat Pump"
+                            },
+                            {
+                                "label": "Coffee Machine"
+                            },
+                            {
+                                "label": "Dish Washer"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "At Home",
+                        "data": [
+                            {
+                                "value": "50",
+                                "errorvalue": "10"
+                            },
+                            {
+                                "value": "-100",
+                                "errorvalue": "12"
+                            },
+                            {
+                                "value": "120",
+                                "errorvalue": "19"
+                            },
+                            {
+                                "value": "90",
+                                "errorvalue": "11"
+                            },
+                            {
+                                "value": "-98",
+                                "errorvalue": "15"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "In Office",
+                        "data": [
+                            {
+                                "value": "-11",
+                                "errorvalue": "15"
+                            },
+                            {
+                                "value": "60",
+                                "errorvalue": "13"
+                            },
+                            {
+                                "value": "-12",
+                                "errorvalue": "16"
+                            },
+                            {
+                                "value": "40",
+                                "errorvalue": "15.8"
+                            },
+                            {
+                                "value": "70",
+                                "errorvalue": "17"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "palette": "2",
+                            "xaxisname": "Appliance",
+                            "yaxisname": "Life Span (yr)",
+                            "caption": "Life Span Chart of Appliances",
+                            "subcaption": "(With Error Values)",
+                            "showvalues": "0",
+                            "halferrorbar": "0",
+                            "errorbarcolor": "ff0000",
+                            "errorbarthickness": "2",
+                            "errorbarwidth": "20",
+                            "canvaspadding": "",
+                            "animation": 0,
+                            "theme": "fint"
+                        },
+                        "categories": [
+                            {
+                                "category": [
+                                    {
+                                        "label": "AC - Central"
+                                    },
+                                    {
+                                        "label": "AC - Window"
+                                    },
+                                    {
+                                        "label": "Heat Pump"
+                                    },
+                                    {
+                                        "label": "Coffee Machine"
+                                    },
+                                    {
+                                        "label": "Dish Washer"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dataset": [
+                            {
+                                "seriesname": "At Home",
+                                "data": [
+                                    {
+                                        "value": "50",
+                                        "errorvalue": "10"
+                                    },
+                                    {
+                                        "value": "-100",
+                                        "errorvalue": "12"
+                                    },
+                                    {
+                                        "value": "120",
+                                        "errorvalue": "19"
+                                    },
+                                    {
+                                        "value": "90",
+                                        "errorvalue": "11"
+                                    },
+                                    {
+                                        "value": "-98",
+                                        "errorvalue": "15"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "In Office",
+                                "data": [
+                                    {
+                                        "value": "-11",
+                                        "errorvalue": "15"
+                                    },
+                                    {
+                                        "value": "60",
+                                        "errorvalue": "13"
+                                    },
+                                    {
+                                        "value": "-12",
+                                        "errorvalue": "16"
+                                    },
+                                    {
+                                        "value": "40",
+                                        "errorvalue": "15.8"
+                                    },
+                                    {
+                                        "value": "70",
+                                        "errorvalue": "17"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

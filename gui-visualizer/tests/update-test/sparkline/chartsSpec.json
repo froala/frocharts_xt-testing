@@ -1,0 +1,151 @@
+{
+    "sparkline": {
+        "description": "sparkline Chart from testing GUI ",
+        "id": "sparkline",
+        "options": {
+            "type": "sparkline",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showBorder": "1",
+                    "borderColor": "#330000",
+                    "borderThickness": "3",
+                    "borderAlpha": "85",
+                    "bgColor": "#999999,#ffffff",
+                    "bgAlpha": "100",
+                    "bgRatio": "10:90",
+                    "bgAngle": "90",
+                    "logoURL": "../../images/logo.png",
+                    "logoPosition": "TR",
+                    "logoAlpha": "50",
+                    "logoScale": "70",
+                    "logoLink": "http://fusioncharts.com",
+                    "showValues": "1",
+                    "showShadow": "1",
+                    "caption": "Revenue",
+                    "subcaption": "US $ (1,000s)",
+                    "captionAlignment": "left",
+                    "captionOnTop": "1",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "subCaptionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "10",
+                    "numberprefix": "$",
+                    "numbersuffix": "K",
+                    "animation": "0"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "38.42"
+                            },
+                            {
+                                "value": "41.43"
+                            },
+                            {
+                                "value": "34.78"
+                            },
+                            {
+                                "value": "40.67"
+                            },
+                            {
+                                "value": "44.12"
+                            },
+                            {
+                                "value": "38.45"
+                            },
+                            {
+                                "value": "40.71"
+                            },
+                            {
+                                "value": "49.90"
+                            },
+                            {
+                                "value": "40.12"
+                            },
+                            {
+                                "value": "34.91"
+                            },
+                            {
+                                "value": "42.02"
+                            },
+                            {
+                                "value": "35.21"
+                            },
+                            {
+                                "value": "43.31"
+                            },
+                            {
+                                "value": "40.21"
+                            },
+                            {
+                                "value": "40.54"
+                            },
+                            {
+                                "value": "40.90"
+                            },
+                            {
+                                "value": "54.21"
+                            },
+                            {
+                                "value": "41.90"
+                            },
+                            {
+                                "value": "33.43"
+                            },
+                            {
+                                "value": "46.73"
+                            },
+                            {
+                                "value": "50.42"
+                            },
+                            {
+                                "value": "40.74"
+                            },
+                            {
+                                "value": "42.31"
+                            },
+                            {
+                                "value": "50.39"
+                            },
+                            {
+                                "value": "51.10"
+                            },
+                            {
+                                "value": "44.84"
+                            },
+                            {
+                                "value": "51.64"
+                            },
+                            {
+                                "value": "47.62"
+                            },
+                            {
+                                "value": "39.61"
+                            },
+                            {
+                                "value": "35.13"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "refimage": "./tests/smoke/new-smoke-test/sparkline/ref-images/test_1_sparkline-snapshot.png",
+            "id": "test_1"
+        },
+        "action": [
+            {
+                "updateData": []
+            }
+        ]
+    }
+}

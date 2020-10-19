@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<!-- Usage of eval has been removed from FusionCharts. So the function called in alert manager should not break the output -->
+<head>
+    <title>My first chart using FusionCharts Suite XT</title>
+    <script type="text/javascript" src="fusioncharts/fusioncharts.js"></script>
+</head>
+
+<body>
+    <div id="chart-container">FusionCharts XT will load here!</div>
+    <script type="text/javascript">
+        var first = function(param) {
+                console.log("FIRST function called");
+                console.log(param);
+            },
+            second = function(param) {
+                console.log("SECOND function  called");
+                console.log(param);
+            },
+            third = function(param) {
+                console.log("THIRD function called");
+                console.log(param);
+            },
+            multiParam = function(a, b, c) {
+                console.log("MULTIPARAM function called");
+                console.log(a);
+                console.log(b);
+                console.log(c);
+            },
+            indpendent1 = function(param) {
+                console.log("multiple functions called internally");
+                first(param);
+                second(param);
+                third(param);
+            };
+        FusionCharts.ready(function() {
+            fusioncharts = new FusionCharts({
+                id: "mychart",
+                type: 'realtimecolumn',
+                renderAt: 'chart-container',
+                width: '900',
+                height: '500',
+                dataFormat: 'json',
+                dataSource: {
+                    "chart": {
+                        "caption": "Harry's Supermart - Bakersfield Central",
+                        "subCaption": "Footfalls",
+                        "showrealtimevalue": "1",
+                        "borderAlpha": "0",
+                        "yaxismaxvalue": "40",
+                        "numdisplaysets": "10",
+                        "usePlotGradientColor": "0",
+                        "canvasBorderAlpha": "20",
+                        "labeldisplay": "rotate",
+                        "slantLabels": "1",
+                        "showLegend": "0",
+                        "plotBorderAlpha": "0",
+                        "bgAlpha": "0",
+                        "showValues": "0",
+                        "numbersuffix": " Customers",
+                        "showlabels": "1",
+                        "animation": "0",
+                        "showRealTimeValue": "0"
+                    },
+                    "categories": [{
+                        "category": [{
+                            "label": "8 mins ago"
+                        }, {
+                            "label": "7 mins ago"
+                        }, {
+                            "label": "6 mins ago"
+                        }, {
+                            "label": "5 mins ago"
+                        }, {
+                            "label": "4 mins ago"
+                        }, {
+                            "label": "3 mins ago"
+                        }, {
+                            "label": "2 mins ago"
+                        }, {
+                            "label": "1 min ago"
+                        }]
+                    }],
+                    "dataset": [{
+                        "seriesname": "Footfall",
+                        "alpha": "100",
+                        "data": [{
+                            "value": "5"
+                        }, {
+                            "value": "17"
+                        }, {
+                            "value": "10"
+                        }, {
+                            "value": "15"
+                        }, {
+                            "value": "5"
+                        }, {
+                            "value": "12"
+                        }, {
+                            "value": "8"
+                        }, {
+                            "value": "10"
+                        }]
+                    }],
+                    "alerts": {
+                        "alert": [{
+                            "minvalue": "10",
+                            "maxvalue": "20",
+                            "action": "callJS",
+                            "param": "console.log('first', 'sec;ond', 'third')",
+                            // "param": "multiParam('first', 'second', 'third');"
+                        }]
+                    }
+                },
+                events: {
+                    'rendered': function(evt, args) {
+                        setInterval(function() {
+
+                            //Get reference to the chart using its ID
+                            var chartRef = evt.sender,
+                                currDate = new Date(),
+                                label = currDate;
+                            //Get random number between 5 & 20 - rounded
+                            var footfall = Math.round(Math.random() * 15) + 5;
+                            var strData = "&label=" + label + "&value=" + footfall;
+
+                            //Feed it to chart.
+                            chartRef.feedData(strData);
+
+                        }, 1000);
+                    }
+                }
+            });
+            fusioncharts.render();
+        });
+    </script>
+</body>
+
+</html>

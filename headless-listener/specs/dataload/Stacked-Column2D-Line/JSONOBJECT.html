@@ -1,0 +1,144 @@
+<html>
+	<head>        
+		<title>FusionCharts XT - listen to DrawComplete event</title>       
+		<script type="text/javascript" src="../../../fusioncharts/fusioncharts.js">
+		</script>
+			
+	</head>   
+	<body>     
+		<div id="chartContainer">FusionCharts XT will load here!</div>          
+		<script type="text/javascript"><!--  
+			
+			
+			var featureTestPass1 = false;
+			//var featureTestPass2 = false;
+			//FusionCharts.addEventListener("Initialized", myChartListener1);
+			  var objJSON = {
+    "chart": {
+        "palette": "2",
+        "caption": "Sales Chart",
+        "showvalues": "0",
+        "numberprefix": "$",
+        "pyaxisname": "Sales",
+        "syaxisname": "Quantity",
+        "animation": "0"
+    },
+    "categories": [
+        {
+            "category": [
+                {
+                    "label": "2001"
+                },
+                {
+                    "label": "2002"
+                },
+                {
+                    "label": "2003"
+                },
+                {
+                    "label": "2004"
+                },
+                {
+                    "label": "2005"
+                }
+            ]
+        }
+    ],
+    "dataset": [
+        {
+            "seriesname": "Product A",
+            "data": [
+                {
+                    "value": "25601"
+                },
+                {
+                    "value": "20148"
+                },
+                {
+                    "value": "17372"
+                },
+                {
+                    "value": "35407"
+                },
+                {
+                    "value": "38105"
+                }
+            ]
+        },
+        {
+            "seriesname": "Product B",
+            "data": [
+                {
+                    "value": "57401"
+                },
+                {
+                    "value": "41941"
+                },
+                {
+                    "value": "45263"
+                },
+                {
+                    "value": "117320"
+                },
+                {
+                    "value": "114845"
+                }
+            ]
+        },
+        {
+            "seriesname": "Quantity",
+            "renderas": "line",
+            "data": [
+                {
+                    "value": "45000"
+                },
+                {
+                    "value": "44803"
+                },
+                {
+                    "value": "42830"
+                },
+                {
+                    "value": "77550"
+                },
+                {
+                    "value": "92630"
+                }
+            ]
+        }
+    ]
+}
+    
+			  
+			//Chart setup code
+			var myChart = new FusionCharts({type: 'StackedColumn2DLine', width: '400', height: '300', debugMode: false, bgColor: 'ffff0f', renderAt: 'chartContainer', id: "myChartId", dataSource: objJSON, dataFormat: 'json', renderer: 'javascript'
+					});
+			
+			
+			FusionCharts.addEventListener("connectorAdded", myChartListener1);
+			
+			myChart.render();
+			
+			
+			function myChartListener1(eventObject, argumentsObject)
+			{
+			  
+			  var chart = eventObject.sender, // access the chart that raised this event
+			  caption = chart && chart.getChartAttribute('caption');
+			  var containertext = "";
+				
+				featureTestPass1 = true;
+				
+				featureTestPass1 = featureTestPass1 && (eventObject.sender.id == "myChartId");
+				
+				featureTestPass1 = featureTestPass1 && (eventObject.eventType == "connectoradded");
+				
+				 alert("ConnectorAdded Event has been triggered with attributes:" + argumentsObject.toSource());
+				
+			}
+			
+					  
+			// -->     
+		</script>      
+	</body> 
+	</html>

@@ -1,0 +1,1562 @@
+{
+    "RED-1920": {
+        "description": "plotBorderAlphafails to overwrite the plotFillAlpha",
+        "options": {
+            "type": "mscolumn2d",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "plotBorderAlpha": "100",
+                    "plotfillalpha": "30",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.8.0/ref-images/RED-1920-snapshot.png",
+        "id": "RED-1920"
+    },
+    "RED-1906": {
+        "description": "Spline charts need to render multiple data points of same value as lines and not splines",
+        "options": {
+            "type": "spline",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "minimizeTendency": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "0"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "0"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "0"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.8.0/ref-images/RED-1906-snapshot.png",
+        "id": "RED-1906"
+    },
+    "RED-1897": {
+        "description": "Support for square legend icon",
+        "options": {
+            "type": "mscolumn2d",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "animation": "0",
+                    "drawCustomLegendIcon": "1",
+                    "legendIconBorderColor": "#ff0000",
+                    "legendIconBgColor": "#cccccc",
+                    "legendIconAlpha": "70",
+                    "legendIconBgAlpha": "80",
+                    "legendIconSides": "5",
+                    "legendIconBorderThickness": "2",
+                    "legendIconStartAngle": "45"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "vline": "true"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.8.0/ref-images/RED-1897-snapshot.png",
+        "id": "RED-1897"
+    },
+    "RED-1896": {
+        "description": "In Pie2d, placeValuesInside is not a supported feature",
+        "options": {
+            "type": "pie2d",
+            "width": "450",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "showpercentagevalues": "1",
+                    "placevaluesinside": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.8.0/ref-images/RED-1896-snapshot.png",
+        "id": "RED-1896"
+    },
+    "RED-1896_2": {
+        "description": "In Pie2d, placeValuesInside is not a supported feature",
+        "options": {
+            "type": "multilevelpie",
+            "width": "450",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "2",
+                    "piefillalpha": "34",
+                    "pieborderthickness": "3",
+                    "hoverfillcolor": "FDCEDA",
+                    "piebordercolor": "FFFFFF",
+                    "basefontsize": "9",
+                    "usehovercolor": "1",
+                    "caption": "Organization Chart",
+                    "animation": "0"
+                },
+                "category": [
+                    {
+                        "label": "CEO",
+                        "fillcolor": "DBFF6C",
+                        "link": "n-Details.asp?CEO",
+                        "category": [
+                            {
+                                "label": "CTO",
+                                "fillcolor": "DBFF6C",
+                                "category": [
+                                    {
+                                        "label": "Proj. Manager",
+                                        "category": [
+                                            {
+                                                "label": "Design"
+                                            },
+                                            {
+                                                "label": "Coding"
+                                            },
+                                            {
+                                                "label": "Validate"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Q & A Manager",
+                                        "category": [
+                                            {
+                                                "label": "Testing Team"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Architect",
+                                        "category": [
+                                            {
+                                                "label": "Study"
+                                            },
+                                            {
+                                                "label": "Design"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "CFO",
+                                "fillcolor": "FBE299",
+                                "category": [
+                                    {
+                                        "label": "Payables",
+                                        "hovertext": "Accounts Payable Team",
+                                        "category": [
+                                            {
+                                                "label": "Salary",
+                                                "hovertext": "Team for salary accounts maintenance and upkeep"
+                                            },
+                                            {
+                                                "label": "Purchase"
+                                            },
+                                            {
+                                                "label": "Other",
+                                                "hovertext": "Other Payments"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Receivables",
+                                        "hovertext": "Accounts Receivables Team",
+                                        "category": [
+                                            {
+                                                "label": "SW1",
+                                                "hovertext": "Online Software Receipts Accounts"
+                                            },
+                                            {
+                                                "label": "SW2",
+                                                "hovertext": "Physical Software Receipts Accounts"
+                                            },
+                                            {
+                                                "label": "SER1",
+                                                "hovertext": "Services Collection"
+                                            },
+                                            {
+                                                "label": "SER2",
+                                                "hovertext": "Services Collection (Physical)"
+                                            },
+                                            {
+                                                "label": "OTR",
+                                                "hovertext": "Subscription and Other Collections"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "CIO",
+                                "fillcolor": "DAEDFC",
+                                "link": "Details.asp?CIO",
+                                "category": [
+                                    {
+                                        "label": "PR",
+                                        "hovertext": "PR Team",
+                                        "category": [
+                                            {
+                                                "label": "Packaging",
+                                                "hovertext": "Packaging Staff"
+                                            },
+                                            {
+                                                "label": "Inv Rel.",
+                                                "hovertext": "Investor Relations Upkeep"
+                                            },
+                                            {
+                                                "label": "Marketing",
+                                                "hovertext": "Marketing & Sales"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "HR",
+                                        "hovertext": "HR Team",
+                                        "category": [
+                                            {
+                                                "label": "Selection",
+                                                "hovertext": "Selection of Candidates"
+                                            },
+                                            {
+                                                "label": "Deploying",
+                                                "hovertext": "Deploying at required site"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.8.0/ref-images/RED-1896_2-snapshot.png",
+        "id": "RED-1896_2"
+    },
+    "RED-1881": {
+        "description": "Legend Icon in Zoomline chart should also provide anchor-less legend when anchors are hidden.",
+        "options": {
+            "type": "zoomline",
+            "width": "450",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Website Visitors",
+                    "subCaption": "Last week Vs This week",
+                    "xAxisName": "Day",
+                    "yAxisName": "No. of Visitors",
+                    "showValues": "0",
+                    "drawAnchors": "0",
+                    "divLineIsDashed": "0",
+                    "divlineAlpha": "50",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Mon"
+                            },
+                            {
+                                "label": "Tue"
+                            },
+                            {
+                                "label": "Wed"
+                            },
+                            {
+                                "label": "Thu"
+                            },
+                            {
+                                "label": "Fri"
+                            },
+                            {
+                                "label": "Sat"
+                            },
+                            {
+                                "label": "Sun"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Last Week",
+                        "drawanchors": "0",
+                        "data": [
+                            {
+                                "value": "13000"
+                            },
+                            {
+                                "value": "14500"
+                            },
+                            {
+                                "value": "13500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "15500"
+                            },
+                            {
+                                "value": "17650"
+                            },
+                            {
+                                "value": "19500"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "This Week",
+                        "data": [
+                            {
+                                "value": "15400"
+                            },
+                            {
+                                "value": "16800"
+                            },
+                            {
+                                "value": "18800"
+                            },
+                            {
+                                "value": "22400"
+                            },
+                            {
+                                "value": "23800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "30800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.8.0/ref-images/RED-1881-snapshot.png",
+        "id": "RED-1881"
+    },
+    "RED-1821": {
+        "description": "Line is going out of its value in the y-axis of MSCombiDy2D charts.",
+        "options": {
+            "type": "mscombidy2d",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "xaxisname": "Time (Hourly)",
+                    "pyaxisname": "Percentage (%)",
+                    "syaxisname": "COUNTS (#)",
+                    "numbersuffix": "%",
+                    "yaxisvaluesstep": "1",
+                    "adjustdiv": "0",
+                    "numdivlines": "10",
+                    "pyaxismaxvalue": "110",
+                    "syaxismaxvalue": "150",
+                    "animation": "0",
+                    "labelstep": "24",
+                    "showvalues": "0",
+                    "showsecondarylimits": "1",
+                    "anchoralpha": "0",
+                    "linecolor": "#FFBF00",
+                    "showlimits": "0",
+                    "pyaxisvaluedecimals": "0",
+                    "syaxisvaluedecimals": "0",
+                    "useplotgradientcolor": "0",
+                    "showLegend": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "25-Dec 00:00"
+                            },
+                            {
+                                "label": "25-Dec 00:15"
+                            },
+                            {
+                                "label": "25-Dec 00:30"
+                            },
+                            {
+                                "label": "25-Dec 00:45"
+                            },
+                            {
+                                "label": "25-Dec 01:00"
+                            },
+                            {
+                                "label": "25-Dec 01:15"
+                            },
+                            {
+                                "label": "25-Dec 01:30"
+                            },
+                            {
+                                "label": "25-Dec 01:45"
+                            },
+                            {
+                                "label": "25-Dec 02:00"
+                            },
+                            {
+                                "label": "25-Dec 02:15"
+                            },
+                            {
+                                "label": "25-Dec 02:30"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "SuccessPercentage(%)",
+                        "parentyaxis": "P",
+                        "renderas": "line",
+                        "color": "58a4e8",
+                        "data": [
+                            {
+                                "value": "78.57142857142857"
+                            },
+                            {
+                                "value": "100"
+                            },
+                            {
+                                "value": "100"
+                            },
+                            {
+                                "value": "100"
+                            },
+                            {
+                                "value": "47.05882352941176"
+                            },
+                            {
+                                "value": "30"
+                            },
+                            {
+                                "value": "100"
+                            },
+                            {
+                                "value": "57.14285714285714"
+                            },
+                            {
+                                "value": "33.33333333333333"
+                            },
+                            {
+                                "value": "22.22222222222222"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "ATT INTER ENB HO(#)",
+                        "parentyaxis": "S",
+                        "renderas": "line",
+                        "color": "d95be6",
+                        "data": [
+                            {
+                                "value": "56"
+                            },
+                            {
+                                "value": "29"
+                            },
+                            {
+                                "value": "15"
+                            },
+                            {
+                                "value": "4"
+                            },
+                            {
+                                "value": "17"
+                            },
+                            {
+                                "value": "10"
+                            },
+                            {
+                                "value": "0"
+                            },
+                            {
+                                "value": "14"
+                            },
+                            {
+                                "value": "3"
+                            },
+                            {
+                                "value": "9"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.8.0/ref-images/RED-1821-snapshot.png",
+        "id": "RED-1821"
+    },
+    "RED-1819": {
+        "description": "Scatter Chart's points disappear when 'showRegressionLine' is set to 1.",
+        "options": {
+            "type": "scatter",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "anchorradius": "5",
+                    "anchorbordercolor": "ff0000",
+                    "anchorbgcolor": "00ff00",
+                    "xaxismaxvalue": "100",
+                    "xaxisminvalue": "20",
+                    "animation": "0"
+                },
+                "dataset": [
+                    {
+                        "showregressionline": "1",
+                        "data": [
+                            {
+                                "y": "2.4000",
+                                "x": "1404954989"
+                            },
+                            {
+                                "y": "8.6000",
+                                "x": "1404954989"
+                            },
+                            {
+                                "y": "212.5000",
+                                "x": "1404954989"
+                            },
+                            {
+                                "y": "472.8000",
+                                "x": "1404954989"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.8.0/ref-images/RED-1819-snapshot.png",
+        "id": "RED-1819"
+    },
+    "RED-1816": {
+        "description": "Line chart anchor gets hidden when scroll gets enabled for scrollcombidy2d chart",
+        "options": {
+            "type": "scrollcombidy2d",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Revenues and Profits",
+                    "subcaption": "(FY 2012 to FY 2013)",
+                    "captionfontsize": "14",
+                    "subcaptionfontsize": "14",
+                    "subcaptionfontbold": "0",
+                    "xaxisname": "Month",
+                    "pyaxisname": "Amount (In USD)",
+                    "syaxisname": "Profit %",
+                    "numberprefix": "$",
+                    "snumbersuffix": "%",
+                    "syaxismaxvalue": "50",
+                    "palettecolors": "#0075c2,#1aaf5d,#f2c500",
+                    "showalternatehgridcolor": "0",
+                    "showplotborder": "0",
+                    "useplotgradientcolor": "0",
+                    "basefontcolor": "#333333",
+                    "basefont": "Helvetica Neue,Arial",
+                    "showborder": "0",
+                    "bgcolor": "#ffffff",
+                    "showshadow": "0",
+                    "canvasbgcolor": "#ffffff",
+                    "showcanvasborder": "1",
+                    "legendborderalpha": "0",
+                    "legendshadow": "0",
+                    "showvalues": "1",
+                    "divlinealpha": "100",
+                    "divlinecolor": "#999999",
+                    "divlinethickness": "1",
+                    "divlinedashed": "1",
+                    "divlinedashlen": "1",
+                    "divlinegaplen": "1",
+                    "numvisibleplot": "12",
+                    "flatscrollbars": "1",
+                    "scrollheight": "10",
+                    "pyaxismaxvalue": "26000",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan 2012"
+                            },
+                            {
+                                "label": "Feb 2012"
+                            },
+                            {
+                                "label": "Mar 2012"
+                            },
+                            {
+                                "label": "Apr 2012"
+                            },
+                            {
+                                "label": "May 2012"
+                            },
+                            {
+                                "label": "Jun 2012"
+                            },
+                            {
+                                "label": "Jul 2012"
+                            },
+                            {
+                                "label": "Aug 2012"
+                            },
+                            {
+                                "label": "Sept 2013"
+                            },
+                            {
+                                "label": "Oct 2013"
+                            },
+                            {
+                                "label": "Nov 2013"
+                            },
+                            {
+                                "label": "Dec 2013"
+                            },
+                            {
+                                "label": "Jul 2012"
+                            },
+                            {
+                                "label": "Aug 2012"
+                            },
+                            {
+                                "label": "Sept 2013"
+                            },
+                            {
+                                "label": "Oct 2013"
+                            },
+                            {
+                                "label": "Nov 2013"
+                            },
+                            {
+                                "label": "Dec 2013"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Revenue",
+                        "anchorsides": "4",
+                        "anchorbgcolor": "#6600CC",
+                        "anchorradius": "6",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": "16000"
+                            },
+                            {
+                                "value": "26000"
+                            },
+                            {
+                                "value": "26000"
+                            },
+                            {
+                                "value": "19000"
+                            },
+                            {
+                                "value": "26000"
+                            },
+                            {
+                                "value": "21000"
+                            },
+                            {
+                                "value": "16000"
+                            },
+                            {
+                                "value": "16000"
+                            },
+                            {
+                                "value": "26000"
+                            },
+                            {
+                                "value": "26000"
+                            },
+                            {
+                                "value": "19000"
+                            },
+                            {
+                                "value": "26000"
+                            },
+                            {
+                                "value": "21000"
+                            },
+                            {
+                                "value": "16000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Profit",
+                        "renderas": "line",
+                        "parentyaxis": "P",
+                        "data": [
+                            {
+                                "value": "4000"
+                            },
+                            {
+                                "value": "5000"
+                            },
+                            {
+                                "value": "3000"
+                            },
+                            {
+                                "value": "4000"
+                            },
+                            {
+                                "value": "1000"
+                            },
+                            {
+                                "value": "7000"
+                            },
+                            {
+                                "value": "1000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesName": "Profit %",
+                        "parentYAxis": "S",
+                        "renderAs": "line",
+                        "showValues": "0",
+                        "data": [
+                            {
+                                "value": "25"
+                            },
+                            {
+                                "value": "25"
+                            },
+                            {
+                                "value": "16.66"
+                            },
+                            {
+                                "value": "21.05"
+                            },
+                            {
+                                "value": "6.66"
+                            },
+                            {
+                                "value": "33.33"
+                            },
+                            {
+                                "value": "6.25"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.8.0/ref-images/RED-1816-snapshot.png",
+        "id": "RED-1816"
+    },
+    "RED-1736": {
+        "description": "Smart Label- When there is a '/' character in the string, the calculated width is incorrect.",
+        "options": {
+            "type": "doughnut2d",
+            "width": "450",
+            "height": "480",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "labelstep": "1",
+                    "showborder": "0",
+                    "plotfillratio": "100",
+                    "plotgradientcolor": "",
+                    "canvasborderalpha": "0",
+                    "bgcolor": "FFFFFF",
+                    "formatnumberscale": "0",
+                    "decimalseparator": ",",
+                    "thousandseparator": " ",
+                    "numbersuffix": " €",
+                    "showpercentagevalues": "1",
+                    "startingangle": "90",
+                    "showzeropies": "0",
+                    "pieradius": "80",
+                    "use3dlighting": "0",
+                    "doughnutradius": "44",
+                    "showshadow": "0",
+                    "decimals": "0",
+                    "basefont": "Tahoma,sans-serif",
+                    "basefontsize": "11",
+                    "basefontcolor": "000",
+                    "slicingdistance": "20",
+                    "showlabels": "0",
+                    "showlegend": "1",
+                    "legendposition": "BOTTOM",
+                    "bgalpha": "0",
+                    "legendborderalpha": "0",
+                    "legendbgalpha": "25",
+                    "legendiconscale": "1",
+                    "legendbordercolor": "D2B3D7",
+                    "legendborderthickness": "2",
+                    "reverselegend": "1",
+                    "tooltipbgcolor": "FFF",
+                    "animation": "0",
+                    "showplotborder": "0",
+                    "minimisewrappinginlegend": "1",
+                    "legendcaption": " "
+                },
+                "data": [
+                    {
+                        "value": "0.79",
+                        "label": "Autres biens : 32 000 €",
+                        "color": "E0E0E0",
+                        "tooltext": "Autres biens : 32 000 €",
+                        "issliced": "0"
+                    },
+                    {
+                        "value": "6.12",
+                        "label": "Epargne immobilière : 246 500 €",
+                        "color": "BCD76E",
+                        "tooltext": "Epargne immobilière : 246 500 €",
+                        "issliced": "0"
+                    },
+                    {
+                        "value": "74.48",
+                        "label": "Résidence principale / secondaire(s) : 3 000 000 €",
+                        "color": "90BC0D",
+                        "tooltext": "Résidence principale / secondaire(s) : 3 000 000 €",
+                        "issliced": "0"
+                    },
+                    {
+                        "value": "6.21",
+                        "label": "Biens professionnels : 250 000 €",
+                        "color": "D2B3D7",
+                        "tooltext": "Biens professionnels : 250 000 €",
+                        "issliced": "0"
+                    },
+                    {
+                        "value": "12.4",
+                        "label": "Avoirs financiers : 499 469 €",
+                        "color": "8E419C",
+                        "tooltext": "Avoirs financiers : 499 469 €",
+                        "issliced": "0"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.8.0/ref-images/RED-1736-snapshot.png",
+        "id": "RED-1736"
+    },
+    "RED-1217": {
+        "description": "Data point in Bubble chart disappears for relatively small data value and low chart dimensions.",
+        "options": {
+            "type": "bubble",
+            "width": "250",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "From 06/01/2013 To 01/01/2014",
+                    "showvalues": "0",
+                    "xaxisname": "Unit of Sales   Bubble size is proportional to Revenue",
+                    "yaxisname": "Accuracy (%)",
+                    "minBubbleRadius": "2",
+                    "animation": "0"
+                },
+                "categories": [
+                    {}
+                ],
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "y": "67.44782940055589",
+                                "tooltext": "TELEVISION ($139,881,600)",
+                                "color": "8cc221",
+                                "x": "3238.0",
+                                "z": "90",
+                                "name": "TELEVISION"
+                            },
+                            {
+                                "y": "33.02158250656565",
+                                "tooltext": "MONITORS ($594,000)",
+                                "color": "8cc221",
+                                "x": "3960.0",
+                                "z": "1",
+                                "name": "MONITORS"
+                            },
+                            {
+                                "y": "31.319131647999995",
+                                "tooltext": "TEST ($250,000)",
+                                "color": "8cc221",
+                                "x": "2500.0",
+                                "z": "0.05",
+                                "name": "TEST "
+                            },
+                            {
+                                "y": "70.25430910454757",
+                                "tooltext": "LED ($464,529,600)",
+                                "color": "e03d0b",
+                                "x": "10753.0",
+                                "z": "100",
+                                "name": "LED"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.8.0/ref-images/RED-1217-snapshot.png",
+        "id": "RED-1217"
+    },
+    "RED-1911": {
+        "description": "We should have attributes to configure the trendline texts.",
+        "options": {
+            "type": "spline",
+            "width": "350",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Total footfall in Bakersfield Central",
+                    "subCaption": "Last week",
+                    "xAxisName": "Day",
+                    "yAxisName": "No. of Visitors",
+                    "paletteColors": "#008ee4",
+                    "bgAlpha": "0",
+                    "borderAlpha": "20",
+                    "canvasBorderAlpha": "0",
+                    "plotBorderAlpha": "10",
+                    "captionpadding": "20",
+                    "showXAxisLines": "1",
+                    "axisLineAlpha": "25",
+                    "divLineAlpha": "10",
+                    "showValues": "0",
+                    "showAlternateHGridColor": "0",
+                    "trendValueFont": "arial",
+                    "trendValueFontSize": "15",
+                    "trendValueFontBold": "1",
+                    "trendValueFontItalic": "1",
+                    "trendValueBgColor": "#330000",
+                    "trendValueBorderColor": "#000000",
+                    "trendValueBgAlpha": "60",
+                    "trendValueBorderAlpha": "60",
+                    "trendValueBorderPadding": "5",
+                    "trendValueBorderRadius": "5",
+                    "trendValueBorderThickness": "2",
+                    "trendValueBorderDashed": "1",
+                    "trendValueBorderDashLen": "6",
+                    "trendValueBorderDashGap": "5",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Mon",
+                        "value": "15123"
+                    },
+                    {
+                        "label": "Tue",
+                        "value": "14233"
+                    },
+                    {
+                        "label": "Wed",
+                        "value": "25507"
+                    },
+                    {
+                        "label": "Thu",
+                        "value": "9110"
+                    },
+                    {
+                        "label": "Fri",
+                        "value": "15529"
+                    },
+                    {
+                        "label": "Sat",
+                        "value": "20803"
+                    },
+                    {
+                        "label": "Sun",
+                        "value": "19202"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "15000",
+                                "valueonright": "1",
+                                "tooltext": "NILADRI",
+                                "color": "009933",
+                                "displayvalue": "Target",
+                                "showontop": "1",
+                                "thickness": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.8.0/ref-images/RED-1911-snapshot.png",
+        "id": "RED-1911"
+    },
+    "RED-1790": {
+        "description": "Auto y-axis value stepping to reduce label overlapping is not working when 'setadaptiveymin' is set as '1'.",
+        "options": {
+            "type": "mscolumn2d",
+            "width": "350",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales Volume",
+                    "pyaxisname": "Revenue",
+                    "syaxisname": "Quantity",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "animation": "0",
+                    "setadaptiveymin": "1",
+                    "basefontsize": "20",
+                    "yaxismaxvalue": "100",
+                    "numdivlines": "10"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Revenue",
+                        "data": [
+                            {
+                                "value": "82"
+                            },
+                            {
+                                "value": "82"
+                            },
+                            {
+                                "value": "82"
+                            },
+                            {
+                                "value": "91"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Profit %",
+                        "showvalues": "0",
+                        "data": [
+                            {
+                                "value": "82"
+                            },
+                            {
+                                "value": "82"
+                            },
+                            {
+                                "value": "82"
+                            },
+                            {
+                                "value": "91"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.8.0/ref-images/RED-1790-snapshot.png",
+        "id": "RED-1790"
+    },
+    "RED-1073": {
+        "description": "Widget-scale space-management should auto skip labels to reduce overlapping.",
+        "options": {
+            "type": "hlineargauge",
+            "width": "180",
+            "height": "100",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "lowerlimit": "0",
+                    "upperlimit": "99999999",
+                    "showvalue": "1",
+                    "showtickvalues": "1",
+                    "tickvaluedistance": "10",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "22222222",
+                            "code": "FF654F"
+                        },
+                        {
+                            "minvalue": "22222222",
+                            "maxvalue": "66666666",
+                            "code": "F6BD0F"
+                        },
+                        {
+                            "minvalue": "66666666",
+                            "maxvalue": "99999999",
+                            "code": "8BBA00"
+                        }
+                    ]
+                },
+                "pointers": {
+                    "pointer": [
+                        {
+                            "value": "75845834"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.8.0/ref-images/RED-1073-snapshot.png",
+        "id": "RED-1073"
+    },
+    "RED-NO-ID": {
+        "description": "In Gantt chart, category column scroll behavior breaks and column border of Gantt chart overlaps legend at bottom",
+        "options": {
+            "type": "gantt",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "mm/dd/yyyy",
+                    "ganttpaneduration": "4",
+                    "ganttpanedurationunit": "m",
+                    "rowheight": "70",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "02/01/2007",
+                                "end": "09/01/2007",
+                                "label": "Categories"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "process": [
+                        {
+                            "label": "Identify Customers"
+                        },
+                        {
+                            "label": "Survey 50 Customers"
+                        },
+                        {
+                            "label": "Interpret Requirements"
+                        },
+                        {
+                            "label": "Study Competition"
+                        },
+                        {
+                            "label": "Documentation of features"
+                        }
+                    ]
+                },
+                "datatable": {
+                    "datacolumn": [
+                        {
+                            "text": [
+                                {
+                                    "label": "DataTable 1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "tasks": {
+                    "task": [
+                        {
+                            "start": "02/04/2007",
+                            "end": "02/10/2007"
+                        },
+                        {
+                            "start": "02/24/2007",
+                            "end": "03/02/2007"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.8.0/ref-images/RED-NO-ID-snapshot.png",
+        "id": "RED-1073"
+    }
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitieal//EN">
+<html>
+
+<head>
+    <title>Problem in exporting XLS</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="fusioncharts/fusioncharts.js"></script>
+
+
+</head>
+
+<body>
+    <a href="https://fusioncharts.jira.com/browse/RED-5658">RED-5658</a>
+    <div>Blank XLS is exported after using setChartAttribute().</div>
+    <div id="chart-container">FusionCharts will render here</div>
+    <button onclick="revenueChart.setChartAttribute('showTooltip', 0);">revenueChart.setChartAttribute('showTooltip', 0);</button>
+    <script type="text/javascript">
+        FusionCharts.ready(function () {
+            revenueChart = new FusionCharts({
+                type: 'msColumn2d',
+                renderAt: 'chart-container',
+                width: '550',
+                height: '350',
+                dataFormat: 'json',
+                // events: {
+                //     "dataPlotClick": function (eventObj, dataObj) {
+                //         revenueChart.setChartAttribute("showTooltip", "0");
+                //     },
+                //     "dataPlotRollOut": function (eventObj, dataObj) {
+                //         revenueChart.setChartAttribute("showTooltip", "1");
+                //     }
+                // },
+                dataSource: {
+                    "chart": {
+                        "caption": "Attrition/Exit Analysis Report",
+                        "xaxisname": "City",
+                        "yaxisname": "Emp. Count ",
+                        "exportEnabled": "1"
+                    },
+                    "categories": [{
+                        "category": [{
+                                "label": "SARAIKELA"
+                            },
+                            {
+                                "label": "BULANDSHAHR"
+                            },
+                            {
+                                "label": "DARBHANGA"
+                            },
+                            {
+                                "label": "TUNDLA"
+                            },
+                            {
+                                "label": "UDAIPUR"
+                            }
+                        ]
+                    }],
+                    "dataset": [{
+                        "color": "#f8bd19",
+                        "seriesname": "HeadCount",
+                        "data": [{
+                                "value": "1"
+                            },
+                            {
+                                "value": "14"
+                            },
+                            {
+                                "value": "6"
+                            },
+                            {
+                                "value": "11"
+                            },
+                            {
+                                "value": "36"
+                            }
+                        ]
+                    }]
+                }
+            });
+
+            revenueChart.render();
+        });
+    </script>
+</body>
+
+</html>

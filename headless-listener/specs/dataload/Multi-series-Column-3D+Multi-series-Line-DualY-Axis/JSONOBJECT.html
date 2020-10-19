@@ -1,0 +1,219 @@
+	<html>
+	<head>        
+		<title>FusionCharts XT - listen to DrawComplete event</title>       
+		<script type="text/javascript" src="../../../fusioncharts/fusioncharts.js">
+		</script>
+			
+	</head>   
+	<body>     
+		<div id="chartContainer">FusionCharts XT will load here!</div>          
+		<script type="text/javascript"><!--  
+			
+					
+			//Flag for our test writer
+			//By default assume that feature has failed.
+			var featureTestPass1 = false;
+			//var featureTestPass2 = false;
+			//FusionCharts.addEventListener("Initialized", myChartListener1);
+			  var objJSON = {
+    "chart": {
+        "caption": "Product Sales & Downloads",
+        "showvalues": "1",
+        "pyaxisname": "Sales",
+        "syaxisname": "Total Downloads",
+        "animation": "0"
+    },
+    "categories": [
+        {
+            "category": [
+                {
+                    "label": "Jan"
+                },
+                {
+                    "label": "Feb"
+                },
+                {
+                    "label": "Mar"
+                },
+                {
+                    "label": "Apr"
+                },
+                {
+                    "label": "May"
+                },
+                {
+                    "label": "Jun"
+                },
+                {
+                    "label": "Jul"
+                },
+                {
+                    "label": "Aug"
+                },
+                {
+                    "label": "Sep"
+                },
+                {
+                    "label": "Oct"
+                },
+                {
+                    "label": "Nov"
+                },
+                {
+                    "label": "Dec"
+                }
+            ]
+        }
+    ],
+    "dataset": [
+        {
+            "seriesname": "Product A Sales",
+            "data": [
+                {
+                    "value": "230"
+                },
+                {
+                    "value": "245"
+                },
+                {
+                    "value": "250"
+                },
+                {
+                    "value": "245"
+                },
+                {
+                    "value": "350"
+                },
+                {
+                    "value": "330"
+                },
+                {
+                    "value": "360"
+                },
+                {
+                    "value": "340"
+                },
+                {
+                    "value": "230"
+                },
+                {
+                    "value": "220"
+                },
+                {
+                    "value": "200"
+                },
+                {
+                    "value": "190"
+                }
+            ]
+        },
+        {
+            "seriesname": "Product B Sales",
+            "data": [
+                {
+                    "value": "130"
+                },
+                {
+                    "value": "145"
+                },
+                {
+                    "value": "50"
+                },
+                {
+                    "value": "115"
+                },
+                {
+                    "value": "190"
+                },
+                {
+                    "value": "130"
+                },
+                {
+                    "value": "160"
+                },
+                {
+                    "value": "140"
+                },
+                {
+                    "value": "130"
+                },
+                {
+                    "value": "120"
+                },
+                {
+                    "value": "140"
+                },
+                {
+                    "value": "80"
+                }
+            ]
+        },
+        {
+            "seriesname": "Total Downloads",
+            "parentyaxis": "S",
+            "data": [
+                {
+                    "value": "13000"
+                },
+                {
+                    "value": "14500"
+                },
+                {
+                    "value": "5000"
+                },
+                {
+                    "value": "11500"
+                },
+                {
+                    "value": "10000"
+                },
+                {
+                    "value": "13000"
+                },
+                {
+                    "value": "16000"
+                },
+                {
+                    "value": "14000"
+                },
+                {
+                    "value": "13000"
+                },
+                {
+                    "value": "12000"
+                },
+                {
+                    "value": "9000"
+                },
+                {
+                    "value": "10000"
+                }
+            ]
+        }
+    ],
+    "trendlines": [
+        {
+            "line": [
+                {
+                    "startvalue": "300",
+                    "color": "91C728",
+                    "displayvalue": "Target",
+                    "showontop": "1"
+                }
+            ]
+        }
+    ]
+};
+			  
+			//Chart setup code
+			var myChart = new FusionCharts({type: 'MSColumn3DLineDY', width: '400', height: '300', debugMode: false, bgColor: 'ffff0f', renderAt: 'chartContainer', id: "myChartId", dataSource: objJSON, dataFormat: 'json', renderer: 'javascript'
+					});
+			
+			
+			myChart.render();
+			
+				  
+			// -->     
+		</script>      
+	</body> 
+	</html>

@@ -1,0 +1,392 @@
+{
+    "powercharts-multilevel-pie-charts-multi-level-pie-chart-ppc-campaign-analysis": {
+        "description": "Multi-Level Pie Chart: PPC Campaign Analysis",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Adwords Snapshot",
+                    "bgcolor": "FFFFFF",
+                    "pieborderthickness": "2",
+                    "piebordercolor": "FFFFFF",
+                    "basefontsize": "9",
+                    "usehovercolor": "1",
+                    "hover": "CCCCCC",
+                    "showlabels": "1",
+                    "showvalue": "1",
+                    "showvalueintooltip": "1",
+                    "hoverfillcolor": "CCCCCC",
+                    "showBorder": "0",
+                    "animation": "0"
+                },
+                "category": [
+                    {
+                        "label": "Adwords Clicks",
+                        "color": "FFFFFF",
+                        "alpha": "20",
+                        "category": [
+                            {
+                                "label": "Development",
+                                "value": "41",
+                                "color": "33bdda",
+                                "category": [
+                                    {
+                                        "label": "PHP",
+                                        "value": "15",
+                                        "color": "33bdda"
+                                    },
+                                    {
+                                        "label": "ASP.NET",
+                                        "value": "12",
+                                        "color": "33bdda"
+                                    },
+                                    {
+                                        "label": "RoR",
+                                        "value": "8",
+                                        "color": "33bdda"
+                                    },
+                                    {
+                                        "label": "JSP",
+                                        "value": "6",
+                                        "color": "33bdda"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Design",
+                                "value": "54",
+                                "color": "6baa01",
+                                "category": [
+                                    {
+                                        "label": "Templates",
+                                        "value": "18",
+                                        "color": "6baa01"
+                                    },
+                                    {
+                                        "label": "Banners",
+                                        "value": "27",
+                                        "color": "6baa01"
+                                    },
+                                    {
+                                        "label": "Brochures",
+                                        "value": "9",
+                                        "color": "6baa01"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Marketing",
+                                "value": "25",
+                                "color": "f8bd19",
+                                "category": [
+                                    {
+                                        "label": "SEO",
+                                        "value": "18",
+                                        "color": "f8bd19"
+                                    },
+                                    {
+                                        "label": "PRs",
+                                        "value": "7",
+                                        "color": "f8bd19"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "width": "500",
+            "height": "500",
+            "type": "multilevelpie"
+        },
+        "id": "powercharts-multilevel-pie-charts-multi-level-pie-chart-ppc-campaign-analysis"
+    },
+    "powercharts-multilevel-pie-charts-multi-level-pie-chart-organization-chart": {
+        "description": "Multi-Level Pie Chart: Organization Chart",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Organization Chart",
+                    "bgcolor": "FFFFFF",
+                    "pieborderthickness": "2",
+                    "piebordercolor": "FFFFFF",
+                    "basefontsize": "9",
+                    "usehovercolor": "1",
+                    "hoverfillcolor": "CCCCCC",
+                    "showlabels": "1",
+                    "showvalue": "1",
+                    "showvalueintooltip": "1",
+                    "showBorder": "0",
+                    "animation": "0"
+                },
+                "category": [
+                    {
+                        "label": "CEO",
+                        "hovertext": "Chief Technology Officer{br}Mr. Lucas Smith{br}Joined: 1988{br}More details can come here...",
+                        "color": "#FFFFFF",
+                        "link": "n-http://www.fusioncharts.com/company/team/",
+                        "category": [
+                            {
+                                "label": "CTO",
+                                "hovertext": "Chief Technology Officer{br}Mr. Ed Harley{br}Joined: 1988",
+                                "color": "#69a8ff",
+                                "link": "n-http://www.fusioncharts.com/company/team/",
+                                "category": [
+                                    {
+                                        "label": "Proj. Manager",
+                                        "hovertext": "Project Manager{br}Mr. Daniel Edwards",
+                                        "color": "#69a8ff",
+                                        "category": [
+                                            {
+                                                "label": "Design",
+                                                "hovertext": "Design Team{br}Akhil Dhanuka{br}Atrayee{br}Samit Basak",
+                                                "color": "#69a8ff"
+                                            },
+                                            {
+                                                "label": "Coding",
+                                                "hovertext": "Coding Team{br}Sanket Kumar{br}Folko{br}George Baker{br}Andrew Hall{br}Chris Schofield ",
+                                                "color": "#69a8ff"
+                                            },
+                                            {
+                                                "label": "Validate",
+                                                "hovertext": "Validation Team{br} Raju Sharma {br}Ravi Srivastav ",
+                                                "color": "#69a8ff"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Q & A Manager",
+                                        "hovertext": "Q & A Manager{br}Mr. Lee Chong",
+                                        "color": "#69a8ff",
+                                        "category": [
+                                            {
+                                                "label": "Testing Team",
+                                                "hovertext": "Testing Team{br} Nik Arora {br}Jee Chou",
+                                                "color": "#69a8ff"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Architect",
+                                        "hovertext": "System Architecture Manager{br}Mr. Rajiv Kumar",
+                                        "color": "#69a8ff",
+                                        "category": [
+                                            {
+                                                "label": "Study",
+                                                "hovertext": "System Requirement Study Team{br} Raju Sharma {br}Ravi Srivastav",
+                                                "color": "#69a8ff"
+                                            },
+                                            {
+                                                "label": "Design",
+                                                "hovertext": "Design Team{br} Raju Sharma {br}Ravi Srivastav {br}Robin Smith {br}Harry Tofel",
+                                                "color": "#69a8ff"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "CFO",
+                                "hovertext": "Chief Financial Officer{br}Mr. John Smith{br}Joined: 1987",
+                                "color": "#6fc9ff",
+                                "link": "n-http://www.fusioncharts.com/company/team/",
+                                "category": [
+                                    {
+                                        "label": "Payables",
+                                        "hovertext": "Accounts Payable Team",
+                                        "color": "#6fc9ff",
+                                        "category": [
+                                            {
+                                                "label": "Salary",
+                                                "hovertext": "Team for salary accounts maintenance and upkeep",
+                                                "color": "#6fc9ff"
+                                            },
+                                            {
+                                                "label": "Purchase",
+                                                "hovertext": "Team for accounting of  purchase of S/w and goods",
+                                                "color": "#6fc9ff"
+                                            },
+                                            {
+                                                "label": "Other",
+                                                "hovertext": "Other Payments",
+                                                "color": "#6fc9ff"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Receivables",
+                                        "hovertext": "Accounts Receivables Team",
+                                        "color": "#6fc9ff",
+                                        "category": [
+                                            {
+                                                "label": "SW1",
+                                                "hovertext": "Online Software Receipts Accounts",
+                                                "color": "#6fc9ff"
+                                            },
+                                            {
+                                                "label": "SW2",
+                                                "hovertext": "Physical Software Receipts Accounts",
+                                                "color": "#6fc9ff"
+                                            },
+                                            {
+                                                "label": "SER1",
+                                                "hovertext": "Services Collection",
+                                                "color": "#6fc9ff"
+                                            },
+                                            {
+                                                "label": "SER2",
+                                                "hovertext": "Services Collection (Physical)",
+                                                "color": "#6fc9ff"
+                                            },
+                                            {
+                                                "label": "OTR",
+                                                "hovertext": "Subscription and Other Collections",
+                                                "color": "#6fc9ff"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "CIO",
+                                "hovertext": "Chief Information Officer{br}Mr. David Brown{br}Joined: 1992",
+                                "color": "#6b8dee",
+                                "link": "n-http://www.fusioncharts.com/company/team/",
+                                "category": [
+                                    {
+                                        "label": "PR",
+                                        "hovertext": "PR Team",
+                                        "color": "#6b8dee",
+                                        "category": [
+                                            {
+                                                "label": "Packaging",
+                                                "hovertext": "Packaging Staff",
+                                                "color": "#6b8dee"
+                                            },
+                                            {
+                                                "label": "Inv Rel.",
+                                                "hovertext": "Investor Relations Upkeep",
+                                                "color": "#6b8dee"
+                                            },
+                                            {
+                                                "label": "Marketing",
+                                                "hovertext": "Marketing & Sales",
+                                                "color": "#6b8dee"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "HR",
+                                        "hovertext": "HR Team",
+                                        "color": "#6b8dee",
+                                        "category": [
+                                            {
+                                                "label": "Selection",
+                                                "hovertext": "Selection of Candidates",
+                                                "color": "#6b8dee"
+                                            },
+                                            {
+                                                "label": "Deploying",
+                                                "hovertext": "Deploying at required site",
+                                                "color": "#6b8dee"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "width": "600",
+            "height": "600",
+            "type": "multilevelpie"
+        },
+        "id": "powercharts-multilevel-pie-charts-multi-level-pie-chart-organization-chart"
+    },
+    "powercharts-multilevel-pie-charts-multi-level-pie-chart": {
+        "description": "Multi-Level Pie Chart: Friend List",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "1",
+                    "piefillalpha": "24",
+                    "hoverfillcolor": "EEEEEE",
+                    "plotbordercolor": "CCCCCC",
+                    "showplotborder": "1",
+                    "basefontsize": "9",
+                    "usehovercolor": "1",
+                    "showlabels": "1",
+                    "caption": "Tom's Friend List",
+                    "showBorder": "0",
+                    "animation": "0"
+                },
+                "category": [
+                    {
+                        "label": "Friends",
+                        "category": [
+                            {
+                                "label": "His Friends",
+                                "value": "10",
+                                "category": [
+                                    {
+                                        "label": "Best Friends",
+                                        "hovertext": "Lorraine Allen Hughes{br}Glenda Mason{br}Peter Charles{br}Akhil Dhanuka"
+                                    },
+                                    {
+                                        "label": "Good Friends",
+                                        "hovertext": "Patrick Xavier{br}Claire Taylor{br}Rebecca Coggins{br}Kate Finning"
+                                    },
+                                    {
+                                        "label": "friends",
+                                        "hovertext": "Candy Ashbury{br}Marlene Greenwood-Streeter{br}Ruth Bahnuik{br}Cathy Daly "
+                                    },
+                                    {
+                                        "label": "Acquaintances",
+                                        "hovertext": "Lucille Grading{br}Garry Brookes{br}Joan Borrowscale{br}Ann Kavanagh "
+                                    },
+                                    {
+                                        "label": "haven't met",
+                                        "hovertext": "Blanche Charles{br}Alan Hamer{br}Rosalind Dunning{br}Edna Ellis "
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Our Mutual Friends",
+                                "value": "5",
+                                "category": [
+                                    {
+                                        "label": "Best Friends",
+                                        "hovertext": "John Beddows{br}Susan Mills{br}Mike Parker{br}Claire Taylor"
+                                    },
+                                    {
+                                        "label": "Good Friends",
+                                        "hovertext": "Sue Weighell{br}Ruth Bahnuik{br}Janice Deverick{br}Gwen Walker"
+                                    },
+                                    {
+                                        "label": "friends",
+                                        "hovertext": "Barbara Barker{br}Janet Sorfleet{br}Joan Jones{br}Carol Patricia Nichols"
+                                    },
+                                    {
+                                        "label": "Acquaintances",
+                                        "hovertext": "William Marner{br}Lindsay Harwood{br}Milton Gray{br}Tony Houghton "
+                                    },
+                                    {
+                                        "label": "haven't met",
+                                        "hovertext": "Susan Curtis{br}Ian Holland{br}Margaret Mckeown{br}Vivian Simmonds"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "width": "540",
+            "height": "520",
+            "type": "multilevelpie"
+        },
+        "id": "powercharts-multilevel-pie-charts-multi-level-pie-chart"
+    }
+}

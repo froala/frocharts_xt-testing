@@ -1,0 +1,3141 @@
+{
+    "fusionwidgets-gantt-charts-gantt-chart-connector-milestones-task-bars": {
+        "description": "Gantt Chart with connectors, milestones and rounded task bars",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showtasknames": "1",
+                    "dateformat": "dd/mm/yyyy",
+                    "tooltextbgcolor": "FFFFFF",
+                    "tooltextbordercolor": "333333",
+                    "ganttlinecolor": "99CC00",
+                    "ganttlinealpha": "20",
+                    "basefontcolor": "333333",
+                    "gridbordercolor": "99CC00",
+                    "taskbarroundradius": "4",
+                    "showshadow": "0",
+                    "showBorder": "0",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "bgcolor": "333333",
+                        "fontcolor": "99cc00",
+                        "isbold": "1",
+                        "fontsize": "14",
+                        "category": [
+                            {
+                                "start": "1/9/2005",
+                                "end": "31/12/2005",
+                                "name": "2005"
+                            },
+                            {
+                                "start": "1/1/2006",
+                                "end": "31/7/2006",
+                                "name": "2006"
+                            }
+                        ]
+                    },
+                    {
+                        "bgcolor": "99cc00",
+                        "bgalpha": "40",
+                        "fontcolor": "333333",
+                        "align": "center",
+                        "fontsize": "10",
+                        "isbold": "1",
+                        "category": [
+                            {
+                                "start": "1/9/2005",
+                                "end": "30/9/2005",
+                                "name": "Sep"
+                            },
+                            {
+                                "start": "1/10/2005",
+                                "end": "31/10/2005",
+                                "name": "Oct"
+                            },
+                            {
+                                "start": "1/11/2005",
+                                "end": "30/11/2005",
+                                "name": "Nov"
+                            },
+                            {
+                                "start": "1/12/2005",
+                                "end": "31/12/2005",
+                                "name": "Dec"
+                            },
+                            {
+                                "start": "1/1/2006",
+                                "end": "31/1/2006",
+                                "name": "Jan"
+                            },
+                            {
+                                "start": "1/2/2006",
+                                "end": "28/2/2006",
+                                "name": "Feb"
+                            },
+                            {
+                                "start": "1/3/2006",
+                                "end": "31/3/2006",
+                                "name": "March"
+                            },
+                            {
+                                "start": "1/4/2006",
+                                "end": "30/4/2006",
+                                "name": "Apr"
+                            },
+                            {
+                                "start": "1/5/2006",
+                                "end": "31/5/2006",
+                                "name": "May"
+                            },
+                            {
+                                "start": "1/6/2006",
+                                "end": "30/6/2006",
+                                "name": "June"
+                            },
+                            {
+                                "start": "1/7/2006",
+                                "end": "31/7/2006",
+                                "name": "July"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "positioningrid": "right",
+                    "align": "center",
+                    "headertext": " Leader  ",
+                    "fontcolor": "333333",
+                    "fontsize": "11",
+                    "isbold": "1",
+                    "isanimated": "1",
+                    "bgcolor": "99cc00",
+                    "headerbgcolor": "333333",
+                    "headerfontcolor": "99CC00",
+                    "headerfontsize": "16",
+                    "bgalpha": "40",
+                    "process": [
+                        {
+                            "name": "Mark",
+                            "id": "1"
+                        },
+                        {
+                            "name": "Tom",
+                            "id": "2"
+                        },
+                        {
+                            "name": "David",
+                            "id": "3"
+                        },
+                        {
+                            "name": "Alan",
+                            "id": "4"
+                        },
+                        {
+                            "name": "Adam",
+                            "id": "5"
+                        },
+                        {
+                            "name": "Peter",
+                            "id": "6"
+                        }
+                    ]
+                },
+                "datatable": {
+                    "showprocessname": "1",
+                    "fontcolor": "333333",
+                    "fontsize": "11",
+                    "isbold": "1",
+                    "headerfontcolor": "000000",
+                    "headerfontsize": "11",
+                    "datacolumn": [
+                        {
+                            "headerbgcolor": "333333",
+                            "width": "150",
+                            "headerfontsize": "16",
+                            "headeralign": "left",
+                            "headerfontcolor": "99cc00",
+                            "bgcolor": "99cc00",
+                            "headertext": " Team",
+                            "align": "left",
+                            "bgalpha": "65",
+                            "text": [
+                                {
+                                    "label": " MANAGEMENT"
+                                },
+                                {
+                                    "label": " PRODUCT MANAGER"
+                                },
+                                {
+                                    "label": " CORE DEVELOPMENT"
+                                },
+                                {
+                                    "label": " Q & A / DOC."
+                                },
+                                {
+                                    "label": " WEB TEAM"
+                                },
+                                {
+                                    "label": " MANAGEMENT"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "tasks": {
+                    "width": "10",
+                    "task": [
+                        {
+                            "name": "Survey",
+                            "hovertext": "Market Survey",
+                            "processid": "1",
+                            "start": "7/9/2005",
+                            "end": "10/10/2005",
+                            "id": "Srvy",
+                            "color": "99cc00",
+                            "alpha": "60",
+                            "toppadding": "19"
+                        },
+                        {
+                            "name": "Concept",
+                            "hovertext": "Develop Concept for Product",
+                            "processid": "1",
+                            "start": "25/10/2005",
+                            "end": "9/11/2005",
+                            "id": "Cpt1",
+                            "color": "99cc00",
+                            "alpha": "60"
+                        },
+                        {
+                            "name": "Concept",
+                            "showlabel": "0",
+                            "hovertext": "Develop Concept for Product",
+                            "processid": "2",
+                            "start": "25/10/2005",
+                            "end": "9/11/2005",
+                            "id": "Cpt2",
+                            "color": "99cc00",
+                            "alpha": "60"
+                        },
+                        {
+                            "name": "Design",
+                            "hovertext": "Preliminary Design",
+                            "processid": "2",
+                            "start": "12/11/2005",
+                            "end": "25/11/2005",
+                            "id": "Desn",
+                            "color": "99cc00",
+                            "alpha": "60"
+                        },
+                        {
+                            "name": "Product Development",
+                            "processid": "2",
+                            "start": "6/12/2005",
+                            "end": "2/3/2006",
+                            "id": "PD1",
+                            "color": "99cc00",
+                            "alpha": "60"
+                        },
+                        {
+                            "name": "Product Development",
+                            "processid": "3",
+                            "start": "6/12/2005",
+                            "end": "2/3/2006",
+                            "id": "PD2",
+                            "color": "99cc00",
+                            "alpha": "60"
+                        },
+                        {
+                            "name": "Doc Outline",
+                            "hovertext": "Documentation Outline",
+                            "processid": "2",
+                            "start": "6/4/2006",
+                            "end": "1/5/2006",
+                            "id": "DocOut",
+                            "color": "99cc00",
+                            "alpha": "60"
+                        },
+                        {
+                            "name": "Alpha",
+                            "hovertext": "Alpha Release",
+                            "processid": "4",
+                            "start": "15/3/2006",
+                            "end": "2/4/2006",
+                            "id": "alpha",
+                            "color": "99cc00",
+                            "alpha": "60"
+                        },
+                        {
+                            "name": "Beta",
+                            "hovertext": "Beta Release",
+                            "processid": "3",
+                            "start": "10/5/2006",
+                            "end": "2/6/2006",
+                            "id": "Beta",
+                            "color": "99cc00",
+                            "alpha": "60"
+                        },
+                        {
+                            "name": "Doc.",
+                            "hovertext": "Documentation",
+                            "processid": "4",
+                            "start": "12/5/2006",
+                            "end": "29/5/2006",
+                            "id": "Doc",
+                            "color": "99cc00",
+                            "alpha": "60"
+                        },
+                        {
+                            "name": "Website Design",
+                            "hovertext": "Website Design",
+                            "processid": "5",
+                            "start": "18/5/2006",
+                            "end": "22/6/2006",
+                            "id": "Web",
+                            "color": "99cc00",
+                            "alpha": "60"
+                        },
+                        {
+                            "name": "Release",
+                            "hovertext": "Product Release",
+                            "processid": "6",
+                            "start": "5/7/2006",
+                            "end": "29/7/2006",
+                            "id": "Rls",
+                            "color": "99cc00",
+                            "alpha": "60"
+                        },
+                        {
+                            "name": "Dvlp",
+                            "hovertext": "Development on Beta Feedback",
+                            "processid": "3",
+                            "start": "10/6/2006",
+                            "end": "1/7/2006",
+                            "id": "Dvlp",
+                            "color": "99cc00",
+                            "alpha": "60"
+                        },
+                        {
+                            "name": "QA",
+                            "hovertext": "QA Testing",
+                            "processid": "4",
+                            "start": "9/4/2006",
+                            "end": "22/4/2006",
+                            "id": "QA1",
+                            "color": "99cc00",
+                            "alpha": "60"
+                        },
+                        {
+                            "name": "QA2",
+                            "hovertext": "QA Testing-Phase 2",
+                            "processid": "4",
+                            "start": "25/6/2006",
+                            "end": "5/7/2006",
+                            "id": "QA2",
+                            "color": "99cc00",
+                            "alpha": "60"
+                        }
+                    ]
+                },
+                "connectors": [
+                    {
+                        "color": "99cc00",
+                        "thickness": "2",
+                        "connector": [
+                            {
+                                "fromtaskid": "Cpt1",
+                                "totaskid": "Cpt2",
+                                "fromtaskconnectstart": "1"
+                            },
+                            {
+                                "fromtaskid": "PD1",
+                                "totaskid": "PD2",
+                                "fromtaskconnectstart": "1"
+                            },
+                            {
+                                "fromtaskid": "PD1",
+                                "totaskid": "alpha"
+                            },
+                            {
+                                "fromtaskid": "PD2",
+                                "totaskid": "alpha"
+                            },
+                            {
+                                "fromtaskid": "DocOut",
+                                "totaskid": "Doc"
+                            },
+                            {
+                                "fromtaskid": "QA1",
+                                "totaskid": "beta"
+                            },
+                            {
+                                "fromtaskid": "Dvlp",
+                                "totaskid": "QA2"
+                            },
+                            {
+                                "fromtaskid": "QA2",
+                                "totaskid": "Rls"
+                            }
+                        ]
+                    }
+                ],
+                "milestones": {
+                    "milestone": [
+                        {
+                            "date": "29/7/2006",
+                            "taskid": "Rls",
+                            "radius": "10",
+                            "color": "333333",
+                            "shape": "Star",
+                            "numsides": "5",
+                            "borderthickness": "1"
+                        },
+                        {
+                            "date": "2/3/2006",
+                            "taskid": "PD1",
+                            "radius": "10",
+                            "color": "333333",
+                            "shape": "Star",
+                            "numsides": "5",
+                            "borderthickness": "1"
+                        },
+                        {
+                            "date": "2/3/2006",
+                            "taskid": "PD2",
+                            "radius": "10",
+                            "color": "333333",
+                            "shape": "Star",
+                            "numsides": "5",
+                            "borderthickness": "1"
+                        }
+                    ]
+                }
+            },
+            "width": "700",
+            "height": "400",
+            "type": "gantt"
+        },
+        "id": "fusionwidgets-gantt-charts-gantt-chart-connector-milestones-task-bars"
+    },
+    "fusionwidgets-gantt-charts-gantt-chart-date-time": {
+        "description": "Gantt Chart with both date and time",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "mm/dd/yyyy",
+                    "outputdateformat": "hh:mn",
+                    "caption": "Work Schedule",
+                    "subcaption": "For next 2 days",
+                    "showBorder": "0",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "7/15/2007 00:00:00",
+                                "end": "7/15/2007 23:59:59",
+                                "label": "Today"
+                            },
+                            {
+                                "start": "7/16/2007 00:00:00",
+                                "end": "7/16/2007 23:59:59",
+                                "label": "Tomorrow"
+                            }
+                        ]
+                    },
+                    {
+                        "align": "right",
+                        "category": [
+                            {
+                                "start": "7/15/2007 00:00:00",
+                                "end": "7/15/2007 05:59:59",
+                                "label": "6 am"
+                            },
+                            {
+                                "start": "7/15/2007 06:00:00",
+                                "end": "7/15/2007 11:59:59",
+                                "label": "12 pm"
+                            },
+                            {
+                                "start": "7/15/2007 12:00:00",
+                                "end": "7/15/2007 17:59:59",
+                                "label": "6 pm"
+                            },
+                            {
+                                "start": "7/15/2007 18:00:00",
+                                "end": "7/15/2007 23:59:59",
+                                "label": "Midnight"
+                            },
+                            {
+                                "start": "7/16/2007 00:00:00",
+                                "end": "7/16/2007 05:59:59",
+                                "label": "6 am"
+                            },
+                            {
+                                "start": "7/16/2007 06:00:00",
+                                "end": "7/16/2007 11:59:59",
+                                "label": "12 pm"
+                            },
+                            {
+                                "start": "7/16/2007 12:00:00",
+                                "end": "7/16/2007 17:59:59",
+                                "label": "6 pm"
+                            },
+                            {
+                                "start": "7/16/2007 18:00:00",
+                                "end": "7/16/2007 23:59:59",
+                                "label": "Midnight"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "fontsize": "12",
+                    "isbold": "1",
+                    "align": "left",
+                    "headertext": "Who?",
+                    "headerfontsize": "18",
+                    "headervalign": "bottom",
+                    "headeralign": "left",
+                    "process": [
+                        {
+                            "label": "John.S",
+                            "id": "EMP121"
+                        },
+                        {
+                            "label": "David.G",
+                            "id": "EMP122"
+                        },
+                        {
+                            "label": "Mary.P",
+                            "id": "EMP123"
+                        },
+                        {
+                            "label": "Andrew.H",
+                            "id": "EMP124"
+                        },
+                        {
+                            "label": "Neil.M",
+                            "id": "EMP125"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "showlabels": "1",
+                    "showstartdate": "1",
+                    "task": [
+                        {
+                            "processid": "EMP121",
+                            "start": "7/15/2007 08:00:00",
+                            "end": "7/15/2007 12:30:00",
+                            "label": "Logo A"
+                        },
+                        {
+                            "processid": "EMP121",
+                            "start": "7/15/2007 17:00:00",
+                            "end": "7/15/2007 19:30:00",
+                            "label": "Logo B"
+                        },
+                        {
+                            "processid": "EMP121",
+                            "start": "7/16/2007 09:00:00",
+                            "end": "7/16/2007 19:30:00",
+                            "label": "Website template"
+                        },
+                        {
+                            "processid": "EMP122",
+                            "start": "7/15/2007 10:00:00",
+                            "end": "7/15/2007 20:30:00",
+                            "label": "PHP Blueprint"
+                        },
+                        {
+                            "processid": "EMP122",
+                            "start": "7/16/2007 10:00:00",
+                            "end": "7/16/2007 20:30:00",
+                            "label": "PHP Blueprint"
+                        },
+                        {
+                            "processid": "EMP123",
+                            "start": "7/15/2007 08:00:00",
+                            "end": "7/15/2007 12:00:00",
+                            "label": "Support"
+                        },
+                        {
+                            "processid": "EMP123",
+                            "start": "7/16/2007 15:00:00",
+                            "end": "7/16/2007 21:30:00",
+                            "label": "Support"
+                        },
+                        {
+                            "processid": "EMP124",
+                            "start": "7/15/2007 08:00:00",
+                            "end": "7/15/2007 20:30:00",
+                            "label": "Level 2 support"
+                        },
+                        {
+                            "processid": "EMP124",
+                            "start": "7/16/2007 08:00:00",
+                            "end": "7/16/2007 20:30:00",
+                            "label": "Level 2 support"
+                        },
+                        {
+                            "processid": "EMP125",
+                            "start": "7/15/2007 10:00:00",
+                            "end": "7/15/2007 14:30:00",
+                            "label": "Network Maintenance"
+                        },
+                        {
+                            "processid": "EMP125",
+                            "start": "7/16/2007 12:00:00",
+                            "end": "7/16/2007 14:30:00",
+                            "label": "System OS Updates"
+                        }
+                    ]
+                }
+            },
+            "width": "600",
+            "height": "350",
+            "type": "gantt"
+        },
+        "id": "fusionwidgets-gantt-charts-gantt-chart-date-time"
+    },
+    "fusionwidgets-gantt-charts-gantt-chart-grouped-tasks": {
+        "description": "Gantt Chart with tasks under groups",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "mm/dd/yyyy",
+                    "caption": "Project Gantt",
+                    "subcaption": "From 1st Feb 2007 - 31st Aug 2007",
+                    "showslackasfill": "0",
+                    "showpercentlabel": "1",
+                    "showBorder": "0",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "02/01/2007",
+                                "end": "04/01/2007",
+                                "label": "Q1"
+                            },
+                            {
+                                "start": "04/01/2007",
+                                "end": "07/01/2007",
+                                "label": "Q2"
+                            },
+                            {
+                                "start": "07/01/2007",
+                                "end": "09/01/2007",
+                                "label": "Q3"
+                            }
+                        ]
+                    },
+                    {
+                        "category": [
+                            {
+                                "start": "02/01/2007",
+                                "end": "03/01/2007",
+                                "label": "Feb"
+                            },
+                            {
+                                "start": "03/01/2007",
+                                "end": "04/01/2007",
+                                "label": "Mar"
+                            },
+                            {
+                                "start": "04/01/2007",
+                                "end": "05/01/2007",
+                                "label": "Apr"
+                            },
+                            {
+                                "start": "05/01/2007",
+                                "end": "06/01/2007",
+                                "label": "May"
+                            },
+                            {
+                                "start": "06/01/2007",
+                                "end": "07/01/2007",
+                                "label": "Jun"
+                            },
+                            {
+                                "start": "07/01/2007",
+                                "end": "08/01/2007",
+                                "label": "Jul"
+                            },
+                            {
+                                "start": "08/01/2007",
+                                "end": "09/01/2007",
+                                "label": "Aug"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "fontsize": "12",
+                    "isbold": "1",
+                    "align": "right",
+                    "headertext": "What to do?",
+                    "headerfontsize": "18",
+                    "headervalign": "bottom",
+                    "headeralign": "right",
+                    "process": [
+                        {
+                            "label": "Research Phase"
+                        },
+                        {
+                            "label": "Identify Customers"
+                        },
+                        {
+                            "label": "Survey 50 Customers"
+                        },
+                        {
+                            "label": "Interpret Requirements"
+                        },
+                        {
+                            "label": "Study Competition"
+                        },
+                        {
+                            "label": "Production Phase"
+                        },
+                        {
+                            "label": "Documentation of features"
+                        },
+                        {
+                            "label": "Brainstorm concepts"
+                        },
+                        {
+                            "label": "Design & Code"
+                        },
+                        {
+                            "label": "Testing / QA"
+                        },
+                        {
+                            "label": "Documentation of product"
+                        },
+                        {
+                            "label": "Global Release"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "task": [
+                        {
+                            "start": "02/04/2007",
+                            "end": "04/06/2007",
+                            "showasgroup": "1",
+                            "label": "Research",
+                            "showlabel": "1"
+                        },
+                        {
+                            "start": "02/04/2007",
+                            "end": "02/10/2007"
+                        },
+                        {
+                            "start": "02/08/2007",
+                            "end": "02/19/2007"
+                        },
+                        {
+                            "start": "02/19/2007",
+                            "end": "03/02/2007"
+                        },
+                        {
+                            "start": "02/24/2007",
+                            "end": "03/02/2007"
+                        },
+                        {
+                            "start": "03/02/2007",
+                            "end": "08/27/2007",
+                            "showasgroup": "1",
+                            "label": "Production",
+                            "showlabel": "1"
+                        },
+                        {
+                            "start": "03/02/2007",
+                            "end": "03/21/2007"
+                        },
+                        {
+                            "start": "03/21/2007",
+                            "end": "04/06/2007"
+                        },
+                        {
+                            "start": "04/06/2007",
+                            "end": "07/21/2007"
+                        },
+                        {
+                            "start": "07/21/2007",
+                            "end": "08/19/2007"
+                        },
+                        {
+                            "start": "07/28/2007",
+                            "end": "08/24/2007"
+                        },
+                        {
+                            "start": "08/24/2007",
+                            "end": "08/27/2007"
+                        }
+                    ]
+                },
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "start": "08/14/2007",
+                                "displayvalue": "Today",
+                                "color": "333333",
+                                "thickness": "2",
+                                "dashed": "1"
+                            },
+                            {
+                                "start": "05/3/2007",
+                                "end": "05/10/2007",
+                                "displayvalue": "Vacation",
+                                "istrendzone": "1",
+                                "alpha": "20",
+                                "color": "FF5904"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "width": "600",
+            "height": "500",
+            "type": "gantt"
+        },
+        "id": "fusionwidgets-gantt-charts-gantt-chart-grouped-tasks"
+    },
+    "fusionwidgets-gantt-charts-gantt-chart-both-pane-scrolling": {
+        "description": "Gantt Chart with scrolling in both panes",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "mm/dd/yyyy",
+                    "caption": "Project Gantt",
+                    "subcaption": "From 1st Feb 2007 - 31st Aug 2007",
+                    "ganttpaneduration": "3",
+                    "ganttpanedurationunit": "m",
+                    "showBorder": "0",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "02/01/2007",
+                                "end": "04/01/2007",
+                                "label": "Q1"
+                            },
+                            {
+                                "start": "04/01/2007",
+                                "end": "07/01/2007",
+                                "label": "Q2"
+                            },
+                            {
+                                "start": "07/01/2007",
+                                "end": "09/01/2007",
+                                "label": "Q3"
+                            }
+                        ]
+                    },
+                    {
+                        "category": [
+                            {
+                                "start": "02/01/2007",
+                                "end": "03/01/2007",
+                                "label": "Feb"
+                            },
+                            {
+                                "start": "03/01/2007",
+                                "end": "04/01/2007",
+                                "label": "Mar"
+                            },
+                            {
+                                "start": "04/01/2007",
+                                "end": "05/01/2007",
+                                "label": "Apr"
+                            },
+                            {
+                                "start": "05/01/2007",
+                                "end": "06/01/2007",
+                                "label": "May"
+                            },
+                            {
+                                "start": "06/01/2007",
+                                "end": "07/01/2007",
+                                "label": "Jun"
+                            },
+                            {
+                                "start": "07/01/2007",
+                                "end": "08/01/2007",
+                                "label": "Jul"
+                            },
+                            {
+                                "start": "08/01/2007",
+                                "end": "09/01/2007",
+                                "label": "Aug"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "fontsize": "12",
+                    "isbold": "1",
+                    "align": "right",
+                    "headertext": "What to do?",
+                    "headerfontsize": "18",
+                    "headervalign": "bottom",
+                    "headeralign": "right",
+                    "process": [
+                        {
+                            "label": "Identify Customers"
+                        },
+                        {
+                            "label": "Survey 50 Customers"
+                        },
+                        {
+                            "label": "Interpret Requirements"
+                        },
+                        {
+                            "label": "Study Competition"
+                        },
+                        {
+                            "label": "Documentation of features"
+                        },
+                        {
+                            "label": "Brainstorm concepts"
+                        },
+                        {
+                            "label": "Design & Code"
+                        },
+                        {
+                            "label": "Testing / QA"
+                        },
+                        {
+                            "label": "Documentation of product"
+                        },
+                        {
+                            "label": "Global Release"
+                        }
+                    ]
+                },
+                "datatable": {
+                    "headervalign": "bottom",
+                    "datacolumn": [
+                        {
+                            "headertext": "Who does?",
+                            "headerfontsize": "18",
+                            "headervalign": "bottom",
+                            "headeralign": "right",
+                            "align": "left",
+                            "fontsize": "12",
+                            "text": [
+                                {
+                                    "label": "John"
+                                },
+                                {
+                                    "label": "David"
+                                },
+                                {
+                                    "label": "Mary"
+                                },
+                                {
+                                    "label": "Andrew"
+                                },
+                                {
+                                    "label": "Tiger"
+                                },
+                                {
+                                    "label": "Sharon"
+                                },
+                                {
+                                    "label": "Neil"
+                                },
+                                {
+                                    "label": "Harry"
+                                },
+                                {
+                                    "label": "Chris"
+                                },
+                                {
+                                    "label": "Richard"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "tasks": {
+                    "task": [
+                        {
+                            "start": "02/04/2007",
+                            "end": "02/10/2007"
+                        },
+                        {
+                            "start": "02/08/2007",
+                            "end": "02/19/2007"
+                        },
+                        {
+                            "start": "02/19/2007",
+                            "end": "03/02/2007"
+                        },
+                        {
+                            "start": "02/24/2007",
+                            "end": "03/02/2007"
+                        },
+                        {
+                            "start": "03/02/2007",
+                            "end": "03/21/2007"
+                        },
+                        {
+                            "start": "03/21/2007",
+                            "end": "04/06/2007"
+                        },
+                        {
+                            "start": "04/06/2007",
+                            "end": "07/21/2007"
+                        },
+                        {
+                            "start": "07/21/2007",
+                            "end": "08/19/2007"
+                        },
+                        {
+                            "start": "07/28/2007",
+                            "end": "08/24/2007"
+                        },
+                        {
+                            "start": "08/24/2007",
+                            "end": "08/27/2007"
+                        }
+                    ]
+                }
+            },
+            "width": "750",
+            "height": "500",
+            "type": "gantt"
+        },
+        "id": "fusionwidgets-gantt-charts-gantt-chart-both-pane-scrolling"
+    },
+    "fusionwidgets-gantt-charts-gantt-chart-custom-cosmetics": {
+        "description": "Gantt Chart with customized cosmetics (Sales Territory Assignment)",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "dd/mm/yyyy",
+                    "ganttlinecolor": "CCCCCC",
+                    "ganttlinealpha": "20",
+                    "gridborderalpha": "20",
+                    "showtasknames": "1",
+                    "tooltextbgcolor": "F1F1F1",
+                    "tooltextbordercolor": "333333",
+                    "palettethemecolor": "333333",
+                    "showBorder": "0",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "bgcolor": "333333",
+                        "basefont": "Arial",
+                        "basefontcolor": "FFFFFF",
+                        "basefontsize": "12",
+                        "category": [
+                            {
+                                "start": "1/1/2005",
+                                "end": "31/5/2005",
+                                "align": "center",
+                                "name": "Sales Territory Assignment",
+                                "fontcolor": "ffffff",
+                                "isbold": "1",
+                                "fontsize": "16"
+                            }
+                        ]
+                    },
+                    {
+                        "font": "Arial",
+                        "fontcolor": "ffffff",
+                        "isbold": "1",
+                        "fontsize": "12",
+                        "bgcolor": "333333",
+                        "category": [
+                            {
+                                "start": "1/1/2005",
+                                "end": "31/1/2005",
+                                "name": "January"
+                            },
+                            {
+                                "start": "1/2/2005",
+                                "end": "28/2/2005",
+                                "name": "February"
+                            },
+                            {
+                                "start": "1/3/2005",
+                                "end": "31/3/2005",
+                                "name": "March"
+                            },
+                            {
+                                "start": "1/4/2005",
+                                "end": "30/4/2005",
+                                "name": "April"
+                            },
+                            {
+                                "start": "1/5/2005",
+                                "end": "31/5/2005",
+                                "name": "May"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "headerbgcolor": "333333",
+                    "fontcolor": "ffffff",
+                    "fontsize": "12",
+                    "bgcolor": "333333",
+                    "align": "right",
+                    "process": [
+                        {
+                            "name": "Tom",
+                            "id": "1"
+                        },
+                        {
+                            "name": "Harry",
+                            "id": "2"
+                        },
+                        {
+                            "name": "Mary",
+                            "id": "4"
+                        },
+                        {
+                            "name": "Mike",
+                            "id": "3"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "color": "",
+                    "alpha": "",
+                    "font": "",
+                    "fontcolor": "",
+                    "fontsize": "",
+                    "isanimated": "1",
+                    "task": [
+                        {
+                            "name": "North",
+                            "processid": "1",
+                            "start": "3/1/2005",
+                            "end": "4/2/2005",
+                            "id": "1_1",
+                            "color": "e1f5ff",
+                            "bordercolor": "AFD8F8"
+                        },
+                        {
+                            "name": "East",
+                            "processid": "1",
+                            "start": "6/2/2005",
+                            "end": "24/3/2005",
+                            "id": "1_2",
+                            "color": "e1f5ff",
+                            "bordercolor": "AFD8F8"
+                        },
+                        {
+                            "name": "Vacation",
+                            "processid": "1",
+                            "start": "25/3/2005",
+                            "end": "18/4/2005",
+                            "id": "1_3",
+                            "color": "e1f5ff",
+                            "bordercolor": "AFD8F8",
+                            "height": "2",
+                            "showborder": "1",
+                            "toppadding": "49%"
+                        },
+                        {
+                            "name": "South",
+                            "processid": "1",
+                            "start": "18/4/2005",
+                            "end": "24/5/2005",
+                            "id": "1_4",
+                            "color": "e1f5ff",
+                            "bordercolor": "AFD8F8"
+                        },
+                        {
+                            "name": "South",
+                            "processid": "2",
+                            "start": "15/1/2005",
+                            "end": "5/3/2005",
+                            "id": "2_1",
+                            "color": "F6BD0F",
+                            "bordercolor": "F6BD0F"
+                        },
+                        {
+                            "name": "West",
+                            "processid": "2",
+                            "start": "21/3/2005",
+                            "end": "10/5/2005",
+                            "id": "2_2",
+                            "color": "F6BD0F",
+                            "bordercolor": "F6BD0F"
+                        },
+                        {
+                            "name": "Global",
+                            "processid": "3",
+                            "start": "7/1/2005",
+                            "end": "26/5/2005",
+                            "id": "3_1",
+                            "width": "12",
+                            "color": "8BBA00",
+                            "bordercolor": "8BBA00"
+                        },
+                        {
+                            "name": "South",
+                            "processid": "4",
+                            "start": "13/3/2005",
+                            "end": "19/4/2005",
+                            "id": "4_1",
+                            "width": "12",
+                            "color": "FF654F",
+                            "bordercolor": "FF654F"
+                        }
+                    ]
+                },
+                "connectors": [
+                    {
+                        "connector": [
+                            {
+                                "fromtaskid": "1_2",
+                                "totaskid": "2_2",
+                                "color": "AFD8F8",
+                                "thickness": "2"
+                            },
+                            {
+                                "fromtaskid": "2_1",
+                                "totaskid": "4_1",
+                                "color": "F7CB41",
+                                "thickness": "2"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "width": "600",
+            "height": "300",
+            "type": "gantt"
+        },
+        "id": "fusionwidgets-gantt-charts-gantt-chart-custom-cosmetics"
+    },
+    "fusionwidgets-gantt-charts-gantt-chart-custom-cosmetics1": {
+        "description": "Gantt Chart with customized cosmetics (Development Lifecycle)",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "dateformat": "dd/mm/yyyy",
+                    "ganttwidthpercent": "70",
+                    "gridborderalpha": "0",
+                    "showtasknames": "1",
+                    "palettethemecolor": "453269",
+                    "showBorder": "0",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "1/1/2005",
+                                "end": "31/5/2005",
+                                "name": "Development Life Cycle",
+                                "isbold": "1",
+                                "fontsize": "16"
+                            }
+                        ]
+                    },
+                    {
+                        "isbold": "1",
+                        "category": [
+                            {
+                                "start": "1/1/2005",
+                                "end": "31/1/2005",
+                                "name": "January"
+                            },
+                            {
+                                "start": "1/2/2005",
+                                "end": "28/2/2005",
+                                "name": "February"
+                            },
+                            {
+                                "start": "1/3/2005",
+                                "end": "31/3/2005",
+                                "name": "March"
+                            },
+                            {
+                                "start": "1/4/2005",
+                                "end": "30/4/2005",
+                                "name": "April"
+                            },
+                            {
+                                "start": "1/5/2005",
+                                "end": "31/5/2005",
+                                "name": "May"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "headertext": "Tasks",
+                    "headeralign": "left",
+                    "bgcolor": "453269",
+                    "headerbgcolor": "453269",
+                    "fontcolor": "FFFFFF",
+                    "headerfontcolor": "FFFFFF",
+                    "isbold": "1",
+                    "headerfontsize": "16",
+                    "align": "left",
+                    "process": [
+                        {
+                            "name": "Get Data",
+                            "id": "1"
+                        },
+                        {
+                            "name": "Get Approval",
+                            "id": "2"
+                        },
+                        {
+                            "name": "Identification Details",
+                            "id": "3"
+                        },
+                        {
+                            "name": "Design",
+                            "id": "4"
+                        },
+                        {
+                            "name": "Coding",
+                            "id": "5"
+                        },
+                        {
+                            "name": "Develop Improvement",
+                            "id": "6"
+                        },
+                        {
+                            "name": "Implementation",
+                            "id": "7"
+                        },
+                        {
+                            "name": "Testing",
+                            "id": "8"
+                        }
+                    ]
+                },
+                "datatable": {
+                    "showprocessname": "1",
+                    "namealign": "left",
+                    "headerfontsize": "16",
+                    "headerfontisbold": "1"
+                },
+                "tasks": {
+                    "task": [
+                        {
+                            "name": "Dept. 1",
+                            "processid": "1",
+                            "start": "6/1/2005",
+                            "end": "24/1/2005",
+                            "id": "1",
+                            "color": "453269",
+                            "sbordercolor": "453269"
+                        },
+                        {
+                            "name": "Dept. 1",
+                            "processid": "2",
+                            "start": "6/2/2005",
+                            "end": "24/2/2005",
+                            "id": "2",
+                            "color": "453269",
+                            "sbordercolor": "453269"
+                        },
+                        {
+                            "name": "Dept. 1",
+                            "processid": "3",
+                            "start": "5/3/2005",
+                            "end": "18/4/2005",
+                            "id": "3",
+                            "color": "453269",
+                            "bordercolor": "453269",
+                            "showborder": "1"
+                        },
+                        {
+                            "name": "Dept. 2",
+                            "processid": "4",
+                            "start": "18/2/2005",
+                            "end": "24/3/2005",
+                            "id": "4",
+                            "color": "cccccc",
+                            "bordercolor": "cccccc"
+                        },
+                        {
+                            "name": "Dept. 2",
+                            "processid": "5",
+                            "start": "15/1/2005",
+                            "end": "5/3/2005",
+                            "id": "6",
+                            "color": "cccccc",
+                            "bordercolor": "cccccc"
+                        },
+                        {
+                            "name": "Dept. 2",
+                            "processid": "2",
+                            "start": "21/3/2005",
+                            "end": "10/5/2005",
+                            "id": "7",
+                            "color": "cccccc",
+                            "bordercolor": "cccccc"
+                        },
+                        {
+                            "name": "Dept. 3",
+                            "processid": "8",
+                            "start": "7/4/2005",
+                            "end": "26/5/2005",
+                            "id": "8",
+                            "width": "12",
+                            "color": "66499C",
+                            "bordercolor": "66499C"
+                        },
+                        {
+                            "name": "Dept. 3",
+                            "processid": "7",
+                            "start": "13/3/2005",
+                            "end": "19/4/2005",
+                            "id": "9",
+                            "width": "12",
+                            "bordercolor": "66499C",
+                            "color": "66499C"
+                        },
+                        {
+                            "name": "Dept. 3",
+                            "processid": "6",
+                            "start": "13/1/2005",
+                            "end": "19/2/2005",
+                            "id": "10",
+                            "width": "12",
+                            "bordercolor": "66499C",
+                            "color": "66499C"
+                        }
+                    ]
+                },
+                "connectors": [
+                    {
+                        "connector": [
+                            {
+                                "fromtaskid": "1",
+                                "totaskid": "2",
+                                "thickness": "2"
+                            },
+                            {
+                                "fromtaskid": "6",
+                                "totaskid": "9",
+                                "thickness": "2"
+                            },
+                            {
+                                "fromtaskid": "10",
+                                "totaskid": "8",
+                                "thickness": "2"
+                            }
+                        ]
+                    }
+                ],
+                "milestones": {
+                    "milestone": [
+                        {
+                            "date": "6/1/2005",
+                            "taskid": "1",
+                            "radius": "5",
+                            "color": "333333",
+                            "bordercolor": "FFFFFF",
+                            "shape": "Polygon",
+                            "numsides": "4",
+                            "borderthickness": "1"
+                        },
+                        {
+                            "date": "24/1/2005",
+                            "taskid": "1",
+                            "radius": "5",
+                            "color": "FFCC33",
+                            "bordercolor": "333333",
+                            "shape": "Polygon",
+                            "numsides": "4",
+                            "borderthickness": "1"
+                        },
+                        {
+                            "date": "6/2/2005",
+                            "taskid": "2",
+                            "radius": "5",
+                            "color": "333333",
+                            "bordercolor": "FFFFFF",
+                            "shape": "Polygon",
+                            "numsides": "4",
+                            "borderthickness": "1"
+                        },
+                        {
+                            "date": "5/3/2005",
+                            "taskid": "3",
+                            "radius": "5",
+                            "color": "FFCC33",
+                            "bordercolor": "333333",
+                            "shape": "Polygon",
+                            "numsides": "4",
+                            "borderthickness": "1"
+                        },
+                        {
+                            "date": "18/2/2005",
+                            "taskid": "4",
+                            "radius": "5",
+                            "color": "333333",
+                            "bordercolor": "FFFFFF",
+                            "shape": "Polygon",
+                            "numsides": "4",
+                            "borderthickness": "1"
+                        },
+                        {
+                            "date": "24/3/2005",
+                            "taskid": "4",
+                            "radius": "5",
+                            "color": "FFCC33",
+                            "bordercolor": "333333",
+                            "shape": "Polygon",
+                            "numsides": "4",
+                            "borderthickness": "1"
+                        },
+                        {
+                            "date": "18/4/2005",
+                            "taskid": "3",
+                            "radius": "5",
+                            "color": "333333",
+                            "bordercolor": "FFFFFF",
+                            "shape": "Polygon",
+                            "numsides": "4",
+                            "borderthickness": "1"
+                        },
+                        {
+                            "date": "15/1/2005",
+                            "taskid": "6",
+                            "radius": "5",
+                            "color": "FFCC33",
+                            "bordercolor": "333333",
+                            "shape": "Polygon",
+                            "numsides": "4",
+                            "borderthickness": "1"
+                        },
+                        {
+                            "date": "5/3/2005",
+                            "taskid": "6",
+                            "radius": "5",
+                            "color": "333333",
+                            "bordercolor": "FFFFFF",
+                            "shape": "Polygon",
+                            "numsides": "4",
+                            "borderthickness": "1"
+                        },
+                        {
+                            "date": "24/2/2005",
+                            "taskid": "2",
+                            "radius": "5",
+                            "color": "FFCC33",
+                            "bordercolor": "333333",
+                            "shape": "Polygon",
+                            "numsides": "4",
+                            "borderthickness": "1"
+                        },
+                        {
+                            "date": "21/3/2005",
+                            "taskid": "7",
+                            "radius": "5",
+                            "color": "333333",
+                            "bordercolor": "FFFFFF",
+                            "shape": "Polygon",
+                            "numsides": "4",
+                            "borderthickness": "1"
+                        },
+                        {
+                            "date": "10/5/2005",
+                            "taskid": "7",
+                            "radius": "5",
+                            "color": "FFCC33",
+                            "bordercolor": "333333",
+                            "shape": "Polygon",
+                            "numsides": "4",
+                            "borderthickness": "1"
+                        },
+                        {
+                            "date": "7/4/2005",
+                            "taskid": "8",
+                            "radius": "5",
+                            "color": "333333",
+                            "bordercolor": "FFFFFF",
+                            "shape": "Polygon",
+                            "numsides": "4",
+                            "borderthickness": "1"
+                        },
+                        {
+                            "date": "26/5/2005",
+                            "taskid": "8",
+                            "radius": "5",
+                            "color": "FFCC33",
+                            "bordercolor": "333333",
+                            "shape": "Polygon",
+                            "numsides": "4",
+                            "borderthickness": "1"
+                        },
+                        {
+                            "date": "13/3/2005",
+                            "taskid": "9",
+                            "radius": "5",
+                            "color": "333333",
+                            "bordercolor": "FFFFFF",
+                            "shape": "Polygon",
+                            "numsides": "4",
+                            "borderthickness": "1"
+                        },
+                        {
+                            "date": "19/4/2005",
+                            "taskid": "9",
+                            "radius": "5",
+                            "color": "FFCC33",
+                            "bordercolor": "333333",
+                            "shape": "Polygon",
+                            "numsides": "4",
+                            "borderthickness": "1"
+                        },
+                        {
+                            "date": "13/1/2005",
+                            "taskid": "10",
+                            "radius": "5",
+                            "color": "333333",
+                            "bordercolor": "FFFFFF",
+                            "shape": "Polygon",
+                            "numsides": "4",
+                            "borderthickness": "1"
+                        },
+                        {
+                            "date": "19/2/2005",
+                            "taskid": "10",
+                            "radius": "5",
+                            "color": "FFCC33",
+                            "bordercolor": "333333",
+                            "shape": "Polygon",
+                            "numsides": "4",
+                            "borderthickness": "1"
+                        }
+                    ]
+                }
+            },
+            "width": "600",
+            "height": "300",
+            "type": "gantt"
+        },
+        "id": "fusionwidgets-gantt-charts-gantt-chart-custom-cosmetics1"
+    },
+    "fusionwidgets-gantt-charts-gantt-chart-legend-to-explain-color-key": {
+        "description": "Gantt Chart with legend to explain color keys",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "canvasbgcolor": "F1F1FF, FFFFFF",
+                    "canvasbgangle": "90",
+                    "dateformat": "dd/mm/yyyy",
+                    "ganttlinecolor": "0372AB",
+                    "ganttlinealpha": "8",
+                    "gridbordercolor": "0372AB",
+                    "canvasbordercolor": "0372AB",
+                    "showshadow": "0",
+                    "taskbarfillmix": "{light-60}",
+                    "showborder": "0",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "bgcolor": "0372AB",
+                        "category": [
+                            {
+                                "start": "1/1/2005",
+                                "end": "4/2/2005",
+                                "name": "Machine Operation Sheet",
+                                "fontcolor": "FFFFFF"
+                            }
+                        ]
+                    },
+                    {
+                        "bgalpha": "0",
+                        "category": [
+                            {
+                                "start": "1/1/2005",
+                                "end": "7/1/2005",
+                                "label": "Week1"
+                            },
+                            {
+                                "start": "8/1/2005",
+                                "end": "14/1/2005",
+                                "label": "Week2"
+                            },
+                            {
+                                "start": "15/1/2005",
+                                "end": "21/1/2005",
+                                "label": "Week3"
+                            },
+                            {
+                                "start": "22/1/2005",
+                                "end": "28/1/2005",
+                                "label": "Week4"
+                            },
+                            {
+                                "start": "29/1/2005",
+                                "end": "4/2/2005",
+                                "label": "Week5"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "isbold": "1",
+                    "headerbgcolor": "0372AB",
+                    "fontcolor": "0372AB",
+                    "bgcolor": "FFFFFF",
+                    "process": [
+                        {
+                            "label": "Machine A",
+                            "id": "A"
+                        },
+                        {
+                            "label": "Machine B",
+                            "id": "B"
+                        },
+                        {
+                            "label": "Machine C",
+                            "id": "C"
+                        },
+                        {
+                            "label": "Machine D",
+                            "id": "D"
+                        },
+                        {
+                            "label": "Machine E",
+                            "id": "E"
+                        },
+                        {
+                            "label": "Machine F",
+                            "id": "F"
+                        },
+                        {
+                            "label": "Machine G",
+                            "id": "G"
+                        },
+                        {
+                            "label": "Machine H",
+                            "id": "H"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "task": [
+                        {
+                            "label": "In Use",
+                            "processid": "A",
+                            "start": "1/1/2005",
+                            "end": "13/1/2005",
+                            "bordercolor": "FF654F",
+                            "color": "FF654F",
+                            "id": "1"
+                        },
+                        {
+                            "label": "Idle",
+                            "processid": "A",
+                            "start": "13/1/2005",
+                            "end": "18/1/2005",
+                            "bordercolor": "8BBA00",
+                            "color": "8BBA00",
+                            "id": "2"
+                        },
+                        {
+                            "label": "In Use",
+                            "processid": "A",
+                            "start": "18/1/2005",
+                            "end": "27/1/2005",
+                            "bordercolor": "FF654F",
+                            "color": "FF654F",
+                            "id": "3"
+                        },
+                        {
+                            "label": "Repair",
+                            "processid": "A",
+                            "start": "27/1/2005",
+                            "end": "29/1/2005",
+                            "bordercolor": "F6BD0F",
+                            "color": "F6BD0F",
+                            "id": "4"
+                        },
+                        {
+                            "label": "In Use",
+                            "processid": "A",
+                            "start": "29/1/2005",
+                            "end": "4/2/2005",
+                            "bordercolor": "FF654F",
+                            "color": "FF654F",
+                            "id": "5"
+                        },
+                        {
+                            "label": "Idle",
+                            "processid": "B",
+                            "start": "1/1/2005",
+                            "end": "7/1/2005",
+                            "bordercolor": "8BBA00",
+                            "color": "8BBA00",
+                            "id": "6"
+                        },
+                        {
+                            "label": "In Use",
+                            "processid": "B",
+                            "start": "7/1/2005",
+                            "end": "18/1/2005",
+                            "bordercolor": "FF654F",
+                            "color": "FF654F",
+                            "id": "7"
+                        },
+                        {
+                            "label": "Repair",
+                            "processid": "B",
+                            "start": "18/1/2005",
+                            "end": "24/1/2005",
+                            "bordercolor": "F6BD0F",
+                            "color": "F6BD0F",
+                            "id": "8"
+                        },
+                        {
+                            "label": "In Use",
+                            "processid": "B",
+                            "start": "24/1/2005",
+                            "end": "4/2/2005",
+                            "bordercolor": "FF654F",
+                            "color": "FF654F",
+                            "id": "9"
+                        },
+                        {
+                            "label": "Idle",
+                            "processid": "C",
+                            "start": "1/1/2005",
+                            "end": "14/1/2005",
+                            "bordercolor": "8BBA00",
+                            "color": "8BBA00",
+                            "id": "10"
+                        },
+                        {
+                            "label": "In Use",
+                            "processid": "C",
+                            "start": "14/1/2005",
+                            "end": "3/2/2005",
+                            "bordercolor": "FF654F",
+                            "color": "FF654F",
+                            "id": "11"
+                        },
+                        {
+                            "label": "Idle",
+                            "processid": "C",
+                            "start": "3/2/2005",
+                            "end": "4/2/2005",
+                            "bordercolor": "8BBA00",
+                            "color": "8BBA00",
+                            "id": "12"
+                        },
+                        {
+                            "label": "Repair",
+                            "processid": "D",
+                            "start": "1/1/2005",
+                            "end": "7/1/2005",
+                            "bordercolor": "F6BD0F",
+                            "color": "F6BD0F",
+                            "id": "13"
+                        },
+                        {
+                            "label": "Idle",
+                            "processid": "D",
+                            "start": "7/1/2005",
+                            "end": "11/1/2005",
+                            "bordercolor": "8BBA00",
+                            "color": "8BBA00",
+                            "id": "14"
+                        },
+                        {
+                            "label": "In Use",
+                            "processid": "D",
+                            "start": "11/1/2005",
+                            "end": "27/1/2005",
+                            "bordercolor": "FF654F",
+                            "color": "FF654F",
+                            "id": "15"
+                        },
+                        {
+                            "label": "Repair",
+                            "processid": "D",
+                            "start": "27/1/2005",
+                            "end": "4/2/2005",
+                            "bordercolor": "F6BD0F",
+                            "color": "F6BD0F",
+                            "id": "16"
+                        },
+                        {
+                            "label": "Idle",
+                            "processid": "E",
+                            "start": "1/1/2005",
+                            "end": "18/1/2005",
+                            "bordercolor": "8BBA00",
+                            "color": "8BBA00",
+                            "id": "17"
+                        },
+                        {
+                            "label": "In Use",
+                            "processid": "E",
+                            "start": "18/1/2005",
+                            "end": "3/2/2005",
+                            "bordercolor": "FF654F",
+                            "color": "FF654F",
+                            "id": "18"
+                        },
+                        {
+                            "label": "Idle",
+                            "processid": "E",
+                            "start": "3/2/2005",
+                            "end": "4/2/2005",
+                            "bordercolor": "8BBA00",
+                            "color": "8BBA00",
+                            "id": "19"
+                        },
+                        {
+                            "label": "In Use",
+                            "processid": "F",
+                            "start": "1/1/2005",
+                            "end": "8/1/2005",
+                            "bordercolor": "FF654F",
+                            "color": "FF654F",
+                            "id": "20"
+                        },
+                        {
+                            "label": "Repair",
+                            "processid": "F",
+                            "start": "8/1/2005",
+                            "end": "11/1/2005",
+                            "bordercolor": "F6BD0F",
+                            "color": "F6BD0F",
+                            "id": "21"
+                        },
+                        {
+                            "label": "In Use",
+                            "processid": "F",
+                            "start": "11/1/2005",
+                            "end": "18/1/2005",
+                            "bordercolor": "FF654F",
+                            "color": "FF654F",
+                            "id": "22"
+                        },
+                        {
+                            "label": "Repair",
+                            "processid": "F",
+                            "start": "18/1/2005",
+                            "end": "21/1/2005",
+                            "bordercolor": "F6BD0F",
+                            "color": "F6BD0F",
+                            "id": "23"
+                        },
+                        {
+                            "label": "Idle",
+                            "processid": "F",
+                            "start": "21/1/2005",
+                            "end": "4/2/2005",
+                            "bordercolor": "8BBA00",
+                            "color": "8BBA00",
+                            "id": "24"
+                        },
+                        {
+                            "label": "In Use",
+                            "processid": "G",
+                            "start": "1/1/2005",
+                            "end": "13/1/2005",
+                            "bordercolor": "FF654F",
+                            "color": "FF654F",
+                            "id": "25"
+                        },
+                        {
+                            "label": "Idle",
+                            "processid": "G",
+                            "start": "13/1/2005",
+                            "end": "20/1/2005",
+                            "bordercolor": "8BBA00",
+                            "color": "8BBA00",
+                            "id": "26"
+                        },
+                        {
+                            "label": "In Use",
+                            "processid": "G",
+                            "start": "20/1/2005",
+                            "end": "27/1/2005",
+                            "bordercolor": "FF654F",
+                            "color": "FF654F",
+                            "id": "27"
+                        },
+                        {
+                            "label": "Repair",
+                            "processid": "G",
+                            "start": "27/1/2005",
+                            "end": "4/2/2005",
+                            "bordercolor": "F6BD0F",
+                            "color": "F6BD0F",
+                            "id": "28"
+                        },
+                        {
+                            "label": "In Use",
+                            "processid": "H",
+                            "start": "1/1/2005",
+                            "end": "8/1/2005",
+                            "bordercolor": "FF654F",
+                            "color": "FF654F",
+                            "id": "29"
+                        },
+                        {
+                            "label": "Idle",
+                            "processid": "H",
+                            "start": "8/1/2005",
+                            "end": "18/1/2005",
+                            "bordercolor": "8BBA00",
+                            "color": "8BBA00",
+                            "id": "30"
+                        },
+                        {
+                            "label": "In Use",
+                            "processid": "H",
+                            "start": "18/1/2005",
+                            "end": "27/1/2005",
+                            "bordercolor": "FF654F",
+                            "color": "FF654F",
+                            "id": "31"
+                        },
+                        {
+                            "label": "Repair",
+                            "processid": "H",
+                            "start": "27/1/2005",
+                            "end": "29/1/2005",
+                            "bordercolor": "F6BD0F",
+                            "color": "F6BD0F",
+                            "id": "32"
+                        },
+                        {
+                            "label": "In Use",
+                            "processid": "H",
+                            "start": "29/1/2005",
+                            "end": "4/2/2005",
+                            "bordercolor": "FF654F",
+                            "color": "FF654F",
+                            "id": "33"
+                        }
+                    ]
+                },
+                "connectors": [
+                    {
+                        "connector": [
+                            {
+                                "fromtaskid": "3",
+                                "totaskid": "2"
+                            }
+                        ]
+                    }
+                ],
+                "legend": {
+                    "item": [
+                        {
+                            "label": "In use",
+                            "color": "FF654F"
+                        },
+                        {
+                            "label": "Repair",
+                            "color": "F6BD0F"
+                        },
+                        {
+                            "label": "Idle",
+                            "color": "8BBA00"
+                        }
+                    ]
+                }
+            },
+            "width": "600",
+            "height": "500",
+            "type": "gantt"
+        },
+        "id": "fusionwidgets-gantt-charts-gantt-chart-legend-to-explain-color-key"
+    },
+    "fusionwidgets-gantt-charts-gantt-chart-legend-to-explain-color-key1": {
+        "description": "Gantt Chart with legend to explain color keys",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Construction management of a new store in Denver",
+                    "subcaption": "Planned vs Actual",
+                    "dateformat": "dd/mm/yyyy",
+                    "outputdateformat": "ddds mns yy",
+                    "ganttwidthpercent": "70",
+                    "ganttPaneDuration": "50",
+                    "ganttPaneDurationUnit": "d",
+                    "plottooltext": "$processName{br} $label starting date $start{br}$label ending date $end",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "bgcolor": "#33bdda",
+                        "category": [
+                            {
+                                "start": "1/4/2014",
+                                "end": "30/6/2014",
+                                "label": "Months",
+                                "align": "middle",
+                                "fontcolor": "#ffffff",
+                                "fontsize": "16"
+                            }
+                        ]
+                    },
+                    {
+                        "bgcolor": "#33bdda",
+                        "align": "middle",
+                        "fontcolor": "#ffffff",
+                        "fontsize": "16",
+                        "category": [
+                            {
+                                "start": "1/4/2014",
+                                "end": "30/4/2014",
+                                "label": "April"
+                            },
+                            {
+                                "start": "1/5/2014",
+                                "end": "31/5/2014",
+                                "label": "May"
+                            },
+                            {
+                                "start": "1/6/2014",
+                                "end": "30/6/2014",
+                                "label": "June"
+                            }
+                        ]
+                    },
+                    {
+                        "bgcolor": "#ffffff",
+                        "fontcolor": "#1288dd",
+                        "fontsize": "12",
+                        "isbold": "1",
+                        "align": "center",
+                        "category": [
+                            {
+                                "start": "1/4/2014",
+                                "end": "5/4/2014",
+                                "label": "Week 1"
+                            },
+                            {
+                                "start": "6/4/2014",
+                                "end": "12/4/2014",
+                                "label": "Week 2"
+                            },
+                            {
+                                "start": "13/4/2014",
+                                "end": "19/4/2014",
+                                "label": "Week 3"
+                            },
+                            {
+                                "start": "20/4/2014",
+                                "end": "26/4/2014",
+                                "label": "Week 4"
+                            },
+                            {
+                                "start": "27/4/2014",
+                                "end": "3/5/2014",
+                                "label": "Week 5"
+                            },
+                            {
+                                "start": "4/5/2014",
+                                "end": "10/5/2014",
+                                "label": "Week 6"
+                            },
+                            {
+                                "start": "11/5/2014",
+                                "end": "17/5/2014",
+                                "label": "Week 7"
+                            },
+                            {
+                                "start": "18/5/2014",
+                                "end": "24/5/2014",
+                                "label": "Week 8"
+                            },
+                            {
+                                "start": "25/5/2014",
+                                "end": "31/5/2014",
+                                "label": "Week 9"
+                            },
+                            {
+                                "start": "1/6/2014",
+                                "end": "7/6/2014",
+                                "label": "Week 10"
+                            },
+                            {
+                                "start": "8/6/2014",
+                                "end": "14/6/2014",
+                                "label": "Week 11"
+                            },
+                            {
+                                "start": "15/6/2014",
+                                "end": "21/6/2014",
+                                "label": "Week 12"
+                            },
+                            {
+                                "start": "22/6/2014",
+                                "end": "28/6/2014",
+                                "label": "Week 13"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "headertext": "Task",
+                    "fontcolor": "#000000",
+                    "fontsize": "11",
+                    "isanimated": "1",
+                    "bgcolor": "#6baa01",
+                    "headervalign": "bottom",
+                    "headeralign": "left",
+                    "headerbgcolor": "#6baa01",
+                    "headerfontcolor": "#ffffff",
+                    "headerfontsize": "16",
+                    "align": "left",
+                    "isbold": "1",
+                    "bgalpha": "25",
+                    "process": [
+                        {
+                            "label": "Clear site",
+                            "id": "1"
+                        },
+                        {
+                            "label": "Excavate Foundation",
+                            "id": "2",
+                            "hoverBandColor": "#e44a00",
+                            "hoverBandAlpha": "40"
+                        },
+                        {
+                            "label": "Concrete Foundation",
+                            "id": "3",
+                            "hoverBandColor": "#e44a00",
+                            "hoverBandAlpha": "40"
+                        },
+                        {
+                            "label": "Footing to DPC",
+                            "id": "4",
+                            "hoverBandColor": "#e44a00",
+                            "hoverBandAlpha": "40"
+                        },
+                        {
+                            "label": "Drainage Services",
+                            "id": "5",
+                            "hoverBandColor": "#e44a00",
+                            "hoverBandAlpha": "40"
+                        },
+                        {
+                            "label": "Backfill",
+                            "id": "6",
+                            "hoverBandColor": "#e44a00",
+                            "hoverBandAlpha": "40"
+                        },
+                        {
+                            "label": "Ground Floor",
+                            "id": "7"
+                        },
+                        {
+                            "label": "Walls on First Floor",
+                            "id": "8"
+                        },
+                        {
+                            "label": "First Floor Carcass",
+                            "id": "9",
+                            "hoverBandColor": "#e44a00",
+                            "hoverBandAlpha": "40"
+                        },
+                        {
+                            "label": "First Floor Deck",
+                            "id": "10",
+                            "hoverBandColor": "#e44a00",
+                            "hoverBandAlpha": "40"
+                        },
+                        {
+                            "label": "Roof Structure",
+                            "id": "11"
+                        },
+                        {
+                            "label": "Roof Covering",
+                            "id": "12"
+                        },
+                        {
+                            "label": "Rainwater Gear",
+                            "id": "13"
+                        },
+                        {
+                            "label": "Windows",
+                            "id": "14"
+                        },
+                        {
+                            "label": "External Doors",
+                            "id": "15"
+                        },
+                        {
+                            "label": "Connect Electricity",
+                            "id": "16"
+                        },
+                        {
+                            "label": "Connect Water Supply",
+                            "id": "17",
+                            "hoverBandColor": "#e44a00",
+                            "hoverBandAlpha": "40"
+                        },
+                        {
+                            "label": "Install Air Conditioning",
+                            "id": "18",
+                            "hoverBandColor": "#e44a00",
+                            "hoverBandAlpha": "40"
+                        },
+                        {
+                            "label": "Interior Decoration",
+                            "id": "19",
+                            "hoverBandColor": "#e44a00",
+                            "hoverBandAlpha": "40"
+                        },
+                        {
+                            "label": "Fencing And signs",
+                            "id": "20"
+                        },
+                        {
+                            "label": "Exterior Decoration",
+                            "id": "21",
+                            "hoverBandColor": "#e44a00",
+                            "hoverBandAlpha": "40"
+                        },
+                        {
+                            "label": "Setup racks",
+                            "id": "22"
+                        }
+                    ]
+                },
+                "datatable": {
+                    "showprocessname": "1",
+                    "namealign": "left",
+                    "fontcolor": "#000000",
+                    "fontsize": "10",
+                    "valign": "right",
+                    "align": "center",
+                    "headervalign": "bottom",
+                    "headeralign": "center",
+                    "headerbgcolor": "#008ee4",
+                    "headerfontcolor": "#ffffff",
+                    "headerfontsize": "14",
+                    "datacolumn": [
+                        {
+                            "bgcolor": "#eeeeee",
+                            "headertext": "Actual{br}Start{br}Date",
+                            "text": [
+                                {
+                                    "label": "9/4/2014"
+                                },
+                                {
+                                    "label": "13/4/2014"
+                                },
+                                {
+                                    "label": "26/4/2014",
+                                    "bgcolor": "#e44a00",
+                                    "bgAlpha": "40"
+                                },
+                                {
+                                    "label": "4/5/2014",
+                                    "bgcolor": "#e44a00",
+                                    "bgAlpha": "40"
+                                },
+                                {
+                                    "label": "6/5/2014"
+                                },
+                                {
+                                    "label": "5/5/2014",
+                                    "bgcolor": "#e44a00",
+                                    "bgAlpha": "40"
+                                },
+                                {
+                                    "label": "11/5/2014"
+                                },
+                                {
+                                    "label": "16/5/2014"
+                                },
+                                {
+                                    "label": "16/5/2014"
+                                },
+                                {
+                                    "label": "21/5/2014",
+                                    "bgcolor": "#e44a00",
+                                    "bgAlpha": "40"
+                                },
+                                {
+                                    "label": "25/5/2014"
+                                },
+                                {
+                                    "label": "28/5/2014"
+                                },
+                                {
+                                    "label": "4/6/2014"
+                                },
+                                {
+                                    "label": "4/6/2014"
+                                },
+                                {
+                                    "label": "4/6/2014"
+                                },
+                                {
+                                    "label": "2/6/2014"
+                                },
+                                {
+                                    "label": "5/6/2014"
+                                },
+                                {
+                                    "label": "18/6/2014",
+                                    "bgcolor": "#e44a00",
+                                    "bgAlpha": "40"
+                                },
+                                {
+                                    "label": "16/6/2014",
+                                    "bgcolor": "#e44a00",
+                                    "bgAlpha": "40"
+                                },
+                                {
+                                    "label": "23/6/2014"
+                                },
+                                {
+                                    "label": "18/6/2014"
+                                },
+                                {
+                                    "label": "25/6/2014"
+                                }
+                            ]
+                        },
+                        {
+                            "bgcolor": "#eeeeee",
+                            "headertext": "Actual{br}End{br}Date",
+                            "text": [
+                                {
+                                    "label": "12/4/2014"
+                                },
+                                {
+                                    "label": "25/4/2014",
+                                    "bgcolor": "#e44a00",
+                                    "bgAlpha": "40"
+                                },
+                                {
+                                    "label": "4/5/2014",
+                                    "bgcolor": "#e44a00",
+                                    "bgAlpha": "40"
+                                },
+                                {
+                                    "label": "10/5/2014"
+                                },
+                                {
+                                    "label": "10/5/2014"
+                                },
+                                {
+                                    "label": "11/5/2014",
+                                    "bgcolor": "#e44a00",
+                                    "bgAlpha": "40"
+                                },
+                                {
+                                    "label": "14/5/2014"
+                                },
+                                {
+                                    "label": "19/5/2014"
+                                },
+                                {
+                                    "label": "21/5/2014",
+                                    "bgcolor": "#e44a00",
+                                    "bgAlpha": "40"
+                                },
+                                {
+                                    "label": "24/5/2014",
+                                    "bgcolor": "#e44a00",
+                                    "bgAlpha": "40"
+                                },
+                                {
+                                    "label": "27/5/2014"
+                                },
+                                {
+                                    "label": "1/6/2014"
+                                },
+                                {
+                                    "label": "6/6/2014"
+                                },
+                                {
+                                    "label": "4/6/2014"
+                                },
+                                {
+                                    "label": "4/6/2014"
+                                },
+                                {
+                                    "label": "7/6/2014"
+                                },
+                                {
+                                    "label": "17/6/2014",
+                                    "bgcolor": "#e44a00",
+                                    "bgAlpha": "40"
+                                },
+                                {
+                                    "label": "20/6/2014",
+                                    "bgcolor": "#e44a00",
+                                    "bgAlpha": "40"
+                                },
+                                {
+                                    "label": "23/6/2014"
+                                },
+                                {
+                                    "label": "23/6/2014"
+                                },
+                                {
+                                    "label": "23/6/2014",
+                                    "bgcolor": "#e44a00",
+                                    "bgAlpha": "40"
+                                },
+                                {
+                                    "label": "28/6/2014"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "tasks": {
+                    "task": [
+                        {
+                            "label": "Planned",
+                            "processid": "1",
+                            "start": "9/4/2014",
+                            "end": "12/4/2014",
+                            "id": "1-1",
+                            "color": "#008ee4",
+                            "height": "32%",
+                            "toppadding": "12%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "1",
+                            "start": "9/4/2014",
+                            "end": "12/4/2014",
+                            "id": "1",
+                            "color": "#6baa01",
+                            "toppadding": "56%",
+                            "height": "32%"
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "2",
+                            "start": "13/4/2014",
+                            "end": "23/4/2014",
+                            "id": "2-1",
+                            "color": "#008ee4",
+                            "height": "32%",
+                            "toppadding": "12%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "2",
+                            "start": "13/4/2014",
+                            "end": "25/4/2014",
+                            "id": "2",
+                            "color": "#6baa01",
+                            "toppadding": "56%",
+                            "height": "32%"
+                        },
+                        {
+                            "label": "Delay",
+                            "processid": "2",
+                            "start": "23/4/2014",
+                            "end": "25/4/2014",
+                            "id": "2-2",
+                            "color": "#e44a00",
+                            "toppadding": "56%",
+                            "height": "32%",
+                            "tooltext": "Delayed by 2 days."
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "3",
+                            "start": "23/4/2014",
+                            "end": "30/4/2014",
+                            "id": "3-1",
+                            "color": "#008ee4",
+                            "height": "32%",
+                            "toppadding": "12%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "3",
+                            "start": "26/4/2014",
+                            "end": "4/5/2014",
+                            "id": "3",
+                            "color": "#6baa01",
+                            "toppadding": "56%",
+                            "height": "32%"
+                        },
+                        {
+                            "label": "Delay",
+                            "processid": "3",
+                            "start": "3/5/2014",
+                            "end": "4/5/2014",
+                            "id": "3-2",
+                            "color": "#e44a00",
+                            "toppadding": "56%",
+                            "height": "32%",
+                            "tooltext": "Delayed by 1 days."
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "4",
+                            "start": "3/5/2014",
+                            "end": "10/5/2014",
+                            "id": "4-1",
+                            "color": "#008ee4",
+                            "height": "32%",
+                            "toppadding": "12%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "4",
+                            "start": "4/5/2014",
+                            "end": "10/5/2014",
+                            "id": "4",
+                            "color": "#6baa01",
+                            "toppadding": "56%",
+                            "height": "32%"
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "5",
+                            "start": "6/5/2014",
+                            "end": "11/5/2014",
+                            "id": "5-1",
+                            "color": "#008ee4",
+                            "height": "32%",
+                            "toppadding": "12%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "5",
+                            "start": "6/5/2014",
+                            "end": "10/5/2014",
+                            "id": "5",
+                            "color": "#6baa01",
+                            "toppadding": "56%",
+                            "height": "32%"
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "6",
+                            "start": "4/5/2014",
+                            "end": "7/5/2014",
+                            "id": "6-1",
+                            "color": "#008ee4",
+                            "height": "32%",
+                            "toppadding": "12%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "6",
+                            "start": "5/5/2014",
+                            "end": "11/5/2014",
+                            "id": "6",
+                            "color": "#6baa01",
+                            "toppadding": "56%",
+                            "height": "32%"
+                        },
+                        {
+                            "label": "Delay",
+                            "processid": "6",
+                            "start": "7/5/2014",
+                            "end": "11/5/2014",
+                            "id": "6-2",
+                            "color": "#e44a00",
+                            "toppadding": "56%",
+                            "height": "32%",
+                            "tooltext": "Delayed by 4 days."
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "7",
+                            "start": "11/5/2014",
+                            "end": "14/5/2014",
+                            "id": "7-1",
+                            "color": "#008ee4",
+                            "height": "32%",
+                            "toppadding": "12%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "7",
+                            "start": "11/5/2014",
+                            "end": "14/5/2014",
+                            "id": "7",
+                            "color": "#6baa01",
+                            "toppadding": "56%",
+                            "height": "32%"
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "8",
+                            "start": "16/5/2014",
+                            "end": "19/5/2014",
+                            "id": "8-1",
+                            "color": "#008ee4",
+                            "height": "32%",
+                            "toppadding": "12%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "8",
+                            "start": "16/5/2014",
+                            "end": "19/5/2014",
+                            "id": "8",
+                            "color": "#6baa01",
+                            "toppadding": "56%",
+                            "height": "32%"
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "9",
+                            "start": "16/5/2014",
+                            "end": "18/5/2014",
+                            "id": "9-1",
+                            "color": "#008ee4",
+                            "height": "32%",
+                            "toppadding": "12%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "9",
+                            "start": "16/5/2014",
+                            "end": "21/5/2014",
+                            "id": "9",
+                            "color": "#6baa01",
+                            "toppadding": "56%",
+                            "height": "32%"
+                        },
+                        {
+                            "label": "Delay",
+                            "processid": "9",
+                            "start": "18/5/2014",
+                            "end": "21/5/2014",
+                            "id": "9-2",
+                            "color": "#e44a00",
+                            "toppadding": "56%",
+                            "height": "32%",
+                            "tooltext": "Delayed by 3 days."
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "10",
+                            "start": "20/5/2014",
+                            "end": "23/5/2014",
+                            "id": "10-1",
+                            "color": "#008ee4",
+                            "height": "32%",
+                            "toppadding": "12%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "10",
+                            "start": "21/5/2014",
+                            "end": "24/5/2014",
+                            "id": "10",
+                            "color": "#6baa01",
+                            "toppadding": "56%",
+                            "height": "32%"
+                        },
+                        {
+                            "label": "Delay",
+                            "processid": "10",
+                            "start": "23/5/2014",
+                            "end": "24/5/2014",
+                            "id": "10-2",
+                            "color": "#e44a00",
+                            "toppadding": "56%",
+                            "height": "32%",
+                            "tooltext": "Delayed by 1 days."
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "11",
+                            "start": "25/5/2014",
+                            "end": "27/5/2014",
+                            "id": "11-1",
+                            "color": "#008ee4",
+                            "height": "32%",
+                            "toppadding": "12%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "11",
+                            "start": "25/5/2014",
+                            "end": "27/5/2014",
+                            "id": "11",
+                            "color": "#6baa01",
+                            "toppadding": "56%",
+                            "height": "32%"
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "12",
+                            "start": "28/5/2014",
+                            "end": "1/6/2014",
+                            "id": "12-1",
+                            "color": "#008ee4",
+                            "height": "32%",
+                            "toppadding": "12%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "12",
+                            "start": "28/5/2014",
+                            "end": "1/6/2014",
+                            "id": "12",
+                            "color": "#6baa01",
+                            "toppadding": "56%",
+                            "height": "32%"
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "13",
+                            "start": "4/6/2014",
+                            "end": "6/6/2014",
+                            "id": "13-1",
+                            "color": "#008ee4",
+                            "height": "32%",
+                            "toppadding": "12%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "13",
+                            "start": "4/6/2014",
+                            "end": "6/6/2014",
+                            "id": "13",
+                            "color": "#6baa01",
+                            "toppadding": "56%",
+                            "height": "32%"
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "14",
+                            "start": "4/6/2014",
+                            "end": "4/6/2014",
+                            "id": "14-1",
+                            "color": "#008ee4",
+                            "height": "32%",
+                            "toppadding": "12%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "14",
+                            "start": "4/6/2014",
+                            "end": "4/6/2014",
+                            "id": "14",
+                            "color": "#6baa01",
+                            "toppadding": "56%",
+                            "height": "32%"
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "15",
+                            "start": "4/6/2014",
+                            "end": "4/6/2014",
+                            "id": "15-1",
+                            "color": "#008ee4",
+                            "height": "32%",
+                            "toppadding": "12%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "15",
+                            "start": "4/6/2014",
+                            "end": "4/6/2014",
+                            "id": "15",
+                            "color": "#6baa01",
+                            "toppadding": "56%",
+                            "height": "32%"
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "16",
+                            "start": "2/6/2014",
+                            "end": "7/6/2014",
+                            "id": "16-1",
+                            "color": "#008ee4",
+                            "height": "32%",
+                            "toppadding": "12%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "16",
+                            "start": "2/6/2014",
+                            "end": "7/6/2014",
+                            "id": "16",
+                            "color": "#6baa01",
+                            "toppadding": "56%",
+                            "height": "32%"
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "17",
+                            "start": "5/6/2014",
+                            "end": "10/6/2014",
+                            "id": "17-1",
+                            "color": "#008ee4",
+                            "height": "32%",
+                            "toppadding": "12%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "17",
+                            "start": "5/6/2014",
+                            "end": "17/6/2014",
+                            "id": "17",
+                            "color": "#6baa01",
+                            "toppadding": "56%",
+                            "height": "32%"
+                        },
+                        {
+                            "label": "Delay",
+                            "processid": "17",
+                            "start": "10/6/2014",
+                            "end": "17/6/2014",
+                            "id": "17-2",
+                            "color": "#e44a00",
+                            "toppadding": "56%",
+                            "height": "32%",
+                            "tooltext": "Delayed by 7 days."
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "18",
+                            "start": "10/6/2014",
+                            "end": "12/6/2014",
+                            "id": "18-1",
+                            "color": "#008ee4",
+                            "height": "32%",
+                            "toppadding": "12%"
+                        },
+                        {
+                            "label": "Delay",
+                            "processid": "18",
+                            "start": "18/6/2014",
+                            "end": "20/6/2014",
+                            "id": "18",
+                            "color": "#e44a00",
+                            "toppadding": "56%",
+                            "height": "32%",
+                            "tooltext": "Delayed by 8 days."
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "19",
+                            "start": "15/6/2014",
+                            "end": "23/6/2014",
+                            "id": "19-1",
+                            "color": "#008ee4",
+                            "height": "32%",
+                            "toppadding": "12%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "19",
+                            "start": "16/6/2014",
+                            "end": "23/6/2014",
+                            "id": "19",
+                            "color": "#6baa01",
+                            "toppadding": "56%",
+                            "height": "32%"
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "20",
+                            "start": "23/6/2014",
+                            "end": "23/6/2014",
+                            "id": "20-1",
+                            "color": "#008ee4",
+                            "height": "32%",
+                            "toppadding": "12%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "20",
+                            "start": "23/6/2014",
+                            "end": "23/6/2014",
+                            "id": "20",
+                            "color": "#6baa01",
+                            "toppadding": "56%",
+                            "height": "32%"
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "21",
+                            "start": "18/6/2014",
+                            "end": "21/6/2014",
+                            "id": "21-1",
+                            "color": "#008ee4",
+                            "height": "32%",
+                            "toppadding": "12%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "21",
+                            "start": "18/6/2014",
+                            "end": "23/6/2014",
+                            "id": "21",
+                            "color": "#6baa01",
+                            "toppadding": "56%",
+                            "height": "32%"
+                        },
+                        {
+                            "label": "Delay",
+                            "processid": "21",
+                            "start": "21/6/2014",
+                            "end": "23/6/2014",
+                            "id": "21-2",
+                            "color": "#e44a00",
+                            "toppadding": "56%",
+                            "height": "32%",
+                            "tooltext": "Delayed by 2 days."
+                        },
+                        {
+                            "label": "Planned",
+                            "processid": "22",
+                            "start": "24/6/2014",
+                            "end": "28/6/2014",
+                            "id": "22-1",
+                            "color": "#008ee4",
+                            "height": "32%",
+                            "toppadding": "12%"
+                        },
+                        {
+                            "label": "Actual",
+                            "processid": "22",
+                            "start": "25/6/2014",
+                            "end": "28/6/2014",
+                            "id": "22",
+                            "color": "#6baa01",
+                            "toppadding": "56%",
+                            "height": "32%"
+                        }
+                    ]
+                },
+                "connectors": [
+                    {
+                        "connector": [
+                            {
+                                "fromtaskid": "1",
+                                "totaskid": "2",
+                                "color": "#008ee4",
+                                "thickness": "2",
+                                "fromtaskconnectstart_": "1"
+                            },
+                            {
+                                "fromtaskid": "2-2",
+                                "totaskid": "3",
+                                "color": "#008ee4",
+                                "thickness": "2"
+                            },
+                            {
+                                "fromtaskid": "3-2",
+                                "totaskid": "4",
+                                "color": "#008ee4",
+                                "thickness": "2"
+                            },
+                            {
+                                "fromtaskid": "3-2",
+                                "totaskid": "6",
+                                "color": "#008ee4",
+                                "thickness": "2"
+                            },
+                            {
+                                "fromtaskid": "7",
+                                "totaskid": "8",
+                                "color": "#008ee4",
+                                "thickness": "2"
+                            },
+                            {
+                                "fromtaskid": "7",
+                                "totaskid": "9",
+                                "color": "#008ee4",
+                                "thickness": "2"
+                            },
+                            {
+                                "fromtaskid": "12",
+                                "totaskid": "16",
+                                "color": "#008ee4",
+                                "thickness": "2"
+                            },
+                            {
+                                "fromtaskid": "12",
+                                "totaskid": "17",
+                                "color": "#008ee4",
+                                "thickness": "2"
+                            },
+                            {
+                                "fromtaskid": "17-2",
+                                "totaskid": "18",
+                                "color": "#008ee4",
+                                "thickness": "2"
+                            },
+                            {
+                                "fromtaskid": "19",
+                                "totaskid": "22",
+                                "color": "#008ee4",
+                                "thickness": "2"
+                            }
+                        ]
+                    }
+                ],
+                "milestones": {
+                    "milestone": [
+                        {
+                            "date": "2/6/2014",
+                            "taskid": "12",
+                            "color": "#f8bd19",
+                            "shape": "star",
+                            "tooltext": "Completion of Phase 1"
+                        }
+                    ]
+                },
+                "legend": {
+                    "item": [
+                        {
+                            "label": "Planned",
+                            "color": "#008ee4"
+                        },
+                        {
+                            "label": "Actual",
+                            "color": "#6baa01"
+                        },
+                        {
+                            "label": "Slack (Delay)",
+                            "color": "#e44a00"
+                        }
+                    ]
+                }
+            },
+            "width": "700",
+            "height": "500",
+            "type": "gantt"
+        },
+        "id": "fusionwidgets-gantt-charts-gantt-chart-legend-to-explain-color-key1"
+    }
+}
