@@ -1,0 +1,4874 @@
+{
+    "chart-titles-1": {
+        "description": "caption-subcaption",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED  fsfff af afasdfsdf sdfsf sf <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;to show the attributes functionality working perfectly",
+                    "useellipseswhenoverflow": "1",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/chart-titles-1-snapshot.png",
+        "id": "chart-titles-1"
+    },
+    "functional-attributes-1": {
+        "description": "maxColWidth-not-working",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED  fsfff af afasdfsdf sdfsf sf <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;to show the attributes functionality working perfectly",
+                    "useellipseswhenoverflow": "1",
+                    "xaxisname": "Month",
+                    "maxcolwidth": "20",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar3d/ref-images/functional-attributes-1-snapshot.png",
+        "id": "functional-attributes-1"
+    },
+    "functional-attributes-2": {
+        "description": "showLabels-is-1",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showlabels": "1",
+                    "labelstep": "3",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/functional-attributes-2-snapshot.png",
+        "id": "functional-attributes-2"
+    },
+    "chart-titles-2": {
+        "description": "xaxisname-yxisname-alignment-not-per-prev-version",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED  fsfff af afasdfsdf sdfsf sf <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;to show the attributes functionality working perfectly",
+                    "xaxisname": "HLED  fsfff af afasdfsdf sdfsf sf <sample> &lt; &gt;chart monitoring noise pollution",
+                    "yaxisname": "Sample hled chart <sample> &lt; &gt;to show the attributes functionality working perfectly Sample hled chart <sample> &lt; &gt;to show the attributes functionality working perfectly",
+                    "numberprefix": "$",
+                    "showlabels": "1",
+                    "labelstep": "3",
+                    "useellipseswhenoverflow": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/chart-titles-2-snapshot.png",
+        "id": "chart-titles-2"
+    },
+    "functional-attributes-3": {
+        "description": "placeValuesInside-0-not-working",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED  fsfff af afasdfsdf sdfsf sf <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;to show the attributes functionality working perfectly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "placevaluesinside": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/functional-attributes-3-snapshot.png",
+        "id": "functional-attributes-3"
+    },
+    "functional-attributes-4": {
+        "description": "showYAxisValues-0-not-working",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED  fsfff af afasdfsdf sdfsf sf <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;to show the attributes functionality working perfectly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showyaxisvalues": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/functional-attributes-4-snapshot.png",
+        "id": "functional-attributes-4"
+    },
+    "functional-attributes-5": {
+        "description": "showLimits-0-not-working",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED  fsfff af afasdfsdf sdfsf sf <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;to show the attributes functionality working perfectly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showyaxisvalues": "1",
+                    "showlimits": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/functional-attributes-5-snapshot.png",
+        "id": "functional-attributes-5"
+    },
+    "functional-attributes-6": {
+        "description": "showDivLineValues-0-not-working",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED  fsfff af afasdfsdf sdfsf sf <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;to show the attributes functionality working perfectly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showyaxisvalues": "1",
+                    "showdivlinevalues": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/functional-attributes-6-snapshot.png",
+        "id": "functional-attributes-6"
+    },
+    "functional-attributes-7": {
+        "description": "yAxisValuesStep-not-working",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED  fsfff af afasdfsdf sdfsf sf <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;to show the attributes functionality working perfectly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showyaxisvalues": "1",
+                    "yaxisvaluesstep": "2",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/functional-attributes-7-snapshot.png",
+        "id": "functional-attributes-7"
+    },
+    "functional-attributes-8": {
+        "description": "using-showshadow-0",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED  fsfff af afasdfsdf sdfsf sf <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;to show the attributes functionality working perfectly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showyaxisvalues": "1",
+                    "showshadow": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/functional-attributes-8-snapshot.png",
+        "id": "functional-attributes-8"
+    },
+    "functional-attributes-9": {
+        "description": "adjustDiv-not-working",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED  fsfff af afasdfsdf sdfsf sf <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;to show the attributes functionality working perfectly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showyaxisvalues": "1",
+                    "yaxisminvalue": "1000",
+                    "yaxismaxvalue": "700000",
+                    "adjustdiv": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/functional-attributes-9-snapshot.png",
+        "id": "functional-attributes-9"
+    },
+    "functional-attributes-10": {
+        "description": "rotateXAxisName-0-not-working",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED  fsfff af afasdfsdf sdfsf sf <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;to show the attributes functionality working perfectly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "rotatexaxisname": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/functional-attributes-10-snapshot.png",
+        "id": "functional-attributes-10"
+    },
+    "functional-attributes-11": {
+        "description": "xAxisNameWidth-not-working",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED  fsfff af afasdfsdf sdfsf sf <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;to show the attributes functionality working perfectly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "xaxisnamewidth": "20",
+                    "rotatexaxisname": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/functional-attributes-11-snapshot.png",
+        "id": "functional-attributes-11"
+    },
+    "functional-attributes-12": {
+        "description": "click-url-not-working",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED  fsfff af afasdfsdf sdfsf sf <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;to show the attributes functionality working perfectly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "xaxisnamewidth": "20",
+                    "clickurl": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://fusioncharts.com",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/functional-attributes-12-snapshot.png",
+        "id": "functional-attributes-12"
+    },
+    "functional-attributes-13": {
+        "description": "clickURLOverridesPlotLinks",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED  fsfff af afasdfsdf sdfsf sf <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;to show the attributes functionality working perfectly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "xaxisnamewidth": "20",
+                    "clickurl": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://fusioncharts.com",
+                    "clickurloverridesplotlinks": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/functional-attributes-13-snapshot.png",
+        "id": "functional-attributes-13"
+    },
+    "functional-attributes-14": {
+        "description": "clickURLOverridesPlotLinks-2",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED  fsfff af afasdfsdf sdfsf sf <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;to show the attributes functionality working perfectly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "xaxisnamewidth": "20",
+                    "clickurl": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://fusioncharts.com",
+                    "clickurloverridesplotlinks": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/functional-attributes-14-snapshot.png",
+        "id": "functional-attributes-14"
+    },
+    "functional-attributes-15": {
+        "description": "yAxisMinValue-yAxisMaxValue-not-working",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED  fsfff af afasdfsdf sdfsf sf <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;to show the attributes functionality working perfectly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "yaxisminvalue": "5000",
+                    "yaxismaxvalue": "1200000",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/functional-attributes-15-snapshot.png",
+        "id": "functional-attributes-15"
+    },
+    "functional-attributes-16": {
+        "description": "setAdaptiveYMin-not-working",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED  fsfff af afasdfsdf sdfsf sf <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;to show the attributes functionality working perfectly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "setadaptiveymin": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/functional-attributes-16-snapshot.png",
+        "id": "functional-attributes-16"
+    },
+    "functional-attributes-17": {
+        "description": "centerXaxisName-not-working",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED  fsfff af afasdfsdf sdfsf sf <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;to show the attributes functionality working perfectly",
+                    "xaxisname": "Month Month Month Month",
+                    "yaxisname": "Revenue {br} Revenue Revenue {br} RevenueRevenue {br} Revenue",
+                    "centerxaxisname": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/functional-attributes-17-snapshot.png",
+        "id": "functional-attributes-17"
+    },
+    "functional-attributes-18": {
+        "description": "useDataPlotColorForLabels-not-working",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED  fsfff af afasdfsdf sdfsf sf <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;to show the attributes functionality working perfectly",
+                    "xaxisname": "Month Month Month Month",
+                    "yaxisname": "Revenue {br} Revenue Revenue {br} RevenueRevenue {br} Revenue",
+                    "usedataplotcolorforlabels": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/functional-attributes-18-snapshot.png",
+        "id": "functional-attributes-18"
+    },
+    "functional-attributes-19": {
+        "description": "hasRTLText-no-change",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED  fsfff af afasdfsdf sdfsf sf <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;to show the attributes functionality working perfectly",
+                    "xaxisname": "זאת השפה העברית",
+                    "yaxisname": "طهيس يس تآخت تهات",
+                    "hasrtltext": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/functional-attributes-19-snapshot.png",
+        "id": "functional-attributes-19"
+    },
+    "caption-subcaption-1": {
+        "description": "caption-subcaption-related-issue",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;",
+                    "xaxisname": "Month Month Month Month",
+                    "yaxisname": "Revenue {br} Revenue Revenue {br} RevenueRevenue {br} Revenue",
+                    "captionontop": "0",
+                    "captionfontsize": "20",
+                    "subcaptionfontsize": "18",
+                    "captionfont": "arial",
+                    "subcaptionfont": "verdana",
+                    "captionfontcolor": "ff0000",
+                    "subcaptionfontcolor": "0000ff",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "1",
+                    "aligncaptionwithcanvas": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/caption-subcaption-1-snapshot.png",
+        "id": "caption-subcaption-1"
+    },
+    "caption-subcaption-2": {
+        "description": "caption-subcaption-related-issue",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;",
+                    "xaxisname": "Month Month Month Month",
+                    "yaxisname": "Revenue {br} Revenue Revenue {br} RevenueRevenue {br} Revenue",
+                    "captionontop": "0",
+                    "captionfontsize": "25",
+                    "subcaptionfontsize": "18",
+                    "captionfont": "arial",
+                    "subcaptionfont": "verdana",
+                    "captionfontcolor": "ff0000",
+                    "subcaptionfontcolor": "0000ff",
+                    "captionfontbold": "1",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/caption-subcaption-2-snapshot.png",
+        "id": "caption-subcaption-2"
+    },
+    "trend-lines-1": {
+        "description": "trendzone-trendline-showontop-related",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;",
+                    "xaxisname": "Month Month Month Month",
+                    "yaxisname": "Revenue {br} Revenue Revenue {br} RevenueRevenue {br} Revenue",
+                    "captionontop": "0",
+                    "captionfontsize": "25",
+                    "subcaptionfontsize": "18",
+                    "captionfont": "arial",
+                    "subcaptionfont": "verdana",
+                    "captionfontcolor": "ff0000",
+                    "subcaptionfontcolor": "0000ff",
+                    "captionfontbold": "1",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "600000",
+                                "istrendzone": "0",
+                                "valueonright": "0",
+                                "tooltext": "Turan",
+                                "endvalue": "900000",
+                                "color": "#00a7ff",
+                                "displayvalue": "Last Year Trend",
+                                "showontop": "1",
+                                "thickness": "5",
+                                "alpha": "100"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/trend-lines-1-snapshot.png",
+        "id": "trend-lines-1"
+    },
+    "trend-lines-2": {
+        "description": "trendzone-trendline-showontop-related-2",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;",
+                    "xaxisname": "Month Month Month Month",
+                    "yaxisname": "Revenue {br} Revenue Revenue {br} RevenueRevenue {br} Revenue",
+                    "captionontop": "0",
+                    "captionfontsize": "25",
+                    "subcaptionfontsize": "18",
+                    "captionfont": "arial",
+                    "subcaptionfont": "verdana",
+                    "captionfontcolor": "ff0000",
+                    "subcaptionfontcolor": "0000ff",
+                    "captionfontbold": "1",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "-600000",
+                                "istrendzone": "1",
+                                "tooltext": "Niladri",
+                                "endvalue": "500000",
+                                "color": "#00a7ff",
+                                "displayvalue": "Last Year Trend",
+                                "showontop": "1",
+                                "thickness": "5",
+                                "alpha": "40"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/trend-lines-2-snapshot.png",
+        "id": "trend-lines-2"
+    },
+    "trend-lines-3": {
+        "description": "basefont-vs-outcnvbasefont-with-trend-value-font",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;",
+                    "xaxisname": "Month Month Month Month",
+                    "yaxisname": "Revenue {br} Revenue Revenue {br} RevenueRevenue {br} Revenue",
+                    "trendvaluefont": "arial",
+                    "trendvaluefontsize": "22",
+                    "trendvaluefontbold": "1",
+                    "trendvaluefontitalic": "1",
+                    "trendvaluebgcolor": "0000ff",
+                    "trendvaluebordercolor": "000000",
+                    "trendvaluealpha": "10",
+                    "trendvaluebgalpha": "20",
+                    "trendvalueborderalpha": "50",
+                    "trendvalueborderpadding": "5",
+                    "trendvalueborderradius": "7",
+                    "trendvalueborderthickness": "2",
+                    "trendvalueborderdashed": "1",
+                    "trendvalueborderdashlen": "10",
+                    "trendvalueborderdashgap": "5",
+                    "basefont": "san-seriff",
+                    "basefontsize": "23",
+                    "basefontcolor": "0000ff",
+                    "outcnvbasefont": "arial",
+                    "outcnvbasefontsize": "14",
+                    "outcnvbasefontcolor": "004400",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "600000",
+                                "istrendzone": "1",
+                                "tooltext": "Niladri",
+                                "endvalue": "700000",
+                                "color": "#ff0000",
+                                "displayvalue": "Last Year Trend",
+                                "showontop": "0",
+                                "thickness": "5",
+                                "alpha": "40"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/trend-lines-3-snapshot.png",
+        "id": "trend-lines-3"
+    },
+    "font-properties-1": {
+        "description": "outcnvbasefontsize-15,-renders-xaxisname-with-ellipses",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;",
+                    "xaxisname": "Month Month Month Month",
+                    "yaxisname": "Revenue {br} Revenue Revenue {br} RevenueRevenue {br} Revenue",
+                    "basefont": "san-seriff",
+                    "basefontsize": "23",
+                    "basefontcolor": "0000ff",
+                    "outcnvbasefont": "arial",
+                    "outcnvbasefontsize": "15",
+                    "outcnvbasefontcolor": "004400",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "600000",
+                                "istrendzone": "1",
+                                "tooltext": "Niladri",
+                                "endvalue": "700000",
+                                "color": "#ff0000",
+                                "displayvalue": "Last Year Trend",
+                                "showontop": "0",
+                                "thickness": "5",
+                                "alpha": "20"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/font-properties-1-snapshot.png",
+        "id": "font-properties-1"
+    },
+    "vline-lines-1": {
+        "description": "using-vline-not-showing",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;",
+                    "xaxisname": "Month Month Month Month",
+                    "yaxisname": "Revenue {br} Revenue Revenue {br} RevenueRevenue {br} Revenue",
+                    "basefont": "arial",
+                    "basefontsize": "18",
+                    "basefontcolor": "80a0ff",
+                    "outcnvbasefont": "arial",
+                    "outcnvbasefontsize": "12",
+                    "outcnvbasefontcolor": "330000",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "410000"
+                    },
+                    {
+                        "label": "Vline",
+                        "vline": "true",
+                        "color": "9900cc",
+                        "thickness": "3",
+                        "alpha": "40",
+                        "dashed": "1",
+                        "dashlen": "5",
+                        "dashgap": "8",
+                        "showlabelborder": "1",
+                        "lineposition": "0",
+                        "labelposition": "1",
+                        "labelhalign": "right",
+                        "labelvalign": "right"
+                    },
+                    {
+                        "label": "Mar",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "600000",
+                                "istrendzone": "1",
+                                "tooltext": "Niladri",
+                                "endvalue": "700000",
+                                "color": "#ff0000",
+                                "displayvalue": "Last Year Trend",
+                                "showontop": "0",
+                                "thickness": "5",
+                                "alpha": "20"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/vline-lines-1-snapshot.png",
+        "id": "vline-lines-1"
+    },
+    "vline-lines-2": {
+        "description": "vline-lines-2",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;",
+                    "xaxisname": "Month Month Month Month",
+                    "yaxisname": "Revenue {br} Revenue Revenue {br} RevenueRevenue {br} Revenue",
+                    "basefont": "arial",
+                    "basefontsize": "18",
+                    "basefontcolor": "80a0ff",
+                    "outcnvbasefont": "arial",
+                    "outcnvbasefontsize": "12",
+                    "outcnvbasefontcolor": "330000",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "alpha": "10",
+                        "value": "410000"
+                    },
+                    {
+                        "label": "Vline",
+                        "vline": "true",
+                        "color": "9900cc",
+                        "thickness": "3",
+                        "alpha": "40",
+                        "dashed": "1",
+                        "dashlen": "5",
+                        "dashgap": "8",
+                        "showlabelborder": "1",
+                        "lineposition": "0",
+                        "labelposition": "1",
+                        "labelhalign": "center",
+                        "labelvalign": ""
+                    },
+                    {
+                        "label": "Mar",
+                        "alpha": "10",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "600000",
+                                "istrendzone": "1",
+                                "tooltext": "Niladri",
+                                "endvalue": "700000",
+                                "color": "#ff0000",
+                                "displayvalue": "Last Year Trend",
+                                "showontop": "0",
+                                "thickness": "5",
+                                "alpha": "20"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/vline-lines-2-snapshot.png",
+        "id": "vline-lines-2"
+    },
+    "vline-lines-3": {
+        "description": "vline-lines-3",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;",
+                    "xaxisname": "Month Month Month Month",
+                    "yaxisname": "Revenue {br} Revenue Revenue {br} RevenueRevenue {br} Revenue",
+                    "basefont": "arial",
+                    "basefontsize": "18",
+                    "basefontcolor": "80a0ff",
+                    "outcnvbasefont": "arial",
+                    "outcnvbasefontsize": "12",
+                    "outcnvbasefontcolor": "330000",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "alpha": "10",
+                        "value": "410000"
+                    },
+                    {
+                        "label": "Vline",
+                        "vline": "true",
+                        "color": "9900cc",
+                        "thickness": "3",
+                        "alpha": "40",
+                        "dashed": "1",
+                        "dashlen": "5",
+                        "dashgap": "8",
+                        "showlabelborder": "1",
+                        "lineposition": "0",
+                        "labelposition": "1",
+                        "labelhalign": "left",
+                        "labelvalign": ""
+                    },
+                    {
+                        "label": "Mar",
+                        "alpha": "10",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "600000",
+                                "istrendzone": "1",
+                                "tooltext": "Niladri",
+                                "endvalue": "700000",
+                                "color": "#ff0000",
+                                "displayvalue": "Last Year Trend",
+                                "showontop": "0",
+                                "thickness": "5",
+                                "alpha": "20"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/vline-lines-3-snapshot.png",
+        "id": "vline-lines-3"
+    },
+    "vline-lines-4": {
+        "description": "vline-lines-4",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;",
+                    "xaxisname": "Month Month Month Month",
+                    "yaxisname": "Revenue {br} Revenue Revenue {br} RevenueRevenue {br} Revenue",
+                    "basefont": "arial",
+                    "basefontsize": "18",
+                    "basefontcolor": "80a0ff",
+                    "outcnvbasefont": "arial",
+                    "outcnvbasefontsize": "12",
+                    "outcnvbasefontcolor": "330000",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "alpha": "10",
+                        "value": "410000"
+                    },
+                    {
+                        "label": "Vline",
+                        "vline": "true",
+                        "color": "9900cc",
+                        "thickness": "3",
+                        "alpha": "40",
+                        "dashed": "1",
+                        "dashlen": "5",
+                        "dashgap": "8",
+                        "showlabelborder": "1",
+                        "lineposition": "0",
+                        "labelposition": "0.6",
+                        "labelhalign": "left",
+                        "labelvalign": ""
+                    },
+                    {
+                        "label": "Mar",
+                        "alpha": "10",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "600000",
+                                "istrendzone": "1",
+                                "tooltext": "Niladri",
+                                "endvalue": "700000",
+                                "color": "#ff0000",
+                                "displayvalue": "Last Year Trend",
+                                "showontop": "0",
+                                "thickness": "5",
+                                "alpha": "20"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/vline-lines-4-snapshot.png",
+        "id": "vline-lines-4"
+    },
+    "vline-lines-5": {
+        "description": "labelvalign",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;",
+                    "xaxisname": "Month Month Month Month",
+                    "yaxisname": "Revenue {br} Revenue Revenue {br} RevenueRevenue {br} Revenue",
+                    "basefont": "arial",
+                    "basefontsize": "18",
+                    "basefontcolor": "80a0ff",
+                    "outcnvbasefont": "arial",
+                    "outcnvbasefontsize": "12",
+                    "outcnvbasefontcolor": "330000",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "alpha": "10",
+                        "value": "410000"
+                    },
+                    {
+                        "label": "Vline",
+                        "vline": "true",
+                        "color": "9900cc",
+                        "thickness": "3",
+                        "alpha": "40",
+                        "dashed": "1",
+                        "dashlen": "5",
+                        "dashgap": "8",
+                        "showlabelborder": "1",
+                        "lineposition": "1",
+                        "labelposition": "0.6",
+                        "labelhalign": "left",
+                        "labelvalign": "bottom"
+                    },
+                    {
+                        "label": "Mar",
+                        "alpha": "10",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "600000",
+                                "istrendzone": "1",
+                                "tooltext": "Niladri",
+                                "endvalue": "700000",
+                                "color": "#ff0000",
+                                "displayvalue": "Last Year Trend",
+                                "showontop": "0",
+                                "thickness": "5",
+                                "alpha": "20"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/vline-lines-5-snapshot.png",
+        "id": "vline-lines-5"
+    },
+    "the-data-object-1": {
+        "description": "data-label-bg-border-cosmetics-not-working",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;",
+                    "xaxisname": "Month Month Month Month",
+                    "yaxisname": "Revenue {br} Revenue Revenue {br} RevenueRevenue {br} Revenue",
+                    "basefont": "arial",
+                    "basefontsize": "18",
+                    "basefontcolor": "80a0ff",
+                    "outcnvbasefont": "arial",
+                    "outcnvbasefontsize": "12",
+                    "outcnvbasefontcolor": "330000",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "jan",
+                        "value": "420000",
+                        "color": "ff0000",
+                        "displayvalue": "system",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://fusioncharts.com",
+                        "showlabel": "1",
+                        "showvalue": "1",
+                        "tooltext": "tooltext",
+                        "labelfont": "times",
+                        "labelfontcolor": "ff0000",
+                        "labelfontsize": "20",
+                        "labelfontbold": "1",
+                        "labelfontitalic": "1",
+                        "labelbgcolor": "0000ff",
+                        "labelbordercolor": "00ff00",
+                        "labelalpha": "40",
+                        "labelbgalpha": "20",
+                        "labelborderalpha": "50",
+                        "labelborderpadding": "15",
+                        "labelborderradius": "4",
+                        "labelborderthickness": "3",
+                        "labelborderdashed": "1",
+                        "labelborderdashlen": "7",
+                        "labelborderdashgap": "4",
+                        "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com"
+                    },
+                    {
+                        "label": "Feb",
+                        "alpha": "10",
+                        "value": "410000"
+                    },
+                    {
+                        "label": "Vline",
+                        "vline": "true",
+                        "color": "9900cc",
+                        "thickness": "3",
+                        "alpha": "100",
+                        "dashed": "1",
+                        "dashlen": "5",
+                        "dashgap": "8",
+                        "showlabelborder": "1",
+                        "lineposition": "1",
+                        "labelposition": "0.6",
+                        "labelhalign": "left",
+                        "labelvalign": "bottom"
+                    },
+                    {
+                        "label": "Mar",
+                        "alpha": "10",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "600000",
+                                "istrendzone": "1",
+                                "tooltext": "Niladri",
+                                "endvalue": "700000",
+                                "color": "#ff0000",
+                                "displayvalue": "Last Year Trend",
+                                "showontop": "0",
+                                "thickness": "5",
+                                "alpha": "20"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/the-data-object-1-snapshot.png",
+        "id": "the-data-object-1"
+    },
+    "label-cosmetics-1": {
+        "description": "chart-level-label-cosmetics-1",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;",
+                    "xaxisname": "Month Month Month Month",
+                    "yaxisname": "Revenue {br} Revenue Revenue {br} RevenueRevenue {br} Revenue",
+                    "basefont": "arial",
+                    "basefontsize": "18",
+                    "basefontcolor": "80a0ff",
+                    "outcnvbasefont": "arial",
+                    "outcnvbasefontsize": "12",
+                    "outcnvbasefontcolor": "330000",
+                    "labelfont": "times",
+                    "labelfontcolor": "ff0000",
+                    "labelfontsize": "22",
+                    "labelfontbold": "1",
+                    "labelfontitalic": "1",
+                    "labelbgcolor": "00ff00",
+                    "labelbordercolor": "0000ff",
+                    "labelalpha": "100",
+                    "labelbgalpha": "100",
+                    "labelborderalpha": "100",
+                    "labelborderpadding": "7",
+                    "labelborderradius": "4",
+                    "labelborderthickness": "3",
+                    "labelborderdashed": "1",
+                    "labelborderdashlen": "5",
+                    "labelborderdashgap": "6",
+                    "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://fusioncharts.com",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "jan",
+                        "value": "420000",
+                        "color": "ff0000",
+                        "displayvalue": "system",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://fusioncharts.com",
+                        "showlabel": "1",
+                        "showvalue": "1",
+                        "tooltext": "tooltext",
+                        "labelfont": "times",
+                        "labelfontcolor": "ff0000",
+                        "labelfontsize": "20",
+                        "labelfontbold": "1",
+                        "labelfontitalic": "1",
+                        "labelbgcolor": "0000ff",
+                        "labelbordercolor": "00ff00",
+                        "labelalpha": "40",
+                        "labelbgalpha": "20",
+                        "labelborderalpha": "0",
+                        "labelborderpadding": "15",
+                        "labelborderradius": "4",
+                        "labelborderthickness": "3",
+                        "labelborderdashed": "1",
+                        "labelborderdashlen": "7",
+                        "labelborderdashgap": "4",
+                        "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com"
+                    },
+                    {
+                        "label": "Feb Feb Feb Feb ",
+                        "alpha": "10",
+                        "value": "410000"
+                    },
+                    {
+                        "label": "Vline",
+                        "vline": "true",
+                        "color": "9900cc",
+                        "thickness": "3",
+                        "alpha": "100",
+                        "dashed": "1",
+                        "dashlen": "5",
+                        "dashgap": "8",
+                        "showlabelborder": "1",
+                        "lineposition": "1",
+                        "labelposition": "0.6",
+                        "labelhalign": "left",
+                        "labelvalign": "bottom"
+                    },
+                    {
+                        "label": "Mar",
+                        "alpha": "10",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "600000",
+                                "istrendzone": "1",
+                                "tooltext": "Niladri",
+                                "endvalue": "700000",
+                                "color": "#ff0000",
+                                "displayvalue": "Last Year Trend",
+                                "showontop": "0",
+                                "thickness": "5",
+                                "alpha": "20"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/label-cosmetics-1-snapshot.png",
+        "id": "label-cosmetics-1"
+    },
+    "label-cosmetics-2": {
+        "description": "label-link-not-working-1",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;",
+                    "xaxisname": "Month Month Month Month",
+                    "yaxisname": "Revenue {br} Revenue Revenue {br} RevenueRevenue {br} Revenue",
+                    "basefont": "arial",
+                    "basefontsize": "18",
+                    "basefontcolor": "80a0ff",
+                    "outcnvbasefont": "arial",
+                    "outcnvbasefontsize": "12",
+                    "outcnvbasefontcolor": "330000",
+                    "labelfont": "times",
+                    "labelfontcolor": "ff0000",
+                    "labelfontsize": "22",
+                    "labelfontbold": "1",
+                    "labelfontitalic": "1",
+                    "labelbgcolor": "00ff00",
+                    "labelbordercolor": "0000ff",
+                    "labelalpha": "100",
+                    "labelbgalpha": "100",
+                    "labelborderalpha": "100",
+                    "labelborderpadding": "7",
+                    "labelborderradius": "4",
+                    "labelborderthickness": "3",
+                    "labelborderdashed": "1",
+                    "labelborderdashlen": "5",
+                    "labelborderdashgap": "6",
+                    "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://fusioncharts.com",
+                    "plottooltext": "<table style='width:100%'><tr><td>Jill</td><td>Smith</td><td>50</td></tr><tr><td>Eve</td><td>Jackson</td><td>94</td></tr></table>",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "jan",
+                        "value": "420000",
+                        "color": "ff0000",
+                        "displayvalue": "system",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://fusioncharts.com",
+                        "showlabel": "1",
+                        "showvalue": "1",
+                        "tooltext": "<table style='width:100%'><tr><td>Jill</td><td>Smith</td><td>50</td></tr><tr><td>Eve</td><td>Jackson</td><td>94</td></tr></table>",
+                        "labelfont": "times",
+                        "labelfontcolor": "ff0000",
+                        "labelfontsize": "20",
+                        "labelfontbold": "1",
+                        "labelfontitalic": "1",
+                        "labelbgcolor": "0000ff",
+                        "labelbordercolor": "00ff00",
+                        "labelalpha": "10",
+                        "labelbgalpha": "20",
+                        "labelborderalpha": "0",
+                        "labelborderpadding": "15",
+                        "labelborderradius": "4",
+                        "labelborderthickness": "3",
+                        "labelborderdashed": "1",
+                        "labelborderdashlen": "7",
+                        "labelborderdashgap": "4",
+                        "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com"
+                    },
+                    {
+                        "label": "Feb Feb Feb Feb ",
+                        "alpha": "10",
+                        "value": "410000"
+                    },
+                    {
+                        "label": "Vline",
+                        "vline": "true",
+                        "color": "9900cc",
+                        "thickness": "3",
+                        "alpha": "100",
+                        "dashed": "1",
+                        "dashlen": "5",
+                        "dashgap": "8",
+                        "showlabelborder": "1",
+                        "lineposition": "1",
+                        "labelposition": "0.6",
+                        "labelhalign": "left",
+                        "labelvalign": "bottom"
+                    },
+                    {
+                        "label": "Mar",
+                        "alpha": "10",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "600000",
+                                "istrendzone": "1",
+                                "tooltext": "Niladri",
+                                "endvalue": "700000",
+                                "color": "#ff0000",
+                                "displayvalue": "Last Year Trend",
+                                "showontop": "0",
+                                "thickness": "5",
+                                "alpha": "20"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/label-cosmetics-2-snapshot.png",
+        "id": "label-cosmetics-2"
+    },
+    "hover-effect-1": {
+        "description": "using-hover-effect",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;",
+                    "xaxisname": "Month Month Month Month",
+                    "yaxisname": "Revenue {br} Revenue Revenue {br} RevenueRevenue {br} Revenue",
+                    "basefont": "arial",
+                    "basefontsize": "18",
+                    "basefontcolor": "80a0ff",
+                    "outcnvbasefont": "arial",
+                    "outcnvbasefontsize": "12",
+                    "outcnvbasefontcolor": "330000",
+                    "labelfont": "times",
+                    "labelfontcolor": "ff0000",
+                    "labelfontsize": "22",
+                    "labelfontbold": "1",
+                    "labelfontitalic": "1",
+                    "labelbgcolor": "00ff00",
+                    "labelbordercolor": "0000ff",
+                    "labelalpha": "100",
+                    "labelbgalpha": "100",
+                    "labelborderalpha": "100",
+                    "labelborderpadding": "7",
+                    "labelborderradius": "4",
+                    "labelborderthickness": "3",
+                    "labelborderdashed": "1",
+                    "labelborderdashlen": "5",
+                    "labelborderdashgap": "6",
+                    "showhovereffect": "1",
+                    "plothovereffect": "1",
+                    "plotfillhovercolor": "0000ff",
+                    "plotfillhoveralpha": "60",
+                    "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://fusioncharts.com",
+                    "plottooltext": "<table style='width:100%'><tr><td>Jill</td><td>Smith</td><td>50</td></tr><tr><td>Eve</td><td>Jackson</td><td>94</td></tr></table>",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "jan",
+                        "value": "420000",
+                        "color": "ff0000",
+                        "displayvalue": "system",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://fusioncharts.com",
+                        "showlabel": "1",
+                        "showvalue": "1",
+                        "tooltext": "<table style='width:100%'><tr><td>Jill</td><td>Smith</td><td>50</td></tr><tr><td>Eve</td><td>Jackson</td><td>94</td></tr></table>",
+                        "labelfont": "times",
+                        "labelfontcolor": "ff0000",
+                        "labelfontsize": "20",
+                        "labelfontbold": "1",
+                        "labelfontitalic": "1",
+                        "labelbgcolor": "0000ff",
+                        "labelbordercolor": "00ff00",
+                        "labelalpha": "10",
+                        "labelbgalpha": "20",
+                        "labelborderalpha": "0",
+                        "labelborderpadding": "15",
+                        "labelborderradius": "4",
+                        "labelborderthickness": "3",
+                        "labelborderdashed": "1",
+                        "labelborderdashlen": "7",
+                        "labelborderdashgap": "4",
+                        "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com"
+                    },
+                    {
+                        "label": "Feb Feb Feb Feb ",
+                        "alpha": "10",
+                        "value": "410000"
+                    },
+                    {
+                        "label": "Vline",
+                        "vline": "true",
+                        "color": "9900cc",
+                        "thickness": "3",
+                        "alpha": "100",
+                        "dashed": "1",
+                        "dashlen": "5",
+                        "dashgap": "8",
+                        "showlabelborder": "1",
+                        "lineposition": "1",
+                        "labelposition": "0.6",
+                        "labelhalign": "left",
+                        "labelvalign": "bottom"
+                    },
+                    {
+                        "label": "Mar",
+                        "alpha": "10",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "600000",
+                                "istrendzone": "1",
+                                "tooltext": "Niladri",
+                                "endvalue": "700000",
+                                "color": "#ff0000",
+                                "displayvalue": "Last Year Trend",
+                                "showontop": "0",
+                                "thickness": "5",
+                                "alpha": "20"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/hover-effect-1-snapshot.png",
+        "id": "hover-effect-1"
+    },
+    "label-cosmetics-3": {
+        "description": "labelBorderPadding-shift-border-inside-canvas",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;",
+                    "xaxisname": "Month Month Month Month",
+                    "yaxisname": "Revenue {br} Revenue Revenue {br} RevenueRevenue {br} Revenue",
+                    "basefont": "arial",
+                    "basefontsize": "18",
+                    "basefontcolor": "80a0ff",
+                    "outcnvbasefont": "arial",
+                    "outcnvbasefontsize": "12",
+                    "outcnvbasefontcolor": "330000",
+                    "labelfont": "times",
+                    "labelfontcolor": "ff0000",
+                    "labelfontsize": "22",
+                    "labelfontbold": "1",
+                    "labelfontitalic": "1",
+                    "labelbgcolor": "00ff00",
+                    "labelbordercolor": "0000ff",
+                    "labelalpha": "100",
+                    "labelbgalpha": "100",
+                    "labelborderalpha": "100",
+                    "labelborderpadding": "7",
+                    "labelborderradius": "4",
+                    "labelborderthickness": "3",
+                    "labelborderdashed": "1",
+                    "labelborderdashlen": "5",
+                    "labelborderdashgap": "6",
+                    "showhovereffect": "1",
+                    "plothovereffect": "1",
+                    "plotfillhovercolor": "0000ff",
+                    "plotfillhoveralpha": "60",
+                    "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://fusioncharts.com",
+                    "plottooltext": "<table style='width:100%'><tr><td>Jill</td><td>Smith</td><td>50</td></tr><tr><td>Eve</td><td>Jackson</td><td>94</td></tr></table>",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "jan",
+                        "value": "420000",
+                        "color": "ff0000",
+                        "displayvalue": "system",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://fusioncharts.com",
+                        "showlabel": "1",
+                        "showvalue": "1",
+                        "tooltext": "<table style='width:100%'><tr><td>Jill</td><td>Smith</td><td>50</td></tr><tr><td>Eve</td><td>Jackson</td><td>94</td></tr></table>",
+                        "labelfont": "times",
+                        "labelfontcolor": "ff0000",
+                        "labelfontsize": "20",
+                        "labelfontbold": "1",
+                        "labelfontitalic": "1",
+                        "labelbgcolor": "0000ff",
+                        "labelbordercolor": "00ff00",
+                        "labelalpha": "10",
+                        "labelbgalpha": "20",
+                        "labelborderalpha": "0",
+                        "labelborderpadding": "15",
+                        "labelborderradius": "4",
+                        "labelborderthickness": "3",
+                        "labelborderdashed": "1",
+                        "labelborderdashlen": "7",
+                        "labelborderdashgap": "4",
+                        "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com"
+                    },
+                    {
+                        "label": "Feb Feb Feb Feb ",
+                        "alpha": "10",
+                        "value": "410000"
+                    },
+                    {
+                        "label": "Vline",
+                        "vline": "true",
+                        "color": "9900cc",
+                        "thickness": "3",
+                        "alpha": "100",
+                        "dashed": "1",
+                        "dashlen": "5",
+                        "dashgap": "8",
+                        "showlabelborder": "1",
+                        "lineposition": "1",
+                        "labelposition": "0.6",
+                        "labelhalign": "left",
+                        "labelvalign": "bottom"
+                    },
+                    {
+                        "label": "Mar",
+                        "alpha": "10",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "600000",
+                                "istrendzone": "1",
+                                "tooltext": "Niladri",
+                                "endvalue": "700000",
+                                "color": "#ff0000",
+                                "displayvalue": "Last Year Trend",
+                                "showontop": "0",
+                                "thickness": "5",
+                                "alpha": "20"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/label-cosmetics-3-snapshot.png",
+        "id": "label-cosmetics-3"
+    },
+    "using-tooltip-1": {
+        "description": "using-tooltip-cosmetics-not-working",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;",
+                    "xaxisname": "Month Month Month Month",
+                    "yaxisname": "Revenue {br} Revenue Revenue {br} RevenueRevenue {br} Revenue",
+                    "basefont": "arial",
+                    "basefontsize": "18",
+                    "basefontcolor": "80a0ff",
+                    "outcnvbasefont": "arial",
+                    "outcnvbasefontsize": "12",
+                    "outcnvbasefontcolor": "330000",
+                    "showtooltip": "1",
+                    "tooltipbgcolor": "00ffff",
+                    "tooltipcolor": "ff0000",
+                    "tooltipbordercolor": "0000ff",
+                    "tooltipsepchar": "//",
+                    "showtooltipshadow": "1",
+                    "tooltipbgalpha": "40",
+                    "tooltipborderradius": "5",
+                    "tooltipborderthickness": "3",
+                    "tooltippadding": "15",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "jan",
+                        "value": "420000",
+                        "color": "ff0000",
+                        "displayvalue": "system",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://fusioncharts.com",
+                        "showlabel": "1",
+                        "showvalue": "1",
+                        "tooltext": "<table style='width:100%'><tr><td>Jill</td><td>Smith</td><td>50</td></tr><tr><td>Eve</td><td>Jackson</td><td>94</td></tr></table>",
+                        "labelfont": "times",
+                        "labelfontcolor": "ff0000",
+                        "labelfontsize": "20",
+                        "labelfontbold": "1",
+                        "labelfontitalic": "1",
+                        "labelbgcolor": "0000ff",
+                        "labelbordercolor": "00ff00",
+                        "labelalpha": "10",
+                        "labelbgalpha": "20",
+                        "labelborderalpha": "0",
+                        "labelborderpadding": "15",
+                        "labelborderradius": "4",
+                        "labelborderthickness": "3",
+                        "labelborderdashed": "1",
+                        "labelborderdashlen": "7",
+                        "labelborderdashgap": "4",
+                        "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com"
+                    },
+                    {
+                        "label": "Feb Feb Feb Feb ",
+                        "alpha": "10",
+                        "value": "410000"
+                    },
+                    {
+                        "label": "Vline",
+                        "vline": "true",
+                        "color": "9900cc",
+                        "thickness": "3",
+                        "alpha": "100",
+                        "dashed": "1",
+                        "dashlen": "5",
+                        "dashgap": "8",
+                        "showlabelborder": "1",
+                        "lineposition": "1",
+                        "labelposition": "0.6",
+                        "labelhalign": "left",
+                        "labelvalign": "bottom"
+                    },
+                    {
+                        "label": "Mar",
+                        "alpha": "10",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "600000",
+                                "istrendzone": "1",
+                                "tooltext": "Niladri",
+                                "endvalue": "700000",
+                                "color": "#ff0000",
+                                "displayvalue": "Last Year Trend",
+                                "showontop": "0",
+                                "thickness": "5",
+                                "alpha": "20"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/using-tooltip-1-snapshot.png",
+        "id": "using-tooltip-1"
+    },
+    "font-properties-2": {
+        "description": "font-properties-basefontsize-38-breaking-tooltip",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;",
+                    "xaxisname": "Month Month Month Month",
+                    "yaxisname": "Revenue {br} Revenue Revenue {br} RevenueRevenue {br} Revenue",
+                    "basefont": "arial",
+                    "basefontsize": "38",
+                    "basefontcolor": "80a0ff",
+                    "outcnvbasefont": "arial",
+                    "outcnvbasefontsize": "12",
+                    "outcnvbasefontcolor": "330000",
+                    "showtooltip": "1",
+                    "tooltipbgcolor": "00ffff",
+                    "tooltipcolor": "ff0000",
+                    "tooltipbordercolor": "0000ff",
+                    "tooltipsepchar": "//",
+                    "showtooltipshadow": "1",
+                    "tooltipbgalpha": "40",
+                    "tooltipborderradius": "5",
+                    "tooltipborderthickness": "3",
+                    "tooltippadding": "15",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "jan",
+                        "value": "420000",
+                        "color": "ff0000",
+                        "displayvalue": "system",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://fusioncharts.com",
+                        "showlabel": "1",
+                        "showvalue": "1",
+                        "tooltext": "<table style='width:100%'><tr><td>Jill</td><td>Smith</td><td>50</td></tr><tr><td>Eve</td><td>Jackson</td><td>94</td></tr></table>",
+                        "labelfont": "times",
+                        "labelfontcolor": "ff0000",
+                        "labelfontsize": "20",
+                        "labelfontbold": "1",
+                        "labelfontitalic": "1",
+                        "labelbgcolor": "0000ff",
+                        "labelbordercolor": "00ff00",
+                        "labelalpha": "10",
+                        "labelbgalpha": "20",
+                        "labelborderalpha": "0",
+                        "labelborderpadding": "15",
+                        "labelborderradius": "4",
+                        "labelborderthickness": "3",
+                        "labelborderdashed": "1",
+                        "labelborderdashlen": "7",
+                        "labelborderdashgap": "4",
+                        "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com"
+                    },
+                    {
+                        "label": "Feb Feb Feb Feb ",
+                        "alpha": "10",
+                        "value": "410000"
+                    },
+                    {
+                        "label": "Vline",
+                        "vline": "true",
+                        "color": "9900cc",
+                        "thickness": "3",
+                        "alpha": "100",
+                        "dashed": "1",
+                        "dashlen": "5",
+                        "dashgap": "8",
+                        "showlabelborder": "1",
+                        "lineposition": "1",
+                        "labelposition": "0.6",
+                        "labelhalign": "left",
+                        "labelvalign": "bottom"
+                    },
+                    {
+                        "label": "Mar",
+                        "alpha": "10",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "600000",
+                                "istrendzone": "1",
+                                "tooltext": "Niladri",
+                                "endvalue": "700000",
+                                "color": "#ff0000",
+                                "displayvalue": "Last Year Trend",
+                                "showontop": "0",
+                                "thickness": "5",
+                                "alpha": "20"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/font-properties-2-snapshot.png",
+        "id": "font-properties-2"
+    },
+    "font-properties-3": {
+        "description": "outcnvbasefontsize-32-breaks-chart",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;",
+                    "xaxisname": "Month Month Month Month",
+                    "yaxisname": "Revenue {br} Revenue Revenue {br} RevenueRevenue {br} Revenue",
+                    "basefont": "arial",
+                    "basefontsize": "18",
+                    "basefontcolor": "80a0ff",
+                    "outcnvbasefont": "arial",
+                    "outcnvbasefontsize": "32",
+                    "outcnvbasefontcolor": "330000",
+                    "showtooltip": "1",
+                    "tooltipbgcolor": "00ffff",
+                    "tooltipcolor": "ff0000",
+                    "tooltipbordercolor": "0000ff",
+                    "tooltipsepchar": "//",
+                    "showtooltipshadow": "1",
+                    "tooltipbgalpha": "40",
+                    "tooltipborderradius": "5",
+                    "tooltipborderthickness": "3",
+                    "tooltippadding": "15",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "jan",
+                        "value": "420000",
+                        "color": "ff0000",
+                        "displayvalue": "system",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://fusioncharts.com",
+                        "showlabel": "1",
+                        "showvalue": "1",
+                        "tooltext": "<table style='width:100%'><tr><td>Jill</td><td>Smith</td><td>50</td></tr><tr><td>Eve</td><td>Jackson</td><td>94</td></tr></table>",
+                        "labelfont": "times",
+                        "labelfontcolor": "ff0000",
+                        "labelfontsize": "20",
+                        "labelfontbold": "1",
+                        "labelfontitalic": "1",
+                        "labelbgcolor": "0000ff",
+                        "labelbordercolor": "00ff00",
+                        "labelalpha": "10",
+                        "labelbgalpha": "20",
+                        "labelborderalpha": "0",
+                        "labelborderpadding": "15",
+                        "labelborderradius": "4",
+                        "labelborderthickness": "3",
+                        "labelborderdashed": "1",
+                        "labelborderdashlen": "7",
+                        "labelborderdashgap": "4",
+                        "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com"
+                    },
+                    {
+                        "label": "Feb Feb Feb Feb ",
+                        "alpha": "10",
+                        "value": "410000"
+                    },
+                    {
+                        "label": "Vline",
+                        "vline": "true",
+                        "color": "9900cc",
+                        "thickness": "3",
+                        "alpha": "100",
+                        "dashed": "1",
+                        "dashlen": "5",
+                        "dashgap": "8",
+                        "showlabelborder": "1",
+                        "lineposition": "1",
+                        "labelposition": "0.6",
+                        "labelhalign": "left",
+                        "labelvalign": "bottom"
+                    },
+                    {
+                        "label": "Mar",
+                        "alpha": "10",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "600000",
+                                "istrendzone": "1",
+                                "tooltext": "Niladri",
+                                "endvalue": "700000",
+                                "color": "#ff0000",
+                                "displayvalue": "Last Year Trend",
+                                "showontop": "0",
+                                "thickness": "5",
+                                "alpha": "20"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/font-properties-2-snapshot.png",
+        "id": "font-properties-3"
+    },
+    "font-properties-4": {
+        "description": "font-properties-basefontsize-color-font--not-working",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;",
+                    "xaxisname": "Month Month Month Month",
+                    "yaxisname": "Revenue {br} Revenue Revenue {br} RevenueRevenue {br} Revenue",
+                    "base-font": "times",
+                    "basefontsize": "22",
+                    "basefontcolor": "80a0ff",
+                    "outcnvbasefont": "arial",
+                    "outcnvbasefontsize": "16",
+                    "outcnvbasefontcolor": "0000ff",
+                    "showtooltip": "1",
+                    "tooltipbgcolor": "00ffff",
+                    "tooltipcolor": "ff0000",
+                    "tooltipbordercolor": "0000ff",
+                    "tooltipsepchar": "//",
+                    "showtooltipshadow": "1",
+                    "tooltipbgalpha": "40",
+                    "tooltipborderradius": "5",
+                    "tooltipborderthickness": "3",
+                    "tooltippadding": "15",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "jan",
+                        "value": "420000",
+                        "color": "ff0000",
+                        "displayvalue": "system",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://fusioncharts.com",
+                        "showlabel": "1",
+                        "showvalue": "1",
+                        "tooltext": "<table style='width:100%'><tr><td>Jill</td><td>Smith</td><td>50</td></tr><tr><td>Eve</td><td>Jackson</td><td>94</td></tr></table>",
+                        "labelfont": "times",
+                        "labelfontcolor": "ff0000",
+                        "labelfontsize": "20",
+                        "labelfontbold": "1",
+                        "labelfontitalic": "1",
+                        "labelbgcolor": "0000ff",
+                        "labelbordercolor": "00ff00",
+                        "labelalpha": "10",
+                        "labelbgalpha": "20",
+                        "labelborderalpha": "0",
+                        "labelborderpadding": "15",
+                        "labelborderradius": "4",
+                        "labelborderthickness": "3",
+                        "labelborderdashed": "1",
+                        "labelborderdashlen": "7",
+                        "labelborderdashgap": "4",
+                        "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com"
+                    },
+                    {
+                        "label": "Feb Feb Feb Feb ",
+                        "alpha": "10",
+                        "value": "410000"
+                    },
+                    {
+                        "label": "Vline",
+                        "vline": "true",
+                        "color": "9900cc",
+                        "thickness": "3",
+                        "alpha": "100",
+                        "dashed": "1",
+                        "dashlen": "5",
+                        "dashgap": "8",
+                        "showlabelborder": "1",
+                        "lineposition": "1",
+                        "labelposition": "0.6",
+                        "labelhalign": "left",
+                        "labelvalign": "bottom"
+                    },
+                    {
+                        "label": "Mar",
+                        "alpha": "10",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "600000",
+                                "istrendzone": "1",
+                                "tooltext": "Niladri",
+                                "endvalue": "700000",
+                                "color": "#ff0000",
+                                "displayvalue": "Last Year Trend",
+                                "showontop": "0",
+                                "thickness": "5",
+                                "alpha": "20"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/font-properties-4-snapshot.png",
+        "id": "font-properties-4"
+    },
+    "div-lines-and-grids-1": {
+        "description": "div-lines-zero-plane-not-working-color-thickness-alpha-len-gap-numDivLines-not-working",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;",
+                    "xaxisname": "Month Month Month Month",
+                    "yaxisname": "Revenue {br} Revenue Revenue {br} RevenueRevenue {br} Revenue",
+                    "numdivlines": "9",
+                    "divlinecolor": "ff0000",
+                    "divlinethickness": "0.5",
+                    "divlinealpha": "40",
+                    "divlinedashed": "1",
+                    "divlinedashlen": "10",
+                    "divlinedashgap": "5",
+                    "zeroplanecolor": "0000ff",
+                    "zeroplanealpha": "40",
+                    "zeroplaneshowborder": "1",
+                    "zeroplanebordercolor": "00ff00",
+                    "zeroplanethickness": "6",
+                    "showzeroplanevalue": "1",
+                    "showalternatevgridcolor": "1",
+                    "alternatevgridcolor": "00ffff",
+                    "alternatevgridalpha": "20",
+                    "basefont": "times",
+                    "basefontsize": "22",
+                    "basefontcolor": "80a0ff",
+                    "outcnvbasefont": "arial",
+                    "outcnvbasefontsize": "16",
+                    "outcnvbasefontcolor": "0000ff",
+                    "showtooltip": "1",
+                    "tooltipbgcolor": "00ffff",
+                    "tooltipcolor": "ff0000",
+                    "tooltipbordercolor": "0000ff",
+                    "tooltipsepchar": "//",
+                    "showtooltipshadow": "1",
+                    "tooltipbgalpha": "40",
+                    "tooltipborderradius": "5",
+                    "tooltipborderthickness": "3",
+                    "tooltippadding": "15",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "jan",
+                        "value": "420000",
+                        "color": "ff0000",
+                        "displayvalue": "system",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://fusioncharts.com",
+                        "showlabel": "1",
+                        "showvalue": "1",
+                        "tooltext": "<table style='width:100%'><tr><td>Jill</td><td>Smith</td><td>50</td></tr><tr><td>Eve</td><td>Jackson</td><td>94</td></tr></table>",
+                        "labelfont": "times",
+                        "labelfontcolor": "ff0000",
+                        "labelfontsize": "20",
+                        "labelfontbold": "1",
+                        "labelfontitalic": "1",
+                        "labelbgcolor": "0000ff",
+                        "labelbordercolor": "00ff00",
+                        "labelalpha": "10",
+                        "labelbgalpha": "20",
+                        "labelborderalpha": "0",
+                        "labelborderpadding": "15",
+                        "labelborderradius": "4",
+                        "labelborderthickness": "3",
+                        "labelborderdashed": "1",
+                        "labelborderdashlen": "7",
+                        "labelborderdashgap": "4",
+                        "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com"
+                    },
+                    {
+                        "label": "Feb Feb Feb Feb ",
+                        "alpha": "10",
+                        "value": "410000"
+                    },
+                    {
+                        "label": "Vline",
+                        "vline": "true",
+                        "color": "9900cc",
+                        "thickness": "3",
+                        "alpha": "100",
+                        "dashed": "1",
+                        "dashlen": "5",
+                        "dashgap": "8",
+                        "showlabelborder": "1",
+                        "lineposition": "1",
+                        "labelposition": "0.6",
+                        "labelhalign": "left",
+                        "labelvalign": "bottom"
+                    },
+                    {
+                        "label": "Mar",
+                        "alpha": "10",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "-210000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "600000",
+                                "istrendzone": "1",
+                                "tooltext": "Niladri",
+                                "endvalue": "700000",
+                                "color": "#ff0000",
+                                "displayvalue": "Last Year Trend",
+                                "showontop": "0",
+                                "thickness": "5",
+                                "alpha": "20"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/div-lines-and-grids-1-snapshot.png",
+        "id": "div-lines-and-grids-1"
+    },
+    "data-value-cosmetics-1": {
+        "description": "chart-level-data-value-cosmetics-not-working-1",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;",
+                    "xaxisname": "Month Month Month Month",
+                    "yaxisname": "Revenue {br} Revenue Revenue {br} RevenueRevenue {br} Revenue",
+                    "adjustdiv": "1",
+                    "numdivlines": "9",
+                    "valuefont": "san-seriff",
+                    "valuefontcolor": "ff0000",
+                    "valuefontsize": "15",
+                    "valuefontbold": "1",
+                    "valuefontitalic": "1",
+                    "valuebgcolor": "696969",
+                    "valuebordercolor": "0000ff",
+                    "valuealpha": "20",
+                    "valuefontalpha": "90",
+                    "valuebgalpha": "30",
+                    "valueborderalpha": "70",
+                    "valueborderthickness": "0.5",
+                    "valueborderpadding": "4",
+                    "valueborderradius": "0.9",
+                    "valueborderdashed": "1",
+                    "valueborderdashgap": "5",
+                    "valueborderdashlen": "15",
+                    "basefont": "times",
+                    "basefontsize": "22",
+                    "basefontcolor": "80a0ff",
+                    "outcnvbasefont": "arial",
+                    "outcnvbasefontsize": "16",
+                    "outcnvbasefontcolor": "0000ff",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "jan",
+                        "value": "420000",
+                        "color": "ff0000",
+                        "displayvalue": "system",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://fusioncharts.com",
+                        "showlabel": "1",
+                        "showvalue": "1",
+                        "tooltext": "<table style='width:100%'><tr><td>Jill</td><td>Smith</td><td>50</td></tr><tr><td>Eve</td><td>Jackson</td><td>94</td></tr></table>",
+                        "labelfont": "times",
+                        "labelfontcolor": "ff0000",
+                        "labelfontsize": "20",
+                        "labelfontbold": "1",
+                        "labelfontitalic": "1",
+                        "labelbgcolor": "0000ff",
+                        "labelbordercolor": "00ff00",
+                        "labelalpha": "10",
+                        "labelbgalpha": "20",
+                        "labelborderalpha": "0",
+                        "labelborderpadding": "15",
+                        "labelborderradius": "4",
+                        "labelborderthickness": "3",
+                        "labelborderdashed": "1",
+                        "labelborderdashlen": "7",
+                        "labelborderdashgap": "4",
+                        "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com"
+                    },
+                    {
+                        "label": "Feb Feb Feb Feb ",
+                        "alpha": "10",
+                        "value": "410000"
+                    },
+                    {
+                        "label": "Vline",
+                        "vline": "true",
+                        "color": "9900cc",
+                        "thickness": "3",
+                        "alpha": "100",
+                        "dashed": "1",
+                        "dashlen": "5",
+                        "dashgap": "8",
+                        "showlabelborder": "1",
+                        "lineposition": "1",
+                        "labelposition": "0.6",
+                        "labelhalign": "left",
+                        "labelvalign": "bottom"
+                    },
+                    {
+                        "label": "Mar",
+                        "alpha": "10",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "-210000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "600000",
+                                "istrendzone": "1",
+                                "tooltext": "Niladri",
+                                "endvalue": "700000",
+                                "color": "#ff0000",
+                                "displayvalue": "Last Year Trend",
+                                "showontop": "0",
+                                "thickness": "5",
+                                "alpha": "20"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/data-value-cosmetics-1-snapshot.png",
+        "id": "data-value-cosmetics-1"
+    },
+    "data-plot-cosmetics-1": {
+        "description": "data-plot-cosmetics-showplotborder-color-borderalpha-not-working",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;",
+                    "xaxisname": "Month Month Month Month",
+                    "yaxisname": "Revenue {br} Revenue Revenue {br} RevenueRevenue {br} Revenue",
+                    "adjustdiv": "1",
+                    "useroundedges": "1",
+                    "showplotborder": "1",
+                    "plotbordercolor": "ff0000",
+                    "plotborderthickness": "2",
+                    "plotborderalpha": "0",
+                    "plotborderdashed": "1",
+                    "plotborderdashlen": "10",
+                    "plotborderdashgap": "5",
+                    "plotfillangle": "90",
+                    "plotfillratio": "90",
+                    "plotfillalpha": "0",
+                    "plotgradientcolor": "ff0000",
+                    "useplotgradientcolor": "1",
+                    "numdivlines": "9",
+                    "valuefont": "san-seriff",
+                    "valuefontcolor": "ff0000",
+                    "valuefontsize": "15",
+                    "valuefontbold": "1",
+                    "valuefontitalic": "1",
+                    "valuebgcolor": "696969",
+                    "valuebordercolor": "0000ff",
+                    "valuealpha": "20",
+                    "valuefontalpha": "90",
+                    "valuebgalpha": "30",
+                    "valueborderalpha": "70",
+                    "valueborderthickness": "0.5",
+                    "valueborderpadding": "4",
+                    "valueborderradius": "0.9",
+                    "valueborderdashed": "1",
+                    "valueborderdashgap": "5",
+                    "valueborderdashlen": "15",
+                    "basefont": "times",
+                    "basefontsize": "22",
+                    "basefontcolor": "80a0ff",
+                    "outcnvbasefont": "arial",
+                    "outcnvbasefontsize": "16",
+                    "outcnvbasefontcolor": "0000ff",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "jan",
+                        "value": "420000",
+                        "color": "cccccc",
+                        "displayvalue": "system",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://fusioncharts.com",
+                        "showlabel": "1",
+                        "showvalue": "1",
+                        "tooltext": "<table style='width:100%'><tr><td>Jill</td><td>Smith</td><td>50</td></tr><tr><td>Eve</td><td>Jackson</td><td>94</td></tr></table>",
+                        "labelfont": "times",
+                        "labelfontcolor": "ff0000",
+                        "labelfontsize": "20",
+                        "labelfontbold": "1",
+                        "labelfontitalic": "1",
+                        "labelbgcolor": "0000ff",
+                        "labelbordercolor": "00ff00",
+                        "labelalpha": "10",
+                        "labelbgalpha": "20",
+                        "labelborderalpha": "0",
+                        "labelborderpadding": "15",
+                        "labelborderradius": "4",
+                        "labelborderthickness": "3",
+                        "labelborderdashed": "1",
+                        "labelborderdashlen": "7",
+                        "labelborderdashgap": "4",
+                        "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com"
+                    },
+                    {
+                        "label": "Feb Feb Feb Feb ",
+                        "alpha": "10",
+                        "value": "410000"
+                    },
+                    {
+                        "label": "Vline",
+                        "vline": "true",
+                        "color": "9900cc",
+                        "thickness": "3",
+                        "alpha": "100",
+                        "dashed": "1",
+                        "dashlen": "5",
+                        "dashgap": "8",
+                        "showlabelborder": "1",
+                        "lineposition": "1",
+                        "labelposition": "0.6",
+                        "labelhalign": "left",
+                        "labelvalign": "bottom"
+                    },
+                    {
+                        "label": "Mar",
+                        "alpha": "10",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "-210000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "600000",
+                                "istrendzone": "1",
+                                "tooltext": "Niladri",
+                                "endvalue": "700000",
+                                "color": "#ff0000",
+                                "displayvalue": "Last Year Trend",
+                                "showontop": "0",
+                                "thickness": "5",
+                                "alpha": "20"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/data-plot-cosmetics-1-snapshot.png",
+        "id": "data-plot-cosmetics-1"
+    },
+    "chart-cosmetics-1": {
+        "description": "chart-cosmetics-logo-not-loading-showxaxisline-canvasborderalpha-showcanvasborder-0-not-working-canvasbgcolor-gradient-not-working",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;",
+                    "xaxisname": "Month Month Month Month",
+                    "yaxisname": "Revenue {br} Revenue Revenue {br} RevenueRevenue {br} Revenue",
+                    "adjustdiv": "1",
+                    "showborder": "1",
+                    "bordercolor": "ff0000",
+                    "borderthickness": "2",
+                    "borderalpha": "50",
+                    "bgcolor": "527a7a",
+                    "bgalpha": "40",
+                    "bgratio": "20",
+                    "bgangle": "45",
+                    "bgimage": "http://upload.wikimedia.org/wikipedia/commons/7/79/Misc_fruit.jpg",
+                    "bgimagealpha": "40",
+                    "bgimagedisplaymode": "",
+                    "bgimagevalign": "bottom",
+                    "bgimagehalign": "left",
+                    "bgimagescale": "5",
+                    "showxaxisline": "1",
+                    "xaxislinecolor": "0000ff",
+                    "axislinealpha": "100",
+                    "showcanvasborder": "0",
+                    "canvasbgcolor": "ff0000,0000ff",
+                    "canvasbgalpha": "20",
+                    "canvasbgratio": "40",
+                    "canvasbgangle": "45",
+                    "canvasbordercolor": "ff0000",
+                    "canvasborderthickness": "2",
+                    "canvasborderalpha": "20",
+                    "logourl": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                    "logoposition": "BR",
+                    "logoalpha": "60",
+                    "logoscale": "50",
+                    "logolink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "jan",
+                        "value": "420000",
+                        "color": "cccccc",
+                        "displayvalue": "system",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://fusioncharts.com",
+                        "showlabel": "1",
+                        "showvalue": "1",
+                        "tooltext": "<table style='width:100%'><tr><td>Jill</td><td>Smith</td><td>50</td></tr><tr><td>Eve</td><td>Jackson</td><td>94</td></tr></table>",
+                        "labelfont": "times",
+                        "labelfontcolor": "ff0000",
+                        "labelfontsize": "20",
+                        "labelfontbold": "1",
+                        "labelfontitalic": "1",
+                        "labelbgcolor": "0000ff",
+                        "labelbordercolor": "00ff00",
+                        "labelalpha": "10",
+                        "labelbgalpha": "20",
+                        "labelborderalpha": "0",
+                        "labelborderpadding": "15",
+                        "labelborderradius": "4",
+                        "labelborderthickness": "3",
+                        "labelborderdashed": "1",
+                        "labelborderdashlen": "7",
+                        "labelborderdashgap": "4",
+                        "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com"
+                    },
+                    {
+                        "label": "Feb Feb Feb Feb ",
+                        "alpha": "10",
+                        "value": "410000"
+                    },
+                    {
+                        "label": "Vline",
+                        "vline": "true",
+                        "color": "9900cc",
+                        "thickness": "3",
+                        "alpha": "100",
+                        "dashed": "1",
+                        "dashlen": "5",
+                        "dashgap": "8",
+                        "showlabelborder": "1",
+                        "lineposition": "1",
+                        "labelposition": "0.6",
+                        "labelhalign": "left",
+                        "labelvalign": "bottom"
+                    },
+                    {
+                        "label": "Mar",
+                        "alpha": "10",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "-210000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "600000",
+                                "istrendzone": "1",
+                                "tooltext": "Niladri",
+                                "endvalue": "700000",
+                                "color": "#ff0000",
+                                "displayvalue": "Last Year Trend",
+                                "showontop": "0",
+                                "thickness": "5",
+                                "alpha": "20"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/chart-cosmetics-1-snapshot.png",
+        "id": "chart-cosmetics-1"
+    },
+    "x-axis-name-cosmetics-1": {
+        "description": "xAxisNameAlpha-not-working",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;",
+                    "xaxisname": "Month Month Month Month",
+                    "yaxisname": "Revenue {br} Revenue Revenue {br} RevenueRevenue {br} Revenue",
+                    "xaxisnamefontcolor": "#2ECCFA",
+                    "xaxisnamefontsize": "20",
+                    "xaxisnamefontbold": "1",
+                    "xaxisnamefontitalic": "1",
+                    "xaxisnamebgcolor": "#BFFF00",
+                    "xaxisnamebordercolor": "#DF3A01",
+                    "xaxisnamealpha": "100",
+                    "xaxisnamefontalpha": "30",
+                    "xaxisnamebgalpha": "10",
+                    "xaxisnameborderalpha": "40",
+                    "xaxisnameborderpadding": "10",
+                    "xaxisnameborderradius": "15",
+                    "xaxisnameborderthickness": "2",
+                    "xaxisnameborderdashed": "1",
+                    "xaxisnameborderdashlen": "6",
+                    "xaxisnameborderdashgap": "5",
+                    "adjustdiv": "0",
+                    "showborder": "1",
+                    "bordercolor": "ff0000",
+                    "borderthickness": "2",
+                    "borderalpha": "50",
+                    "bgcolor": "527a7a",
+                    "bgalpha": "40",
+                    "bgratio": "20",
+                    "bgangle": "45",
+                    "bgimage": "http://upload.wikimedia.org/wikipedia/commons/7/79/Misc_fruit.jpg",
+                    "bgimagealpha": "40",
+                    "bgimagedisplaymode": "",
+                    "bgimagevalign": "bottom",
+                    "bgimagehalign": "left",
+                    "bgimagescale": "5",
+                    "showxaxisline": "1",
+                    "xaxislinecolor": "0000ff",
+                    "axislinealpha": "100",
+                    "showcanvasborder": "0",
+                    "canvasbgcolor": "ff0000,0000ff",
+                    "canvasbgalpha": "20",
+                    "canvasbgratio": "40",
+                    "canvasbgangle": "45",
+                    "canvasbordercolor": "ff0000",
+                    "canvasborderthickness": "2",
+                    "canvasborderalpha": "20",
+                    "logourl": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                    "logoposition": "BR",
+                    "logoalpha": "60",
+                    "logoscale": "50",
+                    "logolink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "jan",
+                        "value": "420000",
+                        "color": "cccccc",
+                        "displayvalue": "system",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://fusioncharts.com",
+                        "showlabel": "1",
+                        "showvalue": "1",
+                        "tooltext": "<table style='width:100%'><tr><td>Jill</td><td>Smith</td><td>50</td></tr><tr><td>Eve</td><td>Jackson</td><td>94</td></tr></table>",
+                        "labelfont": "times",
+                        "labelfontcolor": "ff0000",
+                        "labelfontsize": "20",
+                        "labelfontbold": "1",
+                        "labelfontitalic": "1",
+                        "labelbgcolor": "0000ff",
+                        "labelbordercolor": "00ff00",
+                        "labelalpha": "10",
+                        "labelbgalpha": "20",
+                        "labelborderalpha": "0",
+                        "labelborderpadding": "15",
+                        "labelborderradius": "4",
+                        "labelborderthickness": "3",
+                        "labelborderdashed": "1",
+                        "labelborderdashlen": "7",
+                        "labelborderdashgap": "4",
+                        "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com"
+                    },
+                    {
+                        "label": "Feb Feb Feb Feb ",
+                        "alpha": "10",
+                        "value": "410000"
+                    },
+                    {
+                        "label": "Vline",
+                        "vline": "true",
+                        "color": "9900cc",
+                        "thickness": "3",
+                        "alpha": "100",
+                        "dashed": "1",
+                        "dashlen": "5",
+                        "dashgap": "8",
+                        "showlabelborder": "1",
+                        "lineposition": "1",
+                        "labelposition": "0.6",
+                        "labelhalign": "left",
+                        "labelvalign": "bottom"
+                    },
+                    {
+                        "label": "Mar",
+                        "alpha": "10",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "-210000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "600000",
+                                "istrendzone": "1",
+                                "tooltext": "Niladri",
+                                "endvalue": "700000",
+                                "color": "#ff0000",
+                                "displayvalue": "Last Year Trend",
+                                "showontop": "0",
+                                "thickness": "5",
+                                "alpha": "20"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/x-axis-name-cosmetics-1-snapshot.png",
+        "id": "x-axis-name-cosmetics-1"
+    },
+    "y-axis-name-cosmetics-1": {
+        "description": "y-axis-name-goes-out-of-chart-on-yAxisNameFontSize-is-22",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;",
+                    "xaxisname": "Month Month Month Month",
+                    "yaxisname": "Revenue {br} Revenue Revenue {br} RevenueRevenue {br} Revenue",
+                    "xaxisnamefontcolor": "#2ECCFA",
+                    "yaxisnamefontcolor": "#6E6E6E",
+                    "yaxisnamefontsize": "22",
+                    "yaxisnamefontbold": "1",
+                    "yaxisnamefontitalic": "1",
+                    "yaxisnamebgcolor": "#088A85",
+                    "yaxisnamebordercolor": "#A901DB",
+                    "yaxisnamealpha": "100",
+                    "yaxisnamefontalpha": "100",
+                    "yaxisnamebgalpha": "100",
+                    "yaxisnameborderalpha": "100",
+                    "yaxisnameborderpadding": "3",
+                    "yaxisnameborderradius": "4",
+                    "yaxisnameborderthickness": "3",
+                    "yaxisnameborderdashed": "1",
+                    "yaxisnameborderdashlen": "5",
+                    "yaxisnameborderdashgap": "7",
+                    "xaxisnamefontsize": "20",
+                    "xaxisnamefontbold": "1",
+                    "xaxisnamefontitalic": "1",
+                    "xaxisnamebgcolor": "#BFFF00",
+                    "xaxisnamebordercolor": "#DF3A01",
+                    "xaxisnamealpha": "100",
+                    "xaxisnamefontalpha": "30",
+                    "xaxisnamebgalpha": "10",
+                    "xaxisnameborderalpha": "40",
+                    "xaxisnameborderpadding": "10",
+                    "xaxisnameborderradius": "15",
+                    "xaxisnameborderthickness": "2",
+                    "xaxisnameborderdashed": "1",
+                    "xaxisnameborderdashlen": "6",
+                    "xaxisnameborderdashgap": "5",
+                    "adjustdiv": "0",
+                    "showborder": "1",
+                    "bordercolor": "ff0000",
+                    "borderthickness": "2",
+                    "borderalpha": "50",
+                    "bgcolor": "527a7a",
+                    "bgalpha": "40",
+                    "bgratio": "20",
+                    "bgangle": "45",
+                    "bgimage": "http://upload.wikimedia.org/wikipedia/commons/7/79/Misc_fruit.jpg",
+                    "bgimagealpha": "40",
+                    "bgimagedisplaymode": "",
+                    "bgimagevalign": "bottom",
+                    "bgimagehalign": "left",
+                    "bgimagescale": "5",
+                    "showxaxisline": "1",
+                    "xaxislinecolor": "0000ff",
+                    "axislinealpha": "100",
+                    "showcanvasborder": "0",
+                    "canvasbgcolor": "ff0000,0000ff",
+                    "canvasbgalpha": "20",
+                    "canvasbgratio": "40",
+                    "canvasbgangle": "45",
+                    "canvasbordercolor": "ff0000",
+                    "canvasborderthickness": "2",
+                    "canvasborderalpha": "20",
+                    "logourl": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                    "logoposition": "BR",
+                    "logoalpha": "60",
+                    "logoscale": "50",
+                    "logolink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "jan",
+                        "value": "420000",
+                        "color": "cccccc",
+                        "displayvalue": "system",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://fusioncharts.com",
+                        "showlabel": "1",
+                        "showvalue": "1",
+                        "tooltext": "<table style='width:100%'><tr><td>Jill</td><td>Smith</td><td>50</td></tr><tr><td>Eve</td><td>Jackson</td><td>94</td></tr></table>",
+                        "labelfont": "times",
+                        "labelfontcolor": "ff0000",
+                        "labelfontsize": "20",
+                        "labelfontbold": "1",
+                        "labelfontitalic": "1",
+                        "labelbgcolor": "0000ff",
+                        "labelbordercolor": "00ff00",
+                        "labelalpha": "10",
+                        "labelbgalpha": "20",
+                        "labelborderalpha": "0",
+                        "labelborderpadding": "15",
+                        "labelborderradius": "4",
+                        "labelborderthickness": "3",
+                        "labelborderdashed": "1",
+                        "labelborderdashlen": "7",
+                        "labelborderdashgap": "4",
+                        "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com"
+                    },
+                    {
+                        "label": "Feb",
+                        "alpha": "10",
+                        "value": "410000"
+                    },
+                    {
+                        "label": "Vline",
+                        "vline": "true",
+                        "color": "9900cc",
+                        "thickness": "3",
+                        "alpha": "100",
+                        "dashed": "1",
+                        "dashlen": "5",
+                        "dashgap": "8",
+                        "showlabelborder": "1",
+                        "lineposition": "1",
+                        "labelposition": "0.6",
+                        "labelhalign": "left",
+                        "labelvalign": "bottom"
+                    },
+                    {
+                        "label": "Mar",
+                        "alpha": "10",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "-210000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "600000",
+                                "istrendzone": "1",
+                                "tooltext": "Niladri",
+                                "endvalue": "700000",
+                                "color": "#ff0000",
+                                "displayvalue": "Last Year Trend",
+                                "showontop": "0",
+                                "thickness": "5",
+                                "alpha": "20"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bar2d/ref-images/y-axis-name-cosmetics-1-snapshot.png",
+        "id": "y-axis-name-cosmetics-1"
+    },
+    "chart-cosmetics-canvas-base-and-bg-1": {
+        "description": "showCanvasBg-canvasBaseDepth-not-working",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly Revenue",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "canvasbasecolor": "#0000aa",
+                    "showcanvasbg": "0",
+                    "showcanvasbase": "0",
+                    "canvasbasedepth": "40",
+                    "canvasbgdepth": "20",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/bar3d/ref-images/chart-cosmetics-canvas-base-and-bg-1-snapshot.png",
+        "id": "chart-cosmetics-canvas-base-and-bg-1"
+    },
+    "chart-cosmetics-canvas-base-and-bg-2": {
+        "description": "with-canvasBgDepth-20-caption-overlaps",
+        "options": {
+            "type": "bar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly Revenue",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "canvasbasecolor": "#0000aa",
+                    "showcanvasbg": "1",
+                    "showcanvasbase": "1",
+                    "canvasbasedepth": "40",
+                    "canvasbgdepth": "20",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/bar3d/ref-images/chart-cosmetics-canvas-base-and-bg-2-snapshot.png",
+        "id": "chart-cosmetics-canvas-base-and-bg-2"
+    }
+}

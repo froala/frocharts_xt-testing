@@ -1,0 +1,514 @@
+{
+    "test-1": {
+        "descriptions": "Update with all the yaxisValue attributes",
+        "id": "test-1",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "pareto3d",
+            "dataSource": {
+                "chart": {
+                    "animation": 0
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "yAxisValueFont": "times",
+                            "yAxisValueFontSize": "17",
+                            "yaxisValueFontColor": "#0000ff",
+                            "yaxisValueFontItalic": "1",
+                            "yaxisValueFontBold": "1",
+                            "yAxisValueBgColor": "#ff00ff",
+                            "yAxisValueBorderColor": "#00ff00",
+                            "yaxisvaluealpha": "30",
+                            "yaxisvalueBgalpha": "80",
+                            "yAxisValueBorderAlpha": "1",
+                            "yaxisValueBorderPadding": "10",
+                            "yAxisValueBorderRadius": "3",
+                            "yaxisvalueborderthickness": "3",
+                            "yaxisvalueborderdashed": "1",
+                            "yaxisvalueborderdashlen": "7",
+                            "yaxisvaluelink": "p-http://google.com",
+                            "_clickurl": "p-http://yahoo.com",
+                            "animation": 0
+                        },
+                        "data": [
+                            {
+                                "label": "Jan",
+                                "value": "420000"
+                            },
+                            {
+                                "label": "Feb",
+                                "value": "910000"
+                            },
+                            {
+                                "label": "Mar",
+                                "value": "720000"
+                            },
+                            {
+                                "label": "Apr",
+                                "value": "550000"
+                            },
+                            {
+                                "label": "May",
+                                "value": "810000"
+                            },
+                            {
+                                "label": "Jun",
+                                "value": "510000"
+                            },
+                            {
+                                "label": "Jul",
+                                "value": "680000"
+                            },
+                            {
+                                "label": "Aug",
+                                "value": "620000"
+                            },
+                            {
+                                "label": "Sep",
+                                "value": "610000"
+                            },
+                            {
+                                "label": "Oct",
+                                "value": "490000"
+                            },
+                            {
+                                "label": "Nov",
+                                "value": "530000"
+                            },
+                            {
+                                "label": "Dec",
+                                "value": "330000"
+                            }
+                        ],
+                        "trendlines": [
+                            {
+                                "line": [
+                                    {
+                                        "startvalue": "700000",
+                                        "color": "009933",
+                                        "displayvalue": "Target"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "test-2": {
+        "descriptions": "Update the yaxisValue boolean attributes 1 to 0 and also changing the other attributes value",
+        "id": "test-2",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "pareto3d",
+            "dataSource": {
+                "chart": {
+                    "yAxisValueFont": "times",
+                    "yAxisValueFontSize": "17",
+                    "yaxisValueFontColor": "#0000ff",
+                    "yaxisValueFontItalic": "1",
+                    "yaxisValueFontBold": "1",
+                    "yAxisValueBgColor": "#ff00ff",
+                    "yAxisValueBorderColor": "#00ff00",
+                    "yaxisvaluealpha": "30",
+                    "yaxisvalueBgalpha": "80",
+                    "yAxisValueBorderAlpha": "1",
+                    "yaxisValueBorderPadding": "10",
+                    "yAxisValueBorderRadius": "3",
+                    "yaxisvalueborderthickness": "3",
+                    "yaxisvalueborderdashed": "1",
+                    "yaxisvalueborderdashlen": "7",
+                    "yaxisvaluelink": "p-http://google.com",
+                    "_clickurl": "p-http://yahoo.com",
+                    "animation": 0
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "yAxisValueFont": "sans-seriff",
+                            "yAxisValueFontSize": "13",
+                            "yaxisValueFontColor": "#ff00ff",
+                            "yaxisValueFontItalic": "0",
+                            "yaxisValueFontBold": "0",
+                            "yAxisValueBgColor": "#00ff00",
+                            "yAxisValueBorderColor": "#ffff00",
+                            "yaxisvaluealpha": "80",
+                            "yaxisvalueBgalpha": "10",
+                            "yAxisValueBorderAlpha": "100",
+                            "yaxisValueBorderPadding": "4",
+                            "yAxisValueBorderRadius": "1",
+                            "yaxisvalueborderthickness": "31",
+                            "yaxisvalueborderdashed": "10",
+                            "yaxisvalueborderdashlen": "7",
+                            "_yaxisvaluelink": "p-http://google.com",
+                            "_clickurl": "p-http://yahoo.com",
+                            "animation": 0
+                        },
+                        "data": [
+                            {
+                                "label": "Jan",
+                                "value": "420000"
+                            },
+                            {
+                                "label": "Feb",
+                                "value": "910000"
+                            },
+                            {
+                                "label": "Mar",
+                                "value": "720000"
+                            },
+                            {
+                                "label": "Apr",
+                                "value": "550000"
+                            },
+                            {
+                                "label": "May",
+                                "value": "810000"
+                            },
+                            {
+                                "label": "Jun",
+                                "value": "510000"
+                            },
+                            {
+                                "label": "Jul",
+                                "value": "680000"
+                            },
+                            {
+                                "label": "Aug",
+                                "value": "620000"
+                            },
+                            {
+                                "label": "Sep",
+                                "value": "610000"
+                            },
+                            {
+                                "label": "Oct",
+                                "value": "490000"
+                            },
+                            {
+                                "label": "Nov",
+                                "value": "530000"
+                            },
+                            {
+                                "label": "Dec",
+                                "value": "330000"
+                            }
+                        ],
+                        "trendlines": [
+                            {
+                                "line": [
+                                    {
+                                        "startvalue": "700000",
+                                        "color": "009933",
+                                        "displayvalue": "Target"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "test-3": {
+        "descriptions": "Remove all yaxisvalue cosmetics through update",
+        "id": "test-3",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "pareto3d",
+            "dataSource": {
+                "chart": {
+                    "yAxisValueFont": "times",
+                    "yAxisValueFontSize": "17",
+                    "yaxisValueFontColor": "#0000ff",
+                    "yaxisValueFontItalic": "1",
+                    "yaxisValueFontBold": "1",
+                    "yAxisValueBgColor": "#ff00ff",
+                    "yAxisValueBorderColor": "#00ff00",
+                    "yaxisvaluealpha": "30",
+                    "yaxisvalueBgalpha": "80",
+                    "yAxisValueBorderAlpha": "1",
+                    "yaxisValueBorderPadding": "10",
+                    "yAxisValueBorderRadius": "3",
+                    "yaxisvalueborderthickness": "3",
+                    "yaxisvalueborderdashed": "1",
+                    "yaxisvalueborderdashlen": "7",
+                    "yaxisvaluelink": "p-http://google.com",
+                    "_clickurl": "p-http://yahoo.com",
+                    "animation": 0
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "animation": 0
+                        },
+                        "data": [
+                            {
+                                "label": "Jan",
+                                "value": "420000"
+                            },
+                            {
+                                "label": "Feb",
+                                "value": "910000"
+                            },
+                            {
+                                "label": "Mar",
+                                "value": "720000"
+                            },
+                            {
+                                "label": "Apr",
+                                "value": "550000"
+                            },
+                            {
+                                "label": "May",
+                                "value": "810000"
+                            },
+                            {
+                                "label": "Jun",
+                                "value": "510000"
+                            },
+                            {
+                                "label": "Jul",
+                                "value": "680000"
+                            },
+                            {
+                                "label": "Aug",
+                                "value": "620000"
+                            },
+                            {
+                                "label": "Sep",
+                                "value": "610000"
+                            },
+                            {
+                                "label": "Oct",
+                                "value": "490000"
+                            },
+                            {
+                                "label": "Nov",
+                                "value": "530000"
+                            },
+                            {
+                                "label": "Dec",
+                                "value": "330000"
+                            }
+                        ],
+                        "trendlines": [
+                            {
+                                "line": [
+                                    {
+                                        "startvalue": "700000",
+                                        "color": "009933",
+                                        "displayvalue": "Target"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

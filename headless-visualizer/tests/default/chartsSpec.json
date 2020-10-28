@@ -1,0 +1,570 @@
+{
+    "area2d": {
+        "description": "Rendering a basic area2d chart",
+        "options": {
+            "type": "area2d",
+            "width": "400",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales of Liquor",
+                    "subCaption": "Last week",
+                    "xAxisName": "Day",
+                    "yAxisName": "Sales (In USD)",
+                    "numberPrefix": "$",
+                    "paletteColors": "#0075c2",
+                    "bgColor": "#ffffff",
+                    "showBorder": "0",
+                    "showCanvasBorder": "0",
+                    "plotBorderAlpha": "10",
+                    "usePlotGradientColor": "0",
+                    "plotFillAlpha": "50",
+                    "showXAxisLine": "1",
+                    "axisLineAlpha": "25",
+                    "divLineAlpha": "10",
+                    "showValues": "1",
+                    "showAlternateHGridColor": "0",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "toolTipColor": "#ffffff",
+                    "toolTipBorderThickness": "0",
+                    "toolTipBgColor": "#000000",
+                    "toolTipBgAlpha": "80",
+                    "toolTipBorderRadius": "2",
+                    "toolTipPadding": "5",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Mon",
+                        "value": "4123"
+                    },
+                    {
+                        "label": "Tue",
+                        "value": "4633"
+                    },
+                    {
+                        "label": "Wed",
+                        "value": "5507"
+                    },
+                    {
+                        "label": "Thu",
+                        "value": "4910"
+                    },
+                    {
+                        "label": "Fri",
+                        "value": "5529"
+                    },
+                    {
+                        "label": "Sat",
+                        "value": "5803"
+                    },
+                    {
+                        "label": "Sun",
+                        "value": "6202"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/default/ref-images/area2d-snapshot.png",
+        "id": "area2d"
+    },
+    "bar2d": {
+        "description": "Rendering a basic bar2d chart",
+        "options": {
+            "type": "bar2d",
+            "width": "400",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Top 5 Stores by Sales",
+                    "subCaption": "Last month",
+                    "yAxisName": "Sales (In USD)",
+                    "numberPrefix": "$",
+                    "paletteColors": "#0075c2",
+                    "bgColor": "#ffffff",
+                    "showBorder": "0",
+                    "showCanvasBorder": "0",
+                    "usePlotGradientColor": "0",
+                    "plotBorderAlpha": "10",
+                    "placeValuesInside": "1",
+                    "valueFontColor": "#ffffff",
+                    "showAxisLines": "1",
+                    "axisLineAlpha": "25",
+                    "divLineAlpha": "10",
+                    "alignCaptionWithCanvas": "0",
+                    "showAlternateVGridColor": "0",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "toolTipColor": "#ffffff",
+                    "toolTipBorderThickness": "0",
+                    "toolTipBgColor": "#000000",
+                    "toolTipBgAlpha": "80",
+                    "toolTipBorderRadius": "2",
+                    "toolTipPadding": "5",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Bakersfield Central",
+                        "value": "880000"
+                    },
+                    {
+                        "label": "Garden Groove harbour",
+                        "value": "730000"
+                    },
+                    {
+                        "label": "Los Angeles Topanga",
+                        "value": "590000"
+                    },
+                    {
+                        "label": "Compton-Rancho Dom",
+                        "value": "520000"
+                    },
+                    {
+                        "label": "Daly City Serramonte",
+                        "value": "330000"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/default/ref-images/bar2d-snapshot.png",
+        "id": "bar2d"
+    },
+    "column2d": {
+        "description": "Rendering a basic column2d chart",
+        "options": {
+            "type": "column2d",
+            "width": "550",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showvalues": "1",
+                    "caption": "Cost Analysis",
+                    "subcaption": "Last Year",
+                    "numberprefix": "$",
+                    "xaxisname": "Quarter",
+                    "yaxisname": "Cost",
+                    "paletteColors": "#0075c2,#1aaf5d,#f2c500",
+                    "bgColor": "#ffffff",
+                    "borderAlpha": "20",
+                    "showCanvasBorder": "0",
+                    "usePlotGradientColor": "0",
+                    "plotBorderAlpha": "10",
+                    "legendBorderAlpha": "0",
+                    "legendShadow": "0",
+                    "legendBgAlpha": "0",
+                    "valueFontColor": "#ffffff",
+                    "showXAxisLine": "1",
+                    "xAxisLineColor": "#999999",
+                    "divlineColor": "#999999",
+                    "divLineIsDashed": "1",
+                    "showAlternateHGridColor": "0",
+                    "subcaptionFontBold": "0",
+                    "subcaptionFontSize": "14",
+                    "showHoverEffect": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "900000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "730000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "#1aaf5d",
+                                "valueOnRight": "1",
+                                "displayvalue": "Monthly Target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/default/ref-images/column2d-snapshot.png",
+        "id": "column2d"
+    },
+    "mscolumn2d": {
+        "description": "Rendering a multi series chart",
+        "options": {
+            "type": "mscolumn2d",
+            "width": "400",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "animation": "0",
+                    "baseFontSize": "15"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "vline": "true"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/default/ref-images/mscolumn2d-snapshot.png",
+        "id": "mscolumn2d"
+    },
+    "pie2d": {
+        "description": "Rendering a basic pie chart",
+        "options": {
+            "type": "pie2d",
+            "width": "400",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "showpercentagevalues": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/default/ref-images/pie2d-snapshot.png",
+        "id": "pie2d"
+    },
+    "stackedcolumn3d": {
+        "description": "A basic stackedcolumn 3d chart",
+        "options": {
+            "type": "stackedcolumn3d",
+            "width": "400",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Product A",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Product B",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/default/ref-images/stackedcolumn3d-snapshot.png",
+        "id": "stackedcolumn3d"
+    }
+}

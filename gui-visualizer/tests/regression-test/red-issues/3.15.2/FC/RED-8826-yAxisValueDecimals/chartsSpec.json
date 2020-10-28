@@ -1,0 +1,1605 @@
+{
+    "FC3_area2d_tc1": {
+        "id": "FC3_area2d_tc1",
+        "description": "yAxisValueDecimals=2 should be applied when both setAdaptiveYMin and forceYAxisValueDecimals are enabled.",
+        "options": {
+            "type": "area2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Test chart 2",
+                    "yAxisValueDecimals": "2",
+                    "forceYAxisValueDecimals": "1",
+                    "setAdaptiveYMin": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "01/19",
+                        "value": "15.90"
+                    },
+                    {
+                        "label": "02/19",
+                        "value": "15.95"
+                    },
+                    {
+                        "label": "03/19",
+                        "value": "15.90"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8826-yAxisValueDecimals/ref-images/test_1_area2d-snapshot.png"
+    },
+    "FC3_bar2d_tc2": {
+        "id": "FC3_bar2d_tc2",
+        "description": "yAxisValueDecimals=2 should be applied when both setAdaptiveYMin and forceYAxisValueDecimals are enabled.",
+        "options": {
+            "type": "bar2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Test chart 2",
+                    "yAxisValueDecimals": "2",
+                    "forceYAxisValueDecimals": "1",
+                    "setAdaptiveYMin": "1"
+                },
+                "data": [
+                    {
+                        "label": "01/19",
+                        "value": "15.90"
+                    },
+                    {
+                        "label": "02/19",
+                        "value": "15.95"
+                    },
+                    {
+                        "label": "03/19",
+                        "value": "15.90"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8826-yAxisValueDecimals/ref-images/test_2_bar2d-snapshot.png"
+    },
+    "FC3_column2d_tc3": {
+        "id": "FC3_column2d_tc3",
+        "description": "yAxisValueDecimals=2 should be applied when both setAdaptiveYMin and forceYAxisValueDecimals are enabled.",
+        "options": {
+            "type": "column2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0",
+                    "yAxisValueDecimals": "2",
+                    "forceYAxisValueDecimals": "1",
+                    "setAdaptiveYMin": "1"
+
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "4.03"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "4.00"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "4.02"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "4.04"
+                    }
+
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8826-yAxisValueDecimals/ref-images/test_3_column2d-snapshot.png"
+    },
+    "FC3_line_tc4": {
+        "id": "FC3_line_tc4",
+        "description": "yAxisValueDecimals=2 should be applied when both setAdaptiveYMin and forceYAxisValueDecimals are enabled.",
+        "options": {
+            "type": "line",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Test chart 4",
+                    "animation": "0",
+                    "yAxisValueDecimals": "2",
+                    "forceYAxisValueDecimals": "1",
+                    "setAdaptiveYMin": "1"
+                },
+                "data": [
+                    {
+                        "label": "01/19",
+                        "value": "15.90"
+                    },
+                    {
+                        "label": "02/19",
+                        "value": "15.95"
+                    },
+                    {
+                        "label": "03/19",
+                        "value": "15.90"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8826-yAxisValueDecimals/ref-images/test_4_line-snapshot.png"
+    },
+    "FC3_msarea_tc5": {
+        "id": "FC3_msarea_tc5",
+        "description": "yAxisValueDecimals=2 should be applied when both setAdaptiveYMin and forceYAxisValueDecimals are enabled.",
+        "options": {
+            "type": "msarea",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "animation": "0",
+                    "yAxisValueDecimals": "2",
+                    "forceYAxisValueDecimals": "1",
+                    "setAdaptiveYMin": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            }
+
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.02"
+                            },
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.04"
+                            }
+
+                        ]
+                    }
+
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8826-yAxisValueDecimals/ref-images/test_5_msarea-snapshot.png"
+    },
+    "FC3_msbar2d_tc6": {
+        "id": "FC3_msbar2d_tc6",
+        "description": "yAxisValueDecimals=2 should be applied when both setAdaptiveYMin and forceYAxisValueDecimals are enabled.",
+        "options": {
+            "type": "msbar2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "animation": "0",
+                    "yAxisValueDecimals": "2",
+                    "forceYAxisValueDecimals": "1",
+                    "setAdaptiveYMin": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            }
+
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.02"
+                            },
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.04"
+                            }
+
+                        ]
+                    }
+
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8826-yAxisValueDecimals/ref-images/test_6_msbar2d-snapshot.png"
+    },
+    "FC3_mscolumn2d_tc7": {
+        "id": "FC3_mscolumn2d_tc7",
+        "description": "yAxisValueDecimals=2 should be applied when both setAdaptiveYMin and forceYAxisValueDecimals are enabled.",
+        "options": {
+            "type": "mscolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "animation": "0",
+                    "yAxisValueDecimals": "2",
+                    "forceYAxisValueDecimals": "1",
+                    "setAdaptiveYMin": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            }
+
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.02"
+                            },
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.04"
+                            }
+
+                        ]
+                    }
+
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8826-yAxisValueDecimals/ref-images/test_7_mscolumn2d-snapshot.png"
+    },
+    "FC3_msline_tc8": {
+        "id": "FC3_msline_tc8",
+        "description": "yAxisValueDecimals=2 should be applied when both setAdaptiveYMin and forceYAxisValueDecimals are enabled.",
+        "options": {
+            "type": "msline",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "animation": "0",
+                    "yAxisValueDecimals": "2",
+                    "forceYAxisValueDecimals": "1",
+                    "setAdaptiveYMin": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            }
+
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.02"
+                            },
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.04"
+                            }
+
+                        ]
+                    }
+
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8826-yAxisValueDecimals/ref-images/test_8_msline-snapshot.png"
+    },
+    "FC3_msstackedcolumn2d_tc9": {
+        "id": "FC3_msstackedcolumn2d_tc9",
+        "description": "yAxisValueDecimals=2 should be applied when both setAdaptiveYMin and forceYAxisValueDecimals are enabled.",
+        "options": {
+            "type": "msstackedcolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Break-up of Annual Revenue",
+                    "subcaption": "In Million $",
+                    "xaxisname": "Year",
+                    "yaxisname": "Sales in M$",
+                    "showsum": "1",
+                    "animation": "0",
+                    "yAxisValueDecimals": "2",
+                    "forceYAxisValueDecimals": "1",
+                    "setAdaptiveYMin": "1"
+                },
+                "categories": [
+                    {
+                        "font": "Arial",
+                        "fontsize": "12",
+                        "fontcolor": "000000",
+                        "category": [
+                            {
+                                "label": "2001"
+                            },
+                            {
+                                "label": "2002"
+                            },
+                            {
+                                "label": "2003"
+                            },
+                            {
+                                "label": "2004"
+                            },
+                            {
+                                "label": "2005"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Product A",
+                                "color": "AFD8F8",
+                                "data": [
+                                    {
+                                        "value": "15.00"
+                                    },
+                                    {
+                                        "value": "15.01"
+                                    },
+                                    {
+                                        "value": "15.02"
+                                    },
+                                    {
+                                        "value": "15.03"
+                                    },
+                                    {
+                                        "value": "15.04"
+                                    }
+                                ]
+                            }
+
+                        ]
+                    }
+
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8826-yAxisValueDecimals/ref-images/test_9_msstackedcolumn2d-snapshot.png"
+    },
+    "FC3_msstackedcolumn2dlinedy_tc10": {
+        "id": "FC3_msstackedcolumn2dlinedy_tc10",
+        "description": "yAxisValueDecimals=2 should be applied when both setAdaptiveYMin and forceYAxisValueDecimals are enabled.",
+        "options": {
+            "type": "msstackedcolumn2dlinedy",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Break-up of Annual Revenue",
+                    "subcaption": "In Million $",
+                    "xaxisname": "Year",
+                    "yaxisname": "Sales in M$",
+                    "showsum": "1",
+                    "animation": "0",
+                    "yAxisValueDecimals": "2",
+                    "forceYAxisValueDecimals": "1",
+                    "setAdaptiveYMin": "1"
+                },
+                "categories": [
+                    {
+                        "font": "Arial",
+                        "fontsize": "12",
+                        "fontcolor": "000000",
+                        "category": [
+                            {
+                                "label": "2001"
+                            },
+                            {
+                                "label": "2002"
+                            },
+                            {
+                                "label": "2003"
+                            },
+                            {
+                                "label": "2004"
+                            },
+                            {
+                                "label": "2005"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Product A",
+                                "color": "AFD8F8",
+                                "data": [
+                                    {
+                                        "value": "15.00"
+                                    },
+                                    {
+                                        "value": "15.01"
+                                    },
+                                    {
+                                        "value": "15.02"
+                                    },
+                                    {
+                                        "value": "15.03"
+                                    },
+                                    {
+                                        "value": "15.04"
+                                    }
+                                ]
+                            }
+
+                        ]
+                    }
+
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8826-yAxisValueDecimals/ref-images/test_10_msstackedcolumn2dlinedy-snapshot.png"
+    },
+    "FC3_pareto2d_tc11": {
+        "id": "FC3_pareto2d_tc11",
+        "description": "yAxisValueDecimals=2 should be applied when both setAdaptiveYMin and forceYAxisValueDecimals are enabled.",
+        "options": {
+            "type": "pareto2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Test chart 11",
+                    "animation": "0",
+                    "yAxisValueDecimals": "2",
+                    "forceYAxisValueDecimals": "1",
+                    "setAdaptiveYMin": "1"
+                },
+                "data": [
+                    {
+                        "label": "01/19",
+                        "value": "15.90"
+                    },
+                    {
+                        "label": "02/19",
+                        "value": "15.95"
+                    },
+                    {
+                        "label": "03/19",
+                        "value": "15.90"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8826-yAxisValueDecimals/ref-images/test_11_pareto2d-snapshot.png"
+    },
+    "FC3_scrollarea2d_tc12": {
+        "id": "FC3_scrollarea2d_tc12",
+        "description": "yAxisValueDecimals=2 should be applied when both setAdaptiveYMin and forceYAxisValueDecimals are enabled.",
+        "options": {
+            "type": "scrollarea2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "animation": "0",
+                    "yAxisValueDecimals": "2",
+                    "forceYAxisValueDecimals": "1",
+                    "setAdaptiveYMin": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            }
+
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.02"
+                            },
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.04"
+                            }
+
+                        ]
+                    }
+
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8826-yAxisValueDecimals/ref-images/test_12_scrollarea2d-snapshot.png"
+    },
+    "FC3_scrollbar2d_tc13": {
+        "id": "FC3_scrollbar2d_tc13",
+        "description": "yAxisValueDecimals=2 should be applied when both setAdaptiveYMin and forceYAxisValueDecimals are enabled.",
+        "options": {
+            "type": "scrollbar2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "animation": "0",
+                    "yAxisValueDecimals": "2",
+                    "forceYAxisValueDecimals": "1",
+                    "setAdaptiveYMin": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            }
+
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.02"
+                            },
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.04"
+                            }
+
+                        ]
+                    }
+
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8826-yAxisValueDecimals/ref-images/test_13_scrollbar2d-snapshot.png"
+    },
+    "FC3_scrollcolumn2d_tc14": {
+        "id": "FC3_scrollcolumn2d_tc14",
+        "description": "yAxisValueDecimals=2 should be applied when both setAdaptiveYMin and forceYAxisValueDecimals are enabled.",
+        "options": {
+            "type": "scrollcolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "animation": "0",
+                    "yAxisValueDecimals": "2",
+                    "forceYAxisValueDecimals": "1",
+                    "setAdaptiveYMin": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            }
+
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.02"
+                            },
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.04"
+                            }
+
+                        ]
+                    }
+
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8826-yAxisValueDecimals/ref-images/test_14_scrollcolumn2d-snapshot.png"
+    },
+    "FC3_scrollline2d_tc15": {
+        "id": "FC3_scrollline2d_tc15",
+        "description": "yAxisValueDecimals=2 should be applied when both setAdaptiveYMin and forceYAxisValueDecimals are enabled.",
+        "options": {
+            "type": "scrollline2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "animation": "0",
+                    "yAxisValueDecimals": "2",
+                    "forceYAxisValueDecimals": "1",
+                    "setAdaptiveYMin": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            }
+
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.02"
+                            },
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.04"
+                            }
+
+                        ]
+                    }
+
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8826-yAxisValueDecimals/ref-images/test_15_scrollline2d-snapshot.png"
+    },
+    "FC3_scrollmsstackedcolumn2d_tc16": {
+        "id": "FC3_scrollmsstackedcolumn2d_tc16",
+        "description": "yAxisValueDecimals=2 should be applied when both setAdaptiveYMin and forceYAxisValueDecimals are enabled.",
+        "options": {
+            "type": "scrollmsstackedcolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Break-up of Annual Revenue",
+                    "subcaption": "In Million $",
+                    "xaxisname": "Year",
+                    "yaxisname": "Sales in M$",
+                    "showsum": "1",
+                    "animation": "0",
+                    "yAxisValueDecimals": "2",
+                    "forceYAxisValueDecimals": "1",
+                    "setAdaptiveYMin": "1"
+                },
+                "categories": [
+                    {
+                        "font": "Arial",
+                        "fontsize": "12",
+                        "fontcolor": "000000",
+                        "category": [
+                            {
+                                "label": "2001"
+                            },
+                            {
+                                "label": "2002"
+                            },
+                            {
+                                "label": "2003"
+                            },
+                            {
+                                "label": "2004"
+                            },
+                            {
+                                "label": "2005"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Product A",
+                                "color": "AFD8F8",
+                                "data": [
+                                    {
+                                        "value": "15.00"
+                                    },
+                                    {
+                                        "value": "15.01"
+                                    },
+                                    {
+                                        "value": "15.02"
+                                    },
+                                    {
+                                        "value": "15.03"
+                                    },
+                                    {
+                                        "value": "15.04"
+                                    }
+                                ]
+                            }
+
+                        ]
+                    }
+
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8826-yAxisValueDecimals/ref-images/test_16_scrollmsstackedcolumn2d-snapshot.png"
+    },
+    "FC3_scrollmsstackedcolumn2dlinedy_tc17": {
+        "id": "FC3_scrollmsstackedcolumn2dlinedy_tc17",
+        "description": "yAxisValueDecimals=2 should be applied when both setAdaptiveYMin and forceYAxisValueDecimals are enabled.",
+        "options": {
+            "type": "scrollmsstackedcolumn2dlinedy",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Break-up of Annual Revenue",
+                    "subcaption": "In Million $",
+                    "xaxisname": "Year",
+                    "yaxisname": "Sales in M$",
+                    "showsum": "1",
+                    "animation": "0",
+                    "yAxisValueDecimals": "2",
+                    "forceYAxisValueDecimals": "1",
+                    "setAdaptiveYMin": "1"
+                },
+                "categories": [
+                    {
+                        "font": "Arial",
+                        "fontsize": "12",
+                        "fontcolor": "000000",
+                        "category": [
+                            {
+                                "label": "2001"
+                            },
+                            {
+                                "label": "2002"
+                            },
+                            {
+                                "label": "2003"
+                            },
+                            {
+                                "label": "2004"
+                            },
+                            {
+                                "label": "2005"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Product A",
+                                "color": "AFD8F8",
+                                "data": [
+                                    {
+                                        "value": "15.00"
+                                    },
+                                    {
+                                        "value": "15.01"
+                                    },
+                                    {
+                                        "value": "15.02"
+                                    },
+                                    {
+                                        "value": "15.03"
+                                    },
+                                    {
+                                        "value": "15.04"
+                                    }
+                                ]
+                            }
+
+                        ]
+                    }
+
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8826-yAxisValueDecimals/ref-images/test_17_scrollmsstackedcolumn2dlinedy-snapshot.png"
+    },
+    "FC3_scrollstackedbar2d_tc18": {
+        "id": "FC3_scrollstackedbar2d_tc18",
+        "description": "yAxisValueDecimals=2 should be applied when both setAdaptiveYMin and forceYAxisValueDecimals are enabled.",
+        "options": {
+            "type": "scrollstackedbar2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "animation": "0",
+                    "yAxisValueDecimals": "2",
+                    "forceYAxisValueDecimals": "1",
+                    "setAdaptiveYMin": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            }
+
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.02"
+                            },
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.04"
+                            }
+
+                        ]
+                    }
+
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8826-yAxisValueDecimals/ref-images/test_18_scrollstackedbar2d-snapshot.png"
+    },
+    "FC3_scrollstackedcolumn2d_tc19": {
+        "id": "FC3_scrollstackedcolumn2d_tc19",
+        "description": "yAxisValueDecimals=2 should be applied when both setAdaptiveYMin and forceYAxisValueDecimals are enabled.",
+        "options": {
+            "type": "scrollstackedcolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "animation": "0",
+                    "yAxisValueDecimals": "2",
+                    "forceYAxisValueDecimals": "1",
+                    "setAdaptiveYMin": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            }
+
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.02"
+                            },
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.04"
+                            }
+
+                        ]
+                    }
+
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8826-yAxisValueDecimals/ref-images/test_19_scrollstackedcolumn2d-snapshot.png"
+    },
+    "FC3_stackedarea2d_tc20": {
+        "id": "FC3_stackedarea2d_tc20",
+        "description": "yAxisValueDecimals=2 should be applied when both setAdaptiveYMin and forceYAxisValueDecimals are enabled.",
+        "options": {
+            "type": "stackedarea2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "animation": "0",
+                    "yAxisValueDecimals": "2",
+                    "forceYAxisValueDecimals": "1",
+                    "setAdaptiveYMin": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            }
+
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.02"
+                            },
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.04"
+                            }
+
+                        ]
+                    }
+
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8826-yAxisValueDecimals/ref-images/test_20_stackedarea2d-snapshot.png"
+    },
+    "FC3_stackedarea2dlinedy_tc21": {
+        "id": "FC3_stackedarea2dlinedy_tc21",
+        "description": "yAxisValueDecimals=2 should be applied when both setAdaptiveYMin and forceYAxisValueDecimals are enabled.",
+        "options": {
+            "type": "stackedarea2dlinedy",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "animation": "0",
+                    "yAxisValueDecimals": "2",
+                    "forceYAxisValueDecimals": "1",
+                    "setAdaptiveYMin": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            }
+
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.02"
+                            },
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.04"
+                            }
+
+                        ]
+                    }
+
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8826-yAxisValueDecimals/ref-images/test_21_stackedarea2dlinedy-snapshot.png"
+    },
+    "FC3_stackedbar2d_tc22": {
+        "id": "FC3_stackedbar2d_tc22",
+        "description": "yAxisValueDecimals=2 should be applied when both setAdaptiveYMin and forceYAxisValueDecimals are enabled.",
+        "options": {
+            "type": "stackedbar2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "animation": "0",
+                    "yAxisValueDecimals": "2",
+                    "forceYAxisValueDecimals": "1",
+                    "setAdaptiveYMin": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            }
+
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.02"
+                            },
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.04"
+                            }
+
+                        ]
+                    }
+
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8826-yAxisValueDecimals/ref-images/test_22_stackedbar2d-snapshot.png"
+    },
+    "FC3_stackedcolumn2d_tc23": {
+        "id": "FC3_stackedcolumn2d_tc23",
+        "description": "yAxisValueDecimals=2 should be applied when both setAdaptiveYMin and forceYAxisValueDecimals are enabled.",
+        "options": {
+            "type": "stackedcolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "animation": "0",
+                    "yAxisValueDecimals": "2",
+                    "forceYAxisValueDecimals": "1",
+                    "setAdaptiveYMin": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            }
+
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.02"
+                            },
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.04"
+                            }
+
+                        ]
+                    }
+
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8826-yAxisValueDecimals/ref-images/test_23_stackedcolumn2d-snapshot.png"
+    },
+    "FC3_stackedcolumn2dline_tc24": {
+        "id": "FC3_stackedcolumn2dline_tc24",
+        "description": "yAxisValueDecimals=2 should be applied when both setAdaptiveYMin and forceYAxisValueDecimals are enabled.",
+        "options": {
+            "type": "stackedcolumn2dline",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "animation": "0",
+                    "yAxisValueDecimals": "2",
+                    "forceYAxisValueDecimals": "1",
+                    "setAdaptiveYMin": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            }
+
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.02"
+                            },
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.04"
+                            }
+
+                        ]
+                    }
+
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8826-yAxisValueDecimals/ref-images/test_24_stackedcolumn2dline-snapshot.png"
+    },
+    "FC3_stackedcolumn2dlinedy_tc25": {
+        "id": "FC3_stackedcolumn2dlinedy_tc25",
+        "description": "yAxisValueDecimals=2 should be applied when both setAdaptiveYMin and forceYAxisValueDecimals are enabled.",
+        "options": {
+            "type": "stackedcolumn2dlinedy",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "animation": "0",
+                    "yAxisValueDecimals": "2",
+                    "forceYAxisValueDecimals": "1",
+                    "setAdaptiveYMin": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            }
+
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.02"
+                            },
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.04"
+                            }
+
+                        ]
+                    }
+
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8826-yAxisValueDecimals/ref-images/test_25_stackedcolumn2dlinedy-snapshot.png"
+    },
+    "FC3_zoomline_tc26": {
+        "id": "FC3_zoomline_tc26",
+        "description": "yAxisValueDecimals=2 should be applied when both setAdaptiveYMin and forceYAxisValueDecimals are enabled.",
+        "options": {
+            "type": "zoomline",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "animation": "0",
+                    "yAxisValueDecimals": "2",
+                    "forceYAxisValueDecimals": "1",
+                    "setAdaptiveYMin": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            }
+
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.02"
+                            },
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.04"
+                            }
+
+                        ]
+                    }
+
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8826-yAxisValueDecimals/ref-images/test_26_zoomline-snapshot.png"
+    },
+    "FC3_zoomlinedy_tc27": {
+        "id": "FC3_zoomlinedy_tc27",
+        "description": "yAxisValueDecimals=2 should be applied when both setAdaptiveYMin and forceYAxisValueDecimals are enabled.",
+        "options": {
+            "type": "zoomlinedy",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "animation": "0",
+                    "yAxisValueDecimals": "2",
+                    "forceYAxisValueDecimals": "1",
+                    "setAdaptiveYMin": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            }
+
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.02"
+                            },
+                            {
+                                "value": "15.03"
+                            },
+                            {
+                                "value": "15.04"
+                            }
+
+                        ]
+                    }
+
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-8826-yAxisValueDecimals/ref-images/test_27_zoomlinedy-snapshot.png"
+    }
+}

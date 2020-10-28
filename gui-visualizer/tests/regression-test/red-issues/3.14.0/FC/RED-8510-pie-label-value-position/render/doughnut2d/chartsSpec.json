@@ -1,0 +1,215 @@
+{
+    "test-1": {
+        "descriptions": "value and label position inside given from chart level and outside in 1st plot from data level",
+        "id": "test-1",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "doughnut2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "animation":"0",
+                    "showpercentagevalues": "1",
+                    "valueposition": "inside",
+                    "labelposition": "inside"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26",
+                        "valueposition": "outside",
+                        "labelposition": "outside"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        }
+    },
+    "test-2": {
+        "descriptions": "value and label position outside given from chart level and inside in 1st plot from data level",
+        "id": "test-2",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "doughnut2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "animation":"0",
+                    "showpercentagevalues": "1",
+                    "valueposition": "outside",
+                    "labelposition": "outside"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26",
+                        "valueposition": "inside",
+                        "labelposition": "inside"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        }
+    },
+    "test-3": {
+        "descriptions": "valueposition(outside) & labelposition(inside) given from chart level and valueposition(inside) & labelposition(outside) is given in 1st dataplot from data level",
+        "id": "test-3",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "doughnut2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "animation":"0",
+                    "showpercentagevalues": "1",
+                    "valueposition": "outside",
+                    "labelposition": "inside"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26",
+                        "valueposition": "inside",
+                        "labelposition": "outside"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        }
+    },
+    "test-4": {
+        "descriptions": "valueposition(inside) & labelposition(outside) given from chart level and valueposition(outside) & labelposition(inside) is given in 1st dataplot from data level",
+        "id": "test-4",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "doughnut2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "animation":"0",
+                    "showpercentagevalues": "1",
+                    "valueposition": "inside",
+                    "labelposition": "outside"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26",
+                        "valueposition": "outside",
+                        "labelposition": "inside"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        }
+    },
+    "test-5": {
+        "descriptions": "With single data, value and label should placed inside the plot by default ",
+        "id": "test-5",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "doughnut2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "animation":"0",
+                    "showpercentagevalues": "1"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    }
+                ]
+            }
+        }
+    },
+    "test-6": {
+        "descriptions": "With single data, value and label should placed outside the plot when valueposition and labelposition is given outside from chart level ",
+        "id": "test-6",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "doughnut2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "animation":"0",
+                    "showpercentagevalues": "1",
+                    "valueposition": "outside",
+                    "labelposition": "outside"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    }
+                ]
+            }
+        }
+    },
+    "test-7": {
+        "descriptions": "With single data, value and label should placed outside the plot when valueposition and labelposition is given outside from data level ",
+        "id": "test-7",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "doughnut2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "animation":"0",
+                    "showpercentagevalues": "1"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26",
+                        "valueposition": "outside",
+                        "labelposition": "outside"
+                    }
+                ]
+            }
+        }
+    }
+}

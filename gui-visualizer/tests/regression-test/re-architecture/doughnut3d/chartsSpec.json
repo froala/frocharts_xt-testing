@@ -1,0 +1,2207 @@
+{
+    "functional-attributes-1": {
+        "description": "showpercentagevalues-0-palette-3-paletteColors-showZeroPies-1-showPercentInToolTip-0-showLabels-0-showValues-0-labelSepChar-:",
+        "options": {
+            "type": "doughnut3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "showpercentagevalues": "0",
+                    "palette": "3",
+                    "palettecolors": "#ff0000,#0000ff,#00ff00",
+                    "showzeropies": "1",
+                    "showpercentintooltip": "0",
+                    "showlabels": "0",
+                    "showvalues": "0",
+                    "labelsepchar": ":",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "0"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/pie2d/ref-images/functional-attributes-1-snapshot.png",
+        "id": "functional-attributes-1"
+    },
+    "functional-attributes-2": {
+        "description": "showpercentagevalues-1-palette-3-paletteColors-showZeroPies-0-showPercentInToolTip-1-showLabels-1-showValues-1-labelSepChar-/-useDataPlotColorForLabels-1",
+        "options": {
+            "type": "doughnut3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "showpercentagevalues": "1",
+                    "palette": "3",
+                    "palettecolors": "#ff0000,#0000ff,#00ff00",
+                    "showzeropies": "0",
+                    "showpercentintooltip": "1",
+                    "showlabels": "1",
+                    "showvalues": "1",
+                    "labelsepchar": "/",
+                    "useDataPlotColorForLabels": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "0"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/pie2d/ref-images/functional-attributes-2-snapshot.png",
+        "id": "functional-attributes-2"
+    },
+    "chart-titles-1": {
+        "description": "caption-subcaption-1",
+        "options": {
+            "type": "doughnut3d",
+            "width": "400",
+            "height": "200",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED  fsfff af afasdfsdf sdfsf sf <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;to show the {br}attributes functionality {br}working perfectly",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/pie2d/ref-images/chart-titles-1-snapshot.png",
+        "id": "chart-titles-1"
+    },
+    "chart-caption-cosmetics-1": {
+        "description": "chart-caption-cosmetics-1",
+        "options": {
+            "type": "doughnut3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED  fsfff af afasdfsdf sdfsf sf <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart <sample> &lt; &gt;to show the {br}attributes functionality working perfectly",
+                    "showpercentagevalues": "1",
+                    "captionontop": "0",
+                    "captionfontsize": "20",
+                    "subcaptionfontsize": "18",
+                    "captionfont": "arial",
+                    "subcaptionfont": "verdana",
+                    "captionfontcolor": "ff0000",
+                    "subcaptionfontcolor": "0000ff",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "1",
+                    "captionhorizontalpadding": "50",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/pie2d/ref-images/chart-caption-cosmetics-1-snapshot.png",
+        "id": "chart-caption-cosmetics-1"
+    },
+    "chart-cosmetics-1": {
+        "description": "chart-cosmetics-showBorder-bgImage-bgColor-logo-1",
+        "options": {
+            "type": "doughnut3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "showborder": "0",
+                    "bordercolor": "ff0000",
+                    "borderthickness": "7",
+                    "borderalpha": "40",
+                    "bgcolor": "#ffccff,#ccffff",
+                    "bgalpha": "100",
+                    "bgratio": "60",
+                    "bgangle": "180",
+                    "bgimage": "http://phoenixinsure.com/images/background/4.jpg",
+                    "bgimagealpha": "50",
+                    "bgimagedisplaymode": "none",
+                    "bgimagevalign": "middle",
+                    "bgimagehalign": "middle",
+                    "bgimagescale": "10",
+                    "logourl": "assets/images/flashbtn.gif",
+                    "logoposition": "tr",
+                    "logoalpha": "100",
+                    "logoscale": "300",
+                    "logolink": "http://fusioncharts.com",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/pie2d/ref-images/chart-cosmetics-1-snapshot.png",
+        "id": "chart-cosmetics-1"
+    },
+    "chart-cosmetics-2": {
+        "description": "chart-cosmetics-showBorder-bgImage-bgColor-logo-2",
+        "options": {
+            "type": "doughnut3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "showborder": "1",
+                    "bordercolor": "ff0000",
+                    "borderthickness": "7",
+                    "borderalpha": "40",
+                    "bgcolor": "#ffccff,#ccffff",
+                    "bgalpha": "100",
+                    "bgratio": "60",
+                    "bgangle": "180",
+                    "bgimage": "http://phoenixinsure.com/images/background/4.jpg",
+                    "bgimagealpha": "50",
+                    "bgimagedisplaymode": "stretch",
+                    "bgimagevalign": "top",
+                    "bgimagehalign": "right",
+                    "bgimagescale": "10",
+                    "logourl": "assets/images/flashbtn.gif",
+                    "logoposition": "tr",
+                    "logoalpha": "100",
+                    "logoscale": "300",
+                    "logolink": "http://fusioncharts.com",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/pie2d/ref-images/chart-cosmetics-2-snapshot.png",
+        "id": "chart-cosmetics-2"
+    },
+    "data-plot-cosmetics-1": {
+        "description": "plot-border-cosmetics-3dlighting-shadow",
+        "options": {
+            "type": "doughnut3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "showplotborder": "1",
+                    "plotbordercolor": "#ff0000",
+                    "plotborderthickness": "1",
+                    "plotborderalpha": "50",
+                    "plotfillalpha": "60",
+                    "showshadow": "1",
+                    "use3dlighting": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/pie2d/ref-images/data-plot-cosmetics-1-snapshot.png",
+        "id": "data-plot-cosmetics-1"
+    },
+    "data-plot-cosmetics-2": {
+        "description": "plot-border-cosmetics-3dlighting-shadow-2",
+        "options": {
+            "type": "doughnut3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "showplotborder": "0",
+                    "plotbordercolor": "#ff0000",
+                    "plotborderthickness": "1",
+                    "plotborderalpha": "0",
+                    "plotfillalpha": "50",
+                    "showshadow": "0",
+                    "use3dlighting": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/pie2d/ref-images/data-plot-cosmetics-2-snapshot.png",
+        "id": "data-plot-cosmetics-2"
+    },
+    "data-plot-cosmetics-3": {
+        "description": "plot-border-cosmetics-3dlighting-shadow-3",
+        "options": {
+            "type": "doughnut3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "showplotborder": "0",
+                    "plotbordercolor": "#ff0000",
+                    "plotborderthickness": "1",
+                    "plotborderalpha": "0",
+                    "plotfillalpha": "50",
+                    "showshadow": "1",
+                    "use3dlighting": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/pie2d/ref-images/data-plot-cosmetics-3-snapshot.png",
+        "id": "data-plot-cosmetics-3"
+    },
+    "pie_doughnut-properties-1": {
+        "description": "plot-border-cosmetics-3dlighting-shadow-3",
+        "options": {
+            "type": "doughnut3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "showplotborder": "0",
+                    "plotbordercolor": "#ff0000",
+                    "plotborderthickness": "1",
+                    "plotborderalpha": "0",
+                    "plotfillalpha": "50",
+                    "showshadow": "0",
+                    "use3dlighting": "1",
+                    "radius3d": "80",
+                    "slicingdistance": "140",
+                    "pieradius": "90",
+                    "startingangle": "60",
+                    "enablerotation": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/pie2d/ref-images/pie_doughnut-properties-1-snapshot.png",
+        "id": "pie_doughnut-properties-1"
+    },
+    "smart-labels-&-lines-1": {
+        "description": "enableSmartLabels-manageLabelOverflow-smartLabelClearance-skipOverlapLabels-smartLabelClearance",
+        "options": {
+            "type": "doughnut3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "enablesmartlabels": "1",
+                    "skipoverlaplabels": "1",
+                    "issmartlineslanted": "1",
+                    "smartlinecolor": "#ff0000",
+                    "smartlinethickness": "3",
+                    "smartlinealpha": "10",
+                    "labeldistance": "20",
+                    "smartlabelclearance": "10",
+                    "managelabeloverflow": "1",
+                    "useellipseswhenoverflow": "1",
+                    "showplotborder": "0",
+                    "plotbordercolor": "#ff0000",
+                    "plotborderthickness": "1",
+                    "plotborderalpha": "0",
+                    "plotfillalpha": "50",
+                    "showshadow": "0",
+                    "use3dlighting": "1",
+                    "slicingdistance": "10",
+                    "pieradius": "90",
+                    "startingangle": "60",
+                    "labelfontsize": "22",
+                    "labelfontbold": "1",
+                    "labelfontitalic": "1",
+                    "enablerotation": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "B",
+                        "value": "51852"
+                    },
+                    {
+                        "label": "C",
+                        "value": "88168"
+                    },
+                    {
+                        "label": "D",
+                        "value": "73897"
+                    },
+                    {
+                        "label": "E",
+                        "value": "93933"
+                    },
+                    {
+                        "label": "Ffasfasfar {br} mnmhjhdfh sdawewq",
+                        "value": "19289"
+                    },
+                    {
+                        "label": "G Ffasfasfar {br} piupuyoyo sdawewq",
+                        "value": "79623"
+                    },
+                    {
+                        "label": "H",
+                        "value": "48262"
+                    },
+                    {
+                        "label": "I",
+                        "value": "29162"
+                    },
+                    {
+                        "label": "J",
+                        "value": "96878"
+                    },
+                    {
+                        "label": "K",
+                        "value": "81241"
+                    },
+                    {
+                        "label": "L",
+                        "value": "40652"
+                    },
+                    {
+                        "label": "M",
+                        "value": "37581"
+                    },
+                    {
+                        "label": "N",
+                        "value": "2882"
+                    },
+                    {
+                        "label": "Q",
+                        "value": "12072"
+                    },
+                    {
+                        "label": "R",
+                        "value": "45608"
+                    },
+                    {
+                        "label": "S",
+                        "value": "72570"
+                    },
+                    {
+                        "label": "T",
+                        "value": "44799"
+                    },
+                    {
+                        "label": "U",
+                        "value": "71887"
+                    },
+                    {
+                        "label": "V",
+                        "value": "78170"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/pie2d/ref-images/smart-labels-&-lines-1-snapshot.png",
+        "id": "smart-labels-&-lines-1"
+    },
+    "smart-labels-&-lines-2": {
+        "description": "smart-labels-&-lines-with-baseFont-cosmetics",
+        "options": {
+            "type": "doughnut3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "enablesmartlabels": "1",
+                    "skipoverlaplabels": "1",
+                    "issmartlineslanted": "1",
+                    "smartlinecolor": "#ff0000",
+                    "smartlinethickness": "3",
+                    "smartlinealpha": "10",
+                    "labeldistance": "20",
+                    "smartlabelclearance": "10",
+                    "managelabeloverflow": "1",
+                    "useellipseswhenoverflow": "1",
+                    "showplotborder": "0",
+                    "plotbordercolor": "#ff0000",
+                    "plotborderthickness": "1",
+                    "plotborderalpha": "0",
+                    "plotfillalpha": "50",
+                    "showshadow": "0",
+                    "use3dlighting": "1",
+                    "slicingdistance": "10",
+                    "pieradius": "90",
+                    "startingangle": "60",
+                    "labelfontsize": "12",
+                    "labelfontbold": "1",
+                    "labelfontitalic": "1",
+                    "enablerotation": "1",
+                    "basefont": "arial",
+                    "basefontsize": "22",
+                    "basefontcolor": "#ff0000",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "B",
+                        "value": "51852"
+                    },
+                    {
+                        "label": "C",
+                        "value": "88168"
+                    },
+                    {
+                        "label": "D",
+                        "value": "73897"
+                    },
+                    {
+                        "label": "E",
+                        "value": "93933"
+                    },
+                    {
+                        "label": "Ffasfasfar {br} mnmhjhdfh sdawewq",
+                        "value": "19289"
+                    },
+                    {
+                        "label": "G Ffasfasfar {br} piupuyoyo sdawewq",
+                        "value": "79623"
+                    },
+                    {
+                        "label": "H",
+                        "value": "48262"
+                    },
+                    {
+                        "label": "I",
+                        "value": "29162"
+                    },
+                    {
+                        "label": "J",
+                        "value": "96878"
+                    },
+                    {
+                        "label": "K",
+                        "value": "81241"
+                    },
+                    {
+                        "label": "L",
+                        "value": "40652"
+                    },
+                    {
+                        "label": "M",
+                        "value": "37581"
+                    },
+                    {
+                        "label": "N",
+                        "value": "2882"
+                    },
+                    {
+                        "label": "Q",
+                        "value": "12072"
+                    },
+                    {
+                        "label": "R",
+                        "value": "45608"
+                    },
+                    {
+                        "label": "S",
+                        "value": "72570"
+                    },
+                    {
+                        "label": "T",
+                        "value": "44799"
+                    },
+                    {
+                        "label": "U",
+                        "value": "71887"
+                    },
+                    {
+                        "label": "V",
+                        "value": "78170"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/pie2d/ref-images/smart-labels-&-lines-2-snapshot.png",
+        "id": "smart-labels-&-lines-2"
+    },
+    "data-label-cosmetics-1": {
+        "description": "labelfont-bg-color-border-link",
+        "options": {
+            "type": "doughnut3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;{br}chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart{br} <sample> &lt; &gt;",
+                    "enablesmartlabels": "1",
+                    "skipoverlaplabels": "1",
+                    "issmartlineslanted": "1",
+                    "smartlinecolor": "#ff0000",
+                    "smartlinethickness": "3",
+                    "smartlinealpha": "10",
+                    "labeldistance": "20",
+                    "smartlabelclearance": "10",
+                    "managelabeloverflow": "1",
+                    "useellipseswhenoverflow": "1",
+                    "showplotborder": "0",
+                    "plotbordercolor": "#ff0000",
+                    "plotborderthickness": "1",
+                    "plotborderalpha": "0",
+                    "plotfillalpha": "50",
+                    "showshadow": "0",
+                    "use3dlighting": "1",
+                    "slicingdistance": "10",
+                    "pieradius": "90",
+                    "startingangle": "60",
+                    "labelfontsize": "20",
+                    "labelfontbold": "1",
+                    "labelfontitalic": "1",
+                    "enablerotation": "1",
+                    "labelfont": "times",
+                    "labelfontcolor": "ff0000",
+                    "labelbgcolor": "0000ff",
+                    "labelbordercolor": "00ff00",
+                    "labelalpha": "40",
+                    "labelbgalpha": "20",
+                    "labelborderalpha": "50",
+                    "labelborderpadding": "5",
+                    "labelborderradius": "4",
+                    "labelborderthickness": "3",
+                    "labelborderdashed": "1",
+                    "labelborderdashlen": "7",
+                    "labelborderdashgap": "4",
+                    "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "B",
+                        "value": "51852"
+                    },
+                    {
+                        "label": "C",
+                        "value": "88168"
+                    },
+                    {
+                        "label": "D",
+                        "value": "73897"
+                    },
+                    {
+                        "label": "E",
+                        "value": "93933"
+                    },
+                    {
+                        "label": "Ffasfasfar {br} mnmhjhdfh sdawewq",
+                        "value": "19289"
+                    },
+                    {
+                        "label": "G Ffasfasfar {br} piupuyoyo sdawewq",
+                        "value": "79623"
+                    },
+                    {
+                        "label": "H",
+                        "value": "48262"
+                    },
+                    {
+                        "label": "I",
+                        "value": "29162"
+                    },
+                    {
+                        "label": "J",
+                        "value": "96878"
+                    },
+                    {
+                        "label": "K",
+                        "value": "81241"
+                    },
+                    {
+                        "label": "L",
+                        "value": "40652"
+                    },
+                    {
+                        "label": "M",
+                        "value": "37581"
+                    },
+                    {
+                        "label": "N",
+                        "value": "2882"
+                    },
+                    {
+                        "label": "Q",
+                        "value": "12072"
+                    },
+                    {
+                        "label": "R",
+                        "value": "45608"
+                    },
+                    {
+                        "label": "S",
+                        "value": "72570"
+                    },
+                    {
+                        "label": "T",
+                        "value": "44799"
+                    },
+                    {
+                        "label": "U",
+                        "value": "71887"
+                    },
+                    {
+                        "label": "V",
+                        "value": "78170"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/pie2d/ref-images/data-label-cosmetics-1-snapshot.png",
+        "id": "data-label-cosmetics-1"
+    },
+    "legend-properties-1": {
+        "description": "showing-legend-1",
+        "options": {
+            "type": "doughnut3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;{br}chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart{br} <sample> &lt; &gt;",
+                    "enablesmartlabels": "1",
+                    "skipoverlaplabels": "1",
+                    "issmartlineslanted": "1",
+                    "smartlinecolor": "#ff0000",
+                    "smartlinethickness": "3",
+                    "smartlinealpha": "10",
+                    "labeldistance": "20",
+                    "smartlabelclearance": "10",
+                    "managelabeloverflow": "1",
+                    "useellipseswhenoverflow": "1",
+                    "showplotborder": "0",
+                    "plotbordercolor": "#ff0000",
+                    "plotborderthickness": "1",
+                    "plotborderalpha": "0",
+                    "plotfillalpha": "50",
+                    "showshadow": "0",
+                    "use3dlighting": "1",
+                    "slicingdistance": "10",
+                    "pieradius": "90",
+                    "startingangle": "60",
+                    "labelfontsize": "12",
+                    "labelfontbold": "1",
+                    "labelfontitalic": "1",
+                    "enablerotation": "1",
+                    "labelfont": "times",
+                    "labelfontcolor": "ff0000",
+                    "labelbgcolor": "0000ff",
+                    "labelbordercolor": "00ff00",
+                    "labelalpha": "40",
+                    "labelbgalpha": "20",
+                    "labelborderalpha": "50",
+                    "labelborderpadding": "5",
+                    "labelborderradius": "4",
+                    "labelborderthickness": "3",
+                    "labelborderdashed": "1",
+                    "labelborderdashlen": "7",
+                    "labelborderdashgap": "4",
+                    "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com",
+                    "showlegend": "1",
+                    "legenditemfontbold": "1",
+                    "legenditemfont": "arial",
+                    "legenditemfontsize": "18",
+                    "legenditemfontcolor": "#0000ff",
+                    "legenditemhoverfontcolor": "#ff0000",
+                    "legenditemhiddencolor": "#cccccc",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "B",
+                        "value": "51852"
+                    },
+                    {
+                        "label": "C",
+                        "value": "88168"
+                    },
+                    {
+                        "label": "D",
+                        "value": "73897"
+                    },
+                    {
+                        "label": "E",
+                        "value": "93933"
+                    },
+                    {
+                        "label": "Ffasfasfar {br} mnmhjhdfh sdawewq",
+                        "value": "19289"
+                    },
+                    {
+                        "label": "G Ffasfasfar {br} piupuyoyo sdawewq",
+                        "value": "79623"
+                    },
+                    {
+                        "label": "H",
+                        "value": "48262"
+                    },
+                    {
+                        "label": "I",
+                        "value": "29162"
+                    },
+                    {
+                        "label": "J",
+                        "value": "96878"
+                    },
+                    {
+                        "label": "K",
+                        "value": "81241"
+                    },
+                    {
+                        "label": "L",
+                        "value": "40652"
+                    },
+                    {
+                        "label": "M",
+                        "value": "37581"
+                    },
+                    {
+                        "label": "N",
+                        "value": "2882"
+                    },
+                    {
+                        "label": "Q",
+                        "value": "12072"
+                    },
+                    {
+                        "label": "R",
+                        "value": "45608"
+                    },
+                    {
+                        "label": "S",
+                        "value": "72570"
+                    },
+                    {
+                        "label": "T",
+                        "value": "44799"
+                    },
+                    {
+                        "label": "U",
+                        "value": "71887"
+                    },
+                    {
+                        "label": "V",
+                        "value": "78170"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/pie2d/ref-images/legend-properties-1-snapshot.png",
+        "id": "legend-properties-1"
+    },
+    "legend-properties-2": {
+        "description": "legendItemFontBold-1-legendItemFont-legendItemHover",
+        "options": {
+            "type": "doughnut3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;{br}chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart{br} <sample> &lt; &gt;",
+                    "enablesmartlabels": "1",
+                    "skipoverlaplabels": "1",
+                    "issmartlineslanted": "1",
+                    "smartlinecolor": "#ff0000",
+                    "smartlinethickness": "3",
+                    "smartlinealpha": "10",
+                    "labeldistance": "20",
+                    "smartlabelclearance": "10",
+                    "managelabeloverflow": "1",
+                    "useellipseswhenoverflow": "1",
+                    "showplotborder": "0",
+                    "plotbordercolor": "#ff0000",
+                    "plotborderthickness": "1",
+                    "plotborderalpha": "0",
+                    "plotfillalpha": "50",
+                    "showshadow": "0",
+                    "use3dlighting": "1",
+                    "slicingdistance": "10",
+                    "pieradius": "90",
+                    "startingangle": "60",
+                    "labelfontsize": "12",
+                    "labelfontbold": "1",
+                    "labelfontitalic": "1",
+                    "enablerotation": "1",
+                    "labelfont": "times",
+                    "labelfontcolor": "ff0000",
+                    "labelbgcolor": "0000ff",
+                    "labelbordercolor": "00ff00",
+                    "labelalpha": "40",
+                    "labelbgalpha": "20",
+                    "labelborderalpha": "50",
+                    "labelborderpadding": "5",
+                    "labelborderradius": "4",
+                    "labelborderthickness": "3",
+                    "labelborderdashed": "1",
+                    "labelborderdashlen": "7",
+                    "labelborderdashgap": "4",
+                    "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com",
+                    "showlegend": "1",
+                    "legendcaption": "Test Caption For Legend",
+                    "legendcaptionalignment": "left",
+                    "legenditemfontbold": "1",
+                    "legenditemfont": "arial",
+                    "legenditemfontsize": "18",
+                    "legenditemfontcolor": "#0000ff",
+                    "legenditemhoverfontcolor": "#ff0000",
+                    "legenditemhiddencolor": "#cccccc",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "B",
+                        "value": "51852"
+                    },
+                    {
+                        "label": "C",
+                        "value": "88168"
+                    },
+                    {
+                        "label": "D",
+                        "value": "73897"
+                    },
+                    {
+                        "label": "E",
+                        "value": "93933"
+                    },
+                    {
+                        "label": "Ffasfasfar {br} mnmhjhdfh sdawewq",
+                        "value": "19289"
+                    },
+                    {
+                        "label": "G Ffasfasfar {br} piupuyoyo sdawewq",
+                        "value": "79623"
+                    },
+                    {
+                        "label": "H",
+                        "value": "48262"
+                    },
+                    {
+                        "label": "I",
+                        "value": "29162"
+                    },
+                    {
+                        "label": "J",
+                        "value": "96878"
+                    },
+                    {
+                        "label": "K",
+                        "value": "81241"
+                    },
+                    {
+                        "label": "L",
+                        "value": "40652"
+                    },
+                    {
+                        "label": "M",
+                        "value": "37581"
+                    },
+                    {
+                        "label": "N",
+                        "value": "2882"
+                    },
+                    {
+                        "label": "Q",
+                        "value": "12072"
+                    },
+                    {
+                        "label": "R",
+                        "value": "45608"
+                    },
+                    {
+                        "label": "S",
+                        "value": "72570"
+                    },
+                    {
+                        "label": "T",
+                        "value": "44799"
+                    },
+                    {
+                        "label": "U",
+                        "value": "71887"
+                    },
+                    {
+                        "label": "V",
+                        "value": "78170"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/pie2d/ref-images/legend-properties-2-snapshot.png",
+        "id": "legend-properties-2"
+    },
+    "legend-properties-3": {
+        "description": "legendPosition-right",
+        "options": {
+            "type": "doughnut3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;{br}chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart{br} <sample> &lt; &gt;",
+                    "enablesmartlabels": "1",
+                    "skipoverlaplabels": "1",
+                    "issmartlineslanted": "1",
+                    "smartlinecolor": "#ff0000",
+                    "smartlinethickness": "3",
+                    "smartlinealpha": "10",
+                    "labeldistance": "20",
+                    "smartlabelclearance": "10",
+                    "managelabeloverflow": "1",
+                    "useellipseswhenoverflow": "1",
+                    "showplotborder": "0",
+                    "plotbordercolor": "#ff0000",
+                    "plotborderthickness": "1",
+                    "plotborderalpha": "0",
+                    "plotfillalpha": "50",
+                    "showshadow": "0",
+                    "use3dlighting": "1",
+                    "slicingdistance": "10",
+                    "pieradius": "90",
+                    "startingangle": "60",
+                    "labelfontsize": "12",
+                    "labelfontbold": "1",
+                    "labelfontitalic": "1",
+                    "enablerotation": "1",
+                    "labelfont": "times",
+                    "labelfontcolor": "ff0000",
+                    "labelbgcolor": "0000ff",
+                    "labelbordercolor": "00ff00",
+                    "labelalpha": "40",
+                    "labelbgalpha": "20",
+                    "labelborderalpha": "50",
+                    "labelborderpadding": "5",
+                    "labelborderradius": "4",
+                    "labelborderthickness": "3",
+                    "labelborderdashed": "1",
+                    "labelborderdashlen": "7",
+                    "labelborderdashgap": "4",
+                    "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com",
+                    "showlegend": "1",
+                    "legendcaption": "Test Caption For Legend",
+                    "legendcaptionalignment": "left",
+                    "legenditemfontbold": "1",
+                    "legenditemfont": "arial",
+                    "legenditemfontsize": "18",
+                    "legendposition": "right",
+                    "legenditemfontcolor": "#0000ff",
+                    "legenditemhoverfontcolor": "#ff0000",
+                    "legenditemhiddencolor": "#cccccc",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "B",
+                        "value": "51852"
+                    },
+                    {
+                        "label": "C",
+                        "value": "88168"
+                    },
+                    {
+                        "label": "D",
+                        "value": "73897"
+                    },
+                    {
+                        "label": "E",
+                        "value": "93933"
+                    },
+                    {
+                        "label": "Ffasfasfar {br} mnmhjhdfh sdawewq",
+                        "value": "19289"
+                    },
+                    {
+                        "label": "G Ffasfasfar {br} piupuyoyo sdawewq",
+                        "value": "79623"
+                    },
+                    {
+                        "label": "H",
+                        "value": "48262"
+                    },
+                    {
+                        "label": "I",
+                        "value": "29162"
+                    },
+                    {
+                        "label": "J",
+                        "value": "96878"
+                    },
+                    {
+                        "label": "K",
+                        "value": "81241"
+                    },
+                    {
+                        "label": "L",
+                        "value": "40652"
+                    },
+                    {
+                        "label": "M",
+                        "value": "37581"
+                    },
+                    {
+                        "label": "N",
+                        "value": "2882"
+                    },
+                    {
+                        "label": "Q",
+                        "value": "12072"
+                    },
+                    {
+                        "label": "R",
+                        "value": "45608"
+                    },
+                    {
+                        "label": "S",
+                        "value": "72570"
+                    },
+                    {
+                        "label": "T",
+                        "value": "44799"
+                    },
+                    {
+                        "label": "U",
+                        "value": "71887"
+                    },
+                    {
+                        "label": "V",
+                        "value": "78170"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/pie2d/ref-images/legend-properties-3-snapshot.png",
+        "id": "legend-properties-3"
+    },
+    "legend-properties-4": {
+        "description": "drawCustomLegendIcon",
+        "options": {
+            "type": "doughnut3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;{br}chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart{br} <sample> &lt; &gt;",
+                    "enablesmartlabels": "1",
+                    "skipoverlaplabels": "1",
+                    "issmartlineslanted": "1",
+                    "smartlinecolor": "#ff0000",
+                    "smartlinethickness": "3",
+                    "smartlinealpha": "10",
+                    "labeldistance": "20",
+                    "smartlabelclearance": "10",
+                    "managelabeloverflow": "1",
+                    "useellipseswhenoverflow": "1",
+                    "showplotborder": "0",
+                    "plotbordercolor": "#ff0000",
+                    "plotborderthickness": "1",
+                    "plotborderalpha": "0",
+                    "plotfillalpha": "50",
+                    "showshadow": "0",
+                    "use3dlighting": "1",
+                    "slicingdistance": "10",
+                    "pieradius": "90",
+                    "startingangle": "60",
+                    "labelfontsize": "12",
+                    "labelfontbold": "1",
+                    "labelfontitalic": "1",
+                    "enablerotation": "1",
+                    "labelfont": "times",
+                    "labelfontcolor": "ff0000",
+                    "labelbgcolor": "0000ff",
+                    "labelbordercolor": "00ff00",
+                    "labelalpha": "40",
+                    "labelbgalpha": "20",
+                    "labelborderalpha": "50",
+                    "labelborderpadding": "5",
+                    "labelborderradius": "4",
+                    "labelborderthickness": "3",
+                    "labelborderdashed": "1",
+                    "labelborderdashlen": "7",
+                    "labelborderdashgap": "4",
+                    "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com",
+                    "showlegend": "1",
+                    "legenditemfontbold": "1",
+                    "legenditemfont": "verdana",
+                    "legenditemfontsize": "18",
+                    "legenditemfontcolor": "#0000ff",
+                    "legenditemhoverfontcolor": "#ff0000",
+                    "legenditemhiddencolor": "#cccccc",
+                    "legendcaption": "Test Caption For Legend",
+                    "legendcaptionalignment": "center",
+                    "legendposition": "bottom",
+                    "legendcaptionfontbold": "1",
+                    "legendcaptionfont": "arial",
+                    "legendcaptionfontsize": "22",
+                    "legendcaptionfontcolor": "#003300",
+                    "legendiconscale": "2",
+                    "drawcustomlegendicon": "1",
+                    "legendiconbordercolor": "#009900",
+                    "legendiconbgcolor": "#ff0000",
+                    "legendiconalpha": "30",
+                    "legendiconbgalpha": "40",
+                    "legendiconsides": "3",
+                    "legendiconborderthickness": "4",
+                    "legendiconstartangle": "90",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "B",
+                        "value": "51852"
+                    },
+                    {
+                        "label": "C",
+                        "value": "88168"
+                    },
+                    {
+                        "label": "D",
+                        "value": "73897"
+                    },
+                    {
+                        "label": "E",
+                        "value": "93933"
+                    },
+                    {
+                        "label": "Ffasfasfar {br} mnmhjhdfh sdawewq",
+                        "value": "19289"
+                    },
+                    {
+                        "label": "G Ffasfasfar {br} piupuyoyo sdawewq",
+                        "value": "79623"
+                    },
+                    {
+                        "label": "H",
+                        "value": "48262"
+                    },
+                    {
+                        "label": "I",
+                        "value": "29162"
+                    },
+                    {
+                        "label": "J",
+                        "value": "96878"
+                    },
+                    {
+                        "label": "K",
+                        "value": "81241"
+                    },
+                    {
+                        "label": "L",
+                        "value": "40652"
+                    },
+                    {
+                        "label": "M",
+                        "value": "37581"
+                    },
+                    {
+                        "label": "N",
+                        "value": "2882"
+                    },
+                    {
+                        "label": "Q",
+                        "value": "12072"
+                    },
+                    {
+                        "label": "R",
+                        "value": "45608"
+                    },
+                    {
+                        "label": "S",
+                        "value": "72570"
+                    },
+                    {
+                        "label": "T",
+                        "value": "44799"
+                    },
+                    {
+                        "label": "U",
+                        "value": "71887"
+                    },
+                    {
+                        "label": "V",
+                        "value": "78170"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/pie2d/ref-images/legend-properties-4-snapshot.png",
+        "id": "legend-properties-4"
+    },
+    "legend-properties-5": {
+        "description": "reverseLegend-1-interactiveLegend-0-legendAllowDrag",
+        "options": {
+            "type": "doughnut3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;{br}chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart{br} <sample> &lt; &gt;",
+                    "enablesmartlabels": "1",
+                    "skipoverlaplabels": "1",
+                    "issmartlineslanted": "1",
+                    "smartlinecolor": "#ff0000",
+                    "smartlinethickness": "3",
+                    "smartlinealpha": "10",
+                    "labeldistance": "20",
+                    "smartlabelclearance": "10",
+                    "managelabeloverflow": "1",
+                    "useellipseswhenoverflow": "1",
+                    "showplotborder": "0",
+                    "plotbordercolor": "#ff0000",
+                    "plotborderthickness": "1",
+                    "plotborderalpha": "0",
+                    "plotfillalpha": "50",
+                    "showshadow": "0",
+                    "use3dlighting": "1",
+                    "slicingdistance": "10",
+                    "pieradius": "90",
+                    "startingangle": "60",
+                    "labelfontsize": "12",
+                    "labelfontbold": "1",
+                    "labelfontitalic": "1",
+                    "enablerotation": "1",
+                    "labelfont": "times",
+                    "labelfontcolor": "ff0000",
+                    "labelbgcolor": "0000ff",
+                    "labelbordercolor": "00ff00",
+                    "labelalpha": "40",
+                    "labelbgalpha": "20",
+                    "labelborderalpha": "50",
+                    "labelborderpadding": "5",
+                    "labelborderradius": "4",
+                    "labelborderthickness": "3",
+                    "labelborderdashed": "1",
+                    "labelborderdashlen": "7",
+                    "labelborderdashgap": "4",
+                    "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com",
+                    "showlegend": "1",
+                    "legenditemfontbold": "1",
+                    "legenditemfont": "verdana",
+                    "legenditemfontsize": "18",
+                    "legenditemfontcolor": "#0000ff",
+                    "legenditemhoverfontcolor": "#ff0000",
+                    "legenditemhiddencolor": "#cccccc",
+                    "legendcaption": "Test Caption For Legend",
+                    "legendcaptionalignment": "center",
+                    "legendposition": "bottom",
+                    "legendcaptionfontbold": "1",
+                    "legendcaptionfont": "arial",
+                    "legendcaptionfontsize": "22",
+                    "legendcaptionfontcolor": "#003300",
+                    "legendiconscale": "2",
+                    "drawcustomlegendicon": "1",
+                    "legendiconbordercolor": "#009900",
+                    "legendiconbgcolor": "#ff0000",
+                    "legendiconalpha": "30",
+                    "legendiconbgalpha": "40",
+                    "legendiconsides": "3",
+                    "legendiconborderthickness": "4",
+                    "legendiconstartangle": "90",
+                    "reverselegend": "1",
+                    "legendallowdrag": "1",
+                    "interactivelegend": "0",
+                    "legendnumcolumns": "1",
+                    "minimisewrappinginlegend": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "B",
+                        "value": "51852"
+                    },
+                    {
+                        "label": "C",
+                        "value": "88168"
+                    },
+                    {
+                        "label": "D",
+                        "value": "73897"
+                    },
+                    {
+                        "label": "E",
+                        "value": "93933"
+                    },
+                    {
+                        "label": "Ffasfasfar {br} mnmhjhdfh sdawewq",
+                        "value": "19289"
+                    },
+                    {
+                        "label": "G Ffasfasfar {br} piupuyoyo sdawewq",
+                        "value": "79623"
+                    },
+                    {
+                        "label": "H",
+                        "value": "48262"
+                    },
+                    {
+                        "label": "I",
+                        "value": "29162"
+                    },
+                    {
+                        "label": "J",
+                        "value": "96878"
+                    },
+                    {
+                        "label": "K",
+                        "value": "81241"
+                    },
+                    {
+                        "label": "L",
+                        "value": "40652"
+                    },
+                    {
+                        "label": "M",
+                        "value": "37581"
+                    },
+                    {
+                        "label": "N",
+                        "value": "2882"
+                    },
+                    {
+                        "label": "Q",
+                        "value": "12072"
+                    },
+                    {
+                        "label": "R",
+                        "value": "45608"
+                    },
+                    {
+                        "label": "S",
+                        "value": "72570"
+                    },
+                    {
+                        "label": "T",
+                        "value": "44799"
+                    },
+                    {
+                        "label": "U",
+                        "value": "71887"
+                    },
+                    {
+                        "label": "V",
+                        "value": "78170"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/pie2d/ref-images/legend-properties-5-snapshot.png",
+        "id": "legend-properties-5"
+    },
+    "tooltip-1": {
+        "description": "tooltip-bg-border-alpha-color-thickjness",
+        "options": {
+            "type": "doughnut3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;{br}chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart{br} <sample> &lt; &gt;",
+                    "enablesmartlabels": "1",
+                    "skipoverlaplabels": "1",
+                    "issmartlineslanted": "1",
+                    "smartlinecolor": "#ff0000",
+                    "smartlinethickness": "3",
+                    "smartlinealpha": "10",
+                    "labeldistance": "20",
+                    "smartlabelclearance": "10",
+                    "managelabeloverflow": "1",
+                    "useellipseswhenoverflow": "1",
+                    "showplotborder": "0",
+                    "plotbordercolor": "#ff0000",
+                    "plotborderthickness": "1",
+                    "plotborderalpha": "0",
+                    "plotfillalpha": "50",
+                    "showshadow": "0",
+                    "use3dlighting": "1",
+                    "slicingdistance": "10",
+                    "pieradius": "90",
+                    "startingangle": "60",
+                    "labelfontsize": "12",
+                    "labelfontbold": "1",
+                    "labelfontitalic": "1",
+                    "enablerotation": "1",
+                    "labelfont": "times",
+                    "labelfontcolor": "ff0000",
+                    "labelbgcolor": "0000ff",
+                    "labelbordercolor": "00ff00",
+                    "labelalpha": "40",
+                    "labelbgalpha": "20",
+                    "labelborderalpha": "50",
+                    "labelborderpadding": "5",
+                    "labelborderradius": "4",
+                    "labelborderthickness": "3",
+                    "labelborderdashed": "1",
+                    "labelborderdashlen": "7",
+                    "labelborderdashgap": "4",
+                    "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com",
+                    "showtooltip": "1",
+                    "tooltipcolor": "#cc0000",
+                    "tooltipbordercolor": "#0000ff",
+                    "tooltipsepchar": "/",
+                    "showtooltipshadow": "0",
+                    "tooltipbgalpha": "30",
+                    "tooltipborderradius": "5",
+                    "tooltipborderthickness": "3",
+                    "tooltippadding": "5",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "B",
+                        "value": "51852"
+                    },
+                    {
+                        "label": "C",
+                        "value": "88168"
+                    },
+                    {
+                        "label": "D",
+                        "value": "73897"
+                    },
+                    {
+                        "label": "E",
+                        "value": "93933"
+                    },
+                    {
+                        "label": "Ffasfasfar {br} mnmhjhdfh sdawewq",
+                        "value": "19289"
+                    },
+                    {
+                        "label": "G Ffasfasfar {br} piupuyoyo sdawewq",
+                        "value": "79623"
+                    },
+                    {
+                        "label": "H",
+                        "value": "48262"
+                    },
+                    {
+                        "label": "I",
+                        "value": "29162"
+                    },
+                    {
+                        "label": "J",
+                        "value": "96878"
+                    },
+                    {
+                        "label": "K",
+                        "value": "81241"
+                    },
+                    {
+                        "label": "L",
+                        "value": "40652"
+                    },
+                    {
+                        "label": "M",
+                        "value": "37581"
+                    },
+                    {
+                        "label": "N",
+                        "value": "2882"
+                    },
+                    {
+                        "label": "Q",
+                        "value": "12072"
+                    },
+                    {
+                        "label": "R",
+                        "value": "45608"
+                    },
+                    {
+                        "label": "S",
+                        "value": "72570"
+                    },
+                    {
+                        "label": "T",
+                        "value": "44799"
+                    },
+                    {
+                        "label": "U",
+                        "value": "71887"
+                    },
+                    {
+                        "label": "V",
+                        "value": "78170"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/pie2d/ref-images/tooltip-1-snapshot.png",
+        "id": "tooltip-1"
+    },
+    "data-plot-hover-effects-1": {
+        "description": "showHoverEffect-plotHoverEffect-plotFillHoverColor-plotFillHoverAlpha",
+        "options": {
+            "type": "doughnut3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;{br}chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart{br} <sample> &lt; &gt;",
+                    "enablesmartlabels": "1",
+                    "skipoverlaplabels": "1",
+                    "issmartlineslanted": "1",
+                    "smartlinecolor": "#ff0000",
+                    "smartlinethickness": "3",
+                    "smartlinealpha": "10",
+                    "labeldistance": "20",
+                    "smartlabelclearance": "10",
+                    "managelabeloverflow": "1",
+                    "useellipseswhenoverflow": "1",
+                    "showplotborder": "0",
+                    "plotbordercolor": "#ff0000",
+                    "plotborderthickness": "1",
+                    "plotborderalpha": "0",
+                    "plotfillalpha": "50",
+                    "showshadow": "0",
+                    "use3dlighting": "1",
+                    "slicingdistance": "10",
+                    "pieradius": "90",
+                    "startingangle": "60",
+                    "labelfontsize": "12",
+                    "labelfontbold": "1",
+                    "labelfontitalic": "1",
+                    "enablerotation": "1",
+                    "labelfont": "times",
+                    "labelfontcolor": "ff0000",
+                    "labelbgcolor": "0000ff",
+                    "labelbordercolor": "00ff00",
+                    "labelalpha": "40",
+                    "labelbgalpha": "20",
+                    "labelborderalpha": "50",
+                    "labelborderpadding": "5",
+                    "labelborderradius": "4",
+                    "labelborderthickness": "3",
+                    "labelborderdashed": "1",
+                    "labelborderdashlen": "7",
+                    "labelborderdashgap": "4",
+                    "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com",
+                    "showtooltip": "1",
+                    "tooltipcolor": "#cc0000",
+                    "tooltipbordercolor": "#0000ff",
+                    "tooltipsepchar": "/",
+                    "showtooltipshadow": "1",
+                    "tooltipbgalpha": "30",
+                    "tooltipborderradius": "5",
+                    "tooltipborderthickness": "3",
+                    "tooltippadding": "5",
+                    "showhovereffect": "1",
+                    "plothovereffect": "1",
+                    "plotfillhovercolor": "#ff0000",
+                    "plotfillhoveralpha": "80",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "B",
+                        "value": "51852"
+                    },
+                    {
+                        "label": "C",
+                        "value": "88168"
+                    },
+                    {
+                        "label": "D",
+                        "value": "73897"
+                    },
+                    {
+                        "label": "E",
+                        "value": "93933"
+                    },
+                    {
+                        "label": "Ffasfasfar {br} mnmhjhdfh sdawewq",
+                        "value": "19289"
+                    },
+                    {
+                        "label": "G Ffasfasfar {br} piupuyoyo sdawewq",
+                        "value": "79623"
+                    },
+                    {
+                        "label": "H",
+                        "value": "48262"
+                    },
+                    {
+                        "label": "I",
+                        "value": "29162"
+                    },
+                    {
+                        "label": "J",
+                        "value": "96878"
+                    },
+                    {
+                        "label": "K",
+                        "value": "81241"
+                    },
+                    {
+                        "label": "L",
+                        "value": "40652"
+                    },
+                    {
+                        "label": "M",
+                        "value": "37581"
+                    },
+                    {
+                        "label": "N",
+                        "value": "2882"
+                    },
+                    {
+                        "label": "Q",
+                        "value": "12072"
+                    },
+                    {
+                        "label": "R",
+                        "value": "45608"
+                    },
+                    {
+                        "label": "S",
+                        "value": "72570"
+                    },
+                    {
+                        "label": "T",
+                        "value": "44799"
+                    },
+                    {
+                        "label": "U",
+                        "value": "71887"
+                    },
+                    {
+                        "label": "V",
+                        "value": "78170"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/pie2d/ref-images/data-plot-hover-effects-1-snapshot.png",
+        "id": "data-plot-hover-effects-1"
+    },
+    "chart-padding-&-margins-1": {
+        "description": "captionPadding-chartLeftMargin-chartRightMargin-chartTopMargin-chartBottomMargin",
+        "options": {
+            "type": "doughnut3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;{br}chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart{br} <sample> &lt; &gt;",
+                    "enablesmartlabels": "1",
+                    "skipoverlaplabels": "1",
+                    "issmartlineslanted": "1",
+                    "smartlinecolor": "#ff0000",
+                    "smartlinethickness": "3",
+                    "smartlinealpha": "10",
+                    "labeldistance": "20",
+                    "smartlabelclearance": "10",
+                    "managelabeloverflow": "1",
+                    "useellipseswhenoverflow": "1",
+                    "showplotborder": "0",
+                    "plotbordercolor": "#ff0000",
+                    "plotborderthickness": "1",
+                    "plotborderalpha": "0",
+                    "plotfillalpha": "50",
+                    "showshadow": "0",
+                    "use3dlighting": "1",
+                    "slicingdistance": "10",
+                    "pieradius": "90",
+                    "startingangle": "60",
+                    "labelfontsize": "12",
+                    "labelfontbold": "1",
+                    "labelfontitalic": "1",
+                    "enablerotation": "1",
+                    "labelfont": "times",
+                    "labelfontcolor": "ff0000",
+                    "labelbgcolor": "0000ff",
+                    "labelbordercolor": "00ff00",
+                    "labelalpha": "40",
+                    "labelbgalpha": "20",
+                    "labelborderalpha": "50",
+                    "labelborderpadding": "5",
+                    "labelborderradius": "4",
+                    "labelborderthickness": "3",
+                    "labelborderdashed": "1",
+                    "labelborderdashlen": "7",
+                    "labelborderdashgap": "4",
+                    "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com",
+                    "showtooltip": "1",
+                    "tooltipcolor": "#cc0000",
+                    "tooltipbordercolor": "#0000ff",
+                    "tooltipsepchar": "/",
+                    "showtooltipshadow": "1",
+                    "tooltipbgalpha": "30",
+                    "tooltipborderradius": "5",
+                    "tooltipborderthickness": "3",
+                    "tooltippadding": "5",
+                    "showhovereffect": "1",
+                    "plothovereffect": "1",
+                    "plotfillhovercolor": "#ff0000",
+                    "plotfillhoveralpha": "100",
+                    "captionpadding": "70",
+                    "chartleftmargin": "140",
+                    "chartrightmargin": "50",
+                    "charttopmargin": "40",
+                    "chartbottommargin": "80",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "B",
+                        "value": "51852"
+                    },
+                    {
+                        "label": "C",
+                        "value": "88168"
+                    },
+                    {
+                        "label": "D",
+                        "value": "73897"
+                    },
+                    {
+                        "label": "E",
+                        "value": "93933"
+                    },
+                    {
+                        "label": "Ffasfasfar {br} mnmhjhdfh sdawewq",
+                        "value": "19289"
+                    },
+                    {
+                        "label": "G Ffasfasfar {br} piupuyoyo sdawewq",
+                        "value": "79623"
+                    },
+                    {
+                        "label": "H",
+                        "value": "48262"
+                    },
+                    {
+                        "label": "I",
+                        "value": "29162"
+                    },
+                    {
+                        "label": "J",
+                        "value": "96878"
+                    },
+                    {
+                        "label": "K",
+                        "value": "81241"
+                    },
+                    {
+                        "label": "L",
+                        "value": "40652"
+                    },
+                    {
+                        "label": "M",
+                        "value": "37581"
+                    },
+                    {
+                        "label": "N",
+                        "value": "2882"
+                    },
+                    {
+                        "label": "Q",
+                        "value": "12072"
+                    },
+                    {
+                        "label": "R",
+                        "value": "45608"
+                    },
+                    {
+                        "label": "S",
+                        "value": "72570"
+                    },
+                    {
+                        "label": "T",
+                        "value": "44799"
+                    },
+                    {
+                        "label": "U",
+                        "value": "71887"
+                    },
+                    {
+                        "label": "V",
+                        "value": "78170"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/pie2d/ref-images/chart-padding-&-margins-1-snapshot.png",
+        "id": "chart-padding-&-margins-1"
+    },
+    "the-data-object-1": {
+        "description": "label-font-bg-border-color-dispalyvalue",
+        "options": {
+            "type": "doughnut3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED <sample> &lt; &gt;{br}chart monitoring noise pollution",
+                    "subcaption": "Sample hled chart{br} <sample> &lt; &gt;",
+                    "enablesmartlabels": "1",
+                    "skipoverlaplabels": "1",
+                    "issmartlineslanted": "1",
+                    "smartlinecolor": "#ff0000",
+                    "smartlinethickness": "3",
+                    "smartlinealpha": "10",
+                    "labeldistance": "20",
+                    "smartlabelclearance": "10",
+                    "managelabeloverflow": "1",
+                    "useellipseswhenoverflow": "1",
+                    "showplotborder": "0",
+                    "plotbordercolor": "#ff0000",
+                    "plotborderthickness": "1",
+                    "plotborderalpha": "100",
+                    "plotfillalpha": "50",
+                    "showshadow": "0",
+                    "use3dlighting": "1",
+                    "slicingdistance": "10",
+                    "pieradius": "90",
+                    "startingangle": "60",
+                    "labelfontsize": "12",
+                    "labelfontbold": "1",
+                    "labelfontitalic": "1",
+                    "enablerotation": "1",
+                    "labelfont": "times",
+                    "labelfontcolor": "ff0000",
+                    "labelbgcolor": "0000ff",
+                    "labelbordercolor": "00ff00",
+                    "labelalpha": "40",
+                    "labelbgalpha": "20",
+                    "labelborderalpha": "50",
+                    "labelborderpadding": "5",
+                    "labelborderradius": "4",
+                    "labelborderthickness": "3",
+                    "labelborderdashed": "1",
+                    "labelborderdashlen": "7",
+                    "labelborderdashgap": "4",
+                    "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com",
+                    "showtooltip": "1",
+                    "tooltipcolor": "#cc0000",
+                    "tooltipbordercolor": "#0000ff",
+                    "tooltipsepchar": "/",
+                    "showtooltipshadow": "1",
+                    "tooltipbgalpha": "30",
+                    "tooltipborderradius": "5",
+                    "tooltipborderthickness": "3",
+                    "tooltippadding": "5",
+                    "showhovereffect": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "B",
+                        "value": "51852"
+                    },
+                    {
+                        "label": "C",
+                        "value": "88168"
+                    },
+                    {
+                        "label": "D",
+                        "value": "73897"
+                    },
+                    {
+                        "label": "E",
+                        "value": "93933"
+                    },
+                    {
+                        "label": "Ffasfasfar {br} mnmhjhdfh sdawewq",
+                        "value": "19289",
+                        "color": "0000ff",
+                        "displayvalue": "system",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://fusioncharts.com",
+                        "showlabel": "1",
+                        "showvalue": "1",
+                        "tooltext": "tooltext",
+                        "labelfont": "times",
+                        "labelfontcolor": "0000ff",
+                        "labelfontsize": "20",
+                        "labelfontbold": "1",
+                        "labelfontitalic": "1",
+                        "labelbgcolor": "0000ff",
+                        "labelbordercolor": "00ff00",
+                        "labelalpha": "40",
+                        "labelbgalpha": "20",
+                        "labelborderalpha": "50",
+                        "labelborderpadding": "15",
+                        "labelborderradius": "4",
+                        "labelborderthickness": "3",
+                        "labelborderdashed": "1",
+                        "labelborderdashlen": "7",
+                        "labelborderdashgap": "4",
+                        "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com"
+                    },
+                    {
+                        "label": "G Ffasfasfar {br} piupuyoyo sdawewq",
+                        "value": "79623"
+                    },
+                    {
+                        "label": "H",
+                        "value": "48262"
+                    },
+                    {
+                        "label": "I",
+                        "value": "29162"
+                    },
+                    {
+                        "label": "J",
+                        "value": "96878"
+                    },
+                    {
+                        "label": "K",
+                        "value": "81241"
+                    },
+                    {
+                        "label": "L",
+                        "value": "40652"
+                    },
+                    {
+                        "label": "M",
+                        "value": "37581"
+                    },
+                    {
+                        "label": "N",
+                        "value": "2882",
+                        "color": "0000ff",
+                        "displayvalue": "system",
+                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://fusioncharts.com",
+                        "showlabel": "1",
+                        "showvalue": "1",
+                        "tooltext": "tooltext",
+                        "labelfont": "times",
+                        "labelfontcolor": "0000ff",
+                        "labelfontsize": "20",
+                        "labelfontbold": "1",
+                        "labelfontitalic": "1",
+                        "labelbgcolor": "0000ff",
+                        "labelbordercolor": "00ff00",
+                        "labelalpha": "40",
+                        "labelbgalpha": "20",
+                        "labelborderalpha": "50",
+                        "labelborderpadding": "5",
+                        "labelborderradius": "4",
+                        "labelborderthickness": "3",
+                        "labelborderdashed": "1",
+                        "labelborderdashlen": "7",
+                        "labelborderdashgap": "4",
+                        "labellink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com"
+                    },
+                    {
+                        "label": "Q",
+                        "value": "12072"
+                    },
+                    {
+                        "label": "R",
+                        "value": "45608"
+                    },
+                    {
+                        "label": "S",
+                        "value": "72570"
+                    },
+                    {
+                        "label": "T",
+                        "value": "44799"
+                    },
+                    {
+                        "label": "U",
+                        "value": "71887"
+                    },
+                    {
+                        "label": "V",
+                        "value": "78170"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/pie2d/ref-images/the-data-object-1-snapshot.png",
+        "id": "the-data-object-1"
+    },
+    "pie_doughnut-properties-2": {
+        "description": "pieInnerFaceAlpha-pieOuterFaceAlpha-pieYScale-pieSliceDepth",
+        "options": {
+            "type": "doughnut3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "pieinnerfacealpha": "70",
+                    "pieouterfacealpha": "70",
+                    "pieyscale": "30",
+                    "pieslicedepth": "60",
+                    "enablerotation": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "B",
+                        "value": "51852"
+                    },
+                    {
+                        "label": "C",
+                        "value": "88168"
+                    },
+                    {
+                        "label": "D",
+                        "value": "73897"
+                    },
+                    {
+                        "label": "E",
+                        "value": "93933"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/doughnut3d/ref-images/pie_doughnut-properties-2-snapshot.png",
+        "id": "pie_doughnut-properties-2"
+    }
+}

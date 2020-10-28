@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="fusioncharts/fusioncharts.js"></script>
+</head>
+
+<body>
+
+    <a href="https://fusioncharts.jira.com/browse/RED-7684">RED-7684</a>
+    <div>scrollHeight Attribute is not Working for <b>Android Chrome Browser</b> if Value is less than 10</div>
+    <p>
+        If value for chart attribute scrollHeight is less than 10 than it doesn't get affected for Android mobile chrome browser but works fine for web/desktop.
+    </p>
+    <div id="chart-container">FusionCharts will render here</div>
+    <script type="text/javascript">
+        FusionCharts.ready(function () {
+            var demoChart = new FusionCharts({
+           type: 'scrollcolumn2d',
+           renderAt: 'chart-container',
+           width: '400',
+           height: '400',
+           dataFormat: 'json',
+           dataSource: {
+                "chart": {
+                "caption": "2016 Summer Olympics Medal Tally",
+                "subcaption": "Byth Countries",
+                "yaxisname": "Medal Count",
+                "scrollheight": "10",
+                "flatScrollBars": "0",
+                "scrollColor": "#cccccc",
+                "showHoverEffect": "1",
+                "scrollHeight": "10",
+                "scrollColor": "#808080",
+                "labelDisplay": "Rotate",
+                "slantLabels": "1",
+                "bgColor": "#FFFFFF",
+                "canvasBgAlpha": "0",
+                "bgAlpha": "100",
+                "showBorder": "0",
+                "showCanvasBorder": "0",
+                "showPlotBorder": "0",
+                "showAlternateHGridColor": "0",
+                "plotGradientColor": "",
+                // scroll customization,
+                "scrollHeight": "8",
+                "flatScrollBars": "1",
+                "scrollShowButtons": "0",
+                "showValues": "0"
+                },
+                "categories": [{
+                "category": [{
+                    "label": "USA"
+                }, {
+                    "label": "GB"
+                }, {
+                    "label": "China"
+                }, {
+                    "label": "Russia"
+                }, {
+                    "label": "Germany"
+                }, {
+                    "label": "France"
+                }, {
+                    "label": "Japan"
+                }, {
+                    "label": "Australia"
+                }, {
+                    "label": "Italy"
+                }, {
+                    "label": "Canada"
+                }, {
+                    "label": "South Korea"
+                }, {
+                    "label": "Netherlands"
+                }, {
+                    "label": "Brazil"
+                }, {
+                    "label": "NZ"
+                }, {
+                    "label": "Spain"
+                }, {
+                    "label": "Hungary"
+                }, {
+                    "label": "Kenya"
+                }, {
+                    "label": "Jamaica"
+                }, {
+                    "label": "Cuba"
+                }, {
+                    "label": "Croatia"
+                }]
+                }],
+                "dataset": [{
+                "data": [{
+                    "value": "121"
+                }, {
+                    "value": "70"
+                }, {
+                    "value": "67"
+                }, {
+                    "value": "55"
+                }, {
+                    "value": "42"
+                }, {
+                    "value": "42"
+                }, {
+                    "value": "41"
+                }, {
+                    "value": "29"
+                }, {
+                    "value": "28"
+                }, {
+                    "value": "22"
+                }, {
+                    "value": "21"
+                }, {
+                    "value": "19"
+                }, {
+                    "value": "19"
+                }, {
+                    "value": "18"
+                }, {
+                    "value": "17"
+                }, {
+                    "value": "15"
+                }, {
+                    "value": "13"
+                }, {
+                    "value": "11"
+                }, {
+                    "value": "11"
+                }, {
+                    "value": "10"
+                }]
+                }]
+            }
+            }).render();
+        
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <script type="text/javascript" src="fusioncharts/fusioncharts.js"></script>
+    <style type="text/css">
+    body {
+        padding: 5px;
+        margin: 0 auto;
+    }
+    
+    #header {
+        display: none;
+    }
+    
+    #indicatorDiv {
+        width: 500px;
+        font-family: 'Arial', 'Helvetica';
+        font-size: 14px;
+    }
+    
+    p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #attrs-table {
+        text-align: center;
+        width: 500px;
+    }
+    
+    .parameter-name,
+    .parameter-value {
+        width: 250px;
+        font-weight: bold;
+        text-align: center;
+        float: left;
+    }
+    
+    .title,
+    .value {
+        float: left;
+        width: 230px;
+        height: 20px;
+        background: #fff;
+        padding: 5px 10px;
+    }
+    
+    .title {
+        clear: left;
+    }
+    
+    .title:nth-child(4n+1),
+    .value:nth-child(4n+2) {
+        background: rgb(0, 117, 194);
+        color: #fff;
+    }
+    
+    .value {
+        word-wrap: break-word;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    </style>
+</head>
+
+<body>
+    <a href="https://fusioncharts.jira.com/browse/RED-5079">RED-5079</a>
+    <div>the dataIndex values are being overwritten on scroll</div>
+    <div id="chart-container">FusionCharts will render here</div>
+    <div>
+        <div>
+            <div id="header">
+                <div class="parameter-name">Parameter Name</div>
+                <div class="parameter-value">Parameter Value</div>
+            </div>
+            <div id="attrs-table"></div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var header = document.getElementById('header');
+    function showDetails(eventObj, dataObj) {
+        header.innerHTML = eventObj.eventType;
+        header.style.display = 'block';
+
+        var tempDiv = document.createElement('div');
+        var attrsTable = document.getElementById('attrs-table');
+        var titleDiv, valueDiv;
+        for (var prop in dataObj) {
+            titleDiv = document.createElement('div');
+            titleDiv.className = 'title';
+            titleDiv.innerHTML = prop;
+
+            valueDiv = document.createElement('div');
+            valueDiv.className = 'value';
+            valueDiv.innerHTML = dataObj[prop];
+
+            tempDiv.appendChild(titleDiv);
+            tempDiv.appendChild(valueDiv);
+        }
+        attrsTable.innerHTML = '';
+        attrsTable.appendChild(tempDiv);
+    }
+    FusionCharts.ready(function() {
+        var revenueChart = new FusionCharts({
+            type: 'scrollcombi2d',
+            renderAt: 'chart-container',
+            width: '500',
+            height: '350',
+            dataFormat: 'json',
+            dataSource: {
+                "chart": {
+                    "showShadow": "0",
+                    "showAlternateVGridColor": "0",
+                    "decimalSeparator": ".",
+                    "showLegend": "1",
+                    "showToolTip": "1",
+                    "showExportDataMenuItem": "0",
+                    "chartLeftMargin": "16",
+                    "plotSpacePercent": "10",
+                    "chartTopMargin": "16",
+                    "legendBorderThickness": "0",
+                    "baseFont": "Roboto, arial, sans-serif",
+                    "showPlotBorder": "0",
+                    "yAxisNamePadding": "16",
+                    "showFCMenuItem": "0",
+                    "chartBottomMargin": "16",
+                    "showDivLineSecondaryValue": "0",
+                    "plotBorderThickness": "0",
+                    "yAxisNameFontColor": "545454",
+                    "baseFontSize": "12",
+                    "VDivLineThickness": "1",
+                    "canvasBorderThickness": "0.1",
+                    "showAlternateHGridColor": "0",
+                    "animation": "0",
+                    "xAxisNamePadding": "16",
+                    "thousandSeparator": ",",
+                    "rotateLabels": "1",
+                    "toolTipSepChar": " : ",
+                    "chartRightMargin": "16",
+                    "toolTipBgColor": "ffffff",
+                    "plotGradientColor": "",
+                    "showValues": "0",
+                    "forceDecimals": "0",
+                    "yAxisNameFontSize": "12",
+                    "divlinecolor": "e9e9e9",
+                    "paletteColors": "007ab4,c90a5a,961d9c,e85600,004f71,598100,db72e0,54c2ec",
+                    "showSecondaryLimits": "0",
+                    "yAxisNameFontBold": "0",
+                    "bgColor": "ffffff",
+                    "legendBorderAlpha": "0",
+                    "divLineThickness": "1",
+                    "use3DLighting": "0",
+                    "pyaxisname": "Forecast Deviation",
+                    "syaxisname": "",
+                    "slantLabels": "1",
+                    "formatNumberScale": "0",
+                    "xAxisNameFontColor": "545454",
+                    "showBorder": "0",
+                    "showCanvasBorder": "1",
+                    "showToolTipShadow": "0",
+                    "xAxisNameFont": "Roboto, arial, sans-serif",
+                    "areaOverColumns": "0",
+                    "VDivlinecolor": "e9e9e9",
+                    "yAxisNameFont": "Roboto, arial, sans-serif",
+                    "toolTipBorderColor": "545454",
+                    "xAxisNameFontBold": "0",
+                    "xAxisNameFontSize": "12",
+                    "legendShadow": "0"
+                },
+                "categories": [{
+                    "category": [{
+                        "label": "FAMILY0"
+                    }, {
+                        "label": "FAMILY1"
+                    }, {
+                        "label": "FAMILY2"
+                    }, {
+                        "label": "FAMILY3"
+                    }, {
+                        "label": "FAMILY4"
+                    }, {
+                        "label": "FAMILY5"
+                    }, {
+                        "label": "FAMILY6"
+                    }, {
+                        "label": "FAMILY7"
+                    }, {
+                        "label": "FAMILY8"
+                    }]
+                }],
+                "dataset": [{
+                    "seriesname": "series1",
+                    "data": [{
+                        "toolText": "this is a tooltip",
+                        "value": "54474.31"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "54494.87"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "54564.6"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "54341.86"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "54192.38"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "54293.21"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "54484.15"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "54609.55"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "54815.69"
+                    }],
+                    "parentYAxis": "P",
+                    "renderAs": "Column"
+                }, {
+                    "seriesname": "series 2",
+                    "data": [{
+                        "toolText": "this is a tooltip",
+                        "value": "0"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "0"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "0"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "0"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "0"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "0"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "0"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "0"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "0"
+                    }],
+                    "parentYAxis": "P",
+                    "renderAs": "Column"
+                }, {
+                    "seriesname": "series 3",
+                    "data": [{
+                        "toolText": "this is a tooltip",
+                        "value": "0.03"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "0.03"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "0.03"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "0.03"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "0.03"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "0.03"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "0.03"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "0.03"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "0.03"
+                    }],
+                    "parentYAxis": "P",
+                    "renderAs": "Column"
+                }, {
+                    "seriesname": "series 4",
+                    "data": [{
+                        "toolText": "this is a tooltip",
+                        "value": "54474.31"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "54494.87"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "54564.6"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "54341.86"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "54192.38"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "54293.21"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "54484.15"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "54609.55"
+                    }, {
+                        "toolText": "this is a tooltip",
+                        "value": "54815.69"
+                    }],
+                    "parentYAxis": "P",
+                    "renderAs": "Column"
+                }]
+            },
+            "events": {
+                "dataLabelRollOver": function(eventObj, dataObj) {
+                	showDetails(eventObj, dataObj);
+                },
+                "dataLabelclick": function(eventObj, dataObj) {
+                	showDetails(eventObj, dataObj);
+                },
+                "dataplotRollOver": function(eventObj, dataObj) {
+                	showDetails(eventObj, dataObj);
+                },
+                "dataplotclick": function(eventObj, dataObj) {
+                	showDetails(eventObj, dataObj);
+                }
+            }
+        }).render();
+    });
+    </script>
+</body>
+
+</html>

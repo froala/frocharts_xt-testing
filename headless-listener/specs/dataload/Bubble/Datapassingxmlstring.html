@@ -1,0 +1,19 @@
+<html>
+  <head>        
+    <title>My First chart using FusionCharts XT</title>         
+    <script type="text/javascript" src="../../../fusioncharts/fusioncharts.js">
+    </script>
+  </head>   
+  <body>     
+    <div id="chartContainer">FusionCharts XT will load here!</div>          
+    <script type="text/javascript"><!--         
+
+      var myChart = new FusionCharts( "Bubble","myChartId", "600", "400", "0" );
+	  var strXml = "<chart palette='3' numberPrefix='$' is3D='1' xAxisMaxValue='100' showPlotBorder='0' xAxisName='Stickiness' yAxisName='Cost Per Service' chartRightMargin='30' showValues='1'>     <categories>       <category label='0%' x='0' />       <category label='20%' x='20' showVerticalLine='1'/>       <category label='40%' x='40' showVerticalLine='1'/>       <category label='60%' x='60' showVerticalLine='1'/>       <category label='80%' x='80' showVerticalLine='1'/>       <category label='100%' x='100' showVerticalLine='1'/>    </categories>     <dataSet seriesName='Bubbles'>       <set x='30' y='.3' z='116' name='Traders'/>       <set x='3' y='3.5' z='99' name='Farmers'/>       <set x='8' y='2.1' z='33' name='Individuals'/>       <set x='62' y='2.5' z='72' name='Medium Business Houses'/>       <set x='78' y='2.3' z='55' name='Corporate Group A'/>       <set x='75' y='1.4' z='58' name='Corporate Group C'/>       <set x='97' y='3.7' z='80' name='HNW Individuals'/>       <set x='50' y='4.5' z='105' name='Small Business Houses'/>    </dataSet>     <trendlines>       <line startValue='2.5' isTrendZone='0' displayValue='Median Cost' color='0372AB'/>    </trendlines>     <vTrendlines>       <line startValue='0' endValue='60' isTrendZone='1' displayValue='Potential Wins' color='663333' alpha='10'/>       <line startValue='60' endValue='100' isTrendZone='1' displayValue='Cash Cows' color='990099' alpha='5'/>    </vTrendlines>  </chart>";
+      myChart.setXMLData(strXml);
+      myChart.render("chartContainer");
+      
+    // -->     
+    </script>      
+  </body> 
+</html>

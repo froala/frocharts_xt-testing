@@ -1,0 +1,341 @@
+{
+    "annotations-bullet_01": {
+        "description": "annotations",
+        "options": {
+            "type": "hbullet",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "lowerlimit": "0",
+                    "upperlimit": "100",
+                    "caption": "Revenue",
+                    "subcaption": "US $ (1,000s)",
+                    "numberprefix": "$",
+                    "numbersuffix": "K",
+                    "showvalue": "1",
+                    "chartbottommargin": "100",
+                    "animation": "0",
+                    "charttopmargin": "100"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "50",
+                            "color": "A6A6A6"
+                        },
+                        {
+                            "minvalue": "50",
+                            "maxvalue": "75",
+                            "color": "CCCCCC"
+                        },
+                        {
+                            "minvalue": "75",
+                            "maxvalue": "100",
+                            "color": "E1E1E1"
+                        }
+                    ]
+                },
+                "value": "78.9",
+                "target": "80",
+                "annotations": {
+                    "origw": "450",
+                    "origh": "300",
+                    "autoscale": "1",
+                    "showBelow": "0",
+                    "groups": [
+                        {
+                            "id": "arcs",
+                            "items": [
+                                {
+                                    "id": "store-cs-bg",
+                                    "type": "rectangle",
+                                    "x": "$chartCenterX-130",
+                                    "y": "$chartEndY - 60",
+                                    "tox": "$chartCenterX + 150",
+                                    "toy": "$chartEndY - 20",
+                                    "fillcolor": "#6A5ACD",
+                                    "showborder": "1",
+                                    "bordercolor": "#000000"
+                                },
+                                {
+                                    "id": "state-cs-text",
+                                    "type": "Text",
+                                    "color": "#ffffff",
+                                    "label": "An annotation for an hbullet chart",
+                                    "fontSize": "12",
+                                    "align": "center",
+                                    "x": "$chartCenterX + 10",
+                                    "y": "$chartEndY - 40"
+                                },
+                                {
+                                    "id": "state-cs-text",
+                                    "type": "Text",
+                                    "color": "#FF654F",
+                                    "label": "LOW",
+                                    "fontSize": "12",
+                                    "align": "center",
+                                    "x": "$gaugestartx+10",
+                                    "y": "$gaugeendy+40"
+                                },
+                                {
+                                    "id": "state-cs-text",
+                                    "type": "Text",
+                                    "color": "#8BBA00",
+                                    "label": "HIGH",
+                                    "fontSize": "12",
+                                    "align": "center",
+                                    "x": "$gaugeendx-10",
+                                    "y": "$gaugeendy+40"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                },
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartendx-100",
+                                    "y": "$chartstarty",
+                                    "xScale": "100",
+                                    "yScale": "100"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$gaugeStartX+30",
+                                    "y": "$gaugeStarty-30",
+                                    "radius": "25",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "10",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$gaugecenterX",
+                                    "y": "$gaugeStarty-30",
+                                    "startangle": "0",
+                                    "endangle": "270"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "5",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$gaugecenterX+50",
+                                    "y": "$gaugeStarty-30",
+                                    "radius": "18"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$gaugeCenterX",
+                                    "y": "$gaugeCentery",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "$gaugeStartX",
+                                    "y": "$chartcenterx+10",
+                                    "tox": "$gaugeendX",
+                                    "toy": "$chartcenterx+10",
+                                    "thickness": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionWidgetsXT/bullet/ref-images/annotations-bullet_01-snapshot.png",
+        "id": "annotations-bullet_01"
+    },
+    "annotations-bullet_02": {
+        "description": "annotations",
+        "options": {
+            "type": "vbullet",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "lowerlimit": "0",
+                    "upperlimit": "100",
+                    "caption": "Revenue",
+                    "subcaption": "US $ (1,000s)",
+                    "numberprefix": "$",
+                    "numbersuffix": "K",
+                    "showvalue": "1",
+                    "chartbottommargin": "80",
+                    "chartleftmargin": "180",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "50",
+                            "color": "A6A6A6"
+                        },
+                        {
+                            "minvalue": "50",
+                            "maxvalue": "75",
+                            "color": "CCCCCC"
+                        },
+                        {
+                            "minvalue": "75",
+                            "maxvalue": "100",
+                            "color": "E1E1E1"
+                        }
+                    ]
+                },
+                "value": "78.9",
+                "target": "80",
+                "annotations": {
+                    "origw": "450",
+                    "origh": "300",
+                    "autoscale": "1",
+                    "showBelow": "0",
+                    "groups": [
+                        {
+                            "id": "arcs",
+                            "items": [
+                                {
+                                    "id": "store-cs-bg",
+                                    "type": "rectangle",
+                                    "x": "$chartCenterX-130",
+                                    "y": "$chartEndY - 60",
+                                    "tox": "$chartCenterX + 150",
+                                    "toy": "$chartEndY - 20",
+                                    "fillcolor": "#6A5ACD",
+                                    "showborder": "1",
+                                    "bordercolor": "#000000"
+                                },
+                                {
+                                    "id": "state-cs-text",
+                                    "type": "Text",
+                                    "color": "#ffffff",
+                                    "label": "An annotation for an vbullet",
+                                    "fontSize": "12",
+                                    "align": "center",
+                                    "x": "$chartCenterX + 10",
+                                    "y": "$chartEndY - 40"
+                                },
+                                {
+                                    "id": "state-cs-text",
+                                    "type": "Text",
+                                    "color": "#FF654F",
+                                    "label": "LOW",
+                                    "fontSize": "12",
+                                    "align": "center",
+                                    "x": "$gaugestartx-60",
+                                    "y": "$gaugeendy"
+                                },
+                                {
+                                    "id": "state-cs-text",
+                                    "type": "Text",
+                                    "color": "#8BBA00",
+                                    "label": "HIGH",
+                                    "fontSize": "12",
+                                    "align": "center",
+                                    "x": "$gaugestartx-60",
+                                    "y": "$gaugestarty"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                },
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartstartx",
+                                    "y": "$chartstarty",
+                                    "xScale": "100",
+                                    "yScale": "100"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$gaugeStartX-90",
+                                    "y": "$gaugeStarty+50",
+                                    "radius": "25",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "10",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$gaugeStartX-150",
+                                    "y": "$gaugeendy-70",
+                                    "startangle": "90",
+                                    "endangle": "270"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$gaugeCenterX",
+                                    "y": "$gaugeCentery",
+                                    "color": "#ffffff"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "$gaugeStartX",
+                                    "y": "$chartcenterx+20",
+                                    "tox": "$gaugeendX",
+                                    "toy": "$chartcenterx+20",
+                                    "thickness": "3",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "7",
+                                    "startangle": "270",
+                                    "fillColor": "#ff0000",
+                                    "x": "$chartstartx+40",
+                                    "y": "$chartendy-70",
+                                    "radius": "30"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionWidgetsXT/bullet/ref-images/annotations-bullet_02-snapshot.png",
+        "id": "annotations-bullet_02"
+    }
+}

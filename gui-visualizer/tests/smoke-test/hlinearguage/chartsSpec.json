@@ -1,0 +1,226 @@
+{
+    "test_1": {
+        "description": "Border, logo, bg, caption, subcaption, functional attributes,pointer related changes",
+        "options": {
+            "type": "HLinearGauge",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly Revenue sdnjsdkjsdn sdlksdlksd jdldslsdlkskdl kdksdksdk",
+                    "subcaption": "Current Year",
+                    "captionAlignment": "left",
+                    "captionOnTop": "1",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "subCaptionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "10",
+                    "showValue": "1",
+                    "valueAbovePointer": "1",
+                    "pointerOnTop": "1",
+                    "showShadow": "1",
+                    "placeValuesInside": "1",
+                    "showPrintMenuItem": "1",
+                    "showBorder": "1",
+                    "borderColor": "#00FF00",
+                    "borderAlpha": "85",
+                    "bgColor": "#999999,#ffffff",
+                    "bgAlpha": "100",
+                    "bgRatio": "10:90",
+                    "bgAngle": "90",
+                    "bgImage": "http://phoenixinsure.com/images/background/4.jpg",
+                    "bgImageAlpha": "50",
+                    "bgImageVAlign": "middle",
+                    "bgImageHAlign": "left",
+                    "bgImageScale": "22",
+                    "logoURL": "http://www.fusioncharts.com/theme/210x38xlogo.png.pagespeed.ic.KZD9tJ7qIK.png",
+                    "logoPosition": "TR",
+                    "logoAlpha": "50",
+                    "logoScale": "70",
+                    "logoLink": "http://fusioncharts.com",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "75",
+                            "code": "FF654F",
+                            "label": "Bad"
+                        },
+                        {
+                            "minvalue": "75",
+                            "maxvalue": "90",
+                            "code": "F6BD0F",
+                            "label": "Moderate"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "100",
+                            "code": "8BBA00",
+                            "label": "Good"
+                        }
+                    ]
+                },
+                "pointers": {
+                    "pointer": [
+                        {
+                            "value": "92",
+                            "bgAlpha": "100",
+                            "borderAlpha": "100",
+                            "borderColor": "#6699FF",
+                            "borderThickness": "2",
+                            "color": "#CC00FF",
+                            "editMode": "1",
+                            "id": "123",
+                            "link": "http://fusioncharts.com",
+                            "showValue": "1",
+                            "radius": "5",
+                            "sides": "4",
+                            "toolText": "This is pointer"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke-test/hlinearguage/ref-images/test_1_HLinearGauge-snapshot.png",
+        "id": "test_1"
+    },
+    "test_2": {
+        "description": "guage scale,tooltip,axis & ticks,trendpoint related tests.",
+        "options": {
+            "type": "HLinearGauge",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly Revenue sdnjsdkjsdn sdlksdlksd jdldslsdlkskdl kdksdksdk",
+                    "subcaption": "Current Year",
+                    "captionAlignment": "left",
+                    "captionOnTop": "0",
+                    "captionFontSize": "40",
+                    "subCaptionFontSize": "25",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "subCaptionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "10",
+                    "showValue": "1",
+                    "useColorNameAsValue": "0",
+                    "placeValuesInside": "1",
+                    "showPrintMenuItem": "1",
+                    "showBorder": "1",
+                    "borderColor": "#330000",
+                    "valueAbovePointer": "0",
+                    "pointerOnTop": "0",
+                    "showShadow": "1",
+                    "borderAlpha": "85",
+                    "bgColor": "#999999,#ffffff",
+                    "bgAlpha": "100",
+                    "bgRatio": "10:90",
+                    "bgAngle": "90",
+                    "upperLimit": "200",
+                    "lowerLimit": "10",
+                    "lowerLimitDisplay": "too high",
+                    "upperLimitDisplay": "",
+                    "showTickMarks": "1",
+                    "showTickValues": "1",
+                    "showLimits": "1",
+                    "adjustTM": "0",
+                    "ticksOnRight": "0",
+                    "majorTMNumber": "10",
+                    "majorTMColor": "#0066FF",
+                    "minorTMNumber": "5",
+                    "minorTMColor": "#990000",
+                    "tickValueStep": "5",
+                    "tickMarkDistance": "3",
+                    "majorTMHeight": "15",
+                    "minorTMHeight": "4",
+                    "showGaugeLabels": "1",
+                    "gaugeRoundRadius": "20",
+                    "gaugeFillRatio": "90:10",
+                    "showGaugeBorder": "1",
+                    "gaugeBorderColor": "#CC00FF",
+                    "gaugeBorderAlpha": "100",
+                    "toolTipBgColor": "99FF99",
+                    "toolTipColor": "#660033",
+                    "toolTipBorderColor": "#3399FF",
+                    "showToolTipShadow": "1",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "75",
+                            "code": "FF654F",
+                            "label": "Bad"
+                        },
+                        {
+                            "minvalue": "75",
+                            "maxvalue": "90",
+                            "code": "F6BD0F",
+                            "label": "Moderate"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "100",
+                            "code": "8BBA00",
+                            "label": "Good"
+                        }
+                    ]
+                },
+                "pointers": {
+                    "pointer": [
+                        {
+                            "value": "92",
+                            "bgAlpha": "100",
+                            "borderAlpha": "100",
+                            "borderColor": "#6699FF",
+                            "borderThickness": "2",
+                            "color": "#CC00FF",
+                            "editMode": "0",
+                            "id": "123",
+                            "link": "http://fusioncharts.com",
+                            "showValue": "1",
+                            "radius": "5",
+                            "sides": "6",
+                            "toolText": "This is pointer"
+                        }
+                    ]
+                },
+                "trendpoints": {
+                    "point": [
+                        {
+                            "startValue": "62",
+                            "endvalue": "",
+                            "displayValue": "Last Year",
+                            "color": "#0075c2",
+                            "dashed": "1",
+                            "markerBorderColor": "#333300",
+                            "markerColor": "FF0066",
+                            "markerRadius": "6",
+                            "markerTooltext": "new text",
+                            "showOnTop": "1",
+                            "useMarker": "1",
+                            "alpha": "100"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke-test/hlinearguage/ref-images/test_2_HLinearGauge-snapshot.png",
+        "id": "test_2"
+    }
+}

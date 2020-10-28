@@ -1,0 +1,116 @@
+{
+    "globals": {
+        "base_data_dir": "base",
+        "base_output_dir": "tests/legend",
+        "fc_ref_version": "3.4.1",
+        "fc_comp_version": "3.5.0-rc.1",
+        "japp_config_threshold": "0"
+    },
+    "setup": {
+        "single_series": {
+            "base_data": "baseData/single_series/data.json",
+            "chart_types": ["pie2d", "column3d", "column2d", "funnel"]
+        },
+        "multi_series": {
+            "base_data": "baseData/multi_series/data.json",
+            "chart_types": ["msspline", "mscolumn3d", "mscolumn2d", "msline", "msarea", "dragcolumn2d",
+                             "logmsline", "radar", "scrollcolumn2d", "realtimeline"]
+         },
+        "xy_plot_chart": {
+            "base_data": "baseData/xyz_plot_series/data.json",
+            "chart_types":["scatter", "bubble"]
+        },
+        "multi_series_dy":{
+            "base_data": "baseData/multi_series_dy/data.json",
+            "chart_types": ["mssplinedy"]
+        },
+        "stack_sries": {
+            "base_data": "baseData/stack_series/data.json",
+            "chart_types": ["stackedcolumn2d"]
+        },
+        "combi_sries": {
+            "base_data": "baseData/combi_series/data.json",
+            "chart_types": ["mscombi2d"]
+        },
+        "combi_series_dy": {
+            "base_data": "baseData/combi_series_dy/data.json",
+            "chart_types": ["mscombidy2d", "scrollcombidy2d"]
+        },
+        "multi_series_stack": {
+            "base_data": "baseData/multi_series_stack/data.json",
+            "chart_types": ["msstackedcolumn2d"]
+        },
+        "zoomline": {
+            "base_data": "baseData/zoomline/data.json",
+            "chart_types": ["zoomline"]
+        },
+        "heatmap": {
+            "base_data": "baseData/heatmap/data.json",
+            "chart_types": ["heatmap"]
+        },
+        "multi_axis_line": {
+            "base_data": "baseData/multi_axis_line/data.json",
+            "chart_types":["multiaxisline"]
+        },
+        "map": {
+            "base_data": "baseData/map/data.json",
+            "chart_types": ["usa"]
+        }
+    },
+    "attributes" : {
+        "position_mode": {
+            "names": ["legendPosition", "showLegend"],
+            "type": ["string", "boolean"],
+            "range": ["bottom-right", null]
+        },
+        "caption": {
+            "names": ["legendCaption"],
+            "type": ["string"],
+            "range": ["This is a legend caption"]
+        },
+        "iconScale": {
+            "names": ["legendIconScale"],
+            "type": ["number"],
+            "range": ["0-5"]
+        },
+        "bg": {
+            "names": ["legendBgColor", "legendBgAlpha"],
+            "type": ["color", "number"],
+            "range": [null, "0-100"]
+        },
+        "border": {
+            "names": ["legendBorderColor", "legendBorderThickness", "legendBorderAlpha"],
+            "type": ["color", "number", "number"],
+            "range": [null, "1-10", "0-100"]
+        },
+        "shadow": {
+            "names": ["legendShadow"],
+            "type": ["boolean"]
+        },
+        "scroll": {
+            "names": ["legendScrollBgColor", "legendScrollBtnColor", "legendScrollBarColor"],
+            "type": ["color", "color", "color"],
+            "data-url": "large-data.json"
+        },
+        "numColumns": {
+            "names": ["legendNumColumns"],
+            "type": ["number"],
+            "range": ["1-3"]
+        },
+        "minimiseWrappingInLegend": {
+            "names": ["minimiseWrappingInLegend"],
+            "type": ["boolean"]
+        }
+    },
+    "forced_attributes": {
+        "all": {
+            "animation": "0"
+        },
+        "pie2d": {
+            "showLegend": "1"
+        },
+        "funnel": {
+            "showLegend": "1"
+        }
+    }
+}

@@ -1,0 +1,2775 @@
+{
+    "annotations-single_series_01": {
+        "description": "annotations",
+        "options": {
+            "type": "column2d",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Revenue by store managers",
+                    "subCaption": "Last quarter",
+                    "xAxisName": "Managers",
+                    "yAxisName": "Revenue (In USD)",
+                    "numberPrefix": "$",
+                    "LabelPadding": "50",
+                    "yAxisMaxValue": "150000",
+                    "placevaluesinside": "1",
+                    "animation": "0"
+                },
+                "annotations": {
+                    "groups": [
+                        {
+                            "id": "user-images",
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                },
+                                {
+                                    "id": "jennifer-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-1.png",
+                                    "x": "$xaxis.label.0.x - 24",
+                                    "y": "$xaxis.label.0.y - 48",
+                                    "xScale": "100",
+                                    "yScale": "100"
+                                },
+                                {
+                                    "id": "tom-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-3.png",
+                                    "x": "$xaxis.label.1.x - 24",
+                                    "y": "$xaxis.label.1.y - 48",
+                                    "xScale": "80",
+                                    "yScale": "80"
+                                },
+                                {
+                                    "id": "Milton-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-4.png",
+                                    "x": "$xaxis.label.2.x - 24",
+                                    "y": "$xaxis.label.2.y - 48",
+                                    "xScale": "60",
+                                    "yScale": "60"
+                                },
+                                {
+                                    "id": "Brian-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-5.png",
+                                    "x": "$xaxis.label.3.x - 24",
+                                    "y": "$xaxis.label.3.y - 48",
+                                    "xScale": "40",
+                                    "yScale": "40"
+                                },
+                                {
+                                    "id": "Lynda-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-2.png",
+                                    "x": "$xaxis.label.4.x - 24",
+                                    "y": "$xaxis.label.4.y - 48",
+                                    "xScale": "20",
+                                    "yScale": "20"
+                                },
+                                {
+                                    "id": "CalloutBase",
+                                    "type": "rectangle",
+                                    "radius": "2",
+                                    "alpha": "90",
+                                    "fillColor": "#6baa01",
+                                    "x": "$dataset.0.set.3.x-110",
+                                    "y": "$dataset.0.set.3.starty-18",
+                                    "tox": "$dataset.0.set.3.x+110",
+                                    "toy": "$dataset.0.set.3.starty-40"
+                                },
+                                {
+                                    "id": "CalloutTriangle",
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "startangle": "270",
+                                    "alpha": "90",
+                                    "fillColor": "#6baa01",
+                                    "x": "$dataset.0.set.3.x",
+                                    "y": "$dataset.0.set.3.starty-12",
+                                    "radius": "12"
+                                },
+                                {
+                                    "id": "CalloutLabel",
+                                    "type": "Text",
+                                    "fontSize": "12",
+                                    "bold": "1",
+                                    "fillcolor": "#ffffff",
+                                    "text": "Highest Revenue - $100K",
+                                    "x": "$dataset.0.set.3.x",
+                                    "y": "$dataset.0.set.3.starty - 30"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "data": [
+                    {
+                        "label": "Jennifer",
+                        "value": "92000"
+                    },
+                    {
+                        "label": "Tom",
+                        "value": "87000"
+                    },
+                    {
+                        "label": "Milton",
+                        "value": "83000"
+                    },
+                    {
+                        "label": "Brian",
+                        "value": "100000"
+                    },
+                    {
+                        "label": "Lynda",
+                        "value": "58000"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionChartsXT/single_series/ref-images/annotations-single_series_01-snapshot.png",
+        "id": "annotations-single_series_01"
+    },
+    "annotations-single_series_02": {
+        "description": "annotations",
+        "options": {
+            "type": "column2d",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales figures for top 4 chocolate brands - FY2013-2014",
+                    "subCaption": "Harry's SuperMart",
+                    "yAxisName": "Amount (In USD)",
+                    "yAxisMaxValue": "120000",
+                    "chartBottomMargin": "70",
+                    "PlotfillAlpha": "0",
+                    "showValues": "0",
+                    "animation": "0"
+                },
+                "annotations": {
+                    "width": "500",
+                    "height": "300",
+                    "autoScale": "1",
+                    "groups": [
+                        {
+                            "id": "user-images",
+                            "xScale_": "20",
+                            "yScale_": "20",
+                            "items": [
+                                {
+                                    "id": "butterFinger-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/butterFinger.png",
+                                    "x": "$xaxis.label.0.x - 30",
+                                    "y": "$canvasEndY - 150",
+                                    "xScale": "50",
+                                    "yScale": "40",
+                                    "alpha": "100"
+                                },
+                                {
+                                    "id": "Snickers-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/snickrs.png",
+                                    "x": "$xaxis.label.1.x - 26",
+                                    "y": "$canvasEndY - 141",
+                                    "xScale": "48",
+                                    "yScale": "38",
+                                    "alpha": "80"
+                                },
+                                {
+                                    "id": "CoffeeCrisp-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/coffee_crisp.png",
+                                    "x": "$xaxis.label.2.x - 22",
+                                    "y": "$canvasEndY - 134",
+                                    "xScale": "43",
+                                    "yScale": "36",
+                                    "alpha": "60"
+                                },
+                                {
+                                    "id": "100Grand-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/100grand.png",
+                                    "x": "$xaxis.label.3.x - 22",
+                                    "y": "$canvasEndY - 131",
+                                    "xScale": "43",
+                                    "yScale": "35",
+                                    "alpha": "40"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "user-images",
+                            "items": [
+                                {
+                                    "id": "dyn-label-bg",
+                                    "type": "rectangle",
+                                    "showBorder": "1",
+                                    "borderColor": "12345d",
+                                    "fillcolor": "ffffff",
+                                    "x": "$canvasstartx",
+                                    "y": "$canvasEndY+45",
+                                    "tox": "$canvasEndX",
+                                    "toy": "$canvasEndY + 80"
+                                },
+                                {
+                                    "id": "dyn-label",
+                                    "type": "text",
+                                    "fillcolor": "#000000",
+                                    "fontsize": "11",
+                                    "text": "Promotional activities for Butterfinger made it surpass Snickers, the highest selling brand for 3 years",
+                                    "bold": "1",
+                                    "wrap": "1",
+                                    "wrapWidth": "350",
+                                    "x": "$chartcenterx",
+                                    "y": "$canvasEndY + 60"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$dataset.0.set.0.x",
+                                    "y": "$canvasstarty+20",
+                                    "radius": "12",
+                                    "color": "#6baa01",
+                                    "border": "2",
+                                    "borderColor": "#f8bd19"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "10",
+                                    "color": "#8CBB2C",
+                                    "alpha": "90",
+                                    "x": "$dataset.0.set.1.x",
+                                    "y": "$canvasstarty+30",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "$dataset.0.set.2.x-20",
+                                    "y": "$dataset.0.set.2.y-90",
+                                    "tox": "$dataset.0.set.2.x+20",
+                                    "toy": "$dataset.0.set.2.y-90",
+                                    "thickness": "4"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "5",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$dataset.0.set.3.x",
+                                    "y": "$canvasstarty+20",
+                                    "radius": "18"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$chartcenterx",
+                                    "y": "$chartcentery",
+                                    "color": "#660000"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "data": [
+                    {
+                        "label": "Butterfinger",
+                        "value": "92000"
+                    },
+                    {
+                        "label": "Snickers",
+                        "value": "87000"
+                    },
+                    {
+                        "label": "Coffee Crisp",
+                        "value": "83000"
+                    },
+                    {
+                        "label": "100 Grand",
+                        "value": "80000"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionChartsXT/single_series/ref-images/annotations-single_series_02-snapshot.png",
+        "id": "annotations-single_series_02"
+    },
+    "annotations-single_series_03": {
+        "description": "annotations",
+        "options": {
+            "type": "column3d",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Revenue by store managers",
+                    "subCaption": "Last quarter",
+                    "xAxisName": "Managers",
+                    "yAxisName": "Revenue (In USD)",
+                    "numberPrefix": "$",
+                    "LabelPadding": "50",
+                    "yAxisMaxValue": "150000",
+                    "placevaluesinside": "1",
+                    "animation": "0"
+                },
+                "annotations": {
+                    "groups": [
+                        {
+                            "id": "user-images",
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                },
+                                {
+                                    "id": "jennifer-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-1.png",
+                                    "x": "$xaxis.label.0.x - 24",
+                                    "y": "$xaxis.label.0.y - 48",
+                                    "xScale": "100",
+                                    "yScale": "100"
+                                },
+                                {
+                                    "id": "tom-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-3.png",
+                                    "x": "$xaxis.label.1.x - 24",
+                                    "y": "$xaxis.label.1.y - 48",
+                                    "xScale": "80",
+                                    "yScale": "80"
+                                },
+                                {
+                                    "id": "Milton-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-4.png",
+                                    "x": "$xaxis.label.2.x - 24",
+                                    "y": "$xaxis.label.2.y - 48",
+                                    "xScale": "60",
+                                    "yScale": "60"
+                                },
+                                {
+                                    "id": "Brian-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-5.png",
+                                    "x": "$xaxis.label.3.x - 24",
+                                    "y": "$xaxis.label.3.y - 48",
+                                    "xScale": "40",
+                                    "yScale": "40"
+                                },
+                                {
+                                    "id": "Lynda-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-2.png",
+                                    "x": "$xaxis.label.4.x - 24",
+                                    "y": "$xaxis.label.4.y - 48",
+                                    "xScale": "20",
+                                    "yScale": "20"
+                                },
+                                {
+                                    "id": "CalloutBase",
+                                    "type": "rectangle",
+                                    "radius": "2",
+                                    "alpha": "90",
+                                    "fillColor": "#6baa01",
+                                    "x": "$dataset.0.set.3.x-110",
+                                    "y": "$dataset.0.set.3.starty-18",
+                                    "tox": "$dataset.0.set.3.x+110",
+                                    "toy": "$dataset.0.set.3.starty-40"
+                                },
+                                {
+                                    "id": "CalloutTriangle",
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "startangle": "270",
+                                    "alpha": "90",
+                                    "fillColor": "#6baa01",
+                                    "x": "$dataset.0.set.3.x",
+                                    "y": "$dataset.0.set.3.starty-12",
+                                    "radius": "12"
+                                },
+                                {
+                                    "id": "CalloutLabel",
+                                    "type": "Text",
+                                    "fontSize": "12",
+                                    "bold": "1",
+                                    "fillcolor": "#ffffff",
+                                    "text": "Highest Revenue - $100K",
+                                    "x": "$dataset.0.set.3.x",
+                                    "y": "$dataset.0.set.3.starty - 30"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "data": [
+                    {
+                        "label": "Jennifer",
+                        "value": "92000"
+                    },
+                    {
+                        "label": "Tom",
+                        "value": "87000"
+                    },
+                    {
+                        "label": "Milton",
+                        "value": "83000"
+                    },
+                    {
+                        "label": "Brian",
+                        "value": "100000"
+                    },
+                    {
+                        "label": "Lynda",
+                        "value": "58000"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionChartsXT/single_series/ref-images/annotations-single_series_03-snapshot.png",
+        "id": "annotations-single_series_03"
+    },
+    "annotations-single_series_04": {
+        "description": "annotations",
+        "options": {
+            "type": "column3d",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales figures for top 4 chocolate brands - FY2013-2014",
+                    "subCaption": "Harry's SuperMart",
+                    "yAxisName": "Amount (In USD)",
+                    "yAxisMaxValue": "120000",
+                    "chartBottomMargin": "70",
+                    "PlotfillAlpha": "0",
+                    "showValues": "0",
+                    "animation": "0"
+                },
+                "annotations": {
+                    "width": "500",
+                    "height": "300",
+                    "autoScale": "1",
+                    "groups": [
+                        {
+                            "id": "user-images",
+                            "xScale_": "20",
+                            "yScale_": "20",
+                            "items": [
+                                {
+                                    "id": "butterFinger-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/butterFinger.png",
+                                    "x": "$xaxis.label.0.x - 30",
+                                    "y": "$canvasEndY - 150",
+                                    "xScale": "50",
+                                    "yScale": "40",
+                                    "alpha": "100"
+                                },
+                                {
+                                    "id": "Snickers-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/snickrs.png",
+                                    "x": "$xaxis.label.1.x - 26",
+                                    "y": "$canvasEndY - 141",
+                                    "xScale": "48",
+                                    "yScale": "38",
+                                    "alpha": "80"
+                                },
+                                {
+                                    "id": "CoffeeCrisp-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/coffee_crisp.png",
+                                    "x": "$xaxis.label.2.x - 22",
+                                    "y": "$canvasEndY - 134",
+                                    "xScale": "43",
+                                    "yScale": "36",
+                                    "alpha": "60"
+                                },
+                                {
+                                    "id": "100Grand-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/100grand.png",
+                                    "x": "$xaxis.label.3.x - 22",
+                                    "y": "$canvasEndY - 131",
+                                    "xScale": "43",
+                                    "yScale": "35",
+                                    "alpha": "40"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "user-images",
+                            "items": [
+                                {
+                                    "id": "dyn-label-bg",
+                                    "type": "rectangle",
+                                    "showBorder": "1",
+                                    "borderColor": "12345d",
+                                    "fillcolor": "ffffff",
+                                    "x": "$canvasstartx",
+                                    "y": "$canvasEndY+45",
+                                    "tox": "$canvasEndX",
+                                    "toy": "$canvasEndY + 80"
+                                },
+                                {
+                                    "id": "dyn-label",
+                                    "type": "text",
+                                    "fillcolor": "#000000",
+                                    "fontsize": "11",
+                                    "text": "Promotional activities for Butterfinger made it surpass Snickers, the highest selling brand for 3 years",
+                                    "bold": "1",
+                                    "wrap": "1",
+                                    "wrapWidth": "350",
+                                    "x": "$chartcenterx",
+                                    "y": "$canvasEndY + 60"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$dataset.0.set.0.x",
+                                    "y": "$canvasstarty+20",
+                                    "radius": "12",
+                                    "color": "#6baa01",
+                                    "border": "2",
+                                    "borderColor": "#f8bd19"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "10",
+                                    "color": "#8CBB2C",
+                                    "alpha": "90",
+                                    "x": "$dataset.0.set.1.x",
+                                    "y": "$canvasstarty+30",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "$dataset.0.set.2.x-20",
+                                    "y": "$dataset.0.set.2.y-90",
+                                    "tox": "$dataset.0.set.2.x+20",
+                                    "toy": "$dataset.0.set.2.y-90",
+                                    "thickness": "4"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "5",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$dataset.0.set.3.x",
+                                    "y": "$canvasstarty+20",
+                                    "radius": "18"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$chartcenterx",
+                                    "y": "$chartcentery",
+                                    "color": "#660000"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "data": [
+                    {
+                        "label": "Butterfinger",
+                        "value": "92000"
+                    },
+                    {
+                        "label": "Snickers",
+                        "value": "87000"
+                    },
+                    {
+                        "label": "Coffee Crisp",
+                        "value": "83000"
+                    },
+                    {
+                        "label": "100 Grand",
+                        "value": "80000"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionChartsXT/single_series/ref-images/annotations-single_series_04-snapshot.png",
+        "id": "annotations-single_series_04"
+    },
+    "annotations-single_series_05": {
+        "description": "annotations",
+        "options": {
+            "type": "line",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Total footfall in Bakersfield Central",
+                    "subCaption": "Last week",
+                    "xAxisName": "Day",
+                    "yAxisName": "No. of Visitors",
+                    "animation": "0"
+                },
+                "annotations": {
+                    "origw": "400",
+                    "origh": "300",
+                    "autoscale": "1",
+                    "groups": [
+                        {
+                            "items": [
+                                {
+                                    "id": "zone",
+                                    "type": "rectangle",
+                                    "x": "$xaxis.label.5.x",
+                                    "y": "$canvasEndY",
+                                    "tox": "$xaxis.label.6.x",
+                                    "toy": "$canvasStartY",
+                                    "color": "#6baa01",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "label",
+                                    "type": "text",
+                                    "text": "Weekend",
+                                    "color": "#000000",
+                                    "fontSize": "12",
+                                    "bold": "1",
+                                    "rotateText": "1",
+                                    "x": "$xaxis.label.6.x - 10",
+                                    "y": "$canvasEndY - 35"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "infobar",
+                            "items": [
+                                {
+                                    "id": "high-star",
+                                    "type": "circle",
+                                    "x": "$dataset.0.set.3.x",
+                                    "y": "$dataset.0.set.3.y",
+                                    "radius": "12",
+                                    "color": "#6baa01",
+                                    "border": "2",
+                                    "borderColor": "#f8bd19"
+                                },
+                                {
+                                    "id": "label",
+                                    "type": "text",
+                                    "text": "Lowest",
+                                    "fillcolor": "#6baa01",
+                                    "rotate": "90",
+                                    "x": "$dataset.0.set.3.x+10",
+                                    "y": "$dataset.0.set.3.y+20"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$dataset.0.set.0.x",
+                                    "y": "$canvasstarty+20",
+                                    "radius": "12",
+                                    "color": "#0000ff",
+                                    "border": "2",
+                                    "borderColor": "#f8bd19"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "10",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$dataset.0.set.1.x",
+                                    "y": "$canvasstarty+30",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "$dataset.0.set.2.x-20",
+                                    "y": "$dataset.0.set.2.y-30",
+                                    "tox": "$dataset.0.set.2.x+20",
+                                    "toy": "$dataset.0.set.2.y-30",
+                                    "thickness": "4"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "5",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$dataset.0.set.3.x",
+                                    "y": "$canvasstarty+20",
+                                    "radius": "18"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$chartcenterx",
+                                    "y": "$chartcentery",
+                                    "color": "#660000"
+                                },
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartstartx",
+                                    "y": "$chartstarty",
+                                    "xScale": "80",
+                                    "yScale": "80"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "data": [
+                    {
+                        "label": "Mon",
+                        "value": "15123"
+                    },
+                    {
+                        "label": "Tue",
+                        "value": "14233"
+                    },
+                    {
+                        "label": "Wed",
+                        "value": "23507"
+                    },
+                    {
+                        "label": "Thu",
+                        "value": "9110"
+                    },
+                    {
+                        "label": "Fri",
+                        "value": "15529"
+                    },
+                    {
+                        "label": "Sat",
+                        "value": "20803"
+                    },
+                    {
+                        "label": "Sun",
+                        "value": "19202"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionChartsXT/single_series/ref-images/annotations-single_series_05-snapshot.png",
+        "id": "annotations-single_series_05"
+    },
+    "annotations-single_series_06": {
+        "description": "annotations",
+        "options": {
+            "type": "line",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Revenue by store managers",
+                    "subCaption": "Last quarter",
+                    "xAxisName": "Managers",
+                    "yAxisName": "Revenue (In USD)",
+                    "numberPrefix": "$",
+                    "LabelPadding": "50",
+                    "animation": "0"
+                },
+                "annotations": {
+                    "groups": [
+                        {
+                            "id": "user-images",
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                },
+                                {
+                                    "id": "jennifer-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-1.png",
+                                    "x": "$xaxis.label.0.x - 24",
+                                    "y": "$xaxis.label.0.y - 48",
+                                    "xScale": "100",
+                                    "yScale": "100"
+                                },
+                                {
+                                    "id": "tom-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-3.png",
+                                    "x": "$xaxis.label.1.x - 24",
+                                    "y": "$xaxis.label.1.y - 48",
+                                    "xScale": "80",
+                                    "yScale": "80"
+                                },
+                                {
+                                    "id": "Milton-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-4.png",
+                                    "x": "$xaxis.label.2.x - 24",
+                                    "y": "$xaxis.label.2.y - 48",
+                                    "xScale": "60",
+                                    "yScale": "60"
+                                },
+                                {
+                                    "id": "Brian-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-5.png",
+                                    "x": "$xaxis.label.3.x - 24",
+                                    "y": "$xaxis.label.3.y - 48",
+                                    "xScale": "40",
+                                    "yScale": "40"
+                                },
+                                {
+                                    "id": "Lynda-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-2.png",
+                                    "x": "$xaxis.label.4.x - 24",
+                                    "y": "$xaxis.label.4.y - 48",
+                                    "xScale": "20",
+                                    "yScale": "20"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "infobar",
+                            "items": [
+                                {
+                                    "id": "high-line",
+                                    "type": "line",
+                                    "x": "$canvasStartX",
+                                    "y": "$dataset.0.set.0.y",
+                                    "tox": "$canvasEndX",
+                                    "toy": "$dataset.0.set.0.y",
+                                    "color": "#6baa01",
+                                    "dashed": "1",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "id": "label",
+                                    "type": "text",
+                                    "text": "Highest",
+                                    "fillcolor": "#6baa01",
+                                    "rotate": "90",
+                                    "x": "$canvasEndX - 60",
+                                    "y": "$dataset.0.set.0.y - 10"
+                                },
+                                {
+                                    "id": "low-line",
+                                    "type": "line",
+                                    "x": "$canvasStartX",
+                                    "y": "$dataset.0.set.4.y",
+                                    "tox": "$canvasEndX",
+                                    "toy": "$dataset.0.set.4.y",
+                                    "color": "#d35400",
+                                    "dashed": "1",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "id": "label",
+                                    "type": "text",
+                                    "text": "Lowest",
+                                    "fillcolor": "#d35400",
+                                    "rotate": "90",
+                                    "x": "$canvasStartX",
+                                    "y": "$dataset.0.set.4.y-10",
+                                    "align": "Left"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "data": [
+                    {
+                        "label": "Jennifer",
+                        "value": "92000"
+                    },
+                    {
+                        "label": "Tom",
+                        "value": "87000"
+                    },
+                    {
+                        "label": "Milton",
+                        "value": "83000"
+                    },
+                    {
+                        "label": "Brian",
+                        "value": "66000"
+                    },
+                    {
+                        "label": "Lynda",
+                        "value": "58000"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionChartsXT/single_series/ref-images/annotations-single_series_06-snapshot.png",
+        "id": "annotations-single_series_06"
+    },
+    "annotations-single_series_07": {
+        "description": "annotations",
+        "options": {
+            "type": "area2d",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Total footfall in Bakersfield Central",
+                    "subCaption": "Last week",
+                    "xAxisName": "Day",
+                    "yAxisName": "No. of Visitors",
+                    "animation": "0"
+                },
+                "annotations": {
+                    "origw": "400",
+                    "origh": "300",
+                    "autoscale": "1",
+                    "showbelow": "0",
+                    "groups": [
+                        {
+                            "items": [
+                                {
+                                    "id": "zone",
+                                    "type": "rectangle",
+                                    "x": "$xaxis.label.5.x",
+                                    "y": "$canvasEndY",
+                                    "tox": "$xaxis.label.6.x",
+                                    "toy": "$canvasStartY",
+                                    "color": "#6baa01",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "label",
+                                    "type": "text",
+                                    "text": "Weekend",
+                                    "color": "#000000",
+                                    "fontSize": "12",
+                                    "bold": "1",
+                                    "rotateText": "1",
+                                    "x": "$xaxis.label.6.x - 10",
+                                    "y": "$canvasEndY - 35"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "infobar",
+                            "items": [
+                                {
+                                    "id": "high-star",
+                                    "type": "circle",
+                                    "x": "$dataset.0.set.3.x",
+                                    "y": "$dataset.0.set.3.y",
+                                    "radius": "12",
+                                    "color": "#6baa01",
+                                    "border": "2",
+                                    "borderColor": "#f8bd19"
+                                },
+                                {
+                                    "id": "label",
+                                    "type": "text",
+                                    "text": "Lowest",
+                                    "fillcolor": "#6baa01",
+                                    "rotate": "90",
+                                    "x": "$dataset.0.set.3.x+10",
+                                    "y": "$dataset.0.set.3.y+20"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$dataset.0.set.0.x",
+                                    "y": "$canvasstarty+20",
+                                    "radius": "12",
+                                    "color": "#0000ff",
+                                    "border": "2",
+                                    "borderColor": "#f8bd19"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "10",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$dataset.0.set.1.x",
+                                    "y": "$canvasstarty+30",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "$dataset.0.set.2.x-20",
+                                    "y": "$dataset.0.set.2.y-30",
+                                    "tox": "$dataset.0.set.2.x+20",
+                                    "toy": "$dataset.0.set.2.y-30",
+                                    "thickness": "4"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "5",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$dataset.0.set.3.x",
+                                    "y": "$canvasstarty+20",
+                                    "radius": "18"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$chartcenterx",
+                                    "y": "$chartcentery",
+                                    "color": "#660000"
+                                },
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartstartx",
+                                    "y": "$chartstarty",
+                                    "xScale": "80",
+                                    "yScale": "80"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "data": [
+                    {
+                        "label": "Mon",
+                        "value": "15123"
+                    },
+                    {
+                        "label": "Tue",
+                        "value": "14233"
+                    },
+                    {
+                        "label": "Wed",
+                        "value": "23507"
+                    },
+                    {
+                        "label": "Thu",
+                        "value": "9110"
+                    },
+                    {
+                        "label": "Fri",
+                        "value": "15529"
+                    },
+                    {
+                        "label": "Sat",
+                        "value": "20803"
+                    },
+                    {
+                        "label": "Sun",
+                        "value": "19202"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionChartsXT/single_series/ref-images/annotations-single_series_07-snapshot.png",
+        "id": "annotations-single_series_07"
+    },
+    "annotations-single_series_08": {
+        "description": "annotations",
+        "options": {
+            "type": "area2d",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Revenue by store managers",
+                    "subCaption": "Last quarter",
+                    "xAxisName": "Managers",
+                    "yAxisName": "Revenue (In USD)",
+                    "numberPrefix": "$",
+                    "LabelPadding": "50",
+                    "animation": "0"
+                },
+                "annotations": {
+                    "groups": [
+                        {
+                            "id": "user-images",
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                },
+                                {
+                                    "id": "jennifer-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-1.png",
+                                    "x": "$xaxis.label.0.x - 24",
+                                    "y": "$xaxis.label.0.y - 48",
+                                    "xScale": "100",
+                                    "yScale": "100"
+                                },
+                                {
+                                    "id": "tom-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-3.png",
+                                    "x": "$xaxis.label.1.x - 24",
+                                    "y": "$xaxis.label.1.y - 48",
+                                    "xScale": "80",
+                                    "yScale": "80"
+                                },
+                                {
+                                    "id": "Milton-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-4.png",
+                                    "x": "$xaxis.label.2.x - 24",
+                                    "y": "$xaxis.label.2.y - 48",
+                                    "xScale": "60",
+                                    "yScale": "60"
+                                },
+                                {
+                                    "id": "Brian-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-5.png",
+                                    "x": "$xaxis.label.3.x - 24",
+                                    "y": "$xaxis.label.3.y - 48",
+                                    "xScale": "40",
+                                    "yScale": "40"
+                                },
+                                {
+                                    "id": "Lynda-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-2.png",
+                                    "x": "$xaxis.label.4.x - 24",
+                                    "y": "$xaxis.label.4.y - 48",
+                                    "xScale": "20",
+                                    "yScale": "20"
+                                }
+                            ]
+                        },
+                        {
+                            "items": [
+                                {
+                                    "id": "high-line",
+                                    "type": "line",
+                                    "x": "$canvasStartX",
+                                    "y": "$dataset.0.set.0.y",
+                                    "tox": "$canvasEndX",
+                                    "toy": "$dataset.0.set.0.y",
+                                    "color": "#6baa01",
+                                    "dashed": "1",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "id": "label",
+                                    "type": "text",
+                                    "text": "Highest Revenue 92K",
+                                    "fillcolor": "#6baa01",
+                                    "rotate": "90",
+                                    "x": "$canvasEndX - 100",
+                                    "y": "$dataset.0.set.0.y + 10"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "data": [
+                    {
+                        "label": "Jennifer",
+                        "value": "92000"
+                    },
+                    {
+                        "label": "Tom",
+                        "value": "87000"
+                    },
+                    {
+                        "label": "Milton",
+                        "value": "83000"
+                    },
+                    {
+                        "label": "Brian",
+                        "value": "66000"
+                    },
+                    {
+                        "label": "Lynda",
+                        "value": "58000"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionChartsXT/single_series/ref-images/annotations-single_series_08-snapshot.png",
+        "id": "annotations-single_series_08"
+    },
+    "annotations-single_series_09": {
+        "description": "annotations",
+        "options": {
+            "type": "bar2d",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Revenue by store managers",
+                    "subCaption": "Last quarter",
+                    "xAxisName": "Managers",
+                    "yAxisName": "Revenue (In USD)",
+                    "numberPrefix": "$",
+                    "LabelPadding": "50",
+                    "animation": "0",
+                    "canvasbottommargin": "90"
+                },
+                "annotations": {
+                    "showbelow": "0",
+                    "groups": [
+                        {
+                            "id": "user-images",
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                },
+                                {
+                                    "id": "jennifer-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-1.png",
+                                    "x": "$xaxis.label.0.x+15",
+                                    "y": "$xaxis.label.0.y-25",
+                                    "xScale": "100",
+                                    "yScale": "100"
+                                },
+                                {
+                                    "id": "tom-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-3.png",
+                                    "x": "$xaxis.label.1.x+15",
+                                    "y": "$xaxis.label.1.y-25",
+                                    "xScale": "80",
+                                    "yScale": "80"
+                                },
+                                {
+                                    "id": "Milton-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-4.png",
+                                    "x": "$xaxis.label.2.x+15",
+                                    "y": "$xaxis.label.2.y-25",
+                                    "xScale": "60",
+                                    "yScale": "60"
+                                },
+                                {
+                                    "id": "Brian-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-5.png",
+                                    "x": "$xaxis.label.3.x+15",
+                                    "y": "$xaxis.label.3.y - 25",
+                                    "xScale": "40",
+                                    "yScale": "40"
+                                },
+                                {
+                                    "id": "Lynda-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-2.png",
+                                    "x": "$xaxis.label.4.x+15",
+                                    "y": "$xaxis.label.4.y - 25",
+                                    "xScale": "20",
+                                    "yScale": "20"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$dataset.0.set.0.x",
+                                    "y": "$dataset.0.set.0.y",
+                                    "radius": "12",
+                                    "color": "#0000ff",
+                                    "border": "2",
+                                    "borderColor": "#f8bd19"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "10",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$dataset.0.set.1.x",
+                                    "y": "$dataset.0.set.1.y",
+                                    "startangle": "0",
+                                    "endangle": "360"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "$dataset.0.set.4.x-20",
+                                    "y": "$dataset.0.set.4.y",
+                                    "tox": "$dataset.0.set.4.x+20",
+                                    "toy": "$dataset.0.set.4.y",
+                                    "thickness": "4"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "5",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$dataset.0.set.3.x-20",
+                                    "y": "$dataset.0.set.3.y",
+                                    "radius": "18"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$chartcenterx",
+                                    "y": "$chartcentery",
+                                    "color": "#660000"
+                                },
+                                {
+                                    "id": "dyn-label-bg",
+                                    "type": "rectangle",
+                                    "showBorder": "1",
+                                    "borderColor": "12345d",
+                                    "fillcolor": "ffffff",
+                                    "x": "$canvasstartx",
+                                    "y": "$canvasEndY+45",
+                                    "tox": "$canvasEndX-60",
+                                    "toy": "$canvasEndY + 80"
+                                },
+                                {
+                                    "id": "dyn-label",
+                                    "type": "text",
+                                    "fillcolor": "#000000",
+                                    "fontsize": "11",
+                                    "text": "Bar Chart",
+                                    "bold": "1",
+                                    "wrap": "1",
+                                    "wrapWidth": "350",
+                                    "x": "$chartcenterx",
+                                    "y": "$canvasEndY + 60"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "data": [
+                    {
+                        "label": "Jennifer",
+                        "value": "92000"
+                    },
+                    {
+                        "label": "Tom",
+                        "value": "87000"
+                    },
+                    {
+                        "label": "Milton",
+                        "value": "83000"
+                    },
+                    {
+                        "label": "Brian",
+                        "value": "66000"
+                    },
+                    {
+                        "label": "Lynda",
+                        "value": "58000"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionChartsXT/single_series/ref-images/annotations-single_series_09-snapshot.png",
+        "id": "annotations-single_series_09"
+    },
+    "annotations-single_series_10": {
+        "description": "annotations",
+        "options": {
+            "type": "bar3d",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Revenue by store managers",
+                    "subCaption": "Last quarter",
+                    "xAxisName": "Managers",
+                    "yAxisName": "Revenue (In USD)",
+                    "numberPrefix": "$",
+                    "LabelPadding": "50",
+                    "animation": "0",
+                    "canvasbottommargin": "90"
+                },
+                "annotations": {
+                    "showbelow": "0",
+                    "groups": [
+                        {
+                            "id": "user-images",
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                },
+                                {
+                                    "id": "jennifer-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-1.png",
+                                    "x": "$xaxis.label.0.x+15",
+                                    "y": "$xaxis.label.0.y-25",
+                                    "xScale": "100",
+                                    "yScale": "100"
+                                },
+                                {
+                                    "id": "tom-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-3.png",
+                                    "x": "$xaxis.label.1.x+15",
+                                    "y": "$xaxis.label.1.y-25",
+                                    "xScale": "80",
+                                    "yScale": "80"
+                                },
+                                {
+                                    "id": "Milton-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-4.png",
+                                    "x": "$xaxis.label.2.x+15",
+                                    "y": "$xaxis.label.2.y-25",
+                                    "xScale": "60",
+                                    "yScale": "60"
+                                },
+                                {
+                                    "id": "Brian-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-5.png",
+                                    "x": "$xaxis.label.3.x+15",
+                                    "y": "$xaxis.label.3.y - 25",
+                                    "xScale": "40",
+                                    "yScale": "40"
+                                },
+                                {
+                                    "id": "Lynda-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-2.png",
+                                    "x": "$xaxis.label.4.x+15",
+                                    "y": "$xaxis.label.4.y - 25",
+                                    "xScale": "20",
+                                    "yScale": "20"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$dataset.0.set.0.x",
+                                    "y": "$dataset.0.set.0.y",
+                                    "radius": "12",
+                                    "color": "#0000ff",
+                                    "border": "2",
+                                    "borderColor": "#f8bd19"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "10",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$dataset.0.set.1.x",
+                                    "y": "$dataset.0.set.1.y",
+                                    "startangle": "0",
+                                    "endangle": "360"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "$dataset.0.set.4.x-20",
+                                    "y": "$dataset.0.set.4.y",
+                                    "tox": "$dataset.0.set.4.x+20",
+                                    "toy": "$dataset.0.set.4.y",
+                                    "thickness": "4"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "5",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$dataset.0.set.3.x-20",
+                                    "y": "$dataset.0.set.3.y",
+                                    "radius": "18"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$chartcenterx",
+                                    "y": "$chartcentery",
+                                    "color": "#660000"
+                                },
+                                {
+                                    "id": "dyn-label-bg",
+                                    "type": "rectangle",
+                                    "showBorder": "1",
+                                    "borderColor": "12345d",
+                                    "fillcolor": "ffffff",
+                                    "x": "$canvasstartx",
+                                    "y": "$canvasEndY+45",
+                                    "tox": "$canvasEndX-60",
+                                    "toy": "$canvasEndY + 80"
+                                },
+                                {
+                                    "id": "dyn-label",
+                                    "type": "text",
+                                    "fillcolor": "#000000",
+                                    "fontsize": "11",
+                                    "text": "Bar Chart",
+                                    "bold": "1",
+                                    "wrap": "1",
+                                    "wrapWidth": "350",
+                                    "x": "$chartcenterx",
+                                    "y": "$canvasEndY + 60"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "data": [
+                    {
+                        "label": "Jennifer",
+                        "value": "92000"
+                    },
+                    {
+                        "label": "Tom",
+                        "value": "87000"
+                    },
+                    {
+                        "label": "Milton",
+                        "value": "83000"
+                    },
+                    {
+                        "label": "Brian",
+                        "value": "66000"
+                    },
+                    {
+                        "label": "Lynda",
+                        "value": "58000"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionChartsXT/single_series/ref-images/annotations-single_series_10-snapshot.png",
+        "id": "annotations-single_series_10"
+    },
+    "annotations-single_series_11": {
+        "description": "annotations",
+        "options": {
+            "type": "pie2d",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Customer Satisfaction Score",
+                    "subcaption": "Last week",
+                    "animation": "0",
+                    "chartbottommargin": "90",
+                    "showlegend": "1",
+                    "legendposition": "right"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ],
+                "annotations": {
+                    "showbelow": "1",
+                    "groups": [
+                        {
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                },
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartstartx",
+                                    "y": "$chartstarty",
+                                    "xScale": "100",
+                                    "yScale": "100"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "showBorder": "1",
+                                    "borderColor": "12345d",
+                                    "fillcolor": "ffffff",
+                                    "x": "$canvasstartx",
+                                    "y": "$canvasEndY+45",
+                                    "tox": "$canvasEndX",
+                                    "toy": "$canvasEndY + 80"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "showBorder": "1",
+                                    "borderColor": "12345d",
+                                    "fillcolor": "ffffff",
+                                    "x": "$legendstartx-20",
+                                    "y": "$legendstarty-20",
+                                    "tox": "$legendEndX+10",
+                                    "toy": "$legendEndy+10"
+                                },
+                                {
+                                    "type": "text",
+                                    "fillcolor": "#000000",
+                                    "fontsize": "11",
+                                    "text": "Pie Chart with annotations",
+                                    "bold": "1",
+                                    "wrap": "1",
+                                    "wrapWidth": "350",
+                                    "x": "$chartcenterx",
+                                    "y": "$canvasEndY + 60"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$chartcenterx",
+                                    "y": "$chartcenterx+30",
+                                    "radius": "15",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "80",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "60",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$chartcenterx-50",
+                                    "y": "$chartcenterx-90",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "$chartstartx",
+                                    "y": "$chartcenterx-90",
+                                    "tox": "$chartendx",
+                                    "toy": "$chartcenterx-90",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "7",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$chartcenterx+60",
+                                    "y": "$chartcenterx+30",
+                                    "radius": "18"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$chartcenterx-60",
+                                    "y": "$chartcenterx+30",
+                                    "color": "#660000"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionChartsXT/single_series/ref-images/annotations-single_series_11-snapshot.png",
+        "id": "annotations-single_series_11"
+    },
+    "annotations-single_series_12": {
+        "description": "annotations",
+        "options": {
+            "type": "pie3d",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Customer Satisfaction Score",
+                    "subcaption": "Last week",
+                    "animation": "0",
+                    "chartbottommargin": "90",
+                    "showlegend": "1",
+                    "legendposition": "right"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ],
+                "annotations": {
+                    "showbelow": "1",
+                    "groups": [
+                        {
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                },
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartstartx",
+                                    "y": "$chartstarty",
+                                    "xScale": "100",
+                                    "yScale": "100"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "showBorder": "1",
+                                    "borderColor": "12345d",
+                                    "fillcolor": "ffffff",
+                                    "x": "$canvasstartx",
+                                    "y": "$canvasEndY+45",
+                                    "tox": "$canvasEndX",
+                                    "toy": "$canvasEndY + 80"
+                                },
+                                {
+                                    "type": "text",
+                                    "fillcolor": "#000000",
+                                    "fontsize": "11",
+                                    "text": "Pie Chart with annotations",
+                                    "bold": "1",
+                                    "wrap": "1",
+                                    "wrapWidth": "350",
+                                    "x": "$chartcenterx",
+                                    "y": "$canvasEndY + 60"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$chartcenterx",
+                                    "y": "$chartcenterx+30",
+                                    "radius": "15",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "40",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "30",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$chartcenterx",
+                                    "y": "$chartcenterx+40",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "$chartstartx",
+                                    "y": "$chartcenterx-90",
+                                    "tox": "$chartendx",
+                                    "toy": "$chartcenterx-90",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "7",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$chartcenterx+60",
+                                    "y": "$chartcenterx+30",
+                                    "radius": "18"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$chartcenterx-60",
+                                    "y": "$chartcenterx+30",
+                                    "color": "#660000"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "showBorder": "1",
+                                    "borderColor": "12345d",
+                                    "fillcolor": "ffffff",
+                                    "x": "$legendstartx-20",
+                                    "y": "$legendstarty-20",
+                                    "tox": "$legendEndX+10",
+                                    "toy": "$legendEndy+10"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionChartsXT/single_series/ref-images/annotations-single_series_12-snapshot.png",
+        "id": "annotations-single_series_12"
+    },
+    "annotations-single_series_13": {
+        "description": "annotations",
+        "options": {
+            "type": "doughnut2d",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Customer Satisfaction Score",
+                    "subcaption": "Last week",
+                    "animation": "0",
+                    "chartbottommargin": "90",
+                    "showlegend": "1",
+                    "legendposition": "right"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ],
+                "annotations": {
+                    "showbelow": "1",
+                    "groups": [
+                        {
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                },
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartstartx",
+                                    "y": "$chartstarty",
+                                    "xScale": "100",
+                                    "yScale": "100"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "showBorder": "1",
+                                    "borderColor": "12345d",
+                                    "fillcolor": "ffffff",
+                                    "x": "$canvasstartx",
+                                    "y": "$canvasEndY+45",
+                                    "tox": "$canvasEndX",
+                                    "toy": "$canvasEndY + 80"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "showBorder": "1",
+                                    "borderColor": "12345d",
+                                    "fillcolor": "ffffff",
+                                    "x": "$legendstartx-20",
+                                    "y": "$legendstarty-20",
+                                    "tox": "$legendEndX+10",
+                                    "toy": "$legendEndy+10"
+                                },
+                                {
+                                    "type": "text",
+                                    "fillcolor": "#000000",
+                                    "fontsize": "11",
+                                    "text": "doughnut2d Chart with annotations",
+                                    "bold": "1",
+                                    "wrap": "1",
+                                    "wrapWidth": "350",
+                                    "x": "$chartcenterx",
+                                    "y": "$canvasEndY + 60"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$chartcenterx",
+                                    "y": "$chartcenterx+30",
+                                    "radius": "15",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "80",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "60",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$chartcenterx-50",
+                                    "y": "$chartcenterx-90",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "$chartstartx",
+                                    "y": "$chartcenterx-90",
+                                    "tox": "$chartendx",
+                                    "toy": "$chartcenterx-90",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "7",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$chartcenterx+60",
+                                    "y": "$chartcenterx+30",
+                                    "radius": "18"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$chartcenterx-60",
+                                    "y": "$chartcenterx+30",
+                                    "color": "#660000"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionChartsXT/single_series/ref-images/annotations-single_series_13-snapshot.png",
+        "id": "annotations-single_series_13"
+    },
+    "annotations-single_series_14": {
+        "description": "annotations",
+        "options": {
+            "type": "doughnut3d",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Customer Satisfaction Score",
+                    "subcaption": "Last week",
+                    "animation": "0",
+                    "chartbottommargin": "90",
+                    "showlegend": "1",
+                    "legendposition": "right"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ],
+                "annotations": {
+                    "showbelow": "1",
+                    "groups": [
+                        {
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                },
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartstartx",
+                                    "y": "$chartstarty",
+                                    "xScale": "100",
+                                    "yScale": "100"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "showBorder": "1",
+                                    "borderColor": "12345d",
+                                    "fillcolor": "ffffff",
+                                    "x": "$canvasstartx",
+                                    "y": "$canvasEndY+45",
+                                    "tox": "$canvasEndX",
+                                    "toy": "$canvasEndY + 80"
+                                },
+                                {
+                                    "type": "text",
+                                    "fillcolor": "#000000",
+                                    "fontsize": "11",
+                                    "text": "doughnut3d Chart with annotations",
+                                    "bold": "1",
+                                    "wrap": "1",
+                                    "wrapWidth": "350",
+                                    "x": "$chartcenterx",
+                                    "y": "$canvasEndY + 60"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$chartcenterx",
+                                    "y": "$chartcenterx+30",
+                                    "radius": "15",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "40",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "30",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$chartcenterx",
+                                    "y": "$chartcenterx+40",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "$chartstartx",
+                                    "y": "$chartcenterx-90",
+                                    "tox": "$chartendx",
+                                    "toy": "$chartcenterx-90",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "7",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$chartcenterx+60",
+                                    "y": "$chartcenterx+30",
+                                    "radius": "18"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$chartcenterx-60",
+                                    "y": "$chartcenterx+30",
+                                    "color": "#660000"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "showBorder": "1",
+                                    "borderColor": "12345d",
+                                    "fillcolor": "ffffff",
+                                    "x": "$legendstartx-20",
+                                    "y": "$legendstarty-20",
+                                    "tox": "$legendEndX+10",
+                                    "toy": "$legendEndy+10"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionChartsXT/single_series/ref-images/annotations-single_series_14-snapshot.png",
+        "id": "annotations-single_series_14"
+    },
+    "annotations-single_series_15": {
+        "description": "annotations",
+        "options": {
+            "type": "pareto2d",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Revenue by store managers",
+                    "subCaption": "Last quarter",
+                    "xAxisName": "Managers",
+                    "yAxisName": "Revenue (In USD)",
+                    "numberPrefix": "$",
+                    "LabelPadding": "50",
+                    "animation": "0"
+                },
+                "annotations": {
+                    "groups": [
+                        {
+                            "id": "user-images",
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                },
+                                {
+                                    "id": "jennifer-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-1.png",
+                                    "x": "$xaxis.label.0.x - 24",
+                                    "y": "$xaxis.label.0.y - 48",
+                                    "xScale": "100",
+                                    "yScale": "100"
+                                },
+                                {
+                                    "id": "tom-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-3.png",
+                                    "x": "$xaxis.label.1.x - 24",
+                                    "y": "$xaxis.label.1.y - 48",
+                                    "xScale": "80",
+                                    "yScale": "80"
+                                },
+                                {
+                                    "id": "Milton-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-4.png",
+                                    "x": "$xaxis.label.2.x - 24",
+                                    "y": "$xaxis.label.2.y - 48",
+                                    "xScale": "60",
+                                    "yScale": "60"
+                                },
+                                {
+                                    "id": "Brian-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-5.png",
+                                    "x": "$xaxis.label.3.x - 24",
+                                    "y": "$xaxis.label.3.y - 48",
+                                    "xScale": "40",
+                                    "yScale": "40"
+                                },
+                                {
+                                    "id": "Lynda-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-2.png",
+                                    "x": "$xaxis.label.4.x - 24",
+                                    "y": "$xaxis.label.4.y - 48",
+                                    "xScale": "20",
+                                    "yScale": "20"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "data": [
+                    {
+                        "label": "Jennifer",
+                        "value": "92000"
+                    },
+                    {
+                        "label": "Tom",
+                        "value": "87000"
+                    },
+                    {
+                        "label": "Milton",
+                        "value": "83000"
+                    },
+                    {
+                        "label": "Brian",
+                        "value": "66000"
+                    },
+                    {
+                        "label": "Lynda",
+                        "value": "58000"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionChartsXT/single_series/ref-images/annotations-single_series_15-snapshot.png",
+        "id": "annotations-single_series_15"
+    },
+    "annotations-single_series_16": {
+        "description": "annotations",
+        "options": {
+            "type": "pareto2d",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales figures for top 4 chocolate brands - FY2013-2014",
+                    "subCaption": "Harry's SuperMart",
+                    "yAxisName": "Amount (In USD)",
+                    "yAxisMaxValue": "120000",
+                    "chartBottomMargin": "70",
+                    "PlotfillAlpha": "0",
+                    "showValues": "0",
+                    "animation": "0"
+                },
+                "annotations": {
+                    "width": "500",
+                    "height": "300",
+                    "autoScale": "1",
+                    "groups": [
+                        {
+                            "id": "user-images",
+                            "xScale_": "20",
+                            "yScale_": "20",
+                            "items": [
+                                {
+                                    "id": "butterFinger-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/butterFinger.png",
+                                    "x": "$xaxis.label.0.x - 30",
+                                    "y": "$canvasEndY - 150",
+                                    "xScale": "50",
+                                    "yScale": "40",
+                                    "alpha": "100"
+                                },
+                                {
+                                    "id": "Snickers-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/snickrs.png",
+                                    "x": "$xaxis.label.1.x - 26",
+                                    "y": "$canvasEndY - 141",
+                                    "xScale": "48",
+                                    "yScale": "38",
+                                    "alpha": "80"
+                                },
+                                {
+                                    "id": "CoffeeCrisp-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/coffee_crisp.png",
+                                    "x": "$xaxis.label.2.x - 22",
+                                    "y": "$canvasEndY - 134",
+                                    "xScale": "43",
+                                    "yScale": "36",
+                                    "alpha": "60"
+                                },
+                                {
+                                    "id": "100Grand-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/100grand.png",
+                                    "x": "$xaxis.label.3.x - 22",
+                                    "y": "$canvasEndY - 131",
+                                    "xScale": "43",
+                                    "yScale": "35",
+                                    "alpha": "40"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "user-images",
+                            "items": [
+                                {
+                                    "id": "dyn-label-bg",
+                                    "type": "rectangle",
+                                    "showBorder": "1",
+                                    "borderColor": "12345d",
+                                    "fillcolor": "ffffff",
+                                    "x": "$canvasstartx",
+                                    "y": "$canvasEndY+45",
+                                    "tox": "$canvasEndX",
+                                    "toy": "$canvasEndY + 80"
+                                },
+                                {
+                                    "id": "dyn-label",
+                                    "type": "text",
+                                    "fillcolor": "#000000",
+                                    "fontsize": "11",
+                                    "text": "Promotional activities for Butterfinger made it surpass Snickers, the highest selling brand for 3 years",
+                                    "bold": "1",
+                                    "wrap": "1",
+                                    "wrapWidth": "350",
+                                    "x": "$chartcenterx",
+                                    "y": "$canvasEndY + 60"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$dataset.0.set.0.x",
+                                    "y": "$canvasstarty+20",
+                                    "radius": "12",
+                                    "color": "#6baa01",
+                                    "border": "2",
+                                    "borderColor": "#f8bd19"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "10",
+                                    "color": "#8CBB2C",
+                                    "alpha": "90",
+                                    "x": "$dataset.0.set.1.x",
+                                    "y": "$canvasstarty+30",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "$dataset.0.set.2.x-20",
+                                    "y": "$dataset.0.set.2.y-90",
+                                    "tox": "$dataset.0.set.2.x+20",
+                                    "toy": "$dataset.0.set.2.y-90",
+                                    "thickness": "4"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "5",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$dataset.0.set.3.x",
+                                    "y": "$canvasstarty+20",
+                                    "radius": "18"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$chartcenterx",
+                                    "y": "$chartcentery",
+                                    "color": "#660000"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "data": [
+                    {
+                        "label": "Butterfinger",
+                        "value": "92000"
+                    },
+                    {
+                        "label": "Snickers",
+                        "value": "87000"
+                    },
+                    {
+                        "label": "Coffee Crisp",
+                        "value": "83000"
+                    },
+                    {
+                        "label": "100 Grand",
+                        "value": "80000"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionChartsXT/single_series/ref-images/annotations-single_series_16-snapshot.png",
+        "id": "annotations-single_series_16"
+    },
+    "annotations-single_series_17": {
+        "description": "annotations",
+        "options": {
+            "type": "pareto3d",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Revenue by store managers",
+                    "subCaption": "Last quarter",
+                    "xAxisName": "Managers",
+                    "yAxisName": "Revenue (In USD)",
+                    "numberPrefix": "$",
+                    "LabelPadding": "50",
+                    "animation": "0"
+                },
+                "annotations": {
+                    "groups": [
+                        {
+                            "id": "user-images",
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                },
+                                {
+                                    "id": "jennifer-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-1.png",
+                                    "x": "$xaxis.label.0.x - 24",
+                                    "y": "$xaxis.label.0.y - 48",
+                                    "xScale": "100",
+                                    "yScale": "100"
+                                },
+                                {
+                                    "id": "tom-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-3.png",
+                                    "x": "$xaxis.label.1.x - 24",
+                                    "y": "$xaxis.label.1.y - 48",
+                                    "xScale": "80",
+                                    "yScale": "80"
+                                },
+                                {
+                                    "id": "Milton-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-4.png",
+                                    "x": "$xaxis.label.2.x - 24",
+                                    "y": "$xaxis.label.2.y - 48",
+                                    "xScale": "60",
+                                    "yScale": "60"
+                                },
+                                {
+                                    "id": "Brian-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-5.png",
+                                    "x": "$xaxis.label.3.x - 24",
+                                    "y": "$xaxis.label.3.y - 48",
+                                    "xScale": "40",
+                                    "yScale": "40"
+                                },
+                                {
+                                    "id": "Lynda-user-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/round-2.png",
+                                    "x": "$xaxis.label.4.x - 24",
+                                    "y": "$xaxis.label.4.y - 48",
+                                    "xScale": "20",
+                                    "yScale": "20"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "data": [
+                    {
+                        "label": "Jennifer",
+                        "value": "92000"
+                    },
+                    {
+                        "label": "Tom",
+                        "value": "87000"
+                    },
+                    {
+                        "label": "Milton",
+                        "value": "83000"
+                    },
+                    {
+                        "label": "Brian",
+                        "value": "66000"
+                    },
+                    {
+                        "label": "Lynda",
+                        "value": "58000"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionChartsXT/single_series/ref-images/annotations-single_series_17-snapshot.png",
+        "id": "annotations-single_series_17"
+    },
+    "annotations-single_series_18": {
+        "description": "annotations",
+        "options": {
+            "type": "pareto3d",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales figures for top 4 chocolate brands - FY2013-2014",
+                    "subCaption": "Harry's SuperMart",
+                    "yAxisName": "Amount (In USD)",
+                    "yAxisMaxValue": "120000",
+                    "chartBottomMargin": "70",
+                    "PlotfillAlpha": "0",
+                    "showValues": "0",
+                    "animation": "0"
+                },
+                "annotations": {
+                    "width": "500",
+                    "height": "300",
+                    "autoScale": "1",
+                    "groups": [
+                        {
+                            "id": "user-images",
+                            "xScale_": "20",
+                            "yScale_": "20",
+                            "items": [
+                                {
+                                    "id": "butterFinger-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/butterFinger.png",
+                                    "x": "$xaxis.label.0.x - 30",
+                                    "y": "$canvasEndY - 150",
+                                    "xScale": "50",
+                                    "yScale": "40",
+                                    "alpha": "100"
+                                },
+                                {
+                                    "id": "Snickers-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/snickrs.png",
+                                    "x": "$xaxis.label.1.x - 26",
+                                    "y": "$canvasEndY - 141",
+                                    "xScale": "48",
+                                    "yScale": "38",
+                                    "alpha": "80"
+                                },
+                                {
+                                    "id": "CoffeeCrisp-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/coffee_crisp.png",
+                                    "x": "$xaxis.label.2.x - 22",
+                                    "y": "$canvasEndY - 134",
+                                    "xScale": "43",
+                                    "yScale": "36",
+                                    "alpha": "60"
+                                },
+                                {
+                                    "id": "100Grand-icon",
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/100grand.png",
+                                    "x": "$xaxis.label.3.x - 22",
+                                    "y": "$canvasEndY - 131",
+                                    "xScale": "43",
+                                    "yScale": "35",
+                                    "alpha": "40"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "user-images",
+                            "items": [
+                                {
+                                    "id": "dyn-label-bg",
+                                    "type": "rectangle",
+                                    "showBorder": "1",
+                                    "borderColor": "12345d",
+                                    "fillcolor": "ffffff",
+                                    "x": "$canvasstartx",
+                                    "y": "$canvasEndY+45",
+                                    "tox": "$canvasEndX",
+                                    "toy": "$canvasEndY + 80"
+                                },
+                                {
+                                    "id": "dyn-label",
+                                    "type": "text",
+                                    "fillcolor": "#000000",
+                                    "fontsize": "11",
+                                    "text": "Promotional activities for Butterfinger made it surpass Snickers, the highest selling brand for 3 years",
+                                    "bold": "1",
+                                    "wrap": "1",
+                                    "wrapWidth": "350",
+                                    "x": "$chartcenterx",
+                                    "y": "$canvasEndY + 60"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$dataset.0.set.0.x",
+                                    "y": "$canvasstarty+10",
+                                    "radius": "9",
+                                    "color": "#6baa01",
+                                    "border": "2",
+                                    "borderColor": "#f8bd19"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "10",
+                                    "color": "#8CBB2C",
+                                    "alpha": "90",
+                                    "x": "$dataset.0.set.1.x",
+                                    "y": "$canvasstarty+30",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "$dataset.0.set.2.x-20",
+                                    "y": "$dataset.0.set.2.y-90",
+                                    "tox": "$dataset.0.set.2.x+20",
+                                    "toy": "$dataset.0.set.2.y-90",
+                                    "thickness": "4"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "5",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$dataset.0.set.3.x",
+                                    "y": "$canvasstarty+20",
+                                    "radius": "18"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$chartcenterx",
+                                    "y": "$chartcentery",
+                                    "color": "#660000"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "data": [
+                    {
+                        "label": "Butterfinger",
+                        "value": "92000"
+                    },
+                    {
+                        "label": "Snickers",
+                        "value": "87000"
+                    },
+                    {
+                        "label": "Coffee Crisp",
+                        "value": "83000"
+                    },
+                    {
+                        "label": "100 Grand",
+                        "value": "80000"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionChartsXT/single_series/ref-images/annotations-single_series_18-snapshot.png",
+        "id": "annotations-single_series_18"
+    }
+}

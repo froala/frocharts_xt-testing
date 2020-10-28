@@ -1,0 +1,2757 @@
+{
+    "annotations-combination_01": {
+        "description": "annotations",
+        "options": {
+            "type": "combination",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results",
+                    "subcaption": "2005 v 2006",
+                    "yaxisname": "Revenue",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "animation": "0",
+                    "charttopmargin": "40"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "renderas": "Area",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2004",
+                        "renderas": "Line",
+                        "data": [
+                            {
+                                "value": "7000"
+                            },
+                            {
+                                "value": "10500"
+                            },
+                            {
+                                "value": "9500"
+                            },
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "9000"
+                            },
+                            {
+                                "value": "8800"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "15700"
+                            },
+                            {
+                                "value": "16700"
+                            },
+                            {
+                                "value": "14900"
+                            },
+                            {
+                                "value": "12900"
+                            },
+                            {
+                                "value": "8800"
+                            }
+                        ]
+                    }
+                ],
+                "annotations": {
+                    "origw": "400",
+                    "origh": "300",
+                    "autoscale": "1",
+                    "showbelow": "0",
+                    "groups": [
+                        {
+                            "items": [
+                                {
+                                    "id": "high-line",
+                                    "type": "line",
+                                    "x": "$canvasStartX",
+                                    "y": "$dataset.0.set.7.y",
+                                    "tox": "$canvasEndX",
+                                    "toy": "$dataset.0.set.7.y",
+                                    "color": "#ff0000",
+                                    "dashed": "1",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "id": "label",
+                                    "type": "text",
+                                    "text": "Target",
+                                    "fillcolor": "#ff0000",
+                                    "rotate": "90",
+                                    "x": "$canvasEndX - 60",
+                                    "y": "$dataset.0.set.7.y - 10"
+                                }
+                            ]
+                        },
+                        {
+                            "items": [
+                                {
+                                    "id": "high-labels-zone",
+                                    "type": "rectangle",
+                                    "x": "$yaxis.0.label.5.startx + 5",
+                                    "y": "$yaxis.0.label.5.starty",
+                                    "tox": "$yaxis.0.label.3.endx",
+                                    "toy": "$yaxis.0.label.3.starty",
+                                    "color": "#6baa01",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "high-label",
+                                    "type": "text",
+                                    "text": "High",
+                                    "x": "$yaxis.0.label.4.startx - 5",
+                                    "y": "$yaxis.0.label.4.starty",
+                                    "rotateText": "1",
+                                    "color": "#6baa01"
+                                },
+                                {
+                                    "id": "moderate-labels-zone",
+                                    "type": "rectangle",
+                                    "x": "$yaxis.0.label.3.startx + 5",
+                                    "y": "$yaxis.0.label.3.starty",
+                                    "tox": "$yaxis.0.label.2.endx",
+                                    "toy": "$yaxis.0.label.1.starty",
+                                    "color": "#f8bd19",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "moderate-label",
+                                    "type": "text",
+                                    "text": "Moderate",
+                                    "x": "$yaxis.0.label.2.startx - 5",
+                                    "y": "$yaxis.0.label.2.starty",
+                                    "rotateText": "1",
+                                    "color": "#f8bd19"
+                                },
+                                {
+                                    "id": "low-labels-zone",
+                                    "type": "rectangle",
+                                    "x": "$yaxis.0.label.1.startx - 3",
+                                    "y": "$yaxis.0.label.1.starty",
+                                    "tox": "$yaxis.0.label.0.endx",
+                                    "toy": "$yaxis.0.label.0.endy",
+                                    "color": "#e44a00",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "low-label",
+                                    "type": "text",
+                                    "text": "Low",
+                                    "x": "$yaxis.0.label.1.startx - 12",
+                                    "y": "$yaxis.0.label.0.starty - 5",
+                                    "rotateText": "1",
+                                    "color": "#e44a00"
+                                }
+                            ]
+                        },
+                        {
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartstartx",
+                                    "y": "$chartstarty",
+                                    "xScale": "100",
+                                    "yScale": "100"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$chartstartx+20",
+                                    "y": "$chartendy-20",
+                                    "radius": "15",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "5",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$chartstartx+80",
+                                    "y": "$chartendy-20",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$canvasstartx+20",
+                                    "y": "$canvasstarty+20",
+                                    "color": "#660000"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "5",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$legendendx+40",
+                                    "y": "$legendendy-10",
+                                    "radius": "18"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionChartsXT/combination/ref-images/annotations-combination_01-snapshot.png",
+        "id": "annotations-combination_01"
+    },
+    "annotations-combination_02": {
+        "description": "annotations",
+        "options": {
+            "type": "mscombi3d",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results",
+                    "subcaption": "2005 v 2006",
+                    "yaxisname": "Revenue",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "animation": "0",
+                    "charttopmargin": "40"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "renderas": "Area",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2004",
+                        "renderas": "Line",
+                        "data": [
+                            {
+                                "value": "7000"
+                            },
+                            {
+                                "value": "10500"
+                            },
+                            {
+                                "value": "9500"
+                            },
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "9000"
+                            },
+                            {
+                                "value": "8800"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "15700"
+                            },
+                            {
+                                "value": "16700"
+                            },
+                            {
+                                "value": "14900"
+                            },
+                            {
+                                "value": "12900"
+                            },
+                            {
+                                "value": "8800"
+                            }
+                        ]
+                    }
+                ],
+                "annotations": {
+                    "origw": "400",
+                    "origh": "300",
+                    "autoscale": "1",
+                    "showbelow": "0",
+                    "groups": [
+                        {
+                            "items": [
+                                {
+                                    "id": "high-line",
+                                    "type": "line",
+                                    "x": "$canvasStartX",
+                                    "y": "$dataset.0.set.7.y",
+                                    "tox": "$canvasEndX",
+                                    "toy": "$dataset.0.set.7.y",
+                                    "color": "#ff0000",
+                                    "dashed": "1",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "id": "label",
+                                    "type": "text",
+                                    "text": "Target",
+                                    "fillcolor": "#ff0000",
+                                    "rotate": "90",
+                                    "x": "$canvasEndX - 60",
+                                    "y": "$dataset.0.set.7.y - 10"
+                                }
+                            ]
+                        },
+                        {
+                            "items": [
+                                {
+                                    "id": "high-labels-zone",
+                                    "type": "rectangle",
+                                    "x": "$yaxis.0.label.5.startx + 5",
+                                    "y": "$yaxis.0.label.5.starty",
+                                    "tox": "$yaxis.0.label.3.endx",
+                                    "toy": "$yaxis.0.label.3.starty",
+                                    "color": "#6baa01",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "high-label",
+                                    "type": "text",
+                                    "text": "High",
+                                    "x": "$yaxis.0.label.4.startx - 5",
+                                    "y": "$yaxis.0.label.4.starty",
+                                    "rotateText": "1",
+                                    "color": "#6baa01"
+                                },
+                                {
+                                    "id": "moderate-labels-zone",
+                                    "type": "rectangle",
+                                    "x": "$yaxis.0.label.3.startx + 5",
+                                    "y": "$yaxis.0.label.3.starty",
+                                    "tox": "$yaxis.0.label.2.endx",
+                                    "toy": "$yaxis.0.label.1.starty",
+                                    "color": "#f8bd19",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "moderate-label",
+                                    "type": "text",
+                                    "text": "Moderate",
+                                    "x": "$yaxis.0.label.2.startx - 5",
+                                    "y": "$yaxis.0.label.2.starty",
+                                    "rotateText": "1",
+                                    "color": "#f8bd19"
+                                },
+                                {
+                                    "id": "low-labels-zone",
+                                    "type": "rectangle",
+                                    "x": "$yaxis.0.label.1.startx - 3",
+                                    "y": "$yaxis.0.label.1.starty",
+                                    "tox": "$yaxis.0.label.0.endx",
+                                    "toy": "$yaxis.0.label.0.endy",
+                                    "color": "#e44a00",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "low-label",
+                                    "type": "text",
+                                    "text": "Low",
+                                    "x": "$yaxis.0.label.1.startx - 12",
+                                    "y": "$yaxis.0.label.0.starty - 5",
+                                    "rotateText": "1",
+                                    "color": "#e44a00"
+                                }
+                            ]
+                        },
+                        {
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartstartx",
+                                    "y": "$chartstarty",
+                                    "xScale": "100",
+                                    "yScale": "100"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$chartstartx+20",
+                                    "y": "$chartendy-20",
+                                    "radius": "15",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "5",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$chartstartx+80",
+                                    "y": "$chartendy-20",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$canvasstartx+20",
+                                    "y": "$canvasstarty+20",
+                                    "color": "#660000"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "5",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$legendendx+40",
+                                    "y": "$legendendy-10",
+                                    "radius": "18"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionChartsXT/combination/ref-images/annotations-combination_02-snapshot.png",
+        "id": "annotations-combination_02"
+    },
+    "annotations-combination_03": {
+        "description": "annotations",
+        "options": {
+            "type": "mscolumnline3d",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "subcaption": "2005 v 2006",
+                    "yaxisname": "Revenue",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "animation": "0",
+                    "charttopmargin": "40"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "renderas": "Line",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ],
+                "annotations": {
+                    "origw": "400",
+                    "origh": "300",
+                    "autoscale": "1",
+                    "showbelow": "0",
+                    "groups": [
+                        {
+                            "items": [
+                                {
+                                    "id": "high-line",
+                                    "type": "line",
+                                    "x": "$canvasStartX",
+                                    "y": "$dataset.0.set.7.y",
+                                    "tox": "$canvasEndX",
+                                    "toy": "$dataset.0.set.7.y",
+                                    "color": "#ff0000",
+                                    "dashed": "1",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "id": "label",
+                                    "type": "text",
+                                    "text": "Target",
+                                    "fillcolor": "#ff0000",
+                                    "rotate": "90",
+                                    "x": "$canvasEndX - 60",
+                                    "y": "$dataset.0.set.7.y - 10"
+                                }
+                            ]
+                        },
+                        {
+                            "items": [
+                                {
+                                    "id": "high-labels-zone",
+                                    "type": "rectangle",
+                                    "x": "$yaxis.0.label.5.startx + 5",
+                                    "y": "$yaxis.0.label.5.starty",
+                                    "tox": "$yaxis.0.label.3.endx",
+                                    "toy": "$yaxis.0.label.3.starty",
+                                    "color": "#6baa01",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "high-label",
+                                    "type": "text",
+                                    "text": "High",
+                                    "x": "$yaxis.0.label.4.startx - 5",
+                                    "y": "$yaxis.0.label.4.starty",
+                                    "rotateText": "1",
+                                    "color": "#6baa01"
+                                },
+                                {
+                                    "id": "moderate-labels-zone",
+                                    "type": "rectangle",
+                                    "x": "$yaxis.0.label.3.startx + 5",
+                                    "y": "$yaxis.0.label.3.starty",
+                                    "tox": "$yaxis.0.label.2.endx",
+                                    "toy": "$yaxis.0.label.1.starty",
+                                    "color": "#f8bd19",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "moderate-label",
+                                    "type": "text",
+                                    "text": "Moderate",
+                                    "x": "$yaxis.0.label.2.startx - 5",
+                                    "y": "$yaxis.0.label.2.starty",
+                                    "rotateText": "1",
+                                    "color": "#f8bd19"
+                                },
+                                {
+                                    "id": "low-labels-zone",
+                                    "type": "rectangle",
+                                    "x": "$yaxis.0.label.1.startx - 3",
+                                    "y": "$yaxis.0.label.1.starty",
+                                    "tox": "$yaxis.0.label.0.endx",
+                                    "toy": "$yaxis.0.label.0.endy",
+                                    "color": "#e44a00",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "low-label",
+                                    "type": "text",
+                                    "text": "Low",
+                                    "x": "$yaxis.0.label.1.startx - 12",
+                                    "y": "$yaxis.0.label.0.starty - 5",
+                                    "rotateText": "1",
+                                    "color": "#e44a00"
+                                }
+                            ]
+                        },
+                        {
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartstartx",
+                                    "y": "$chartstarty",
+                                    "xScale": "100",
+                                    "yScale": "100"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$chartstartx+20",
+                                    "y": "$chartendy-20",
+                                    "radius": "15",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "5",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$chartstartx+80",
+                                    "y": "$chartendy-20",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$canvasstartx+20",
+                                    "y": "$canvasstarty+20",
+                                    "color": "#660000"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "5",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$legendendx+40",
+                                    "y": "$legendendy-10",
+                                    "radius": "18"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionChartsXT/combination/ref-images/annotations-combination_03-snapshot.png",
+        "id": "annotations-combination_03"
+    },
+    "annotations-combination_04": {
+        "description": "annotations",
+        "options": {
+            "type": "stackedcolumn2dline",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales Chart",
+                    "subcaption": "2005 v 2006",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "yaxisname": "Sales",
+                    "animation": "0",
+                    "charttopmargin": "40"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "2001"
+                            },
+                            {
+                                "label": "2002"
+                            },
+                            {
+                                "label": "2003"
+                            },
+                            {
+                                "label": "2004"
+                            },
+                            {
+                                "label": "2005"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Product A",
+                        "data": [
+                            {
+                                "value": "25601"
+                            },
+                            {
+                                "value": "20148"
+                            },
+                            {
+                                "value": "17372"
+                            },
+                            {
+                                "value": "35407"
+                            },
+                            {
+                                "value": "38105"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Product B",
+                        "data": [
+                            {
+                                "value": "57401"
+                            },
+                            {
+                                "value": "41941"
+                            },
+                            {
+                                "value": "45263"
+                            },
+                            {
+                                "value": "117320"
+                            },
+                            {
+                                "value": "114845"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Quantity",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": "45000"
+                            },
+                            {
+                                "value": "44803"
+                            },
+                            {
+                                "value": "42830"
+                            },
+                            {
+                                "value": "77550"
+                            },
+                            {
+                                "value": "92630"
+                            }
+                        ]
+                    }
+                ],
+                "annotations": {
+                    "origw": "400",
+                    "origh": "300",
+                    "autoscale": "1",
+                    "showbelow": "0",
+                    "groups": [
+                        {
+                            "items": [
+                                {
+                                    "id": "high-line",
+                                    "type": "line",
+                                    "x": "$canvasStartX",
+                                    "y": "$dataset.1.set.4.y",
+                                    "tox": "$canvasEndX",
+                                    "toy": "$dataset.1.set.4.y",
+                                    "color": "#ff0000",
+                                    "dashed": "1",
+                                    "thickness": "2"
+                                },
+                                {
+                                    "id": "label",
+                                    "type": "text",
+                                    "text": "Target",
+                                    "fillcolor": "#ff0000",
+                                    "rotate": "90",
+                                    "x": "$canvasEndX - 60",
+                                    "y": "$dataset.1.set.4.y - 10"
+                                }
+                            ]
+                        },
+                        {
+                            "items": [
+                                {
+                                    "id": "high-labels-zone",
+                                    "type": "rectangle",
+                                    "x": "$yaxis.0.label.5.startx + 5",
+                                    "y": "$yaxis.0.label.5.starty",
+                                    "tox": "$yaxis.0.label.3.endx",
+                                    "toy": "$yaxis.0.label.3.starty",
+                                    "color": "#6baa01",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "high-label",
+                                    "type": "text",
+                                    "text": "High",
+                                    "x": "$yaxis.0.label.4.startx - 5",
+                                    "y": "$yaxis.0.label.4.starty",
+                                    "rotateText": "1",
+                                    "color": "#6baa01"
+                                },
+                                {
+                                    "id": "moderate-labels-zone",
+                                    "type": "rectangle",
+                                    "x": "$yaxis.0.label.3.startx + 5",
+                                    "y": "$yaxis.0.label.3.starty",
+                                    "tox": "$yaxis.0.label.2.endx",
+                                    "toy": "$yaxis.0.label.1.starty",
+                                    "color": "#f8bd19",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "moderate-label",
+                                    "type": "text",
+                                    "text": "Moderate",
+                                    "x": "$yaxis.0.label.2.startx - 5",
+                                    "y": "$yaxis.0.label.2.starty",
+                                    "rotateText": "1",
+                                    "color": "#f8bd19"
+                                },
+                                {
+                                    "id": "low-labels-zone",
+                                    "type": "rectangle",
+                                    "x": "$yaxis.0.label.1.startx - 3",
+                                    "y": "$yaxis.0.label.1.starty",
+                                    "tox": "$yaxis.0.label.0.endx",
+                                    "toy": "$yaxis.0.label.0.endy",
+                                    "color": "#e44a00",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "low-label",
+                                    "type": "text",
+                                    "text": "Low",
+                                    "x": "$yaxis.0.label.1.startx - 12",
+                                    "y": "$yaxis.0.label.0.starty - 5",
+                                    "rotateText": "1",
+                                    "color": "#e44a00"
+                                }
+                            ]
+                        },
+                        {
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartstartx",
+                                    "y": "$chartstarty",
+                                    "xScale": "100",
+                                    "yScale": "100"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$chartstartx+20",
+                                    "y": "$chartendy-20",
+                                    "radius": "15",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "5",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$chartstartx+80",
+                                    "y": "$chartendy-20",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$canvasstartx+20",
+                                    "y": "$canvasstarty+20",
+                                    "color": "#660000"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "5",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$legendendx+40",
+                                    "y": "$legendendy-10",
+                                    "radius": "18"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionChartsXT/combination/ref-images/annotations-combination_04-snapshot.png",
+        "id": "annotations-combination_04"
+    },
+    "annotations-combination_05": {
+        "description": "annotations",
+        "options": {
+            "type": "stackedcolumn3dline",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales Chart",
+                    "subcaption": "2005 v 2006",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "yaxisname": "Sales",
+                    "animation": "0",
+                    "charttopmargin": "40"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "2001"
+                            },
+                            {
+                                "label": "2002"
+                            },
+                            {
+                                "label": "2003"
+                            },
+                            {
+                                "label": "2004"
+                            },
+                            {
+                                "label": "2005"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Product A",
+                        "data": [
+                            {
+                                "value": "25601"
+                            },
+                            {
+                                "value": "20148"
+                            },
+                            {
+                                "value": "17372"
+                            },
+                            {
+                                "value": "35407"
+                            },
+                            {
+                                "value": "38105"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Product B",
+                        "data": [
+                            {
+                                "value": "57401"
+                            },
+                            {
+                                "value": "41941"
+                            },
+                            {
+                                "value": "45263"
+                            },
+                            {
+                                "value": "117320"
+                            },
+                            {
+                                "value": "114845"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Quantity",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": "45000"
+                            },
+                            {
+                                "value": "44803"
+                            },
+                            {
+                                "value": "42830"
+                            },
+                            {
+                                "value": "77550"
+                            },
+                            {
+                                "value": "92630"
+                            }
+                        ]
+                    }
+                ],
+                "annotations": {
+                    "origw": "400",
+                    "origh": "300",
+                    "autoscale": "1",
+                    "showbelow": "0",
+                    "groups": [
+                        {
+                            "items": [
+                                {
+                                    "id": "high-line",
+                                    "type": "line",
+                                    "x": "$canvasStartX",
+                                    "y": "$dataset.1.set.4.y",
+                                    "tox": "$canvasEndX",
+                                    "toy": "$dataset.1.set.4.y",
+                                    "color": "#ff0000",
+                                    "dashed": "1",
+                                    "thickness": "2"
+                                },
+                                {
+                                    "id": "label",
+                                    "type": "text",
+                                    "text": "Target",
+                                    "fillcolor": "#ff0000",
+                                    "rotate": "90",
+                                    "x": "$canvasEndX - 60",
+                                    "y": "$dataset.1.set.4.y - 10"
+                                }
+                            ]
+                        },
+                        {
+                            "items": [
+                                {
+                                    "id": "high-labels-zone",
+                                    "type": "rectangle",
+                                    "x": "$yaxis.0.label.5.startx + 5",
+                                    "y": "$yaxis.0.label.5.starty",
+                                    "tox": "$yaxis.0.label.3.endx",
+                                    "toy": "$yaxis.0.label.3.starty",
+                                    "color": "#6baa01",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "high-label",
+                                    "type": "text",
+                                    "text": "High",
+                                    "x": "$yaxis.0.label.4.startx - 5",
+                                    "y": "$yaxis.0.label.4.starty",
+                                    "rotateText": "1",
+                                    "color": "#6baa01"
+                                },
+                                {
+                                    "id": "moderate-labels-zone",
+                                    "type": "rectangle",
+                                    "x": "$yaxis.0.label.3.startx + 5",
+                                    "y": "$yaxis.0.label.3.starty",
+                                    "tox": "$yaxis.0.label.2.endx",
+                                    "toy": "$yaxis.0.label.1.starty",
+                                    "color": "#f8bd19",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "moderate-label",
+                                    "type": "text",
+                                    "text": "Moderate",
+                                    "x": "$yaxis.0.label.2.startx - 5",
+                                    "y": "$yaxis.0.label.2.starty",
+                                    "rotateText": "1",
+                                    "color": "#f8bd19"
+                                },
+                                {
+                                    "id": "low-labels-zone",
+                                    "type": "rectangle",
+                                    "x": "$yaxis.0.label.1.startx - 3",
+                                    "y": "$yaxis.0.label.1.starty",
+                                    "tox": "$yaxis.0.label.0.endx",
+                                    "toy": "$yaxis.0.label.0.endy",
+                                    "color": "#e44a00",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "low-label",
+                                    "type": "text",
+                                    "text": "Low",
+                                    "x": "$yaxis.0.label.1.startx - 12",
+                                    "y": "$yaxis.0.label.0.starty - 5",
+                                    "rotateText": "1",
+                                    "color": "#e44a00"
+                                }
+                            ]
+                        },
+                        {
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartstartx",
+                                    "y": "$chartstarty",
+                                    "xScale": "100",
+                                    "yScale": "100"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$chartstartx+20",
+                                    "y": "$chartendy-20",
+                                    "radius": "15",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "5",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$chartstartx+80",
+                                    "y": "$chartendy-20",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$canvasstartx+20",
+                                    "y": "$canvasstarty+20",
+                                    "color": "#660000"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "5",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$legendendx+40",
+                                    "y": "$legendendy-10",
+                                    "radius": "18"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionChartsXT/combination/ref-images/annotations-combination_05-snapshot.png",
+        "id": "annotations-combination_05"
+    },
+    "annotations-combination_06": {
+        "description": "annotations",
+        "options": {
+            "type": "mscombidy2d",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales Volume",
+                    "subcaption": "subcaption",
+                    "pyaxisname": "Revenue",
+                    "syaxisname": "Quantity",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Revenue",
+                        "data": [
+                            {
+                                "value": "170"
+                            },
+                            {
+                                "value": "610"
+                            },
+                            {
+                                "value": "142"
+                            },
+                            {
+                                "value": "135"
+                            },
+                            {
+                                "value": "214"
+                            },
+                            {
+                                "value": "121"
+                            },
+                            {
+                                "value": "113"
+                            },
+                            {
+                                "value": "156"
+                            },
+                            {
+                                "value": "212"
+                            },
+                            {
+                                "value": "900"
+                            },
+                            {
+                                "value": "132"
+                            },
+                            {
+                                "value": "101"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Quantity",
+                        "parentyaxis": "S",
+                        "data": [
+                            {
+                                "value": "340"
+                            },
+                            {
+                                "value": "120"
+                            },
+                            {
+                                "value": "280"
+                            },
+                            {
+                                "value": "270"
+                            },
+                            {
+                                "value": "430"
+                            },
+                            {
+                                "value": "240"
+                            },
+                            {
+                                "value": "230"
+                            },
+                            {
+                                "value": "310"
+                            },
+                            {
+                                "value": "430"
+                            },
+                            {
+                                "value": "180"
+                            },
+                            {
+                                "value": "260"
+                            },
+                            {
+                                "value": "200"
+                            }
+                        ]
+                    }
+                ],
+                "annotations": {
+                    "origw": "400",
+                    "origh": "300",
+                    "autoscale": "1",
+                    "showbelow": "0",
+                    "groups": [
+                        {
+                            "items": [
+                                {
+                                    "id": "high-line",
+                                    "type": "line",
+                                    "x": "$canvasStartX",
+                                    "y": "$dataset.1.set.4.y",
+                                    "tox": "$canvasEndX",
+                                    "toy": "$dataset.1.set.4.y",
+                                    "color": "#ff0000",
+                                    "dashed": "1",
+                                    "thickness": "2"
+                                },
+                                {
+                                    "id": "label",
+                                    "type": "text",
+                                    "text": "Target",
+                                    "fillcolor": "#ff0000",
+                                    "rotate": "90",
+                                    "x": "$canvasEndX - 60",
+                                    "y": "$dataset.1.set.4.y - 10"
+                                }
+                            ]
+                        },
+                        {
+                            "items": [
+                                {
+                                    "id": "high-labels-zone",
+                                    "type": "rectangle",
+                                    "x": "$yaxis.0.label.5.startx + 5",
+                                    "y": "$yaxis.0.label.5.starty",
+                                    "tox": "$yaxis.0.label.3.endx",
+                                    "toy": "$yaxis.0.label.3.starty",
+                                    "color": "#6baa01",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "high-label",
+                                    "type": "text",
+                                    "text": "High",
+                                    "x": "$yaxis.0.label.4.startx - 5",
+                                    "y": "$yaxis.0.label.4.starty",
+                                    "rotateText": "1",
+                                    "color": "#6baa01"
+                                },
+                                {
+                                    "id": "moderate-labels-zone",
+                                    "type": "rectangle",
+                                    "x": "$yaxis.0.label.3.startx + 5",
+                                    "y": "$yaxis.0.label.3.starty",
+                                    "tox": "$yaxis.0.label.2.endx",
+                                    "toy": "$yaxis.0.label.1.starty",
+                                    "color": "#f8bd19",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "moderate-label",
+                                    "type": "text",
+                                    "text": "Moderate",
+                                    "x": "$yaxis.0.label.2.startx - 5",
+                                    "y": "$yaxis.0.label.2.starty",
+                                    "rotateText": "1",
+                                    "color": "#f8bd19"
+                                },
+                                {
+                                    "id": "low-labels-zone",
+                                    "type": "rectangle",
+                                    "x": "$yaxis.0.label.1.startx - 3",
+                                    "y": "$yaxis.0.label.1.starty",
+                                    "tox": "$yaxis.0.label.0.endx",
+                                    "toy": "$yaxis.0.label.0.endy",
+                                    "color": "#e44a00",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "low-label",
+                                    "type": "text",
+                                    "text": "Low",
+                                    "x": "$yaxis.0.label.1.startx - 12",
+                                    "y": "$yaxis.0.label.0.starty - 5",
+                                    "rotateText": "1",
+                                    "color": "#e44a00"
+                                }
+                            ]
+                        },
+                        {
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartstartx",
+                                    "y": "$chartstarty",
+                                    "xScale": "100",
+                                    "yScale": "70"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$chartstartx+20",
+                                    "y": "$chartendy-20",
+                                    "radius": "15",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "5",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$chartstartx+80",
+                                    "y": "$chartendy-20",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$canvasstartx+20",
+                                    "y": "$canvasstarty+20",
+                                    "color": "#660000"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "5",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$legendendx+40",
+                                    "y": "$legendendy-10",
+                                    "radius": "18"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionChartsXT/combination/ref-images/annotations-combination_06-snapshot.png",
+        "id": "annotations-combination_06"
+    },
+    "annotations-combination_07": {
+        "description": "annotations",
+        "options": {
+            "type": "mscolumn3dlinedy",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Product",
+                    "subcaption": "Sales & Downloads",
+                    "showvalues": "0",
+                    "pyaxisname": "Sales",
+                    "syaxisname": "Total Downloads",
+                    "animation": "0",
+                    "charttopmargin": "40"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "A",
+                        "data": [
+                            {
+                                "value": "230"
+                            },
+                            {
+                                "value": "245"
+                            },
+                            {
+                                "value": "250"
+                            },
+                            {
+                                "value": "245"
+                            },
+                            {
+                                "value": "350"
+                            },
+                            {
+                                "value": "330"
+                            },
+                            {
+                                "value": "360"
+                            },
+                            {
+                                "value": "340"
+                            },
+                            {
+                                "value": "230"
+                            },
+                            {
+                                "value": "220"
+                            },
+                            {
+                                "value": "200"
+                            },
+                            {
+                                "value": "190"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "B",
+                        "data": [
+                            {
+                                "value": "130"
+                            },
+                            {
+                                "value": "145"
+                            },
+                            {
+                                "value": "50"
+                            },
+                            {
+                                "value": "115"
+                            },
+                            {
+                                "value": "190"
+                            },
+                            {
+                                "value": "130"
+                            },
+                            {
+                                "value": "160"
+                            },
+                            {
+                                "value": "140"
+                            },
+                            {
+                                "value": "130"
+                            },
+                            {
+                                "value": "120"
+                            },
+                            {
+                                "value": "140"
+                            },
+                            {
+                                "value": "80"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Total",
+                        "parentyaxis": "S",
+                        "data": [
+                            {
+                                "value": "13000"
+                            },
+                            {
+                                "value": "14500"
+                            },
+                            {
+                                "value": "5000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "13000"
+                            },
+                            {
+                                "value": "16000"
+                            },
+                            {
+                                "value": "14000"
+                            },
+                            {
+                                "value": "13000"
+                            },
+                            {
+                                "value": "12000"
+                            },
+                            {
+                                "value": "9000"
+                            },
+                            {
+                                "value": "10000"
+                            }
+                        ]
+                    }
+                ],
+                "annotations": {
+                    "origw": "400",
+                    "origh": "300",
+                    "autoscale": "1",
+                    "showbelow": "0",
+                    "groups": [
+                        {
+                            "items": [
+                                {
+                                    "id": "high-line",
+                                    "type": "line",
+                                    "x": "$canvasStartX",
+                                    "y": "$dataset.2.set.4.y",
+                                    "tox": "$canvasEndX",
+                                    "toy": "$dataset.2.set.4.y",
+                                    "color": "#ff0000",
+                                    "dashed": "1",
+                                    "thickness": "1"
+                                },
+                                {
+                                    "id": "label",
+                                    "type": "text",
+                                    "text": "Target",
+                                    "fillcolor": "#ff0000",
+                                    "rotate": "90",
+                                    "x": "$canvasEndX - 60",
+                                    "y": "$dataset.2.set.4.y - 10"
+                                }
+                            ]
+                        },
+                        {
+                            "items": [
+                                {
+                                    "id": "high-labels-zone",
+                                    "type": "rectangle",
+                                    "x": "$yaxis.0.label.5.startx + 5",
+                                    "y": "$yaxis.0.label.5.starty",
+                                    "tox": "$yaxis.0.label.3.endx",
+                                    "toy": "$yaxis.0.label.3.starty",
+                                    "color": "#6baa01",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "high-label",
+                                    "type": "text",
+                                    "text": "High",
+                                    "x": "$yaxis.0.label.4.startx - 5",
+                                    "y": "$yaxis.0.label.4.starty",
+                                    "rotateText": "1",
+                                    "color": "#6baa01"
+                                },
+                                {
+                                    "id": "moderate-labels-zone",
+                                    "type": "rectangle",
+                                    "x": "$yaxis.0.label.3.startx + 5",
+                                    "y": "$yaxis.0.label.3.starty",
+                                    "tox": "$yaxis.0.label.2.endx",
+                                    "toy": "$yaxis.0.label.1.starty",
+                                    "color": "#f8bd19",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "moderate-label",
+                                    "type": "text",
+                                    "text": "Moderate",
+                                    "x": "$yaxis.0.label.2.startx - 5",
+                                    "y": "$yaxis.0.label.2.starty",
+                                    "rotateText": "1",
+                                    "color": "#f8bd19"
+                                },
+                                {
+                                    "id": "low-labels-zone",
+                                    "type": "rectangle",
+                                    "x": "$yaxis.0.label.1.startx - 3",
+                                    "y": "$yaxis.0.label.1.starty",
+                                    "tox": "$yaxis.0.label.0.endx",
+                                    "toy": "$yaxis.0.label.0.endy",
+                                    "color": "#e44a00",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "low-label",
+                                    "type": "text",
+                                    "text": "Low",
+                                    "x": "$yaxis.0.label.1.startx - 12",
+                                    "y": "$yaxis.0.label.0.starty - 5",
+                                    "rotateText": "1",
+                                    "color": "#e44a00"
+                                }
+                            ]
+                        },
+                        {
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                },
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartstartx",
+                                    "y": "$chartstarty",
+                                    "xScale": "100",
+                                    "yScale": "100"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$chartstartx+20",
+                                    "y": "$chartendy-20",
+                                    "radius": "15",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "5",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$chartstartx+80",
+                                    "y": "$chartendy-20",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$canvasstartx+20",
+                                    "y": "$canvasstarty+20",
+                                    "color": "#660000"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "5",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$legendendx+40",
+                                    "y": "$legendendy-10",
+                                    "radius": "18"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionChartsXT/combination/ref-images/annotations-combination_07-snapshot.png",
+        "id": "annotations-combination_07"
+    },
+    "annotations-combination_08": {
+        "description": "annotations",
+        "options": {
+            "type": "stackedcolumn3dlinedy",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales Chart",
+                    "subcaption": "subcaption",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "pyaxisname": "Sales",
+                    "syaxisname": "Quantity",
+                    "animation": "0",
+                    "charttopmargin": "40"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "2001"
+                            },
+                            {
+                                "label": "2002"
+                            },
+                            {
+                                "label": "2003"
+                            },
+                            {
+                                "label": "2004"
+                            },
+                            {
+                                "label": "2005"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Product A",
+                        "data": [
+                            {
+                                "value": "25601"
+                            },
+                            {
+                                "value": "20148"
+                            },
+                            {
+                                "value": "17372"
+                            },
+                            {
+                                "value": "35407"
+                            },
+                            {
+                                "value": "38105"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Product B",
+                        "data": [
+                            {
+                                "value": "57401"
+                            },
+                            {
+                                "value": "41941"
+                            },
+                            {
+                                "value": "45263"
+                            },
+                            {
+                                "value": "117320"
+                            },
+                            {
+                                "value": "114845"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Quantity",
+                        "parentyaxis": "S",
+                        "data": [
+                            {
+                                "value": "4500"
+                            },
+                            {
+                                "value": "4483"
+                            },
+                            {
+                                "value": "4283"
+                            },
+                            {
+                                "value": "7755"
+                            },
+                            {
+                                "value": "9263"
+                            }
+                        ]
+                    }
+                ],
+                "annotations": {
+                    "origw": "400",
+                    "origh": "300",
+                    "autoscale": "1",
+                    "showbelow": "0",
+                    "groups": [
+                        {
+                            "items": [
+                                {
+                                    "id": "high-line",
+                                    "type": "line",
+                                    "x": "$canvasStartX",
+                                    "y": "$dataset.1.set.4.y",
+                                    "tox": "$canvasEndX",
+                                    "toy": "$dataset.1.set.4.y",
+                                    "color": "#ff0000",
+                                    "dashed": "1",
+                                    "thickness": "2"
+                                },
+                                {
+                                    "id": "label",
+                                    "type": "text",
+                                    "text": "Target",
+                                    "fillcolor": "#ff0000",
+                                    "rotate": "90",
+                                    "x": "$canvasEndX - 60",
+                                    "y": "$dataset.1.set.4.y - 10"
+                                }
+                            ]
+                        },
+                        {
+                            "items": [
+                                {
+                                    "id": "high-labels-zone",
+                                    "type": "rectangle",
+                                    "x": "$yaxis.0.label.5.startx + 5",
+                                    "y": "$yaxis.0.label.5.starty",
+                                    "tox": "$yaxis.0.label.3.endx",
+                                    "toy": "$yaxis.0.label.3.starty",
+                                    "color": "#6baa01",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "high-label",
+                                    "type": "text",
+                                    "text": "High",
+                                    "x": "$yaxis.0.label.4.startx - 5",
+                                    "y": "$yaxis.0.label.4.starty",
+                                    "rotateText": "1",
+                                    "color": "#6baa01"
+                                },
+                                {
+                                    "id": "moderate-labels-zone",
+                                    "type": "rectangle",
+                                    "x": "$yaxis.0.label.3.startx + 5",
+                                    "y": "$yaxis.0.label.3.starty",
+                                    "tox": "$yaxis.0.label.2.endx",
+                                    "toy": "$yaxis.0.label.1.starty",
+                                    "color": "#f8bd19",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "moderate-label",
+                                    "type": "text",
+                                    "text": "Moderate",
+                                    "x": "$yaxis.0.label.2.startx - 5",
+                                    "y": "$yaxis.0.label.2.starty",
+                                    "rotateText": "1",
+                                    "color": "#f8bd19"
+                                },
+                                {
+                                    "id": "low-labels-zone",
+                                    "type": "rectangle",
+                                    "x": "$yaxis.0.label.1.startx - 3",
+                                    "y": "$yaxis.0.label.1.starty",
+                                    "tox": "$yaxis.0.label.0.endx",
+                                    "toy": "$yaxis.0.label.0.endy",
+                                    "color": "#e44a00",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "low-label",
+                                    "type": "text",
+                                    "text": "Low",
+                                    "x": "$yaxis.0.label.1.startx - 12",
+                                    "y": "$yaxis.0.label.0.starty - 5",
+                                    "rotateText": "1",
+                                    "color": "#e44a00"
+                                }
+                            ]
+                        },
+                        {
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                },
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartstartx",
+                                    "y": "$chartstarty",
+                                    "xScale": "100",
+                                    "yScale": "100"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$chartstartx+20",
+                                    "y": "$chartendy-20",
+                                    "radius": "15",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "5",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$chartstartx+80",
+                                    "y": "$chartendy-20",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$canvasstartx+20",
+                                    "y": "$canvasstarty+20",
+                                    "color": "#660000"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "5",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$legendendx+40",
+                                    "y": "$legendendy-10",
+                                    "radius": "18"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionChartsXT/combination/ref-images/annotations-combination_08-snapshot.png",
+        "id": "annotations-combination_08"
+    },
+    "annotations-combination_09": {
+        "description": "annotations",
+        "options": {
+            "type": "msstackedcolumn2dlinedy",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Annual Revenue",
+                    "subcaption": "In Million $",
+                    "xaxisname": "Year",
+                    "pyaxisname": "Sales in M$",
+                    "syaxisname": "Cost as % of Revenue",
+                    "decimals": "0",
+                    "numberprefix": "$",
+                    "numbersuffix": "M",
+                    "snumbersuffix": "%25",
+                    "animation": "0",
+                    "showvalues": "0",
+                    "charttopmargin": "40"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "2001"
+                            },
+                            {
+                                "label": "2002"
+                            },
+                            {
+                                "label": "2003"
+                            },
+                            {
+                                "label": "2004"
+                            },
+                            {
+                                "label": "2005"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Product A",
+                                "color": "AFD8F8",
+                                "data": [
+                                    {
+                                        "value": "30"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "29"
+                                    },
+                                    {
+                                        "value": "31"
+                                    },
+                                    {
+                                        "value": "34"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Product B",
+                                "color": "F6BD0F",
+                                "data": [
+                                    {
+                                        "value": "21"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "39"
+                                    },
+                                    {
+                                        "value": "41"
+                                    },
+                                    {
+                                        "value": "24"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Service A",
+                                "color": "8BBA00",
+                                "data": [
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "25"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "10"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "lineset": [
+                    {
+                        "seriesname": "Cost",
+                        "linethickness": "4",
+                        "data": [
+                            {
+                                "value": "57"
+                            },
+                            {
+                                "value": "68"
+                            },
+                            {
+                                "value": "79"
+                            },
+                            {
+                                "value": "73"
+                            },
+                            {
+                                "value": "80"
+                            }
+                        ]
+                    }
+                ],
+                "annotations": {
+                    "origw": "400",
+                    "origh": "300",
+                    "autoscale": "1",
+                    "showbelow": "0",
+                    "groups": [
+                        {
+                            "items": [
+                                {
+                                    "id": "high-line",
+                                    "type": "line",
+                                    "x": "$canvasStartX",
+                                    "y": "$dataset.1.set.4.y",
+                                    "tox": "$canvasEndX",
+                                    "toy": "$dataset.1.set.4.y",
+                                    "color": "#ff0000",
+                                    "dashed": "1",
+                                    "thickness": "2"
+                                },
+                                {
+                                    "id": "label",
+                                    "type": "text",
+                                    "text": "Target",
+                                    "fillcolor": "#ff0000",
+                                    "rotate": "90",
+                                    "x": "$canvasEndX - 60",
+                                    "y": "$dataset.1.set.4.y - 10"
+                                }
+                            ]
+                        },
+                        {
+                            "items": [
+                                {
+                                    "id": "high-labels-zone",
+                                    "type": "rectangle",
+                                    "x": "$yaxis.0.label.5.startx + 5",
+                                    "y": "$yaxis.0.label.5.starty",
+                                    "tox": "$yaxis.0.label.3.endx",
+                                    "toy": "$yaxis.0.label.3.starty",
+                                    "color": "#6baa01",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "high-label",
+                                    "type": "text",
+                                    "text": "High",
+                                    "x": "$yaxis.0.label.4.startx - 5",
+                                    "y": "$yaxis.0.label.4.starty",
+                                    "rotateText": "1",
+                                    "color": "#6baa01"
+                                },
+                                {
+                                    "id": "moderate-labels-zone",
+                                    "type": "rectangle",
+                                    "x": "$yaxis.0.label.3.startx + 5",
+                                    "y": "$yaxis.0.label.3.starty",
+                                    "tox": "$yaxis.0.label.2.endx",
+                                    "toy": "$yaxis.0.label.1.starty",
+                                    "color": "#f8bd19",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "moderate-label",
+                                    "type": "text",
+                                    "text": "Moderate",
+                                    "x": "$yaxis.0.label.2.startx - 5",
+                                    "y": "$yaxis.0.label.2.starty",
+                                    "rotateText": "1",
+                                    "color": "#f8bd19"
+                                },
+                                {
+                                    "id": "low-labels-zone",
+                                    "type": "rectangle",
+                                    "x": "$yaxis.0.label.1.startx - 3",
+                                    "y": "$yaxis.0.label.1.starty",
+                                    "tox": "$yaxis.0.label.0.endx",
+                                    "toy": "$yaxis.0.label.0.endy",
+                                    "color": "#e44a00",
+                                    "alpha": "20"
+                                },
+                                {
+                                    "id": "low-label",
+                                    "type": "text",
+                                    "text": "Low",
+                                    "x": "$yaxis.0.label.1.startx - 12",
+                                    "y": "$yaxis.0.label.0.starty - 5",
+                                    "rotateText": "1",
+                                    "color": "#e44a00"
+                                }
+                            ]
+                        },
+                        {
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                },
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartstartx",
+                                    "y": "$chartstarty",
+                                    "xScale": "100",
+                                    "yScale": "100"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$chartstartx+20",
+                                    "y": "$chartendy-20",
+                                    "radius": "15",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "5",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$chartendx-80",
+                                    "y": "$chartstarty+40",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$canvasstartx+20",
+                                    "y": "$canvasstarty+20",
+                                    "color": "#660000"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "5",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$legendendx+40",
+                                    "y": "$legendendy-10",
+                                    "radius": "18"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/froalacharts/annotations/combination/ref-images/annotations-combination_09-snapshot.png",
+        "id": "annotations-combination_09"
+    }
+}

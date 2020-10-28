@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="fusioncharts/fusioncharts.js"></script>
+</head>
+
+<body>
+
+    <a href="https://fusioncharts.jira.com/browse/RED-5235">RED-5235</a>
+    <div>Exported xls file fails to produce desired output for UTF-8 characters.</div>
+    <p>
+        Check in: 1. MS Excel 2. WPS Office 3. Libre Office 4. Google Sheet.
+    </p>
+    <div id="chart-container">FusionCharts will render here</div>
+    <script type="text/javascript">
+        FusionCharts.ready(function () {
+            var salesChart = new FusionCharts({
+                    type: 'area2d',
+                    renderAt: 'chart-container',
+                    width: '600',
+                    height: '350',
+                    dataFormat: 'json',
+                    dataSource: {
+                        "chart": {
+                            "caption": "Sales of Liquor",
+                            "subCaption": "MÃ©dicas",
+                            "exportenabled": 1
+                        },
+
+                        "data": [{
+                                "label": "₹ 123",
+                                "value": "4123"
+                            },
+                            {
+                                "label": "médicas",
+                                "value": "4633"
+                            },
+                            {
+                                "label": "MÃ©dicas",
+                                "value": "5507"
+                            },
+                            {
+                                "label": "Thu",
+                                "value": "4910"
+                            },
+                            {
+                                "label": "Fri",
+                                "value": "5529"
+                            },
+                            {
+                                "label": "Sat",
+                                "value": "5803"
+                            },
+                            {
+                                "label": "Sun",
+                                "value": "6202"
+                            }
+                        ]
+                    }
+                })
+                .render();
+        });
+    </script>
+</body>
+
+</html>

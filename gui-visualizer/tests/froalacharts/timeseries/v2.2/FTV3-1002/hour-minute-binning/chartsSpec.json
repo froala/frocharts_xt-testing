@@ -1,0 +1,198 @@
+{
+    "FTV3-1002-hour-tc1": {
+        "id": "FTV3-1002-hour-tc1",
+        "description": "Central alignment of plot and tick w.r.t. bin for hour unit with multiplier = 1",
+        "options": {
+            "data-id": "data-FTV3-1002-hour-minute-bin",
+            "schema-id": "schema-FTV3-1002-hour-minute-bin",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "yaxis": [
+                    {
+                        "plot": "Temperature",
+                        "title": "Temperature",
+                        "plotType": "column",
+                        "format": {
+                            "suffix": "°C",
+                            "label": "Controlled Temperature",
+                            "value": "2/20040"
+                        }
+                    }
+                ],
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multicanvas": 0
+                },
+                "xaxis": {
+                    "binning": {
+                        "year": [],
+                        "month": [],
+                        "day": [],
+                        "hour": [ 1 ],
+                        "minute": [],
+                        "second": [],
+                        "millisecond": []
+                    },
+                    "initialInterval": {
+                        "from": "05/01/2020 09:00:00",
+                        "to": "05/01/2020 23:10:00"
+                    }
+                },
+                "caption": {
+                    "text": "Temperature readings of an Italian Town"
+                }
+            }
+        }
+    },
+    "FTV3-1002-hour-tc2": {
+        "id": "FTV3-1002-hour-tc2",
+        "description": "Central alignment of plot and tick w.r.t. bin for hour unit with multiplier > 1",
+        "options": {
+            "data-id": "data-FTV3-1002-hour-minute-bin",
+            "schema-id": "schema-FTV3-1002-hour-minute-bin",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "yaxis": [
+                    {
+                        "plot": "Temperature",
+                        "title": "Temperature",
+                        "plotType": "column",
+                        "format": {
+                            "suffix": "°C",
+                            "label": "Controlled Temperature",
+                            "value": "2/20040"
+                        }
+                    }
+                ],
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multicanvas": 0
+                },
+                "xaxis": {
+                    "binning": {
+                        "year": [],
+                        "month": [],
+                        "day": [],
+                        "hour": [ 2 ],
+                        "minute": [],
+                        "second": [],
+                        "millisecond": []
+                    },
+                    "initialInterval": {
+                        "from": "05/01/2020 09:00:00",
+                        "to": "05/01/2020 23:10:00"
+                    }
+                },
+                "caption": {
+                    "text": "Temperature readings of an Italian Town"
+                }
+            }
+        }
+    },
+    "FTV3-1002-minute-tc1": {
+        "id": "FTV3-1002-minute-tc1",
+        "description": "Central alignment of plot and tick w.r.t. bin for minute unit with multiplier = 1",
+        "options": {
+            "data-id": "data-FTV3-1002-hour-minute-bin",
+            "schema-id": "schema-FTV3-1002-hour-minute-bin",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "yaxis": [
+                    {
+                        "plot": "Temperature",
+                        "title": "Temperature",
+                        "plotType": "column",
+                        "format": {
+                            "suffix": "°C",
+                            "label": "Controlled Temperature",
+                            "value": "2/20040"
+                        }
+                    }
+                ],
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multicanvas": 0
+                },
+                "xaxis": {
+                    "binning": {
+                        "year": [],
+                        "month": [],
+                        "day": [],
+                        "hour": [],
+                        "minute": [ 1 ],
+                        "second": [],
+                        "millisecond": []
+                    },
+                    "initialInterval": {
+                        "from": "05/01/2020 15:00:00",
+                        "to": "05/01/2020 15:10:00"
+                    }
+                },
+                "caption": {
+                    "text": "Temperature readings of an Italian Town"
+                }
+            }
+        }
+    },
+    "FTV3-1002-minute-tc2": {
+        "id": "FTV3-1002-minute-tc2",
+        "description": "Central alignment of plot and tick w.r.t. bin for minute unit with multiplier > 1",
+        "options": {
+            "data-id": "data-FTV3-1002-hour-minute-bin",
+            "schema-id": "schema-FTV3-1002-hour-minute-bin",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "yaxis": [
+                    {
+                        "plot": "Temperature",
+                        "title": "Temperature",
+                        "plotType": "column",
+                        "format": {
+                            "suffix": "°C",
+                            "label": "Controlled Temperature",
+                            "value": "2/20040"
+                        }
+                    }
+                ],
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multicanvas": 0
+                },
+                "xaxis": {
+                    "binning": {
+                        "year": [],
+                        "month": [],
+                        "day": [],
+                        "hour": [],
+                        "minute": [ 2 ],
+                        "second": [],
+                        "millisecond": []
+                    },
+                    "initialInterval": {
+                        "from": "05/01/2020 15:00:00",
+                        "to": "05/01/2020 15:10:00"
+                    }
+                },
+                "caption": {
+                    "text": "Temperature readings of an Italian Town"
+                }
+            }
+        }
+    }
+}

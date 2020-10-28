@@ -1,0 +1,134 @@
+{
+    "boxandwhisker2d": {
+        "descriptions": "update theme from gammel to fint",
+        "id": "boxandwhisker2d",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "boxandwhisker2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Visits to a Website",
+                    "subcaption": "In three years",
+                    "useroundedges": "1",
+                    "animation": 0,
+                    "theme": "gammel"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "2008"
+                            },
+                            {
+                                "label": "2009"
+                            },
+                            {
+                                "label": "2010"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "January",
+                        "lowerboxcolor": "019FAA",
+                        "upperboxcolor": "D4DFFF",
+                        "data": [
+                            {
+                                "value": "60,133,35,67,89,137,259"
+                            },
+                            {
+                                "value": "139,197,175,114,39,67,191"
+                            },
+                            {
+                                "value": "200,107,197,239,53,26,97"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "February",
+                        "lowerboxcolor": "2A5F55",
+                        "upperboxcolor": "D47F00",
+                        "data": [
+                            {
+                                "value": "160,303,125,137,69,107,39"
+                            },
+                            {
+                                "value": "139,167,255,74,59,187,151"
+                            },
+                            {
+                                "value": "160,137,57,209,153,126,277"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "caption": "Visits to a Website",
+                            "subcaption": "In three years",
+                            "useroundedges": "1",
+                            "animation": 0,
+                            "theme": "fint"
+                        },
+                        "categories": [
+                            {
+                                "category": [
+                                    {
+                                        "label": "2008"
+                                    },
+                                    {
+                                        "label": "2009"
+                                    },
+                                    {
+                                        "label": "2010"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dataset": [
+                            {
+                                "seriesname": "January",
+                                "lowerboxcolor": "019FAA",
+                                "upperboxcolor": "D4DFFF",
+                                "data": [
+                                    {
+                                        "value": "60,133,35,67,89,137,259"
+                                    },
+                                    {
+                                        "value": "139,197,175,114,39,67,191"
+                                    },
+                                    {
+                                        "value": "200,107,197,239,53,26,97"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "February",
+                                "lowerboxcolor": "2A5F55",
+                                "upperboxcolor": "D47F00",
+                                "data": [
+                                    {
+                                        "value": "160,303,125,137,69,107,39"
+                                    },
+                                    {
+                                        "value": "139,167,255,74,59,187,151"
+                                    },
+                                    {
+                                        "value": "160,137,57,209,153,126,277"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

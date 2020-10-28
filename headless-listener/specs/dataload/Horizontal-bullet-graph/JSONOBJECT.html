@@ -1,0 +1,82 @@
+<html>
+	<head>        
+		<title>FusionCharts XT - listen to DrawComplete event</title>       
+		<script type="text/javascript" src="../../../fusioncharts/fusioncharts.js">
+		</script>
+			
+	</head>   
+	<body>     
+		<div id="chartContainer">FusionCharts XT will load here!</div>          
+		<script type="text/javascript"><!--  
+			
+			
+			var featureTestPass1 = false;
+			//var featureTestPass2 = false;
+			//FusionCharts.addEventListener("Initialized", myChartListener1);
+			  var objJSON = {
+    "chart": {
+        "lowerlimit": "0",
+        "upperlimit": "100",
+        "caption": "Revenue",
+        "subcaption": "US $ (1,000s)",
+        "numberprefix": "$",
+        "numbersuffix": "K",
+        "showvalue": "1",
+        "animation": "0"
+    },
+    "colorrange": {
+        "color": [
+            {
+                "minvalue": "0",
+                "maxvalue": "50",
+                "color": "A6A6A6"
+            },
+            {
+                "minvalue": "50",
+                "maxvalue": "75",
+                "color": "CCCCCC"
+            },
+            {
+                "minvalue": "75",
+                "maxvalue": "100",
+                "color": "E1E1E1"
+            }
+        ]
+    },
+    "value": "78.9",
+    "target": "80"
+}
+    
+			  
+			//Chart setup code
+			var myChart = new FusionCharts({type: 'HBullet', width: '400', height: '300', debugMode: false, bgColor: 'ffff0f', renderAt: 'chartContainer', id: "myChartId", dataSource: objJSON, dataFormat: 'json', renderer: 'javascript'
+					});
+			
+			
+			FusionCharts.addEventListener("connectorAdded", myChartListener1);
+			
+			myChart.render();
+			
+			
+			function myChartListener1(eventObject, argumentsObject)
+			{
+			  
+			  var chart = eventObject.sender, // access the chart that raised this event
+			  caption = chart && chart.getChartAttribute('caption');
+			  var containertext = "";
+				
+				featureTestPass1 = true;
+				
+				featureTestPass1 = featureTestPass1 && (eventObject.sender.id == "myChartId");
+				
+				featureTestPass1 = featureTestPass1 && (eventObject.eventType == "connectoradded");
+				
+				 alert("ConnectorAdded Event has been triggered with attributes:" + argumentsObject.toSource());
+				
+			}
+			
+					  
+			// -->     
+		</script>      
+	</body> 
+	</html>

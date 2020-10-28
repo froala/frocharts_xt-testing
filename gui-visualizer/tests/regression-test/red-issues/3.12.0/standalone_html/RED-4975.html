@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <script type="text/javascript" src="fusioncharts/fusioncharts.js"></script>
+</head>
+
+<body>
+
+    <div id="chartContainer"></div>
+    <script type="text/javascript">
+        var first = function(param) {
+                console.log("FIRST function called");
+                console.log(param);
+            },
+            second = function(param) {
+                console.log("SECOND function  called");
+                console.log(param);
+            },
+            third = function(param) {
+                console.log("THIRD function called");
+                console.log(param);
+            },
+            multiParam = function(a, b, c) {
+                console.log("MULTIPARAM function called");
+                console.log(a);
+                console.log(b);
+                console.log(c);
+            },
+            nested = function(param) {
+                console.log("nested function called");
+                console.log(param);
+                indpendent1(param);
+                indpendent2(param);
+            },
+            indpendent1 = function(param) {
+                console.log("INDPENDENT1 function called");
+                console.log(param);
+            },
+            indpendent2 = function(param) {
+                console.log("INDPENDENT2 function called");
+                console.log(param);
+            };
+
+        function Zoom(param) {
+            console.log(param);
+        }
+        FusionCharts.ready(function() {
+            fusioncharts = new FusionCharts({
+                type: 'mscolumn2d',
+                renderAt: 'chartContainer',
+                width: '600',
+                height: '350',
+                dataFormat: 'json',
+                dataSource: {
+                    "chart": {
+                        "caption": "Business Results 2005 v 2006",
+                        "xaxisname": "Month",
+                        "yaxisname": "Revenue",
+                        "showvalues": "0",
+                        "numberprefix": "$",
+                        "animation": "1"
+                    },
+                    "categories": [{
+                        "category": [{
+                            "label": "Jan"
+                        }, {
+                            "label": "Feb"
+                        }, {
+                            "label": "Mar"
+                        }, {
+                            "label": "Apr"
+                        }, {
+                            "vline": "true"
+                        }, {
+                            "label": "May"
+                        }, {
+                            "label": "Jun"
+                        }, {
+                            "label": "Jul"
+                        }, {
+                            "label": "Aug"
+                        }, {
+                            "label": "Sep"
+                        }, {
+                            "label": "Oct"
+                        }]
+                    }],
+                    "dataset": [{
+                        "seriesname": "j prefix",
+                        "data": [{
+                            "label": "console.log",
+                            "value": "710000",
+                            "link": "j-console.log-('-hi'),-abc"
+                        }, {
+                            "label": "console.log",
+                            "value": "710000",
+                            "link": "j-Zoom-bedsa_dap_measurement_wpm\/04-Jul-2016 02:00"
+                        }, {
+                            "label": "alert",
+                            "value": "610000",
+                            "link": "j-console.log-'hi in- alert')"
+                        }, {
+                            "label": "special symbol",
+                            "value": "510000",
+                            "link": " j-console.log-x';') "
+                        }, {
+                            "label": "comma between",
+                            "value": "620000",
+                            "link": "j-first-('Cranberry, $620K')"
+                        }, {
+                            "label": "many special symbol",
+                            "value": "620000",
+                            "link": "j-first-('Cranberry!@#$^&*{}[]=_+:;<>.?/, $620K')"
+                        }, {
+                            "label": "bracket",
+                            "value": "620000",
+                            "link": "j-first-('a(b)c')"
+                        }, {
+                            "label": "multiParam",
+                            "value": "520000",
+                            "link": "j-multiParam-('fir,st', 'sec;ond', 'third')"
+                        }, {
+                            "label": "multiple fn",
+                            "value": "350000",
+                            "link": "j-second-('param for second');third('param for third')"
+                        }, {
+                            "label": "nested fn",
+                            "value": "350000",
+                            "link": "j-nested-('nested');"
+                        }]
+                    }, {
+                        "seriesname": "javascript prefix",
+                        "data": [{
+                            "label": "console.log",
+                            "value": "710000",
+                            "link": "JavaScript:console.log(-('-hi'),-abc)"
+                        }, {
+                            "label": "console.log",
+                            "value": "710000",
+                            "link": "JavaScript:Zoom(bedsa_dap_measurement_wpm\/04-Jul-2016 02:00)"
+                        }, {
+                            "label": "alert",
+                            "value": "610000",
+                            "link": "JavaScript:alert('hi in alert')"
+                        }, {
+                            "label": "special symbol",
+                            "value": "510000",
+                            "link": " JavaScript:console.log(';') "
+                        }, {
+                            "label": "comma between",
+                            "value": "620000",
+                            "link": "JavaScript:first('Cranberry, $620K')"
+                        }, {
+                            "label": "many special symbol",
+                            "value": "620000",
+                            "link": "JavaScript:first('Cranberry!@#$^&*{}[]=_+:;<>.?/, $620K')"
+                        }, {
+                            "label": "bracket",
+                            "value": "620000",
+                            "link": "JavaScript:first('a(b)c')"
+                        }, {
+                            "label": "multiParam",
+                            "value": "520000",
+                            "link": "JavaScript:multiParam('fir,st', 'sec;ond', 'third')"
+                        }, {
+                            "label": "multiple fn",
+                            "value": "350000",
+                            "link": "JavaScript:second('param for second');third('param for third')"
+                        }, {
+                            "label": "nested fn",
+                            "value": "350000",
+                            "link": "JavaScript:nested('nested');"
+                        }]
+                    }],
+                    "trendlines": [{
+                        "line": [{
+                            "startvalue": "26000",
+                            "color": "91C728",
+                            "displayvalue": "Target",
+                            "showontop": "1"
+                        }]
+                    }],
+                    "styles": {
+                        "definition": [{
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }],
+                        "application": [{
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }]
+                    }
+                }
+            });
+            fusioncharts.render();
+        });
+    </script>
+</body>
+
+</html>

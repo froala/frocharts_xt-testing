@@ -1,0 +1,1705 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="fusioncharts/fusioncharts.js"></script>
+    <script type="text/javascript" src="fusioncharts/themes/fusioncharts.theme.fusion.js"></script>
+
+</head>
+
+<body>
+
+    <a href="https://fusioncharts.jira.com/browse/RED-5338">RED-5338</a>
+    <div>chartClick event is getting fired before element specific click events.</div>
+    <p>
+            The chartClick event is getting fired before the following element specific click events:
+            1. dataLabelClick in 3D charts, error charts and boxandwhisker2d.
+            
+            2. Click events of gantt charts:
+            
+            connectorClick
+            processClick
+            categoryClick
+            milestoneClick
+            3. labelClick in dragNode chart.
+            
+            4. linkclicked.
+    </p>
+    <div id="chart-container-1">FusionCharts will render here</div>
+    <div id="chart-container-2">FusionCharts will render here</div>
+    <div id="chart-container-3">FusionCharts will render here</div>
+    <div id="chart-container-4">FusionCharts will render here</div>
+    <div id="chart-container-5">FusionCharts will render here</div>
+    <div id="chart-container-6">FusionCharts will render here</div>
+
+    <script type="text/javascript">
+        FusionCharts.ready(function () {
+            var salesChart = new FusionCharts({
+                    type: 'boxandwhisker2d',
+                    renderAt: 'chart-container-1',
+                    width: '600',
+                    height: '350',
+                    dataFormat: 'json',
+                    dataSource: {
+                        "chart": {
+                            "labellink": "n-http://google.co.in",
+                            "caption": "Visits to a Website",
+                            "subcaption": "In three years",
+                            "useroundedges": "1",
+                            "animation": "1"
+                        },
+                        "categories": [
+                            {
+                                "category": [
+                                    {
+                                        "label": "2008",
+                                        "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://fusioncharts.com"
+                                    },
+                                    {
+                                        "label": "2009",
+                                        "link": "n-http://fusioncharts.com"
+                                    },
+                                    {
+                                        "label": "2010",
+                                        "link": "F-drill-http://fusioncharts.com"
+                                    }
+                                ]
+                            }
+                        ],
+                        "linkeddata": [
+                            {
+                                "id": "cranberry",
+                                "linkedchart": {
+                                    "chart": {
+                                        "labellink": "n-http://google.co.in",
+                                        "caption": "Visits to a Website",
+                                        "subcaption": "In three years",
+                                        "useroundedges": "1",
+                                        "animation": "1"
+                                    },
+                                    "categories": [
+                                        {
+                                            "category": [
+                                                {
+                                                    "label": "2008"
+                                                },
+                                                {
+                                                    "label": "2009"
+                                                },
+                                                {
+                                                    "label": "2010"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "dataset": [
+                                        {
+                                            "seriesname": "January",
+                                            "lowerboxcolor": "019FAA",
+                                            "upperboxcolor": "D4DFFF",
+                                            "data": [
+                                                {
+                                                    "value": "60,133,35,67,89,137,259",
+                                                    "link": "j-showAlert-Cranberry,$620K"
+                                                },
+                                                {
+                                                    "value": "139,197,175,114,39,67,191",
+                                                    "link": "newchart-xml-cranberry"
+                                                },
+                                                {
+                                                    "value": "200,107,197,239,53,26,97"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "seriesname": "February",
+                                            "lowerboxcolor": "2A5F55",
+                                            "upperboxcolor": "D47F00",
+                                            "data": [
+                                                {
+                                                    "value": "160,303,125,137,69,107,39"
+                                                },
+                                                {
+                                                    "value": "139,167,255,74,59,187,151"
+                                                },
+                                                {
+                                                    "value": "160,137,57,209,153,126,277"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "dataset": [
+                            {
+                                "seriesname": "January",
+                                "lowerboxcolor": "019FAA",
+                                "upperboxcolor": "D4DFFF",
+                                "data": [
+                                    {
+                                        "value": "60,133,35,67,89,137,259"
+                                    },
+                                    {
+                                        "value": "139,197,175,114,39,67,191"
+                                    },
+                                    {
+                                        "value": "200,107,197,239,53,26,97"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "February",
+                                "lowerboxcolor": "2A5F55",
+                                "upperboxcolor": "D47F00",
+                                "data": [
+                                    {
+                                        "value": "160,303,125,137,69,107,39"
+                                    },
+                                    {
+                                        "value": "139,167,255,74,59,187,151"
+                                    },
+                                    {
+                                        "value": "160,137,57,209,153,126,277"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                })
+                .render();
+
+             var errorChart = new FusionCharts({
+                    type: 'errorline',
+                    renderAt: 'chart-container-6',
+                    width: '600',
+                    height: '350',
+                    dataFormat: 'json',
+                    dataSource: {
+                        "chart": {
+                            "labellink": "n-http://google.co.in",
+                            "palette": "2",
+                            "xaxisname": "Appliance",
+                            "yaxisname": "Life Span (yr)",
+                            "caption": "Life Span Chart of Appliances",
+                            "subcaption": "(With Error Values)",
+                            "showvalues": "0",
+                            "halferrorbar": "0",
+                            "errorbarcolor": "ff0000",
+                            "errorbarthickness": "2",
+                            "errorbarwidth": "20",
+                            "canvaspadding": "",
+                            "animation": "1"
+                        },
+                        "categories": [
+                            {
+                                "category": [
+                                    {
+                                        "label": "AC - Central"
+                                    },
+                                    {
+                                        "label": "AC - Window"
+                                    },
+                                    {
+                                        "label": "Heat Pump"
+                                    },
+                                    {
+                                        "label": "Coffee Machine"
+                                    },
+                                    {
+                                        "label": "Dish Washer"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dataset": [
+                            {
+                                "seriesname": "At Home",
+                                "data": [
+                                    {
+                                        "value": "50",
+                                        "errorvalue": "10"
+                                    },
+                                    {
+                                        "value": "-100",
+                                        "errorvalue": "12"
+                                    },
+                                    {
+                                        "value": "120",
+                                        "errorvalue": "19"
+                                    },
+                                    {
+                                        "value": "90",
+                                        "errorvalue": "11"
+                                    },
+                                    {
+                                        "value": "-98",
+                                        "errorvalue": "15"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "In Office",
+                                "data": [
+                                    {
+                                        "value": "-11",
+                                        "errorvalue": "15"
+                                    },
+                                    {
+                                        "value": "60",
+                                        "errorvalue": "13"
+                                    },
+                                    {
+                                        "value": "-12",
+                                        "errorvalue": "16"
+                                    },
+                                    {
+                                        "value": "40",
+                                        "errorvalue": "15.8"
+                                    },
+                                    {
+                                        "value": "70",
+                                        "errorvalue": "17"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                })
+                .render();
+            var ganttChart = new FusionCharts({
+                    type: 'gantt',
+                    renderAt: 'chart-container-2',
+                    width: '600',
+                    height: '550',
+                    dataFormat: 'json',
+                    dataSource: {
+                        "chart": {
+                            "caption": "New Store Opening - Project Plan",
+                            "dateformat": "dd/mm/yyyy",
+                            "outputdateformat": "ddds mns yy",
+                            "ganttwidthpercent": "60",
+                            "ganttpaneduration": "40",
+                            "ganttpanedurationunit": "d",
+                            "useverticalscrolling": "0",
+                            "plottooltext": "<b>$label</b><br>Start: <b>$start</b><br>End: <b>$end</b>",
+                            "theme": "fusion"
+                        },
+                        "connectors": [
+                            {
+                            "connector": [
+                                {
+                                "fromtaskid": "1-1",
+                                "totaskid": "2-1",
+                                "color": "#F2726F",
+                                "thickness": "2"
+                                },
+                                {
+                                "fromtaskid": "2-1",
+                                "totaskid": "3-1",
+                                "color": "#F2726F",
+                                "thickness": "2"
+                                },
+                                {
+                                "fromtaskid": "3-1",
+                                "totaskid": "4-1",
+                                "color": "#F2726F",
+                                "thickness": "2"
+                                },
+                                {
+                                "fromtaskid": "4-1",
+                                "totaskid": "5-1",
+                                "color": "#F2726F",
+                                "thickness": "2"
+                                },
+                                {
+                                "fromtaskid": "5-1",
+                                "totaskid": "6-1",
+                                "color": "#F2726F",
+                                "thickness": "2"
+                                },
+                                {
+                                "fromtaskid": "6-1",
+                                "totaskid": "7-1",
+                                "color": "#F2726F",
+                                "thickness": "2"
+                                },
+                                {
+                                "fromtaskid": "7-1",
+                                "totaskid": "8-1",
+                                "color": "#F2726F",
+                                "thickness": "2"
+                                },
+                                {
+                                "fromtaskid": "8-1",
+                                "totaskid": "9-1",
+                                "color": "#F2726F",
+                                "thickness": "2"
+                                },
+                                {
+                                "fromtaskid": "9-1",
+                                "totaskid": "10-1",
+                                "color": "#F2726F",
+                                "thickness": "2"
+                                }
+                            ]
+                            }
+                        ],
+                        "trendlines": [
+                            {
+                            "line": [
+                                {
+                                "start": "14/4/2018",
+                                "displayvalue": "AC Testing",
+                                "color": "5D5D5D",
+                                "thickness": "1",
+                                "dashed": "1"
+                                }
+                            ]
+                            }
+                        ],
+                        "milestones": {
+                            "milestone": [
+                            {
+                                "date": "30/4/2018",
+                                "taskid": "10-1",
+                                "color": "#f8bd19",
+                                "shape": "star",
+                                "tooltext": "Store Opening",
+                                "link": "n-http://google.co.in",
+                            }
+                            ]
+                        },
+                        "tasks": {
+                            "task": [
+                            {
+                                "label": "Clear Site (4 Days)",
+                                "processid": "1",
+                                "start": "1/3/2018",
+                                "end": "5/3/2018",
+                                "id": "1-1",
+                                "color": "#5D62B5"
+                            },
+                            {
+                                "label": "Drainage & Foundation (7 Days)",
+                                "processid": "2",
+                                "start": "6/3/2018",
+                                "end": "13/3/2018",
+                                "id": "2-1",
+                                "color": "#5D62B5"
+                            },
+                            {
+                                "label": "Ground Floor (8 Days)",
+                                "processid": "3",
+                                "start": "14/3/2018",
+                                "end": "22/3/2018",
+                                "id": "3-1",
+                                "color": "#5D62B5"
+                            },
+                            {
+                                "label": "First Floor (5 Days)",
+                                "processid": "4",
+                                "start": "23/3/2018",
+                                "end": "28/3/2018",
+                                "id": "4-1",
+                                "color": "#5D62B5"
+                            },
+                            {
+                                "label": "Roofing (5 Days)",
+                                "processid": "5",
+                                "start": "29/3/2018",
+                                "end": "3/4/2018",
+                                "id": "5-1",
+                                "color": "#5D62B5"
+                            },
+                            {
+                                "label": "Connect Electricity (6 Days)",
+                                "processid": "6",
+                                "start": "4/4/2018",
+                                "end": "10/4/2018",
+                                "id": "6-1",
+                                "color": "#5D62B5"
+                            },
+                            {
+                                "label": "Air Conditioning (3 Days)",
+                                "processid": "7",
+                                "start": "11/4/2018",
+                                "end": "14/4/2018",
+                                "id": "7-1",
+                                "color": "#5D62B5"
+                            },
+                            {
+                                "label": "Interiors (8 Days)",
+                                "processid": "8",
+                                "start": "15/4/2018",
+                                "end": "23/4/2018",
+                                "id": "8-1",
+                                "color": "#5D62B5"
+                            },
+                            {
+                                "label": "Racking (3 Days)",
+                                "processid": "9",
+                                "start": "24/4/2018",
+                                "end": "28/4/2018",
+                                "id": "9-1",
+                                "color": "#5D62B5"
+                            },
+                            {
+                                "label": "Stock Shelving (1 Days)",
+                                "processid": "10",
+                                "start": "29/4/2018",
+                                "end": "30/4/2018",
+                                "id": "10-1",
+                                "color": "#5D62B5",
+                                "toppadding": "9"
+                            }
+                            ]
+                        },
+                        "processes": {
+                            "headertext": "Task",
+                            "isanimated": "1",
+                            "headervalign": "bottom",
+                            "headeralign": "left",
+                            "align": "left",
+                            "isbold": "1",
+                            "bgalpha": "25",
+                            "process": [
+                            {
+                                "label": "Clear site",
+                                "id": "1"
+                            },
+                            {
+                                "label": "Drainage & Foundation",
+                                "id": "2"
+                            },
+                            {
+                                "label": "Ground Floor",
+                                "id": "3"
+                            },
+                            {
+                                "label": "First Floor",
+                                "id": "4"
+                            },
+                            {
+                                "label": "Roofing",
+                                "id": "5"
+                            },
+                            {
+                                "label": "Connect Electricity",
+                                "id": "6"
+                            },
+                            {
+                                "label": "Air Conditioning",
+                                "id": "7"
+                            },
+                            {
+                                "label": "Interiors",
+                                "id": "8"
+                            },
+                            {
+                                "label": "Racking",
+                                "id": "9"
+                            },
+                            {
+                                "label": "Stock Shelving",
+                                "id": "10"
+                            }
+                            ]
+                        },
+                        "categories": [
+                            {
+                            "align": "middle",
+                            "category": [
+                                {
+                                "start": "1/3/2018",
+                                "end": "31/3/2018",
+                                "label": "March",
+                                "link": "n-http://google.co.in",
+                                },
+                                {
+                                "start": "1/4/2018",
+                                "end": "1/5/2018",
+                                "label": "April"
+                                }
+                            ]
+                            },
+                            {
+                            "align": "center",
+                            "category": [
+                                {
+                                "start": "1/3/2018",
+                                "end": "7/3/2018",
+                                "label": "Week 1"
+                                },
+                                {
+                                "start": "8/3/2018",
+                                "end": "14/3/2018",
+                                "label": "Week 2"
+                                },
+                                {
+                                "start": "15/3/2018",
+                                "end": "21/3/2018",
+                                "label": "Week 3"
+                                },
+                                {
+                                "start": "22/3/2018",
+                                "end": "28/3/2018",
+                                "label": "Week 4"
+                                },
+                                {
+                                "start": "29/3/2018",
+                                "end": "5/4/2018",
+                                "label": "Week 5"
+                                },
+                                {
+                                "start": "6/4/2018",
+                                "end": "12/4/2018",
+                                "label": "Week 6"
+                                },
+                                {
+                                "start": "13/4/2018",
+                                "end": "19/4/2018",
+                                "label": "Week 7"
+                                },
+                                {
+                                "start": "19/4/2018",
+                                "end": "25/4/2018",
+                                "label": "Week 8"
+                                },
+                                {
+                                "start": "25/4/2018",
+                                "end": "1/5/2018",
+                                "label": "Week 9"
+                                }
+                            ]
+                            }
+                        ]
+                        }
+                })
+                .render();
+                var dragnodeChart = new FusionCharts({
+                    type: 'dragnode',
+                    renderAt: 'chart-container-3',
+                    width: '600',
+                    height: '350',
+                    dataFormat: 'json',
+                    dataSource: {
+                        "chart": {
+                            "caption": "Metro Railway Map - Melbourne",
+                            "subcaption": "Zone 1 & Zone 2",
+                            "xaxisminvalue": "0",
+                            "xaxismaxvalue": "105",
+                            "yaxisminvalue": "-20",
+                            "yaxismaxvalue": "110",
+                            "viewmode": "1",
+                            "showplotborder": "1",
+                            "plotbordercolor": "#808080",
+                            "plotborderthickness": "1",
+                            "showtooltip": "0",
+                            "theme": "fusion",
+                            "plotborderalpha": "100",
+                            "divlinealpha": "0"
+                        },
+                        "dataset": [
+                            {
+                            "data": [
+                                {
+                                "id": "1",
+                                "label": "1",
+                                "color": "#2DBBED",
+                                "x": "5",
+                                "y": "83",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "2",
+                                "label": "2",
+                                "color": "#ffffff",
+                                "x": "12",
+                                "y": "70",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "3",
+                                "label": "3",
+                                "color": "#ffffff",
+                                "x": "20",
+                                "y": "70",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "4",
+                                "label": "4",
+                                "color": "#ffffff",
+                                "x": "25",
+                                "y": "70",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "5",
+                                "label": "5",
+                                "color": "#ffffff",
+                                "x": "25",
+                                "y": "83",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "6",
+                                "label": "6",
+                                "color": "#2DBBED",
+                                "x": "19.2",
+                                "y": "93.5",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "7",
+                                "label": "7",
+                                "color": "#fecc17",
+                                "x": "30",
+                                "y": "70",
+                                "radius": "0",
+                                "alpha": "0",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "8",
+                                "label": "8",
+                                "color": "#ffffff",
+                                "x": "30",
+                                "y": "83",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "9",
+                                "label": "9",
+                                "color": "#2DBBED",
+                                "x": "30",
+                                "y": "94.8",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "10",
+                                "label": "10",
+                                "color": "#ffffff",
+                                "x": "30.01",
+                                "y": "61.6",
+                                "radius": "0",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "12",
+                                "label": "12",
+                                "color": "#ffffff",
+                                "x": "42.36",
+                                "y": "75.1",
+                                "radius": "0",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "13",
+                                "label": "13",
+                                "color": "#ffffff",
+                                "x": "42.36",
+                                "y": "86.9",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "14",
+                                "label": "14",
+                                "color": "#2DBBED",
+                                "x": "56.9",
+                                "y": "90",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "15",
+                                "label": "15",
+                                "color": "#ffffff",
+                                "x": "50.5",
+                                "y": "82.8",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "16",
+                                "label": "16",
+                                "color": "#2DBBED",
+                                "x": "42.36",
+                                "y": "99.3",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "17",
+                                "label": "17",
+                                "color": "#ffffff",
+                                "x": "53.2",
+                                "y": "50.43",
+                                "radius": "0",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "27",
+                                "label": "27",
+                                "color": "#ffffff",
+                                "x": "68.3",
+                                "y": "23",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "19",
+                                "label": "19",
+                                "color": "#ffffff",
+                                "x": "53.2",
+                                "y": "39.3",
+                                "radius": "0",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "42",
+                                "label": "42",
+                                "color": "#ffffff",
+                                "x": "53.2",
+                                "y": "19.1",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "21",
+                                "label": "21",
+                                "color": "#ffffff",
+                                "x": "76.4",
+                                "y": "15",
+                                "radius": "0",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "22",
+                                "label": "22",
+                                "color": "#ffffff",
+                                "x": "59.5",
+                                "y": "32",
+                                "radius": "0",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "23",
+                                "label": "23",
+                                "color": "#2DBBED",
+                                "x": "96",
+                                "y": "-6.7",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "24",
+                                "label": "24",
+                                "color": "#2DBBED",
+                                "x": "53.2",
+                                "y": "6.76",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "25",
+                                "label": "25",
+                                "color": "#ffffff",
+                                "x": "59.5",
+                                "y": "18.7",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "26",
+                                "label": "26",
+                                "color": "#2DBBED",
+                                "x": "59.5",
+                                "y": "-7.2",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "28",
+                                "label": "28",
+                                "color": "#2DBBED",
+                                "x": "76.5",
+                                "y": "-7.2",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "49",
+                                "label": "49",
+                                "color": "#ffffff",
+                                "x": "78.5",
+                                "y": "50.43",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "43",
+                                "label": "43",
+                                "color": "#ffffff",
+                                "x": "89.1",
+                                "y": "50.43",
+                                "radius": "0",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "44",
+                                "label": "44",
+                                "color": "#2DBBED",
+                                "x": "96",
+                                "y": "68.6",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "45",
+                                "label": "45",
+                                "color": "#2DBBED",
+                                "x": "96",
+                                "y": "33.8",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "48",
+                                "label": "48",
+                                "color": "#ffffff",
+                                "x": "61.2",
+                                "y": "50.43",
+                                "radius": "0",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "46",
+                                "label": "46",
+                                "color": "#FECC17",
+                                "x": "76.6",
+                                "y": "34.5",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "31",
+                                "label": "31",
+                                "color": "#ffffff",
+                                "x": "66.7",
+                                "y": "35.9",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "47",
+                                "label": "47",
+                                "color": "#2DBBED",
+                                "x": "79.0",
+                                "y": "23.5",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "34",
+                                "label": "34",
+                                "color": "#ffffff",
+                                "x": "20",
+                                "y": "50",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "35",
+                                "label": "35",
+                                "color": "#2DBBED",
+                                "x": "3.68",
+                                "y": "28.04",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "36",
+                                "label": "36",
+                                "color": "#ffffff",
+                                "x": "7.86",
+                                "y": "39.21",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "37",
+                                "label": "37",
+                                "color": "#ffffff",
+                                "x": "12.2",
+                                "y": "39.1",
+                                "radius": "0",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "38",
+                                "label": "38",
+                                "color": "#ffffff",
+                                "x": "12.3",
+                                "y": "50.2",
+                                "radius": "0",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "39",
+                                "label": "39",
+                                "color": "#FECC17",
+                                "x": "19.8",
+                                "y": "29",
+                                "radius": "8",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "40",
+                                "label": "40",
+                                "color": "#ffffff",
+                                "x": "42.36",
+                                "y": "61.39",
+                                "radius": "0",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "41",
+                                "label": "41",
+                                "color": "#ffffff",
+                                "x": "30",
+                                "y": "50.43",
+                                "radius": "0",
+                                "shape": "circle"
+                                },
+                                {
+                                "id": "18",
+                                "label": "18",
+                                "color": "#ffffff",
+                                "x": "42.36",
+                                "y": "50.43",
+                                "radius": "0",
+                                "shape": "circle"
+                                }
+                            ]
+                            }
+                        ],
+                        "connectors": [
+                            {
+                            "stdthickness": "8",
+                            "connector": [
+                                {
+                                "from": "1",
+                                "to": "2",
+                                "color": "#0AAEEB",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "2",
+                                "to": "3",
+                                "color": "FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "3",
+                                "to": "4",
+                                "color": "FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "4",
+                                "to": "5",
+                                "color": "FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "5",
+                                "to": "6",
+                                "color": "#2DBBED",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "4",
+                                "to": "7",
+                                "color": "FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "7",
+                                "to": "8",
+                                "color": "FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "8",
+                                "to": "9",
+                                "color": "#2DBBED",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "3",
+                                "to": "34",
+                                "color": "FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "34",
+                                "to": "39",
+                                "color": "FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "34",
+                                "to": "38",
+                                "color": "FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "38",
+                                "to": "37",
+                                "color": "FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "38",
+                                "to": "36",
+                                "color": "FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "37",
+                                "to": "36",
+                                "color": "FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "36",
+                                "to": "35",
+                                "color": "#2DBBED",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "7",
+                                "to": "10",
+                                "color": "FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "10",
+                                "to": "41",
+                                "color": "FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "10",
+                                "to": "40",
+                                "color": "FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "40",
+                                "to": "18",
+                                "color": "FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "41",
+                                "to": "18",
+                                "color": "FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "40",
+                                "to": "12",
+                                "color": "FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "12",
+                                "to": "13",
+                                "color": "FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "13",
+                                "to": "16",
+                                "color": "#2DBBED",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "12",
+                                "to": "15",
+                                "color": "FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "15",
+                                "to": "14",
+                                "color": "#2DBBED",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "18",
+                                "to": "17",
+                                "color": "FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "17",
+                                "to": "19",
+                                "color": "FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "19",
+                                "to": "22",
+                                "color": "FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "22",
+                                "to": "27",
+                                "color": "FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "27",
+                                "to": "21",
+                                "color": "#0AAEEB",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "21",
+                                "to": "28",
+                                "color": "#2DBBED",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "21",
+                                "to": "23",
+                                "color": "#2DBBED",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "17",
+                                "to": "31",
+                                "color": "FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "31",
+                                "to": "47",
+                                "color": "#2DBBED",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "17",
+                                "to": "48",
+                                "color": "FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "48",
+                                "to": "46",
+                                "color": "FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "48",
+                                "to": "49",
+                                "color": "FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "49",
+                                "to": "43",
+                                "color": "#0AAEEB",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "43",
+                                "to": "44",
+                                "color": "#0AAEEB",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "43",
+                                "to": "45",
+                                "color": "#0AAEEB",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "19",
+                                "to": "42",
+                                "color": "FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "42",
+                                "to": "24",
+                                "color": "#0AAEEB",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "22",
+                                "to": "25",
+                                "color": "#FECC17",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                },
+                                {
+                                "from": "25",
+                                "to": "26",
+                                "color": "#0AAEEB",
+                                "arrowatstart": "0",
+                                "arrowatend": "0"
+                                }
+                            ]
+                            }
+                        ],
+                        "labels": {
+                            "label": [
+                            {
+                                "text": "Sunbury",
+                                "x": "5",
+                                "y": "90",
+                                "fontsize": "14"
+                            },
+                            {
+                                "text": "Craigieburn",
+                                "x": "13.2",
+                                "y": "100",
+                                "fontsize": "14"
+                            },
+                            {
+                                "text": "Upfield",
+                                "x": "29.5",
+                                "y": "101",
+                                "fontsize": "14"
+                            },
+                            {
+                                "text": "South Morang",
+                                "x": "46",
+                                "y": "105.5",
+                                "fontsize": "14"
+                            },
+                            {
+                                "text": "Hurstbridge",
+                                "x": "63",
+                                "y": "96",
+                                "fontsize": "14"
+                            },
+                            {
+                                "text": "Werribee",
+                                "x": "7",
+                                "y": "22",
+                                "fontsize": "14"
+                            },
+                            {
+                                "text": "Williamstown",
+                                "x": "28",
+                                "y": "29",
+                                "fontsize": "14"
+                            },
+                            {
+                                "text": "City Loop",
+                                "x": "35.9",
+                                "y": "56.8",
+                                "fontsize": "13"
+                            },
+                            {
+                                "text": "Sandringham",
+                                "x": "51",
+                                "y": "2.5",
+                                "fontsize": "14"
+                            },
+                            {
+                                "text": "Frankston",
+                                "x": "57",
+                                "y": "-13",
+                                "fontsize": "14",
+                                "allowdrag": "0"
+                            },
+                            {
+                                "text": "Cranbourne",
+                                "x": "77",
+                                "y": "-13",
+                                "fontsize": "14"
+                            },
+                            {
+                                "text": "Pakenham",
+                                "x": "96",
+                                "y": "-11.4",
+                                "fontsize": "14"
+                            },
+                            {
+                                "text": "Glen Waverley",
+                                "x": "87",
+                                "y": "19.5",
+                                "fontsize": "14"
+                            },
+                            {
+                                "text": "Alamein",
+                                "x": "83",
+                                "y": "34.5",
+                                "fontsize": "14"
+                            },
+                            {
+                                "text": "Lilydale",
+                                "x": "96.7",
+                                "y": "75",
+                                "fontsize": "14"
+                            },
+                            {
+                                "text": "Belgrave",
+                                "x": "99.2",
+                                "y": "29.2",
+                                "fontsize": "14"
+                            }
+                            ]
+                        }
+                        }
+                
+                })
+                .render();
+                var column3dChart = new FusionCharts({
+                    type: 'column3d',
+                    renderAt: 'chart-container-4',
+                    width: '600',
+                    height: '350',
+                    dataFormat: 'json',
+                    dataSource: {
+                        "chart": {
+                            "labellink": "n-http://google.co.in",
+                            "caption": "Monthly",
+                            "xaxisname": "Month",
+                            "yaxisname": "Revenue",
+                            "numberprefix": "$",
+                            "showvalues": "1",
+                            "animation": "1"
+                        },
+                        "data": [
+                            {
+                                "label": "Jan",
+                                "value": "420000",
+                                "link": "n-http://fusioncharts.com"
+                            },
+                            {
+                                "label": "Feb",
+                                "value": "910000",
+                                "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://fusioncharts.com"
+                            },
+                            {
+                                "label": "Mar",
+                                "value": "720000",
+                                "link": "F-drill-http://fusioncharts.com"
+                            },
+                            {
+                                "label": "Apr",
+                                "value": "550000",
+                                "link": "newchart-xml-cranberry"
+                            },
+                            {
+                                "label": "May",
+                                "value": "810000"
+                            },
+                            {
+                                "label": "Jun",
+                                "value": "510000"
+                            },
+                            {
+                                "label": "Jul",
+                                "value": "680000"
+                            },
+                            {
+                                "label": "Aug",
+                                "value": "620000"
+                            },
+                            {
+                                "label": "Sep",
+                                "value": "610000"
+                            },
+                            {
+                                "label": "Oct",
+                                "value": "490000"
+                            },
+                            {
+                                "label": "Nov",
+                                "value": "530000"
+                            },
+                            {
+                                "label": "Dec",
+                                "value": "330000"
+                            }
+                        ],
+                        "linkeddata": [
+                            {
+                                "id": "cranberry",
+                                "linkedchart": {
+                                    "chart": {
+                                        "labellink": "n-http://google.co.in",
+                                        "caption": "Cranberry Juice - Quarterly Sales",
+                                        "subcaption": "Last year",
+                                        "xaxisname": "Quarter",
+                                        "yaxisname": "Amount (In USD)",
+                                        "numberprefix": "$",
+                                        "theme": "fint",
+                                        "rotateValues": "0"
+                                    },
+                                    "data": [
+                                        {
+                                            "label": "Q1",
+                                            "value": "102000"
+                                        },
+                                        {
+                                            "label": "Q2",
+                                            "value": "142000"
+                                        },
+                                        {
+                                            "label": "Q3",
+                                            "value": "187000"
+                                        },
+                                        {
+                                            "label": "Q4",
+                                            "value": "189000"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "trendlines": [
+                            {
+                                "line": [
+                                    {
+                                        "startvalue": "700000",
+                                        "istrendzone": "1",
+                                        "valueonright": "1",
+                                        "tooltext": "AYAN",
+                                        "endvalue": "900000",
+                                        "color": "009933",
+                                        "displayvalue": "Target",
+                                        "showontop": "1",
+                                        "thickness": "5"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                })
+                .render();
+
+                 var pie3dChart = new FusionCharts({
+                    type: 'pie3d',
+                    renderAt: 'chart-container-5',
+                    width: '600',
+                    height: '350',
+                    dataFormat: 'json',
+                    dataSource: {
+                        "chart": {
+                            "labellink": "n-http://google.co.in",
+                            "caption": "Monthly",
+                            "xaxisname": "Month",
+                            "yaxisname": "Revenue",
+                            "numberprefix": "$",
+                            "showvalues": "1",
+                            "animation": "1"
+                        },
+                        "data": [
+                            {
+                                "label": "Jan",
+                                "value": "420000",
+                                "link": "n-http://fusioncharts.com"
+                            },
+                            {
+                                "label": "Feb",
+                                "value": "910000",
+                                "link": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://fusioncharts.com"
+                            },
+                            {
+                                "label": "Mar",
+                                "value": "720000",
+                                "link": "F-drill-http://fusioncharts.com"
+                            },
+                            {
+                                "label": "Apr",
+                                "value": "550000"
+                            },
+                            {
+                                "label": "May",
+                                "value": "810000"
+                            },
+                            {
+                                "label": "Jun",
+                                "value": "510000"
+                            },
+                            {
+                                "label": "Jul",
+                                "value": "680000"
+                            },
+                            {
+                                "label": "Aug",
+                                "value": "620000"
+                            },
+                            {
+                                "label": "Sep",
+                                "value": "610000"
+                            },
+                            {
+                                "label": "Oct",
+                                "value": "490000"
+                            },
+                            {
+                                "label": "Nov",
+                                "value": "530000"
+                            },
+                            {
+                                "label": "Dec",
+                                "value": "330000"
+                            }
+                        ],
+                        "linkeddata": [
+                            {
+                                "id": "cranberry",
+                                "linkedchart": {
+                                    "chart": {
+                                        "labellink": "n-http://google.co.in",
+                                        "caption": "Cranberry Juice - Quarterly Sales",
+                                        "subcaption": "Last year",
+                                        "xaxisname": "Quarter",
+                                        "yaxisname": "Amount (In USD)",
+                                        "numberprefix": "$",
+                                        "theme": "fint",
+                                        "rotateValues": "0"
+                                    },
+                                    "data": [
+                                        {
+                                            "label": "Q1",
+                                            "value": "102000"
+                                        },
+                                        {
+                                            "label": "Q2",
+                                            "value": "142000"
+                                        },
+                                        {
+                                            "label": "Q3",
+                                            "value": "187000"
+                                        },
+                                        {
+                                            "label": "Q4",
+                                            "value": "189000"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "trendlines": [
+                            {
+                                "line": [
+                                    {
+                                        "startvalue": "700000",
+                                        "istrendzone": "1",
+                                        "valueonright": "1",
+                                        "tooltext": "AYAN",
+                                        "endvalue": "900000",
+                                        "color": "009933",
+                                        "displayvalue": "Target",
+                                        "showontop": "1",
+                                        "thickness": "5"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                })
+                .render();
+            FusionCharts.addEventListener("chartClick", function(evt, data) {
+            console.log("chartClick ");
+            //evt.preventDefault();
+            });
+            FusionCharts.addEventListener("dataLabelClick", function(evt, data) {
+                console.log("dataLabelClick ");
+                //evt.preventDefault();
+            });
+            FusionCharts.addEventListener("labelClick", function(evt, data) {
+                console.log("LabelClick ");
+                //evt.preventDefault();
+            });
+            FusionCharts.addEventListener("linkclicked", function(evt, data) {
+                console.log("linkclicked ");
+                //evt.preventDefault();
+            });
+            FusionCharts.addEventListener("connectorClick", function(evt, data) {
+                console.log("connectorClick ");
+                //evt.preventDefault();
+            });
+            FusionCharts.addEventListener("processClick", function(evt, data) {
+                console.log("processClick ");
+                //evt.preventDefault();
+            });
+            FusionCharts.addEventListener("categoryClick", function(evt, data) {
+                console.log("categoryClick ");
+                //evt.preventDefault();
+            });
+            FusionCharts.addEventListener("milestoneClick", function(evt, data) {
+                console.log("milestoneClick ");
+                //evt.preventDefault();
+            });
+        });
+    </script>
+</body>
+
+</html>

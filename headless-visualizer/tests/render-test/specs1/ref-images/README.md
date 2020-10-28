@@ -1,0 +1,1 @@
+This folder contains images generated using the baseline version. Hence, will be used a reference images for test case.

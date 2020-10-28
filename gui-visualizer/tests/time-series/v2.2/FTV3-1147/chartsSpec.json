@@ -1,0 +1,485 @@
+{
+    "FTV3-1147-tc1": {
+        "id": "FTV3-1147-tc1",
+        "description": "Flag Data marker specified at a day level, shown for atleast month level bin",
+        "options": {
+            "data-id": "data-FTV3-1147",
+            "schema-id": "schema-FTV3-1147",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "yaxis": [
+                    {
+                        "plot": "Temperature",
+                        "title": "Temperature",
+                        "plotType": "line",
+                        "format": {
+                            "suffix": "°C",
+                            "label": "Controlled Temperature",
+                            "value": "10"
+                        }
+                    }
+                ],
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multicanvas": 0
+                },
+                "xaxis": {
+                    "binning": {
+                        "month": [ 1 ],
+                        "day": [],
+                        "hour": [],
+                        "minute": []
+                    },
+                    "initialInterval": {
+                        "from": "01/01/2020 0:00:00",
+                        "to": "07/31/2021 23:59:59"
+                    }
+                },
+                "datamarker": [
+                    {
+                        "time": "05/25/2020",
+                        "identifier": "A",
+                        "timeformat": "%m/%d/%Y",
+                        "tooltext": "Data marker",
+                        "styleDefinition": {
+                            "colorstyle": {
+                                "fill": "#ff0000",
+                                "font-weight": "bold"
+                            }
+                        }
+                    }
+                ],
+                "caption": {
+                    "text": "Temperature readings of an Italian Town"
+                }
+            }
+        }
+    },
+    "FTV3-1147-tc2": {
+        "id": "FTV3-1147-tc2",
+        "description": "Pin Data marker specified at a day level, shown for atleast month level bin",
+        "options": {
+            "data-id": "data-FTV3-1147",
+            "schema-id": "schema-FTV3-1147",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "yaxis": [
+                    {
+                        "plot": "Temperature",
+                        "title": "Temperature",
+                        "plotType": "line",
+                        "format": {
+                            "suffix": "°C",
+                            "label": "Controlled Temperature",
+                            "value": "10"
+                        }
+                    }
+                ],
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multicanvas": 0
+                },
+                "xaxis": {
+                    "binning": {
+                        "month": [ 1 ],
+                        "day": [],
+                        "hour": [],
+                        "minute": []
+                    },
+                    "initialInterval": {
+                        "from": "01/01/2020 0:00:00",
+                        "to": "07/31/2021 23:59:59"
+                    }
+                },
+                "datamarker": [
+                    {
+                        "time": "05/25/2020",
+                        "identifier": "A",
+                        "type": "pin",
+                        "timeformat": "%m/%d/%Y",
+                        "tooltext": "Data marker",
+                        "styleDefinition": {
+                            "colorstyle": {
+                                "fill": "#ff0000",
+                                "font-weight": "bold"
+                            }
+                        }
+                    }
+                ],
+                "caption": {
+                    "text": "Temperature readings of an Italian Town"
+                }
+            }
+        }
+    },
+    "FTV3-1147-tc3": {
+        "id": "FTV3-1147-tc3",
+        "description": "Data marker specified at a hour level, shown for the month level bin",
+        "options": {
+            "data-id": "data-FTV3-1147",
+            "schema-id": "schema-FTV3-1147",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "yaxis": [
+                    {
+                        "plot": "Temperature",
+                        "title": "Temperature",
+                        "plotType": "line",
+                        "format": {
+                            "suffix": "°C",
+                            "label": "Controlled Temperature",
+                            "value": "10"
+                        }
+                    }
+                ],
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multicanvas": 0
+                },
+                "xaxis": {
+                    "binning": {
+                        "year": [ 1 ],
+                        "month": [ 1 ],
+                        "day": [],
+                        "hour": [],
+                        "minute": []
+                    },
+                    "initialInterval": {
+                        "from": "03/01/2020 0:00:00",
+                        "to": "07/31/2020 23:59:59"
+                    }
+                },
+                "datamarker": [
+                    {
+                        "time": "05/25/2020 15",
+                        "identifier": "A",
+                        "timeformat": "%m/%d/%Y %H",
+                        "tooltext": "Data marker",
+                        "styleDefinition": {
+                            "colorstyle": {
+                                "fill": "#ff0000",
+                                "font-weight": "bold"
+                            }
+                        }
+                    }
+                ],
+                "caption": {
+                    "text": "Temperature readings of an Italian Town"
+                }
+            }
+        }
+    },
+    "FTV3-1147-tc4": {
+        "id": "FTV3-1147-tc4",
+        "description": "Data marker specified at a hour level, shown for the day level bin",
+        "options": {
+            "data-id": "data-FTV3-1147",
+            "schema-id": "schema-FTV3-1147",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "yaxis": [
+                    {
+                        "plot": "Temperature",
+                        "title": "Temperature",
+                        "plotType": "line",
+                        "format": {
+                            "suffix": "°C",
+                            "label": "Controlled Temperature",
+                            "value": "10"
+                        }
+                    }
+                ],
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multicanvas": 0
+                },
+                "xaxis": {
+                    "binning": {
+                        "year": [ 1 ],
+                        "month": [ 1 ],
+                        "day": [ 1 ],
+                        "hour": [ ],
+                        "minute": []
+                    },
+                    "initialInterval": {
+                        "from": "05/20/2020 0:00:00",
+                        "to": "06/05/2020 23:59:59"
+                    }
+                },
+                "datamarker": [
+                    {
+                        "time": "05/25/2020 15",
+                        "identifier": "A",
+                        "timeformat": "%m/%d/%Y %H",
+                        "tooltext": "Data marker",
+                        "styleDefinition": {
+                            "colorstyle": {
+                                "fill": "#ff0000",
+                                "font-weight": "bold"
+                            }
+                        }
+                    }
+                ],
+                "caption": {
+                    "text": "Temperature readings of an Italian Town"
+                }
+            }
+        }
+    },
+    "FTV3-1147-tc5": {
+        "id": "FTV3-1147-tc5",
+        "description": "Data marker specified at minute level time unit, shown for the day level bin",
+        "options": {
+            "data-id": "data-FTV3-1147",
+            "schema-id": "schema-FTV3-1147",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "yaxis": [
+                    {
+                        "plot": "Temperature",
+                        "title": "Temperature",
+                        "plotType": "line",
+                        "format": {
+                            "suffix": "°C",
+                            "label": "Controlled Temperature",
+                            "value": "10"
+                        }
+                    }
+                ],
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multicanvas": 0
+                },
+                "xaxis": {
+                    "binning": {
+                        "month": [ 1 ],
+                        "day": [ 1 ],
+                        "hour": [],
+                        "minute": []
+                    },
+                    "initialInterval": {
+                        "from": "05/01/2020 0:00:00",
+                        "to": "06/01/2020 23:59:59"
+                    }
+                },
+                "datamarker": [
+                    {
+                        "time": "05/25/2020 15:40",
+                        "identifier": "A",
+                        "timeformat": "%m/%d/%Y %H:%M",
+                        "tooltext": "Data marker",
+                        "styleDefinition": {
+                            "colorstyle": {
+                                "fill": "#ff0000",
+                                "font-weight": "bold"
+                            }
+                        }
+                    }
+                ],
+                "caption": {
+                    "text": "Temperature readings of an Italian Town"
+                }
+            }
+        }
+    },
+    "FTV3-1147-tc6": {
+        "id": "FTV3-1147-tc6",
+        "description": "Data marker specified at minute level time unit, shown for the hour level bin",
+        "options": {
+            "data-id": "data-FTV3-1147",
+            "schema-id": "schema-FTV3-1147",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "yaxis": [
+                    {
+                        "plot": "Temperature",
+                        "title": "Temperature",
+                        "plotType": "line",
+                        "format": {
+                            "suffix": "°C",
+                            "label": "Controlled Temperature",
+                            "value": "10"
+                        }
+                    }
+                ],
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multicanvas": 0
+                },
+                "xaxis": {
+                    "binning": {
+                        "month": [ 1 ],
+                        "day": [ 1 ],
+                        "hour": [ 1 ],
+                        "minute": []
+                    },
+                    "initialInterval": {
+                        "from": "05/24/2020 0:00:00",
+                        "to": "05/26/2020 23:59:59"
+                    }
+                },
+                "datamarker": [
+                    {
+                        "time": "05/25/2020 15:40",
+                        "identifier": "A",
+                        "timeformat": "%m/%d/%Y %H:%M",
+                        "tooltext": "Data marker",
+                        "styleDefinition": {
+                            "colorstyle": {
+                                "fill": "#ff0000",
+                                "font-weight": "bold"
+                            }
+                        }
+                    }
+                ],
+                "caption": {
+                    "text": "Temperature readings of an Italian Town"
+                }
+            }
+        }
+    },
+    "FTV3-1147-tc7": {
+        "id": "FTV3-1147-tc7",
+        "description": "Data marker specified at second level time unit, shown for the hour level bin",
+        "options": {
+            "data-id": "data-FTV3-1147",
+            "schema-id": "schema-FTV3-1147",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "yaxis": [
+                    {
+                        "plot": "Temperature",
+                        "title": "Temperature",
+                        "plotType": "line",
+                        "format": {
+                            "suffix": "°C",
+                            "label": "Controlled Temperature",
+                            "value": "10"
+                        }
+                    }
+                ],
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multicanvas": 0
+                },
+                "xaxis": {
+                    "binning": {
+                        "month": [ 1 ],
+                        "day": [ 1 ],
+                        "hour": [ 1 ],
+                        "minute": []
+                    },
+                    "initialInterval": {
+                        "from": "05/25/2020 05:00:00",
+                        "to": "05/25/2020 19:59:59"
+                    }
+                },
+                "datamarker": [
+                    {
+                        "time": "05/25/2020 15:40:30",
+                        "identifier": "A",
+                        "timeformat": "%m/%d/%Y %H:%M:%S",
+                        "tooltext": "Data marker",
+                        "styleDefinition": {
+                            "colorstyle": {
+                                "fill": "#ff0000",
+                                "font-weight": "bold"
+                            }
+                        }
+                    }
+                ],
+                "caption": {
+                    "text": "Temperature readings of an Italian Town"
+                }
+            }
+        }
+    },
+    "FTV3-1147-tc8": {
+        "id": "FTV3-1147-tc8",
+        "description": "Data marker specified at second level time unit, shown for the minute level bin",
+        "options": {
+            "data-id": "data-FTV3-1147",
+            "schema-id": "schema-FTV3-1147",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "yaxis": [
+                    {
+                        "plot": "Temperature",
+                        "title": "Temperature",
+                        "plotType": "line",
+                        "format": {
+                            "suffix": "°C",
+                            "label": "Controlled Temperature",
+                            "value": "10"
+                        }
+                    }
+                ],
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multicanvas": 0
+                },
+                "xaxis": {
+                    "binning": {
+                        "month": [],
+                        "day": [],
+                        "hour": [],
+                        "minute": [ 20 ]
+                    },
+                    "initialInterval": {
+                        "from": "05/25/2020 12:00:00",
+                        "to": "05/25/2020 16:00:00"
+                    }
+                },
+                "datamarker": [
+                    {
+                        "time": "05/25/2020 15:40:30",
+                        "identifier": "A",
+                        "timeformat": "%m/%d/%Y %H:%M:%S",
+                        "tooltext": "Data marker",
+                        "styleDefinition": {
+                            "colorstyle": {
+                                "fill": "#ff0000",
+                                "font-weight": "bold"
+                            }
+                        }
+                    }
+                ],
+                "caption": {
+                    "text": "Temperature readings of an Italian Town"
+                }
+            }
+        }
+    }
+}

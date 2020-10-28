@@ -1,0 +1,162 @@
+{
+    "marimekko": {
+        "descriptions": "update theme from gammel to fint",
+        "id": "marimekko",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "marimekko",
+            "dataSource": {
+                "chart": {
+                    "showvalues": "0",
+                    "caption": "Market Share Analysis",
+                    "subcaption": "2009",
+                    "numberprefix": "$",
+                    "xaxisname": "Market Segment",
+                    "yaxisname": "Market Share",
+                    "legendcaption": "Manufacturer",
+                    "animation": 0,
+                    "theme": "gammel"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Desktop"
+                            },
+                            {
+                                "label": "Laptop"
+                            },
+                            {
+                                "label": "Notebook"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "A",
+                        "data": [
+                            {
+                                "value": "335000"
+                            },
+                            {
+                                "value": "225100"
+                            },
+                            {
+                                "value": "164200"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "B",
+                        "data": [
+                            {
+                                "value": "215000"
+                            },
+                            {
+                                "value": "198000"
+                            },
+                            {
+                                "value": "120000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "C",
+                        "data": [
+                            {
+                                "value": "298000"
+                            },
+                            {
+                                "value": "109300"
+                            },
+                            {
+                                "value": "153600"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "showvalues": "0",
+                            "caption": "Market Share Analysis",
+                            "subcaption": "2009",
+                            "numberprefix": "$",
+                            "xaxisname": "Market Segment",
+                            "yaxisname": "Market Share",
+                            "legendcaption": "Manufacturer",
+                            "animation": 0,
+                            "theme": "fint"
+                        },
+                        "categories": [
+                            {
+                                "category": [
+                                    {
+                                        "label": "Desktop"
+                                    },
+                                    {
+                                        "label": "Laptop"
+                                    },
+                                    {
+                                        "label": "Notebook"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dataset": [
+                            {
+                                "seriesname": "A",
+                                "data": [
+                                    {
+                                        "value": "335000"
+                                    },
+                                    {
+                                        "value": "225100"
+                                    },
+                                    {
+                                        "value": "164200"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "B",
+                                "data": [
+                                    {
+                                        "value": "215000"
+                                    },
+                                    {
+                                        "value": "198000"
+                                    },
+                                    {
+                                        "value": "120000"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "C",
+                                "data": [
+                                    {
+                                        "value": "298000"
+                                    },
+                                    {
+                                        "value": "109300"
+                                    },
+                                    {
+                                        "value": "153600"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

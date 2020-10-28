@@ -1,0 +1,35 @@
+{
+    "module": "gv",
+    "agent": "",
+    "logging": "silent",
+    "browserStackLocalTesting": "0",
+
+    "absoluteUrl": "0",
+    "ipGV": "http://localhost:8080/frocharts_xt-testing",
+    "ipGL_": "http://192.168.0.147:3000",
+    "resultHost": "http://localhost:84/frocharts_xt-testing",
+
+    "filterCharts": {
+        "includeOrExclude": "1",
+        "_charts": "bar2d,hled"
+    },
+    "nodeConfig":[{
+        "host":"localhost",
+        "port":"4444",
+        "client":"chrome",
+        "browserName":"chrome"
+    }],
+    "clientversion": "",
+    "imageLoadTimeout": "5000",
+    "defWaitTime": "5000",
+
+    "baseline": "/../base-version",
+    "testVersion": "/../target-version",
+    "specs": "tests/froalacharts",
+    
+    "bsuser": "sanketnadhani",
+    "bskey": "KnjMF7tSr2hQg1uASUP5",
+
+    "sluser": "rohitfusioncharts",
+    "slkey": "d6642785-9316-49ac-b1ea-52864d991f5a"
+}

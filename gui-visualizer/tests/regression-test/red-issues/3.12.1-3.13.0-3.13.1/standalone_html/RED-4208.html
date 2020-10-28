@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FusionChart module build sample...</title>
+    <script type="text/javascript" src="fusioncharts/fusioncharts.js"></script>
+    <style type="text/css">
+    a {
+        text-decoration: none;
+    }
+    </style>
+</head>
+
+<body>
+    <a href="https://fusioncharts.jira.com/browse/RED-4208">RED-4208</a>
+    <div>when a chart is rendered in a hidden container and the container is removed without showing, chart throws an error.</div>
+    <div style="height: 350px">
+        <div id='main-container' style="display: none;">
+            <div id='chart-container'>Chart will render here...</div>
+        </div>
+    </div>
+    Container &nbsp; &nbsp; &nbsp;
+    <a href="javascript:void(0)" onclick="removeEle()">Remove</a> &nbsp; &nbsp; &nbsp;
+    <a href="javascript:void(0)" onclick="showChild()">Show</a> &nbsp; &nbsp; &nbsp;
+    <a href="javascript:void(0)" onclick="hideChild()">Hide</a>
+    <script type="text/javascript">
+    var mainContainer = document.getElementById('main-container'),
+        chartContainer = document.getElementById('chart-container'),
+        removeEle = function() {
+            mainContainer.removeChild(chartContainer);
+        },
+        showChild = function() {
+            mainContainer.style.display = '';
+        },
+        hideChild = function() {
+            mainContainer.style.display = 'none';
+        };
+    window.exportCallback = function() {
+        console.log('exportCallback: ', arguments)
+    };
+
+    chart = new FusionCharts({
+            type: 'Column2D',
+            dataFormat: 'json',
+            // creditLabel: false,
+            dataSource: {
+                chart: {
+                    exportEnabled: 1
+                },
+                data: [{
+                    value: 7
+                }, {
+                    value: 8
+                }, {
+                    value: 10
+                }, {
+                    value: 5.7
+                }, {
+                    value: 4.6
+                }]
+            }
+        })
+        .render('chart-container');
+
+
+    function exportChart() {
+        chart.exportChart({
+            exportAtClientSide: 0,
+            exportAction: 'save',
+            exportCallback: 'exportCallback'
+        });
+    }
+    </script>
+</body>
+
+</html>

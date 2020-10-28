@@ -1,0 +1,18 @@
+<html>
+  <head>        
+    <title>My First chart using FusionCharts XT</title>         
+    <script type="text/javascript" src="../../../fusioncharts/fusioncharts.js"></script>
+  </head>   
+  <body>     
+    <div id="chartContainer">FusionCharts XT will load here!</div>          
+    <script type="text/javascript"><!--         
+FusionCharts.ready(function(){
+      var myChart = new FusionCharts( "Column2D","myChartId", "800", "800", "0" );
+	  var strXml ="<chart caption='Monthly Revenue' xAxisName='Month' yAxisName='Revenue' numberPrefix='$' showValues='1'>    <set label='Jan' value='420000' />    <set label='Feb' value='910000' />    <set label='Mar' value='720000' />    <set label='Apr' value='550000' />    <set label='May' value='810000' />    <set label='Jun' value='510000' />    <set label='Jul' value='680000' />    <set label='Aug' value='620000' />    <set label='Sep' value='610000' />    <set label='Oct' value='490000' />    <set label='Nov' value='530000' />    <set label='Dec' value='330000' />    <trendLines>       <line startValue='700000' color='009933' displayvalue='Target' />    </trendLines> </chart> "; 
+	  myChart.setXMLData(strXml);
+      myChart.render("chartContainer");
+      });
+    // -->     
+    </script>      
+  </body> 
+</html>

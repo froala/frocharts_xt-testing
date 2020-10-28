@@ -1,0 +1,593 @@
+{
+    "TS_02_TC_14-bar2d": {
+        "id": "TS_02_TC_14-bar2d",
+        "description": "xAxisPosition attribute with string value=right is applied from chart object",
+        "options": {
+            "type": "bar2d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "animation": 0,
+                    "caption": "caption",
+                    "subcaption": "subCaption",
+                    "xaxisname": "xAxisName",
+                    "yaxisname": "yAxisName",
+                    "xaxisposition": "left",
+                    "labelfontcolor": "#ff0000"
+                },
+                "data": [
+                    {
+                        "label": "Label-1",
+                        "value": 1
+                    },
+                    {
+                        "label": "Label-2",
+                        "value": 2
+                    },
+                    {
+                        "label": "Label-3",
+                        "value": 3
+                    },
+                    {
+                        "label": "Label-4",
+                        "value": 4
+                    },
+                    {
+                        "label": "Label-5",
+                        "value": 5
+                    },
+                    {
+                        "label": "Label-6",
+                        "value": 6
+                    },
+                    {
+                        "label": "Label-7",
+                        "value": 7
+                    },
+                    {
+                        "label": "Label-8",
+                        "value": 8
+                    },
+                    {
+                        "label": "Label-9",
+                        "value": 9
+                    },
+                    {
+                        "label": "Label-10",
+                        "value": 10
+                    }
+                ]
+            }
+        }
+    },
+    "TS_02_TC_14-bar3d": {
+        "id": "TS_02_TC_14-bar3d",
+        "description": "xAxisPosition attribute with string value=right is applied from chart object",
+        "options": {
+            "type": "bar3d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "animation": 0,
+                    "caption": "caption",
+                    "subcaption": "subCaption",
+                    "xaxisname": "xAxisName",
+                    "yaxisname": "yAxisName",
+                    "xaxisposition": "left",
+                    "labelfontcolor": "#ff0000"
+                },
+                "data": [
+                    {
+                        "label": "Label-1",
+                        "value": 1
+                    },
+                    {
+                        "label": "Label-2",
+                        "value": 2
+                    },
+                    {
+                        "label": "Label-3",
+                        "value": 3
+                    },
+                    {
+                        "label": "Label-4",
+                        "value": 4
+                    },
+                    {
+                        "label": "Label-5",
+                        "value": 5
+                    },
+                    {
+                        "label": "Label-6",
+                        "value": 6
+                    },
+                    {
+                        "label": "Label-7",
+                        "value": 7
+                    },
+                    {
+                        "label": "Label-8",
+                        "value": 8
+                    },
+                    {
+                        "label": "Label-9",
+                        "value": 9
+                    },
+                    {
+                        "label": "Label-10",
+                        "value": 10
+                    }
+                ]
+            }
+        }
+    },
+    "TS_02_TC_14-msbar2d": {
+        "id": "TS_02_TC_14-msbar2d",
+        "description": "xAxisPosition attribute with string value=right is applied from chart object",
+        "options": {
+            "type": "msbar2d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 10,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "caption": "caption",
+                    "subcaption": "subCaption",
+                    "xaxisname": "xAxisName",
+                    "yaxisname": "yAxisName",
+                    "xaxisposition": "left",
+                    "labelfontcolor": "#ff0000"
+                }
+            }
+        }
+    },
+    "TS_02_TC_14-msbar3d": {
+        "id": "TS_02_TC_14-msbar3d",
+        "description": "xAxisPosition attribute with string value=right is applied from chart object",
+        "options": {
+            "type": "msbar3d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 10,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "caption": "caption",
+                    "subcaption": "subCaption",
+                    "xaxisname": "xAxisName",
+                    "yaxisname": "yAxisName",
+                    "xaxisposition": "left",
+                    "labelfontcolor": "#ff0000"
+                }
+            }
+        }
+    },
+    "TS_02_TC_14-overlappedbar2d": {
+        "id": "TS_02_TC_14-overlappedbar2d",
+        "description": "xAxisPosition attribute with string value=right is applied from chart object",
+        "options": {
+            "type": "overlappedbar2d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 10,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "caption": "caption",
+                    "subcaption": "subCaption",
+                    "xaxisname": "xAxisName",
+                    "yaxisname": "yAxisName",
+                    "xaxisposition": "left",
+                    "labelfontcolor": "#ff0000"
+                }
+            }
+        }
+    },
+    "TS_02_TC_14-stackedbar2d": {
+        "id": "TS_02_TC_14-stackedbar2d",
+        "description": "xAxisPosition attribute with string value=right is applied from chart object",
+        "options": {
+            "type": "stackedbar2d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 10,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "caption": "caption",
+                    "subcaption": "subCaption",
+                    "xaxisname": "xAxisName",
+                    "yaxisname": "yAxisName",
+                    "xaxisposition": "left",
+                    "labelfontcolor": "#ff0000"
+                }
+            }
+        }
+    },
+    "TS_02_TC_14-stackedbar3d": {
+        "id": "TS_02_TC_14-stackedbar3d",
+        "description": "xAxisPosition attribute with string value=right is applied from chart object",
+        "options": {
+            "type": "stackedbar3d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 10,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "caption": "caption",
+                    "subcaption": "subCaption",
+                    "xaxisname": "xAxisName",
+                    "yaxisname": "yAxisName",
+                    "xaxisposition": "left",
+                    "labelfontcolor": "#ff0000"
+                }
+            }
+        }
+    }
+}

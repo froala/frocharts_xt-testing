@@ -1,0 +1,152 @@
+<html>
+	<head>        
+		<title>FusionCharts XT - listen to DrawComplete event</title>       
+		<script type="text/javascript" src="../../../fusioncharts/fusioncharts.js">
+		</script>
+			
+	</head>   
+	<body>     
+		<div id="chartContainer">FusionCharts XT will load here!</div>          
+		<script type="text/javascript"><!--  
+			
+			
+			var featureTestPass1 = false;
+			//var featureTestPass2 = false;
+			//FusionCharts.addEventListener("Initialized", myChartListener1);
+			  var objJSON = {
+    "chart": {
+        "caption": "Cisco",
+        "canvasleftmargin": "110",
+        "animation": "0"
+    },
+    "dataset": [
+        {
+            "data": [
+                {
+                    "value": "38.42"
+                },
+                {
+                    "value": "41.43"
+                },
+                {
+                    "value": "34.78"
+                },
+                {
+                    "value": "40.67"
+                },
+                {
+                    "value": "44.12"
+                },
+                {
+                    "value": "38.45"
+                },
+                {
+                    "value": "40.71"
+                },
+                {
+                    "value": "49.90"
+                },
+                {
+                    "value": "40.12"
+                },
+                {
+                    "value": "34.91"
+                },
+                {
+                    "value": "42.02"
+                },
+                {
+                    "value": "35.21"
+                },
+                {
+                    "value": "43.31"
+                },
+                {
+                    "value": "40.21"
+                },
+                {
+                    "value": "40.54"
+                },
+                {
+                    "value": "40.90"
+                },
+                {
+                    "value": "54.21"
+                },
+                {
+                    "value": "41.90"
+                },
+                {
+                    "value": "33.43"
+                },
+                {
+                    "value": "46.73"
+                },
+                {
+                    "value": "50.42"
+                },
+                {
+                    "value": "40.74"
+                },
+                {
+                    "value": "42.31"
+                },
+                {
+                    "value": "50.39"
+                },
+                {
+                    "value": "51.10"
+                },
+                {
+                    "value": "44.84"
+                },
+                {
+                    "value": "51.64"
+                },
+                {
+                    "value": "47.62"
+                },
+                {
+                    "value": "39.61"
+                },
+                {
+                    "value": "35.13"
+                }
+            ]
+        }
+    ]
+}
+    
+			  
+			//Chart setup code
+			var myChart = new FusionCharts({type: 'SparkLine', width: '400', height: '300', debugMode: false, bgColor: 'ffff0f', renderAt: 'chartContainer', id: "myChartId", dataSource: objJSON, dataFormat: 'json', renderer: 'javascript'
+					});
+			
+			
+			FusionCharts.addEventListener("connectorAdded", myChartListener1);
+			
+			myChart.render();
+			
+			
+			function myChartListener1(eventObject, argumentsObject)
+			{
+			  
+			  var chart = eventObject.sender, // access the chart that raised this event
+			  caption = chart && chart.getChartAttribute('caption');
+			  var containertext = "";
+				
+				featureTestPass1 = true;
+				
+				featureTestPass1 = featureTestPass1 && (eventObject.sender.id == "myChartId");
+				
+				featureTestPass1 = featureTestPass1 && (eventObject.eventType == "connectoradded");
+				
+				 alert("ConnectorAdded Event has been triggered with attributes:" + argumentsObject.toSource());
+				
+			}
+			
+					  
+			// -->     
+		</script>      
+	</body> 
+	</html>

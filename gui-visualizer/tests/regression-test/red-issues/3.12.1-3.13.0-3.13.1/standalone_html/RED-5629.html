@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="fusioncharts/fusioncharts.js"></script>
+</head>
+
+<body>
+
+    <a href="https://fusioncharts.jira.com/browse/RED-5629">RED-5629</a>
+    <div>Delay in drawing plot values due to animation duration of other charts in a page..</div>
+    <p>If there are multiple charts in a page, the plot values of all charts don't appear unless the rendering animation is completed for all charts.</p>
+    <div id="chart-container1">FusionCharts will render here</div>
+    <div id="chart-container2">FusionCharts will render here</div>
+    <span id ="chart-container3"></span>
+
+    <script type="text/javascript">
+        FusionCharts.ready(function () {
+            var revenueChart1 = new FusionCharts({
+                type: 'column2d',
+                renderAt: 'chart-container1',
+                width: '300',
+                height: '300',
+                dataFormat: 'json',
+                dataSource: {
+                "chart": {
+                    "animation": "0",
+                    "caption": "Monthly revenue for last year",
+                    "subCaption": "Harry's SuperMart",
+                    "xAxisName": "Month",
+                    "yAxisName": "Revenues (In USD)",
+                    "numberPrefix": "$",
+                    "paletteColors": "#0075c2",
+                    "bgColor": "#ffffff",
+                    "borderAlpha": "20",
+                    "canvasBorderAlpha": "0",
+                    "usePlotGradientColor": "0",
+                    "plotBorderAlpha": "10",
+                    "placevaluesInside": "1",
+                    "rotatevalues": "1",
+                    "valueFontColor": "#ffffff",
+                    "showXAxisLine": "1",
+                    "xAxisLineColor": "#999999",
+                    "divlineColor": "#999999",
+                    "divLineIsDashed": "1",
+                    "showAlternateHGridColor": "0",
+                    "subcaptionFontBold": "0",
+                    "subcaptionFontSize": "14"
+                },
+                "data": [{
+                    "label": "Jan",
+                    "value": "420000"
+                }, {
+                    "label": "Feb",
+                    "value": "810000"
+                }, {
+                    "label": "Mar",
+                    "value": "720000"
+                }]
+                }
+            }).render();
+            var revenueChart2 = new FusionCharts({
+                type: 'column2d',
+                renderAt: 'chart-container2',
+                width: '300',
+                height: '300',
+                dataFormat: 'json',
+                dataSource: {
+                "chart": {
+                    "caption": "Monthly revenue for last year",
+                    "subCaption": "Harry's SuperMart",
+                    "xAxisName": "Month",
+                    "yAxisName": "Revenues (In USD)",
+                    "numberPrefix": "$",
+                    "paletteColors": "#0075c2",
+                    "bgColor": "#ffffff",
+                    "borderAlpha": "20",
+                    "canvasBorderAlpha": "0",
+                    "usePlotGradientColor": "0",
+                    "plotBorderAlpha": "10",
+                    "placevaluesInside": "1",
+                    "rotatevalues": "1",
+                    "valueFontColor": "#ffffff",
+                    "showXAxisLine": "1",
+                    "xAxisLineColor": "#999999",
+                    "divlineColor": "#999999",
+                    "divLineIsDashed": "1",
+                    "showAlternateHGridColor": "0",
+                    "subcaptionFontBold": "0",
+                    "subcaptionFontSize": "14",
+                    "_transposeanimation": "1",
+                    "animationduration": "5"
+                },
+                "data": [{
+                    "label": "Jan",
+                    "value": "420000"
+                }, {
+                    "label": "Feb",
+                    "value": "810000"
+                }, {
+                    "label": "Mar",
+                    "value": "720000"
+                }]
+                }
+            }).render();
+            
+            var revenueChart3 = new FusionCharts({
+                type: 'column2d',
+                renderAt: 'chart-container3',
+                width: '300',
+                height: '300',
+                dataFormat: 'json',
+                dataSource: {
+                "chart": {
+                    "caption": "Monthly revenue for last year",
+                    "subCaption": "Harry's SuperMart",
+                    "xAxisName": "Month",
+                    "yAxisName": "Revenues (In USD)",
+                    "numberPrefix": "$",
+                    "paletteColors": "#0075c2",
+                    "bgColor": "#ffffff",
+                    "borderAlpha": "20",
+                    "canvasBorderAlpha": "0",
+                    "usePlotGradientColor": "0",
+                    "plotBorderAlpha": "10",
+                    "placevaluesInside": "1",
+                    "rotatevalues": "1",
+                    "valueFontColor": "#ffffff",
+                    "showXAxisLine": "1",
+                    "xAxisLineColor": "#999999",
+                    "divlineColor": "#999999",
+                    "divLineIsDashed": "1",
+                    "showAlternateHGridColor": "0",
+                    "subcaptionFontBold": "0",
+                    "subcaptionFontSize": "14",
+                    "_transposeanimation": "1",
+                    "animationduration": "10"
+                },
+                "data": [{
+                    "label": "Jan",
+                    "value": "420000"
+                }, {
+                    "label": "Feb",
+                    "value": "810000"
+                }, {
+                    "label": "Mar",
+                    "value": "720000"
+                }]
+                }
+            }).render();
+        });
+    </script>
+</body>
+
+</html>

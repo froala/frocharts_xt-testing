@@ -1,0 +1,110 @@
+{
+    "test_1": {
+        "description": "test-1",
+        "options": {
+            "data-id": "ft-test-data-sample",
+            "schema-id": "ft-test-schema-sample",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": 0
+                },
+                "xAxis": {
+                    "plot": "Time"
+                },
+                "yAxis": [{
+                    "plot": {
+                        "value": "Measure1",
+                        "type": "line"
+                    }
+                }]
+            }
+        },
+        "id": "test_1"
+    },
+    "test_2": {
+        "description": "test-1",
+        "options": {
+            "data-id": "ft-test-data-sample",
+            "schema-id": "ft-test-schema-sample",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "animation": 0,
+                    "theme": "fusion"
+                },
+                "xAxis": {
+                    "plot": "Time"
+                },
+                "yAxis": [{
+                    "plot": {
+                        "value": "Measure1",
+                        "type": "column"
+                    }
+                }]
+            }
+        },
+        "id": "test_2",
+        "action": {
+            "updateData": {
+                "data-id": "ft-test-data-sample",
+                "schema-id": "ft-test-schema-sample",
+                "dataSource": {
+                    "chart": {
+                        "animation": 0,
+                        "theme": "candy"
+                    },
+                    "xAxis": {
+                        "plot": "Time"
+                    },
+                    "yAxis": [{
+                        "plot": {
+                            "value": "Measure1",
+                            "type": "column"
+                        }
+                    }]
+                }
+            }
+        }
+    },
+    "test_3": {
+        "description": "test-1",
+        "options": {
+            "data-id": "ft-test-data-sample",
+            "schema-id": "ft-test-schema-sample",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": 0
+                },
+                "xAxis": {
+                    "plot": "Time"
+                },
+                "yAxis": [{
+                    "plot": {
+                        "value": "Measure1",
+                        "type": "area"
+                    }
+                }]
+            }
+        },
+        "id": "test_3",
+        "action": {
+            "resizeData": {
+                "width": 600,
+                "height": 350
+            }
+        }
+    }
+}

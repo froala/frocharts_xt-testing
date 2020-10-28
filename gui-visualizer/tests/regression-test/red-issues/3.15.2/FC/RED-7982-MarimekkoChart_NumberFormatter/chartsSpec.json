@@ -1,0 +1,904 @@
+{
+    "FC10_marimekko_tc1": {
+        "id": "FC10_marimekko_tc1",
+        "description": "Testing Number Formatter Separator attributes - decimalSeparator, inDecimalSeparator, thousandSeparator and inThousandSeparator",
+        "options": {
+            "type": "marimekko",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Top 3 Electronic Brands in Top 3 Stores",
+                    "subcaption": "Last month",
+                    "aligncaptiontocanvas": "0",
+                    "yaxisname": "Statewise Sales (in %)",
+                    "xaxisname": "Brand",
+                    "numberprefix": "$",
+                    "showPlotBorder": "1",
+                    "plotBorderThickness": "0.25",
+                    
+                    "showxaxispercentvalues": "0",
+                    "showsum": "1",
+                    
+                    "animation": "0",
+                    "formatNumberScale": "0",
+                    "decimals": "2",
+                    "forceDecimals": "1",
+
+                    "inDecimalSeparator": ".",
+                    "inThousandSeparator": ",",
+                    "DecimalSeparator": "@",
+                    "ThousandSeparator": "#",
+                    "thousandSeparatorPosition": "2,3"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Bose",
+                                "widthPercent": "45"
+                            },
+                            {
+                                "label": "Dell",
+                                "widthPercent": "30"
+                            },
+                            {
+                                "label": "Apple",
+                                "widthPercent": "25"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "California",
+                        "data": [
+                            {
+                                "value": "335,000.501"
+                            },
+                            {
+                                "value": "225,100.874"
+                            },
+                            {
+                                "value": "164,200.423"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Washington",
+                        "data": [
+                            {
+                                "value": "215,000.324"
+                            },
+                            {
+                                "value": "198,000.121"
+                            },
+                            {
+                                "value": "120,000.865"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Nevada",
+                        "data": [
+                            {
+                                "value": "298,000.126"
+                            },
+                            {
+                                "value": "109,300.765"
+                            },
+                            {
+                                "value": "153,600.376"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-7982-MarimekkoChart_NumberFormatter/ref-images/test_1_marimekko-numberformatter-snapshot.png"
+    },
+    "FC10_mscolumn2d_tc1": {
+        "id": "FC10_mscolumn2d_tc1",
+        "description": "Testing Number Formatter Separator attributes - decimalSeparator, inDecimalSeparator, thousandSeparator and inThousandSeparator",
+        "options": {
+            "type": "mscolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Top 3 Electronic Brands in Top 3 Stores",
+                    "subcaption": "Last month",
+                    "aligncaptiontocanvas": "0",
+                    "yaxisname": "Statewise Sales (in %)",
+                    "xaxisname": "Brand",
+                    "numberprefix": "$",
+                    "showPlotBorder": "1",
+                    "plotBorderThickness": "0.25",
+                    
+                    "showxaxispercentvalues": "0",
+                    "showsum": "1",
+                    
+                    "animation": "0",
+                    "formatNumberScale": "0",
+                    "decimals": "2",
+                    "forceDecimals": "1",
+
+                    "inDecimalSeparator": ".",
+                    "inThousandSeparator": ",",
+                    "DecimalSeparator": "@",
+                    "ThousandSeparator": "#",
+                    "thousandSeparatorPosition": "2,3"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Bose",
+                                "widthPercent": "45"
+                            },
+                            {
+                                "label": "Dell",
+                                "widthPercent": "30"
+                            },
+                            {
+                                "label": "Apple",
+                                "widthPercent": "25"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "California",
+                        "data": [
+                            {
+                                "value": "335,000.501"
+                            },
+                            {
+                                "value": "225,100.874"
+                            },
+                            {
+                                "value": "164,200.423"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Washington",
+                        "data": [
+                            {
+                                "value": "215,000.324"
+                            },
+                            {
+                                "value": "198,000.121"
+                            },
+                            {
+                                "value": "120,000.865"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Nevada",
+                        "data": [
+                            {
+                                "value": "298,000.126"
+                            },
+                            {
+                                "value": "109,300.765"
+                            },
+                            {
+                                "value": "153,600.376"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-7982-MarimekkoChart_NumberFormatter/ref-images/test_2_mscolumn2d-numberformatter-snapshot.png"
+    },
+    "FC10_mscolumn3d_tc1": {
+        "id": "FC10_mscolumn3d_tc1",
+        "description": "Testing Number Formatter Separator attributes - decimalSeparator, inDecimalSeparator, thousandSeparator and inThousandSeparator",
+        "options": {
+            "type": "mscolumn3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Top 3 Electronic Brands in Top 3 Stores",
+                    "subcaption": "Last month",
+                    "aligncaptiontocanvas": "0",
+                    "yaxisname": "Statewise Sales (in %)",
+                    "xaxisname": "Brand",
+                    "numberprefix": "$",
+                    "showPlotBorder": "1",
+                    "plotBorderThickness": "0.25",
+                    
+                    "showxaxispercentvalues": "0",
+                    "showsum": "1",
+                    
+                    "animation": "0",
+                    "formatNumberScale": "0",
+                    "decimals": "2",
+                    "forceDecimals": "1",
+
+                    "inDecimalSeparator": ".",
+                    "inThousandSeparator": ",",
+                    "DecimalSeparator": "@",
+                    "ThousandSeparator": "#",
+                    "thousandSeparatorPosition": "2,3"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Bose",
+                                "widthPercent": "45"
+                            },
+                            {
+                                "label": "Dell",
+                                "widthPercent": "30"
+                            },
+                            {
+                                "label": "Apple",
+                                "widthPercent": "25"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "California",
+                        "data": [
+                            {
+                                "value": "335,000.501"
+                            },
+                            {
+                                "value": "225,100.874"
+                            },
+                            {
+                                "value": "164,200.423"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Washington",
+                        "data": [
+                            {
+                                "value": "215,000.324"
+                            },
+                            {
+                                "value": "198,000.121"
+                            },
+                            {
+                                "value": "120,000.865"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Nevada",
+                        "data": [
+                            {
+                                "value": "298,000.126"
+                            },
+                            {
+                                "value": "109,300.765"
+                            },
+                            {
+                                "value": "153,600.376"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-7982-MarimekkoChart_NumberFormatter/ref-images/test_3_mscolumn3d-numberformatter-snapshot.png"
+    },
+    "FC10_msbar2d_tc1": {
+        "id": "FC10_msbar2d_tc1",
+        "description": "Testing Number Formatter Separator attributes - decimalSeparator, inDecimalSeparator, thousandSeparator and inThousandSeparator",
+        "options": {
+            "type": "msbar2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Top 3 Electronic Brands in Top 3 Stores",
+                    "subcaption": "Last month",
+                    "aligncaptiontocanvas": "0",
+                    "yaxisname": "Statewise Sales (in %)",
+                    "xaxisname": "Brand",
+                    "numberprefix": "$",
+                    "showPlotBorder": "1",
+                    "plotBorderThickness": "0.25",
+                    
+                    "showxaxispercentvalues": "0",
+                    "showsum": "1",
+                    
+                    "animation": "0",
+                    "formatNumberScale": "0",
+                    "decimals": "2",
+                    "forceDecimals": "1",
+
+                    "inDecimalSeparator": ".",
+                    "inThousandSeparator": ",",
+                    "DecimalSeparator": "@",
+                    "ThousandSeparator": "#",
+                    "thousandSeparatorPosition": "2,3"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Bose",
+                                "widthPercent": "45"
+                            },
+                            {
+                                "label": "Dell",
+                                "widthPercent": "30"
+                            },
+                            {
+                                "label": "Apple",
+                                "widthPercent": "25"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "California",
+                        "data": [
+                            {
+                                "value": "335,000.501"
+                            },
+                            {
+                                "value": "225,100.874"
+                            },
+                            {
+                                "value": "164,200.423"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Washington",
+                        "data": [
+                            {
+                                "value": "215,000.324"
+                            },
+                            {
+                                "value": "198,000.121"
+                            },
+                            {
+                                "value": "120,000.865"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Nevada",
+                        "data": [
+                            {
+                                "value": "298,000.126"
+                            },
+                            {
+                                "value": "109,300.765"
+                            },
+                            {
+                                "value": "153,600.376"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-7982-MarimekkoChart_NumberFormatter/ref-images/test_4_msbar2d-numberformatter-snapshot.png"
+    },
+    "FC10_msbar3d_tc1": {
+        "id": "FC10_msbar3d_tc1",
+        "description": "Testing Number Formatter Separator attributes - decimalSeparator, inDecimalSeparator, thousandSeparator and inThousandSeparator",
+        "options": {
+            "type": "msbar3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Top 3 Electronic Brands in Top 3 Stores",
+                    "subcaption": "Last month",
+                    "aligncaptiontocanvas": "0",
+                    "yaxisname": "Statewise Sales (in %)",
+                    "xaxisname": "Brand",
+                    "numberprefix": "$",
+                    "showPlotBorder": "1",
+                    "plotBorderThickness": "0.25",
+                    
+                    "showxaxispercentvalues": "0",
+                    "showsum": "1",
+                    
+                    "animation": "0",
+                    "formatNumberScale": "0",
+                    "decimals": "2",
+                    "forceDecimals": "1",
+
+                    "inDecimalSeparator": ".",
+                    "inThousandSeparator": ",",
+                    "DecimalSeparator": "@",
+                    "ThousandSeparator": "#",
+                    "thousandSeparatorPosition": "2,3"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Bose",
+                                "widthPercent": "45"
+                            },
+                            {
+                                "label": "Dell",
+                                "widthPercent": "30"
+                            },
+                            {
+                                "label": "Apple",
+                                "widthPercent": "25"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "California",
+                        "data": [
+                            {
+                                "value": "335,000.501"
+                            },
+                            {
+                                "value": "225,100.874"
+                            },
+                            {
+                                "value": "164,200.423"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Washington",
+                        "data": [
+                            {
+                                "value": "215,000.324"
+                            },
+                            {
+                                "value": "198,000.121"
+                            },
+                            {
+                                "value": "120,000.865"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Nevada",
+                        "data": [
+                            {
+                                "value": "298,000.126"
+                            },
+                            {
+                                "value": "109,300.765"
+                            },
+                            {
+                                "value": "153,600.376"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-7982-MarimekkoChart_NumberFormatter/ref-images/test_5_msbar3d-numberformatter-snapshot.png"
+    },
+    "FC10_msline_tc1": {
+        "id": "FC10_msline_tc1",
+        "description": "Testing Number Formatter Separator attributes - decimalSeparator, inDecimalSeparator, thousandSeparator and inThousandSeparator",
+        "options": {
+            "type": "msline",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Top 3 Electronic Brands in Top 3 Stores",
+                    "subcaption": "Last month",
+                    "aligncaptiontocanvas": "0",
+                    "yaxisname": "Statewise Sales (in %)",
+                    "xaxisname": "Brand",
+                    "numberprefix": "$",
+                    "showPlotBorder": "1",
+                    "plotBorderThickness": "0.25",
+                    
+                    "showxaxispercentvalues": "0",
+                    "showsum": "1",
+                    
+                    "animation": "0",
+                    "formatNumberScale": "0",
+                    "decimals": "2",
+                    "forceDecimals": "1",
+
+                    "inDecimalSeparator": ".",
+                    "inThousandSeparator": ",",
+                    "DecimalSeparator": "@",
+                    "ThousandSeparator": "#",
+                    "thousandSeparatorPosition": "2,3"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Bose",
+                                "widthPercent": "45"
+                            },
+                            {
+                                "label": "Dell",
+                                "widthPercent": "30"
+                            },
+                            {
+                                "label": "Apple",
+                                "widthPercent": "25"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "California",
+                        "data": [
+                            {
+                                "value": "335,000.501"
+                            },
+                            {
+                                "value": "225,100.874"
+                            },
+                            {
+                                "value": "164,200.423"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Washington",
+                        "data": [
+                            {
+                                "value": "215,000.324"
+                            },
+                            {
+                                "value": "198,000.121"
+                            },
+                            {
+                                "value": "120,000.865"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Nevada",
+                        "data": [
+                            {
+                                "value": "298,000.126"
+                            },
+                            {
+                                "value": "109,300.765"
+                            },
+                            {
+                                "value": "153,600.376"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-7982-MarimekkoChart_NumberFormatter/ref-images/test_6_msline-numberformatter-snapshot.png"
+    },
+    "FC10_msstepline_tc1": {
+        "id": "FC10_msstepline_tc1",
+        "description": "Testing Number Formatter Separator attributes - decimalSeparator, inDecimalSeparator, thousandSeparator and inThousandSeparator",
+        "options": {
+            "type": "msstepline",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Top 3 Electronic Brands in Top 3 Stores",
+                    "subcaption": "Last month",
+                    "aligncaptiontocanvas": "0",
+                    "yaxisname": "Statewise Sales (in %)",
+                    "xaxisname": "Brand",
+                    "numberprefix": "$",
+                    "showPlotBorder": "1",
+                    "plotBorderThickness": "0.25",
+                    
+                    "showxaxispercentvalues": "0",
+                    "showsum": "1",
+                    
+                    "animation": "0",
+                    "formatNumberScale": "0",
+                    "decimals": "2",
+                    "forceDecimals": "1",
+
+                    "inDecimalSeparator": ".",
+                    "inThousandSeparator": ",",
+                    "DecimalSeparator": "@",
+                    "ThousandSeparator": "#",
+                    "thousandSeparatorPosition": "2,3"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Bose",
+                                "widthPercent": "45"
+                            },
+                            {
+                                "label": "Dell",
+                                "widthPercent": "30"
+                            },
+                            {
+                                "label": "Apple",
+                                "widthPercent": "25"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "California",
+                        "data": [
+                            {
+                                "value": "335,000.501"
+                            },
+                            {
+                                "value": "225,100.874"
+                            },
+                            {
+                                "value": "164,200.423"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Washington",
+                        "data": [
+                            {
+                                "value": "215,000.324"
+                            },
+                            {
+                                "value": "198,000.121"
+                            },
+                            {
+                                "value": "120,000.865"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Nevada",
+                        "data": [
+                            {
+                                "value": "298,000.126"
+                            },
+                            {
+                                "value": "109,300.765"
+                            },
+                            {
+                                "value": "153,600.376"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-7982-MarimekkoChart_NumberFormatter/ref-images/test_7_msstepline-numberformatter-snapshot.png"
+    },
+    "FC10_msarea_tc1": {
+        "id": "FC10_msarea_tc1",
+        "description": "Testing Number Formatter Separator attributes - decimalSeparator, inDecimalSeparator, thousandSeparator and inThousandSeparator",
+        "options": {
+            "type": "msarea",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "formatNumberScale": "0",
+                    "decimals": "2",
+                    "forceDecimals": "1",
+                    "animation": "0",
+                    "inDecimalSeparator": ".",
+                    "inThousandSeparator": ",",
+                    "DecimalSeparator": "@",
+                    "ThousandSeparator": "#",
+                    "thousandSeparatorPosition": "2,3"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            }
+
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "271,445.250"
+                            },
+                            {
+                                "value": "291,890.430"
+                            },
+                            {
+                                "value": "251,878.123"
+                            },
+                            {
+                                "value": "263,654.000"
+                            },
+                            {
+                                "value": "295,678.045"
+                            }
+
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "data": [
+                            {
+                                "value": "101,666.865"
+                            },
+                            {
+                                "value": "112555.234"
+                            },
+                            {
+                                "value": "121,777.546"
+                            },
+                            {
+                                "value": "153,345.456"
+                            },
+                            {
+                                "value": "119,678.326"
+                            }
+
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-7982-MarimekkoChart_NumberFormatter/ref-images/test_8_msarea-numberformatter-snapshot.png"
+    },
+    "FC10_msstackedcolumn2d_tc1": {
+        "id": "FC10_msstackedcolumn2d_tc1",
+        "description": "Testing Number Formatter Separator attributes - decimalSeparator, inDecimalSeparator, thousandSeparator and inThousandSeparator",
+        "options": {
+            "type": "msstackedcolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "formatNumberScale": "0",
+                    "decimals": "2",
+                    "forceDecimals": "1",
+                    "animation": "0",
+                    "inDecimalSeparator": ".",
+                    "inThousandSeparator": ",",
+                    "DecimalSeparator": "@",
+                    "ThousandSeparator": "#",
+                    "thousandSeparatorPosition": "2,3"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "2001"
+                            },
+                            {
+                                "label": "2002"
+                            },
+                            {
+                                "label": "2003"
+                            },
+                            {
+                                "label": "2004"
+                            },
+                            {
+                                "label": "2005"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Product A",
+                                "color": "AFD8F8",
+                                "data": [
+                                    {
+                                        "value": "271,445.250"
+                                    },
+                                    {
+                                        "value": "291,890.430"
+                                    },
+                                    {
+                                        "value": "251,878.123"
+                                    },
+                                    {
+                                        "value": "263,654.000"
+                                    },
+                                    {
+                                        "value": "295,678.045"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Product B",
+                                "color": "F6BD0F",
+                                "data": [
+                                    {
+                                        "value": "101,666.865"
+                                    },
+                                    {
+                                        "value": "112555.234"
+                                    },
+                                    {
+                                        "value": "121,777.546"
+                                    },
+                                    {
+                                        "value": "153,345.456"
+                                    },
+                                    {
+                                        "value": "119,678.326"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "lineset": [
+                    {
+                        "seriesname": "Cost as % of Revenue",
+                        "linethickness": "4",
+                        "data": [
+                            {
+                                "value": "57t343"
+                            },
+                            {
+                                "value": "68t567"
+                            },
+                            {
+                                "value": "79t232"
+                            },
+                            {
+                                "value": "73t567"
+                            },
+                            {
+                                "value": "80t564"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/regression-test/red-issues/3.15.2/FC/RED-7982-MarimekkoChart_NumberFormatter/ref-images/test_9_msstackedcolumn2d-numberformatter-snapshot.png"
+    }
+}

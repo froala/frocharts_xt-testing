@@ -1,0 +1,324 @@
+{
+    "heatmap": {
+        "descriptions": "update theme from fint to candy",
+        "id": "heatmap",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "heatmap",
+            "dataSource": {
+                "chart": {
+                    "caption": "Weekly Percentage",
+                    "subcaption": "In percentage",
+                    "animation": 0,
+                    "theme": "fint"
+                },
+                "rows": {
+                    "row": [
+                        {
+                            "id": "Google",
+                            "label": "Google US"
+                        },
+                        {
+                            "id": "Yahoo",
+                            "label": "Yahoo US"
+                        },
+                        {
+                            "id": "Microsoft",
+                            "label": "Microsoft US"
+                        }
+                    ]
+                },
+                "columns": {
+                    "column": [
+                        {
+                            "id": "MON",
+                            "label": "Monday"
+                        },
+                        {
+                            "id": "TUE",
+                            "label": "Tuesday"
+                        },
+                        {
+                            "id": "WED",
+                            "label": "Wednesday"
+                        },
+                        {
+                            "id": "THU",
+                            "label": "Thursday"
+                        },
+                        {
+                            "id": "FRI",
+                            "label": "Friday"
+                        }
+                    ]
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Mon",
+                                "value": "0"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Tue",
+                                "value": "71"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Wed",
+                                "value": "70"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Thu",
+                                "value": "3"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Fri",
+                                "value": "79"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Mon",
+                                "value": "68"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Tue",
+                                "value": "5"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Wed",
+                                "value": "95"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Thu",
+                                "value": "-10"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Fri",
+                                "value": "55.98"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Mon",
+                                "value": "98"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Tue",
+                                "value": "8"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Wed",
+                                "value": "123"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Thu",
+                                "value": "79"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Fri",
+                                "value": "39"
+                            }
+                        ]
+                    }
+                ],
+                "colorrange": {
+                    "mapbypercent": "1",
+                    "gradient": "1",
+                    "minvalue": "0",
+                    "code": "00CCFF",
+                    "startlabel": "Poor",
+                    "endlabel": "Good",
+                    "color": [
+                        {
+                            "code": "66ADD9",
+                            "maxvalue": "30",
+                            "label": "BAD"
+                        },
+                        {
+                            "code": "F2CF63",
+                            "maxvalue": "70",
+                            "label": "AVERAGE"
+                        },
+                        {
+                            "code": "D99036",
+                            "maxvalue": "100"
+                        }
+                    ]
+                }
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "caption": "Weekly Percentage",
+                            "subcaption": "In percentage",
+                            "animation": 0,
+                            "theme": "candy"
+                        },
+                        "rows": {
+                            "row": [
+                                {
+                                    "id": "Google",
+                                    "label": "Google US"
+                                },
+                                {
+                                    "id": "Yahoo",
+                                    "label": "Yahoo US"
+                                },
+                                {
+                                    "id": "Microsoft",
+                                    "label": "Microsoft US"
+                                }
+                            ]
+                        },
+                        "columns": {
+                            "column": [
+                                {
+                                    "id": "MON",
+                                    "label": "Monday"
+                                },
+                                {
+                                    "id": "TUE",
+                                    "label": "Tuesday"
+                                },
+                                {
+                                    "id": "WED",
+                                    "label": "Wednesday"
+                                },
+                                {
+                                    "id": "THU",
+                                    "label": "Thursday"
+                                },
+                                {
+                                    "id": "FRI",
+                                    "label": "Friday"
+                                }
+                            ]
+                        },
+                        "dataset": [
+                            {
+                                "data": [
+                                    {
+                                        "rowid": "Yahoo",
+                                        "columnid": "Mon",
+                                        "value": "0"
+                                    },
+                                    {
+                                        "rowid": "Yahoo",
+                                        "columnid": "Tue",
+                                        "value": "71"
+                                    },
+                                    {
+                                        "rowid": "Yahoo",
+                                        "columnid": "Wed",
+                                        "value": "70"
+                                    },
+                                    {
+                                        "rowid": "Yahoo",
+                                        "columnid": "Thu",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "rowid": "Yahoo",
+                                        "columnid": "Fri",
+                                        "value": "79"
+                                    },
+                                    {
+                                        "rowid": "Google",
+                                        "columnid": "Mon",
+                                        "value": "68"
+                                    },
+                                    {
+                                        "rowid": "Google",
+                                        "columnid": "Tue",
+                                        "value": "5"
+                                    },
+                                    {
+                                        "rowid": "Google",
+                                        "columnid": "Wed",
+                                        "value": "95"
+                                    },
+                                    {
+                                        "rowid": "Google",
+                                        "columnid": "Thu",
+                                        "value": "-10"
+                                    },
+                                    {
+                                        "rowid": "Google",
+                                        "columnid": "Fri",
+                                        "value": "55.98"
+                                    },
+                                    {
+                                        "rowid": "Microsoft",
+                                        "columnid": "Mon",
+                                        "value": "98"
+                                    },
+                                    {
+                                        "rowid": "Microsoft",
+                                        "columnid": "Tue",
+                                        "value": "8"
+                                    },
+                                    {
+                                        "rowid": "Microsoft",
+                                        "columnid": "Wed",
+                                        "value": "123"
+                                    },
+                                    {
+                                        "rowid": "Microsoft",
+                                        "columnid": "Thu",
+                                        "value": "79"
+                                    },
+                                    {
+                                        "rowid": "Microsoft",
+                                        "columnid": "Fri",
+                                        "value": "39"
+                                    }
+                                ]
+                            }
+                        ],
+                        "colorrange": {
+                            "mapbypercent": "1",
+                            "gradient": "1",
+                            "minvalue": "0",
+                            "code": "00CCFF",
+                            "startlabel": "Poor",
+                            "endlabel": "Good",
+                            "color": [
+                                {
+                                    "code": "66ADD9",
+                                    "maxvalue": "30",
+                                    "label": "BAD"
+                                },
+                                {
+                                    "code": "F2CF63",
+                                    "maxvalue": "70",
+                                    "label": "AVERAGE"
+                                },
+                                {
+                                    "code": "D99036",
+                                    "maxvalue": "100"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,1078 @@
+{
+    "test-1": {
+        "descriptions": "Update with all the yaxisValue attributes",
+        "id": "test-1",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "mscombidy2d",
+            "dataSource": {
+                "chart": {
+                    "animation": 0
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Revenue",
+                        "data": [
+                            {
+                                "value": "170"
+                            },
+                            {
+                                "value": "610"
+                            },
+                            {
+                                "value": "142"
+                            },
+                            {
+                                "value": "135"
+                            },
+                            {
+                                "value": "214"
+                            },
+                            {
+                                "value": "121"
+                            },
+                            {
+                                "value": "113"
+                            },
+                            {
+                                "value": "156"
+                            },
+                            {
+                                "value": "212"
+                            },
+                            {
+                                "value": "900"
+                            },
+                            {
+                                "value": "132"
+                            },
+                            {
+                                "value": "101"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Quantity",
+                        "parentyaxis": "S",
+                        "data": [
+                            {
+                                "value": "340"
+                            },
+                            {
+                                "value": "120"
+                            },
+                            {
+                                "value": "280"
+                            },
+                            {
+                                "value": "270"
+                            },
+                            {
+                                "value": "430"
+                            },
+                            {
+                                "value": "240"
+                            },
+                            {
+                                "value": "230"
+                            },
+                            {
+                                "value": "310"
+                            },
+                            {
+                                "value": "430"
+                            },
+                            {
+                                "value": "180"
+                            },
+                            {
+                                "value": "260"
+                            },
+                            {
+                                "value": "200"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "2100000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "yAxisValueFont": "times",
+                            "yAxisValueFontSize": "17",
+                            "yaxisValueFontColor": "#0000ff",
+                            "yaxisValueFontItalic": "1",
+                            "yaxisValueFontBold": "1",
+                            "yAxisValueBgColor": "#ff00ff",
+                            "yAxisValueBorderColor": "#00ff00",
+                            "yaxisvaluealpha": "30",
+                            "yaxisvalueBgalpha": "80",
+                            "yAxisValueBorderAlpha": "1",
+                            "yaxisValueBorderPadding": "10",
+                            "yAxisValueBorderRadius": "3",
+                            "yaxisvalueborderthickness": "3",
+                            "yaxisvalueborderdashed": "1",
+                            "yaxisvalueborderdashlen": "7",
+                            "yaxisvaluelink": "p-http://google.com",
+                            "_clickurl": "p-http://yahoo.com",
+                            "animation": 0
+                        },
+                        "categories": [
+                            {
+                                "category": [
+                                    {
+                                        "label": "Jan"
+                                    },
+                                    {
+                                        "label": "Feb"
+                                    },
+                                    {
+                                        "label": "Mar"
+                                    },
+                                    {
+                                        "label": "Apr"
+                                    },
+                                    {
+                                        "label": "May"
+                                    },
+                                    {
+                                        "label": "Jun"
+                                    },
+                                    {
+                                        "label": "Jul"
+                                    },
+                                    {
+                                        "label": "Aug"
+                                    },
+                                    {
+                                        "label": "Sep"
+                                    },
+                                    {
+                                        "label": "Oct"
+                                    },
+                                    {
+                                        "label": "Nov"
+                                    },
+                                    {
+                                        "label": "Dec"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dataset": [
+                            {
+                                "seriesname": "Revenue",
+                                "data": [
+                                    {
+                                        "value": "170"
+                                    },
+                                    {
+                                        "value": "610"
+                                    },
+                                    {
+                                        "value": "142"
+                                    },
+                                    {
+                                        "value": "135"
+                                    },
+                                    {
+                                        "value": "214"
+                                    },
+                                    {
+                                        "value": "121"
+                                    },
+                                    {
+                                        "value": "113"
+                                    },
+                                    {
+                                        "value": "156"
+                                    },
+                                    {
+                                        "value": "212"
+                                    },
+                                    {
+                                        "value": "900"
+                                    },
+                                    {
+                                        "value": "132"
+                                    },
+                                    {
+                                        "value": "101"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Quantity",
+                                "parentyaxis": "S",
+                                "data": [
+                                    {
+                                        "value": "340"
+                                    },
+                                    {
+                                        "value": "120"
+                                    },
+                                    {
+                                        "value": "280"
+                                    },
+                                    {
+                                        "value": "270"
+                                    },
+                                    {
+                                        "value": "430"
+                                    },
+                                    {
+                                        "value": "240"
+                                    },
+                                    {
+                                        "value": "230"
+                                    },
+                                    {
+                                        "value": "310"
+                                    },
+                                    {
+                                        "value": "430"
+                                    },
+                                    {
+                                        "value": "180"
+                                    },
+                                    {
+                                        "value": "260"
+                                    },
+                                    {
+                                        "value": "200"
+                                    }
+                                ]
+                            }
+                        ],
+                        "trendlines": [
+                            {
+                                "line": [
+                                    {
+                                        "startvalue": "2100000",
+                                        "color": "009933",
+                                        "displayvalue": "Target"
+                                    }
+                                ]
+                            }
+                        ],
+                        "styles": {
+                            "definition": [
+                                {
+                                    "name": "CanvasAnim",
+                                    "type": "animation",
+                                    "param": "_xScale",
+                                    "start": "0",
+                                    "duration": "1"
+                                }
+                            ],
+                            "application": [
+                                {
+                                    "toobject": "Canvas",
+                                    "styles": "CanvasAnim"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "test-2": {
+        "descriptions": "Update the yaxisValue boolean attributes 1 to 0 and also changing the other attributes value",
+        "id": "test-2",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "mscombidy2d",
+            "dataSource": {
+                "chart": {
+                    "yAxisValueFont": "times",
+                    "yAxisValueFontSize": "17",
+                    "yaxisValueFontColor": "#0000ff",
+                    "yaxisValueFontItalic": "1",
+                    "yaxisValueFontBold": "1",
+                    "yAxisValueBgColor": "#ff00ff",
+                    "yAxisValueBorderColor": "#00ff00",
+                    "yaxisvaluealpha": "30",
+                    "yaxisvalueBgalpha": "80",
+                    "yAxisValueBorderAlpha": "1",
+                    "yaxisValueBorderPadding": "10",
+                    "yAxisValueBorderRadius": "3",
+                    "yaxisvalueborderthickness": "3",
+                    "yaxisvalueborderdashed": "1",
+                    "yaxisvalueborderdashlen": "7",
+                    "yaxisvaluelink": "p-http://google.com",
+                    "_clickurl": "p-http://yahoo.com",
+                    "animation": 0
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Revenue",
+                        "data": [
+                            {
+                                "value": "170"
+                            },
+                            {
+                                "value": "610"
+                            },
+                            {
+                                "value": "142"
+                            },
+                            {
+                                "value": "135"
+                            },
+                            {
+                                "value": "214"
+                            },
+                            {
+                                "value": "121"
+                            },
+                            {
+                                "value": "113"
+                            },
+                            {
+                                "value": "156"
+                            },
+                            {
+                                "value": "212"
+                            },
+                            {
+                                "value": "900"
+                            },
+                            {
+                                "value": "132"
+                            },
+                            {
+                                "value": "101"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Quantity",
+                        "parentyaxis": "S",
+                        "data": [
+                            {
+                                "value": "340"
+                            },
+                            {
+                                "value": "120"
+                            },
+                            {
+                                "value": "280"
+                            },
+                            {
+                                "value": "270"
+                            },
+                            {
+                                "value": "430"
+                            },
+                            {
+                                "value": "240"
+                            },
+                            {
+                                "value": "230"
+                            },
+                            {
+                                "value": "310"
+                            },
+                            {
+                                "value": "430"
+                            },
+                            {
+                                "value": "180"
+                            },
+                            {
+                                "value": "260"
+                            },
+                            {
+                                "value": "200"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "2100000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "yAxisValueFont": "sans-seriff",
+                            "yAxisValueFontSize": "13",
+                            "yaxisValueFontColor": "#ff00ff",
+                            "yaxisValueFontItalic": "0",
+                            "yaxisValueFontBold": "0",
+                            "yAxisValueBgColor": "#00ff00",
+                            "yAxisValueBorderColor": "#ffff00",
+                            "yaxisvaluealpha": "80",
+                            "yaxisvalueBgalpha": "10",
+                            "yAxisValueBorderAlpha": "100",
+                            "yaxisValueBorderPadding": "4",
+                            "yAxisValueBorderRadius": "1",
+                            "yaxisvalueborderthickness": "31",
+                            "yaxisvalueborderdashed": "10",
+                            "yaxisvalueborderdashlen": "7",
+                            "_yaxisvaluelink": "p-http://google.com",
+                            "_clickurl": "p-http://yahoo.com",
+                            "animation": 0
+                        },
+                        "categories": [
+                            {
+                                "category": [
+                                    {
+                                        "label": "Jan"
+                                    },
+                                    {
+                                        "label": "Feb"
+                                    },
+                                    {
+                                        "label": "Mar"
+                                    },
+                                    {
+                                        "label": "Apr"
+                                    },
+                                    {
+                                        "label": "May"
+                                    },
+                                    {
+                                        "label": "Jun"
+                                    },
+                                    {
+                                        "label": "Jul"
+                                    },
+                                    {
+                                        "label": "Aug"
+                                    },
+                                    {
+                                        "label": "Sep"
+                                    },
+                                    {
+                                        "label": "Oct"
+                                    },
+                                    {
+                                        "label": "Nov"
+                                    },
+                                    {
+                                        "label": "Dec"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dataset": [
+                            {
+                                "seriesname": "Revenue",
+                                "data": [
+                                    {
+                                        "value": "170"
+                                    },
+                                    {
+                                        "value": "610"
+                                    },
+                                    {
+                                        "value": "142"
+                                    },
+                                    {
+                                        "value": "135"
+                                    },
+                                    {
+                                        "value": "214"
+                                    },
+                                    {
+                                        "value": "121"
+                                    },
+                                    {
+                                        "value": "113"
+                                    },
+                                    {
+                                        "value": "156"
+                                    },
+                                    {
+                                        "value": "212"
+                                    },
+                                    {
+                                        "value": "900"
+                                    },
+                                    {
+                                        "value": "132"
+                                    },
+                                    {
+                                        "value": "101"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Quantity",
+                                "parentyaxis": "S",
+                                "data": [
+                                    {
+                                        "value": "340"
+                                    },
+                                    {
+                                        "value": "120"
+                                    },
+                                    {
+                                        "value": "280"
+                                    },
+                                    {
+                                        "value": "270"
+                                    },
+                                    {
+                                        "value": "430"
+                                    },
+                                    {
+                                        "value": "240"
+                                    },
+                                    {
+                                        "value": "230"
+                                    },
+                                    {
+                                        "value": "310"
+                                    },
+                                    {
+                                        "value": "430"
+                                    },
+                                    {
+                                        "value": "180"
+                                    },
+                                    {
+                                        "value": "260"
+                                    },
+                                    {
+                                        "value": "200"
+                                    }
+                                ]
+                            }
+                        ],
+                        "trendlines": [
+                            {
+                                "line": [
+                                    {
+                                        "startvalue": "2100000",
+                                        "color": "009933",
+                                        "displayvalue": "Target"
+                                    }
+                                ]
+                            }
+                        ],
+                        "styles": {
+                            "definition": [
+                                {
+                                    "name": "CanvasAnim",
+                                    "type": "animation",
+                                    "param": "_xScale",
+                                    "start": "0",
+                                    "duration": "1"
+                                }
+                            ],
+                            "application": [
+                                {
+                                    "toobject": "Canvas",
+                                    "styles": "CanvasAnim"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "test-3": {
+        "descriptions": "Remove all yaxisvalue cosmetics through update",
+        "id": "test-3",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "mscombidy2d",
+            "dataSource": {
+                "chart": {
+                    "yAxisValueFont": "times",
+                    "yAxisValueFontSize": "17",
+                    "yaxisValueFontColor": "#0000ff",
+                    "yaxisValueFontItalic": "1",
+                    "yaxisValueFontBold": "1",
+                    "yAxisValueBgColor": "#ff00ff",
+                    "yAxisValueBorderColor": "#00ff00",
+                    "yaxisvaluealpha": "30",
+                    "yaxisvalueBgalpha": "80",
+                    "yAxisValueBorderAlpha": "1",
+                    "yaxisValueBorderPadding": "10",
+                    "yAxisValueBorderRadius": "3",
+                    "yaxisvalueborderthickness": "3",
+                    "yaxisvalueborderdashed": "1",
+                    "yaxisvalueborderdashlen": "7",
+                    "yaxisvaluelink": "p-http://google.com",
+                    "_clickurl": "p-http://yahoo.com",
+                    "animation": 0
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Revenue",
+                        "data": [
+                            {
+                                "value": "170"
+                            },
+                            {
+                                "value": "610"
+                            },
+                            {
+                                "value": "142"
+                            },
+                            {
+                                "value": "135"
+                            },
+                            {
+                                "value": "214"
+                            },
+                            {
+                                "value": "121"
+                            },
+                            {
+                                "value": "113"
+                            },
+                            {
+                                "value": "156"
+                            },
+                            {
+                                "value": "212"
+                            },
+                            {
+                                "value": "900"
+                            },
+                            {
+                                "value": "132"
+                            },
+                            {
+                                "value": "101"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Quantity",
+                        "parentyaxis": "S",
+                        "data": [
+                            {
+                                "value": "340"
+                            },
+                            {
+                                "value": "120"
+                            },
+                            {
+                                "value": "280"
+                            },
+                            {
+                                "value": "270"
+                            },
+                            {
+                                "value": "430"
+                            },
+                            {
+                                "value": "240"
+                            },
+                            {
+                                "value": "230"
+                            },
+                            {
+                                "value": "310"
+                            },
+                            {
+                                "value": "430"
+                            },
+                            {
+                                "value": "180"
+                            },
+                            {
+                                "value": "260"
+                            },
+                            {
+                                "value": "200"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "2100000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "animation": 0
+                        },
+                        "categories": [
+                            {
+                                "category": [
+                                    {
+                                        "label": "Jan"
+                                    },
+                                    {
+                                        "label": "Feb"
+                                    },
+                                    {
+                                        "label": "Mar"
+                                    },
+                                    {
+                                        "label": "Apr"
+                                    },
+                                    {
+                                        "label": "May"
+                                    },
+                                    {
+                                        "label": "Jun"
+                                    },
+                                    {
+                                        "label": "Jul"
+                                    },
+                                    {
+                                        "label": "Aug"
+                                    },
+                                    {
+                                        "label": "Sep"
+                                    },
+                                    {
+                                        "label": "Oct"
+                                    },
+                                    {
+                                        "label": "Nov"
+                                    },
+                                    {
+                                        "label": "Dec"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dataset": [
+                            {
+                                "seriesname": "Revenue",
+                                "data": [
+                                    {
+                                        "value": "170"
+                                    },
+                                    {
+                                        "value": "610"
+                                    },
+                                    {
+                                        "value": "142"
+                                    },
+                                    {
+                                        "value": "135"
+                                    },
+                                    {
+                                        "value": "214"
+                                    },
+                                    {
+                                        "value": "121"
+                                    },
+                                    {
+                                        "value": "113"
+                                    },
+                                    {
+                                        "value": "156"
+                                    },
+                                    {
+                                        "value": "212"
+                                    },
+                                    {
+                                        "value": "900"
+                                    },
+                                    {
+                                        "value": "132"
+                                    },
+                                    {
+                                        "value": "101"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Quantity",
+                                "parentyaxis": "S",
+                                "data": [
+                                    {
+                                        "value": "340"
+                                    },
+                                    {
+                                        "value": "120"
+                                    },
+                                    {
+                                        "value": "280"
+                                    },
+                                    {
+                                        "value": "270"
+                                    },
+                                    {
+                                        "value": "430"
+                                    },
+                                    {
+                                        "value": "240"
+                                    },
+                                    {
+                                        "value": "230"
+                                    },
+                                    {
+                                        "value": "310"
+                                    },
+                                    {
+                                        "value": "430"
+                                    },
+                                    {
+                                        "value": "180"
+                                    },
+                                    {
+                                        "value": "260"
+                                    },
+                                    {
+                                        "value": "200"
+                                    }
+                                ]
+                            }
+                        ],
+                        "trendlines": [
+                            {
+                                "line": [
+                                    {
+                                        "startvalue": "2100000",
+                                        "color": "009933",
+                                        "displayvalue": "Target"
+                                    }
+                                ]
+                            }
+                        ],
+                        "styles": {
+                            "definition": [
+                                {
+                                    "name": "CanvasAnim",
+                                    "type": "animation",
+                                    "param": "_xScale",
+                                    "start": "0",
+                                    "duration": "1"
+                                }
+                            ],
+                            "application": [
+                                {
+                                    "toobject": "Canvas",
+                                    "styles": "CanvasAnim"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

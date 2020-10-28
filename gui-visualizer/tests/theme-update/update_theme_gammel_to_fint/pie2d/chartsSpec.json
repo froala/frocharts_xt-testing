@@ -1,0 +1,62 @@
+{
+    "pie2d": {
+        "descriptions": "update theme from gammel to fint",
+        "id": "pie2d",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "pie2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "showpercentagevalues": "1",
+                    "animation": 0,
+                    "theme": "gammel"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "caption": "Company Revenue",
+                            "showpercentagevalues": "1",
+                            "animation": 0,
+                            "theme": "fint"
+                        },
+                        "data": [
+                            {
+                                "label": "Services",
+                                "value": "26"
+                            },
+                            {
+                                "label": "Hardware",
+                                "value": "32"
+                            },
+                            {
+                                "label": "Software",
+                                "value": "42"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

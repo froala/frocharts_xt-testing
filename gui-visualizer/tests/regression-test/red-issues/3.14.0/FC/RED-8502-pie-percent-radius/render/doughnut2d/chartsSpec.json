@@ -1,0 +1,359 @@
+{
+    "test-1": {
+        "descriptions": "pieRadius is given in percent(50%)",
+        "id": "test-1",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "doughnut2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "animation":"0",
+                    "showpercentagevalues": "1",
+                    "pieradius": "50%"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        }
+    },
+    "test-2": {
+        "descriptions": "pieRadius is given in percent with value (100%)",
+        "id": "test-2",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "doughnut2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "animation":"0",
+                    "showpercentagevalues": "1",
+                    "pieradius": "100%"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        }
+    },
+    "test-3": {
+        "descriptions": "pieRadius is given in percent with value (65%)",
+        "id": "test-3",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "doughnut2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "animation":"0",
+                    "showpercentagevalues": "1",
+                    "pieradius": "65%"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        }
+    },
+    "test-4": {
+        "descriptions": "pieRadius is given in number with value (200)",
+        "id": "test-4",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "doughnut2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "animation":"0",
+                    "showpercentagevalues": "1",
+                    "pieradius": "200"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        }
+    },
+    "test-5": {
+        "descriptions": "pieRadius is given in number with value (50)",
+        "id": "test-5",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "doughnut2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "animation":"0",
+                    "showpercentagevalues": "1",
+                    "pieradius": "50"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        }
+    },
+    "test-6": {
+        "descriptions": "pieRadius is given in percent  with value more than hundred percent(150%)",
+        "id": "test-6",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "doughnut2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "animation":"0",
+                    "showpercentagevalues": "1",
+                    "pieradius": "150%"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        }
+    },
+    "test-7": {
+        "descriptions": "When pieRadius(50%) and doughnutRadius(100%) is given in percent",
+        "id": "test-7",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "doughnut2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "animation":"0",
+                    "showpercentagevalues": "1",
+                    "pieradius": "50%",
+                    "doughnutRadius": "100%"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        }
+    },
+    "test-8": {
+        "descriptions": "When pieRadius(50%) and doughnutRadius(50%) is given in percent",
+        "id": "test-8",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "doughnut2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "animation":"0",
+                    "showpercentagevalues": "1",
+                    "pieradius": "50%",
+                    "doughnutRadius": "50%"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        }
+    },
+    "test-9": {
+        "descriptions": "When pieRadius(50%) and doughnutRadius(10%) is given in percent",
+        "id": "test-9",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "doughnut2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "animation":"0",
+                    "showpercentagevalues": "1",
+                    "pieradius": "50%",
+                    "doughnutRadius": "10%"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        }
+    },
+    "test-10": {
+        "descriptions": "When pieRadius(50%) in percent  and doughnutRadius(50) is given in pixel",
+        "id": "test-10",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "doughnut2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "animation":"0",
+                    "showpercentagevalues": "1",
+                    "pieradius": "50%",
+                    "doughnutRadius": "50"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        }
+    },
+    "test-11": {
+        "descriptions": "When pieRadius(150) in pixel  and doughnutRadius(70%) is given in percent",
+        "id": "test-11",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "doughnut2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "animation":"0",
+                    "showpercentagevalues": "1",
+                    "pieradius": "150",
+                    "doughnutRadius": "70%"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        }
+    }
+}

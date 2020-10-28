@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <title>My First chart using FusionCharts XT</title>
+    <script type="text/javascript" src="../../../fusioncharts/fusioncharts.js"></script>
+</head>
+
+<body>
+    <div id="chartContainer">FusionCharts XT will load here!</div>
+    <script type="text/javascript">
+    FusionCharts.ready(function() {
+        var featureTestPass1 = false;
+
+        var myChart = new FusionCharts("Column2D", "myChartId", "600", "400", "0");
+
+        myChart.setJSONUrl("Data2.json", "json");
+
+        myChart.render("chartContainer");
+
+    });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,576 @@
+{
+    "test_1": {
+        "description": "Border, logo, bg, caption, subcaption related changes",
+        "options": {
+            "type": "multilevelpie",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showBorder": "1",
+                    "borderColor": "#330000",
+                    "borderThickness": "3",
+                    "borderAlpha": "85",
+                    "captionPadding": "15",
+                    "chartLeftMargin": "15",
+                    "chartRightMargin": "15",
+                    "chartTopMargin": "15",
+                    "chartBottomMargin": "15",
+                    "bgColor": "#999999,#ffffff",
+                    "bgAlpha": "100",
+                    "bgRatio": "10:90",
+                    "bgAngle": "90",
+                    "bgImage": "http://phoenixinsure.com/images/background/4.jpg",
+                    "bgImageAlpha": "50",
+                    "bgImageVAlign": "middle",
+                    "bgImageHAlign": "left",
+                    "bgImageScale": "22",
+                    "logoURL": "http://www.fusioncharts.com/theme/210x38xlogo.png.pagespeed.ic.KZD9tJ7qIK.png",
+                    "logoPosition": "TR",
+                    "logoAlpha": "50",
+                    "logoScale": "70",
+                    "logoLink": "http://fusioncharts.com",
+                    "showValues": "1",
+                    "rotateValues": "1",
+                    "placeValuesInside": "0",
+                    "showShadow": "1",
+                    "useDataPlotColorForLabels": "0",
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Current Year",
+                    "captionAlignment": "left",
+                    "captionOnTop": "1",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "subCaptionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "10",
+                    "numberprefix": "$",
+                    "animation": "0"
+                },
+                "category": [
+                    {
+                        "label": "CEO",
+                        "fillcolor": "DBFF6C",
+                        "link": "n-Details.asp?CEO",
+                        "category": [
+                            {
+                                "label": "CTO",
+                                "fillcolor": "DBFF6C",
+                                "category": [
+                                    {
+                                        "label": "Proj. Manager",
+                                        "category": [
+                                            {
+                                                "label": "Design"
+                                            },
+                                            {
+                                                "label": "Coding"
+                                            },
+                                            {
+                                                "label": "Validate"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Q & A Manager",
+                                        "category": [
+                                            {
+                                                "label": "Testing Team"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Architect",
+                                        "category": [
+                                            {
+                                                "label": "Study"
+                                            },
+                                            {
+                                                "label": "Design"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "CFO",
+                                "fillcolor": "FBE299",
+                                "category": [
+                                    {
+                                        "label": "Payables",
+                                        "hovertext": "Accounts Payable Team",
+                                        "category": [
+                                            {
+                                                "label": "Salary",
+                                                "hovertext": "Team for salary accounts maintenance and upkeep"
+                                            },
+                                            {
+                                                "label": "Purchase"
+                                            },
+                                            {
+                                                "label": "Other",
+                                                "hovertext": "Other Payments"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Receivables",
+                                        "hovertext": "Accounts Receivables Team",
+                                        "category": [
+                                            {
+                                                "label": "SW1",
+                                                "hovertext": "Online Software Receipts Accounts"
+                                            },
+                                            {
+                                                "label": "SW2",
+                                                "hovertext": "Physical Software Receipts Accounts"
+                                            },
+                                            {
+                                                "label": "SER1",
+                                                "hovertext": "Services Collection"
+                                            },
+                                            {
+                                                "label": "SER2",
+                                                "hovertext": "Services Collection (Physical)"
+                                            },
+                                            {
+                                                "label": "OTR",
+                                                "hovertext": "Subscription and Other Collections"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "CIO",
+                                "fillcolor": "DAEDFC",
+                                "link": "Details.asp?CIO",
+                                "category": [
+                                    {
+                                        "label": "PR",
+                                        "hovertext": "PR Team",
+                                        "category": [
+                                            {
+                                                "label": "Packaging",
+                                                "hovertext": "Packaging Staff"
+                                            },
+                                            {
+                                                "label": "Inv Rel.",
+                                                "hovertext": "Investor Relations Upkeep"
+                                            },
+                                            {
+                                                "label": "Marketing",
+                                                "hovertext": "Marketing & Sales"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "HR",
+                                        "hovertext": "HR Team",
+                                        "category": [
+                                            {
+                                                "label": "Selection",
+                                                "hovertext": "Selection of Candidates"
+                                            },
+                                            {
+                                                "label": "Deploying",
+                                                "hovertext": "Deploying at required site"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke-test/multilevelpie/ref-images/test_1_multilevelpie-snapshot.png",
+        "id": "test_1"
+    },
+    "test_2": {
+        "description": "Data plots, values and Label related tests.",
+        "options": {
+            "type": "multilevelpie",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Current Year",
+                    "captionAlignment": "right",
+                    "captionOnTop": "0",
+                    "captionFontSize": "10",
+                    "subCaptionFontSize": "5",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "subCaptionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "10",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0",
+                    "useRoundEdges": "0",
+                    "showPlotBorder": "1",
+                    "plotBorderColor": "#0000ff",
+                    "plotBorderThickness": "2",
+                    "plotBorderAlpha": "60",
+                    "plotFillAngle": "60",
+                    "plotFillAlpha": "60",
+                    "showShadow": "1",
+                    "use3DLighting": "1",
+                    "radius3D": "10",
+                    "slicingDistance": "10",
+                    "pieRadius": "140",
+                    "startingAngle": "80",
+                    "enableRotation": "1",
+                    "showLabels": "1",
+                    "labelFont": "verdana",
+                    "labelFontColor": "#cc0000",
+                    "labelFontSize": "16",
+                    "labelFontBold": "1",
+                    "labelFontItalic": "1",
+                    "labelBgColor": "#00ff00",
+                    "labelBorderColor": "#cc0000",
+                    "labelAlpha": "85",
+                    "labelBgAlpha": "60",
+                    "labelBorderAlpha": "90",
+                    "labelBorderPadding": "2",
+                    "labelBorderRadius": "5",
+                    "labelBorderThickness": "2",
+                    "labelBorderDashed": "1",
+                    "labelBorderDashLen": "6",
+                    "labelBorderDashGap": "3",
+                    "labelLink": ""
+                },
+                "category": [
+                    {
+                        "label": "CEO",
+                        "fillcolor": "DBFF6C",
+                        "link": "n-Details.asp?CEO",
+                        "category": [
+                            {
+                                "label": "CTO",
+                                "fillcolor": "DBFF6C",
+                                "category": [
+                                    {
+                                        "label": "Proj. Manager",
+                                        "category": [
+                                            {
+                                                "label": "Design"
+                                            },
+                                            {
+                                                "label": "Coding"
+                                            },
+                                            {
+                                                "label": "Validate"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Q & A Manager",
+                                        "category": [
+                                            {
+                                                "label": "Testing Team"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Architect",
+                                        "category": [
+                                            {
+                                                "label": "Study"
+                                            },
+                                            {
+                                                "label": "Design"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "CFO",
+                                "fillcolor": "FBE299",
+                                "category": [
+                                    {
+                                        "label": "Payables",
+                                        "hovertext": "Accounts Payable Team",
+                                        "category": [
+                                            {
+                                                "label": "Salary",
+                                                "hovertext": "Team for salary accounts maintenance and upkeep"
+                                            },
+                                            {
+                                                "label": "Purchase"
+                                            },
+                                            {
+                                                "label": "Other",
+                                                "hovertext": "Other Payments"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Receivables",
+                                        "hovertext": "Accounts Receivables Team",
+                                        "category": [
+                                            {
+                                                "label": "SW1",
+                                                "hovertext": "Online Software Receipts Accounts"
+                                            },
+                                            {
+                                                "label": "SW2",
+                                                "hovertext": "Physical Software Receipts Accounts"
+                                            },
+                                            {
+                                                "label": "SER1",
+                                                "hovertext": "Services Collection"
+                                            },
+                                            {
+                                                "label": "SER2",
+                                                "hovertext": "Services Collection (Physical)"
+                                            },
+                                            {
+                                                "label": "OTR",
+                                                "hovertext": "Subscription and Other Collections"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "CIO",
+                                "fillcolor": "DAEDFC",
+                                "link": "Details.asp?CIO",
+                                "category": [
+                                    {
+                                        "label": "PR",
+                                        "hovertext": "PR Team",
+                                        "category": [
+                                            {
+                                                "label": "Packaging",
+                                                "hovertext": "Packaging Staff"
+                                            },
+                                            {
+                                                "label": "Inv Rel.",
+                                                "hovertext": "Investor Relations Upkeep"
+                                            },
+                                            {
+                                                "label": "Marketing",
+                                                "hovertext": "Marketing & Sales"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "HR",
+                                        "hovertext": "HR Team",
+                                        "category": [
+                                            {
+                                                "label": "Selection",
+                                                "hovertext": "Selection of Candidates"
+                                            },
+                                            {
+                                                "label": "Deploying",
+                                                "hovertext": "Deploying at required site"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke-test/multilevelpie/ref-images/test_2_multilevelpie-snapshot.png",
+        "id": "test_2"
+    },
+    "test_3": {
+        "description": "percentvalue, legend releated tests",
+        "options": {
+            "type": "multilevelpie",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Current Year",
+                    "captionAlignment": "center",
+                    "captionOnTop": "1",
+                    "captionFontSize": "",
+                    "subCaptionFontSize": "",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "subCaptionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "10",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0",
+                    "palette": "4",
+                    "enableSmartLabels": "0",
+                    "labelDistance": "10",
+                    "use3DLighting": "0",
+                    "showLegend": "1",
+                    "legendPosition": "RIGHT",
+                    "reverseLegend": "1",
+                    "legendCaption": "Interactive Legend",
+                    "legendCaptionAlignment": "right",
+                    "showPercentValues": "1",
+                    "showZeroPies": "1"
+                },
+                "category": [
+                    {
+                        "label": "CEO",
+                        "fillcolor": "DBFF6C",
+                        "link": "n-Details.asp?CEO",
+                        "category": [
+                            {
+                                "label": "CTO",
+                                "fillcolor": "DBFF6C",
+                                "category": [
+                                    {
+                                        "label": "Proj. Manager",
+                                        "category": [
+                                            {
+                                                "label": "Design"
+                                            },
+                                            {
+                                                "label": "Coding"
+                                            },
+                                            {
+                                                "label": "Validate"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Q & A Manager",
+                                        "category": [
+                                            {
+                                                "label": "Testing Team"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Architect",
+                                        "category": [
+                                            {
+                                                "label": "Study"
+                                            },
+                                            {
+                                                "label": "Design"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "CFO",
+                                "fillcolor": "FBE299",
+                                "category": [
+                                    {
+                                        "label": "Payables",
+                                        "hovertext": "Accounts Payable Team",
+                                        "category": [
+                                            {
+                                                "label": "Salary",
+                                                "hovertext": "Team for salary accounts maintenance and upkeep"
+                                            },
+                                            {
+                                                "label": "Purchase"
+                                            },
+                                            {
+                                                "label": "Other",
+                                                "hovertext": "Other Payments"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Receivables",
+                                        "hovertext": "Accounts Receivables Team",
+                                        "category": [
+                                            {
+                                                "label": "SW1",
+                                                "hovertext": "Online Software Receipts Accounts"
+                                            },
+                                            {
+                                                "label": "SW2",
+                                                "hovertext": "Physical Software Receipts Accounts"
+                                            },
+                                            {
+                                                "label": "SER1",
+                                                "hovertext": "Services Collection"
+                                            },
+                                            {
+                                                "label": "SER2",
+                                                "hovertext": "Services Collection (Physical)"
+                                            },
+                                            {
+                                                "label": "OTR",
+                                                "hovertext": "Subscription and Other Collections"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "CIO",
+                                "fillcolor": "DAEDFC",
+                                "link": "Details.asp?CIO",
+                                "category": [
+                                    {
+                                        "label": "PR",
+                                        "hovertext": "PR Team",
+                                        "category": [
+                                            {
+                                                "label": "Packaging",
+                                                "hovertext": "Packaging Staff"
+                                            },
+                                            {
+                                                "label": "Inv Rel.",
+                                                "hovertext": "Investor Relations Upkeep"
+                                            },
+                                            {
+                                                "label": "Marketing",
+                                                "hovertext": "Marketing & Sales"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "HR",
+                                        "hovertext": "HR Team",
+                                        "category": [
+                                            {
+                                                "label": "Selection",
+                                                "hovertext": "Selection of Candidates"
+                                            },
+                                            {
+                                                "label": "Deploying",
+                                                "hovertext": "Deploying at required site"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke-test/multilevelpie/ref-images/test_3_multilevelpie-snapshot.png",
+        "id": "test_3"
+    }
+}

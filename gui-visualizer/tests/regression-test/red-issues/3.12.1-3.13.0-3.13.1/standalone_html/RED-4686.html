@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="fusioncharts/fusioncharts.js"></script>
+</head>
+
+<body>
+
+    <a href="https://fusioncharts.jira.com/browse/RED-4686">RED-4687</a>
+    <div>Addition of new attribute <b>minLabelWidthPercent</b> for bar charts</div>
+    <p>
+        In case of a single chart, the maxLabelWidthPercent attribute works as expected. But when the no. of chart is more than one, and we need to align them, then the need of minLabelWidthPercent attribute comes in the picture. As the length of all label may varies across charts. Setting lower value to maxLabelwidthPercent would not be a feasible solution in all scenarios. At this point "minLabelWidthPercent" would help us to achieve the smart label management across charts.
+    </p>
+    <div id="chart-container1">FusionCharts will render here</div>
+    <div id="chart-container2">FusionCharts will render here</div>
+    
+    <script type="text/javascript">
+        FusionCharts.ready(function () {
+            var topStores1 = new FusionCharts({
+                type: 'bar2d',
+                renderAt: 'chart-container1',
+                width: '400',
+                height: '300',
+                dataFormat: 'json',
+                dataSource: {
+                    "chart": {
+                    "caption": "Chart-1",
+                        "maxLabelWidthPercent":"20",
+                        "numberPrefix": "$",
+                        "paletteColors": "#0075c2",
+                        "bgColor": "#ffffff",
+                        "showBorder": "0",
+                        "showCanvasBorder": "0",
+                        "usePlotGradientColor": "0",
+                        "plotBorderAlpha": "10",
+                        "placeValuesInside": "1",
+                        "valueFontColor": "#ffffff",
+                        "showAxisLines": "1",
+                        "axisLineAlpha": "25",
+                        "divLineAlpha": "10",
+                        "alignCaptionWithCanvas": "0",
+                        "showAlternateVGridColor": "0",
+                        "captionFontSize": "14",
+                        "subcaptionFontSize": "14",
+                        "subcaptionFontBold": "0",
+                        "toolTipColor": "#ffffff",
+                        "toolTipBorderThickness": "0",
+                        "toolTipBgColor": "#000000",
+                        "toolTipBgAlpha": "80",
+                        "toolTipBorderRadius": "2",
+                        "toolTipPadding": "5"
+                    },
+                    
+                    "data": [
+                        {
+                            "label": "rdm lb long long 1",
+                            "value": "880000"
+                        }, 
+                        {
+                            "label": "rdm lbl 2",
+                            "value": "730000"
+                        }, 
+                        {
+                            "label": "rdm lbl 3",
+                            "value": "590000"
+                        }, 
+                        {
+                            "label": "rdm lbl 4",
+                            "value": "520000"
+                        }, 
+                        {
+                            "label": "rdm",
+                            "value": "330000"
+                        }
+                    ]
+                }
+            })
+            .render();
+            var topStores2 = new FusionCharts({
+                type: 'bar2d',
+                renderAt: 'chart-container2',
+                width: '400',
+                height: '300',
+                dataFormat: 'json',
+                dataSource: {
+                    "chart": {
+                        "caption": "Chart-2",
+                        "maxLabelWidthPercent":"20",
+                        "minLabelWidthPercent":"20",
+                        "numberPrefix": "$",
+                        "paletteColors": "#0075c2",
+                        "bgColor": "#ffffff",
+                        "showBorder": "0",
+                        "showCanvasBorder": "0",
+                        "usePlotGradientColor": "0",
+                        "plotBorderAlpha": "10",
+                        "placeValuesInside": "1",
+                        "valueFontColor": "#ffffff",
+                        "showAxisLines": "1",
+                        "axisLineAlpha": "25",
+                        "divLineAlpha": "10",
+                        "alignCaptionWithCanvas": "0",
+                        "showAlternateVGridColor": "0",
+                        "captionFontSize": "14",
+                        "subcaptionFontSize": "14",
+                        "subcaptionFontBold": "0",
+                        "toolTipColor": "#ffffff",
+                        "toolTipBorderThickness": "0",
+                        "toolTipBgColor": "#000000",
+                        "toolTipBgAlpha": "80",
+                        "toolTipBorderRadius": "2",
+                        "toolTipPadding": "5"
+                    },
+                    
+                    "data": [
+                        {
+                            "label": "rdm lbl 1",
+                            "value": "980000"
+                        }, 
+                        {
+                            "label": "rdm lbl 2",
+                            "value": "730000"
+                        }, 
+                        {
+                            "label": "rdm lbl 3",
+                            "value": "590000"
+                        }, 
+                        {
+                            "label": "rdm lbl 4",
+                            "value": "520000"
+                        }, 
+                        {
+                            "label": "rdm lbl 5",
+                            "value": "330000"
+                        }
+                    ]
+                }
+            })
+            .render();
+        });
+                    
+    </script>
+</body>
+
+</html>

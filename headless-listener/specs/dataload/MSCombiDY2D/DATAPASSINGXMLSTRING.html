@@ -1,0 +1,17 @@
+<html>
+  <head>        
+    <title>My First chart using FusionCharts XT</title>         
+    <script type="text/javascript" src="../../../fusioncharts/fusioncharts.js">
+    </script>
+  </head>   
+  <body>     
+    <div id="chartContainer">FusionCharts XT will load here!</div>          
+    <script type="text/javascript"><!--         
+      var myChart = new FusionCharts( "MSCOMBIDY2D","myChartId", "400", "350", "0" );
+	  var strXml = "<chart caption='Sales Volume' PYAxisName='Revenue' SYAxisName='Quantity' showvalues='0' numberPrefix='$'>    <categories>       <category label='Jan' />       <category label='Feb' />       <category label='Mar' />       <category label='Apr' />       <category label='May' />       <category label='Jun' />       <category label='Jul' />       <category label='Aug' />       <category label='Sep' />       <category label='Oct' />       <category label='Nov' />       <category label='Dec' />    </categories>    <dataset seriesName='Revenue'>       <set value='170' />       <set value='610' />       <set value='142' />       <set value='135' />       <set value='214' />       <set value='121' />       <set value='113' />       <set value='156' />       <set value='212' />       <set value='900' />       <set value='132' />       <set value='101' />    </dataset>    <dataset seriesName='Quantity' parentYAxis='S'>       <set value='340' />       <set value='120' />       <set value='280' />       <set value='270' />       <set value='430' />       <set value='240' />       <set value='230' />       <set value='310' />       <set value='430' />       <set value='180' />       <set value='260' />       <set value='200' />    </dataset>    <trendLines>       <line startValue='2100000' color='009933' displayvalue='Target' />    </trendLines>    <styles>       <definition>          <style name='CanvasAnim' type='animation' param='_xScale' start='0' duration='1' />       </definition>       <application>          <apply toObject='Canvas' styles='CanvasAnim' />       </application>    </styles> </chart>";
+      myChart.setXMLData(strXml);
+      myChart.render("chartContainer");
+    // -->     
+    </script>      
+  </body> 
+</html>

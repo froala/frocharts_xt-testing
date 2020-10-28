@@ -1,0 +1,44 @@
+{
+    "cylinder": {
+        "descriptions": "update theme from fint to candy",
+        "id": "cylinder",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "cylinder",
+            "dataSource": {
+                "chart": {
+                    "palette": "3",
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "animation": 0,
+                    "datastreamurl": "realtime/multipleData.php",
+                    "theme": "fint"
+                },
+                "value": "2452"
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "palette": "3",
+                            "lowerlimit": "0",
+                            "upperlimit": "4000",
+                            "numbersuffix": " ltrs.",
+                            "bgcolor": "FFFFFF",
+                            "animation": 0,
+                            "datastreamurl": "realtime/multipleData.php",
+                            "theme": "candy"
+                        },
+                        "value": "2452"
+                    }
+                ]
+            }
+        ]
+    }
+}

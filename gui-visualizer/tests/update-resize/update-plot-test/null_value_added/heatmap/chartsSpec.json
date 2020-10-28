@@ -1,0 +1,1638 @@
+{
+    "heatmap": {
+        "description": "heatmap null_value_added test",
+        "id": "heatmap",
+        "options": {
+            "type": "heatmap",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "rows": {
+                    "row": [
+                        {
+                            "id": "row-Label-1",
+                            "label": "Row-1"
+                        },
+                        {
+                            "id": "row-Label-2",
+                            "label": "Row-2"
+                        },
+                        {
+                            "id": "row-Label-3",
+                            "label": "Row-3"
+                        },
+                        {
+                            "id": "row-Label-4",
+                            "label": "Row-4"
+                        },
+                        {
+                            "id": "row-Label-5",
+                            "label": "Row-5"
+                        },
+                        {
+                            "id": "row-Label-6",
+                            "label": "Row-6"
+                        },
+                        {
+                            "id": "row-Label-7",
+                            "label": "Row-7"
+                        },
+                        {
+                            "id": "row-Label-8",
+                            "label": "Row-8"
+                        }
+                    ]
+                },
+                "columns": {
+                    "column": [
+                        {
+                            "id": "col-Label-1",
+                            "label": "Column-1"
+                        },
+                        {
+                            "id": "col-Label-2",
+                            "label": "Column-2"
+                        },
+                        {
+                            "id": "col-Label-3",
+                            "label": "Column-3"
+                        }
+                    ]
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "rowid": "row-Label-1",
+                                "columnid": "col-Label-1",
+                                "value": "537"
+                            },
+                            {
+                                "rowid": "row-Label-1",
+                                "columnid": "col-Label-2",
+                                "value": "524"
+                            },
+                            {
+                                "rowid": "row-Label-1",
+                                "columnid": "col-Label-3",
+                                "value": "538"
+                            },
+                            {
+                                "rowid": "row-Label-2",
+                                "columnid": "col-Label-1",
+                                "value": "217"
+                            },
+                            {
+                                "rowid": "row-Label-2",
+                                "columnid": "col-Label-2",
+                                "value": "810"
+                            },
+                            {
+                                "rowid": "row-Label-2",
+                                "columnid": "col-Label-3",
+                                "value": "337"
+                            },
+                            {
+                                "rowid": "row-Label-3",
+                                "columnid": "col-Label-1",
+                                "value": "685"
+                            },
+                            {
+                                "rowid": "row-Label-3",
+                                "columnid": "col-Label-2",
+                                "value": "193"
+                            },
+                            {
+                                "rowid": "row-Label-3",
+                                "columnid": "col-Label-3",
+                                "value": "639"
+                            },
+                            {
+                                "rowid": "row-Label-4",
+                                "columnid": "col-Label-1",
+                                "value": "227"
+                            },
+                            {
+                                "rowid": "row-Label-4",
+                                "columnid": "col-Label-2",
+                                "value": "952"
+                            },
+                            {
+                                "rowid": "row-Label-4",
+                                "columnid": "col-Label-3",
+                                "value": "27"
+                            },
+                            {
+                                "rowid": "row-Label-5",
+                                "columnid": "col-Label-1",
+                                "value": "68"
+                            },
+                            {
+                                "rowid": "row-Label-5",
+                                "columnid": "col-Label-2",
+                                "value": "44"
+                            },
+                            {
+                                "rowid": "row-Label-5",
+                                "columnid": "col-Label-3",
+                                "value": "207"
+                            },
+                            {
+                                "rowid": "row-Label-6",
+                                "columnid": "col-Label-1",
+                                "value": "34"
+                            },
+                            {
+                                "rowid": "row-Label-6",
+                                "columnid": "col-Label-2",
+                                "value": "15"
+                            },
+                            {
+                                "rowid": "row-Label-6",
+                                "columnid": "col-Label-3",
+                                "value": "22"
+                            },
+                            {
+                                "rowid": "row-Label-7",
+                                "columnid": "col-Label-1",
+                                "value": "863"
+                            },
+                            {
+                                "rowid": "row-Label-7",
+                                "columnid": "col-Label-2",
+                                "value": "17"
+                            },
+                            {
+                                "rowid": "row-Label-7",
+                                "columnid": "col-Label-3",
+                                "value": "678"
+                            },
+                            {
+                                "rowid": "row-Label-8",
+                                "columnid": "col-Label-1",
+                                "value": "142"
+                            },
+                            {
+                                "rowid": "row-Label-8",
+                                "columnid": "col-Label-2",
+                                "value": "7"
+                            },
+                            {
+                                "rowid": "row-Label-8",
+                                "columnid": "col-Label-3",
+                                "value": "232"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "animation": "0",
+                    "caption": "Monthly Revenue",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "anchorradius": 5
+                },
+                "colorrange": {
+                    "mapbypercent": "1",
+                    "gradient": "1"
+                }
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "rows": {
+                            "row": [
+                                {
+                                    "id": "row-Label-1",
+                                    "label": "Row-1"
+                                },
+                                {
+                                    "id": "row-Label-2",
+                                    "label": "Row-2"
+                                },
+                                {
+                                    "id": "row-Label-3",
+                                    "label": "Row-3"
+                                },
+                                {
+                                    "id": "row-Label-4",
+                                    "label": "Row-4"
+                                },
+                                {
+                                    "id": "row-Label-5",
+                                    "label": "Row-5"
+                                },
+                                {
+                                    "id": "row-Label-6",
+                                    "label": "Row-6"
+                                },
+                                {
+                                    "id": "row-Label-7",
+                                    "label": "Row-7"
+                                },
+                                {
+                                    "id": "row-Label-8",
+                                    "label": "Row-8"
+                                }
+                            ]
+                        },
+                        "columns": {
+                            "column": [
+                                {
+                                    "id": "col-Label-1",
+                                    "label": "Column-1"
+                                },
+                                {
+                                    "id": "col-Label-2",
+                                    "label": "Column-2"
+                                },
+                                {
+                                    "id": "col-Label-3",
+                                    "label": "Column-3"
+                                }
+                            ]
+                        },
+                        "dataset": [
+                            {
+                                "data": [
+                                    {
+                                        "rowid": "row-Label-1",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-1",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-1",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-2",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-2",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-2",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-3",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-3",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-3",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-4",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-4",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-4",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-5",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-5",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-5",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-6",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-6",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-6",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-7",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-7",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-7",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-8",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-8",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-8",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    }
+                                ]
+                            }
+                        ],
+                        "chart": {
+                            "animation": "0",
+                            "caption": "Monthly Revenue",
+                            "xaxisname": "Month",
+                            "yaxisname": "Revenue",
+                            "numberprefix": "$",
+                            "anchorradius": 5
+                        },
+                        "colorrange": {
+                            "mapbypercent": "1",
+                            "gradient": "1"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "heatmap_2": {
+        "description": "heatmap null_value_added test",
+        "id": "heatmap",
+        "options": {
+            "type": "heatmap",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "rows": {
+                    "row": [
+                        {
+                            "id": "row-Label-1",
+                            "label": "Row-1"
+                        },
+                        {
+                            "id": "row-Label-2",
+                            "label": "Row-2"
+                        },
+                        {
+                            "id": "row-Label-3",
+                            "label": "Row-3"
+                        },
+                        {
+                            "id": "row-Label-4",
+                            "label": "Row-4"
+                        },
+                        {
+                            "id": "row-Label-5",
+                            "label": "Row-5"
+                        },
+                        {
+                            "id": "row-Label-6",
+                            "label": "Row-6"
+                        },
+                        {
+                            "id": "row-Label-7",
+                            "label": "Row-7"
+                        },
+                        {
+                            "id": "row-Label-8",
+                            "label": "Row-8"
+                        },
+                        {
+                            "id": "row-Label-9",
+                            "label": "Row-9"
+                        },
+                        {
+                            "id": "row-Label-10",
+                            "label": "Row-10"
+                        },
+                        {
+                            "id": "row-Label-11",
+                            "label": "Row-11"
+                        },
+                        {
+                            "id": "row-Label-12",
+                            "label": "Row-12"
+                        },
+                        {
+                            "id": "row-Label-13",
+                            "label": "Row-13"
+                        },
+                        {
+                            "id": "row-Label-14",
+                            "label": "Row-14"
+                        },
+                        {
+                            "id": "row-Label-15",
+                            "label": "Row-15"
+                        },
+                        {
+                            "id": "row-Label-16",
+                            "label": "Row-16"
+                        },
+                        {
+                            "id": "row-Label-17",
+                            "label": "Row-17"
+                        },
+                        {
+                            "id": "row-Label-18",
+                            "label": "Row-18"
+                        },
+                        {
+                            "id": "row-Label-19",
+                            "label": "Row-19"
+                        },
+                        {
+                            "id": "row-Label-20",
+                            "label": "Row-20"
+                        },
+                        {
+                            "id": "row-Label-21",
+                            "label": "Row-21"
+                        },
+                        {
+                            "id": "row-Label-22",
+                            "label": "Row-22"
+                        },
+                        {
+                            "id": "row-Label-23",
+                            "label": "Row-23"
+                        },
+                        {
+                            "id": "row-Label-24",
+                            "label": "Row-24"
+                        },
+                        {
+                            "id": "row-Label-25",
+                            "label": "Row-25"
+                        },
+                        {
+                            "id": "row-Label-26",
+                            "label": "Row-26"
+                        },
+                        {
+                            "id": "row-Label-27",
+                            "label": "Row-27"
+                        },
+                        {
+                            "id": "row-Label-28",
+                            "label": "Row-28"
+                        },
+                        {
+                            "id": "row-Label-29",
+                            "label": "Row-29"
+                        },
+                        {
+                            "id": "row-Label-30",
+                            "label": "Row-30"
+                        }
+                    ]
+                },
+                "columns": {
+                    "column": [
+                        {
+                            "id": "col-Label-1",
+                            "label": "Column-1"
+                        },
+                        {
+                            "id": "col-Label-2",
+                            "label": "Column-2"
+                        },
+                        {
+                            "id": "col-Label-3",
+                            "label": "Column-3"
+                        }
+                    ]
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "rowid": "row-Label-1",
+                                "columnid": "col-Label-1",
+                                "value": "575"
+                            },
+                            {
+                                "rowid": "row-Label-1",
+                                "columnid": "col-Label-2",
+                                "value": "926"
+                            },
+                            {
+                                "rowid": "row-Label-1",
+                                "columnid": "col-Label-3",
+                                "value": "826"
+                            },
+                            {
+                                "rowid": "row-Label-2",
+                                "columnid": "col-Label-1",
+                                "value": "233"
+                            },
+                            {
+                                "rowid": "row-Label-2",
+                                "columnid": "col-Label-2",
+                                "value": "474"
+                            },
+                            {
+                                "rowid": "row-Label-2",
+                                "columnid": "col-Label-3",
+                                "value": "256"
+                            },
+                            {
+                                "rowid": "row-Label-3",
+                                "columnid": "col-Label-1",
+                                "value": "817"
+                            },
+                            {
+                                "rowid": "row-Label-3",
+                                "columnid": "col-Label-2",
+                                "value": "313"
+                            },
+                            {
+                                "rowid": "row-Label-3",
+                                "columnid": "col-Label-3",
+                                "value": "595"
+                            },
+                            {
+                                "rowid": "row-Label-4",
+                                "columnid": "col-Label-1",
+                                "value": "48"
+                            },
+                            {
+                                "rowid": "row-Label-4",
+                                "columnid": "col-Label-2",
+                                "value": "585"
+                            },
+                            {
+                                "rowid": "row-Label-4",
+                                "columnid": "col-Label-3",
+                                "value": "359"
+                            },
+                            {
+                                "rowid": "row-Label-5",
+                                "columnid": "col-Label-1",
+                                "value": "587"
+                            },
+                            {
+                                "rowid": "row-Label-5",
+                                "columnid": "col-Label-2",
+                                "value": "483"
+                            },
+                            {
+                                "rowid": "row-Label-5",
+                                "columnid": "col-Label-3",
+                                "value": "519"
+                            },
+                            {
+                                "rowid": "row-Label-6",
+                                "columnid": "col-Label-1",
+                                "value": "201"
+                            },
+                            {
+                                "rowid": "row-Label-6",
+                                "columnid": "col-Label-2",
+                                "value": "510"
+                            },
+                            {
+                                "rowid": "row-Label-6",
+                                "columnid": "col-Label-3",
+                                "value": "75"
+                            },
+                            {
+                                "rowid": "row-Label-7",
+                                "columnid": "col-Label-1",
+                                "value": "230"
+                            },
+                            {
+                                "rowid": "row-Label-7",
+                                "columnid": "col-Label-2",
+                                "value": "465"
+                            },
+                            {
+                                "rowid": "row-Label-7",
+                                "columnid": "col-Label-3",
+                                "value": "131"
+                            },
+                            {
+                                "rowid": "row-Label-8",
+                                "columnid": "col-Label-1",
+                                "value": "614"
+                            },
+                            {
+                                "rowid": "row-Label-8",
+                                "columnid": "col-Label-2",
+                                "value": "215"
+                            },
+                            {
+                                "rowid": "row-Label-8",
+                                "columnid": "col-Label-3",
+                                "value": "412"
+                            },
+                            {
+                                "rowid": "row-Label-9",
+                                "columnid": "col-Label-1",
+                                "value": "133"
+                            },
+                            {
+                                "rowid": "row-Label-9",
+                                "columnid": "col-Label-2",
+                                "value": "512"
+                            },
+                            {
+                                "rowid": "row-Label-9",
+                                "columnid": "col-Label-3",
+                                "value": "315"
+                            },
+                            {
+                                "rowid": "row-Label-10",
+                                "columnid": "col-Label-1",
+                                "value": "970"
+                            },
+                            {
+                                "rowid": "row-Label-10",
+                                "columnid": "col-Label-2",
+                                "value": "348"
+                            },
+                            {
+                                "rowid": "row-Label-10",
+                                "columnid": "col-Label-3",
+                                "value": "476"
+                            },
+                            {
+                                "rowid": "row-Label-11",
+                                "columnid": "col-Label-1",
+                                "value": "152"
+                            },
+                            {
+                                "rowid": "row-Label-11",
+                                "columnid": "col-Label-2",
+                                "value": "249"
+                            },
+                            {
+                                "rowid": "row-Label-11",
+                                "columnid": "col-Label-3",
+                                "value": "668"
+                            },
+                            {
+                                "rowid": "row-Label-12",
+                                "columnid": "col-Label-1",
+                                "value": "325"
+                            },
+                            {
+                                "rowid": "row-Label-12",
+                                "columnid": "col-Label-2",
+                                "value": "271"
+                            },
+                            {
+                                "rowid": "row-Label-12",
+                                "columnid": "col-Label-3",
+                                "value": "881"
+                            },
+                            {
+                                "rowid": "row-Label-13",
+                                "columnid": "col-Label-1",
+                                "value": "22"
+                            },
+                            {
+                                "rowid": "row-Label-13",
+                                "columnid": "col-Label-2",
+                                "value": "948"
+                            },
+                            {
+                                "rowid": "row-Label-13",
+                                "columnid": "col-Label-3",
+                                "value": "880"
+                            },
+                            {
+                                "rowid": "row-Label-14",
+                                "columnid": "col-Label-1",
+                                "value": "688"
+                            },
+                            {
+                                "rowid": "row-Label-14",
+                                "columnid": "col-Label-2",
+                                "value": "149"
+                            },
+                            {
+                                "rowid": "row-Label-14",
+                                "columnid": "col-Label-3",
+                                "value": "911"
+                            },
+                            {
+                                "rowid": "row-Label-15",
+                                "columnid": "col-Label-1",
+                                "value": "590"
+                            },
+                            {
+                                "rowid": "row-Label-15",
+                                "columnid": "col-Label-2",
+                                "value": "671"
+                            },
+                            {
+                                "rowid": "row-Label-15",
+                                "columnid": "col-Label-3",
+                                "value": "330"
+                            },
+                            {
+                                "rowid": "row-Label-16",
+                                "columnid": "col-Label-1",
+                                "value": "299"
+                            },
+                            {
+                                "rowid": "row-Label-16",
+                                "columnid": "col-Label-2",
+                                "value": "637"
+                            },
+                            {
+                                "rowid": "row-Label-16",
+                                "columnid": "col-Label-3",
+                                "value": "795"
+                            },
+                            {
+                                "rowid": "row-Label-17",
+                                "columnid": "col-Label-1",
+                                "value": "99"
+                            },
+                            {
+                                "rowid": "row-Label-17",
+                                "columnid": "col-Label-2",
+                                "value": "844"
+                            },
+                            {
+                                "rowid": "row-Label-17",
+                                "columnid": "col-Label-3",
+                                "value": "875"
+                            },
+                            {
+                                "rowid": "row-Label-18",
+                                "columnid": "col-Label-1",
+                                "value": "280"
+                            },
+                            {
+                                "rowid": "row-Label-18",
+                                "columnid": "col-Label-2",
+                                "value": "384"
+                            },
+                            {
+                                "rowid": "row-Label-18",
+                                "columnid": "col-Label-3",
+                                "value": "311"
+                            },
+                            {
+                                "rowid": "row-Label-19",
+                                "columnid": "col-Label-1",
+                                "value": "109"
+                            },
+                            {
+                                "rowid": "row-Label-19",
+                                "columnid": "col-Label-2",
+                                "value": "644"
+                            },
+                            {
+                                "rowid": "row-Label-19",
+                                "columnid": "col-Label-3",
+                                "value": "932"
+                            },
+                            {
+                                "rowid": "row-Label-20",
+                                "columnid": "col-Label-1",
+                                "value": "718"
+                            },
+                            {
+                                "rowid": "row-Label-20",
+                                "columnid": "col-Label-2",
+                                "value": "117"
+                            },
+                            {
+                                "rowid": "row-Label-20",
+                                "columnid": "col-Label-3",
+                                "value": "497"
+                            },
+                            {
+                                "rowid": "row-Label-21",
+                                "columnid": "col-Label-1",
+                                "value": "548"
+                            },
+                            {
+                                "rowid": "row-Label-21",
+                                "columnid": "col-Label-2",
+                                "value": "476"
+                            },
+                            {
+                                "rowid": "row-Label-21",
+                                "columnid": "col-Label-3",
+                                "value": "641"
+                            },
+                            {
+                                "rowid": "row-Label-22",
+                                "columnid": "col-Label-1",
+                                "value": "456"
+                            },
+                            {
+                                "rowid": "row-Label-22",
+                                "columnid": "col-Label-2",
+                                "value": "344"
+                            },
+                            {
+                                "rowid": "row-Label-22",
+                                "columnid": "col-Label-3",
+                                "value": "974"
+                            },
+                            {
+                                "rowid": "row-Label-23",
+                                "columnid": "col-Label-1",
+                                "value": "825"
+                            },
+                            {
+                                "rowid": "row-Label-23",
+                                "columnid": "col-Label-2",
+                                "value": "647"
+                            },
+                            {
+                                "rowid": "row-Label-23",
+                                "columnid": "col-Label-3",
+                                "value": "900"
+                            },
+                            {
+                                "rowid": "row-Label-24",
+                                "columnid": "col-Label-1",
+                                "value": "837"
+                            },
+                            {
+                                "rowid": "row-Label-24",
+                                "columnid": "col-Label-2",
+                                "value": "262"
+                            },
+                            {
+                                "rowid": "row-Label-24",
+                                "columnid": "col-Label-3",
+                                "value": "208"
+                            },
+                            {
+                                "rowid": "row-Label-25",
+                                "columnid": "col-Label-1",
+                                "value": "418"
+                            },
+                            {
+                                "rowid": "row-Label-25",
+                                "columnid": "col-Label-2",
+                                "value": "208"
+                            },
+                            {
+                                "rowid": "row-Label-25",
+                                "columnid": "col-Label-3",
+                                "value": "549"
+                            },
+                            {
+                                "rowid": "row-Label-26",
+                                "columnid": "col-Label-1",
+                                "value": "880"
+                            },
+                            {
+                                "rowid": "row-Label-26",
+                                "columnid": "col-Label-2",
+                                "value": "416"
+                            },
+                            {
+                                "rowid": "row-Label-26",
+                                "columnid": "col-Label-3",
+                                "value": "805"
+                            },
+                            {
+                                "rowid": "row-Label-27",
+                                "columnid": "col-Label-1",
+                                "value": "254"
+                            },
+                            {
+                                "rowid": "row-Label-27",
+                                "columnid": "col-Label-2",
+                                "value": "804"
+                            },
+                            {
+                                "rowid": "row-Label-27",
+                                "columnid": "col-Label-3",
+                                "value": "646"
+                            },
+                            {
+                                "rowid": "row-Label-28",
+                                "columnid": "col-Label-1",
+                                "value": "178"
+                            },
+                            {
+                                "rowid": "row-Label-28",
+                                "columnid": "col-Label-2",
+                                "value": "313"
+                            },
+                            {
+                                "rowid": "row-Label-28",
+                                "columnid": "col-Label-3",
+                                "value": "675"
+                            },
+                            {
+                                "rowid": "row-Label-29",
+                                "columnid": "col-Label-1",
+                                "value": "378"
+                            },
+                            {
+                                "rowid": "row-Label-29",
+                                "columnid": "col-Label-2",
+                                "value": "151"
+                            },
+                            {
+                                "rowid": "row-Label-29",
+                                "columnid": "col-Label-3",
+                                "value": "318"
+                            },
+                            {
+                                "rowid": "row-Label-30",
+                                "columnid": "col-Label-1",
+                                "value": "739"
+                            },
+                            {
+                                "rowid": "row-Label-30",
+                                "columnid": "col-Label-2",
+                                "value": "231"
+                            },
+                            {
+                                "rowid": "row-Label-30",
+                                "columnid": "col-Label-3",
+                                "value": "189"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "animation": "0",
+                    "caption": "Monthly Revenue",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "anchorradius": 5
+                },
+                "colorrange": {
+                    "mapbypercent": "1",
+                    "gradient": "1"
+                }
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "rows": {
+                            "row": [
+                                {
+                                    "id": "row-Label-1",
+                                    "label": "Row-1"
+                                },
+                                {
+                                    "id": "row-Label-2",
+                                    "label": "Row-2"
+                                },
+                                {
+                                    "id": "row-Label-3",
+                                    "label": "Row-3"
+                                },
+                                {
+                                    "id": "row-Label-4",
+                                    "label": "Row-4"
+                                },
+                                {
+                                    "id": "row-Label-5",
+                                    "label": "Row-5"
+                                },
+                                {
+                                    "id": "row-Label-6",
+                                    "label": "Row-6"
+                                },
+                                {
+                                    "id": "row-Label-7",
+                                    "label": "Row-7"
+                                },
+                                {
+                                    "id": "row-Label-8",
+                                    "label": "Row-8"
+                                },
+                                {
+                                    "id": "row-Label-9",
+                                    "label": "Row-9"
+                                },
+                                {
+                                    "id": "row-Label-10",
+                                    "label": "Row-10"
+                                },
+                                {
+                                    "id": "row-Label-11",
+                                    "label": "Row-11"
+                                },
+                                {
+                                    "id": "row-Label-12",
+                                    "label": "Row-12"
+                                },
+                                {
+                                    "id": "row-Label-13",
+                                    "label": "Row-13"
+                                },
+                                {
+                                    "id": "row-Label-14",
+                                    "label": "Row-14"
+                                },
+                                {
+                                    "id": "row-Label-15",
+                                    "label": "Row-15"
+                                },
+                                {
+                                    "id": "row-Label-16",
+                                    "label": "Row-16"
+                                },
+                                {
+                                    "id": "row-Label-17",
+                                    "label": "Row-17"
+                                },
+                                {
+                                    "id": "row-Label-18",
+                                    "label": "Row-18"
+                                },
+                                {
+                                    "id": "row-Label-19",
+                                    "label": "Row-19"
+                                },
+                                {
+                                    "id": "row-Label-20",
+                                    "label": "Row-20"
+                                },
+                                {
+                                    "id": "row-Label-21",
+                                    "label": "Row-21"
+                                },
+                                {
+                                    "id": "row-Label-22",
+                                    "label": "Row-22"
+                                },
+                                {
+                                    "id": "row-Label-23",
+                                    "label": "Row-23"
+                                },
+                                {
+                                    "id": "row-Label-24",
+                                    "label": "Row-24"
+                                },
+                                {
+                                    "id": "row-Label-25",
+                                    "label": "Row-25"
+                                },
+                                {
+                                    "id": "row-Label-26",
+                                    "label": "Row-26"
+                                },
+                                {
+                                    "id": "row-Label-27",
+                                    "label": "Row-27"
+                                },
+                                {
+                                    "id": "row-Label-28",
+                                    "label": "Row-28"
+                                },
+                                {
+                                    "id": "row-Label-29",
+                                    "label": "Row-29"
+                                },
+                                {
+                                    "id": "row-Label-30",
+                                    "label": "Row-30"
+                                }
+                            ]
+                        },
+                        "columns": {
+                            "column": [
+                                {
+                                    "id": "col-Label-1",
+                                    "label": "Column-1"
+                                },
+                                {
+                                    "id": "col-Label-2",
+                                    "label": "Column-2"
+                                },
+                                {
+                                    "id": "col-Label-3",
+                                    "label": "Column-3"
+                                }
+                            ]
+                        },
+                        "dataset": [
+                            {
+                                "data": [
+                                    {
+                                        "rowid": "row-Label-1",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-1",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-1",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-2",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-2",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-2",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-3",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-3",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-3",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-4",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-4",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-4",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-5",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-5",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-5",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-6",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-6",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-6",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-7",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-7",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-7",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-8",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-8",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-8",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-9",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-9",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-9",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-10",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-10",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-10",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-11",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-11",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-11",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-12",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-12",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-12",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-13",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-13",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-13",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-14",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-14",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-14",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-15",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-15",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-15",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-16",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-16",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-16",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-17",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-17",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-17",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-18",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-18",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-18",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-19",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-19",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-19",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-20",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-20",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-20",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-21",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-21",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-21",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-22",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-22",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-22",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-23",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-23",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-23",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-24",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-24",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-24",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-25",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-25",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-25",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-26",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-26",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-26",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-27",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-27",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-27",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-28",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-28",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-28",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-29",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-29",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-29",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-30",
+                                        "columnid": "col-Label-1",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-30",
+                                        "columnid": "col-Label-2",
+                                        "value": ""
+                                    },
+                                    {
+                                        "rowid": "row-Label-30",
+                                        "columnid": "col-Label-3",
+                                        "value": ""
+                                    }
+                                ]
+                            }
+                        ],
+                        "chart": {
+                            "animation": "0",
+                            "caption": "Monthly Revenue",
+                            "xaxisname": "Month",
+                            "yaxisname": "Revenue",
+                            "numberprefix": "$",
+                            "anchorradius": 5
+                        },
+                        "colorrange": {
+                            "mapbypercent": "1",
+                            "gradient": "1"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

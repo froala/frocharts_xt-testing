@@ -1,0 +1,415 @@
+{
+    "test-6": {
+        "descriptions": "When plot fill colour gets updated through setJSONData() then plotborder colour should updated with plotfillcolor when inheritplotbordercolorfromplot=1 and if plotbordercolor is not specified.",
+        "id": "test-6",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "splinearea",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly Revenue",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": 0,
+                    "inheritplotbordercolor": "1",
+                    "_plotfillcolor": "ff0000,0000ff,00ff00",
+                    "plotfillcolor": "ff0000",
+                    "plotborderthickness": "4",
+                    "_showplotborder": "1",
+                    "_drawfullareaborder": "0",
+                    "plotbordercolor": "0000ff"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "caption": "Monthly Revenue",
+                            "xaxisname": "Month",
+                            "yaxisname": "Revenue",
+                            "numberprefix": "$",
+                            "showvalues": "1",
+                            "animation": 0,
+                            "inheritplotbordercolor": "1",
+                            "_plotfillcolor": "ff0000,0000ff,00ff00",
+                            "plotfillcolor": "0000ff",
+                            "plotborderthickness": "4",
+                            "_showplotborder": "1",
+                            "_drawfullareaborder": "0",
+                            "_plotbordercolor": "0000ff",
+                            "_showvalues": "1"
+                        },
+                        "data": [
+                            {
+                                "label": "Jan",
+                                "value": "420000"
+                            },
+                            {
+                                "label": "Feb",
+                                "value": "910000"
+                            },
+                            {
+                                "label": "Mar",
+                                "value": "720000"
+                            },
+                            {
+                                "label": "Apr",
+                                "value": "550000"
+                            },
+                            {
+                                "label": "May",
+                                "value": "810000"
+                            },
+                            {
+                                "label": "Jun",
+                                "value": "510000"
+                            },
+                            {
+                                "label": "Jul",
+                                "value": "680000"
+                            },
+                            {
+                                "label": "Aug",
+                                "value": "620000"
+                            },
+                            {
+                                "label": "Sep",
+                                "value": "610000"
+                            },
+                            {
+                                "label": "Oct",
+                                "value": "490000"
+                            },
+                            {
+                                "label": "Nov",
+                                "value": "530000"
+                            },
+                            {
+                                "label": "Dec",
+                                "value": "330000"
+                            }
+                        ],
+                        "trendlines": [
+                            {
+                                "line": [
+                                    {
+                                        "startvalue": "700000",
+                                        "color": "009933",
+                                        "displayvalue": "Target"
+                                    }
+                                ]
+                            }
+                        ],
+                        "styles": {
+                            "definition": [
+                                {
+                                    "name": "CanvasAnim",
+                                    "type": "animation",
+                                    "param": "_xScale",
+                                    "start": "0",
+                                    "duration": "1"
+                                }
+                            ],
+                            "application": [
+                                {
+                                    "toobject": "Canvas",
+                                    "styles": "CanvasAnim"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "test-10": {
+        "descriptions": "When inheritplotbordercolorfromplot attribute updated from 0 to 1 then plotbordercolor should updated with plotfillcolor with opacity 100% only if any plotbordercolor is not specified explicitly.",
+        "id": "test-10",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "splinearea",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly Revenue",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": 0,
+                    "inheritplotbordercolor": "0",
+                    "_plotfillcolor": "ff0000,0000ff,00ff00",
+                    "plotfillcolor": "ff0000",
+                    "plotborderthickness": "4",
+                    "_showplotborder": "1",
+                    "_drawfullareaborder": "0",
+                    "_plotbordercolor": "0000ff"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "caption": "Monthly Revenue",
+                            "xaxisname": "Month",
+                            "yaxisname": "Revenue",
+                            "numberprefix": "$",
+                            "showvalues": "1",
+                            "animation": 0,
+                            "inheritplotbordercolor": "1",
+                            "_plotfillcolor": "ff0000,0000ff,00ff00",
+                            "plotfillcolor": "ff0000",
+                            "plotborderthickness": "4",
+                            "_showplotborder": "1",
+                            "_drawfullareaborder": "0",
+                            "_plotbordercolor": "0000ff"
+                        },
+                        "data": [
+                            {
+                                "label": "Jan",
+                                "value": "420000"
+                            },
+                            {
+                                "label": "Feb",
+                                "value": "910000"
+                            },
+                            {
+                                "label": "Mar",
+                                "value": "720000"
+                            },
+                            {
+                                "label": "Apr",
+                                "value": "550000"
+                            },
+                            {
+                                "label": "May",
+                                "value": "810000"
+                            },
+                            {
+                                "label": "Jun",
+                                "value": "510000"
+                            },
+                            {
+                                "label": "Jul",
+                                "value": "680000"
+                            },
+                            {
+                                "label": "Aug",
+                                "value": "620000"
+                            },
+                            {
+                                "label": "Sep",
+                                "value": "610000"
+                            },
+                            {
+                                "label": "Oct",
+                                "value": "490000"
+                            },
+                            {
+                                "label": "Nov",
+                                "value": "530000"
+                            },
+                            {
+                                "label": "Dec",
+                                "value": "330000"
+                            }
+                        ],
+                        "trendlines": [
+                            {
+                                "line": [
+                                    {
+                                        "startvalue": "700000",
+                                        "color": "009933",
+                                        "displayvalue": "Target"
+                                    }
+                                ]
+                            }
+                        ],
+                        "styles": {
+                            "definition": [
+                                {
+                                    "name": "CanvasAnim",
+                                    "type": "animation",
+                                    "param": "_xScale",
+                                    "start": "0",
+                                    "duration": "1"
+                                }
+                            ],
+                            "application": [
+                                {
+                                    "toobject": "Canvas",
+                                    "styles": "CanvasAnim"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

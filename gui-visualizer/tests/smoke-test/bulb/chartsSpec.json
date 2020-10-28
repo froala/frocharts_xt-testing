@@ -1,0 +1,153 @@
+{
+    "test_1": {
+        "description": "Border, logo, bg, caption, subcaption, functional attributes related changes",
+        "options": {
+            "type": "bulb",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly Revenue sdnjsdkjsdn sdlksdlksd jdldslsdlkskdl kdksdksdk",
+                    "subcaption": "Current Year",
+                    "captionAlignment": "left",
+                    "captionOnTop": "1",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "subCaptionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "10",
+                    "showValue": "1",
+                    "useColorNameAsValue": "1",
+                    "placeValuesInside": "1",
+                    "showPrintMenuItem": "1",
+                    "showBorder": "1",
+                    "borderColor": "#330000",
+                    "borderAlpha": "85",
+                    "bgColor": "#999999,#ffffff",
+                    "bgAlpha": "100",
+                    "bgRatio": "10:90",
+                    "bgAngle": "90",
+                    "bgImage": "http://phoenixinsure.com/images/background/4.jpg",
+                    "bgImageAlpha": "50",
+                    "bgImageVAlign": "middle",
+                    "bgImageHAlign": "left",
+                    "bgImageScale": "22",
+                    "logoURL": "http://www.fusioncharts.com/theme/210x38xlogo.png.pagespeed.ic.KZD9tJ7qIK.png",
+                    "logoPosition": "TR",
+                    "logoAlpha": "50",
+                    "logoScale": "70",
+                    "logoLink": "http://fusioncharts.com",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "10",
+                            "maxvalue": "30",
+                            "label": "Low",
+                            "code": "00FF00"
+                        },
+                        {
+                            "minvalue": "30",
+                            "maxvalue": "70",
+                            "label": "Medium",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "70",
+                            "maxvalue": "100",
+                            "label": "High",
+                            "code": "FF0000"
+                        }
+                    ]
+                },
+                "value": "333"
+            }
+        },
+        "refimage": "./tests/smoke-test/bulb/ref-images/test_1_bulb-snapshot.png",
+        "id": "test_1"
+    },
+    "test_2": {
+        "description": "guage scale,tooltip related tests.",
+        "options": {
+            "type": "bulb",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly Revenue sdnjsdkjsdn sdlksdlksd jdldslsdlkskdl kdksdksdk",
+                    "subcaption": "Current Year",
+                    "captionAlignment": "left",
+                    "captionOnTop": "0",
+                    "captionFontSize": "40",
+                    "subCaptionFontSize": "25",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "subCaptionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "10",
+                    "showValue": "1",
+                    "useColorNameAsValue": "0",
+                    "placeValuesInside": "1",
+                    "showPrintMenuItem": "1",
+                    "showBorder": "1",
+                    "borderColor": "#330000",
+                    "borderAlpha": "45",
+                    "bgColor": "#999999,#ffffff",
+                    "bgAlpha": "100",
+                    "bgRatio": "10:90",
+                    "bgAngle": "90",
+                    "gaugeFillAlpha": "100",
+                    "gaugeOriginX": "450",
+                    "gaugeOriginY": "300",
+                    "gaugeRadius": "200",
+                    "showGaugeBorder": "1",
+                    "gaugeBorderColor": "#99FF99",
+                    "gaugeBorderThickness": "6",
+                    "gaugeBorderAlpha": "100",
+                    "is3D": "0",
+                    "toolTipBgColor": "99FF99",
+                    "toolTipColor": "#660033",
+                    "toolTipBorderColor": "#3399FF",
+                    "showToolTipShadow": "1",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "10",
+                            "maxvalue": "30",
+                            "label": "Low",
+                            "code": "00FF00"
+                        },
+                        {
+                            "minvalue": "30",
+                            "maxvalue": "70",
+                            "label": "Medium",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "70",
+                            "maxvalue": "100",
+                            "label": "High",
+                            "code": "FF0000"
+                        }
+                    ]
+                },
+                "value": "333"
+            }
+        },
+        "refimage": "./tests/smoke-test/bulb/ref-images/test_2_bulb-snapshot.png",
+        "id": "test_2"
+    }
+}

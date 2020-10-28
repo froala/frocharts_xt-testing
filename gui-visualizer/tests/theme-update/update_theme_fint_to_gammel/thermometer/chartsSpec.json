@@ -1,0 +1,42 @@
+{
+    "thermometer": {
+        "descriptions": "update theme from fint to gammel",
+        "id": "thermometer",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "thermometer",
+            "dataSource": {
+                "chart": {
+                    "palette": "4",
+                    "lowerlimit": "-50",
+                    "upperlimit": "10",
+                    "numbersuffix": "° C",
+                    "animation": 0,
+                    "datastreamurl": "realtime/multipleData.php",
+                    "theme": "fint"
+                },
+                "value": "-40"
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "palette": "4",
+                            "lowerlimit": "-50",
+                            "upperlimit": "10",
+                            "numbersuffix": "° C",
+                            "animation": 0,
+                            "datastreamurl": "realtime/multipleData.php",
+                            "theme": "gammel"
+                        },
+                        "value": "-40"
+                    }
+                ]
+            }
+        ]
+    }
+}

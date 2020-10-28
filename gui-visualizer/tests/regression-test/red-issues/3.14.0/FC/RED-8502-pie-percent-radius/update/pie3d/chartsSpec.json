@@ -1,0 +1,242 @@
+{
+    "test-1": {
+        "description": "pieradius percent value updated from 60 to 80 percent",
+        "id": "pie3d",
+        "options": {
+            "type": "pie3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "animation":"0",
+                    "showpercentagevalues": "1",
+                    "pieradius": "60%"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "caption": "Company Revenue",
+                            "animation":"0",
+                            "showpercentagevalues": "1",
+                            "pieradius": "80%"
+                        },
+                        "data": [
+                            {
+                                "label": "Services",
+                                "value": "26"
+                            },
+                            {
+                                "label": "Hardware",
+                                "value": "32"
+                            },
+                            {
+                                "label": "Software",
+                                "value": "42"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "test-2": {
+        "description": "pieradius percent value updated from 80 to 30 percent",
+        "id": "pie3d",
+        "options": {
+            "type": "pie3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "animation":"0",
+                    "showpercentagevalues": "1",
+                    "pieradius": "80%"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "caption": "Company Revenue",
+                            "animation":"0",
+                            "showpercentagevalues": "1",
+                            "pieradius": "30%"
+                        },
+                        "data": [
+                            {
+                                "label": "Services",
+                                "value": "26"
+                            },
+                            {
+                                "label": "Hardware",
+                                "value": "32"
+                            },
+                            {
+                                "label": "Software",
+                                "value": "42"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "test-3": {
+        "description": "pieradius updated from percent value to pixel value",
+        "id": "pie3d",
+        "options": {
+            "type": "pie3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "animation":"0",
+                    "showpercentagevalues": "1",
+                    "pieradius": "30%"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "caption": "Company Revenue",
+                            "animation":"0",
+                            "showpercentagevalues": "1",
+                            "pieradius": "130"
+                        },
+                        "data": [
+                            {
+                                "label": "Services",
+                                "value": "26"
+                            },
+                            {
+                                "label": "Hardware",
+                                "value": "32"
+                            },
+                            {
+                                "label": "Software",
+                                "value": "42"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "test-4": {
+        "description": "pieradius updated from pixel value to percent value",
+        "id": "pie3d",
+        "options": {
+            "type": "pie3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "animation":"0",
+                    "showpercentagevalues": "1",
+                    "pieradius": "200"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "caption": "Company Revenue",
+                            "animation":"0",
+                            "showpercentagevalues": "1",
+                            "pieradius": "30%"
+                        },
+                        "data": [
+                            {
+                                "label": "Services",
+                                "value": "26"
+                            },
+                            {
+                                "label": "Hardware",
+                                "value": "32"
+                            },
+                            {
+                                "label": "Software",
+                                "value": "42"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

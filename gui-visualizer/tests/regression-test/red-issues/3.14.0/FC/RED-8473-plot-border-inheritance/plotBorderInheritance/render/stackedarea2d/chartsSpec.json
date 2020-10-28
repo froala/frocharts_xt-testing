@@ -1,0 +1,3431 @@
+{
+    "test-1": {
+        "descriptions": "When inheritplotbordercolorfromplot=1 is given from chart level then all four border colour should take the plot color for all series",
+        "id": "test-1",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "stackedarea2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales Volume",
+                    "pyaxisname": "Revenue",
+                    "syaxisname": "Quantity",
+                    "showvalues": "1",
+                    "numberprefix": "$",
+                    "numvisibleplot": "8",
+                    "useroundedges": "1",
+                    "palette": "4",
+                    "animation": 0,
+                    "inheritplotbordercolor": "1",
+                    "_plotfillcolor": "ff0000,0000ff,00ff00",
+                    "plotfillcolor": "ff0000",
+                    "plotborderthickness": "4",
+                    "showplotborder": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Quantity",
+                        "parentyaxis": "S",
+                        "data": [
+                            {
+                                "value": "340"
+                            },
+                            {
+                                "value": "120"
+                            },
+                            {
+                                "value": "280"
+                            },
+                            {
+                                "value": "270"
+                            },
+                            {
+                                "value": "430"
+                            },
+                            {
+                                "value": "240"
+                            },
+                            {
+                                "value": "230"
+                            },
+                            {
+                                "value": "310"
+                            },
+                            {
+                                "value": "430"
+                            },
+                            {
+                                "value": "180"
+                            },
+                            {
+                                "value": "260"
+                            },
+                            {
+                                "value": "200"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Revenue",
+                        "data": [
+                            {
+                                "value": "1700000"
+                            },
+                            {
+                                "value": "610000"
+                            },
+                            {
+                                "value": "1420000"
+                            },
+                            {
+                                "value": "1350000"
+                            },
+                            {
+                                "value": "2140000"
+                            },
+                            {
+                                "value": "1210000"
+                            },
+                            {
+                                "value": "1130000"
+                            },
+                            {
+                                "value": "1560000"
+                            },
+                            {
+                                "value": "2120000"
+                            },
+                            {
+                                "value": "900000"
+                            },
+                            {
+                                "value": "1320000"
+                            },
+                            {
+                                "value": "1010000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "renderas": "Area",
+                        "showplotborder": "0",
+                        "data": [
+                            {
+                                "value": "1000000"
+                            },
+                            {
+                                "value": "1150000"
+                            },
+                            {
+                                "value": "1250000"
+                            },
+                            {
+                                "value": "1500000"
+                            },
+                            {
+                                "value": "1100000"
+                            },
+                            {
+                                "value": "980000"
+                            },
+                            {
+                                "value": "1180000"
+                            },
+                            {
+                                "value": "1970000"
+                            },
+                            {
+                                "value": "2170000"
+                            },
+                            {
+                                "value": "2190000"
+                            },
+                            {
+                                "value": "2290000"
+                            },
+                            {
+                                "value": "2080000"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "2100000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "test-2": {
+        "descriptions": "when inheritplotbordercolorfromplot=1 and drawfullareaborder=0 is given from chart level then only upper border should take the colour of the area",
+        "id": "test-2",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "stackedarea2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales Volume",
+                    "pyaxisname": "Revenue",
+                    "syaxisname": "Quantity",
+                    "showvalues": "1",
+                    "numberprefix": "$",
+                    "numvisibleplot": "8",
+                    "useroundedges": "1",
+                    "palette": "4",
+                    "animation": 0,
+                    "inheritplotbordercolor": "1",
+                    "_plotfillcolor": "ff0000,0000ff,00ff00",
+                    "plotfillcolor": "ff0000",
+                    "plotborderthickness": "4",
+                    "showplotborder": "1",
+                    "drawfullareaborder": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Quantity",
+                        "parentyaxis": "S",
+                        "data": [
+                            {
+                                "value": "340"
+                            },
+                            {
+                                "value": "120"
+                            },
+                            {
+                                "value": "280"
+                            },
+                            {
+                                "value": "270"
+                            },
+                            {
+                                "value": "430"
+                            },
+                            {
+                                "value": "240"
+                            },
+                            {
+                                "value": "230"
+                            },
+                            {
+                                "value": "310"
+                            },
+                            {
+                                "value": "430"
+                            },
+                            {
+                                "value": "180"
+                            },
+                            {
+                                "value": "260"
+                            },
+                            {
+                                "value": "200"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Revenue",
+                        "data": [
+                            {
+                                "value": "1700000"
+                            },
+                            {
+                                "value": "610000"
+                            },
+                            {
+                                "value": "1420000"
+                            },
+                            {
+                                "value": "1350000"
+                            },
+                            {
+                                "value": "2140000"
+                            },
+                            {
+                                "value": "1210000"
+                            },
+                            {
+                                "value": "1130000"
+                            },
+                            {
+                                "value": "1560000"
+                            },
+                            {
+                                "value": "2120000"
+                            },
+                            {
+                                "value": "900000"
+                            },
+                            {
+                                "value": "1320000"
+                            },
+                            {
+                                "value": "1010000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "renderas": "Area",
+                        "showplotborder": "1",
+                        "data": [
+                            {
+                                "value": "1000000"
+                            },
+                            {
+                                "value": "1150000"
+                            },
+                            {
+                                "value": "1250000"
+                            },
+                            {
+                                "value": "1500000"
+                            },
+                            {
+                                "value": "1100000"
+                            },
+                            {
+                                "value": "980000"
+                            },
+                            {
+                                "value": "1180000"
+                            },
+                            {
+                                "value": "1970000"
+                            },
+                            {
+                                "value": "2170000"
+                            },
+                            {
+                                "value": "2190000"
+                            },
+                            {
+                                "value": "2290000"
+                            },
+                            {
+                                "value": "2080000"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "2100000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "test-3": {
+        "descriptions": "when inheritplotbordercolorfromplot=1  is given from chart level then alpha/opacity of the border should be 100% when plotborderalpha is not specified.",
+        "id": "test-3",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "stackedarea2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales Volume",
+                    "pyaxisname": "Revenue",
+                    "syaxisname": "Quantity",
+                    "showvalues": "1",
+                    "numberprefix": "$",
+                    "numvisibleplot": "8",
+                    "useroundedges": "1",
+                    "palette": "4",
+                    "animation": 0,
+                    "inheritplotbordercolor": "1",
+                    "_plotfillcolor": "ff0000,0000ff,00ff00",
+                    "plotfillcolor": "ff0000",
+                    "plotborderthickness": "4",
+                    "showplotborder": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Quantity",
+                        "parentyaxis": "S",
+                        "data": [
+                            {
+                                "value": "340"
+                            },
+                            {
+                                "value": "120"
+                            },
+                            {
+                                "value": "280"
+                            },
+                            {
+                                "value": "270"
+                            },
+                            {
+                                "value": "430"
+                            },
+                            {
+                                "value": "240"
+                            },
+                            {
+                                "value": "230"
+                            },
+                            {
+                                "value": "310"
+                            },
+                            {
+                                "value": "430"
+                            },
+                            {
+                                "value": "180"
+                            },
+                            {
+                                "value": "260"
+                            },
+                            {
+                                "value": "200"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Revenue",
+                        "data": [
+                            {
+                                "value": "1700000"
+                            },
+                            {
+                                "value": "610000"
+                            },
+                            {
+                                "value": "1420000"
+                            },
+                            {
+                                "value": "1350000"
+                            },
+                            {
+                                "value": "2140000"
+                            },
+                            {
+                                "value": "1210000"
+                            },
+                            {
+                                "value": "1130000"
+                            },
+                            {
+                                "value": "1560000"
+                            },
+                            {
+                                "value": "2120000"
+                            },
+                            {
+                                "value": "900000"
+                            },
+                            {
+                                "value": "1320000"
+                            },
+                            {
+                                "value": "1010000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "renderas": "Area",
+                        "showplotborder": "1",
+                        "data": [
+                            {
+                                "value": "1000000"
+                            },
+                            {
+                                "value": "1150000"
+                            },
+                            {
+                                "value": "1250000"
+                            },
+                            {
+                                "value": "1500000"
+                            },
+                            {
+                                "value": "1100000"
+                            },
+                            {
+                                "value": "980000"
+                            },
+                            {
+                                "value": "1180000"
+                            },
+                            {
+                                "value": "1970000"
+                            },
+                            {
+                                "value": "2170000"
+                            },
+                            {
+                                "value": "2190000"
+                            },
+                            {
+                                "value": "2290000"
+                            },
+                            {
+                                "value": "2080000"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "2100000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "test-5": {
+        "descriptions": "when inheritplotbordercolorfromplot=1 and plotbordercolor is specified in chart level then specified plot border colour should applied rather than plot fill colour",
+        "id": "test-5",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "stackedarea2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales Volume",
+                    "pyaxisname": "Revenue",
+                    "syaxisname": "Quantity",
+                    "showvalues": "1",
+                    "numberprefix": "$",
+                    "numvisibleplot": "8",
+                    "useroundedges": "1",
+                    "palette": "4",
+                    "animation": 0,
+                    "inheritplotbordercolor": "1",
+                    "_plotfillcolor": "ff0000,0000ff,00ff00",
+                    "plotfillcolor": "ff0000",
+                    "plotborderthickness": "4",
+                    "_showplotborder": "1",
+                    "_drawfullareaborder": "0",
+                    "plotbordercolor": "0000ff"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Quantity",
+                        "parentyaxis": "S",
+                        "data": [
+                            {
+                                "value": "340"
+                            },
+                            {
+                                "value": "120"
+                            },
+                            {
+                                "value": "280"
+                            },
+                            {
+                                "value": "270"
+                            },
+                            {
+                                "value": "430"
+                            },
+                            {
+                                "value": "240"
+                            },
+                            {
+                                "value": "230"
+                            },
+                            {
+                                "value": "310"
+                            },
+                            {
+                                "value": "430"
+                            },
+                            {
+                                "value": "180"
+                            },
+                            {
+                                "value": "260"
+                            },
+                            {
+                                "value": "200"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Revenue",
+                        "data": [
+                            {
+                                "value": "1700000"
+                            },
+                            {
+                                "value": "610000"
+                            },
+                            {
+                                "value": "1420000"
+                            },
+                            {
+                                "value": "1350000"
+                            },
+                            {
+                                "value": "2140000"
+                            },
+                            {
+                                "value": "1210000"
+                            },
+                            {
+                                "value": "1130000"
+                            },
+                            {
+                                "value": "1560000"
+                            },
+                            {
+                                "value": "2120000"
+                            },
+                            {
+                                "value": "900000"
+                            },
+                            {
+                                "value": "1320000"
+                            },
+                            {
+                                "value": "1010000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "renderas": "Area",
+                        "_showplotborder": "0",
+                        "data": [
+                            {
+                                "value": "1000000"
+                            },
+                            {
+                                "value": "1150000"
+                            },
+                            {
+                                "value": "1250000"
+                            },
+                            {
+                                "value": "1500000"
+                            },
+                            {
+                                "value": "1100000"
+                            },
+                            {
+                                "value": "980000"
+                            },
+                            {
+                                "value": "1180000"
+                            },
+                            {
+                                "value": "1970000"
+                            },
+                            {
+                                "value": "2170000"
+                            },
+                            {
+                                "value": "2190000"
+                            },
+                            {
+                                "value": "2290000"
+                            },
+                            {
+                                "value": "2080000"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "2100000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "test-8": {
+        "descriptions": "When inheritplotbordercolorfromplot=0 is given from chart level then all four border colour should take the default border colour(black) for all series",
+        "id": "test-8",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "stackedarea2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales Volume",
+                    "pyaxisname": "Revenue",
+                    "syaxisname": "Quantity",
+                    "showvalues": "1",
+                    "numberprefix": "$",
+                    "numvisibleplot": "8",
+                    "useroundedges": "1",
+                    "palette": "4",
+                    "animation": 0,
+                    "inheritplotbordercolor": "0",
+                    "_plotfillcolor": "ff0000,0000ff,00ff00",
+                    "plotfillcolor": "ff0000",
+                    "plotborderthickness": "4",
+                    "_showplotborder": "1",
+                    "_drawfullareaborder": "0",
+                    "_plotbordercolor": "0000ff"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Quantity",
+                        "parentyaxis": "S",
+                        "data": [
+                            {
+                                "value": "340"
+                            },
+                            {
+                                "value": "120"
+                            },
+                            {
+                                "value": "280"
+                            },
+                            {
+                                "value": "270"
+                            },
+                            {
+                                "value": "430"
+                            },
+                            {
+                                "value": "240"
+                            },
+                            {
+                                "value": "230"
+                            },
+                            {
+                                "value": "310"
+                            },
+                            {
+                                "value": "430"
+                            },
+                            {
+                                "value": "180"
+                            },
+                            {
+                                "value": "260"
+                            },
+                            {
+                                "value": "200"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Revenue",
+                        "data": [
+                            {
+                                "value": "1700000"
+                            },
+                            {
+                                "value": "610000"
+                            },
+                            {
+                                "value": "1420000"
+                            },
+                            {
+                                "value": "1350000"
+                            },
+                            {
+                                "value": "2140000"
+                            },
+                            {
+                                "value": "1210000"
+                            },
+                            {
+                                "value": "1130000"
+                            },
+                            {
+                                "value": "1560000"
+                            },
+                            {
+                                "value": "2120000"
+                            },
+                            {
+                                "value": "900000"
+                            },
+                            {
+                                "value": "1320000"
+                            },
+                            {
+                                "value": "1010000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "renderas": "Area",
+                        "_showplotborder": "0",
+                        "data": [
+                            {
+                                "value": "1000000"
+                            },
+                            {
+                                "value": "1150000"
+                            },
+                            {
+                                "value": "1250000"
+                            },
+                            {
+                                "value": "1500000"
+                            },
+                            {
+                                "value": "1100000"
+                            },
+                            {
+                                "value": "980000"
+                            },
+                            {
+                                "value": "1180000"
+                            },
+                            {
+                                "value": "1970000"
+                            },
+                            {
+                                "value": "2170000"
+                            },
+                            {
+                                "value": "2190000"
+                            },
+                            {
+                                "value": "2290000"
+                            },
+                            {
+                                "value": "2080000"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "2100000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "test-12": {
+        "descriptions": "When inheritplotbordercolorfromplot=1 and plotborderalpha=20 is given from chart level then plotbordercolor will take the colour from plot but alpha of the border should be 20%",
+        "id": "test-12",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "stackedarea2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales Volume",
+                    "pyaxisname": "Revenue",
+                    "syaxisname": "Quantity",
+                    "showvalues": "1",
+                    "numberprefix": "$",
+                    "numvisibleplot": "8",
+                    "useroundedges": "1",
+                    "palette": "4",
+                    "animation": 0,
+                    "inheritplotbordercolor": "1",
+                    "_plotfillcolor": "ff0000,0000ff,00ff00",
+                    "plotfillcolor": "ff0000",
+                    "plotborderthickness": "4",
+                    "_showplotborder": "1",
+                    "_drawfullareaborder": "0",
+                    "_plotbordercolor": "0000ff",
+                    "plotborderalpha": "20"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Quantity",
+                        "parentyaxis": "S",
+                        "data": [
+                            {
+                                "value": "340"
+                            },
+                            {
+                                "value": "120"
+                            },
+                            {
+                                "value": "280"
+                            },
+                            {
+                                "value": "270"
+                            },
+                            {
+                                "value": "430"
+                            },
+                            {
+                                "value": "240"
+                            },
+                            {
+                                "value": "230"
+                            },
+                            {
+                                "value": "310"
+                            },
+                            {
+                                "value": "430"
+                            },
+                            {
+                                "value": "180"
+                            },
+                            {
+                                "value": "260"
+                            },
+                            {
+                                "value": "200"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Revenue",
+                        "data": [
+                            {
+                                "value": "1700000"
+                            },
+                            {
+                                "value": "610000"
+                            },
+                            {
+                                "value": "1420000"
+                            },
+                            {
+                                "value": "1350000"
+                            },
+                            {
+                                "value": "2140000"
+                            },
+                            {
+                                "value": "1210000"
+                            },
+                            {
+                                "value": "1130000"
+                            },
+                            {
+                                "value": "1560000"
+                            },
+                            {
+                                "value": "2120000"
+                            },
+                            {
+                                "value": "900000"
+                            },
+                            {
+                                "value": "1320000"
+                            },
+                            {
+                                "value": "1010000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "renderas": "Area",
+                        "_showplotborder": "0",
+                        "data": [
+                            {
+                                "value": "1000000"
+                            },
+                            {
+                                "value": "1150000"
+                            },
+                            {
+                                "value": "1250000"
+                            },
+                            {
+                                "value": "1500000"
+                            },
+                            {
+                                "value": "1100000"
+                            },
+                            {
+                                "value": "980000"
+                            },
+                            {
+                                "value": "1180000"
+                            },
+                            {
+                                "value": "1970000"
+                            },
+                            {
+                                "value": "2170000"
+                            },
+                            {
+                                "value": "2190000"
+                            },
+                            {
+                                "value": "2290000"
+                            },
+                            {
+                                "value": "2080000"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "2100000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "test-13": {
+        "descriptions": "When inheritplotbordercolorfromplot=1 is given from dataset level then all four border colour should take the plot fill color for all series",
+        "id": "test-13",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "stackedarea2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showvalues": "1",
+                    "numberprefix": "$",
+                    "animation": 0
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "renderas": "Area",
+                        "color": "0000ff",
+                        "plotborderthickness": "4",
+                        "inheritplotbordercolor": "1",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2004",
+                        "renderas": "Line",
+                        "data": [
+                            {
+                                "value": "7000"
+                            },
+                            {
+                                "value": "10500"
+                            },
+                            {
+                                "value": "9500"
+                            },
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "9000"
+                            },
+                            {
+                                "value": "8800"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "15700"
+                            },
+                            {
+                                "value": "16700"
+                            },
+                            {
+                                "value": "14900"
+                            },
+                            {
+                                "value": "12900"
+                            },
+                            {
+                                "value": "8800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "test-14": {
+        "descriptions": "when inheritplotbordercolorfromplot=1 and drawfullareaborder=0 is given from dataset level then only upper border should take the colour of the area",
+        "id": "test-14",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "stackedarea2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showvalues": "1",
+                    "numberprefix": "$",
+                    "drawfullareaborder": "0",
+                    "animation": 0
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "renderas": "Area",
+                        "color": "0000ff",
+                        "plotborderthickness": "4",
+                        "inheritplotbordercolor": "1",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2004",
+                        "renderas": "Line",
+                        "data": [
+                            {
+                                "value": "7000"
+                            },
+                            {
+                                "value": "10500"
+                            },
+                            {
+                                "value": "9500"
+                            },
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "9000"
+                            },
+                            {
+                                "value": "8800"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "15700"
+                            },
+                            {
+                                "value": "16700"
+                            },
+                            {
+                                "value": "14900"
+                            },
+                            {
+                                "value": "12900"
+                            },
+                            {
+                                "value": "8800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "test-15": {
+        "descriptions": "when inheritplotbordercolorfromplot=1 and plotbordercolor is specified in dataset level then specified plot border colour should applied rather than plot fill colour",
+        "id": "test-15",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "stackedarea2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showvalues": "1",
+                    "numberprefix": "$",
+                    "_drawfullareaborder": "0",
+                    "animation": 0
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "renderas": "Area",
+                        "color": "0000ff",
+                        "plotborderthickness": "4",
+                        "inheritplotbordercolor": "1",
+                        "plotbordercolor": "ff0000",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2004",
+                        "renderas": "Line",
+                        "data": [
+                            {
+                                "value": "7000"
+                            },
+                            {
+                                "value": "10500"
+                            },
+                            {
+                                "value": "9500"
+                            },
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "9000"
+                            },
+                            {
+                                "value": "8800"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "15700"
+                            },
+                            {
+                                "value": "16700"
+                            },
+                            {
+                                "value": "14900"
+                            },
+                            {
+                                "value": "12900"
+                            },
+                            {
+                                "value": "8800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "test-18": {
+        "descriptions": "When inheritplotbordercolorfromplot=1 and plotborderalpha=20 is given from dataset level then all four border colour should take the plot fill color for all series with opacity/alpha of the border will be 20%",
+        "id": "test-18",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "stackedarea2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showvalues": "1",
+                    "numberprefix": "$",
+                    "_drawfullareaborder": "0",
+                    "animation": 0
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "renderas": "Area",
+                        "color": "0000ff",
+                        "plotborderthickness": "4",
+                        "inheritplotbordercolor": "1",
+                        "plotbordercolor": "ff0000",
+                        "plotborderalpha": "20",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2004",
+                        "renderas": "Line",
+                        "data": [
+                            {
+                                "value": "7000"
+                            },
+                            {
+                                "value": "10500"
+                            },
+                            {
+                                "value": "9500"
+                            },
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "9000"
+                            },
+                            {
+                                "value": "8800"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "15700"
+                            },
+                            {
+                                "value": "16700"
+                            },
+                            {
+                                "value": "14900"
+                            },
+                            {
+                                "value": "12900"
+                            },
+                            {
+                                "value": "8800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "test-19": {
+        "descriptions": "when inheritplotbordercolor=0 ,color of plot should not applied in border",
+        "id": "test-19",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "stackedarea2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "animation": 0
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "renderas": "Area",
+                        "color": "0000ff",
+                        "plotborderthickness": "4",
+                        "inheritplotbordercolor": "0",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2004",
+                        "renderas": "Line",
+                        "data": [
+                            {
+                                "value": "7000"
+                            },
+                            {
+                                "value": "10500"
+                            },
+                            {
+                                "value": "9500"
+                            },
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "9000"
+                            },
+                            {
+                                "value": "8800"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "15700"
+                            },
+                            {
+                                "value": "16700"
+                            },
+                            {
+                                "value": "14900"
+                            },
+                            {
+                                "value": "12900"
+                            },
+                            {
+                                "value": "8800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "test-22": {
+        "descriptions": "When inheritplotbordercolorfromplot is set from chart level =0 and dataset level=1 then only that particluar dataset  plotbordercolor will take the colour of plot",
+        "id": "test-22",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "stackedarea2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showvalues": "1",
+                    "numberprefix": "$",
+                    "animation": 0,
+                    "inheritplotbordercolor": "0",
+                    "plotborderthickness": "3"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "renderas": "Area",
+                        "color": "0000ff",
+                        "plotborderthickness": "4",
+                        "inheritplotbordercolor": "1",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2004",
+                        "renderas": "Line",
+                        "data": [
+                            {
+                                "value": "7000"
+                            },
+                            {
+                                "value": "10500"
+                            },
+                            {
+                                "value": "9500"
+                            },
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "9000"
+                            },
+                            {
+                                "value": "8800"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "15700"
+                            },
+                            {
+                                "value": "16700"
+                            },
+                            {
+                                "value": "14900"
+                            },
+                            {
+                                "value": "12900"
+                            },
+                            {
+                                "value": "8800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "test-23": {
+        "descriptions": "When inheritplotbordercolorfromplot is set from chart level =1 and dataset level=0 then only that particluar dataset will not taking plotbordercolor from plotfillcolor(mean black) and other datasets will taking the colour of the border from the plot fill colour",
+        "id": "test-23",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "stackedarea2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "animation": 0,
+                    "inheritplotbordercolor": "0",
+                    "plotborderthickness": "3"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "renderas": "Area",
+                        "color": "0000ff",
+                        "plotborderthickness": "4",
+                        "inheritplotbordercolor": "0",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2004",
+                        "renderas": "Line",
+                        "data": [
+                            {
+                                "value": "7000"
+                            },
+                            {
+                                "value": "10500"
+                            },
+                            {
+                                "value": "9500"
+                            },
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "9000"
+                            },
+                            {
+                                "value": "8800"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "15700"
+                            },
+                            {
+                                "value": "16700"
+                            },
+                            {
+                                "value": "14900"
+                            },
+                            {
+                                "value": "12900"
+                            },
+                            {
+                                "value": "8800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "test-24": {
+        "descriptions": "When inheritplotbordercolorfromplot is set from chart level =1 and dataset level=0 then only that particluar dataset will not taking plotbordercolor from plotfillcolor(mean black) and other datasets will taking the colour of the border from the plot fill colour",
+        "id": "test-24",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "stackedarea2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "animation": 0,
+                    "inheritplotbordercolor": "1",
+                    "plotborderthickness": "3",
+                    "usePlotGradientColor": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "renderas": "Area",
+                        "color": "0000ff",
+                        "plotborderthickness": "4",
+                        "inheritplotbordercolor": "0",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2004",
+                        "renderas": "Line",
+                        "data": [
+                            {
+                                "value": "7000"
+                            },
+                            {
+                                "value": "10500"
+                            },
+                            {
+                                "value": "9500"
+                            },
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "9000"
+                            },
+                            {
+                                "value": "8800"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "15700"
+                            },
+                            {
+                                "value": "16700"
+                            },
+                            {
+                                "value": "14900"
+                            },
+                            {
+                                "value": "12900"
+                            },
+                            {
+                                "value": "8800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "test-25": {
+        "descriptions": "When inheritplotbordercolorfromplot is set from chart level =1and dataset level=1 then all dataset  plotbordercolor will take the colour of plot",
+        "id": "test-25",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "stackedarea2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "animation": 0,
+                    "inheritplotbordercolor": "1",
+                    "plotborderthickness": "3",
+                    "usePlotGradientColor": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "renderas": "Area",
+                        "color": "0000ff",
+                        "plotborderthickness": "4",
+                        "inheritplotbordercolor": "1",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2004",
+                        "renderas": "Line",
+                        "data": [
+                            {
+                                "value": "7000"
+                            },
+                            {
+                                "value": "10500"
+                            },
+                            {
+                                "value": "9500"
+                            },
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "9000"
+                            },
+                            {
+                                "value": "8800"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "15700"
+                            },
+                            {
+                                "value": "16700"
+                            },
+                            {
+                                "value": "14900"
+                            },
+                            {
+                                "value": "12900"
+                            },
+                            {
+                                "value": "8800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "test-28": {
+        "descriptions": "when inheritplotbordercolorfromplot=1 and drawfullareaborder=0, plotfillalpha=10 is given from chart level then only upper border should take the colour and alpha of the area",
+        "id": "test-28",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "stackedarea2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales Volume",
+                    "pyaxisname": "Revenue",
+                    "syaxisname": "Quantity",
+                    "showvalues": "1",
+                    "numberprefix": "$",
+                    "numvisibleplot": "8",
+                    "useroundedges": "1",
+                    "palette": "4",
+                    "animation": 0,
+                    "inheritplotbordercolor": "1",
+                    "_plotfillcolor": "ff0000,0000ff,00ff00",
+                    "plotfillcolor": "ff0000",
+                    "plotfillalpha": "10",
+                    "plotborderthickness": "4",
+                    "showplotborder": "1",
+                    "drawfullareaborder": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Quantity",
+                        "parentyaxis": "S",
+                        "data": [
+                            {
+                                "value": "340"
+                            },
+                            {
+                                "value": "120"
+                            },
+                            {
+                                "value": "280"
+                            },
+                            {
+                                "value": "270"
+                            },
+                            {
+                                "value": "430"
+                            },
+                            {
+                                "value": "240"
+                            },
+                            {
+                                "value": "230"
+                            },
+                            {
+                                "value": "310"
+                            },
+                            {
+                                "value": "430"
+                            },
+                            {
+                                "value": "180"
+                            },
+                            {
+                                "value": "260"
+                            },
+                            {
+                                "value": "200"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Revenue",
+                        "data": [
+                            {
+                                "value": "1700000"
+                            },
+                            {
+                                "value": "610000"
+                            },
+                            {
+                                "value": "1420000"
+                            },
+                            {
+                                "value": "1350000"
+                            },
+                            {
+                                "value": "2140000"
+                            },
+                            {
+                                "value": "1210000"
+                            },
+                            {
+                                "value": "1130000"
+                            },
+                            {
+                                "value": "1560000"
+                            },
+                            {
+                                "value": "2120000"
+                            },
+                            {
+                                "value": "900000"
+                            },
+                            {
+                                "value": "1320000"
+                            },
+                            {
+                                "value": "1010000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "renderas": "Area",
+                        "showplotborder": "1",
+                        "data": [
+                            {
+                                "value": "1000000"
+                            },
+                            {
+                                "value": "1150000"
+                            },
+                            {
+                                "value": "1250000"
+                            },
+                            {
+                                "value": "1500000"
+                            },
+                            {
+                                "value": "1100000"
+                            },
+                            {
+                                "value": "980000"
+                            },
+                            {
+                                "value": "1180000"
+                            },
+                            {
+                                "value": "1970000"
+                            },
+                            {
+                                "value": "2170000"
+                            },
+                            {
+                                "value": "2190000"
+                            },
+                            {
+                                "value": "2290000"
+                            },
+                            {
+                                "value": "2080000"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "2100000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "test-29": {
+        "descriptions": "when inheritplotbordercolorfromplot=1 and drawfullareaborder=0, plotfillalpha=10 is given from chart level and also from dataset level then only upper border should take the colour and alpha of the area",
+        "id": "test-29",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "stackedarea2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales Volume",
+                    "pyaxisname": "Revenue",
+                    "syaxisname": "Quantity",
+                    "showvalues": "1",
+                    "numberprefix": "$",
+                    "numvisibleplot": "8",
+                    "useroundedges": "1",
+                    "palette": "4",
+                    "animation": 0,
+                    "inheritplotbordercolor": "1",
+                    "_plotfillcolor": "ff0000,0000ff,00ff00",
+                    "plotfillcolor": "ff0000",
+                    "plotfillalpha": "10",
+                    "plotborderthickness": "4",
+                    "showplotborder": "1",
+                    "drawfullareaborder": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Quantity",
+                        "parentyaxis": "S",
+                        "data": [
+                            {
+                                "value": "340"
+                            },
+                            {
+                                "value": "120"
+                            },
+                            {
+                                "value": "280"
+                            },
+                            {
+                                "value": "270"
+                            },
+                            {
+                                "value": "430"
+                            },
+                            {
+                                "value": "240"
+                            },
+                            {
+                                "value": "230"
+                            },
+                            {
+                                "value": "310"
+                            },
+                            {
+                                "value": "430"
+                            },
+                            {
+                                "value": "180"
+                            },
+                            {
+                                "value": "260"
+                            },
+                            {
+                                "value": "200"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Revenue",
+                        "data": [
+                            {
+                                "value": "1700000"
+                            },
+                            {
+                                "value": "610000"
+                            },
+                            {
+                                "value": "1420000"
+                            },
+                            {
+                                "value": "1350000"
+                            },
+                            {
+                                "value": "2140000"
+                            },
+                            {
+                                "value": "1210000"
+                            },
+                            {
+                                "value": "1130000"
+                            },
+                            {
+                                "value": "1560000"
+                            },
+                            {
+                                "value": "2120000"
+                            },
+                            {
+                                "value": "900000"
+                            },
+                            {
+                                "value": "1320000"
+                            },
+                            {
+                                "value": "1010000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "renderas": "Area",
+                        "showplotborder": "1",
+                        "alpha": "50",
+                        "data": [
+                            {
+                                "value": "1000000"
+                            },
+                            {
+                                "value": "1150000"
+                            },
+                            {
+                                "value": "1250000"
+                            },
+                            {
+                                "value": "1500000"
+                            },
+                            {
+                                "value": "1100000"
+                            },
+                            {
+                                "value": "980000"
+                            },
+                            {
+                                "value": "1180000"
+                            },
+                            {
+                                "value": "1970000"
+                            },
+                            {
+                                "value": "2170000"
+                            },
+                            {
+                                "value": "2190000"
+                            },
+                            {
+                                "value": "2290000"
+                            },
+                            {
+                                "value": "2080000"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "2100000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

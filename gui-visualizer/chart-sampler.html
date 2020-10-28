@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower&display=swap' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Felipa&display=swap' rel='stylesheet'>
+    <script type="text/javascript">
+    function loadScriptInOrder(scripts, startIndex) {
+        if (scripts[startIndex]) {
+            var scriptRef = document.createElement('script');
+            scriptRef.setAttribute("type", "text/javascript");
+            scriptRef.setAttribute("src", scripts[startIndex]);
+            scriptRef.onload = function() {
+                startIndex = startIndex + 1;
+                loadScriptInOrder(scripts, startIndex)
+            };
+            document.getElementsByTagName("head")[0].appendChild(scriptRef);
+        }
+    }
+    var scriptArray = [];
+    scriptArray.push(this.frameElement.data +"/"+ window.frameElement.id + "/froalacharts.js");
+    scriptArray.push(this.frameElement.data +"/"+ window.frameElement.id + "/froalacharts.maps.js");
+    scriptArray.push(this.frameElement.data +"/"+ window.frameElement.id + "/themes/froalacharts.theme.fint.js");
+    scriptArray.push(this.frameElement.data +"/"+ window.frameElement.id + "/themes/froalacharts.theme.candy.js");
+    scriptArray.push(this.frameElement.data +"/"+ window.frameElement.id + "/themes/froalacharts.theme.carbon.js");
+    scriptArray.push(this.frameElement.data +"/"+ window.frameElement.id + "/themes/froalacharts.theme.fusion.js");
+    scriptArray.push(this.frameElement.data +"/"+ window.frameElement.id + "/themes/froalacharts.theme.gammel.js");
+    scriptArray.push(this.frameElement.data +"/"+ window.frameElement.id + "/themes/froalacharts.theme.ocean.js");
+    scriptArray.push(this.frameElement.data +"/"+ window.frameElement.id + "/themes/froalacharts.theme.umber.js");
+    scriptArray.push(this.frameElement.data +"/"+ window.frameElement.id + "/themes/froalacharts.theme.zune.js");
+    scriptArray.push(this.frameElement.data + "/resources/custom-themes/froalacharts.theme.timeseries.custom.js");
+    loadScriptInOrder(scriptArray, 0);
+    </script>
+</head>
+
+<body onload="drawInitialChart()">
+    <div id='fc-version'></div>
+    <div id="chart-container">FroalaCharts will render here</div>
+    <script type="text/javascript">
+    var chart,
+        dataSource,
+        dataTable,
+        tsData,
+        tsSchema;
+    function drawChart(width, height) {
+        chart && chart.dispose(); 
+            if(parent.lBox.typeDiv.innerHTML === 'timeseries'){
+                tsData = JSON.parse(parent.lBox.tsDataDiv.innerHTML);
+                tsSchema = JSON.parse(parent.lBox.tsSchemaDiv.innerHTML);
+                dataTable = new FroalaCharts.DataStore().createDataTable(tsData, tsSchema);
+                dataSource = JSON.parse(parent.lBox.json.value);
+                dataSource.data = dataTable;
+            } else{
+                dataSource = JSON.parse(parent.lBox.json.value);
+            }
+            chart = new FroalaCharts({
+                    type: parent.lBox.typeDiv.innerHTML,
+                    renderAt: 'chart-container',
+                    id: 'myOldChart',
+                    width: width || parent.lBox.widthDiv.innerHTML,
+                    height: height || parent.lBox.heightDiv.innerHTML,
+                    dataFormat: "json",
+                    dataSource: dataSource
+                });
+            chart.render();
+    }
+
+    function drawInitialChart () {
+        document.getElementById('fc-version').innerHTML = FroalaCharts.version.join('.');
+        drawChart();
+    }
+
+    function update(){
+        chart.setJSONData(parent.lBox.json.value);
+    }
+    function resize(width, height) {
+        chart.resizeTo(width, height);
+
+    }
+    </script>
+
+    <body>
+
+</html>

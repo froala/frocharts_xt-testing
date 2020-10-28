@@ -1,0 +1,414 @@
+{
+    "dateaxis": {
+        "descriptions": "update theme from fint to fusion",
+        "id": "dateaxis",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "dateaxis",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales Volume",
+                    "subcaption": "In Indian Rupee",
+                    "pyaxisname": "Revenue",
+                    "syaxisname": "Quantity",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "xaxisname": "Time",
+                    "inputdateformat": "M/d/yyyy",
+                    "outputdateformat": "yyyy-MM-dd",
+                    "tooltipdateformat": "dd~yyyy~MM",
+                    "categorydateformat": "dd/MM/yyyy",
+                    "animation": 0,
+                    "theme": "fint"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "2/14/2012"
+                            },
+                            {
+                                "label": "2/15/2012"
+                            },
+                            {
+                                "label": "2/16/2012"
+                            },
+                            {
+                                "label": "2/17/2012"
+                            },
+                            {
+                                "label": "2/18/2012"
+                            },
+                            {
+                                "label": "2/19/2012"
+                            },
+                            {
+                                "label": "2/20/2012"
+                            },
+                            {
+                                "label": "2/21/2012"
+                            },
+                            {
+                                "label": "2/22/2012"
+                            },
+                            {
+                                "label": "2/23/2012"
+                            },
+                            {
+                                "label": "2/24/2012"
+                            },
+                            {
+                                "label": "2/25/2012"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Revenue",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": "827",
+                                "time": "2/14/1996"
+                            },
+                            {
+                                "value": "750",
+                                "time": "1/9/1992"
+                            },
+                            {
+                                "value": "523",
+                                "time": "5/27/1993"
+                            },
+                            {
+                                "value": "724",
+                                "time": "6/20/1995"
+                            },
+                            {
+                                "value": "287",
+                                "time": "4/30/1992"
+                            },
+                            {
+                                "value": "851",
+                                "time": "3/14/1991"
+                            },
+                            {
+                                "value": "244",
+                                "time": "10/19/2005"
+                            },
+                            {
+                                "value": "537",
+                                "time": "3/19/2002"
+                            },
+                            {
+                                "value": "176",
+                                "time": "8/18/2009"
+                            },
+                            {
+                                "value": "673",
+                                "time": "11/19/1994"
+                            },
+                            {
+                                "value": "599",
+                                "time": "10/10/2000"
+                            },
+                            {
+                                "value": "638",
+                                "time": "12/5/1994"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Quantity",
+                        "renderas": "line",
+                        "parentyaxis": "S",
+                        "data": [
+                            {
+                                "value": "129",
+                                "time": "12/20/2001"
+                            },
+                            {
+                                "value": "319",
+                                "time": "10/19/2006"
+                            },
+                            {
+                                "value": "801",
+                                "time": "8/16/2012"
+                            },
+                            {
+                                "value": "359",
+                                "time": "10/1/2009"
+                            },
+                            {
+                                "value": "42",
+                                "time": "10/13/1997"
+                            },
+                            {
+                                "value": "799",
+                                "time": "4/25/2004"
+                            },
+                            {
+                                "value": "465",
+                                "time": "1/30/2006"
+                            },
+                            {
+                                "value": "886",
+                                "time": "1/12/2012"
+                            },
+                            {
+                                "value": "700",
+                                "time": "10/11/2009"
+                            },
+                            {
+                                "value": "377",
+                                "time": "4/17/1996"
+                            },
+                            {
+                                "value": "649",
+                                "time": "4/26/1994"
+                            },
+                            {
+                                "value": "766",
+                                "time": "9/8/2006"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "2100000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "caption": "Sales Volume",
+                            "subcaption": "In Indian Rupee",
+                            "pyaxisname": "Revenue",
+                            "syaxisname": "Quantity",
+                            "showvalues": "0",
+                            "numberprefix": "$",
+                            "xaxisname": "Time",
+                            "inputdateformat": "M/d/yyyy",
+                            "outputdateformat": "yyyy-MM-dd",
+                            "tooltipdateformat": "dd~yyyy~MM",
+                            "categorydateformat": "dd/MM/yyyy",
+                            "animation": 0,
+                            "theme": "fusion"
+                        },
+                        "categories": [
+                            {
+                                "category": [
+                                    {
+                                        "label": "2/14/2012"
+                                    },
+                                    {
+                                        "label": "2/15/2012"
+                                    },
+                                    {
+                                        "label": "2/16/2012"
+                                    },
+                                    {
+                                        "label": "2/17/2012"
+                                    },
+                                    {
+                                        "label": "2/18/2012"
+                                    },
+                                    {
+                                        "label": "2/19/2012"
+                                    },
+                                    {
+                                        "label": "2/20/2012"
+                                    },
+                                    {
+                                        "label": "2/21/2012"
+                                    },
+                                    {
+                                        "label": "2/22/2012"
+                                    },
+                                    {
+                                        "label": "2/23/2012"
+                                    },
+                                    {
+                                        "label": "2/24/2012"
+                                    },
+                                    {
+                                        "label": "2/25/2012"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dataset": [
+                            {
+                                "seriesname": "Revenue",
+                                "renderas": "line",
+                                "data": [
+                                    {
+                                        "value": "827",
+                                        "time": "2/14/1996"
+                                    },
+                                    {
+                                        "value": "750",
+                                        "time": "1/9/1992"
+                                    },
+                                    {
+                                        "value": "523",
+                                        "time": "5/27/1993"
+                                    },
+                                    {
+                                        "value": "724",
+                                        "time": "6/20/1995"
+                                    },
+                                    {
+                                        "value": "287",
+                                        "time": "4/30/1992"
+                                    },
+                                    {
+                                        "value": "851",
+                                        "time": "3/14/1991"
+                                    },
+                                    {
+                                        "value": "244",
+                                        "time": "10/19/2005"
+                                    },
+                                    {
+                                        "value": "537",
+                                        "time": "3/19/2002"
+                                    },
+                                    {
+                                        "value": "176",
+                                        "time": "8/18/2009"
+                                    },
+                                    {
+                                        "value": "673",
+                                        "time": "11/19/1994"
+                                    },
+                                    {
+                                        "value": "599",
+                                        "time": "10/10/2000"
+                                    },
+                                    {
+                                        "value": "638",
+                                        "time": "12/5/1994"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Quantity",
+                                "renderas": "line",
+                                "parentyaxis": "S",
+                                "data": [
+                                    {
+                                        "value": "129",
+                                        "time": "12/20/2001"
+                                    },
+                                    {
+                                        "value": "319",
+                                        "time": "10/19/2006"
+                                    },
+                                    {
+                                        "value": "801",
+                                        "time": "8/16/2012"
+                                    },
+                                    {
+                                        "value": "359",
+                                        "time": "10/1/2009"
+                                    },
+                                    {
+                                        "value": "42",
+                                        "time": "10/13/1997"
+                                    },
+                                    {
+                                        "value": "799",
+                                        "time": "4/25/2004"
+                                    },
+                                    {
+                                        "value": "465",
+                                        "time": "1/30/2006"
+                                    },
+                                    {
+                                        "value": "886",
+                                        "time": "1/12/2012"
+                                    },
+                                    {
+                                        "value": "700",
+                                        "time": "10/11/2009"
+                                    },
+                                    {
+                                        "value": "377",
+                                        "time": "4/17/1996"
+                                    },
+                                    {
+                                        "value": "649",
+                                        "time": "4/26/1994"
+                                    },
+                                    {
+                                        "value": "766",
+                                        "time": "9/8/2006"
+                                    }
+                                ]
+                            }
+                        ],
+                        "trendlines": [
+                            {
+                                "line": [
+                                    {
+                                        "startvalue": "2100000",
+                                        "color": "009933",
+                                        "displayvalue": "Target"
+                                    }
+                                ]
+                            }
+                        ],
+                        "styles": {
+                            "definition": [
+                                {
+                                    "name": "CanvasAnim",
+                                    "type": "animation",
+                                    "param": "_xScale",
+                                    "start": "0",
+                                    "duration": "1"
+                                }
+                            ],
+                            "application": [
+                                {
+                                    "toobject": "Canvas",
+                                    "styles": "CanvasAnim"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

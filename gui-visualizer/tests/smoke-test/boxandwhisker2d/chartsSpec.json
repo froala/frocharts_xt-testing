@@ -1,0 +1,578 @@
+{
+    "test_1": {
+        "description": "Border, logo, bg, caption, subcaption, canvas, axes, canvas related changes",
+        "options": {
+            "type": "boxandwhisker2d",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showBorder": "1",
+                    "borderColor": "#000000",
+                    "borderThickness": "6",
+                    "borderAlpha": "85",
+                    "bgColor": "#999999,#ffffff,#ff0000",
+                    "bgAlpha": "50",
+                    "bgRatio": "10:90",
+                    "bgAngle": "90",
+                    "canvasBgColor": "#FF66FF",
+                    "canvasBgAlpha": "30",
+                    "canvasBgRatio": "70:30",
+                    "canvasBgAngle": "180",
+                    "showcanvasBorder": "1",
+                    "canvasBorderColor": "#0000ff",
+                    "canvasBorderThickness": "3",
+                    "canvasBorderAlpha": "75",
+                    "logoURL": "http://www.fusioncharts.com/theme/210x38xlogo.png.pagespeed.ic.KZD9tJ7qIK.png",
+                    "logoPosition": "TR",
+                    "logoAlpha": "50",
+                    "logoScale": "70",
+                    "logoLink": "http://fusioncharts.com",
+                    "showVLineLabelBorder": "0",
+                    "showLabels": "1",
+                    "maxLabelHeight": "25",
+                    "labelDisplay": "auto",
+                    "useEllipsesWhenOverflow": "0",
+                    "rotateLabels": "0",
+                    "slantLabels": "0",
+                    "labelStep": "1",
+                    "staggerLines": "1",
+                    "showValues": "1",
+                    "rotateValues": "0",
+                    "placeValuesInside": "1",
+                    "showYAxisValues": "1",
+                    "showLimits": "1",
+                    "showDivLineValues": "1",
+                    "yAxisValuesStep": "2",
+                    "showShadow": "1",
+                    "adjustDiv": "0",
+                    "rotateYAxisName": "1",
+                    "setAdaptiveYMin": "0",
+                    "useDataPlotColorForLabels": "1",
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Current Year",
+                    "captionAlignment": "left",
+                    "captionOnTop": "1",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "subCaptionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "30",
+                    "xAxisName": "Month",
+                    "showXAxisLine": "1",
+                    "xAxisLineColor": "#00ffff",
+                    "xAxisLineThickness": "3",
+                    "xAxisNameFontColor": "#770000",
+                    "xAxisNameFontSize": "16",
+                    "xAxisNameFontBold": "1",
+                    "xAxisNameFontItalic": "0",
+                    "xAxisNameBgColor": "#37f8f9",
+                    "xAxisNameBorderColor": "#ff0000",
+                    "xAxisNameAlpha": "100",
+                    "xAxisNameFontAlpha": "70",
+                    "xAxisNameBgAlpha": "80",
+                    "xAxisNameBorderAlpha": "80",
+                    "xAxisNameBorderPadding": "3",
+                    "xAxisNameBorderRadius": "3",
+                    "xAxisNameBorderThickness": "3",
+                    "xAxisNameBorderDashed": "1",
+                    "xAxisNameBorderDashLen": "15",
+                    "xAxisNameBorderDashGap": "2",
+                    "yAxisName": "Revenue",
+                    "showYAxisLine": "1",
+                    "yAxisLineColor": "#cc0000",
+                    "yAxisLineThickness": "5",
+                    "yAxisNameFontColor": "#770000",
+                    "yAxisNameFontSize": "18",
+                    "yAxisNameFontBold": "1",
+                    "yAxisNameFontItalic": "1",
+                    "yAxisNameBgColor": "#37f8f9",
+                    "yAxisNameBorderColor": "#ff0000",
+                    "yAxisNameAlpha": "50",
+                    "yAxisNameFontAlpha": "40",
+                    "yAxisNameBgAlpha": "50",
+                    "yAxisNameBorderAlpha": "68",
+                    "yAxisNameBorderPadding": "3",
+                    "yAxisNameBorderRadius": "3",
+                    "yAxisNameBorderThickness": "3",
+                    "yAxisNameBorderDashed": "0",
+                    "yAxisNameBorderDashLen": "5",
+                    "yAxisNameBorderDashGap": "5",
+                    "showLegend": "1",
+                    "legendItemFontBold": "1",
+                    "legendItemFont": "verdana",
+                    "legendItemFontSize": "16",
+                    "legendItemFontColor": "#cc0000",
+                    "legendItemHoverFontColor": "#ffffff",
+                    "legendCaption": "Interactive Legend",
+                    "legendCaptionAlignment": "left",
+                    "legendCaptionFontBold": "1",
+                    "legendCaptionFont": "verdana",
+                    "legendCaptionFontSize": "20",
+                    "legendCaptionFontColor": "#000000",
+                    "legendItemHiddenColor": "#0000ff",
+                    "legendIconScale": "110",
+                    "legendBgColor": "#333333",
+                    "legendBgAlpha": "60",
+                    "legendPadding": "10",
+                    "legendPosition": "right",
+                    "drawCustomLegendIcon": "1",
+                    "legendIconSides": "5",
+                    "legendIconStartAngle": "60",
+                    "legendBorderColor": "#0000ff",
+                    "legendBorderThickness": "3",
+                    "legendBorderAlpha": "80",
+                    "legendAllowDrag": "1",
+                    "legendScrollBgColor": "#ffffff",
+                    "reverseLegend": "1",
+                    "interactiveLegend": "1",
+                    "legendNumColumns": "2",
+                    "minimiseWrappingInLegend": "1",
+                    "numberprefix": "$",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "2008"
+                            },
+                            {
+                                "label": "2009"
+                            },
+                            {
+                                "label": "2010"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "January",
+                        "lowerboxcolor": "019FAA",
+                        "upperboxcolor": "D4DFFF",
+                        "data": [
+                            {
+                                "value": "60,133,35,67,89,137,259"
+                            },
+                            {
+                                "value": "139,197,175,114,39,67,191"
+                            },
+                            {
+                                "value": "200,107,197,239,53,26,97"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "February",
+                        "lowerboxcolor": "2A5F55",
+                        "upperboxcolor": "D47F00",
+                        "data": [
+                            {
+                                "value": "160,303,125,137,69,107,39"
+                            },
+                            {
+                                "value": "139,167,255,74,59,187,151"
+                            },
+                            {
+                                "value": "160,137,57,209,153,126,277"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke-test/boxandwhisker2d/ref-images/test_1_boxandwhisker2d-snapshot.png",
+        "id": "test_1"
+    },
+    "test_2": {
+        "description": "Data plots, values and Label, related tests.",
+        "options": {
+            "type": "boxandwhisker2d",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "bgImage": "http://phoenixinsure.com/images/background/4.jpg",
+                    "bgImageAlpha": "50",
+                    "bgImageVAlign": "middle",
+                    "bgImageHAlign": "left",
+                    "bgImageScale": "22",
+                    "bgImageDisplayMode": "stretch",
+                    "showVLineLabelBorder": "0",
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Current Year",
+                    "captionAlignment": "right",
+                    "captionOnTop": "0",
+                    "captionFontSize": "18",
+                    "subCaptionFontSize": "12",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "subCaptionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "10",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0",
+                    "useRoundEdges": "1",
+                    "showPlotBorder": "1",
+                    "plotBorderColor": "#666633",
+                    "plotBorderThickness": "2",
+                    "plotBorderAlpha": "50",
+                    "upperQuartileColor": "#0033CC",
+                    "upperQuartileThickness": "2",
+                    "upperQuartileAlpha": "50",
+                    "lowerQuartileColor": "#FF9966",
+                    "lowerQuartileThickness": "2",
+                    "lowerQuartileAlpha": "50",
+                    "upperBoxColor": "#666699",
+                    "upperBoxAlpha": "50",
+                    "lowerBoxColor": "#993333",
+                    "lowerBoxAlpha": "50",
+                    "upperBoxBorderColor": "#669999",
+                    "upperBoxBorderThickness": "2",
+                    "upperBoxBorderAlpha": "70",
+                    "lowerBoxBorderColor": "#000000",
+                    "lowerBoxBorderThickness": "2",
+                    "lowerBoxBorderAlpha": "80",
+                    "upperWhiskerColor": "#33CCFF",
+                    "upperWhiskerThickness": "2",
+                    "upperWhiskerAlpha": "50",
+                    "lowerWhiskerColor": "#CC6600",
+                    "lowerWhiskerThickness": "2",
+                    "lowerWhiskerAlpha": "50",
+                    "valueFont": "verdana",
+                    "rotateValues": "0",
+                    "valueFontColor": "#cc0000",
+                    "valueFontSize": "12",
+                    "valueFontBold": "1",
+                    "valueFontItalic": "1",
+                    "valueBgColor": "#ffffff",
+                    "valueBorderColor": "#000033",
+                    "valueAlpha": "70",
+                    "valueFontAlpha": "75",
+                    "valueBgAlpha": "85",
+                    "valueBorderAlpha": "90",
+                    "valueBorderThickness": "2",
+                    "valueBorderRadius": "5",
+                    "valueBorderDashed": "1",
+                    "valueBorderDashGap": "3",
+                    "valueBorderDashLen": "6",
+                    "valueHoverAlpha": "100",
+                    "valueFontHoverAlpha": "100",
+                    "valueBgHoverAlpha": "100",
+                    "valueBorderHoverAlpha": "100",
+                    "showValuesOnHover": "1",
+                    "showLabels": "1",
+                    "maxLabelHeight": "45",
+                    "labelDisplay": "ROTATE",
+                    "useEllipsesWhenOverflow": "0",
+                    "rotateLabels": "1",
+                    "slantLabels": "1",
+                    "labelStep": "1",
+                    "staggerLines": "1",
+                    "labelFont": "verdana",
+                    "labelFontColor": "#cc0000",
+                    "labelFontSize": "10",
+                    "labelFontBold": "1",
+                    "labelFontItalic": "1",
+                    "labelBgColor": "#00ff00",
+                    "labelBorderColor": "#cc0000",
+                    "labelAlpha": "85",
+                    "labelBgAlpha": "60",
+                    "labelBorderAlpha": "90",
+                    "labelBorderPadding": "2",
+                    "labelBorderRadius": "5",
+                    "labelBorderThickness": "2",
+                    "labelBorderDashed": "1",
+                    "labelBorderDashLen": "6",
+                    "labelBorderDashGap": "3",
+                    "labelLink": "http://www.fusioncharts.com"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "2008"
+                            },
+                            {
+                                "label": "2009",
+                                "fontSize": "18",
+                                "fontColor": "#ffffff",
+                                "fontBold": "1",
+                                "fontItalic": "0",
+                                "bgColor": "#333333",
+                                "borderColor": "#ff0000",
+                                "borderPadding": "2",
+                                "borderRadius": "5",
+                                "borderThickness": "4",
+                                "borderDashed": "0",
+                                "borderDashLen": "6",
+                                "borderDashGap": "3"
+                            },
+                            {
+                                "label": "2010"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "January",
+                        "lowerboxcolor": "019FAA",
+                        "upperboxcolor": "D4DFFF",
+                        "data": [
+                            {
+                                "value": "60,133,35,67,89,137,259"
+                            },
+                            {
+                                "value": "139,197,175,114,39,67,191"
+                            },
+                            {
+                                "value": "200,107,197,239,53,26,97"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "February",
+                        "lowerboxcolor": "2A5F55",
+                        "upperboxcolor": "D47F00",
+                        "showValues": "1",
+                        "includeInLegend": "1",
+                        "upperQuartileColor": "#333666",
+                        "upperQuartileThickness": "3",
+                        "upperQuartileAlpha": "80",
+                        "lowerQuartileColor": " #666999",
+                        "lowerQuartileThickness": " 2",
+                        "lowerQuartileAlpha": "100",
+                        "upperBoxAlpha": "90",
+                        "lowerBoxAlpha": "90",
+                        "upperBoxBorderColor": "#ff0000",
+                        "upperBoxBorderThickness": "2",
+                        "upperBoxBorderAlpha": "70",
+                        "lowerBoxBorderColor": "#000fff",
+                        "lowerBoxBorderThickness": "2",
+                        "lowerBoxBorderAlpha": "80",
+                        "upperWhiskerColor": "#cc6600",
+                        "upperWhiskerThickness": "2",
+                        "upperWhiskerAlpha": "100",
+                        "lowerWhiskerColor": "#333399",
+                        "lowerWhiskerThickness": "3",
+                        "lowerWhiskerAlpha": "100",
+                        "showMinValue": "1",
+                        "showMaxValue": "1",
+                        "showQ1Value": "1",
+                        "showQ3Value": "1",
+                        "showMedianValue": "1",
+                        "medianColor": "#99CCFF",
+                        "medianThickness": "3",
+                        "medianAlpha": "100",
+                        "showMean": "1",
+                        "showSD": "1",
+                        "showQD": "1",
+                        "showMD": "1",
+                        "meanIconShape": "polygon",
+                        "meanIconRadius": "10",
+                        "meanIconSides": "7",
+                        "meanIconColor": "#ff0000",
+                        "meanIconAlpha": "100",
+                        "SDIconShape": "spoke",
+                        "SDIconRadius": "10",
+                        "SDIconSides": "6",
+                        "SDIconColor": "#0000ff",
+                        "SDIconAlpha": "100",
+                        "QDIconShape": "spoke",
+                        "QDIconRadius": "7",
+                        "QDIconSides": "3",
+                        "QDIconColor": "#ff6789",
+                        "QDIconAlpha": "100",
+                        "MDIconShape": "ploygon",
+                        "MDIconRadius": "10",
+                        "MDIconSides": "11",
+                        "MDIconColor": "#99FF99",
+                        "MDIconAlpha": "100",
+                        "drawMeanConnector": "1",
+                        "drawSDConnector": "1",
+                        "drawQDConnector": "1",
+                        "drawMDConnector": "1",
+                        "outlierIconRadius": "12",
+                        "outlierIconSides": "5",
+                        "outlierIconColor": "#999966",
+                        "outlierIconAlpha": "100",
+                        "data": [
+                            {
+                                "value": "160,303,125,137,69,107,39"
+                            },
+                            {
+                                "value": "139,167,255,74,59,187,151"
+                            },
+                            {
+                                "value": "160,137,57,209,153,126,277"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke-test/boxandwhisker2d/ref-images/test_2_boxandwhisker2d-snapshot.png",
+        "id": "test_2"
+    },
+    "test_3": {
+        "description": "Divlines, VLines, Trendlines, Trendzones releated tests",
+        "options": {
+            "type": "boxandwhisker2d",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Current Year",
+                    "captionAlignment": "center",
+                    "captionOnTop": "1",
+                    "captionFontSize": "12",
+                    "subCaptionFontSize": "8",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "subCaptionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "10",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0",
+                    "palette": "3",
+                    "numDivLines": "3",
+                    "divLineColor": "#cc0000",
+                    "divLineThickness": "4",
+                    "divLineAlpha": "85",
+                    "divLineDashed": "1",
+                    "divLineDashLen": "5",
+                    "divLineDashGap": "3",
+                    "zeroPlaneColor": "#0000ff",
+                    "zeroPlaneThickness": "9",
+                    "zeroPlaneAlpha": "85",
+                    "showZeroPlaneValue": "1",
+                    "showAlternateHGridColor": "1",
+                    "alternateHGridColor": "#0000ff",
+                    "alternateHGridAlpha": "10"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "2008"
+                            },
+                            {
+                                "label": "Month",
+                                "vline": "true",
+                                "color": "#0000ff",
+                                "thickness": "3",
+                                "dashed": "1",
+                                "dashLen": "6",
+                                "dashGap": "3",
+                                "showLabelBorder": "1",
+                                "linePosition": "1",
+                                "labelPosition": "0",
+                                "labelHAlign": "center",
+                                "labelVAlign": "middle"
+                            },
+                            {
+                                "label": "2009"
+                            },
+                            {
+                                "label": "2010"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "January",
+                        "lowerboxcolor": "019FAA",
+                        "upperboxcolor": "D4DFFF",
+                        "data": [
+                            {
+                                "value": "60,133,35,67,89,137,259"
+                            },
+                            {
+                                "value": "139,197,175,114,39,67,191"
+                            },
+                            {
+                                "value": "200,107,197,239,53,26,97"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "February",
+                        "lowerboxcolor": "2A5F55",
+                        "upperboxcolor": "D47F00",
+                        "data": [
+                            {
+                                "value": "160,303,125,137,69,107,39"
+                            },
+                            {
+                                "value": "139,167,255,74,59,187,151"
+                            },
+                            {
+                                "value": "160,137,57,209,153,126,277"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "350",
+                                "istrendzone": "0",
+                                "valueonright": "1",
+                                "tooltext": "Powercharts",
+                                "color": "009933",
+                                "displayvalue": "Target Last Year",
+                                "showontop": "0",
+                                "thickness": "3",
+                                "alpha": "75",
+                                "dashed": "0",
+                                "dashLen": "6",
+                                "dashGap": "3"
+                            },
+                            {
+                                "startvalue": "150",
+                                "istrendzone": "0",
+                                "valueonright": "0",
+                                "tooltext": "Powercharts ",
+                                "color": "009933",
+                                "displayvalue": "Target",
+                                "showontop": "0",
+                                "thickness": "3",
+                                "alpha": "75",
+                                "dashed": "1",
+                                "dashLen": "6",
+                                "dashGap": "3"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke-test/boxandwhisker2d/ref-images/test_3_boxandwhisker2d-snapshot.png",
+        "id": "test_3"
+    }
+}

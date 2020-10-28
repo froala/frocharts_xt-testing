@@ -1,0 +1,3757 @@
+{
+    "mscolumn2d-chart-caption_0": {
+        "description": "chartCaption alignment top-center.Caption alignment with canvas",
+        "options": {
+            "type": "mscolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the Caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "center",
+                    "captionOnTop": "1",
+                    "captionFontSize": "40",
+                    "subCaptionFontSize": "20",
+                    "subCaptionFont": "Verdana",
+                    "subCaptionFontColor": "#FF0000",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "20",
+                    "captionPadding ": "30",
+                    "yAxisName": "This is long y axis",
+                    "xAxisName": "x-axis Name",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "vline": "true",
+                                "label": "vline",
+                                "labelPosition": "0",
+                                "labelVAlign": "top"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/multi-series-charts/ref-images/mscolumn2d-chart-caption_0-snapshot.png",
+        "id": "mscolumn2d-chart-caption_0"
+    },
+    "mscolumn2d-chart-caption_1": {
+        "description": "chartCaption alignment top-center.Caption does not alignment with canvas",
+        "options": {
+            "type": "mscolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "center",
+                    "captionOnTop": "1",
+                    "captionFontSize": "35",
+                    "subCaptionFontSize": "25",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#0000FF",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#ff0000",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "0",
+                    "captionPadding ": "20",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "vline": "true",
+                                "label": "vline",
+                                "labelPosition": "0",
+                                "labelVAlign": "top"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/multi-series-charts/ref-images/mscolumn2d-chart-caption_1-snapshot.png",
+        "id": "mscolumn2d-chart-caption_1"
+    },
+    "mscolumn2d-chart-caption_2": {
+        "description": "chartCaption alignment top-left.Caption does not alignment with canvas",
+        "options": {
+            "type": "mscolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "left",
+                    "captionOnTop": "1",
+                    "captionFontSize": "48",
+                    "subCaptionFontSize": "25",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "15",
+                    "captionPadding ": "25",
+                    "yAxisName": "This is a long yAxis name",
+                    "xAxisName": "x-axis name",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "vline": "true",
+                                "label": "vline",
+                                "labelPosition": "0",
+                                "labelVAlign": "top"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/multi-series-charts/ref-images/mscolumn2d-chart-caption_2-snapshot.png",
+        "id": "mscolumn2d-chart-caption_2"
+    },
+    "mscolumn2d-chart-caption_3": {
+        "description": "chartCaption alignment top-left.Caption alignment with canvas",
+        "options": {
+            "type": "mscolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "canvasleftmargin": "125",
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "left",
+                    "captionOnTop": "1",
+                    "captionFontSize": "50",
+                    "subCaptionFontSize": "30",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "15",
+                    "captionPadding ": "25",
+                    "yaxisname": "This is a long yAxis name",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "vline": "true",
+                                "label": "vline",
+                                "labelPosition": "0",
+                                "labelVAlign": "top"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/multi-series-charts/ref-images/mscolumn2d-chart-caption_3-snapshot.png",
+        "id": "mscolumn2d-chart-caption_3"
+    },
+    "mscolumn2d-chart-caption_4": {
+        "description": "chartCaption alignment top-right. Caption alignment with canvas",
+        "options": {
+            "type": "mscolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "canvasRightMargin": "100",
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "right",
+                    "captionOnTop": "1",
+                    "captionFontSize": "42",
+                    "subCaptionFontSize": "31",
+                    "subCaptionFont": "cursive",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Times New Roman",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "24",
+                    "captionPadding ": "30",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "vline": "true",
+                                "label": "vline",
+                                "labelPosition": "0",
+                                "labelVAlign": "top"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/multi-series-charts/ref-images/mscolumn2d-chart-caption_4-snapshot.png",
+        "id": "mscolumn2d-chart-caption_4"
+    },
+    "mscolumn2d-chart-caption_5": {
+        "description": "chartCaption alignment top-right.Caption does not alignment with canvas",
+        "options": {
+            "type": "mscolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the Caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "right",
+                    "captionOnTop": "1",
+                    "captionFontSize": "35",
+                    "subCaptionFontSize": "28",
+                    "subCaptionFont": "cursive",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Times New Roman",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "30",
+                    "captionPadding ": "19",
+                    "xAxisName": "x-axis",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "vline": "true",
+                                "label": "vline",
+                                "labelPosition": "0",
+                                "labelVAlign": "top"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/multi-series-charts/ref-images/mscolumn2d-chart-caption_5-snapshot.png",
+        "id": "mscolumn2d-chart-caption_5"
+    },
+    "mscolumn2d-chart-caption_6": {
+        "description": "chartCaption alignment bottom-left.Caption does not alignment with canvas",
+        "options": {
+            "type": "mscolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "left",
+                    "captionOnTop": "0",
+                    "captionFontSize": "28",
+                    "subCaptionFontSize": "20",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "25",
+                    "captionPadding ": "5",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "vline": "true",
+                                "label": "vline",
+                                "labelPosition": "0",
+                                "labelVAlign": "top"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/multi-series-charts/ref-images/mscolumn2d-chart-caption_6-snapshot.png",
+        "id": "mscolumn2d-chart-caption_6"
+    },
+    "mscolumn2d-chart-caption_7": {
+        "description": "chartCaption alignment bottom-left.Caption alignment with canvas",
+        "options": {
+            "type": "mscolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "left",
+                    "captionOnTop": "0",
+                    "captionFontSize": "39",
+                    "subCaptionFontSize": "21",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "25",
+                    "captionPadding ": "5",
+                    "rotateYaxisName": "0",
+                    "xAxisName": "x-axis {br} with {br} line {br} break",
+                    "yAxisName": "This is long y-axis name",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "vline": "true",
+                                "label": "vline",
+                                "labelPosition": "1",
+                                "labelVAlign": "bottom"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/multi-series-charts/ref-images/mscolumn2d-chart-caption_7-snapshot.png",
+        "id": "mscolumn2d-chart-caption_7"
+    },
+    "mscolumn2d-chart-caption_8": {
+        "description": "chartCaption alignment bottom-center.Caption does not alignment with canvas",
+        "options": {
+            "type": "mscolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "center",
+                    "captionOnTop": "0",
+                    "captionFontSize": "50",
+                    "subCaptionFontSize": "35",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "18",
+                    "captionPadding ": "20",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "vline": "true",
+                                "label": "vline",
+                                "labelPosition": "0",
+                                "labelVAlign": "top"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/multi-series-charts/ref-images/mscolumn2d-chart-caption_8-snapshot.png",
+        "id": "mscolumn2d-chart-caption_8"
+    },
+    "mscolumn2d-chart-caption_9": {
+        "description": "chartCaption alignment bottom-center.Caption alignment with canvas",
+        "options": {
+            "type": "mscolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "center",
+                    "captionOnTop": "0",
+                    "captionFontSize": "39",
+                    "subCaptionFontSize": "34",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "18",
+                    "captionPadding ": "20",
+                    "xAxisName": "x-axis {br} with {br} line {br} break",
+                    "yAxisName": "This is long y-axis name",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "vline": "true",
+                                "label": "vline",
+                                "labelPosition": "0",
+                                "labelVAlign": "top"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/multi-series-charts/ref-images/mscolumn2d-chart-caption_9-snapshot.png",
+        "id": "mscolumn2d-chart-caption_9"
+    },
+    "mscolumn2d-chart-caption_10": {
+        "description": "chartCaption alignment bottom-right.Caption does not alignment with canvas",
+        "options": {
+            "type": "mscolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "right",
+                    "captionOnTop": "0",
+                    "captionFontSize": "25",
+                    "subCaptionFontSize": "12",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Times New Roman",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "20",
+                    "captionPadding ": "35",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "vline": "true",
+                                "label": "vline",
+                                "labelPosition": "0",
+                                "labelVAlign": "top"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/multi-series-charts/ref-images/mscolumn2d-chart-caption_10-snapshot.png",
+        "id": "mscolumn2d-chart-caption_10"
+    },
+    "mscolumn2d-chart-caption_11": {
+        "description": "chartCaption alignment bottom-right.Caption alignment with canvas",
+        "options": {
+            "type": "mscolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "right",
+                    "captionOnTop": "0",
+                    "captionFontSize": "29",
+                    "subCaptionFontSize": "17",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Times New Roman",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "12",
+                    "captionPadding ": "0",
+                    "xAxisName": "x-axis {br} with {br} line {br} break",
+                    "yAxisName": "This is long y-axis name",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "vline": "true",
+                                "label": "vline",
+                                "labelPosition": "0",
+                                "labelVAlign": "top"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/multi-series-charts/ref-images/mscolumn2d-chart-caption_11-snapshot.png",
+        "id": "mscolumn2d-chart-caption_11"
+    },
+    "multiaxisline-chart-caption_0": {
+        "description": "chartCaption alignment top-center.Caption alignment with canvas",
+        "options": {
+            "type": "multiaxisline",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the Caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "center",
+                    "captionOnTop": "1",
+                    "captionFontSize": "40",
+                    "subCaptionFontSize": "20",
+                    "subCaptionFont": "Verdana",
+                    "subCaptionFontColor": "#FF0000",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "20",
+                    "captionPadding ": "30",
+                    "xAxisName": "x-axis Name",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "00:00s"
+                            },
+                            {
+                                "label": "00:04s"
+                            },
+                            {
+                                "label": "00:08s"
+                            },
+                            {
+                                "vLine": "true",
+                                "label": "Appraisal",
+                                "labelPosition": "0",
+                                "labelVAlign": "top"
+                            },
+                            {
+                                "label": "00:12s"
+                            },
+                            {
+                                "label": "00:16s"
+                            },
+                            {
+                                "label": "00:20s"
+                            }
+                        ]
+                    }
+                ],
+                "axis": [
+                    {
+                        "title": "Power",
+                        "dataset": [
+                            {
+                                "seriesname": "Power [W]",
+                                "data": [
+                                    {
+                                        "value": "6"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "33"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Temp.",
+                        "dataset": [
+                            {
+                                "seriesname": "Temperature",
+                                "data": [
+                                    {
+                                        "value": "296"
+                                    },
+                                    {
+                                        "value": "311"
+                                    },
+                                    {
+                                        "value": "336"
+                                    },
+                                    {
+                                        "value": "371"
+                                    },
+                                    {
+                                        "value": "389"
+                                    },
+                                    {
+                                        "value": "393"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Speed[RPM]",
+                        "axisonleft": "0",
+                        "dataset": [
+                            {
+                                "seriesname": "Speed",
+                                "data": [
+                                    {
+                                        "value": "1"
+                                    },
+                                    {
+                                        "value": "11"
+                                    },
+                                    {
+                                        "value": "36"
+                                    },
+                                    {
+                                        "value": "49"
+                                    },
+                                    {
+                                        "value": "68"
+                                    },
+                                    {
+                                        "value": "88"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/multi-series-charts/ref-images/multiaxisline-chart-caption_0-snapshot.png",
+        "id": "multiaxisline-chart-caption_0"
+    },
+    "multiaxisline-chart-caption_1": {
+        "description": "chartCaption alignment top-center.Caption does not alignment with canvas",
+        "options": {
+            "type": "multiaxisline",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "center",
+                    "captionOnTop": "1",
+                    "captionFontSize": "35",
+                    "subCaptionFontSize": "25",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#0000FF",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#ff0000",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "0",
+                    "captionPadding ": "20",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "00:00s"
+                            },
+                            {
+                                "label": "00:04s"
+                            },
+                            {
+                                "label": "00:08s"
+                            },
+                            {
+                                "vLine": "true",
+                                "label": "Appraisal",
+                                "labelPosition": "0",
+                                "labelVAlign": "top"
+                            },
+                            {
+                                "label": "00:12s"
+                            },
+                            {
+                                "label": "00:16s"
+                            },
+                            {
+                                "label": "00:20s"
+                            }
+                        ]
+                    }
+                ],
+                "axis": [
+                    {
+                        "title": "Power",
+                        "dataset": [
+                            {
+                                "seriesname": "Power [W]",
+                                "data": [
+                                    {
+                                        "value": "6"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "33"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Temp.",
+                        "dataset": [
+                            {
+                                "seriesname": "Temperature",
+                                "data": [
+                                    {
+                                        "value": "296"
+                                    },
+                                    {
+                                        "value": "311"
+                                    },
+                                    {
+                                        "value": "336"
+                                    },
+                                    {
+                                        "value": "371"
+                                    },
+                                    {
+                                        "value": "389"
+                                    },
+                                    {
+                                        "value": "393"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Speed[RPM]",
+                        "axisonleft": "0",
+                        "dataset": [
+                            {
+                                "seriesname": "Speed",
+                                "data": [
+                                    {
+                                        "value": "1"
+                                    },
+                                    {
+                                        "value": "11"
+                                    },
+                                    {
+                                        "value": "36"
+                                    },
+                                    {
+                                        "value": "49"
+                                    },
+                                    {
+                                        "value": "68"
+                                    },
+                                    {
+                                        "value": "88"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/multi-series-charts/ref-images/multiaxisline-chart-caption_1-snapshot.png",
+        "id": "multiaxisline-chart-caption_1"
+    },
+    "multiaxisline-chart-caption_2": {
+        "description": "chartCaption alignment top-left.Caption does not alignment with canvas",
+        "options": {
+            "type": "multiaxisline",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "left",
+                    "captionOnTop": "1",
+                    "captionFontSize": "48",
+                    "subCaptionFontSize": "25",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "15",
+                    "captionPadding ": "25",
+                    "xAxisName": "x-axis name",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "00:00s"
+                            },
+                            {
+                                "label": "00:04s"
+                            },
+                            {
+                                "label": "00:08s"
+                            },
+                            {
+                                "vLine": "true",
+                                "label": "Appraisal",
+                                "labelPosition": "0",
+                                "labelVAlign": "top"
+                            },
+                            {
+                                "label": "00:12s"
+                            },
+                            {
+                                "label": "00:16s"
+                            },
+                            {
+                                "label": "00:20s"
+                            }
+                        ]
+                    }
+                ],
+                "axis": [
+                    {
+                        "title": "Power",
+                        "dataset": [
+                            {
+                                "seriesname": "Power [W]",
+                                "data": [
+                                    {
+                                        "value": "6"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "33"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Temp.",
+                        "dataset": [
+                            {
+                                "seriesname": "Temperature",
+                                "data": [
+                                    {
+                                        "value": "296"
+                                    },
+                                    {
+                                        "value": "311"
+                                    },
+                                    {
+                                        "value": "336"
+                                    },
+                                    {
+                                        "value": "371"
+                                    },
+                                    {
+                                        "value": "389"
+                                    },
+                                    {
+                                        "value": "393"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Speed[RPM]",
+                        "axisonleft": "0",
+                        "dataset": [
+                            {
+                                "seriesname": "Speed",
+                                "data": [
+                                    {
+                                        "value": "1"
+                                    },
+                                    {
+                                        "value": "11"
+                                    },
+                                    {
+                                        "value": "36"
+                                    },
+                                    {
+                                        "value": "49"
+                                    },
+                                    {
+                                        "value": "68"
+                                    },
+                                    {
+                                        "value": "88"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/multi-series-charts/ref-images/multiaxisline-chart-caption_2-snapshot.png",
+        "id": "multiaxisline-chart-caption_2"
+    },
+    "multiaxisline-chart-caption_3": {
+        "description": "chartCaption alignment top-left.Caption alignment with canvas",
+        "options": {
+            "type": "multiaxisline",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "canvasleftmargin": "125",
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "left",
+                    "captionOnTop": "1",
+                    "captionFontSize": "50",
+                    "subCaptionFontSize": "30",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "15",
+                    "captionPadding ": "25",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "00:00s"
+                            },
+                            {
+                                "label": "00:04s"
+                            },
+                            {
+                                "label": "00:08s"
+                            },
+                            {
+                                "vLine": "true",
+                                "label": "Appraisal",
+                                "labelPosition": "0",
+                                "labelVAlign": "top"
+                            },
+                            {
+                                "label": "00:12s"
+                            },
+                            {
+                                "label": "00:16s"
+                            },
+                            {
+                                "label": "00:20s"
+                            }
+                        ]
+                    }
+                ],
+                "axis": [
+                    {
+                        "title": "Power",
+                        "dataset": [
+                            {
+                                "seriesname": "Power [W]",
+                                "data": [
+                                    {
+                                        "value": "6"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "33"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Temp.",
+                        "dataset": [
+                            {
+                                "seriesname": "Temperature",
+                                "data": [
+                                    {
+                                        "value": "296"
+                                    },
+                                    {
+                                        "value": "311"
+                                    },
+                                    {
+                                        "value": "336"
+                                    },
+                                    {
+                                        "value": "371"
+                                    },
+                                    {
+                                        "value": "389"
+                                    },
+                                    {
+                                        "value": "393"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Speed[RPM]",
+                        "axisonleft": "0",
+                        "dataset": [
+                            {
+                                "seriesname": "Speed",
+                                "data": [
+                                    {
+                                        "value": "1"
+                                    },
+                                    {
+                                        "value": "11"
+                                    },
+                                    {
+                                        "value": "36"
+                                    },
+                                    {
+                                        "value": "49"
+                                    },
+                                    {
+                                        "value": "68"
+                                    },
+                                    {
+                                        "value": "88"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/multi-series-charts/ref-images/multiaxisline-chart-caption_3-snapshot.png",
+        "id": "multiaxisline-chart-caption_3"
+    },
+    "multiaxisline-chart-caption_4": {
+        "description": "chartCaption alignment top-right. Caption alignment with canvas",
+        "options": {
+            "type": "multiaxisline",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "canvasRightMargin": "100",
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "right",
+                    "captionOnTop": "1",
+                    "captionFontSize": "42",
+                    "subCaptionFontSize": "31",
+                    "subCaptionFont": "cursive",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Times New Roman",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "24",
+                    "captionPadding ": "30",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "00:00s"
+                            },
+                            {
+                                "label": "00:04s"
+                            },
+                            {
+                                "label": "00:08s"
+                            },
+                            {
+                                "vLine": "true",
+                                "label": "Appraisal",
+                                "labelPosition": "0",
+                                "labelVAlign": "top"
+                            },
+                            {
+                                "label": "00:12s"
+                            },
+                            {
+                                "label": "00:16s"
+                            },
+                            {
+                                "label": "00:20s"
+                            }
+                        ]
+                    }
+                ],
+                "axis": [
+                    {
+                        "title": "Power",
+                        "dataset": [
+                            {
+                                "seriesname": "Power [W]",
+                                "data": [
+                                    {
+                                        "value": "6"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "33"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Temp.",
+                        "dataset": [
+                            {
+                                "seriesname": "Temperature",
+                                "data": [
+                                    {
+                                        "value": "296"
+                                    },
+                                    {
+                                        "value": "311"
+                                    },
+                                    {
+                                        "value": "336"
+                                    },
+                                    {
+                                        "value": "371"
+                                    },
+                                    {
+                                        "value": "389"
+                                    },
+                                    {
+                                        "value": "393"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Speed[RPM]",
+                        "axisonleft": "0",
+                        "dataset": [
+                            {
+                                "seriesname": "Speed",
+                                "data": [
+                                    {
+                                        "value": "1"
+                                    },
+                                    {
+                                        "value": "11"
+                                    },
+                                    {
+                                        "value": "36"
+                                    },
+                                    {
+                                        "value": "49"
+                                    },
+                                    {
+                                        "value": "68"
+                                    },
+                                    {
+                                        "value": "88"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/multi-series-charts/ref-images/multiaxisline-chart-caption_4-snapshot.png",
+        "id": "multiaxisline-chart-caption_4"
+    },
+    "multiaxisline-chart-caption_5": {
+        "description": "chartCaption alignment top-right.Caption does not alignment with canvas",
+        "options": {
+            "type": "multiaxisline",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the Caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "right",
+                    "captionOnTop": "1",
+                    "captionFontSize": "35",
+                    "subCaptionFontSize": "28",
+                    "subCaptionFont": "cursive",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Times New Roman",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "30",
+                    "captionPadding ": "19",
+                    "xAxisName": "x-axis",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "00:00s"
+                            },
+                            {
+                                "label": "00:04s"
+                            },
+                            {
+                                "label": "00:08s"
+                            },
+                            {
+                                "vLine": "true",
+                                "label": "Appraisal",
+                                "labelPosition": "0",
+                                "labelVAlign": "top"
+                            },
+                            {
+                                "label": "00:12s"
+                            },
+                            {
+                                "label": "00:16s"
+                            },
+                            {
+                                "label": "00:20s"
+                            }
+                        ]
+                    }
+                ],
+                "axis": [
+                    {
+                        "title": "Power",
+                        "dataset": [
+                            {
+                                "seriesname": "Power [W]",
+                                "data": [
+                                    {
+                                        "value": "6"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "33"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Temp.",
+                        "dataset": [
+                            {
+                                "seriesname": "Temperature",
+                                "data": [
+                                    {
+                                        "value": "296"
+                                    },
+                                    {
+                                        "value": "311"
+                                    },
+                                    {
+                                        "value": "336"
+                                    },
+                                    {
+                                        "value": "371"
+                                    },
+                                    {
+                                        "value": "389"
+                                    },
+                                    {
+                                        "value": "393"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Speed[RPM]",
+                        "axisonleft": "0",
+                        "dataset": [
+                            {
+                                "seriesname": "Speed",
+                                "data": [
+                                    {
+                                        "value": "1"
+                                    },
+                                    {
+                                        "value": "11"
+                                    },
+                                    {
+                                        "value": "36"
+                                    },
+                                    {
+                                        "value": "49"
+                                    },
+                                    {
+                                        "value": "68"
+                                    },
+                                    {
+                                        "value": "88"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/multi-series-charts/ref-images/multiaxisline-chart-caption_5-snapshot.png",
+        "id": "multiaxisline-chart-caption_5"
+    },
+    "multiaxisline-chart-caption_6": {
+        "description": "chartCaption alignment bottom-left.Caption does not alignment with canvas",
+        "options": {
+            "type": "multiaxisline",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "left",
+                    "captionOnTop": "0",
+                    "captionFontSize": "28",
+                    "subCaptionFontSize": "20",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "25",
+                    "captionPadding ": "5",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "00:00s"
+                            },
+                            {
+                                "label": "00:04s"
+                            },
+                            {
+                                "label": "00:08s"
+                            },
+                            {
+                                "vLine": "true",
+                                "label": "Appraisal",
+                                "labelPosition": "0",
+                                "labelVAlign": "top"
+                            },
+                            {
+                                "label": "00:12s"
+                            },
+                            {
+                                "label": "00:16s"
+                            },
+                            {
+                                "label": "00:20s"
+                            }
+                        ]
+                    }
+                ],
+                "axis": [
+                    {
+                        "title": "Power",
+                        "dataset": [
+                            {
+                                "seriesname": "Power [W]",
+                                "data": [
+                                    {
+                                        "value": "6"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "33"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Temp.",
+                        "dataset": [
+                            {
+                                "seriesname": "Temperature",
+                                "data": [
+                                    {
+                                        "value": "296"
+                                    },
+                                    {
+                                        "value": "311"
+                                    },
+                                    {
+                                        "value": "336"
+                                    },
+                                    {
+                                        "value": "371"
+                                    },
+                                    {
+                                        "value": "389"
+                                    },
+                                    {
+                                        "value": "393"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Speed[RPM]",
+                        "axisonleft": "0",
+                        "dataset": [
+                            {
+                                "seriesname": "Speed",
+                                "data": [
+                                    {
+                                        "value": "1"
+                                    },
+                                    {
+                                        "value": "11"
+                                    },
+                                    {
+                                        "value": "36"
+                                    },
+                                    {
+                                        "value": "49"
+                                    },
+                                    {
+                                        "value": "68"
+                                    },
+                                    {
+                                        "value": "88"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/multi-series-charts/ref-images/multiaxisline-chart-caption_6-snapshot.png",
+        "id": "multiaxisline-chart-caption_6"
+    },
+    "multiaxisline-chart-caption_7": {
+        "description": "chartCaption alignment bottom-left.Caption alignment with canvas",
+        "options": {
+            "type": "multiaxisline",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "left",
+                    "captionOnTop": "0",
+                    "captionFontSize": "39",
+                    "subCaptionFontSize": "21",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "25",
+                    "captionPadding ": "5",
+                    "xAxisName": "x-axis {br} with {br} line {br} break",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "00:00s"
+                            },
+                            {
+                                "label": "00:04s"
+                            },
+                            {
+                                "label": "00:08s"
+                            },
+                            {
+                                "vLine": "true",
+                                "label": "Appraisal",
+                                "labelPosition": "1",
+                                "labelVAlign": "bottom"
+                            },
+                            {
+                                "label": "00:12s"
+                            },
+                            {
+                                "label": "00:16s"
+                            },
+                            {
+                                "label": "00:20s"
+                            }
+                        ]
+                    }
+                ],
+                "axis": [
+                    {
+                        "title": "Power",
+                        "dataset": [
+                            {
+                                "seriesname": "Power [W]",
+                                "data": [
+                                    {
+                                        "value": "6"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "33"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Temp.",
+                        "dataset": [
+                            {
+                                "seriesname": "Temperature",
+                                "data": [
+                                    {
+                                        "value": "296"
+                                    },
+                                    {
+                                        "value": "311"
+                                    },
+                                    {
+                                        "value": "336"
+                                    },
+                                    {
+                                        "value": "371"
+                                    },
+                                    {
+                                        "value": "389"
+                                    },
+                                    {
+                                        "value": "393"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Speed[RPM]",
+                        "axisonleft": "0",
+                        "dataset": [
+                            {
+                                "seriesname": "Speed",
+                                "data": [
+                                    {
+                                        "value": "1"
+                                    },
+                                    {
+                                        "value": "11"
+                                    },
+                                    {
+                                        "value": "36"
+                                    },
+                                    {
+                                        "value": "49"
+                                    },
+                                    {
+                                        "value": "68"
+                                    },
+                                    {
+                                        "value": "88"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/multi-series-charts/ref-images/multiaxisline-chart-caption_7-snapshot.png",
+        "id": "multiaxisline-chart-caption_7"
+    },
+    "multiaxisline-chart-caption_8": {
+        "description": "chartCaption alignment bottom-center.Caption does not alignment with canvas",
+        "options": {
+            "type": "multiaxisline",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "center",
+                    "captionOnTop": "0",
+                    "captionFontSize": "50",
+                    "subCaptionFontSize": "35",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "18",
+                    "captionPadding ": "20",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "00:00s"
+                            },
+                            {
+                                "label": "00:04s"
+                            },
+                            {
+                                "label": "00:08s"
+                            },
+                            {
+                                "vLine": "true",
+                                "label": "Appraisal",
+                                "labelPosition": "0",
+                                "labelVAlign": "top"
+                            },
+                            {
+                                "label": "00:12s"
+                            },
+                            {
+                                "label": "00:16s"
+                            },
+                            {
+                                "label": "00:20s"
+                            }
+                        ]
+                    }
+                ],
+                "axis": [
+                    {
+                        "title": "Power",
+                        "dataset": [
+                            {
+                                "seriesname": "Power [W]",
+                                "data": [
+                                    {
+                                        "value": "6"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "33"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Temp.",
+                        "dataset": [
+                            {
+                                "seriesname": "Temperature",
+                                "data": [
+                                    {
+                                        "value": "296"
+                                    },
+                                    {
+                                        "value": "311"
+                                    },
+                                    {
+                                        "value": "336"
+                                    },
+                                    {
+                                        "value": "371"
+                                    },
+                                    {
+                                        "value": "389"
+                                    },
+                                    {
+                                        "value": "393"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Speed[RPM]",
+                        "axisonleft": "0",
+                        "dataset": [
+                            {
+                                "seriesname": "Speed",
+                                "data": [
+                                    {
+                                        "value": "1"
+                                    },
+                                    {
+                                        "value": "11"
+                                    },
+                                    {
+                                        "value": "36"
+                                    },
+                                    {
+                                        "value": "49"
+                                    },
+                                    {
+                                        "value": "68"
+                                    },
+                                    {
+                                        "value": "88"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/multi-series-charts/ref-images/multiaxisline-chart-caption_8-snapshot.png",
+        "id": "multiaxisline-chart-caption_8"
+    },
+    "multiaxisline-chart-caption_9": {
+        "description": "chartCaption alignment bottom-center.Caption alignment with canvas",
+        "options": {
+            "type": "multiaxisline",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "center",
+                    "captionOnTop": "0",
+                    "captionFontSize": "39",
+                    "subCaptionFontSize": "34",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "18",
+                    "captionPadding ": "20",
+                    "xAxisName": "x-axis {br} with {br} line {br} break",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "00:00s"
+                            },
+                            {
+                                "label": "00:04s"
+                            },
+                            {
+                                "label": "00:08s"
+                            },
+                            {
+                                "vLine": "true",
+                                "label": "Appraisal",
+                                "labelPosition": "0",
+                                "labelVAlign": "top"
+                            },
+                            {
+                                "label": "00:12s"
+                            },
+                            {
+                                "label": "00:16s"
+                            },
+                            {
+                                "label": "00:20s"
+                            }
+                        ]
+                    }
+                ],
+                "axis": [
+                    {
+                        "title": "Power",
+                        "dataset": [
+                            {
+                                "seriesname": "Power [W]",
+                                "data": [
+                                    {
+                                        "value": "6"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "33"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Temp.",
+                        "dataset": [
+                            {
+                                "seriesname": "Temperature",
+                                "data": [
+                                    {
+                                        "value": "296"
+                                    },
+                                    {
+                                        "value": "311"
+                                    },
+                                    {
+                                        "value": "336"
+                                    },
+                                    {
+                                        "value": "371"
+                                    },
+                                    {
+                                        "value": "389"
+                                    },
+                                    {
+                                        "value": "393"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Speed[RPM]",
+                        "axisonleft": "0",
+                        "dataset": [
+                            {
+                                "seriesname": "Speed",
+                                "data": [
+                                    {
+                                        "value": "1"
+                                    },
+                                    {
+                                        "value": "11"
+                                    },
+                                    {
+                                        "value": "36"
+                                    },
+                                    {
+                                        "value": "49"
+                                    },
+                                    {
+                                        "value": "68"
+                                    },
+                                    {
+                                        "value": "88"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/multi-series-charts/ref-images/multiaxisline-chart-caption_9-snapshot.png",
+        "id": "multiaxisline-chart-caption_9"
+    },
+    "multiaxisline-chart-caption_10": {
+        "description": "chartCaption alignment bottom-right.Caption does not alignment with canvas",
+        "options": {
+            "type": "multiaxisline",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "right",
+                    "captionOnTop": "0",
+                    "captionFontSize": "25",
+                    "subCaptionFontSize": "12",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Times New Roman",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "20",
+                    "captionPadding ": "35",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "00:00s"
+                            },
+                            {
+                                "label": "00:04s"
+                            },
+                            {
+                                "label": "00:08s"
+                            },
+                            {
+                                "vLine": "true",
+                                "label": "Appraisal",
+                                "labelPosition": "0",
+                                "labelVAlign": "top"
+                            },
+                            {
+                                "label": "00:12s"
+                            },
+                            {
+                                "label": "00:16s"
+                            },
+                            {
+                                "label": "00:20s"
+                            }
+                        ]
+                    }
+                ],
+                "axis": [
+                    {
+                        "title": "Power",
+                        "dataset": [
+                            {
+                                "seriesname": "Power [W]",
+                                "data": [
+                                    {
+                                        "value": "6"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "33"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Temp.",
+                        "dataset": [
+                            {
+                                "seriesname": "Temperature",
+                                "data": [
+                                    {
+                                        "value": "296"
+                                    },
+                                    {
+                                        "value": "311"
+                                    },
+                                    {
+                                        "value": "336"
+                                    },
+                                    {
+                                        "value": "371"
+                                    },
+                                    {
+                                        "value": "389"
+                                    },
+                                    {
+                                        "value": "393"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Speed[RPM]",
+                        "axisonleft": "0",
+                        "dataset": [
+                            {
+                                "seriesname": "Speed",
+                                "data": [
+                                    {
+                                        "value": "1"
+                                    },
+                                    {
+                                        "value": "11"
+                                    },
+                                    {
+                                        "value": "36"
+                                    },
+                                    {
+                                        "value": "49"
+                                    },
+                                    {
+                                        "value": "68"
+                                    },
+                                    {
+                                        "value": "88"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/multi-series-charts/ref-images/multiaxisline-chart-caption_10-snapshot.png",
+        "id": "multiaxisline-chart-caption_10"
+    },
+    "multiaxisline-chart-caption_11": {
+        "description": "chartCaption alignment bottom-right.Caption alignment with canvas",
+        "options": {
+            "type": "multiaxisline",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "right",
+                    "captionOnTop": "0",
+                    "captionFontSize": "29",
+                    "subCaptionFontSize": "17",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Times New Roman",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "12",
+                    "captionPadding ": "0",
+                    "xAxisName": "x-axis {br} with {br} line {br} break",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "00:00s"
+                            },
+                            {
+                                "label": "00:04s"
+                            },
+                            {
+                                "label": "00:08s"
+                            },
+                            {
+                                "vLine": "true",
+                                "label": "Appraisal",
+                                "labelPosition": "0",
+                                "labelVAlign": "top"
+                            },
+                            {
+                                "label": "00:12s"
+                            },
+                            {
+                                "label": "00:16s"
+                            },
+                            {
+                                "label": "00:20s"
+                            }
+                        ]
+                    }
+                ],
+                "axis": [
+                    {
+                        "title": "Power",
+                        "dataset": [
+                            {
+                                "seriesname": "Power [W]",
+                                "data": [
+                                    {
+                                        "value": "6"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "33"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Temp.",
+                        "dataset": [
+                            {
+                                "seriesname": "Temperature",
+                                "data": [
+                                    {
+                                        "value": "296"
+                                    },
+                                    {
+                                        "value": "311"
+                                    },
+                                    {
+                                        "value": "336"
+                                    },
+                                    {
+                                        "value": "371"
+                                    },
+                                    {
+                                        "value": "389"
+                                    },
+                                    {
+                                        "value": "393"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Speed[RPM]",
+                        "axisonleft": "0",
+                        "dataset": [
+                            {
+                                "seriesname": "Speed",
+                                "data": [
+                                    {
+                                        "value": "1"
+                                    },
+                                    {
+                                        "value": "11"
+                                    },
+                                    {
+                                        "value": "36"
+                                    },
+                                    {
+                                        "value": "49"
+                                    },
+                                    {
+                                        "value": "68"
+                                    },
+                                    {
+                                        "value": "88"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/multi-series-charts/ref-images/multiaxisline-chart-caption_11-snapshot.png",
+        "id": "multiaxisline-chart-caption_11"
+    }
+}

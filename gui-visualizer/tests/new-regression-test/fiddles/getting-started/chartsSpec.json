@@ -1,0 +1,2175 @@
+{
+    "getting-started-your-first-charts-using-themes-example-1": {
+        "description": "theme test",
+        "options": {
+            "type": "mscolumn2d",
+            "width": "500",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Comparison of Quarterly Revenue",
+                    "subCaption": "Harry's SuperMart",
+                    "xAxisname": "Quarter",
+                    "yAxisName": "Amount ($)",
+                    "numberPrefix": "$",
+                    "theme": "zune",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Q1"
+                            },
+                            {
+                                "label": "Q2"
+                            },
+                            {
+                                "label": "Q3"
+                            },
+                            {
+                                "label": "Q4"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Previous Year",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Current Year",
+                        "data": [
+                            {
+                                "value": "25400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "21800"
+                            },
+                            {
+                                "value": "26800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "getting-started-your-first-charts-using-themes-example-1",
+        "refimage": "./tests/smoke/fiddles/getting-started/ref-images/getting-started-your-first-charts-using-themes-example-1-snapshot.png"
+    },
+    "getting-started-your-first-charts-changing-chart-type-example-2": {
+        "description": "change chart type",
+        "options": {
+            "type": "column2d",
+            "width": "500",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly revenue",
+                    "subCaption": "Last year",
+                    "xAxisName": "Month",
+                    "yAxisName": "Revenue (In USD)",
+                    "numberPrefix": "$",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "900000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "730000"
+                    }
+                ]
+            }
+        },
+        "id": "getting-started-your-first-charts-changing-chart-type-example-2",
+        "refimage": "./tests/smoke/fiddles/getting-started/ref-images/getting-started-your-first-charts-changing-chart-type-example-2-snapshot.png"
+    },
+    "getting-started-your-first-charts-building-your-map-example1": {
+        "description": "map example",
+        "options": {
+            "type": "usa",
+            "width": "600",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Annual Sales by State",
+                    "subcaption": "Last year",
+                    "entityFillHoverColor": "#cccccc",
+                    "numberScaleValue": "1,1000,1000",
+                    "numberScaleUnit": "K,M,B",
+                    "numberPrefix": "$",
+                    "showLabels": "1",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "minvalue": "0",
+                    "startlabel": "Low",
+                    "endlabel": "High",
+                    "code": "#e44a00",
+                    "gradient": "1",
+                    "color": [
+                        {
+                            "maxvalue": "56580",
+                            "displayvalue": "Average",
+                            "code": "#f8bd19"
+                        },
+                        {
+                            "maxvalue": "100000",
+                            "code": "#6baa01"
+                        }
+                    ]
+                },
+                "data": [
+                    {
+                        "id": "HI",
+                        "value": "3189"
+                    },
+                    {
+                        "id": "DC",
+                        "value": "2879"
+                    },
+                    {
+                        "id": "MD",
+                        "value": "920"
+                    },
+                    {
+                        "id": "DE",
+                        "value": "4607"
+                    },
+                    {
+                        "id": "RI",
+                        "value": "4890"
+                    },
+                    {
+                        "id": "WA",
+                        "value": "34927"
+                    },
+                    {
+                        "id": "OR",
+                        "value": "65798"
+                    },
+                    {
+                        "id": "CA",
+                        "value": "61861"
+                    },
+                    {
+                        "id": "AK",
+                        "value": "58911"
+                    },
+                    {
+                        "id": "ID",
+                        "value": "42662"
+                    },
+                    {
+                        "id": "NV",
+                        "value": "78041"
+                    },
+                    {
+                        "id": "AZ",
+                        "value": "41558"
+                    },
+                    {
+                        "id": "MT",
+                        "value": "62942"
+                    },
+                    {
+                        "id": "WY",
+                        "value": "78834"
+                    },
+                    {
+                        "id": "UT",
+                        "value": "50512"
+                    },
+                    {
+                        "id": "CO",
+                        "value": "73026"
+                    },
+                    {
+                        "id": "NM",
+                        "value": "78865"
+                    },
+                    {
+                        "id": "ND",
+                        "value": "50554"
+                    },
+                    {
+                        "id": "SD",
+                        "value": "35922"
+                    },
+                    {
+                        "id": "NE",
+                        "value": "43736"
+                    },
+                    {
+                        "id": "KS",
+                        "value": "32681"
+                    },
+                    {
+                        "id": "OK",
+                        "value": "79038"
+                    },
+                    {
+                        "id": "TX",
+                        "value": "75425"
+                    },
+                    {
+                        "id": "MN",
+                        "value": "43485"
+                    },
+                    {
+                        "id": "IA",
+                        "value": "46515"
+                    },
+                    {
+                        "id": "MO",
+                        "value": "63715"
+                    },
+                    {
+                        "id": "AR",
+                        "value": "34497"
+                    },
+                    {
+                        "id": "LA",
+                        "value": "70706"
+                    },
+                    {
+                        "id": "WI",
+                        "value": "42382"
+                    },
+                    {
+                        "id": "IL",
+                        "value": "73202"
+                    },
+                    {
+                        "id": "KY",
+                        "value": "79118"
+                    },
+                    {
+                        "id": "TN",
+                        "value": "44657"
+                    },
+                    {
+                        "id": "MS",
+                        "value": "66205"
+                    },
+                    {
+                        "id": "AL",
+                        "value": "75873"
+                    },
+                    {
+                        "id": "GA",
+                        "value": "76895"
+                    },
+                    {
+                        "id": "MI",
+                        "value": "67695"
+                    },
+                    {
+                        "id": "IN",
+                        "value": "33592"
+                    },
+                    {
+                        "id": "OH",
+                        "value": "32960"
+                    },
+                    {
+                        "id": "PA",
+                        "value": "54346"
+                    },
+                    {
+                        "id": "NY",
+                        "value": "42828"
+                    },
+                    {
+                        "id": "VT",
+                        "value": "77411"
+                    },
+                    {
+                        "id": "NH",
+                        "value": "51403"
+                    },
+                    {
+                        "id": "ME",
+                        "value": "64636"
+                    },
+                    {
+                        "id": "MA",
+                        "value": "51767"
+                    },
+                    {
+                        "id": "CT",
+                        "value": "57353"
+                    },
+                    {
+                        "id": "NJ",
+                        "value": "80788"
+                    },
+                    {
+                        "id": "WV",
+                        "value": "95890"
+                    },
+                    {
+                        "id": "VA",
+                        "value": "83140"
+                    },
+                    {
+                        "id": "NC",
+                        "value": "97344"
+                    },
+                    {
+                        "id": "SC",
+                        "value": "88234"
+                    },
+                    {
+                        "id": "FL",
+                        "value": "88234"
+                    }
+                ]
+            }
+        },
+        "id": "getting-started-your-first-charts-building-your-map-example1",
+        "refimage": "./tests/smoke/fiddles/getting-started/ref-images/getting-started-your-first-charts-building-your-map-example1-snapshot.png"
+    },
+    "getting-started-your-first-charts-changing-chart-size-example-1": {
+        "description": "change chart size",
+        "options": {
+            "type": "column2d",
+            "width": "500",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly revenue",
+                    "subCaption": "Last year",
+                    "xAxisName": "Month",
+                    "yAxisName": "Amount ($)",
+                    "numberPrefix": "$",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "900000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "730000"
+                    }
+                ]
+            }
+        },
+        "id": "getting-started-your-first-charts-changing-chart-size-example-1",
+        "refimage": "./tests/smoke/fiddles/getting-started/ref-images/getting-started-your-first-charts-changing-chart-size-example-1-snapshot.png"
+    },
+    "getting-started-your-first-charts-building-your-gauge-example1": {
+        "description": "gauge example",
+        "options": {
+            "type": "angulargauge",
+            "width": "400",
+            "height": "250",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Customer Satisfaction Score",
+                    "subcaption": "Last week",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "50",
+                            "code": "#e44a00"
+                        },
+                        {
+                            "minValue": "50",
+                            "maxValue": "75",
+                            "code": "#f8bd19"
+                        },
+                        {
+                            "minValue": "75",
+                            "maxValue": "100",
+                            "code": "#6baa01"
+                        }
+                    ]
+                },
+                "dials": {
+                    "dial": [
+                        {
+                            "value": "67"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "getting-started-your-first-charts-building-your-gauge-example1",
+        "refimage": "./tests/smoke/fiddles/getting-started/ref-images/getting-started-your-first-charts-building-your-gauge-example1-snapshot.png"
+    },
+    "getting-started-more-chart-types-bubble-and-xy-charts-example-2": {
+        "description": "bubble chart example",
+        "options": {
+            "type": "bubble",
+            "width": "600",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales Analysis of Shoe Brands",
+                    "subcaption": "Last Quarter",
+                    "xAxisMinValue": "0",
+                    "xAxisMaxValue": "100",
+                    "yAxisMinValue": "0",
+                    "yAxisMaxValue": "30000",
+                    "plotFillAlpha": "70",
+                    "plotFillHoverColor": "#6baa01",
+                    "showPlotBorder": "0",
+                    "xAxisName": "Average Price",
+                    "yAxisName": "Units Sold",
+                    "numDivlines": "2",
+                    "showValues": "1",
+                    "showTrendlineLabels": "0",
+                    "plotTooltext": "$name : Profit Contribution - $zvalue%",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "0",
+                                "x": "0"
+                            },
+                            {
+                                "label": "$20",
+                                "x": "20",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "$40",
+                                "x": "40",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "$60",
+                                "x": "60",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "$80",
+                                "x": "80",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "$100",
+                                "showverticalline": "1"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "color": "#00aee4",
+                        "data": [
+                            {
+                                "x": "80",
+                                "y": "15000",
+                                "z": "24",
+                                "name": "Nike"
+                            },
+                            {
+                                "x": "60",
+                                "y": "18500",
+                                "z": "26",
+                                "name": "Adidas"
+                            },
+                            {
+                                "x": "50",
+                                "y": "19450",
+                                "z": "19",
+                                "name": "Puma"
+                            },
+                            {
+                                "x": "65",
+                                "y": "10500",
+                                "z": "8",
+                                "name": "Fila"
+                            },
+                            {
+                                "x": "43",
+                                "y": "8750",
+                                "z": "5",
+                                "name": "Lotto"
+                            },
+                            {
+                                "x": "32",
+                                "y": "22000",
+                                "z": "10",
+                                "name": "Reebok"
+                            },
+                            {
+                                "x": "44",
+                                "y": "13000",
+                                "z": "9",
+                                "name": "Woodland"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startValue": "20000",
+                                "endValue": "30000",
+                                "isTrendZone": "1",
+                                "color": "#aaaaaa",
+                                "alpha": "14"
+                            },
+                            {
+                                "startValue": "10000",
+                                "endValue": "20000",
+                                "isTrendZone": "1",
+                                "color": "#aaaaaa",
+                                "alpha": "7"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "getting-started-more-chart-types-bubble-and-xy-charts-example-2",
+        "refimage": "./tests/smoke/fiddles/getting-started/ref-images/getting-started-more-chart-types-bubble-and-xy-charts-example-2-snapshot.png"
+    },
+    "getting-started-more-chart-types-multi-series-charts-example-1": {
+        "description": "multi series chart example",
+        "options": {
+            "type": "mscolumn2d",
+            "width": "500",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Comparison of Quarterly Revenue",
+                    "subCaption": "Harry's SuperMart",
+                    "xAxisname": "Quarter",
+                    "yAxisName": "Revenues (In USD)",
+                    "numberPrefix": "$",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Q1"
+                            },
+                            {
+                                "label": "Q2"
+                            },
+                            {
+                                "label": "Q3"
+                            },
+                            {
+                                "label": "Q4"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Previous Year",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Current Year",
+                        "data": [
+                            {
+                                "value": "25400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "21800"
+                            },
+                            {
+                                "value": "26800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "getting-started-more-chart-types-multi-series-charts-example-1",
+        "refimage": "./tests/smoke/fiddles/getting-started/ref-images/getting-started-more-chart-types-multi-series-charts-example-1-snapshot.png"
+    },
+    "getting-started-more-chart-types-real-time-charts-example-1": {
+        "description": "real time chart example",
+        "options": {
+            "type": "realtimeline",
+            "width": "600",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Harry's Supermart",
+                    "subCaption": "Real-time Stock Price monitor",
+                    "showrealtimevalue": "1",
+                    "paletteColors": "#008ee4",
+                    "refreshinterval": "2",
+                    "borderAlpha": "0",
+                    "yaxismaxvalue": "100",
+                    "numdisplaysets": "10",
+                    "showLegend": "0",
+                    "canvasBorderAlpha": "20",
+                    "labeldisplay": "rotate",
+                    "bgAlpha": "0",
+                    "showValues": "0",
+                    "numbersuffix": " %",
+                    "showlabels": "1",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Start"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Harry's SuperMart",
+                        "alpha": "100",
+                        "data": [
+                            {
+                                "value": "0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "getting-started-more-chart-types-real-time-charts-example-1",
+        "refimage": "./tests/smoke/fiddles/getting-started/ref-images/getting-started-more-chart-types-real-time-charts-example-1-snapshot.png"
+    },
+    "getting-started-more-chart-types-real-time-charts-example-2": {
+        "description": "real time angulargauge chart",
+        "options": {
+            "type": "angulargauge",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "chartbottommargin": "30",
+                    "chartleftmargin": "60",
+                    "chartrightmargin": "60",
+                    "lowerlimit": "-65",
+                    "upperlimit": "-5",
+                    "numbersuffix": "C",
+                    "gaugeinnerradius": "90",
+                    "gaugebordercolor": "# ffffff ",
+                    "gaugeborderthickness": "2",
+                    "bgalpha": "0",
+                    "borderalpha": "20",
+                    "pivotfillcolor": "#34495e",
+                    "pivotradius": "12",
+                    "gaugefillmix": " ",
+                    "pivotfillmix": " ",
+                    "showtickmarks": "0",
+                    "showtickvalues": "1",
+                    "placevaluesinside": "1",
+                    "showshadow": "0",
+                    "showborder": "1",
+                    "minortmalpha": "0",
+                    "animation": "0",
+                    "showvalue": "1",
+                    "valuebelowpivot": "1",
+                    "valuespadding": "10",
+                    "valueFontBold": "1"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "-65",
+                            "maxvalue": "-35",
+                            "code": "#e44a00"
+                        },
+                        {
+                            "minvalue": "-35",
+                            "maxvalue": "-15",
+                            "code": "#f8bd19"
+                        },
+                        {
+                            "minvalue": "-15",
+                            "maxvalue": "-5",
+                            "code": "#6baa01"
+                        }
+                    ]
+                },
+                "annotations": {
+                    "origw": "450",
+                    "origh": "300",
+                    "autoscale": "1",
+                    "showbelow": "0",
+                    "groups": [
+                        {
+                            "id": "arcs",
+                            "items": [
+                                {
+                                    "id": "inner-arc",
+                                    "type": "arc",
+                                    "color": "#ffffff",
+                                    "alpha": "100",
+                                    "radius": "150",
+                                    "innerradius": "148",
+                                    "startangle": "1",
+                                    "endangle": "179",
+                                    "x": "225",
+                                    "y": "245"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "base",
+                            "items": [
+                                {
+                                    "id": "base-start-text",
+                                    "type": "text",
+                                    "text": "Alarming",
+                                    "fontsize": "12",
+                                    "bold": "1",
+                                    "fillcolor": "#e44a00",
+                                    "x": "70",
+                                    "y": "120"
+                                },
+                                {
+                                    "id": "base-start-text",
+                                    "type": "text",
+                                    "text": "Spikes",
+                                    "fontsize": "12",
+                                    "bold": "1",
+                                    "fillcolor": "#f8bd19",
+                                    "x": "350",
+                                    "y": "100"
+                                },
+                                {
+                                    "id": "base-end-text",
+                                    "type": "text",
+                                    "text": "Normal",
+                                    "fontsize": "12",
+                                    "bold": "1",
+                                    "fillcolor": "#6baa01",
+                                    "x": "415",
+                                    "y": "200"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "static-texts",
+                            "fontsize": "14",
+                            "items": [
+                                {
+                                    "id": "caption-text-1",
+                                    "type": "text",
+                                    "text": "Temperature status of deep freezers",
+                                    "x": "20",
+                                    "y": "20",
+                                    "bold": "1",
+                                    "fillcolor": "#e44a00",
+                                    "align": "left"
+                                },
+                                {
+                                    "id": "subcaption-text",
+                                    "type": "text",
+                                    "text": "Current status",
+                                    "x": "20",
+                                    "y": "40",
+                                    "fillcolor": "#6baa01",
+                                    "fontsize": "10",
+                                    "bold": "1",
+                                    "align": "left"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dials": {
+                    "dial": [
+                        {
+                            "value": "-48",
+                            "rearextension": "15",
+                            "radius": "180",
+                            "bgcolor": "#34495e",
+                            "bgalpha": "100",
+                            "bordercolor": "#34495e",
+                            "basewidth": "5",
+                            "bghoveralpha": "20"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "getting-started-more-chart-types-real-time-charts-example-2",
+        "refimage": "./tests/smoke/fiddles/getting-started/ref-images/getting-started-more-chart-types-real-time-charts-example-2-snapshot.png"
+    },
+    "getting-started-more-chart-types-3d-charts-example-2": {
+        "description": "pie3d chart",
+        "options": {
+            "type": "pie3d",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Age profile of website visitors",
+                    "subCaption": "Last Year",
+                    "startingAngle": "120",
+                    "showLabels": "0",
+                    "showLegend": "1",
+                    "enableMultiSlicing": "0",
+                    "slicingDistance": "15",
+                    "showPercentValues": "1",
+                    "showPercentInTooltip": "0",
+                    "plotTooltext": "Age group : $label<br>Total visit : $datavalue",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Teenage",
+                        "value": "1250400"
+                    },
+                    {
+                        "label": "Adult",
+                        "value": "1463300"
+                    },
+                    {
+                        "label": "Mid-age",
+                        "value": "1050700"
+                    },
+                    {
+                        "label": "Senior",
+                        "value": "491000"
+                    }
+                ]
+            }
+        },
+        "id": "getting-started-more-chart-types-3d-charts-example-2",
+        "refimage": "./tests/smoke/fiddles/getting-started/ref-images/getting-started-more-chart-types-3d-charts-example-2-snapshot.png"
+    },
+    "getting-started-more-chart-types-bubble-and-xy-charts-example-3": {
+        "description": "bubble chart example",
+        "options": {
+            "type": "bubble",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "AdWords campaign of Harry's SuperMart",
+                    "subcaption": "Performance analysis - campaigns viz-a-viz cost and conversions in %",
+                    "paletteColors": "#e44a00,#6baa01",
+                    "use3DLighting": "0",
+                    "xAxisMinValue": "0",
+                    "xAxisMaxValue": "6000",
+                    "yAxisMinValue": "0",
+                    "yAxisMaxValue": "30",
+                    "showPlotBorder": "0",
+                    "showAlternateHGridColor": "0",
+                    "xAxisName": "Conversions",
+                    "yAxisName": "Cost Per Conversion",
+                    "numberPrefix": "$",
+                    "chartRightMargin": "30",
+                    "bgAlpha": "0",
+                    "borderAlpha": "20",
+                    "canvasBorderAlpha": "0",
+                    "plotBorderAlpha": "10",
+                    "plotFillAlpha": "100",
+                    "captionPadding": "20",
+                    "showAxisLines": "1",
+                    "axisLineAlpha": "25",
+                    "divLineAlpha": "15",
+                    "legendShadow": "0",
+                    "legendBorderAlpha": "0",
+                    "plotFillHoverColor": "#008ee4",
+                    "numDivlines": "2",
+                    "showTrendlineLabels": "0",
+                    "plotTooltext": "$name : $seriesname is $zvalue%",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "verticalLineAlpha": "20",
+                        "category": [
+                            {
+                                "label": "0",
+                                "x": "0"
+                            },
+                            {
+                                "label": "1500",
+                                "x": "1500",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "3000",
+                                "x": "3000",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "4500",
+                                "x": "4500",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "6000",
+                                "x": "6000",
+                                "showverticalline": "1"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesName": "Share in total cost",
+                        "data": [
+                            {
+                                "x": "5540",
+                                "y": "16.09",
+                                "z": "38.29",
+                                "name": "campaign#1"
+                            },
+                            {
+                                "x": "4406",
+                                "y": "12.74",
+                                "z": "22.44",
+                                "name": "campaign#2"
+                            },
+                            {
+                                "x": "1079",
+                                "y": "15.79",
+                                "z": "7.31",
+                                "name": "campaign#3"
+                            },
+                            {
+                                "x": "1700",
+                                "y": "8.27",
+                                "z": "6.03",
+                                "name": "campaign#4"
+                            },
+                            {
+                                "x": "853",
+                                "y": "15.89",
+                                "z": "5.81",
+                                "name": "campaign#5"
+                            },
+                            {
+                                "x": "1202",
+                                "y": "10.74",
+                                "z": "5.54",
+                                "name": "campaign#6"
+                            },
+                            {
+                                "x": "2018",
+                                "y": "6.14",
+                                "z": "5.32",
+                                "name": "campaign#7"
+                            },
+                            {
+                                "x": "413",
+                                "y": "19.83",
+                                "z": "3.52",
+                                "name": "campaign#8"
+                            },
+                            {
+                                "x": "586",
+                                "y": "13.96",
+                                "z": "3.51",
+                                "name": "campaign#9"
+                            },
+                            {
+                                "x": "184",
+                                "y": "15.82",
+                                "z": "1.22",
+                                "name": "campaign#10"
+                            },
+                            {
+                                "x": "311",
+                                "y": "5.83",
+                                "z": "0.78",
+                                "name": "campaign#11"
+                            },
+                            {
+                                "x": "35",
+                                "y": "10.76",
+                                "z": "0.16",
+                                "name": "campaign#12"
+                            },
+                            {
+                                "x": "55",
+                                "y": "2.73",
+                                "z": "0.06",
+                                "name": "campaign#13"
+                            },
+                            {
+                                "x": "6",
+                                "y": "21.22",
+                                "z": "0.06",
+                                "name": "campaign#14"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesName": "Share in total conversion",
+                        "initiallyhidden": "1",
+                        "data": [
+                            {
+                                "x": "5540",
+                                "y": "16.09",
+                                "z": "30.63",
+                                "name": "campaign#1"
+                            },
+                            {
+                                "x": "4406",
+                                "y": "12.74",
+                                "z": "24.36",
+                                "name": "campaign#2"
+                            },
+                            {
+                                "x": "1079",
+                                "y": "15.79",
+                                "z": "5.97",
+                                "name": "campaign#3"
+                            },
+                            {
+                                "x": "1700",
+                                "y": "8.27",
+                                "z": "9.4",
+                                "name": "campaign#4"
+                            },
+                            {
+                                "x": "853",
+                                "y": "15.89",
+                                "z": "4.71",
+                                "name": "campaign#5"
+                            },
+                            {
+                                "x": "1202",
+                                "y": "10.74",
+                                "z": "6.65",
+                                "name": "campaign#6"
+                            },
+                            {
+                                "x": "2018",
+                                "y": "6.14",
+                                "z": "11.16",
+                                "name": "campaign#7"
+                            },
+                            {
+                                "x": "413",
+                                "y": "19.83",
+                                "z": "2.28",
+                                "name": "campaign#8"
+                            },
+                            {
+                                "x": "586",
+                                "y": "13.96",
+                                "z": "3.24",
+                                "name": "campaign#9"
+                            },
+                            {
+                                "x": "184",
+                                "y": "15.82",
+                                "z": "1.02",
+                                "name": "campaign#10"
+                            },
+                            {
+                                "x": "311",
+                                "y": "5.83",
+                                "z": "1.72",
+                                "name": "campaign#11"
+                            },
+                            {
+                                "x": "35",
+                                "y": "10.76",
+                                "z": "0.19",
+                                "name": "campaign#12"
+                            },
+                            {
+                                "x": "55",
+                                "y": "2.73",
+                                "z": "0.3",
+                                "name": "campaign#13"
+                            },
+                            {
+                                "x": "6",
+                                "y": "21.22",
+                                "z": "0.03",
+                                "name": "campaign#14"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startValue": "20",
+                                "endValue": "30",
+                                "isTrendZone": "1",
+                                "color": "#aaaaaa",
+                                "alpha": "14"
+                            },
+                            {
+                                "startValue": "10",
+                                "endValue": "20",
+                                "isTrendZone": "1",
+                                "color": "#aaaaaa",
+                                "alpha": "7"
+                            },
+                            {
+                                "startValue": "0",
+                                "endValue": "10",
+                                "isTrendZone": "1",
+                                "color": "#aaaaaa",
+                                "alpha": "0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "getting-started-more-chart-types-bubble-and-xy-charts-example-3",
+        "refimage": "./tests/smoke/fiddles/getting-started/ref-images/getting-started-more-chart-types-bubble-and-xy-charts-example-3-snapshot.png"
+    },
+    "getting-started-more-chart-types-stacked-charts-example-2": {
+        "description": "stacked chart example",
+        "options": {
+            "type": "stackedcolumn2d",
+            "width": "500",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Revenue split by product category",
+                    "subCaption": "For current year",
+                    "xAxisname": "Quarter",
+                    "yAxisName": "% Revenue",
+                    "numberPrefix": "$",
+                    "stack100Percent": "1",
+                    "decimals": "0",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Q1"
+                            },
+                            {
+                                "label": "Q2"
+                            },
+                            {
+                                "label": "Q3"
+                            },
+                            {
+                                "label": "Q4"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Food Products",
+                        "data": [
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "13500"
+                            },
+                            {
+                                "value": "15000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Non-Food Products",
+                        "data": [
+                            {
+                                "value": "11400"
+                            },
+                            {
+                                "value": "14800"
+                            },
+                            {
+                                "value": "8300"
+                            },
+                            {
+                                "value": "11800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "getting-started-more-chart-types-stacked-charts-example-2",
+        "refimage": "./tests/smoke/fiddles/getting-started/ref-images/getting-started-more-chart-types-stacked-charts-example-2-snapshot.png"
+    },
+    "getting-started-adding-interactivity-listening-to-events-example-1": {
+        "description": "event in pie 2d",
+        "options": {
+            "type": "pie2d",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Split of visitors by age group",
+                    "subCaption": "Last year",
+                    "enableSmartLabels": "0",
+                    "showPercentValues": "1",
+                    "showTooltip": "0",
+                    "decimals": "1",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Teenage",
+                        "value": "1250400"
+                    },
+                    {
+                        "label": "Adult",
+                        "value": "1463300"
+                    },
+                    {
+                        "label": "Mid-age",
+                        "value": "1050700"
+                    },
+                    {
+                        "label": "Senior",
+                        "value": "491000"
+                    }
+                ]
+            }
+        },
+        "id": "getting-started-adding-interactivity-listening-to-events-example-1",
+        "refimage": "./tests/smoke/fiddles/getting-started/ref-images/getting-started-adding-interactivity-listening-to-events-example-1-snapshot.png"
+    },
+    "getting-started-more-chart-types-combination-charts-example-1": {
+        "description": "combination chart example",
+        "options": {
+            "type": "mscombi2d",
+            "width": "550",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Actual Revenues, Targeted Revenues & Profits",
+                    "subCaption": "Last year",
+                    "xAxisname": "Month",
+                    "yAxisName": "Amount (In USD)",
+                    "numberPrefix": "$",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesName": "Actual Revenue",
+                        "data": [
+                            {
+                                "value": "16000"
+                            },
+                            {
+                                "value": "20000"
+                            },
+                            {
+                                "value": "18000"
+                            },
+                            {
+                                "value": "19000"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "21000"
+                            },
+                            {
+                                "value": "16000"
+                            },
+                            {
+                                "value": "20000"
+                            },
+                            {
+                                "value": "17000"
+                            },
+                            {
+                                "value": "25000"
+                            },
+                            {
+                                "value": "19000"
+                            },
+                            {
+                                "value": "23000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesName": "Projected Revenue",
+                        "renderAs": "line",
+                        "showValues": "0",
+                        "data": [
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "16000"
+                            },
+                            {
+                                "value": "17000"
+                            },
+                            {
+                                "value": "18000"
+                            },
+                            {
+                                "value": "19000"
+                            },
+                            {
+                                "value": "19000"
+                            },
+                            {
+                                "value": "19000"
+                            },
+                            {
+                                "value": "19000"
+                            },
+                            {
+                                "value": "20000"
+                            },
+                            {
+                                "value": "21000"
+                            },
+                            {
+                                "value": "22000"
+                            },
+                            {
+                                "value": "23000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesName": "Profit",
+                        "renderAs": "area",
+                        "showValues": "0",
+                        "data": [
+                            {
+                                "value": "4000"
+                            },
+                            {
+                                "value": "5000"
+                            },
+                            {
+                                "value": "3000"
+                            },
+                            {
+                                "value": "4000"
+                            },
+                            {
+                                "value": "1000"
+                            },
+                            {
+                                "value": "7000"
+                            },
+                            {
+                                "value": "1000"
+                            },
+                            {
+                                "value": "4000"
+                            },
+                            {
+                                "value": "1000"
+                            },
+                            {
+                                "value": "8000"
+                            },
+                            {
+                                "value": "2000"
+                            },
+                            {
+                                "value": "7000"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "getting-started-more-chart-types-combination-charts-example-1",
+        "refimage": "./tests/smoke/fiddles/getting-started/ref-images/getting-started-more-chart-types-combination-charts-example-1-snapshot.png"
+    },
+    "getting-started-more-chart-types-zoom-line-charts-example-1": {
+        "description": "zoom line chart example",
+        "options": {
+            "type": "zoomline",
+            "width": "600",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Unique Website Visitors",
+                    "subcaption": "Last year",
+                    "yaxisname": "Unique Visitors",
+                    "xaxisname": "Date",
+                    "yaxisminValue": "800",
+                    "yaxismaxValue": "1400",
+                    "forceAxisLimits": "1",
+                    "pixelsPerPoint": "0",
+                    "pixelsPerLabel": "30",
+                    "lineThickness": "1",
+                    "compactdatamode": "1",
+                    "dataseparator": "|",
+                    "labelHeight": "30",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": "Jan 01|Jan 02|Jan 03|Jan 04|Jan 05|Jan 06|Jan 07|Jan 08|Jan 09|Jan 10|Jan 11|Jan 12|Jan 13|Jan 14|Jan 15|Jan 16|Jan 17|Jan 18|Jan 19|Jan 20|Jan 21|Jan 22|Jan 23|Jan 24|Jan 25|Jan 26|Jan 27|Jan 28|Jan 29|Jan 30|Jan 31|Feb 01|Feb 02|Feb 03|Feb 04|Feb 05|Feb 06|Feb 07|Feb 08|Feb 09|Feb 10|Feb 11|Feb 12|Feb 13|Feb 14|Feb 15|Feb 16|Feb 17|Feb 18|Feb 19|Feb 20|Feb 21|Feb 22|Feb 23|Feb 24|Feb 25|Feb 26|Feb 27|Feb 28|Mar 01|Mar 02|Mar 03|Mar 04|Mar 05|Mar 06|Mar 07|Mar 08|Mar 09|Mar 10|Mar 11|Mar 12|Mar 13|Mar 14|Mar 15|Mar 16|Mar 17|Mar 18|Mar 19|Mar 20|Mar 21|Mar 22|Mar 23|Mar 24|Mar 25|Mar 26|Mar 27|Mar 28|Mar 29|Mar 30|Mar 31|Apr 01|Apr 02|Apr 03|Apr 04|Apr 05|Apr 06|Apr 07|Apr 08|Apr 09|Apr 10|Apr 11|Apr 12|Apr 13|Apr 14|Apr 15|Apr 16|Apr 17|Apr 18|Apr 19|Apr 20|Apr 21|Apr 22|Apr 23|Apr 24|Apr 25|Apr 26|Apr 27|Apr 28|Apr 29|Apr 30|May 01|May 02|May 03|May 04|May 05|May 06|May 07|May 08|May 09|May 10|May 11|May 12|May 13|May 14|May 15|May 16|May 17|May 18|May 19|May 20|May 21|May 22|May 23|May 24|May 25|May 26|May 27|May 28|May 29|May 30|May 31|Jun 01|Jun 02|Jun 03|Jun 04|Jun 05|Jun 06|Jun 07|Jun 08|Jun 09|Jun 10|Jun 11|Jun 12|Jun 13|Jun 14|Jun 15|Jun 16|Jun 17|Jun 18|Jun 19|Jun 20|Jun 21|Jun 22|Jun 23|Jun 24|Jun 25|Jun 26|Jun 27|Jun 28|Jun 29|Jun 30|Jul 01|Jul 02|Jul 03|Jul 04|Jul 05|Jul 06|Jul 07|Jul 08|Jul 09|Jul 10|Jul 11|Jul 12|Jul 13|Jul 14|Jul 15|Jul 16|Jul 17|Jul 18|Jul 19|Jul 20|Jul 21|Jul 22|Jul 23|Jul 24|Jul 25|Jul 26|Jul 27|Jul 28|Jul 29|Jul 30|Jul 31|Aug 01|Aug 02|Aug 03|Aug 04|Aug 05|Aug 06|Aug 07|Aug 08|Aug 09|Aug 10|Aug 11|Aug 12|Aug 13|Aug 14|Aug 15|Aug 16|Aug 17|Aug 18|Aug 19|Aug 20|Aug 21|Aug 22|Aug 23|Aug 24|Aug 25|Aug 26|Aug 27|Aug 28|Aug 29|Aug 30|Aug 31|Sep 01|Sep 02|Sep 03|Sep 04|Sep 05|Sep 06|Sep 07|Sep 08|Sep 09|Sep 10|Sep 11|Sep 12|Sep 13|Sep 14|Sep 15|Sep 16|Sep 17|Sep 18|Sep 19|Sep 20|Sep 21|Sep 22|Sep 23|Sep 24|Sep 25|Sep 26|Sep 27|Sep 28|Sep 29|Sep 30|Oct 01|Oct 02|Oct 03|Oct 04|Oct 05|Oct 06|Oct 07|Oct 08|Oct 09|Oct 10|Oct 11|Oct 12|Oct 13|Oct 14|Oct 15|Oct 16|Oct 17|Oct 18|Oct 19|Oct 20|Oct 21|Oct 22|Oct 23|Oct 24|Oct 25|Oct 26|Oct 27|Oct 28|Oct 29|Oct 30|Oct 31|Nov 01|Nov 02|Nov 03|Nov 04|Nov 05|Nov 06|Nov 07|Nov 08|Nov 09|Nov 10|Nov 11|Nov 12|Nov 13|Nov 14|Nov 15|Nov 16|Nov 17|Nov 18|Nov 19|Nov 20|Nov 21|Nov 22|Nov 23|Nov 24|Nov 25|Nov 26|Nov 27|Nov 28|Nov 29|Nov 30|Dec 01|Dec 02|Dec 03|Dec 04|Dec 05|Dec 06|Dec 07|Dec 08|Dec 09|Dec 10|Dec 11|Dec 12|Dec 13|Dec 14|Dec 15|Dec 16|Dec 17|Dec 18|Dec 19|Dec 20|Dec 21|Dec 22|Dec 23|Dec 24|Dec 25|Dec 26|Dec 27|Dec 28|Dec 29|Dec 30|Dec 31"
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "harrysfoodmart.com",
+                        "data": "978|976|955|981|992|964|973|949|985|962|977|955|988|959|985|965|991|985|966|989|960|944|976|980|940|941|945|952|973|946|951|983|942|964|937|942|963|971|969|967|934|935|956|974|930|936|935|973|979|990|994|992|994|984|991|986|963|985|1006|965|958|976|993|974|995|989|966|965|1011|995|1007|978|985|1012|997|985|1004|987|986|981|991|982|992|983|1018|994|976|989|1022|989|1002|983|1015|1006|1005|1003|1017|1014|995|1007|1001|1019|1012|1005|1027|1011|1013|1035|1010|1011|1011|1036|1041|1005|1005|997|1012|1032|1025|1020|998|1018|1000|1009|1005|1004|1042|1047|1021|1032|1019|1038|1050|1037|1019|1018|1035|1055|1028|1049|1013|1028|1023|1054|1041|1051|1069|1051|1072|1049|1054|1035|1072|1042|1048|1083|1054|1048|1065|1046|1055|1056|1085|1046|1048|1048|1068|1089|1074|1078|1046|1052|1082|1052|1067|1058|1051|1052|1082|1060|1076|1077|1059|1070|1082|1093|1100|1089|1079|1075|1087|1089|1088|1106|1107|1067|1076|1101|1094|1078|1097|1094|1083|1066|1079|1111|1100|1085|1091|1095|1081|1091|1077|1095|1107|1083|1116|1118|1101|1111|1096|1077|1086|1117|1087|1105|1107|1094|1112|1101|1084|1094|1125|1099|1108|1084|1099|1120|1122|1092|1120|1121|1094|1114|1099|1129|1095|1125|1127|1121|1129|1110|1097|1136|1110|1098|1131|1125|1144|1104|1117|1105|1105|1145|1102|1143|1115|1147|1149|1129|1108|1109|1130|1153|1121|1127|1133|1120|1155|1120|1147|1118|1117|1145|1152|1145|1130|1157|1135|1115|1156|1163|1131|1123|1137|1151|1160|1152|1166|1144|1137|1124|1151|1129|1133|1143|1139|1171|1135|1132|1174|1170|1163|1175|1152|1142|1160|1148|1173|1158|1160|1151|1142|1168|1153|1143|1157|1142|1172|1186|1176|1185|1175|1178|1184|1166|1148|1166|1186|1187|1180|1179|1161|1174|1155|1172|1173|1179|1149|1170|1175|1162|1151|1152|1163|1155|1197|1174|1199|1180|1160|1174|1159|1168|1160"
+                    },
+                    {
+                        "seriesname": "harrysfashion.com",
+                        "data": "1053|1057|1084|1082|1098|1055|1068|1067|1074|1056|1067|1078|1079|1084|1041|1052|1066|1080|1049|1051|1049|1044|1083|1053|1038|1077|1046|1067|1053|1033|1047|1055|1031|1074|1031|1041|1071|1057|1035|1070|1050|1069|1054|1049|1022|1044|1049|1058|1064|1088|1093|1103|1085|1072|1104|1106|1078|1061|1078|1105|1105|1062|1076|1074|1114|1069|1091|1086|1094|1072|1079|1088|1082|1075|1110|1120|1108|1102|1090|1088|1092|1102|1110|1111|1085|1113|1110|1116|1095|1105|1105|1122|1133|1132|1093|1097|1120|1105|1135|1106|1108|1135|1098|1136|1122|1113|1113|1145|1103|1127|1104|1126|1147|1120|1119|1120|1132|1107|1149|1147|1149|1141|1145|1152|1117|1144|1157|1134|1157|1120|1125|1153|1141|1132|1158|1134|1166|1167|1170|1163|1139|1171|1145|1156|1158|1154|1196|1196|1169|1174|1174|1195|1161|1201|1208|1188|1182|1188|1162|1174|1174|1211|1189|1211|1172|1211|1179|1199|1216|1184|1209|1181|1186|1174|1185|1220|1206|1190|1206|1201|1190|1209|1208|1189|1195|1188|1193|1206|1214|1205|1215|1200|1194|1210|1205|1236|1226|1208|1228|1235|1197|1197|1198|1224|1220|1210|1226|1244|1228|1241|1237|1201|1208|1238|1213|1222|1213|1249|1222|1221|1230|1223|1214|1251|1234|1220|1240|1213|1252|1224|1222|1234|1262|1255|1225|1226|1242|1240|1250|1265|1235|1228|1261|1221|1230|1235|1260|1273|1253|1268|1258|1233|1258|1248|1230|1270|1246|1242|1246|1253|1253|1257|1253|1266|1248|1247|1257|1245|1281|1271|1272|1248|1292|1251|1253|1257|1259|1288|1252|1297|1290|1268|1291|1258|1263|1254|1302|1279|1272|1271|1281|1261|1263|1289|1294|1272|1296|1264|1282|1268|1296|1280|1281|1277|1277|1292|1266|1310|1288|1312|1308|1300|1289|1273|1282|1300|1322|1301|1314|1296|1305|1305|1327|1323|1295|1314|1298|1312|1330|1293|1309|1286|1309|1332|1300|1295|1325|1322|1305|1323|1300|1308|1299|1324|1338|1313|1329|1331|1299|1329|1344|1335|1342|1307|1314|1326|1331|1328|1328|1311|1352|1328|1309|1311|1312"
+                    }
+                ]
+            }
+        },
+        "id": "getting-started-more-chart-types-zoom-line-charts-example-1",
+        "refimage": "./tests/smoke/fiddles/getting-started/ref-images/getting-started-more-chart-types-zoom-line-charts-example-1-snapshot.png"
+    },
+    "getting-started-more-chart-types-multi-series-charts-example-2": {
+        "description": "dual y axis chart",
+        "options": {
+            "type": "mscombidy2d",
+            "width": "550",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Revenues and Profits",
+                    "subCaption": "For last year",
+                    "xAxisname": "Month",
+                    "pYAxisName": "Amount (In USD)",
+                    "sYAxisName": "Profit %",
+                    "numberPrefix": "$",
+                    "sNumberSuffix": "%",
+                    "sYAxisMaxValue": "50",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesName": "Revenues",
+                        "data": [
+                            {
+                                "value": "16000"
+                            },
+                            {
+                                "value": "20000"
+                            },
+                            {
+                                "value": "18000"
+                            },
+                            {
+                                "value": "19000"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "21000"
+                            },
+                            {
+                                "value": "16000"
+                            },
+                            {
+                                "value": "20000"
+                            },
+                            {
+                                "value": "17000"
+                            },
+                            {
+                                "value": "22000"
+                            },
+                            {
+                                "value": "19000"
+                            },
+                            {
+                                "value": "23000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesName": "Profits",
+                        "renderAs": "area",
+                        "showValues": "0",
+                        "data": [
+                            {
+                                "value": "4000"
+                            },
+                            {
+                                "value": "5000"
+                            },
+                            {
+                                "value": "3000"
+                            },
+                            {
+                                "value": "4000"
+                            },
+                            {
+                                "value": "1000"
+                            },
+                            {
+                                "value": "7000"
+                            },
+                            {
+                                "value": "1000"
+                            },
+                            {
+                                "value": "4000"
+                            },
+                            {
+                                "value": "1000"
+                            },
+                            {
+                                "value": "8000"
+                            },
+                            {
+                                "value": "2000"
+                            },
+                            {
+                                "value": "7000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesName": "Profit %",
+                        "parentYAxis": "S",
+                        "renderAs": "line",
+                        "showValues": "0",
+                        "data": [
+                            {
+                                "value": "25"
+                            },
+                            {
+                                "value": "25"
+                            },
+                            {
+                                "value": "16.66"
+                            },
+                            {
+                                "value": "21.05"
+                            },
+                            {
+                                "value": "6.66"
+                            },
+                            {
+                                "value": "33.33"
+                            },
+                            {
+                                "value": "6.25"
+                            },
+                            {
+                                "value": "25"
+                            },
+                            {
+                                "value": "5.88"
+                            },
+                            {
+                                "value": "36.36"
+                            },
+                            {
+                                "value": "10.52"
+                            },
+                            {
+                                "value": "30.43"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "getting-started-more-chart-types-multi-series-charts-example-2",
+        "refimage": "./tests/smoke/fiddles/getting-started/ref-images/getting-started-more-chart-types-multi-series-charts-example-2-snapshot.png"
+    },
+    "getting-started-more-chart-types-3d-charts-example-1": {
+        "description": "mscolumn3d chart example",
+        "options": {
+            "type": "mscolumn3d",
+            "width": "400",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales in Last Two Years",
+                    "subCaption": "Quarter-wise comparison",
+                    "xAxisName": "Quarter",
+                    "yAxisName": "Sales (In USD)",
+                    "numberPrefix": "$",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Q1"
+                            },
+                            {
+                                "label": "Q2"
+                            },
+                            {
+                                "label": "Q3"
+                            },
+                            {
+                                "label": "Q4"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Previous Year",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Current Year",
+                        "data": [
+                            {
+                                "value": "25400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "21800"
+                            },
+                            {
+                                "value": "26800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "getting-started-more-chart-types-3d-charts-example-1",
+        "refimage": "./tests/smoke/fiddles/getting-started/ref-images/getting-started-more-chart-types-3d-charts-example-1-snapshot.png"
+    },
+    "getting-started-adding-interactivity-setting-up-drill-down-example-1": {
+        "description": "linked chart test",
+        "options": {
+            "type": "column2d",
+            "width": "400",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Quarterly revenue",
+                    "subCaption": "Last year",
+                    "xAxisName": "Quarter (Click to drill down)",
+                    "yAxisName": "Revenue (In USD)",
+                    "numberPrefix": "$",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Q1",
+                        "value": "1950000",
+                        "link": "newchart-json-q1"
+                    },
+                    {
+                        "label": "Q2",
+                        "value": "1970000",
+                        "link": "newchart-json-q2"
+                    },
+                    {
+                        "label": "Q3",
+                        "value": "1910000",
+                        "link": "newchart-json-q3"
+                    },
+                    {
+                        "label": "Q4",
+                        "value": "2120000",
+                        "link": "newchart-json-q4"
+                    }
+                ],
+                "linkeddata": [
+                    {
+                        "id": "q1",
+                        "linkedchart": {
+                            "chart": {
+                                "caption": "Monthly Revenue",
+                                "subcaption": "First Quarter",
+                                "xAxisName": "Month",
+                                "yAxisName": "Revenue (In USD)",
+                                "numberPrefix": "$",
+                                "theme": "fint"
+                            },
+                            "data": [
+                                {
+                                    "label": "Jan",
+                                    "value": "420000"
+                                },
+                                {
+                                    "label": "Feb",
+                                    "value": "810000"
+                                },
+                                {
+                                    "label": "Mar",
+                                    "value": "720000"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "q2",
+                        "linkedchart": {
+                            "chart": {
+                                "caption": "Monthly Revenue",
+                                "subcaption": "Second Quarter",
+                                "xAxisName": "Month",
+                                "yAxisName": "Revenue (In USD)",
+                                "numberPrefix": "$",
+                                "theme": "fint"
+                            },
+                            "data": [
+                                {
+                                    "label": "Apr",
+                                    "value": "550000"
+                                },
+                                {
+                                    "label": "May",
+                                    "value": "910000"
+                                },
+                                {
+                                    "label": "Jun",
+                                    "value": "510000"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "q3",
+                        "linkedchart": {
+                            "chart": {
+                                "caption": "Monthly Revenue",
+                                "subcaption": "Third Quarter",
+                                "xAxisName": "Month",
+                                "yAxisName": "Revenue (In USD)",
+                                "numberPrefix": "$",
+                                "theme": "fint"
+                            },
+                            "data": [
+                                {
+                                    "label": "Jul",
+                                    "value": "680000"
+                                },
+                                {
+                                    "label": "Aug",
+                                    "value": "620000"
+                                },
+                                {
+                                    "label": "Sep",
+                                    "value": "610000"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "q4",
+                        "linkedchart": {
+                            "chart": {
+                                "caption": "Monthly Revenue",
+                                "subcaption": "Fourth Quarter",
+                                "xAxisName": "Month",
+                                "yAxisName": "Revenue (In USD)",
+                                "numberPrefix": "$",
+                                "theme": "fint"
+                            },
+                            "data": [
+                                {
+                                    "label": "Oct",
+                                    "value": "490000"
+                                },
+                                {
+                                    "label": "Nov",
+                                    "value": "900000"
+                                },
+                                {
+                                    "label": "Dec",
+                                    "value": "730000"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "id": "getting-started-adding-interactivity-setting-up-drill-down-example-1",
+        "refimage": "./tests/smoke/fiddles/getting-started/ref-images/getting-started-adding-interactivity-setting-up-drill-down-example-1-snapshot.png"
+    },
+    "getting-started-more-chart-types-3d-charts-example-3": {
+        "description": "funnel chart example",
+        "options": {
+            "type": "funnel",
+            "width": "500",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Funnel Analysis for last year",
+                    "subcaption": "Harry's SuperMart Website",
+                    "decimals": "1",
+                    "labelDistance": "15",
+                    "plotTooltext": "Success : $percentOfPrevValue",
+                    "showPercentValues": "1",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Unique Website Visits",
+                        "value": "1460000"
+                    },
+                    {
+                        "label": "Programme Details Section Visits",
+                        "value": "930000"
+                    },
+                    {
+                        "label": "Attempts to Register",
+                        "value": "540000"
+                    },
+                    {
+                        "label": "Successful Registrations",
+                        "value": "210000"
+                    },
+                    {
+                        "label": "Logged In",
+                        "value": "190000"
+                    },
+                    {
+                        "label": "Purchased on Introductory Offers",
+                        "value": "120000"
+                    }
+                ]
+            }
+        },
+        "id": "getting-started-more-chart-types-3d-charts-example-3",
+        "refimage": "./tests/smoke/fiddles/getting-started/ref-images/getting-started-more-chart-types-3d-charts-example-3-snapshot.png"
+    },
+    "getting-started-adding-interactivity-exporting-to-images-or-pdf-example-1": {
+        "description": "chart export test",
+        "options": {
+            "type": "column2d",
+            "width": "500",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly revenue",
+                    "subCaption": "Last Year",
+                    "xAxisName": "Month",
+                    "yAxisName": "Revenues",
+                    "exportEnabled": "1",
+                    "numberPrefix": "$",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "900000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "730000"
+                    }
+                ]
+            }
+        },
+        "id": "getting-started-adding-interactivity-exporting-to-images-or-pdf-example-1",
+        "refimage": "./tests/smoke/fiddles/getting-started/ref-images/getting-started-adding-interactivity-exporting-to-images-or-pdf-example-1-snapshot.png"
+    }
+}

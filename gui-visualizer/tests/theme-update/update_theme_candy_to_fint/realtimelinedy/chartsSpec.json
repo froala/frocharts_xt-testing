@@ -1,0 +1,166 @@
+{
+    "realtimelinedy": {
+        "descriptions": "update theme from candy to fint",
+        "id": "realtimelinedy",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "realtimelinedy",
+            "dataSource": {
+                "chart": {
+                    "palette": "3",
+                    "caption": "Stock Price Monitor",
+                    "subcaption": "(Updates every 3 seconds) - Random data",
+                    "datastreamurl": "realtime/multipleData.php",
+                    "refreshinterval": "3",
+                    "numdisplaysets": "40",
+                    "labelstep": "2",
+                    "labeldisplay": "Rotate",
+                    "numberprefix": "$",
+                    "snumberprefix": "$",
+                    "setadaptiveymin": "1",
+                    "setadaptivesymin": "1",
+                    "xaxisname": "Time",
+                    "showrealtimevalue": "1",
+                    "slantlabels": "1",
+                    "pyaxisminvalue": "29",
+                    "pyaxismaxvalue": "36",
+                    "syaxisminvalue": "21",
+                    "syaxismaxvalue": "26",
+                    "theme": "candy",
+                    "animation": 0
+                },
+                "categories": [
+                    {}
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Google"
+                    },
+                    {
+                        "seriesname": "Dell",
+                        "parentyaxis": "S"
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "type": "font",
+                            "name": "captionFont",
+                            "size": "14"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Realtimevalue",
+                            "styles": "captionFont"
+                        }
+                    ]
+                },
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "parentyaxis": "P",
+                                "startvalue": "32.7",
+                                "displayvalue": "Open",
+                                "thickness": "1",
+                                "color": "0372AB",
+                                "dashed": "1"
+                            },
+                            {
+                                "parentyaxis": "S",
+                                "startvalue": "22.5",
+                                "displayvalue": "Open",
+                                "thickness": "1",
+                                "color": "DF8600",
+                                "dashed": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "palette": "3",
+                            "caption": "Stock Price Monitor",
+                            "subcaption": "(Updates every 3 seconds) - Random data",
+                            "datastreamurl": "realtime/multipleData.php",
+                            "refreshinterval": "3",
+                            "numdisplaysets": "40",
+                            "labelstep": "2",
+                            "labeldisplay": "Rotate",
+                            "numberprefix": "$",
+                            "snumberprefix": "$",
+                            "setadaptiveymin": "1",
+                            "setadaptivesymin": "1",
+                            "xaxisname": "Time",
+                            "showrealtimevalue": "1",
+                            "slantlabels": "1",
+                            "pyaxisminvalue": "29",
+                            "pyaxismaxvalue": "36",
+                            "syaxisminvalue": "21",
+                            "syaxismaxvalue": "26",
+                            "theme": "fint",
+                            "animation": 0
+                        },
+                        "categories": [
+                            {}
+                        ],
+                        "dataset": [
+                            {
+                                "seriesname": "Google"
+                            },
+                            {
+                                "seriesname": "Dell",
+                                "parentyaxis": "S"
+                            }
+                        ],
+                        "styles": {
+                            "definition": [
+                                {
+                                    "type": "font",
+                                    "name": "captionFont",
+                                    "size": "14"
+                                }
+                            ],
+                            "application": [
+                                {
+                                    "toobject": "Realtimevalue",
+                                    "styles": "captionFont"
+                                }
+                            ]
+                        },
+                        "trendlines": [
+                            {
+                                "line": [
+                                    {
+                                        "parentyaxis": "P",
+                                        "startvalue": "32.7",
+                                        "displayvalue": "Open",
+                                        "thickness": "1",
+                                        "color": "0372AB",
+                                        "dashed": "1"
+                                    },
+                                    {
+                                        "parentyaxis": "S",
+                                        "startvalue": "22.5",
+                                        "displayvalue": "Open",
+                                        "thickness": "1",
+                                        "color": "DF8600",
+                                        "dashed": "1"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

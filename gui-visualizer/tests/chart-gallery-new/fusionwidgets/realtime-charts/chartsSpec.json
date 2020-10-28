@@ -1,0 +1,476 @@
+{
+    "fusionwidgets-realtime-charts-real-time-line-chart": {
+        "description": "Real-Time Line Chart/Strip Chart",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "manageresize": "1",
+                    "bgcolor": "000000",
+                    "bgalpha": "100",
+                    "canvasborderthickness": "1",
+                    "canvasbordercolor": "008040",
+                    "canvasbgcolor": "000000",
+                    "yaxismaxvalue": "100",
+                    "decimals": "0",
+                    "numdivlines": "9",
+                    "numvdivlines": "28",
+                    "numdisplaysets": "30",
+                    "divlinecolor": "008040",
+                    "vdivlinecolor": "008040",
+                    "divlinealpha": "100",
+                    "chartleftmargin": "10",
+                    "basefontcolor": "00dd00",
+                    "showrealtimevalue": "0",
+                    "datastreamurl": "/DataProviders/RealTimeLine1.php",
+                    "refreshinterval": "2",
+                    "numbersuffix": "%",
+                    "labeldisplay": "rotate",
+                    "slantlabels": "1",
+                    "tooltipbgcolor": "000000",
+                    "tooltipbordercolor": "008040",
+                    "basefontsize": "11",
+                    "showalternatehgridcolor": "0",
+                    "legendbgcolor": "000000",
+                    "legendbordercolor": "008040",
+                    "legendpadding": "35",
+                    "showlabels": "1",
+                    "showborder": "0",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Start"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "color": "00dd00",
+                        "seriesname": "Processor A",
+                        "showvalues": "0",
+                        "alpha": "100",
+                        "anchoralpha": "0",
+                        "linethickness": "2",
+                        "data": [
+                            {
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "color": "ff5904",
+                        "seriesname": "Processor B",
+                        "showvalues": "0",
+                        "alpha": "100",
+                        "anchoralpha": "0",
+                        "linethickness": "2",
+                        "data": [
+                            {
+                                "value": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "width": "600",
+            "height": "350",
+            "type": "realtimeline"
+        },
+        "id": "fusionwidgets-realtime-charts-real-time-line-chart"
+    },
+    "fusionwidgets-realtime-charts-real-time-stacked-area-chart": {
+        "description": "Real-Time Stacked Area Chart",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "manageresize": "1",
+                    "caption": "Server Load",
+                    "bgcolor": "000000",
+                    "bgalpha": "100",
+                    "canvasborderthickness": "1",
+                    "canvasbordercolor": "008040",
+                    "canvasbgcolor": "000000",
+                    "yaxismaxvalue": "100",
+                    "decimals": "0",
+                    "numdivlines": "9",
+                    "numvdivlines": "28",
+                    "numdisplaysets": "30",
+                    "divlinecolor": "008040",
+                    "vdivlinecolor": "008040",
+                    "divlinealpha": "100",
+                    "chartleftmargin": "10",
+                    "basefontcolor": "00dd00",
+                    "showrealtimevalue": "0",
+                    "datastreamurl": "/DataProviders/RealTimeStArea1.php",
+                    "refreshinterval": "2",
+                    "numbersuffix": "%",
+                    "labeldisplay": "rotate",
+                    "slantlabels": "1",
+                    "tooltipbgcolor": "000000",
+                    "tooltipbordercolor": "008040",
+                    "basefontsize": "11",
+                    "showalternatehgridcolor": "0",
+                    "legendbgcolor": "000000",
+                    "legendbordercolor": "008040",
+                    "legendpadding": "55",
+                    "showlabels": "1",
+                    "plotgradientcolor": "",
+                    "showborder": "0",
+                    "animation": "0"
+                },
+                "categories": [
+                    {}
+                ],
+                "dataset": [
+                    {
+                        "color": "009900",
+                        "seriesname": "Client A",
+                        "showvalues": "0",
+                        "alpha": "100",
+                        "anchoralpha": "0",
+                        "linethickness": "2"
+                    },
+                    {
+                        "color": "ffff00",
+                        "seriesname": "Client B",
+                        "showvalues": "0",
+                        "alpha": "100",
+                        "anchoralpha": "0",
+                        "linethickness": "2"
+                    },
+                    {
+                        "color": "0099cc",
+                        "seriesname": "Client C",
+                        "showvalues": "0",
+                        "alpha": "100",
+                        "anchoralpha": "0",
+                        "linethickness": "2"
+                    }
+                ]
+            },
+            "width": "600",
+            "height": "350",
+            "type": "realtimestackedarea"
+        },
+        "id": "fusionwidgets-realtime-charts-real-time-stacked-area-chart"
+    },
+    "fusionwidgets-realtime-charts-real-time-line-chart-dual-y": {
+        "description": "Real-Time (Dual Y) Line Chart/Strip Chart",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "manageresize": "1",
+                    "palette": "3",
+                    "caption": "Stock Price Monitor",
+                    "subcaption": "(Updates every 3 seconds) - Random data",
+                    "datastreamurl": "/DataProviders/RealTimeDYLine1.php",
+                    "canvasbottommargin": "150",
+                    "refreshinterval": "3",
+                    "numberprefix": "$",
+                    "snumberprefix": "$",
+                    "setadaptiveymin": "1",
+                    "setadaptivesymin": "1",
+                    "xaxisname": "Time",
+                    "showrealtimevalue": "1",
+                    "labeldisplay": "Rotate",
+                    "slantlabels": "1",
+                    "numdisplaysets": "40",
+                    "labelstep": "2",
+                    "pyaxisminvalue": "29",
+                    "pyaxismaxvalue": "36",
+                    "syaxisminvalue": "21",
+                    "syaxismaxvalue": "26",
+                    "showborder": "0",
+                    "animation": "0"
+                },
+                "categories": [
+                    {}
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Google",
+                        "showvalues": "0"
+                    },
+                    {
+                        "seriesname": "Dell",
+                        "showvalues": "0",
+                        "parentyaxis": "S"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "parentyaxis": "P",
+                                "startvalue": "32.7",
+                                "displayvalue": "Open",
+                                "thickness": "1",
+                                "color": "0372AB",
+                                "dashed": "1"
+                            },
+                            {
+                                "parentyaxis": "S",
+                                "startvalue": "22.5",
+                                "displayvalue": "Open",
+                                "thickness": "1",
+                                "color": "DF8600",
+                                "dashed": "1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "width": "600",
+            "height": "350",
+            "type": "realtimelinedy"
+        },
+        "id": "fusionwidgets-realtime-charts-real-time-line-chart-dual-y"
+    },
+    "fusionwidgets-realtime-charts-real-time-stacked-column-chart": {
+        "description": "Real-Time Stacked Column Chart",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "manageresize": "1",
+                    "caption": "Concurrent Users",
+                    "bordercolor": "899FB6",
+                    "subcaption": "(Refreshes every 3 seconds)",
+                    "canvasbordercolor": "DAE1E8",
+                    "canvasbgcolor": "FFFFFF",
+                    "bgcolor": "EEF2FB",
+                    "numdivlines": "6",
+                    "divlinecolor": "DAE1E8",
+                    "divlinealpha": "75",
+                    "alternatehgridalpha": "30",
+                    "decimals": "0",
+                    "basefontcolor": "899FB6",
+                    "outcnvbasefontcolor": "444C60",
+                    "tooltipbordercolor": "DAE1E8",
+                    "tooltipbgcolor": "FFFFFF",
+                    "tooltipsepchar": " ",
+                    "showalternatehgridcolor": "1",
+                    "alternatehgridcolor": "DAE1E8",
+                    "datastreamurl": "/DataProviders/RealTimeColumn1.php",
+                    "refreshinterval": "3",
+                    "numdisplaysets": "15",
+                    "showlegend": "1",
+                    "showlabels": "1",
+                    "showrealtimevalue": "1",
+                    "showshadow": "1",
+                    "showplotborder": "0",
+                    "plotbordercolor": "FFFFFF",
+                    "plotgradientcolor": "",
+                    "labeldisplay": "rotate",
+                    "canvasleftmargin": "50",
+                    "showsum": "1",
+                    "showborder": "0",
+                    "animation": "0"
+                },
+                "categories": [
+                    {}
+                ],
+                "dataset": [
+                    {
+                        "color": "B3C1D0",
+                        "seriesname": "Internal",
+                        "showvalues": "0"
+                    },
+                    {
+                        "color": "6582A0",
+                        "seriesname": "External",
+                        "showvalues": "0"
+                    }
+                ]
+            },
+            "width": "600",
+            "height": "360",
+            "type": "realtimestackedcolumn"
+        },
+        "id": "fusionwidgets-realtime-charts-real-time-stacked-column-chart"
+    },
+    "fusionwidgets-realtime-charts-real-time-column-chart": {
+        "description": "Real-Time Column Chart",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "manageresize": "1",
+                    "caption": "Concurrent Users",
+                    "bordercolor": "899FB6",
+                    "subcaption": "(Refreshes every 3 seconds)",
+                    "canvasbordercolor": "DAE1E8",
+                    "canvasbgcolor": "FFFFFF",
+                    "bgcolor": "EEF2FB",
+                    "numdivlines": "6",
+                    "divlinecolor": "DAE1E8",
+                    "divlinealpha": "75",
+                    "alternatehgridalpha": "30",
+                    "decimals": "0",
+                    "basefontcolor": "899FB6",
+                    "outcnvbasefontcolor": "444C60",
+                    "tooltipbordercolor": "DAE1E8",
+                    "tooltipbgcolor": "FFFFFF",
+                    "tooltipsepchar": " ",
+                    "showalternatehgridcolor": "1",
+                    "alternatehgridcolor": "DAE1E8",
+                    "datastreamurl": "/DataProviders/RealTimeColumn1.php",
+                    "refreshinterval": "3",
+                    "numdisplaysets": "15",
+                    "showlegend": "1",
+                    "showlabels": "1",
+                    "showrealtimevalue": "1",
+                    "labeldisplay": "none",
+                    "showshadow": "1",
+                    "showplotborder": "0",
+                    "plotbordercolor": "FFFFFF",
+                    "plotgradientcolor": "",
+                    "labelstep": "2",
+                    "canvasleftmargin": "50",
+                    "showborder": "0",
+                    "animation": "0"
+                },
+                "categories": [
+                    {}
+                ],
+                "dataset": [
+                    {
+                        "color": "B3C1D0",
+                        "seriesname": "Internal",
+                        "showvalues": "0"
+                    },
+                    {
+                        "color": "6582A0",
+                        "seriesname": "External",
+                        "showvalues": "0"
+                    }
+                ]
+            },
+            "width": "600",
+            "height": "360",
+            "type": "realtimecolumn"
+        },
+        "id": "fusionwidgets-realtime-charts-real-time-column-chart"
+    },
+    "fusionwidgets-realtime-charts-real-time-area-chart": {
+        "description": "Real-time Area Chart",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "manageresize": "1",
+                    "animation": "0",
+                    "numdisplaysets": "10",
+                    "showrealtimevalue": "1",
+                    "rotatelabels": "1",
+                    "slantlabels": "1",
+                    "caption": "Web Traffic",
+                    "subcaption": "(Refreshes every 6 seconds)",
+                    "yaxisname": "Unique Visitors",
+                    "showvalues": "0",
+                    "formatnumberscale": "0",
+                    "showlimits": "0",
+                    "showshadow": "0",
+                    "palettethemecolor": "205279",
+                    "canvasbordercolor": "1F6397",
+                    "canvasborderthickness": "3",
+                    "canvasborderalpha": "100",
+                    "showborder": "0",
+                    "divlinealpha": "30",
+                    "anchorradius": "3",
+                    "anchorbgcolor": "0377D0",
+                    "anchorbordercolor": "FFFFFF",
+                    "anchorborderthickness": "1",
+                    "anchoralpha": "90",
+                    "showplotborder": "1",
+                    "plotborderthickness": "3",
+                    "plotbordercolor": "0377D0",
+                    "plotfillcolor": "0377D0",
+                    "plotgradientcolor": "",
+                    "plotfillalpha": "80",
+                    "bgcolor": "FFFFFF",
+                    "showalternatehgridcolor": "0",
+                    "numvdivlines": "2",
+                    "tooltipbgcolor": "DEF1FF",
+                    "tooltipbordercolor": "2C516D",
+                    "canvaspadding": "0",
+                    "yaxismaxvalue": "5000",
+                    "datastreamurl": "/DataProviders/RealTimeArea1.php",
+                    "refreshinterval": "6"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "17:08:01"
+                            },
+                            {
+                                "label": "17:08:07"
+                            },
+                            {
+                                "label": "17:08:13"
+                            },
+                            {
+                                "label": "17:08:19"
+                            },
+                            {
+                                "label": "17:08:25"
+                            },
+                            {
+                                "label": "17:08:31"
+                            },
+                            {
+                                "label": "17:08:37"
+                            },
+                            {
+                                "label": "17:08:43"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Unique Visitors",
+                        "showvalues": "0",
+                        "data": [
+                            {
+                                "value": "2800"
+                            },
+                            {
+                                "value": "3200"
+                            },
+                            {
+                                "value": "3000"
+                            },
+                            {
+                                "value": "2500"
+                            },
+                            {
+                                "value": "3000"
+                            },
+                            {
+                                "value": "3200"
+                            },
+                            {
+                                "value": "3400"
+                            },
+                            {
+                                "value": "3000"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "width": "550",
+            "height": "375",
+            "type": "realtimearea"
+        },
+        "id": "fusionwidgets-realtime-charts-real-time-area-chart"
+    }
+}

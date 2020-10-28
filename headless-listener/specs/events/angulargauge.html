@@ -1,0 +1,184 @@
+<html>
+
+<head>
+    <title>Event Spec</title>
+    <script type="text/javascript" src="../../fusioncharts/fusioncharts.js"></script>
+    <style>
+    </style>
+    <script type="text/javascript">
+    FusionCharts.addEventListener('initialized', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts' + 'width!^!' + args.width + '!^!height!^!' + args.height);
+    });
+
+    FusionCharts.addEventListener('dataLoaded', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts');
+    });
+
+    FusionCharts.addEventListener('rendered', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts');
+    });
+
+    FusionCharts.addEventListener('renderComplete', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts');
+    });
+
+    FusionCharts.addEventListener('dataplotClick', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts' + 'chartX!^!' + args.chartX + '!^!chartY!^!' + args.chartY + '!^!pageX!^!' + args.pageX + '!^!pageY!^!' + args.pageY + '!^!datasetIndex!^!' + args.datasetIndex + '!^!datasetName!^!' + args.datasetName + '!^!dataIndex!^!' + args.dataIndex + '!^!dataValue!^!' + args.dataValue + '!^!displayValue!^!' + args.displayValue + '!^!categoryLabel!^!' + args.categoryLabel + '!^!toolText!^!' + args.toolText);
+    });
+
+    FusionCharts.addEventListener('dataplotrollout', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts' + 'chartX!^!' + args.chartX + '!^!chartY!^!' + args.chartY + '!^!pageX!^!' + args.pageX + '!^!pageY!^!' + args.pageY + '!^!datasetIndex!^!' + args.datasetIndex + '!^!datasetName!^!' + args.datasetName + '!^!dataIndex!^!' + args.dataIndex + '!^!dataValue!^!' + args.dataValue + '!^!displayValue!^!' + args.displayValue + '!^!categoryLabel!^!' + args.categoryLabel + '!^!toolText!^!' + args.toolText);
+    });
+
+    FusionCharts.addEventListener('dataplotrollover', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts' + 'chartX!^!' + args.chartX + '!^!chartY!^!' + args.chartY + '!^!pageX!^!' + args.pageX + '!^!pageY!^!' + args.pageY + '!^!datasetIndex!^!' + args.datasetIndex + '!^!datasetName!^!' + args.datasetName + '!^!dataIndex!^!' + args.dataIndex + '!^!dataValue!^!' + args.dataValue + '!^!displayValue!^!' + args.displayValue + '!^!categoryLabel!^!' + args.categoryLabel + '!^!toolText!^!' + args.toolText);
+    });
+
+    FusionCharts.ready(function() {
+        RChart = new FusionCharts({
+            type: 'angulargauge',
+            id: "myGauge",
+            renderAt: 'chart-container',
+            width: '350',
+            height: '350',
+            dataFormat: 'json',
+            dataSource: {
+                "chart": {
+                    "caption": "Speedometer",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#333333",
+                    "manageresize": "1",
+                    "origw": "320",
+                    "origh": "320",
+                    "tickvaluedistance": "-10",
+                    "bgcolor": "#FFFFFF",
+                    "upperlimit": "240",
+                    "lowerlimit": "0",
+                    "basefontcolor": "#FFFFFF",
+                    "majortmnumber": "9",
+                    "majortmcolor": "#FFFFFF",
+                    "majortmheight": "8",
+                    "majortmthickness": "5",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#FFFFFF",
+                    "minortmheight": "3",
+                    "minortmthickness": "2",
+                    "pivotradius": "10",
+                    "pivotbgcolor": "#000000",
+                    "pivotbordercolor": "#FFFFFF",
+                    "pivotborderthickness": "2",
+                    "tooltipbordercolor": "#FFFFFF",
+                    "tooltipbgcolor": "#333333",
+                    "gaugeouterradius": "115",
+                    "gaugestartangle": "240",
+                    "gaugeendangle": "-60",
+                    "gaugealpha": "0",
+                    "decimals": "0",
+                    "showcolorrange": "0",
+                    "placevaluesinside": "1",
+                    "pivotfillmix": "",
+                    "showpivotborder": "1",
+                    "annrenderdelay": "0",
+                    "gaugeoriginx": "160",
+                    "gaugeoriginy": "160",
+                    "showborder": "0"
+                },
+                "dials": {
+                    "dial": [{
+                        "value": "65",
+                        "bgcolor": "000000",
+                        "bordercolor": "#FFFFFF",
+                        "borderalpha": "100",
+                        "basewidth": "4",
+                        "topwidth": "4",
+                        "borderthickness": "2",
+                        "valuey": "260"
+                    }]
+                },
+                "annotations": {
+                    "groups": [{
+                        "x": "160",
+                        "y": "160",
+                        "items": [{
+                            "type": "circle",
+                            "radius": "130",
+                            "fillasgradient": "1",
+                            "fillcolor": "#4B4B4B,#AAAAAA",
+                            "fillalpha": "100,100",
+                            "fillratio": "95,5"
+                        }, {
+                            "type": "circle",
+                            "x": "0",
+                            "y": "0",
+                            "radius": "120",
+                            "showborder": "1",
+                            "bordercolor": "cccccc",
+                            "fillasgradient": "1",
+                            "fillcolor": "#ffffff,#000000",
+                            "fillalpha": "50,100",
+                            "fillratio": "1,99"
+                        }]
+                    }, {
+                        "x": "160",
+                        "y": "160",
+                        "showbelow": "0",
+                        "scaletext": "1",
+                        "items": [{
+                            "type": "text",
+                            "y": "100",
+                            "label": "KPH",
+                            "fontcolor": "#FFFFFF",
+                            "fontsize": "14",
+                            "bold": "1"
+                        }]
+                    }]
+                }
+            }
+        });
+
+        RChart.render();
+    });
+    /*
+        (function() {
+            document.onclick = handleMouseMove;
+
+            function handleMouseMove(event) {
+                var dot, eventDoc, doc, body, pageX, pageY;
+
+                event = event || window.event; // IE-ism
+
+                // If pageX/Y aren't available and clientX/Y are,
+                // calculate pageX/Y - logic taken from jQuery.
+                // (This is to support old IE)
+                if (event.pageX == null && event.clientX != null) {
+                    eventDoc = (event.target && event.target.ownerDocument) || document;
+                    doc = eventDoc.documentElement;
+                    body = eventDoc.body;
+
+                    event.pageX = event.clientX +
+                        (doc && doc.scrollLeft || body && body.scrollLeft || 0) -
+                        (doc && doc.clientLeft || body && body.clientLeft || 0);
+                    event.pageY = event.clientY +
+                        (doc && doc.scrollTop || body && body.scrollTop || 0) -
+                        (doc && doc.clientTop || body && body.clientTop || 0);
+                }
+
+                console.log("X " + event.pageX + " Y " + event.pageY);
+            }
+        })(); */
+    </script>
+</head>
+
+<body>
+    <div id="chart-container">
+    </div>
+</body>
+
+</html>

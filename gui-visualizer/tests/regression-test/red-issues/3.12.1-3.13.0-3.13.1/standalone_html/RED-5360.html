@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="fusioncharts/fusioncharts.js"></script>
+</head>
+
+<body>
+
+    <a href="https://fusioncharts.jira.com/browse/RED-5360">RED-5360</a>
+    <div>category label overlaps with the legend if "br" tag is used in labels and labelstep is specified. <b>NOTE:</b> Check for label skip for last 2 charts</div>
+    <span id="chart-container"></span>
+    <span id="chart-container1"></span>
+    <span id="chart-container2"></span>
+    <span id="chart-container3"></span>
+    <span id="chart-container4"></span>
+
+    <script type="text/javascript">
+        FusionCharts.ready(function () {
+            var myChart2 = new FusionCharts({
+                    type: 'realtimelinedy',
+                    dataFormat: 'json',
+                    id: 'myChart2',
+                    renderAt: 'chart-container',
+                    width: '500',
+                    height: '350',
+                    dataSource: {
+                        "chart": {
+                            "caption": "Stock Price Monitor",
+                            "subCaption": "Harry's Supermart",
+                            "labelstep": "",
+                            "showRealTimeValue": "1",
+                            "xaxisname": "xaxisname",
+                            "labeldisplay": "rotate",
+                            // showlegend: 0
+                        },
+                        "categories": [{
+                            "category": [{
+                                "label": "Day"
+                            }]
+                        }],
+                        "dataset": [{
+                            "seriesname": "HRYS Price",
+                            "showvalues": "0",
+                            "data": [{
+                                "value": "65.1"
+                            }]
+                        }, {
+                            "seriesname": "NYSE Index",
+                            "showvalues": "0",
+                            "data": [{
+                                "value": "30.87"
+                            }]
+                        }]
+                    },
+                    "events": {
+                        "initialized": function(e) {
+                            function formatTime(num) {
+                                return (num <= 9) ? ("0" + num) : num;
+                            }
+
+                            function updateData() {
+                                // Get reference to the chart using its ID
+                                var chartRef = myChart2,
+                                    //We need to create a querystring format incremental update, containing
+                                    //label in hh:mm:ss format
+                                    //and a value (random).
+                                    currDate = new Date(),
+                                    label = formatTime(currDate.getHours()) + "<br>" + formatTime(currDate.getMinutes()) + ":" + formatTime(currDate.getSeconds()) + "text",
+                                    //Get random number between 35.25 & 30.75 - rounded to 2 decimal places
+                                    hrys = Math.floor(Math.random() * 100) / 100 + 165.1,
+                                    //Get random number between 10962.87 & 11052.87
+                                    nyse = Math.floor(Math.random() * 10) / 100 + 30.87,
+                                    //Build Data String in format &label=...&value=...
+                                    strData = "&label=" + label + "&value=" + hrys + "|" + nyse;
+                                //Feed it to chart.
+                                chartRef.feedData(strData);
+                            }
+                            var myVar = setInterval(function() {
+                                updateData();
+                            }, 500);
+                        }
+                    }
+                }).render();
+            });
+            var myChart = new FusionCharts({
+                type: 'realtimelinedy',
+                dataFormat: 'json',
+                id: 'stockMonitor',
+                renderAt: 'chart-container1',
+                width: '500',
+                height: '350',
+                dataSource: {
+                "chart": {
+                    "caption": "Stock Price Monitor",
+                    "subCaption": "Harry's Supermart",
+                    "labelstep": "2",
+                    "showRealTimeValue": "0",
+                },
+                "categories": [{
+                    "category": [{
+                    "label": "Day Start"
+                    }]
+                }],
+                "dataset": [{
+                    "seriesname": "HRYS Price",
+                    "showvalues": "0",
+                    "data": [{
+                    "value": "65.1"
+                    }]
+                }, {
+                    "seriesname": "NYSE Index",
+                    "showvalues": "0",
+                    "data": [{
+                    "value": "30.87"
+                    }]
+                }]
+                },
+                "events": {
+                "initialized": function(e) {
+                    function formatTime(num) {
+                    return (num <= 9) ? ("0" + num) : num;
+                    }
+
+                    function updateData() {
+                    // Get reference to the chart using its ID
+                    var chartRef = myChart,
+                        //We need to create a querystring format incremental update, containing
+                        //label in hh:mm:ss format
+                        //and a value (random).
+                        currDate = new Date(),
+                        label = formatTime(currDate.getHours()) + "<br>" + formatTime(currDate.getMinutes()) + ":" + formatTime(currDate.getSeconds()) + " textttttttttttttttttt",
+                        //Get random number between 35.25 & 30.75 - rounded to 2 decimal places
+                        hrys = Math.floor(Math.random() * 100) / 100 + 165.1,
+                        //Get random number between 10962.87 & 11052.87
+                        nyse = Math.floor(Math.random() * 10) / 100 + 30.87,
+                        //Build Data String in format &label=...&value=...
+                        strData = "&label=" + label + "&value=" + hrys + "|" + nyse;
+                    //Feed it to chart.
+                    chartRef.feedData(strData);
+                    }
+                    var myVar = setInterval(function() {
+                    updateData();
+                    }, 500);
+                }
+                }
+            }).render();
+            var myChart2 = new FusionCharts({
+                type: 'realtimelinedy',
+                dataFormat: 'json',
+                renderAt: 'chart-container2',
+                width: '500',
+                height: '350',
+                dataSource: {
+                    "chart": {
+                        "caption": "Stock Price Monitor",
+                        "subCaption": "Harry's Supermart",
+                        "labelstep": "",
+                        "showRealTimeValue": "1",
+                        "xaxisname": "xaxisname",
+                        "labeldisplay": "rotate",
+                        // showlegend: 0
+                    },
+                    "categories": [{
+                        "category": [{
+                            "label": "Day"
+                        }]
+                    }],
+                    "dataset": [{
+                        "seriesname": "HRYS Price",
+                        "showvalues": "0",
+                        "data": [{
+                            "value": "65.1"
+                        }]
+                    }, {
+                        "seriesname": "NYSE Index",
+                        "showvalues": "0",
+                        "data": [{
+                            "value": "30.87"
+                        }]
+                    }]
+                },
+                "events": {
+                    "initialized": function(e) {
+                        function formatTime(num) {
+                            return (num <= 9) ? ("0" + num) : num;
+                        }
+
+                        function updateData() {
+                            // Get reference to the chart using its ID
+                            var chartRef = myChart2,
+                                //We need to create a querystring format incremental update, containing
+                                //label in hh:mm:ss format
+                                //and a value (random).
+                                currDate = new Date(),
+                                label = formatTime(currDate.getHours()) + "<br>" + formatTime(currDate.getMinutes()) + ":" + formatTime(currDate.getSeconds()) + "<br>text",
+                                //Get random number between 35.25 & 30.75 - rounded to 2 decimal places
+                                hrys = Math.floor(Math.random() * 100) / 100 + 165.1,
+                                //Get random number between 10962.87 & 11052.87
+                                nyse = Math.floor(Math.random() * 10) / 100 + 30.87,
+                                //Build Data String in format &label=...&value=...
+                                strData = "&label=" + label + "&value=" + hrys + "|" + nyse;
+                            //Feed it to chart.
+                            chartRef.feedData(strData);
+                        }
+                        var myVar = setInterval(function() {
+                            updateData();
+                        }, 500);
+                    }
+                }
+            }).render();
+            var myChart4 = new FusionCharts({
+                type: 'scrollcolumn2d',
+                dataFormat: 'json',
+                renderAt: 'chart-container3',
+                width: '550',
+                height: '350',
+                dataSource: {
+                    "chart": {
+                        "caption": "Sales Trends",
+                        "subcaption": "FY 2012 - FY 2013",
+                        "xaxisname": "Month",
+                        "yaxisname": "Revenue",
+                        "showvalues": "1",
+                        "placeValuesInside": "1",
+                        "rotateValues": "1",
+                        "valueFontColor": "#ffffff",
+                        "numberprefix": "$",
+                        "baseFontColor": "#333333",
+                        "baseFont": "Helvetica Neue,Arial",
+                        "captionFontSize": "14",
+                        "subcaptionFontSize": "14",
+                        "subcaptionFontBold": "0",
+                        "showborder": "0",
+                        "paletteColors": "#0075c2",
+                        "bgcolor": "#FFFFFF",
+                        "showalternatehgridcolor": "0",
+                        "showplotborder": "0",
+                        "labeldisplay": "WRAP",
+                        "showcanvasborder": "0",
+                        "linethickness": "3",
+                        "plotfillalpha": "100",
+                        "plotgradientcolor": "",
+                        "numVisiblePlot": "12",
+                        "divlineAlpha": "100",
+                        "divlineColor": "#999999",
+                        "divlineThickness": "1",
+                        "divLineDashed": "1",
+                        "divLineDashLen": "1",
+                        "divLineDashGap": "1",
+                        "scrollheight": "10",
+                        "flatScrollBars": "1",
+                        "scrollShowButtons": "0",
+                        "scrollColor": "#cccccc",
+                        "showHoverEffect": "1",
+                        "animation": "0"
+                    },
+                    "categories": [
+                        {
+                            "category": [
+                                {
+                                    "label": "Jan 2012"
+                                },
+                                {
+                                    "label": "Feb 2012"
+                                },
+                                {
+                                    "label": "Mar 2012"
+                                },
+                                {
+                                    "label": "Apr 2012"
+                                },
+                                {
+                                    "label": "May 2012"
+                                },
+                                {
+                                    "label": "Jun 2012"
+                                },
+                                {
+                                    "label": "Jul 2012"
+                                },
+                                {
+                                    "label": "Aug 2012"
+                                },
+                                {
+                                    "label": "Sep 2012"
+                                },
+                                {
+                                    "label": "Oct 2012"
+                                },
+                                {
+                                    "label": "Nov 2012"
+                                },
+                                {
+                                    "label": "Dec 2012"
+                                },
+                                {
+                                    "label": "Jan 2013"
+                                },
+                                {
+                                    "label": "Feb 2013"
+                                },
+                                {
+                                    "label": "Mar 2013"
+                                },
+                                {
+                                    "label": "Apr 2013"
+                                },
+                                {
+                                    "label": "May 2013"
+                                },
+                                {
+                                    "label": "Jun 2013"
+                                },
+                                {
+                                    "label": "Jul 2013"
+                                },
+                                {
+                                    "label": "Aug 2013"
+                                },
+                                {
+                                    "label": "Sep 2013"
+                                },
+                                {
+                                    "label": "Oct 2013"
+                                },
+                                {
+                                    "label": "Nov 2013"
+                                },
+                                {
+                                    "label": "Dec 2013"
+                                }
+                            ]
+                        }
+                    ],
+                    "dataset": [
+                        {
+                            "data": [
+                                {
+                                    "value": "27400"
+                                },
+                                {
+                                    "value": "29800"
+                                },
+                                {
+                                    "value": "25800"
+                                },
+                                {
+                                    "value": "26800"
+                                },
+                                {
+                                    "value": "29600"
+                                },
+                                {
+                                    "value": "32600"
+                                },
+                                {
+                                    "value": "31800"
+                                },
+                                {
+                                    "value": "36700"
+                                },
+                                {
+                                    "value": "29700"
+                                },
+                                {
+                                    "value": "31900"
+                                },
+                                {
+                                    "value": "34800"
+                                },
+                                {
+                                    "value": "24800"
+                                },
+                                {
+                                    "value": "26300"
+                                },
+                                {
+                                    "value": "31800"
+                                },
+                                {
+                                    "value": "30900"
+                                },
+                                {
+                                    "value": "33000"
+                                },
+                                {
+                                    "value": "36200"
+                                },
+                                {
+                                    "value": "32100"
+                                },
+                                {
+                                    "value": "37500"
+                                },
+                                {
+                                    "value": "38500"
+                                },
+                                {
+                                    "value": "35400"
+                                },
+                                {
+                                    "value": "38200"
+                                },
+                                {
+                                    "value": "33300"
+                                },
+                                {
+                                    "value": "38300"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }).render();
+            var myChart5 = new FusionCharts({
+                type: 'column2d',
+                dataFormat: 'json',
+                renderAt: 'chart-container4',
+                width: '550',
+                height: '350',
+                dataSource: {
+                    "chart": {
+                        "caption": "Top Goal Scorers for FC Barcelona",
+                        "subcaption": "2015-16",
+                        "yaxisname": "No. of Goals",
+                        "showvalues": "0",
+                        "plotgradientcolor": "",
+                        "canvasbgalpha": "0",
+                        "bgalpha": "0",
+                        "plotborderalpha": "0",
+                        "canvasborderalpha": "0",
+                        "showborder": "0",
+                        "showalternatehgridcolor": "0",
+                        "rotatelabels": "1",
+                        "slantlabels": "1",
+                        "captionpadding": "20",
+                        "tooltipbgcolor": "138dd7",
+                        "tooltipcolor": "ffffff",
+                        "tooltipbordercolor": "138dd7",
+                        "showtooltipshadow": "0",
+                        "palettecolors": "5167c7"
+                    },
+                    "data": [
+                        {
+                            "label": "Luis Suarez",
+                            "value": "45",
+                            "color": "1AB7D9",
+                            "stepSkipped": false
+                        },
+                        {
+                            "label": "Lionel Messi",
+                            "value": "38",
+                            "stepSkipped": false
+                        },
+                        {
+                            "label": "Neymar",
+                            "value": "27",
+                            "stepSkipped": false
+                        },
+                        {
+                            "label": "Ivan Rakitic",
+                            "value": "7",
+                            "stepSkipped": false
+                        },
+                        {
+                            "label": "Gerard Pique",
+                            "value": "5",
+                            "stepSkipped": false
+                        },
+                        {
+                            "label": "Arda Turan",
+                            "value": "2",
+                            "stepSkipped": false
+                        },
+                        {
+                            "label": "Adriano",
+                            "value": "1",
+                            "stepSkipped": false
+                        },
+                        {
+                            "label": "Dani Alves",
+                            "value": "1",
+                            "stepSkipped": false
+                        },
+                        {
+                            "label": "Marc Bartra",
+                            "value": "1",
+                            "stepSkipped": false
+                        },
+                        {
+                            "label": "Andres Iniesta",
+                            "value": "1",
+                            "stepSkipped": false
+                        }
+                    ]
+                }
+            }).render();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <script type="text/javascript" src="http://localhost/repos/GUIs/build_files/3.12.0-rc.5/fusioncharts.js"></script>
+</head>
+
+<body>
+    <div>The x axis labels are not hiding properly when we are setting showLabels:0 using a button click, for example if the data are small then the labels are seen , giving a bad visualization. The problem seems to be present in both angular js, and in javascript.</div>
+    <div id="chartContainer">FusionCharts XT will load here!</div>
+    <button id="hidelabels">Disable Labels</button>
+    <button id="showlabels">Enable Labels</button>
+    <script type="text/javascript">
+        FusionCharts.ready(function() {
+            var footfallChart;
+            var mydata = {
+                "chart": {
+                    "caption": "Total footfall in Bakersfield Central",
+                    "subCaption": "Last week",
+                    "xAxisName": "Day",
+                    "yAxisName": "No. of Footfalls",
+
+                    //Cosmetics
+                    "lineThickness": "2",
+                    "paletteColors": "#008ee4,#6baa01",
+                    "baseFontColor": "#333333",
+                    "baseFont": "Helvetica Neue,Arial",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "showBorder": "0",
+                    "showValues": "0",
+                    "bgColor": "#ffffff",
+                    "showShadow": "0",
+                    "canvasBgColor": "#ffffff",
+                    "canvasBorderAlpha": "0",
+                    "divlineAlpha": "100",
+                    "divlineColor": "#999999",
+                    "divlineThickness": "1",
+                    "divLineIsDashed": "1",
+                    "divLineDashLen": "1",
+                    "divLineGapLen": "1",
+                    "showXAxisLine": "1",
+                    "xAxisLineThickness": "1",
+                    "xAxisLineColor": "#999999",
+                    "showAlternateHGridColor": "0",
+                    "decimals": "0",
+                    "transposeanimation": "1"
+                },
+                "data": [{
+                        "label": "gsakdc",
+                        "value": "10"
+                    }, {
+                        "label": "gsakdc",
+                        "value": "4"
+                    }, {
+                        "label": "gsakdc",
+                        "value": "0"
+                    },
+
+                    {
+                        "label": "gsakdc",
+                        "value": "8"
+                    }
+
+                ]
+            };
+
+            footfallChart = new FusionCharts({
+                type: 'bar2d',
+                dataFormat: 'json',
+                renderAt: 'chartContainer',
+                width: 500,
+                height: 300,
+                dataSource: mydata
+            }).render();
+
+            var y = function() {
+
+                hide_labels(mydata);
+
+            }
+            var x = function() {
+
+                show_labels(mydata);
+
+            }
+
+
+            function hide_labels(mydata) {
+
+
+                //  mydata.chart.showLabels=0;
+                var temp = mydata.data.length;
+                if (temp > length) {
+                    footfallChart.setChartAttribute("showLabels", "0");
+
+                }
+            }
+
+            document.getElementById("hidelabels").addEventListener("click", y);
+
+            function show_labels(mydata) {
+
+
+                //  mydata.chart.showLabels=0;
+
+                var temp = mydata.data.length;
+                if (temp > length) {
+                    footfallChart.setChartAttribute("showLabels", "1");
+                }
+            }
+            document.getElementById("showlabels").addEventListener("click", x);
+
+
+        });
+    </script>
+</body>
+
+</html>

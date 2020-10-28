@@ -1,0 +1,190 @@
+<html>
+<head>
+<title>My First chart using FusionWidgets XT</title>
+        <script type="text/javascript" src="../../../fusioncharts/fusioncharts.js">
+        </script>
+</head>
+<body>
+        
+        <div id="chartContainer">FusionWidgets XT will load here!</div>
+        <script type="text/javascript"><!--
+		        FusionCharts['debugger'].enable(true);	
+	            FusionCharts['debugger'].outputTo( function() {   } );    
+                var objJSON = {
+    "chart": {
+        "caption": "Sales Volume",
+        "pyaxisname": "Revenue",
+        "syaxisname": "Quantity",
+        "showvalues": "0",
+        "numberprefix": "$",
+        "animation": "0"
+    },
+    "categories": [
+        {
+            "category": [
+                {
+                    "label": "Jan"
+                },
+                {
+                    "label": "Feb"
+                },
+                {
+                    "label": "Mar"
+                },
+                {
+                    "label": "Apr"
+                },
+                {
+                    "label": "May"
+                },
+                {
+                    "label": "Jun"
+                },
+                {
+                    "label": "Jul"
+                },
+                {
+                    "label": "Aug"
+                },
+                {
+                    "label": "Sep"
+                },
+                {
+                    "label": "Oct"
+                },
+                {
+                    "label": "Nov"
+                },
+                {
+                    "label": "Dec"
+                }
+            ]
+        }
+    ],
+    "dataset": [
+        {
+            "seriesname": "Revenue",
+            "data": [
+                {
+                    "value": "170"
+                },
+                {
+                    "value": "610"
+                },
+                {
+                    "value": "142"
+                },
+                {
+                    "value": "135"
+                },
+                {
+                    "value": "214"
+                },
+                {
+                    "value": "121"
+                },
+                {
+                    "value": "113"
+                },
+                {
+                    "value": "156"
+                },
+                {
+                    "value": "212"
+                },
+                {
+                    "value": "900"
+                },
+                {
+                    "value": "132"
+                },
+                {
+                    "value": "101"
+                }
+            ]
+        },
+        {
+            "seriesname": "Quantity",
+            "parentyaxis": "S",
+            "data": [
+                {
+                    "value": "340"
+                },
+                {
+                    "value": "120"
+                },
+                {
+                    "value": "280"
+                },
+                {
+                    "value": "270"
+                },
+                {
+                    "value": "430"
+                },
+                {
+                    "value": "240"
+                },
+                {
+                    "value": "230"
+                },
+                {
+                    "value": "310"
+                },
+                {
+                    "value": "430"
+                },
+                {
+                    "value": "180"
+                },
+                {
+                    "value": "260"
+                },
+                {
+                    "value": "200"
+                }
+            ]
+        }
+    ],
+    "trendlines": [
+        {
+            "line": [
+                {
+                    "startvalue": "2100000",
+                    "color": "009933",
+                    "displayvalue": "Target"
+                }
+            ]
+        }
+    ],
+    "styles": {
+        "definition": [
+            {
+                "name": "CanvasAnim",
+                "type": "animation",
+                "param": "_xScale",
+                "start": "0",
+                "duration": "1"
+            }
+        ],
+        "application": [
+            {
+                "toobject": "Canvas",
+                "styles": "CanvasAnim"
+            }
+        ]
+    }
+};
+			  
+			//Chart setup code
+			var myChart = new FusionCharts({type: 'MSCOMBIDY2D', width: '400', height: '500', debugMode: false, bgColor: 'ffff0f', renderAt: 'chartContainer', id: "myChartId", dataSource: objJSON, dataFormat: 'json', renderer: 'javascript'
+					});
+			
+			
+			  myChart.render();
+	  
+
+    // -->     
+    </script>      
+  </body> 
+</html>

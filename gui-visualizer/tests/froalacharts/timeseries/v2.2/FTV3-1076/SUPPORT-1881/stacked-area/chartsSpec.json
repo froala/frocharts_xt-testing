@@ -1,0 +1,55 @@
+{
+    "SUPPORT-1881-stacked-area-tc1": {
+        "id": "SUPPORT-1881-stacked-area-tc1",
+        "description": "line border does not comes to base of plot when negative value is plotted for area plot type",
+        "options": {
+            "data-id": "data-SUPPORT-1881-stacked-area",
+            "schema-id": "schema-SUPPORT-1881-stacked-area",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "title": "Rainfall (in mm)",
+                "series": "State",
+                "yaxis": [
+                    {
+                        "plot": [
+                            {
+                                "value": "Rainfall",
+                                "type": "area",
+                                "style": {
+                                    "plot": {
+                                        "fill-opacity": "0.8"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "xaxis": {
+                    "plot": "Time",
+                    "binning": {
+                        "year": [ 1 ],
+                        "month": [ 1 ]
+
+                    },
+                    "initialInterval": {
+                        "from": "1975 Jan",
+                        "to": "1975 Sep"
+                    }
+                },
+                "chart": {
+                    "animation": "0",
+                    "multicanvas": 0
+                },
+                "caption": {
+                    "text": "Total Rainfall of Assam and Tripura"
+                },
+                "subcaption": {
+                    "text": "For over a century (1901-2015)"
+                }
+            }
+        }
+    }
+}

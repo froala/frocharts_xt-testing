@@ -1,0 +1,132 @@
+{
+    "globals": {
+        "base_data_dir": "trendLineBase",
+        "base_output_dir": "tests/trendlines",
+        "fc_ref_version": "3.4.1",
+        "fc_comp_version": "3.5.0",
+        "japp_config_threshold": "0"
+    },
+    "setup": {
+        "single_series": {
+            "base_data": "trendLineBaseData/single_series/data.json",
+            "chart_types": ["column3d", "column2d"]
+        },
+        "multi_series": {
+            "base_data": "trendLineBaseData/multi_series/data.json",
+            "chart_types": ["msspline", "mscolumn3d", "mscolumn2d", "msline", "msarea", "dragcolumn2d",
+                             "logmsline", "scrollcolumn2d", "realtimeline"]
+         },
+        "xy_plot_chart": {
+            "base_data": "trendLineBaseData/xy_plot_series/data.json",
+            "chart_types":["scatter"]
+        },
+        "xyz_plot_chart": {
+            "base_data": "trendLineBaseData/xyz_plot_series/data.json",
+            "chart_types":["bubble"]
+        },
+        "multi_series_dy":{
+            "base_data": "trendLineBaseData/multi_series_dy/data.json",
+            "chart_types": ["mssplinedy"]
+        },
+        "stack_sries": {
+            "base_data": "trendLineBaseData/stack_series/data.json",
+            "chart_types": ["stackedcolumn2d"]
+        },
+        "combi_sries": {
+            "base_data": "trendLineBaseData/combi_series/data.json",
+            "chart_types": ["mscombi2d"]
+        },
+        "combi_series_dy": {
+            "base_data": "trendLineBaseData/combi_series_dy/data.json",
+            "chart_types": ["mscombidy2d", "scrollcombidy2d"]
+        },
+        "multi_series_stack": {
+            "base_data": "trendLineBaseData/multi_series_stack/data.json",
+            "chart_types": ["msstackedcolumn2d"]
+        },
+        "zoomline": {
+            "base_data": "trendLineBaseData/zoomline/data.json",
+            "chart_types": ["zoomline"]
+        }
+    },
+    "forced_attributes": {
+        "all": {
+            "animation": "0"
+        },
+        "pie2d": {
+            "showLegend": "1"
+        },
+        "funnel": {
+            "showLegend": "1"
+        }
+    },
+    "other_attributes": {
+        "thickness": {
+            "key": {
+                "trendlines-0-line-0": {
+                    "names": ["thickness"],
+                    "type": ["string"],
+                    "range": ["10"]
+                }
+            }
+        },
+        "showontop": {
+            "key": {
+                "trendlines-0-line-0": {
+                    "names": ["showontop"],
+                    "type": ["string"],
+                    "range": ["0-1"]
+                }
+            }
+        },
+        "dashed": {
+            "key": {
+                "trendlines-0-line-0": {
+                    "names": ["dashed"],
+                    "type": ["string"],
+                    "range": ["0-1"]
+                }
+            }
+        },
+        "valueOnRight": {
+            "key": {
+                "trendlines-0-line-0": {
+                    "names": ["valueOnRight"],
+                    "type": ["string"],
+                    "range": ["0-1"]
+                }
+            }
+        },
+        "alpha": {
+           "key": {
+                "trendlines-0-line-0": {
+                    "names": ["alpha"],
+                    "type": ["string"],
+                    "range": ["0-50"]
+                }
+            }
+            },
+        "endValue-startValue": {
+            "key": {
+                "trendlines-0-line-0": {
+                    "names": ["endValue", "startValue"],
+                    "type": ["string", "string"],
+                    "range": ["26000-29000", "26000-29000"]
+                }
+            }
+        },
+        "dashlength": {
+            "defaults": {
+                "dashed": "1"
+            },
+            "key": {
+                "trendlines-0-line-0": {
+                    "names": ["dashLen", "dashGap"],
+                    "type": ["string", "string"],
+                    "range": ["5", "8"]
+                }
+            }
+        }
+
+    }
+}

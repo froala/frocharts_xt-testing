@@ -1,0 +1,1801 @@
+{
+    "column2d-chart-caption_0": {
+        "description": "chartCaption alignment top-center.Caption alignment with canvas",
+        "options": {
+            "type": "column2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the Caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "center",
+                    "captionOnTop": "1",
+                    "captionFontSize": "40",
+                    "subCaptionFontSize": "20",
+                    "subCaptionFont": "Verdana",
+                    "subCaptionFontColor": "#FF0000",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "20",
+                    "captionPadding ": "30",
+                    "yAxisName": "This is long y axis",
+                    "xAxisName": "x-axis Name",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/column2d-chart-caption_0-snapshot.png",
+        "id": "column2d-chart-caption_0"
+    },
+    "column2d-chart-caption_1": {
+        "description": "chartCaption alignment top-center.Caption does not alignment with canvas",
+        "options": {
+            "type": "column2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "center",
+                    "captionOnTop": "1",
+                    "captionFontSize": "35",
+                    "subCaptionFontSize": "25",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#0000FF",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#ff0000",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "0",
+                    "captionPadding ": "20",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/column2d-chart-caption_1-snapshot.png",
+        "id": "column2d-chart-caption_1"
+    },
+    "column2d-chart-caption_2": {
+        "description": "chartCaption alignment top-left.Caption does not alignment with canvas",
+        "options": {
+            "type": "column2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "left",
+                    "captionOnTop": "1",
+                    "captionFontSize": "48",
+                    "subCaptionFontSize": "25",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "15",
+                    "captionPadding ": "25",
+                    "yAxisName": "This is a long yAxis name",
+                    "xAxisName": "x-axis name",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/column2d-chart-caption_2-snapshot.png",
+        "id": "column2d-chart-caption_2"
+    },
+    "column2d-chart-caption_3": {
+        "description": "chartCaption alignment top-left.Caption alignment with canvas",
+        "options": {
+            "type": "column2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "canvasleftmargin": "125",
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "left",
+                    "captionOnTop": "1",
+                    "captionFontSize": "50",
+                    "subCaptionFontSize": "30",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "15",
+                    "captionPadding ": "25",
+                    "yaxisname": "This is a long yAxis name",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/column2d-chart-caption_3-snapshot.png",
+        "id": "column2d-chart-caption_3"
+    },
+    "column2d-chart-caption_4": {
+        "description": "chartCaption alignment top-right. Caption alignment with canvas",
+        "options": {
+            "type": "column2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "canvasRightMargin": "100",
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "right",
+                    "captionOnTop": "1",
+                    "captionFontSize": "42",
+                    "subCaptionFontSize": "31",
+                    "subCaptionFont": "cursive",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Times New Roman",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "24",
+                    "captionPadding ": "30",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/column2d-chart-caption_4-snapshot.png",
+        "id": "column2d-chart-caption_4"
+    },
+    "column2d-chart-caption_5": {
+        "description": "chartCaption alignment top-right.Caption does not alignment with canvas",
+        "options": {
+            "type": "column2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the Caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "right",
+                    "captionOnTop": "1",
+                    "captionFontSize": "22",
+                    "subCaptionFontSize": "12",
+                    "subCaptionFont": "cursive",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Times New Roman",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "30",
+                    "captionPadding ": "19",
+                    "xAxisName": "x-axis",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/column2d-chart-caption_5-snapshot.png",
+        "id": "column2d-chart-caption_5"
+    },
+    "column2d-chart-caption_6": {
+        "description": "chartCaption alignment bottom-left.Caption does not alignment with canvas",
+        "options": {
+            "type": "column2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "left",
+                    "captionOnTop": "0",
+                    "captionFontSize": "28",
+                    "subCaptionFontSize": "20",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "25",
+                    "captionPadding ": "5",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/column2d-chart-caption_6-snapshot.png",
+        "id": "column2d-chart-caption_6"
+    },
+    "column2d-chart-caption_7": {
+        "description": "chartCaption alignment bottom-left.Caption alignment with canvas",
+        "options": {
+            "type": "column2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "left",
+                    "captionOnTop": "0",
+                    "captionFontSize": "39",
+                    "subCaptionFontSize": "21",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "25",
+                    "captionPadding ": "5",
+                    "rotateYaxisName": "0",
+                    "xAxisName": "x-axis {br} with {br} line {br} break",
+                    "yAxisName": "This is long y-axis name",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/column2d-chart-caption_7-snapshot.png",
+        "id": "column2d-chart-caption_7"
+    },
+    "column2d-chart-caption_8": {
+        "description": "chartCaption alignment bottom-center.Caption does not alignment with canvas",
+        "options": {
+            "type": "column2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "center",
+                    "captionOnTop": "0",
+                    "captionFontSize": "50",
+                    "subCaptionFontSize": "35",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "18",
+                    "captionPadding ": "20",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/column2d-chart-caption_8-snapshot.png",
+        "id": "column2d-chart-caption_8"
+    },
+    "column2d-chart-caption_9": {
+        "description": "chartCaption alignment bottom-center.Caption alignment with canvas",
+        "options": {
+            "type": "column2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "center",
+                    "captionOnTop": "0",
+                    "captionFontSize": "39",
+                    "subCaptionFontSize": "34",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "18",
+                    "captionPadding ": "20",
+                    "xAxisName": "x-axis {br} with {br} line {br} break",
+                    "yAxisName": "This is long y-axis name",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/column2d-chart-caption_9-snapshot.png",
+        "id": "column2d-chart-caption_9"
+    },
+    "column2d-chart-caption_10": {
+        "description": "chartCaption alignment bottom-right.Caption does not alignment with canvas",
+        "options": {
+            "type": "column2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "right",
+                    "captionOnTop": "0",
+                    "captionFontSize": "25",
+                    "subCaptionFontSize": "12",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Times New Roman",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "20",
+                    "captionPadding ": "35",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/column2d-chart-caption_10-snapshot.png",
+        "id": "column2d-chart-caption_10"
+    },
+    "column2d-chart-caption_11": {
+        "description": "chartCaption alignment bottom-right.Caption alignment with canvas",
+        "options": {
+            "type": "column2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "right",
+                    "captionOnTop": "0",
+                    "captionFontSize": "29",
+                    "subCaptionFontSize": "17",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Times New Roman",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "12",
+                    "captionPadding ": "0",
+                    "xAxisName": "x-axis {br} with {br} line {br} break",
+                    "yAxisName": "This is long y-axis name",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/column2d-chart-caption_11-snapshot.png",
+        "id": "column2d-chart-caption_11"
+    },
+    "column3d-chart-caption_0": {
+        "description": "chartCaption alignment top-center.Caption alignment with canvas",
+        "options": {
+            "type": "column3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the Caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "center",
+                    "captionOnTop": "1",
+                    "captionFontSize": "40",
+                    "subCaptionFontSize": "20",
+                    "subCaptionFont": "Verdana",
+                    "subCaptionFontColor": "#FF0000",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "20",
+                    "captionPadding ": "30",
+                    "yAxisName": "This is long y axis",
+                    "xAxisName": "x-axis Name",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/column3d-chart-caption_0-snapshot.png",
+        "id": "column3d-chart-caption_0"
+    },
+    "column3d-chart-caption_1": {
+        "description": "chartCaption alignment top-center.Caption does not alignment with canvas",
+        "options": {
+            "type": "column3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "center",
+                    "captionOnTop": "1",
+                    "captionFontSize": "35",
+                    "subCaptionFontSize": "25",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#0000FF",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#ff0000",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "0",
+                    "captionPadding ": "20",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/column3d-chart-caption_1-snapshot.png",
+        "id": "column3d-chart-caption_1"
+    },
+    "column3d-chart-caption_2": {
+        "description": "chartCaption alignment top-left.Caption does not alignment with canvas",
+        "options": {
+            "type": "column3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "left",
+                    "captionOnTop": "1",
+                    "captionFontSize": "48",
+                    "subCaptionFontSize": "25",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "15",
+                    "captionPadding ": "25",
+                    "yAxisName": "This is a long yAxis name",
+                    "xAxisName": "x-axis name",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/column3d-chart-caption_2-snapshot.png",
+        "id": "column3d-chart-caption_2"
+    },
+    "column3d-chart-caption_3": {
+        "description": "chartCaption alignment top-left.Caption alignment with canvas",
+        "options": {
+            "type": "column3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "canvasleftmargin": "125",
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "left",
+                    "captionOnTop": "1",
+                    "captionFontSize": "50",
+                    "subCaptionFontSize": "30",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "15",
+                    "captionPadding ": "25",
+                    "yaxisname": "This is a long yAxis name",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/column3d-chart-caption_3-snapshot.png",
+        "id": "column3d-chart-caption_3"
+    },
+    "column3d-chart-caption_4": {
+        "description": "chartCaption alignment top-right. Caption alignment with canvas",
+        "options": {
+            "type": "column3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "canvasRightMargin": "100",
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "right",
+                    "captionOnTop": "1",
+                    "captionFontSize": "42",
+                    "subCaptionFontSize": "31",
+                    "subCaptionFont": "cursive",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Times New Roman",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "24",
+                    "captionPadding ": "30",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/column3d-chart-caption_4-snapshot.png",
+        "id": "column3d-chart-caption_4"
+    },
+    "column3d-chart-caption_5": {
+        "description": "chartCaption alignment top-right.Caption does not alignment with canvas",
+        "options": {
+            "type": "column3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the Caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "right",
+                    "captionOnTop": "1",
+                    "captionFontSize": "22",
+                    "subCaptionFontSize": "12",
+                    "subCaptionFont": "cursive",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Times New Roman",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "30",
+                    "captionPadding ": "19",
+                    "xAxisName": "x-axis",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/column3d-chart-caption_5-snapshot.png",
+        "id": "column3d-chart-caption_5"
+    },
+    "column3d-chart-caption_6": {
+        "description": "chartCaption alignment bottom-left.Caption does not alignment with canvas",
+        "options": {
+            "type": "column3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "left",
+                    "captionOnTop": "0",
+                    "captionFontSize": "28",
+                    "subCaptionFontSize": "20",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "25",
+                    "captionPadding ": "5",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/column3d-chart-caption_6-snapshot.png",
+        "id": "column3d-chart-caption_6"
+    },
+    "column3d-chart-caption_7": {
+        "description": "chartCaption alignment bottom-left.Caption alignment with canvas",
+        "options": {
+            "type": "column3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "left",
+                    "captionOnTop": "0",
+                    "captionFontSize": "39",
+                    "subCaptionFontSize": "21",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "25",
+                    "captionPadding ": "5",
+                    "rotateYaxisName": "0",
+                    "xAxisName": "x-axis {br} with {br} line {br} break",
+                    "yAxisName": "This is long y-axis name",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/column3d-chart-caption_7-snapshot.png",
+        "id": "column3d-chart-caption_7"
+    },
+    "column3d-chart-caption_8": {
+        "description": "chartCaption alignment bottom-center.Caption does not alignment with canvas",
+        "options": {
+            "type": "column3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "center",
+                    "captionOnTop": "0",
+                    "captionFontSize": "50",
+                    "subCaptionFontSize": "35",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "18",
+                    "captionPadding ": "20",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/column3d-chart-caption_8-snapshot.png",
+        "id": "column3d-chart-caption_8"
+    },
+    "column3d-chart-caption_9": {
+        "description": "chartCaption alignment bottom-center.Caption alignment with canvas",
+        "options": {
+            "type": "column3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "center",
+                    "captionOnTop": "0",
+                    "captionFontSize": "39",
+                    "subCaptionFontSize": "34",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "18",
+                    "captionPadding ": "20",
+                    "xAxisName": "x-axis {br} with {br} line {br} break",
+                    "yAxisName": "This is long y-axis name",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/column3d-chart-caption_9-snapshot.png",
+        "id": "column3d-chart-caption_9"
+    },
+    "column3d-chart-caption_10": {
+        "description": "chartCaption alignment bottom-right.Caption does not alignment with canvas",
+        "options": {
+            "type": "column3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "right",
+                    "captionOnTop": "0",
+                    "captionFontSize": "25",
+                    "subCaptionFontSize": "12",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Times New Roman",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "20",
+                    "captionPadding ": "35",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/column3d-chart-caption_10-snapshot.png",
+        "id": "column3d-chart-caption_10"
+    },
+    "column3d-chart-caption_11": {
+        "description": "chartCaption alignment bottom-right.Caption alignment with canvas",
+        "options": {
+            "type": "column3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "right",
+                    "captionOnTop": "0",
+                    "captionFontSize": "29",
+                    "subCaptionFontSize": "17",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Times New Roman",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "12",
+                    "captionPadding ": "0",
+                    "xAxisName": "x-axis {br} with {br} line {br} break",
+                    "yAxisName": "This is long y-axis name",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/column3d-chart-caption_11-snapshot.png",
+        "id": "column3d-chart-caption_11"
+    },
+    "pie2d-chart-caption_0": {
+        "description": "chartCaption alignment top-center.Caption alignment with canvas",
+        "options": {
+            "type": "pie2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the Caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "center",
+                    "captionOnTop": "1",
+                    "captionFontSize": "40",
+                    "subCaptionFontSize": "20",
+                    "subCaptionFont": "Verdana",
+                    "subCaptionFontColor": "#FF0000",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "20",
+                    "captionPadding ": "30",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/pie2d-chart-caption_0-snapshot.png",
+        "id": "pie2d-chart-caption_0"
+    },
+    "pie2d-chart-caption_1": {
+        "description": "chartCaption alignment top-center.Caption does not alignment with canvas",
+        "options": {
+            "type": "pie2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "center",
+                    "captionOnTop": "1",
+                    "captionFontSize": "35",
+                    "subCaptionFontSize": "25",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#0000FF",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#ff0000",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "0",
+                    "captionPadding ": "20",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/pie2d-chart-caption_1-snapshot.png",
+        "id": "pie2d-chart-caption_1"
+    },
+    "pie2d-chart-caption_2": {
+        "description": "chartCaption alignment top-left.Caption does not alignment with canvas",
+        "options": {
+            "type": "pie2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "left",
+                    "captionOnTop": "1",
+                    "captionFontSize": "48",
+                    "subCaptionFontSize": "25",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "15",
+                    "captionPadding ": "25",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/pie2d-chart-caption_2-snapshot.png",
+        "id": "pie2d-chart-caption_2"
+    },
+    "pie2d-chart-caption_3": {
+        "description": "chartCaption alignment top-left.Caption alignment with canvas",
+        "options": {
+            "type": "pie2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "left",
+                    "captionOnTop": "1",
+                    "captionFontSize": "50",
+                    "subCaptionFontSize": "30",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "15",
+                    "captionPadding ": "25",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/pie2d-chart-caption_3-snapshot.png",
+        "id": "pie2d-chart-caption_3"
+    },
+    "pie2d-chart-caption_4": {
+        "description": "chartCaption alignment top-right. Caption alignment with canvas",
+        "options": {
+            "type": "pie2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "canvasRightMargin": "100",
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "right",
+                    "captionOnTop": "1",
+                    "captionFontSize": "42",
+                    "subCaptionFontSize": "31",
+                    "subCaptionFont": "cursive",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Times New Roman",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "24",
+                    "captionPadding ": "30",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/pie2d-chart-caption_4-snapshot.png",
+        "id": "pie2d-chart-caption_4"
+    },
+    "pie2d-chart-caption_5": {
+        "description": "chartCaption alignment top-right.Caption does not alignment with canvas",
+        "options": {
+            "type": "pie2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the Caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "right",
+                    "captionOnTop": "1",
+                    "captionFontSize": "22",
+                    "subCaptionFontSize": "12",
+                    "subCaptionFont": "cursive",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Times New Roman",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "30",
+                    "captionPadding ": "19",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/pie2d-chart-caption_5-snapshot.png",
+        "id": "pie2d-chart-caption_5"
+    },
+    "pie2d-chart-caption_6": {
+        "description": "chartCaption alignment bottom-left.Caption does not alignment with canvas",
+        "options": {
+            "type": "pie2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "left",
+                    "captionOnTop": "0",
+                    "captionFontSize": "28",
+                    "subCaptionFontSize": "20",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "25",
+                    "captionPadding ": "5",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/pie2d-chart-caption_6-snapshot.png",
+        "id": "pie2d-chart-caption_6"
+    },
+    "pie2d-chart-caption_7": {
+        "description": "chartCaption alignment bottom-left.Caption alignment with canvas",
+        "options": {
+            "type": "pie2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "left",
+                    "captionOnTop": "0",
+                    "captionFontSize": "39",
+                    "subCaptionFontSize": "21",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "25",
+                    "captionPadding ": "5",
+                    "showLegend": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/pie2d-chart-caption_7-snapshot.png",
+        "id": "pie2d-chart-caption_7"
+    },
+    "pie2d-chart-caption_8": {
+        "description": "chartCaption alignment bottom-center.Caption does not alignment with canvas",
+        "options": {
+            "type": "pie2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "center",
+                    "captionOnTop": "0",
+                    "captionFontSize": "50",
+                    "subCaptionFontSize": "35",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "18",
+                    "captionPadding ": "20",
+                    "showLegend": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/pie2d-chart-caption_8-snapshot.png",
+        "id": "pie2d-chart-caption_8"
+    },
+    "pie2d-chart-caption_9": {
+        "description": "chartCaption alignment bottom-center.Caption alignment with canvas",
+        "options": {
+            "type": "pie2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "center",
+                    "captionOnTop": "0",
+                    "captionFontSize": "39",
+                    "subCaptionFontSize": "34",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "1",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "18",
+                    "captionPadding ": "20",
+                    "showLegend": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/pie2d-chart-caption_9-snapshot.png",
+        "id": "pie2d-chart-caption_9"
+    },
+    "pie2d-chart-caption_10": {
+        "description": "chartCaption alignment bottom-right.Caption does not alignment with canvas",
+        "options": {
+            "type": "pie2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption {br} text{br} with {br} a {br} line{br} break",
+                    "subcaption": "This is the sub-caption text {br} with a line {br} break",
+                    "captionAlignment": "right",
+                    "captionOnTop": "0",
+                    "captionFontSize": "25",
+                    "subCaptionFontSize": "12",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Times New Roman",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "20",
+                    "captionPadding ": "35",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/pie2d-chart-caption_10-snapshot.png",
+        "id": "pie2d-chart-caption_10"
+    },
+    "pie2d-chart-caption_11": {
+        "description": "chartCaption alignment bottom-right.Caption alignment with canvas",
+        "options": {
+            "type": "pie2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "This is the caption text",
+                    "subcaption": "This is the sub-caption text",
+                    "captionAlignment": "right",
+                    "captionOnTop": "0",
+                    "captionFontSize": "29",
+                    "subCaptionFontSize": "17",
+                    "subCaptionFont": "Arial",
+                    "subCaptionFontColor": "#FF0555",
+                    "subCaptionFontBold": "0",
+                    "captionFont": "Times New Roman",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "12",
+                    "captionPadding ": "0",
+                    "showLegend": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "500",
+                        "label": "January"
+                    },
+                    {
+                        "value": "600",
+                        "label": "February"
+                    },
+                    {
+                        "value": "550",
+                        "label": "March"
+                    },
+                    {
+                        "value": "800",
+                        "label": "April"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/chart-caption/single-series-charts/ref-images/pie2d-chart-caption_11-snapshot.png",
+        "id": "pie2d-chart-caption_11"
+    }
+}

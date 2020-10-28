@@ -1,0 +1,5154 @@
+{
+  "fusion-column": {
+    "id": "fusion-column",
+    "description": "fusion theme with column",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "fusion"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": [
+            {
+              "value": "Measure1"
+            },
+            {
+              "value": "Measure2"
+            },
+            {
+              "value": "Measure3"
+            },
+            {
+              "value": "Measure4"
+            }
+          ],
+          "plotType": "column",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "column - umber"
+        }
+      }
+    }
+  },
+  "fusion-line": {
+    "id": "fusion-line",
+    "description": "fusion theme with line",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "fusion"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": [
+            {
+              "value": "Measure1"
+            },
+            {
+              "value": "Measure2"
+            },
+            {
+              "value": "Measure3"
+            },
+            {
+              "value": "Measure4"
+            }
+          ],
+          "plotType": "line",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "line - umber"
+        }
+      }
+    }
+  },
+  "fusion-smooth-line": {
+    "id": "fusion-smooth-line",
+    "description": "fusion theme with smooth-line",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "fusion"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": [
+            {
+              "value": "Measure1"
+            },
+            {
+              "value": "Measure2"
+            },
+            {
+              "value": "Measure3"
+            },
+            {
+              "value": "Measure4"
+            }
+          ],
+          "plotType": "smooth-line",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "smooth-line - umber"
+        }
+      }
+    }
+  },
+  "fusion-step-line": {
+    "id": "fusion-step-line",
+    "description": "fusion theme with step-line",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "fusion"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": [
+            {
+              "value": "Measure1"
+            },
+            {
+              "value": "Measure2"
+            },
+            {
+              "value": "Measure3"
+            },
+            {
+              "value": "Measure4"
+            }
+          ],
+          "plotType": "step-line",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "step-line - umber"
+        }
+      }
+    }
+  },
+  "fusion-area": {
+    "id": "fusion-area",
+    "description": "fusion theme with area",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "fusion"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": [
+            {
+              "value": "Measure1"
+            },
+            {
+              "value": "Measure2"
+            },
+            {
+              "value": "Measure3"
+            },
+            {
+              "value": "Measure4"
+            }
+          ],
+          "plotType": "area",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "area - umber"
+        }
+      }
+    }
+  },
+  "fusion-smooth-area": {
+    "id": "fusion-smooth-area",
+    "description": "fusion theme with smooth-area",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "fusion"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": [
+            {
+              "value": "Measure1"
+            },
+            {
+              "value": "Measure2"
+            },
+            {
+              "value": "Measure3"
+            },
+            {
+              "value": "Measure4"
+            }
+          ],
+          "plotType": "smooth-area",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "smooth-area - umber"
+        }
+      }
+    }
+  },
+  "fusion-step-area": {
+    "id": "fusion-step-area",
+    "description": "fusion theme with step-area",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "fusion"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": [
+            {
+              "value": "Measure1"
+            },
+            {
+              "value": "Measure2"
+            },
+            {
+              "value": "Measure3"
+            },
+            {
+              "value": "Measure4"
+            }
+          ],
+          "plotType": "step-area",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "step-area - umber"
+        }
+      }
+    }
+  },
+  "fusion-candlestick": {
+    "id": "fusion-candlestick",
+    "description": "fusion theme with candlestick",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "fusion"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": {
+            "type": "candlestick",
+            "value": {
+              "open": "Measure1",
+              "high": "Measure2",
+              "low": "Measure3",
+              "close": "Measure4"
+            }
+          },
+          "plotType": "candlestick",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "candlestick - umber"
+        }
+      }
+    }
+  },
+  "fusion-ohlc": {
+    "id": "fusion-ohlc",
+    "description": "fusion theme with ohlc",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "fusion"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": {
+            "type": "ohlc",
+            "value": {
+              "open": "Measure1",
+              "high": "Measure2",
+              "low": "Measure3",
+              "close": "Measure4"
+            }
+          },
+          "plotType": "ohlc",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "ohlc - umber"
+        }
+      }
+    }
+  },
+  "fusion-column-range": {
+    "id": "fusion-column-range",
+    "description": "fusion theme with column range",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "fusion"
+        },
+        "datamarker": [
+          {
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": {
+            "type": "column-range",
+            "value": {
+              "high": "Measure2",
+              "low": "Measure3"
+            }
+          },
+          "plotType": "ohlc",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "ohlc - column-range"
+        }
+      }
+    }
+  },
+  "fusion-area-range": {
+    "id": "fusion-area-range",
+    "description": "fusion theme with area range",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "fusion"
+        },
+        "datamarker": [
+          {
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": {
+            "type": "area-range",
+            "value": {
+              "high": "Measure2",
+              "low": "Measure3"
+            }
+          },
+          "plotType": "ohlc",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "ohlc - area-range"
+        }
+      }
+    }
+  },
+  "candy-column": {
+    "id": "candy-column",
+    "description": "candy theme with column",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "candy"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": [
+            {
+              "value": "Measure1"
+            },
+            {
+              "value": "Measure2"
+            },
+            {
+              "value": "Measure3"
+            },
+            {
+              "value": "Measure4"
+            }
+          ],
+          "plotType": "column",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "column - umber"
+        }
+      }
+    }
+  },
+  "candy-line": {
+    "id": "candy-line",
+    "description": "candy theme with line",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "candy"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": [
+            {
+              "value": "Measure1"
+            },
+            {
+              "value": "Measure2"
+            },
+            {
+              "value": "Measure3"
+            },
+            {
+              "value": "Measure4"
+            }
+          ],
+          "plotType": "line",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "line - umber"
+        }
+      }
+    }
+  },
+  "candy-smooth-line": {
+    "id": "candy-smooth-line",
+    "description": "candy theme with smooth-line",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "candy"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": [
+            {
+              "value": "Measure1"
+            },
+            {
+              "value": "Measure2"
+            },
+            {
+              "value": "Measure3"
+            },
+            {
+              "value": "Measure4"
+            }
+          ],
+          "plotType": "smooth-line",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "smooth-line - umber"
+        }
+      }
+    }
+  },
+  "candy-step-line": {
+    "id": "candy-step-line",
+    "description": "candy theme with step-line",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "candy"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": [
+            {
+              "value": "Measure1"
+            },
+            {
+              "value": "Measure2"
+            },
+            {
+              "value": "Measure3"
+            },
+            {
+              "value": "Measure4"
+            }
+          ],
+          "plotType": "step-line",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "step-line - umber"
+        }
+      }
+    }
+  },
+  "candy-area": {
+    "id": "candy-area",
+    "description": "candy theme with area",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "candy"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": [
+            {
+              "value": "Measure1"
+            },
+            {
+              "value": "Measure2"
+            },
+            {
+              "value": "Measure3"
+            },
+            {
+              "value": "Measure4"
+            }
+          ],
+          "plotType": "area",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "area - umber"
+        }
+      }
+    }
+  },
+  "candy-smooth-area": {
+    "id": "candy-smooth-area",
+    "description": "candy theme with smooth-area",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "candy"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": [
+            {
+              "value": "Measure1"
+            },
+            {
+              "value": "Measure2"
+            },
+            {
+              "value": "Measure3"
+            },
+            {
+              "value": "Measure4"
+            }
+          ],
+          "plotType": "smooth-area",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "smooth-area - umber"
+        }
+      }
+    }
+  },
+  "candy-step-area": {
+    "id": "candy-step-area",
+    "description": "candy theme with step-area",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "candy"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": [
+            {
+              "value": "Measure1"
+            },
+            {
+              "value": "Measure2"
+            },
+            {
+              "value": "Measure3"
+            },
+            {
+              "value": "Measure4"
+            }
+          ],
+          "plotType": "step-area",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "step-area - umber"
+        }
+      }
+    }
+  },
+  "candy-candlestick": {
+    "id": "candy-candlestick",
+    "description": "candy theme with candlestick",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "candy"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": {
+            "type": "candlestick",
+            "value": {
+              "open": "Measure1",
+              "high": "Measure2",
+              "low": "Measure3",
+              "close": "Measure4"
+            }
+          },
+          "plotType": "candlestick",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "candlestick - umber"
+        }
+      }
+    }
+  },
+  "candy-ohlc": {
+    "id": "candy-ohlc",
+    "description": "candy theme with ohlc",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "candy"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": {
+            "type": "ohlc",
+            "value": {
+              "open": "Measure1",
+              "high": "Measure2",
+              "low": "Measure3",
+              "close": "Measure4"
+            }
+          },
+          "plotType": "ohlc",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "ohlc - umber"
+        }
+      }
+    }
+  },
+  "candy-column-range": {
+    "id": "candy-column-range",
+    "description": "candy theme with column range",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "candy"
+        },
+        "datamarker": [
+          {
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": {
+            "type": "column-range",
+            "value": {
+              "high": "Measure2",
+              "low": "Measure3"
+            }
+          },
+          "plotType": "ohlc",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "ohlc - column-range"
+        }
+      }
+    }
+  },
+  "candy-area-range": {
+    "id": "candy-area-range",
+    "description": "candy theme with area range",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "candy"
+        },
+        "datamarker": [
+          {
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": {
+            "type": "area-range",
+            "value": {
+              "high": "Measure2",
+              "low": "Measure3"
+            }
+          },
+          "plotType": "ohlc",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "ohlc - area-range"
+        }
+      }
+    }
+  },
+  "gammel-column": {
+    "id": "gammel-column",
+    "description": "gammel theme with column",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "gammel"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": [
+            {
+              "value": "Measure1"
+            },
+            {
+              "value": "Measure2"
+            },
+            {
+              "value": "Measure3"
+            },
+            {
+              "value": "Measure4"
+            }
+          ],
+          "plotType": "column",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "column - umber"
+        }
+      }
+    }
+  },
+  "gammel-line": {
+    "id": "gammel-line",
+    "description": "gammel theme with line",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "gammel"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": [
+            {
+              "value": "Measure1"
+            },
+            {
+              "value": "Measure2"
+            },
+            {
+              "value": "Measure3"
+            },
+            {
+              "value": "Measure4"
+            }
+          ],
+          "plotType": "line",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "line - umber"
+        }
+      }
+    }
+  },
+  "gammel-smooth-line": {
+    "id": "gammel-smooth-line",
+    "description": "gammel theme with smooth-line",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "gammel"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": [
+            {
+              "value": "Measure1"
+            },
+            {
+              "value": "Measure2"
+            },
+            {
+              "value": "Measure3"
+            },
+            {
+              "value": "Measure4"
+            }
+          ],
+          "plotType": "smooth-line",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "smooth-line - umber"
+        }
+      }
+    }
+  },
+  "gammel-step-line": {
+    "id": "gammel-step-line",
+    "description": "gammel theme with step-line",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "gammel"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": [
+            {
+              "value": "Measure1"
+            },
+            {
+              "value": "Measure2"
+            },
+            {
+              "value": "Measure3"
+            },
+            {
+              "value": "Measure4"
+            }
+          ],
+          "plotType": "step-line",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "step-line - umber"
+        }
+      }
+    }
+  },
+  "gammel-area": {
+    "id": "gammel-area",
+    "description": "gammel theme with area",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "gammel"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": [
+            {
+              "value": "Measure1"
+            },
+            {
+              "value": "Measure2"
+            },
+            {
+              "value": "Measure3"
+            },
+            {
+              "value": "Measure4"
+            }
+          ],
+          "plotType": "area",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "area - umber"
+        }
+      }
+    }
+  },
+  "gammel-smooth-area": {
+    "id": "gammel-smooth-area",
+    "description": "gammel theme with smooth-area",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "gammel"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": [
+            {
+              "value": "Measure1"
+            },
+            {
+              "value": "Measure2"
+            },
+            {
+              "value": "Measure3"
+            },
+            {
+              "value": "Measure4"
+            }
+          ],
+          "plotType": "smooth-area",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "smooth-area - umber"
+        }
+      }
+    }
+  },
+  "gammel-step-area": {
+    "id": "gammel-step-area",
+    "description": "gammel theme with step-area",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "gammel"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": [
+            {
+              "value": "Measure1"
+            },
+            {
+              "value": "Measure2"
+            },
+            {
+              "value": "Measure3"
+            },
+            {
+              "value": "Measure4"
+            }
+          ],
+          "plotType": "step-area",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "step-area - umber"
+        }
+      }
+    }
+  },
+  "gammel-candlestick": {
+    "id": "gammel-candlestick",
+    "description": "gammel theme with candlestick",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "gammel"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": {
+            "type": "candlestick",
+            "value": {
+              "open": "Measure1",
+              "high": "Measure2",
+              "low": "Measure3",
+              "close": "Measure4"
+            }
+          },
+          "plotType": "candlestick",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "candlestick - umber"
+        }
+      }
+    }
+  },
+  "gammel-ohlc": {
+    "id": "gammel-ohlc",
+    "description": "gammel theme with ohlc",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "gammel"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": {
+            "type": "ohlc",
+            "value": {
+              "open": "Measure1",
+              "high": "Measure2",
+              "low": "Measure3",
+              "close": "Measure4"
+            }
+          },
+          "plotType": "ohlc",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "ohlc - umber"
+        }
+      }
+    }
+  },
+  "gammel-column-range": {
+    "id": "gammel-column-range",
+    "description": "gammel theme with column range",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "gammel"
+        },
+        "datamarker": [
+          {
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": {
+            "type": "column-range",
+            "value": {
+              "high": "Measure2",
+              "low": "Measure3"
+            }
+          },
+          "plotType": "ohlc",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "ohlc - column-range"
+        }
+      }
+    }
+  },
+  "gammel-area-range": {
+    "id": "gammel-area-range",
+    "description": "gammel theme with area range",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "gammel"
+        },
+        "datamarker": [
+          {
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": {
+            "type": "area-range",
+            "value": {
+              "high": "Measure2",
+              "low": "Measure3"
+            }
+          },
+          "plotType": "ohlc",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "ohlc - area-range"
+        }
+      }
+    }
+  },
+  "umber-column": {
+    "id": "umber-column",
+    "description": "umber theme with column",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "umber"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": [
+            {
+              "value": "Measure1"
+            },
+            {
+              "value": "Measure2"
+            },
+            {
+              "value": "Measure3"
+            },
+            {
+              "value": "Measure4"
+            }
+          ],
+          "plotType": "column",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "column - umber"
+        }
+      }
+    }
+  },
+  "umber-line": {
+    "id": "umber-line",
+    "description": "umber theme with line",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "umber"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": [
+            {
+              "value": "Measure1"
+            },
+            {
+              "value": "Measure2"
+            },
+            {
+              "value": "Measure3"
+            },
+            {
+              "value": "Measure4"
+            }
+          ],
+          "plotType": "line",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "line - umber"
+        }
+      }
+    }
+  },
+  "umber-smooth-line": {
+    "id": "umber-smooth-line",
+    "description": "umber theme with smooth-line",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "umber"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": [
+            {
+              "value": "Measure1"
+            },
+            {
+              "value": "Measure2"
+            },
+            {
+              "value": "Measure3"
+            },
+            {
+              "value": "Measure4"
+            }
+          ],
+          "plotType": "smooth-line",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "smooth-line - umber"
+        }
+      }
+    }
+  },
+  "umber-step-line": {
+    "id": "umber-step-line",
+    "description": "umber theme with step-line",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "umber"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": [
+            {
+              "value": "Measure1"
+            },
+            {
+              "value": "Measure2"
+            },
+            {
+              "value": "Measure3"
+            },
+            {
+              "value": "Measure4"
+            }
+          ],
+          "plotType": "step-line",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "step-line - umber"
+        }
+      }
+    }
+  },
+  "umber-area": {
+    "id": "umber-area",
+    "description": "umber theme with area",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "umber"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": [
+            {
+              "value": "Measure1"
+            },
+            {
+              "value": "Measure2"
+            },
+            {
+              "value": "Measure3"
+            },
+            {
+              "value": "Measure4"
+            }
+          ],
+          "plotType": "area",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "area - umber"
+        }
+      }
+    }
+  },
+  "umber-smooth-area": {
+    "id": "umber-smooth-area",
+    "description": "umber theme with smooth-area",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "umber"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": [
+            {
+              "value": "Measure1"
+            },
+            {
+              "value": "Measure2"
+            },
+            {
+              "value": "Measure3"
+            },
+            {
+              "value": "Measure4"
+            }
+          ],
+          "plotType": "smooth-area",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "smooth-area - umber"
+        }
+      }
+    }
+  },
+  "umber-step-area": {
+    "id": "umber-step-area",
+    "description": "umber theme with step-area",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "umber"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": [
+            {
+              "value": "Measure1"
+            },
+            {
+              "value": "Measure2"
+            },
+            {
+              "value": "Measure3"
+            },
+            {
+              "value": "Measure4"
+            }
+          ],
+          "plotType": "step-area",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "step-area - umber"
+        }
+      }
+    }
+  },
+  "umber-candlestick": {
+    "id": "umber-candlestick",
+    "description": "umber theme with candlestick",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "umber"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": {
+            "type": "candlestick",
+            "value": {
+              "open": "Measure1",
+              "high": "Measure2",
+              "low": "Measure3",
+              "close": "Measure4"
+            }
+          },
+          "plotType": "candlestick",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "candlestick - umber"
+        }
+      }
+    }
+  },
+  "umber-ohlc": {
+    "id": "umber-ohlc",
+    "description": "umber theme with ohlc",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "umber"
+        },
+        "datamarker": [
+          {
+            "value": "Measure1",
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "value": "Measure1",
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": {
+            "type": "ohlc",
+            "value": {
+              "open": "Measure1",
+              "high": "Measure2",
+              "low": "Measure3",
+              "close": "Measure4"
+            }
+          },
+          "plotType": "ohlc",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "ohlc - umber"
+        }
+      }
+    }
+  },
+  "umber-column-range": {
+    "id": "umber-column-range",
+    "description": "umber theme with column range",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "umber"
+        },
+        "datamarker": [
+          {
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": {
+            "type": "column-range",
+            "value": {
+              "high": "Measure2",
+              "low": "Measure3"
+            }
+          },
+          "plotType": "ohlc",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "ohlc - column-range"
+        }
+      }
+    }
+  },
+  "umber-area-range": {
+    "id": "umber-area-range",
+    "description": "umber theme with area range",
+    "options": {
+      "data-id": "theme-data",
+      "schema-id": "theme-schema",
+      "type": "timeseries",
+      "width": 1000,
+      "height": 600,
+      "dataFormat": "json",
+      "dataSource": {
+        "caption": {
+          "text": "I am a caption"
+        },
+        "subcaption": {
+          "text": "I am a subcaption"
+        },
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "theme": "umber"
+        },
+        "datamarker": [
+          {
+            "time": "1992",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "time": "1994",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P",
+            "tooltext": "Custom Datamarker ToolText on Measure1"
+          },
+          {
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "flag",
+            "identifier": "F"
+          },
+          {
+            "time": "1996",
+            "timeformat": "%Y",
+            "type": "pin",
+            "identifier": "P"
+          }
+        ],
+        "xaxis": {
+          "plot": "Time",
+          "title": "This is an xAxisName",
+          "timemarker": [
+            {
+              "start": "1998",
+              "end": "2004",
+              "label": "Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2006",
+              "end": "2012",
+              "type": "full",
+              "label": "Full Time Marker",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2015",
+              "label": "Time Instant Sample - FULL",
+              "type": "full",
+              "timeformat": "%Y"
+            },
+            {
+              "start": "2018",
+              "label": "Time Instant Sample - MINIMAL",
+              "type": "minimal",
+              "timeformat": "%Y"
+            }
+          ]
+        },
+        "yaxis": {
+          "plot": {
+            "type": "area-range",
+            "value": {
+              "high": "Measure2",
+              "low": "Measure3"
+            }
+          },
+          "plotType": "ohlc",
+          "referenceLine": [
+            {
+              "label": "THIS IS  A REFLINE",
+              "value": 90
+            }
+          ],
+          "referenceZone": [
+            {
+              "label": "Target",
+              "valueMin": 50,
+              "valueMax": 80
+            }
+          ],
+          "showgridband": "1",
+          "title": "ohlc - area-range"
+        }
+      }
+    }
+  }
+}

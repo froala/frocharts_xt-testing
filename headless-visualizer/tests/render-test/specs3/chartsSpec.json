@@ -1,0 +1,1288 @@
+{
+    "heatmap": {
+        "description": " Rendering heatmap",
+        "options": {
+            "type": "heatmap",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Top Smartphone Ratings",
+                    "subcaption": "By Features",
+                    "xAxisName": "Features",
+                    "yAxisName": "Model",
+                    "showplotborder": "1",
+                    "xAxisLabelsOnTop": "1",
+                    "plottooltext": "<div id='nameDiv' style='font-size: 12px; border-bottom: 1px dashed #666666; font-weight:bold; padding-bottom: 3px; margin-bottom: 5px; display: inline-block; color: #888888;' >$rowLabel :</div>{br}Rating : <b>$dataValue</b>{br}$columnLabel : <b>$tlLabel</b>{br}<b>$trLabel</b>",
+                    "baseFontColor": "#333333",
+                    "baseFont": "Helvetica Neue,Arial",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "showBorder": "0",
+                    "bgColor": "#ffffff",
+                    "showShadow": "0",
+                    "usePlotGradientColor": "0",
+                    "canvasBgColor": "#ffffff",
+                    "canvasBorderAlpha": "0",
+                    "legendBgAlpha": "0",
+                    "legendBorderAlpha": "0",
+                    "legendShadow": "0",
+                    "legendItemFontSize": "10",
+                    "legendItemFontColor": "#666666",
+                    "toolTipColor": "#ffffff",
+                    "toolTipBorderThickness": "0",
+                    "toolTipBgColor": "#000000",
+                    "toolTipBgAlpha": "80",
+                    "toolTipBorderRadius": "2",
+                    "toolTipPadding": "5",
+                    "animation": "0"
+                },
+                "rows": {
+                    "row": [
+                        {
+                            "id": "SGS5",
+                            "label": "Samsung Galaxy S5"
+                        },
+                        {
+                            "id": "HTC1M8",
+                            "label": "HTC One (M8)"
+                        },
+                        {
+                            "id": "IPHONES5",
+                            "label": "Apple iPhone 5S"
+                        },
+                        {
+                            "id": "LUMIA",
+                            "label": "Nokia Lumia 1520"
+                        }
+                    ]
+                },
+                "columns": {
+                    "column": [
+                        {
+                            "id": "processor",
+                            "label": "Processor"
+                        },
+                        {
+                            "id": "screen",
+                            "label": "Screen Size"
+                        },
+                        {
+                            "id": "price",
+                            "label": "Price"
+                        },
+                        {
+                            "id": "backup",
+                            "label": "Battery Backup"
+                        },
+                        {
+                            "id": "cam",
+                            "label": "Camera"
+                        }
+                    ]
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "rowid": "SGS5",
+                                "columnid": "processor",
+                                "value": "8.7",
+                                "tllabel": "Quad Core 2.5 GHz",
+                                "trlabel": "OS : Android 4.4 Kitkat"
+                            },
+                            {
+                                "rowid": "SGS5",
+                                "columnid": "screen",
+                                "value": "8.5",
+                                "tllabel": "5.1 inch",
+                                "trlabel": "AMOLED screen"
+                            },
+                            {
+                                "rowid": "SGS5",
+                                "columnid": "price",
+                                "value": "9.3",
+                                "tllabel": "$600"
+                            },
+                            {
+                                "rowid": "SGS5",
+                                "columnid": "backup",
+                                "value": "9.7",
+                                "tllabel": "29 Hrs",
+                                "trlabel": "Battery : 2800 MAH"
+                            },
+                            {
+                                "rowid": "SGS5",
+                                "columnid": "cam",
+                                "value": "8",
+                                "tllabel": "16 MP",
+                                "trlabel": "Front Camera : 2.1 MP"
+                            },
+                            {
+                                "rowid": "HTC1M8",
+                                "columnid": "processor",
+                                "value": "9.2",
+                                "tllabel": "Quad Core 2.3 GHz",
+                                "trlabel": "OS : Android 4.4 Kitkat"
+                            },
+                            {
+                                "rowid": "HTC1M8",
+                                "columnid": "screen",
+                                "value": "8.3",
+                                "tllabel": "5 inch",
+                                "trlabel": "LCD screen"
+                            },
+                            {
+                                "rowid": "HTC1M8",
+                                "columnid": "price",
+                                "value": "7.3",
+                                "tllabel": "$600"
+                            },
+                            {
+                                "rowid": "HTC1M8",
+                                "columnid": "backup",
+                                "value": "8.8",
+                                "tllabel": "20 Hrs",
+                                "trlabel": "Battery : 2600 MAH"
+                            },
+                            {
+                                "rowid": "HTC1M8",
+                                "columnid": "cam",
+                                "value": "8.7",
+                                "tllabel": "4 MP",
+                                "trlabel": "Front Camera : 5 MP"
+                            },
+                            {
+                                "rowid": "IPHONES5",
+                                "columnid": "processor",
+                                "value": "9.1",
+                                "tllabel": "Dual Core",
+                                "trlabel": "OS : iOS 7"
+                            },
+                            {
+                                "rowid": "IPHONES5",
+                                "columnid": "screen",
+                                "value": "8.6",
+                                "tllabel": "4 inch",
+                                "trlabel": "Retina LCD screen"
+                            },
+                            {
+                                "rowid": "IPHONES5",
+                                "columnid": "price",
+                                "value": "7.2",
+                                "tllabel": "$649"
+                            },
+                            {
+                                "rowid": "IPHONES5",
+                                "columnid": "backup",
+                                "value": "8.4",
+                                "tllabel": "10 Hrs",
+                                "trlabel": "Battery : 1560 MAH"
+                            },
+                            {
+                                "rowid": "IPHONES5",
+                                "columnid": "cam",
+                                "value": "9.5",
+                                "tllabel": "8 MP",
+                                "trlabel": "Front Camera : 1.2 MP"
+                            },
+                            {
+                                "rowid": "LUMIA",
+                                "columnid": "processor",
+                                "value": "8.8",
+                                "tllabel": "Quad Core 2.2 GHz",
+                                "trlabel": "OS: Windows Phone 8"
+                            },
+                            {
+                                "rowid": "LUMIA",
+                                "columnid": "screen",
+                                "value": "9.1",
+                                "tllabel": "6 inch",
+                                "trlabel": "LCD screen"
+                            },
+                            {
+                                "rowid": "LUMIA",
+                                "columnid": "price",
+                                "value": "9.7",
+                                "tllabel": "$470"
+                            },
+                            {
+                                "rowid": "LUMIA",
+                                "columnid": "backup",
+                                "value": "9.2",
+                                "tllabel": "27 Hrs",
+                                "trlabel": "Battery : 3400 MAH"
+                            },
+                            {
+                                "rowid": "LUMIA",
+                                "columnid": "cam",
+                                "value": "8.1",
+                                "tllabel": "20MP",
+                                "trlabel": "Front Camera : 1.2 MP"
+                            }
+                        ]
+                    }
+                ],
+                "colorrange": {
+                    "gradient": "0",
+                    "minvalue": "0",
+                    "code": "E24B1A",
+                    "startlabel": "Poor",
+                    "endlabel": "Good",
+                    "color": [
+                        {
+                            "code": "E24B1A",
+                            "minvalue": "1",
+                            "maxvalue": "5",
+                            "label": "Bad"
+                        },
+                        {
+                            "code": "F6BC33",
+                            "minvalue": "5",
+                            "maxvalue": "8.5",
+                            "label": "Average"
+                        },
+                        {
+                            "code": "6DA81E",
+                            "minvalue": "8.5",
+                            "maxvalue": "10",
+                            "label": "Good"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "heatmap",
+        "refimage": "./tests/render-test/specs3/ref-images/heatmap-snapshot.png"
+    },
+    "hled": {
+        "description": " Rendering hled",
+        "options": {
+            "type": "hled",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Customer satisfaction score",
+                    "subcaption": "Current week - Bakersfield Central",
+                    "subcaptionFontBold": "0",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "lowerLimitDisplay": "Bad",
+                    "upperLimitDisplay": "Good",
+                    "numberSuffix": "%",
+                    "showValue": "0",
+                    "showBorder": "0",
+                    "bgColor": "#ffffff",
+                    "showShadow": "0",
+                    "tickMarkDistance": "5",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "45",
+                            "code": "#8e0000"
+                        },
+                        {
+                            "minValue": "45",
+                            "maxValue": "75",
+                            "code": "#f2c500"
+                        },
+                        {
+                            "minValue": "75",
+                            "maxValue": "100",
+                            "code": "#1aaf5d"
+                        }
+                    ]
+                },
+                "value": "92"
+            }
+        },
+        "id": "hled",
+        "refimage": "./tests/render-test/specs3/ref-images/hled-snapshot.png"
+    },
+    "hlineargauge": {
+        "description": " Rendering hlineargauge",
+        "options": {
+            "type": "hlineargauge",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Server CPU Utilization",
+                    "subcaption": "food.hsm.com",
+                    "captionFontColor": "#000000",
+                    "subcaptionFontBold": "0",
+                    "bgColor": "#ffffff",
+                    "showBorder": "0",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "numberSuffix": "%",
+                    "valueAbovePointer": "0",
+                    "showShadow": "0",
+                    "gaugeFillMix": "{light}",
+                    "valueBgColor": "#ffffff",
+                    "valueBgAlpha": "60",
+                    "valueFontColor": "#000000",
+                    "pointerBgColor": "#ffffff",
+                    "pointerBgAlpha": "50",
+                    "baseFontColor": "#ffffff",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "35",
+                            "label": "Low",
+                            "code": "#1aaf5d"
+                        },
+                        {
+                            "minValue": "35",
+                            "maxValue": "70",
+                            "label": "Moderate",
+                            "code": "#f2c500"
+                        },
+                        {
+                            "minValue": "70",
+                            "maxValue": "100",
+                            "label": "High",
+                            "code": "#c02d00"
+                        }
+                    ]
+                },
+                "pointers": {
+                    "pointer": [
+                        {
+                            "value": "72.5"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "hlineargauge",
+        "refimage": "./tests/render-test/specs3/ref-images/hlineargauge-snapshot.png"
+    },
+    "inversecolumn2d": {
+        "description": " Rendering inversecolumn2d",
+        "options": {
+            "type": "inversemscolumn2d",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Average Page Load Time (hsm.com)",
+                    "subCaption": "Last Week",
+                    "showBorder": "0",
+                    "xAxisName": "Day",
+                    "yAxisName": "Time (In Sec)",
+                    "numberSuffix": "s",
+                    "baseFontColor": "#333333",
+                    "baseFont": "Helvetica Neue,Arial",
+                    "paletteColors": "#0075c2",
+                    "bgColor": "#ffffff",
+                    "canvasBgColor": "#ffffff",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "showPlotBorder": "0",
+                    "showXAxisLine": "1",
+                    "showLegend": "0",
+                    "showShadow": "0",
+                    "showCanvasBorder": "0",
+                    "showAlternateHGridColor": "0",
+                    "usePlotGradientColor": "0",
+                    "divlineColor": "#999999",
+                    "divlineThickness": "1",
+                    "divLineIsDashed": "1",
+                    "divLineDashLen": "1",
+                    "divLineGapLen": "1",
+                    "xAxisLineThickness": "1",
+                    "xAxisLineColor": "#999999",
+                    "toolTipColor": "#ffffff",
+                    "toolTipBorderThickness": "0",
+                    "toolTipBgColor": "#000000",
+                    "toolTipBgAlpha": "80",
+                    "toolTipBorderRadius": "2",
+                    "toolTipPadding": "5",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Mon"
+                            },
+                            {
+                                "label": "Tue"
+                            },
+                            {
+                                "label": "Wed"
+                            },
+                            {
+                                "label": "Thu"
+                            },
+                            {
+                                "label": "Fri"
+                            },
+                            {
+                                "label": "Sat"
+                            },
+                            {
+                                "label": "Sun"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Loading Time",
+                        "allowDrag": "0",
+                        "data": [
+                            {
+                                "value": "6"
+                            },
+                            {
+                                "value": "5.8"
+                            },
+                            {
+                                "value": "5"
+                            },
+                            {
+                                "value": "4.3"
+                            },
+                            {
+                                "value": "4.1"
+                            },
+                            {
+                                "value": "3.8"
+                            },
+                            {
+                                "value": "3.2"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "inversecolumn2d",
+        "refimage": "./tests/render-test/specs3/ref-images/inversecolumn2d-snapshot.png"
+    },
+    "inversemsarea": {
+        "description": " Rendering inversemsarea",
+        "options": {
+            "type": "inversemsarea",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Daily bounce rate",
+                    "subCaption": "Last week",
+                    "xAxisName": "Day",
+                    "yAxisName": "Percentage",
+                    "numberSuffix": "%",
+                    "showBorder": "0",
+                    "paletteColors": "#0075c2,#1aaf5d",
+                    "bgColor": "#ffffff",
+                    "usePlotGradientColor": "0",
+                    "plotFillAlpha": "50",
+                    "showCanvasBorder": "0",
+                    "LegendShadow": "0",
+                    "legendBorderAlpha": "0",
+                    "showXAxisLine": "1",
+                    "axisLineAlpha": "40",
+                    "divlineColor": "#999999",
+                    "divlineThickness": "1",
+                    "divLineIsDashed": "1",
+                    "divLineDashLen": "1",
+                    "divLineGapLen": "1",
+                    "showAlternateHgridColor": "0",
+                    "showValues": "0",
+                    "baseFontColor": "#333333",
+                    "baseFont": "Helvetica Neue,Arial",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "toolTipColor": "#ffffff",
+                    "toolTipBorderThickness": "0",
+                    "toolTipBgColor": "#000000",
+                    "toolTipBgAlpha": "80",
+                    "toolTipBorderRadius": "2",
+                    "toolTipPadding": "5",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Mon"
+                            },
+                            {
+                                "label": "Tue"
+                            },
+                            {
+                                "label": "Wed"
+                            },
+                            {
+                                "label": "Thu"
+                            },
+                            {
+                                "label": "Fri"
+                            },
+                            {
+                                "label": "Sat"
+                            },
+                            {
+                                "label": "Sun"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "food.hsm.com",
+                        "data": [
+                            {
+                                "value": "27"
+                            },
+                            {
+                                "value": "22"
+                            },
+                            {
+                                "value": "25"
+                            },
+                            {
+                                "value": "27"
+                            },
+                            {
+                                "value": "21"
+                            },
+                            {
+                                "value": "29"
+                            },
+                            {
+                                "value": "22"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "cloth.hsm.com",
+                        "data": [
+                            {
+                                "value": "42"
+                            },
+                            {
+                                "value": "38"
+                            },
+                            {
+                                "value": "39"
+                            },
+                            {
+                                "value": "36"
+                            },
+                            {
+                                "value": "43"
+                            },
+                            {
+                                "value": "44"
+                            },
+                            {
+                                "value": "35"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "inversemsarea",
+        "refimage": "./tests/render-test/specs3/ref-images/inversemsarea-snapshot.png"
+    },
+    "inversemsline": {
+        "description": " Rendering inversemsline",
+        "options": {
+            "type": "inversemsline",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Average Page Load Time (hsm.com)",
+                    "subCaption": "Last Week",
+                    "showBorder": "0",
+                    "xAxisName": "Day",
+                    "yAxisName": "Time (In Sec)",
+                    "numberSuffix": "s",
+                    "lineThickness": "2",
+                    "paletteColors": "#008ee4,#6baa01",
+                    "baseFontColor": "#333333",
+                    "baseFont": "Helvetica Neue,Arial",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "bgColor": "#ffffff",
+                    "showShadow": "0",
+                    "showLegend": "0",
+                    "canvasBgColor": "#ffffff",
+                    "canvasBorderAlpha": "0",
+                    "divlineAlpha": "100",
+                    "divlineColor": "#999999",
+                    "divlineThickness": "1",
+                    "divLineIsDashed": "1",
+                    "divLineDashLen": "1",
+                    "divLineGapLen": "1",
+                    "showXAxisLine": "1",
+                    "xAxisLineThickness": "1",
+                    "xAxisLineColor": "#999999",
+                    "showAlternateHGridColor": "0",
+                    "toolTipColor": "#ffffff",
+                    "toolTipBorderThickness": "0",
+                    "toolTipBgColor": "#000000",
+                    "toolTipBgAlpha": "80",
+                    "toolTipBorderRadius": "2",
+                    "toolTipPadding": "5",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Mon"
+                            },
+                            {
+                                "label": "Tue"
+                            },
+                            {
+                                "label": "Wed"
+                            },
+                            {
+                                "label": "Thu"
+                            },
+                            {
+                                "label": "Fri"
+                            },
+                            {
+                                "label": "Sat"
+                            },
+                            {
+                                "label": "Sun"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Loading Time",
+                        "allowDrag": "0",
+                        "data": [
+                            {
+                                "value": "6"
+                            },
+                            {
+                                "value": "5.8"
+                            },
+                            {
+                                "value": "5"
+                            },
+                            {
+                                "value": "4.3"
+                            },
+                            {
+                                "value": "4.1"
+                            },
+                            {
+                                "value": "3.8"
+                            },
+                            {
+                                "value": "3.2"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "inversemsline",
+        "refimage": "./tests/render-test/specs3/ref-images/inversemsline-snapshot.png"
+    },
+    "kagi": {
+        "description": " Rendering kagi",
+        "options": {
+            "type": "kagi",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Stock Price HRYS",
+                    "subCaption": "Last 2 months",
+                    "numberPrefix": "$",
+                    "xAxisName": "Day",
+                    "yAxisName": "Amount (In USD)",
+                    "showValues": "0",
+                    "drawAnchors": "0",
+                    "labelDisplay": "Rotate",
+                    "reversalPercentage": "5",
+                    "showBorder": "0",
+                    "bgColor": "#ffffff",
+                    "showCanvasBorder": "0",
+                    "showXAxisLine": "1",
+                    "axisLineAlpha": "40",
+                    "divlineColor": "#999999",
+                    "divlineThickness": "1",
+                    "divLineIsDashed": "1",
+                    "divLineDashLen": "1",
+                    "divLineGapLen": "1",
+                    "rallycolor": "#0075c2",
+                    "declinecolor": "#8e0000",
+                    "rallythickness": "3",
+                    "declinethickness": "3",
+                    "baseFontColor": "#333333",
+                    "baseFont": "Helvetica Neue,Arial",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "showAlternateHGridColor": "0",
+                    "toolTipColor": "#ffffff",
+                    "toolTipBorderThickness": "0",
+                    "toolTipBgColor": "#000000",
+                    "toolTipBgAlpha": "80",
+                    "toolTipBorderRadius": "2",
+                    "toolTipPadding": "5",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Day 60",
+                        "value": "18.99"
+                    },
+                    {
+                        "label": "Day 59",
+                        "value": "18.82"
+                    },
+                    {
+                        "label": "Day 58",
+                        "value": "18.65"
+                    },
+                    {
+                        "label": "Day 57",
+                        "value": "19.4"
+                    },
+                    {
+                        "label": "Day 56",
+                        "value": "19.92"
+                    },
+                    {
+                        "label": "Day 55",
+                        "value": "20.16"
+                    },
+                    {
+                        "label": "Day 54",
+                        "value": "20.48"
+                    },
+                    {
+                        "label": "Day 53",
+                        "value": "20.15"
+                    },
+                    {
+                        "label": "Day 52",
+                        "value": "20.22"
+                    },
+                    {
+                        "label": "Day 51",
+                        "value": "19.44"
+                    },
+                    {
+                        "label": "Day 50",
+                        "value": "19.22"
+                    },
+                    {
+                        "label": "Day 49",
+                        "value": "19.24"
+                    },
+                    {
+                        "label": "Day 48",
+                        "value": "18.95"
+                    },
+                    {
+                        "label": "Day 47",
+                        "value": "18.97"
+                    },
+                    {
+                        "label": "Day 46",
+                        "value": "18.7"
+                    },
+                    {
+                        "label": "Day 45",
+                        "value": "19.05"
+                    },
+                    {
+                        "label": "Day 44",
+                        "value": "19.33"
+                    },
+                    {
+                        "label": "Day 43",
+                        "value": "18.52"
+                    },
+                    {
+                        "label": "Day 42",
+                        "value": "18.26"
+                    },
+                    {
+                        "label": "Day 41",
+                        "value": "18.51"
+                    },
+                    {
+                        "label": "Day 40",
+                        "value": "18.66"
+                    },
+                    {
+                        "label": "Day 39",
+                        "value": "19.2"
+                    },
+                    {
+                        "label": "Day 38",
+                        "value": "19.33"
+                    },
+                    {
+                        "label": "Day 37",
+                        "value": "19.27"
+                    },
+                    {
+                        "label": "Day 36",
+                        "value": "19.77"
+                    },
+                    {
+                        "label": "Day 35",
+                        "value": "19.88"
+                    },
+                    {
+                        "label": "Day 34",
+                        "close": "19.63"
+                    },
+                    {
+                        "label": "Day 33",
+                        "value": "20.65"
+                    },
+                    {
+                        "label": "Day 32",
+                        "value": "21.33"
+                    },
+                    {
+                        "label": "Day 31",
+                        "value": "20.56"
+                    },
+                    {
+                        "label": "Day 30",
+                        "value": "20.36"
+                    },
+                    {
+                        "label": "Day 29",
+                        "value": "20.03"
+                    },
+                    {
+                        "label": "Day 28",
+                        "value": "19.88"
+                    },
+                    {
+                        "label": "Day 27",
+                        "value": "19.9"
+                    },
+                    {
+                        "label": "Day 26",
+                        "value": "19.5"
+                    },
+                    {
+                        "label": "Day 25",
+                        "value": "19.43"
+                    },
+                    {
+                        "label": "Day 24",
+                        "value": "19.41"
+                    },
+                    {
+                        "label": "Day 23",
+                        "value": "19.83"
+                    },
+                    {
+                        "label": "Day 22",
+                        "value": "21"
+                    },
+                    {
+                        "label": "Day 21",
+                        "value": "20.44"
+                    },
+                    {
+                        "label": "Day 20",
+                        "value": "20.3"
+                    },
+                    {
+                        "label": "Day 19",
+                        "value": "21.63"
+                    },
+                    {
+                        "label": "Day 18",
+                        "value": "23.28"
+                    },
+                    {
+                        "label": "Day 17",
+                        "value": "23.94"
+                    },
+                    {
+                        "label": "Day 16",
+                        "value": "23.48"
+                    },
+                    {
+                        "label": "Day 15",
+                        "value": "22.74"
+                    },
+                    {
+                        "label": "Day 14",
+                        "value": "22.24"
+                    },
+                    {
+                        "label": "Day 13",
+                        "value": "22.42"
+                    },
+                    {
+                        "label": "Day 12",
+                        "value": "22.68"
+                    },
+                    {
+                        "label": "Day 11",
+                        "value": "23.46"
+                    },
+                    {
+                        "label": "Day 10",
+                        "value": "23.6"
+                    },
+                    {
+                        "label": "Day 9",
+                        "value": "24.15"
+                    },
+                    {
+                        "label": "Day 8",
+                        "value": "24.1"
+                    },
+                    {
+                        "label": "Day 7",
+                        "value": "23.47"
+                    },
+                    {
+                        "label": "Day 6",
+                        "value": "23.76"
+                    },
+                    {
+                        "label": "Day 55",
+                        "value": "23.66"
+                    },
+                    {
+                        "label": "Day 5",
+                        "value": "23.79"
+                    },
+                    {
+                        "label": "Day 4",
+                        "value": "23.39"
+                    },
+                    {
+                        "label": "Day 3",
+                        "value": "23.88"
+                    },
+                    {
+                        "label": "Day 2",
+                        "value": "23.01"
+                    },
+                    {
+                        "label": "Yesterday",
+                        "value": "23.32"
+                    }
+                ]
+            }
+        },
+        "id": "kagi",
+        "refimage": "./tests/render-test/specs3/ref-images/kagi-snapshot.png"
+    },
+    "line": {
+        "description": " Rendering line",
+        "options": {
+            "type": "line",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Total footfall in Bakersfield Central",
+                    "subCaption": "Last week",
+                    "xAxisName": "Day",
+                    "yAxisName": "No. of Visitors",
+                    "lineThickness": "2",
+                    "paletteColors": "#0075c2",
+                    "baseFontColor": "#333333",
+                    "baseFont": "Helvetica Neue,Arial",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "showBorder": "0",
+                    "bgColor": "#ffffff",
+                    "showShadow": "0",
+                    "canvasBgColor": "#ffffff",
+                    "canvasBorderAlpha": "0",
+                    "divlineAlpha": "100",
+                    "divlineColor": "#999999",
+                    "divlineThickness": "1",
+                    "divLineIsDashed": "1",
+                    "divLineDashLen": "1",
+                    "divLineGapLen": "1",
+                    "showXAxisLine": "1",
+                    "xAxisLineThickness": "1",
+                    "xAxisLineColor": "#999999",
+                    "showAlternateHGridColor": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Mon",
+                        "value": "15123"
+                    },
+                    {
+                        "label": "Tue",
+                        "value": "14233"
+                    },
+                    {
+                        "label": "Wed",
+                        "value": "23507"
+                    },
+                    {
+                        "label": "Thu",
+                        "value": "9110"
+                    },
+                    {
+                        "label": "Fri",
+                        "value": "15529"
+                    },
+                    {
+                        "label": "Sat",
+                        "value": "20803"
+                    },
+                    {
+                        "label": "Sun",
+                        "value": "19202"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "18500",
+                                "color": "#1aaf5d",
+                                "displayvalue": "Average{br}weekly{br}footfall",
+                                "valueOnRight": "1",
+                                "thickness": "2"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "line",
+        "refimage": "./tests/render-test/specs3/ref-images/line-snapshot.png"
+    },
+    "logmscolumn2d": {
+        "description": " Rendering logmscolumn2d",
+        "options": {
+            "type": "logmscolumn2d",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Store footfall vs Online visitors ",
+                    "subCaption": "Last Year",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "baseFontColor": "#333333",
+                    "baseFont": "Helvetica Neue,Arial",
+                    "xAxisName": "Quarter",
+                    "yAxisName": "No of visitors",
+                    "paletteColors": "#0075c2,#1aaf5d",
+                    "bgColor": "#ffffff",
+                    "showBorder": "0",
+                    "showCanvasBorder": "0",
+                    "showPlotBorder": "0",
+                    "showAlternateHgridColor": "0",
+                    "showXAxisLine": "1",
+                    "usePlotGradientcolor": "0",
+                    "valueFontColor": "#ffffff",
+                    "placeValuesInside": "1",
+                    "rotateValues": "1",
+                    "LegendShadow": "0",
+                    "legendBorderAlpha": "0",
+                    "base": "10",
+                    "axisLineAlpha": "10",
+                    "toolTipColor": "#ffffff",
+                    "toolTipBorderThickness": "0",
+                    "toolTipBgColor": "#000000",
+                    "toolTipBgAlpha": "80",
+                    "toolTipBorderRadius": "2",
+                    "toolTipPadding": "5",
+                    "divlineAlpha": "100",
+                    "divlineColor": "#999999",
+                    "divlineThickness": "1",
+                    "divLineIsDashed": "1",
+                    "divLineDashLen": "1",
+                    "divLineGapLen": "1",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Q1"
+                            },
+                            {
+                                "label": "Q2"
+                            },
+                            {
+                                "label": "Q3"
+                            },
+                            {
+                                "label": "Q4"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Total footfalls",
+                        "data": [
+                            {
+                                "value": "126734"
+                            },
+                            {
+                                "value": "159851"
+                            },
+                            {
+                                "value": "197393"
+                            },
+                            {
+                                "value": "168560"
+                            },
+                            {
+                                "value": "199428"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Online Visits",
+                        "data": [
+                            {
+                                "value": "1126059"
+                            },
+                            {
+                                "value": "1292145"
+                            },
+                            {
+                                "value": "1496849"
+                            },
+                            {
+                                "value": "1460249"
+                            },
+                            {
+                                "value": "1083962"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "logmscolumn2d",
+        "refimage": "./tests/render-test/specs3/ref-images/logmscolumn2d-snapshot.png"
+    },
+    "logmsline": {
+        "description": " Rendering logmsline",
+        "options": {
+            "type": "logmsline",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Store footfall vs Online visitors ",
+                    "subCaption": "Last Year",
+                    "xAxisName": "Quarter",
+                    "yAxisName": "USD",
+                    "paletteColors": "#008ee4,#6baa01,#e44a00",
+                    "bgAlpha": "0",
+                    "borderAlpha": "20",
+                    "canvasBorderAlpha": "0",
+                    "LegendShadow": "0",
+                    "legendBorderAlpha": "0",
+                    "showXAxisLine": "1",
+                    "showValues": "0",
+                    "showBorder": "0",
+                    "showAlternateHgridColor": "0",
+                    "base": "10",
+                    "numberprefix": "$",
+                    "axisLineAlpha": "10",
+                    "divLineAlpha": "10",
+                    "toolTipColor": "#ffffff",
+                    "toolTipBorderThickness": "0",
+                    "toolTipBgColor": "#000000",
+                    "toolTipBgAlpha": "80",
+                    "toolTipBorderRadius": "2",
+                    "toolTipPadding": "5",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Q1"
+                            },
+                            {
+                                "label": "Q2"
+                            },
+                            {
+                                "label": "Q3"
+                            },
+                            {
+                                "label": "Q4"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Total footfalls",
+                        "data": [
+                            {
+                                "value": "126734"
+                            },
+                            {
+                                "value": "159851"
+                            },
+                            {
+                                "value": "197393"
+                            },
+                            {
+                                "value": "168560"
+                            },
+                            {
+                                "value": "199428"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Online Visits",
+                        "data": [
+                            {
+                                "value": "1126059"
+                            },
+                            {
+                                "value": "1292145"
+                            },
+                            {
+                                "value": "1496849"
+                            },
+                            {
+                                "value": "1460249"
+                            },
+                            {
+                                "value": "1083962"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "logmsline",
+        "refimage": "./tests/render-test/specs3/ref-images/logmsline-snapshot.png"
+    }
+}

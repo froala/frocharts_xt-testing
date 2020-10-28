@@ -1,0 +1,611 @@
+{
+    "area2d": {
+        "description": " Renderingarea2d",
+        "options": {
+            "type": "area2d",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales of Liquor",
+                    "subCaption": "Last week",
+                    "xAxisName": "Day",
+                    "yAxisName": "Sales (In USD)",
+                    "numberPrefix": "$",
+                    "paletteColors": "#0075c2",
+                    "bgColor": "#ffffff",
+                    "showBorder": "0",
+                    "showCanvasBorder": "0",
+                    "plotBorderAlpha": "10",
+                    "usePlotGradientColor": "0",
+                    "plotFillAlpha": "50",
+                    "showXAxisLine": "1",
+                    "axisLineAlpha": "25",
+                    "divLineAlpha": "10",
+                    "showValues": "1",
+                    "showAlternateHGridColor": "0",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "toolTipColor": "#ffffff",
+                    "toolTipBorderThickness": "0",
+                    "toolTipBgColor": "#000000",
+                    "toolTipBgAlpha": "80",
+                    "toolTipBorderRadius": "2",
+                    "toolTipPadding": "5",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Mon",
+                        "value": "4123"
+                    },
+                    {
+                        "label": "Tue",
+                        "value": "4633"
+                    },
+                    {
+                        "label": "Wed",
+                        "value": "5507"
+                    },
+                    {
+                        "label": "Thu",
+                        "value": "4910"
+                    },
+                    {
+                        "label": "Fri",
+                        "value": "5529"
+                    },
+                    {
+                        "label": "Sat",
+                        "value": "5803"
+                    },
+                    {
+                        "label": "Sun",
+                        "value": "6202"
+                    }
+                ]
+            }
+        },
+        "id": "area2d",
+        "refimage": "./tests/render-test/specs1/ref-images/area2d-snapshot.png"
+    },
+    "angulargauge": {
+        "description": " Rendering angulargauge",
+        "options": {
+            "type": "angulargauge",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Speedometer",
+                    "captionFont": "Arial",
+                    "captionFontColor": "#333333",
+                    "manageresize": "1",
+                    "origw": "320",
+                    "origh": "320",
+                    "tickvaluedistance": "-10",
+                    "bgcolor": "#FFFFFF",
+                    "upperlimit": "240",
+                    "lowerlimit": "0",
+                    "basefontcolor": "#FFFFFF",
+                    "majortmnumber": "9",
+                    "majortmcolor": "#FFFFFF",
+                    "majortmheight": "8",
+                    "majortmthickness": "5",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#FFFFFF",
+                    "minortmheight": "3",
+                    "minortmthickness": "2",
+                    "pivotradius": "10",
+                    "pivotbgcolor": "#000000",
+                    "pivotbordercolor": "#FFFFFF",
+                    "pivotborderthickness": "2",
+                    "tooltipbordercolor": "#FFFFFF",
+                    "tooltipbgcolor": "#333333",
+                    "gaugeouterradius": "115",
+                    "gaugestartangle": "240",
+                    "gaugeendangle": "-60",
+                    "gaugealpha": "0",
+                    "decimals": "0",
+                    "showcolorrange": "0",
+                    "placevaluesinside": "1",
+                    "pivotfillmix": "",
+                    "showpivotborder": "1",
+                    "annrenderdelay": "0",
+                    "gaugeoriginx": "160",
+                    "gaugeoriginy": "160",
+                    "showborder": "0",
+                    "animation": "0"
+                },
+                "dials": {
+                    "dial": [
+                        {
+                            "value": "65",
+                            "bgcolor": "000000",
+                            "bordercolor": "#FFFFFF",
+                            "borderalpha": "100",
+                            "basewidth": "4",
+                            "topwidth": "4",
+                            "borderthickness": "2",
+                            "valuey": "260"
+                        }
+                    ]
+                },
+                "annotations": {
+                    "groups": [
+                        {
+                            "x": "160",
+                            "y": "160",
+                            "items": [
+                                {
+                                    "type": "circle",
+                                    "radius": "130",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#4B4B4B,#AAAAAA",
+                                    "fillalpha": "100,100",
+                                    "fillratio": "95,5"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "0",
+                                    "y": "0",
+                                    "radius": "120",
+                                    "showborder": "1",
+                                    "bordercolor": "cccccc",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#ffffff,#000000",
+                                    "fillalpha": "50,100",
+                                    "fillratio": "1,99"
+                                }
+                            ]
+                        },
+                        {
+                            "x": "160",
+                            "y": "160",
+                            "showbelow": "0",
+                            "scaletext": "1",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "y": "100",
+                                    "label": "KPH",
+                                    "fontcolor": "#FFFFFF",
+                                    "fontsize": "14",
+                                    "bold": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "angulargauge",
+        "refimage": "./tests/render-test/specs1/ref-images/angulargauge-snapshot.png"
+    },
+    "bar2d": {
+        "description": " Rendering bar2d",
+        "options": {
+            "type": "bar2d",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Top 5 Stores by Sales",
+                    "subCaption": "Last month",
+                    "yAxisName": "Sales (In USD)",
+                    "numberPrefix": "$",
+                    "paletteColors": "#0075c2",
+                    "bgColor": "#ffffff",
+                    "showBorder": "0",
+                    "showCanvasBorder": "0",
+                    "usePlotGradientColor": "0",
+                    "plotBorderAlpha": "10",
+                    "placeValuesInside": "1",
+                    "valueFontColor": "#ffffff",
+                    "showAxisLines": "1",
+                    "axisLineAlpha": "25",
+                    "divLineAlpha": "10",
+                    "alignCaptionWithCanvas": "0",
+                    "showAlternateVGridColor": "0",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "toolTipColor": "#ffffff",
+                    "toolTipBorderThickness": "0",
+                    "toolTipBgColor": "#000000",
+                    "toolTipBgAlpha": "80",
+                    "toolTipBorderRadius": "2",
+                    "toolTipPadding": "5",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Bakersfield Central",
+                        "value": "880000"
+                    },
+                    {
+                        "label": "Garden Groove harbour",
+                        "value": "730000"
+                    },
+                    {
+                        "label": "Los Angeles Topanga",
+                        "value": "590000"
+                    },
+                    {
+                        "label": "Compton-Rancho Dom",
+                        "value": "520000"
+                    },
+                    {
+                        "label": "Daly City Serramonte",
+                        "value": "330000"
+                    }
+                ]
+            }
+        },
+        "id": "bar2d",
+        "refimage": "./tests/render-test/specs1/ref-images/bar2d-snapshot.png"
+    },
+    "boxandwhisker2d": {
+        "description": " Rendering boxandwhisker2d",
+        "options": {
+            "type": "boxandwhisker2d",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Distribution of annual salaries",
+                    "subcaption": "By Gender",
+                    "xAxisName": "Pay Grades",
+                    "YAxisName": "Salaries (In USD)",
+                    "numberPrefix": "$",
+                    "paletteColors": "#0075c2,#1aaf5d,#f2c500,#f45b00",
+                    "bgColor": "#ffffff",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "showBorder": "0",
+                    "showCanvasBorder": "0",
+                    "showAlternateHGridColor": "0",
+                    "legendBorderAlpha": "0",
+                    "legendShadow": "0",
+                    "legendPosition": "right",
+                    "showValues": "0",
+                    "toolTipColor": "#ffffff",
+                    "toolTipBorderThickness": "0",
+                    "toolTipBgColor": "#000000",
+                    "toolTipBgAlpha": "80",
+                    "toolTipBorderRadius": "2",
+                    "toolTipPadding": "5",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Grade 1"
+                            },
+                            {
+                                "label": "Grade 2"
+                            },
+                            {
+                                "label": "Grade 3"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Male",
+                        "lowerboxcolor": "#0075c2",
+                        "upperboxcolor": "#1aaf5d",
+                        "data": [
+                            {
+                                "value": "2400,2000,2500,2800,3500,4000, 3700, 3750, 3880, 5000,5500,7500,8000,8200, 8400, 8500, 8550, 8800, 8700, 9000, 14000"
+                            },
+                            {
+                                "value": "7500,9000,12000,13000,14000,16500,17000, 18000, 19000, 19500"
+                            },
+                            {
+                                "value": "15000,19000,25000,32000,50000,65000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Female",
+                        "lowerboxcolor": "#f45b00",
+                        "upperboxcolor": "#f2c500",
+                        "data": [
+                            {
+                                "value": "1900,2100,2300,2350,2400,2550,3000,3500,4000, 6000, 6500, 9000"
+                            },
+                            {
+                                "value": "7000,8000,8300,8700,9500,11000,15000, 17000, 21000"
+                            },
+                            {
+                                "value": "24000,32000,35000,37000,39000, 58000"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "boxandwhisker2d",
+        "refimage": "./tests/render-test/specs1/ref-images/boxandwhisker2d-snapshot.png"
+    },
+    "bubble": {
+        "description": " Rendering bubble",
+        "options": {
+            "type": "bubble",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales Analysis of Shoe Brands",
+                    "subcaption": "Last Quarter",
+                    "xAxisMinValue": "0",
+                    "xAxisMaxValue": "100",
+                    "yAxisMinValue": "0",
+                    "yAxisMaxValue": "30000",
+                    "plotFillAlpha": "70",
+                    "plotFillHoverColor": "#6baa01",
+                    "showPlotBorder": "0",
+                    "xAxisName": "Average Price",
+                    "yAxisName": "Units Sold",
+                    "numDivlines": "2",
+                    "showValues": "1",
+                    "showTrendlineLabels": "0",
+                    "plotTooltext": "$name : Profit Contribution - $zvalue%",
+                    "drawQuadrant": "1",
+                    "quadrantLineAlpha": "80",
+                    "quadrantLineThickness": "3",
+                    "quadrantXVal": "50",
+                    "quadrantYVal": "15000",
+                    "quadrantLabelTL": "Low Price / High Sale",
+                    "quadrantLabelTR": "High Price / High Sale",
+                    "quadrantLabelBL": "Low Price / Low Sale",
+                    "quadrantLabelBR": "High Price / Low Sale",
+                    "baseFontColor": "#333333",
+                    "baseFont": "Helvetica Neue,Arial",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "showBorder": "0",
+                    "bgColor": "#ffffff",
+                    "showShadow": "0",
+                    "canvasBgColor": "#ffffff",
+                    "canvasBorderAlpha": "0",
+                    "divlineAlpha": "100",
+                    "divlineColor": "#999999",
+                    "divlineThickness": "1",
+                    "divLineIsDashed": "1",
+                    "divLineDashLen": "1",
+                    "divLineGapLen": "1",
+                    "use3dlighting": "0",
+                    "showplotborder": "0",
+                    "showYAxisLine": "1",
+                    "yAxisLineThickness": "1",
+                    "yAxisLineColor": "#999999",
+                    "showXAxisLine": "1",
+                    "xAxisLineThickness": "1",
+                    "xAxisLineColor": "#999999",
+                    "showAlternateHGridColor": "0",
+                    "showAlternateVGridColor": "0",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "$0",
+                                "x": "0"
+                            },
+                            {
+                                "label": "$20",
+                                "x": "20",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "$40",
+                                "x": "40",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "$60",
+                                "x": "60",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "$80",
+                                "x": "80",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "$100",
+                                "x": "100",
+                                "showverticalline": "1"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "color": "#00aee4",
+                        "data": [
+                            {
+                                "x": "80",
+                                "y": "15000",
+                                "z": "24",
+                                "name": "Nike"
+                            },
+                            {
+                                "x": "60",
+                                "y": "18500",
+                                "z": "26",
+                                "name": "Adidas"
+                            },
+                            {
+                                "x": "50",
+                                "y": "19450",
+                                "z": "19",
+                                "name": "Puma"
+                            },
+                            {
+                                "x": "65",
+                                "y": "10500",
+                                "z": "8",
+                                "name": "Fila"
+                            },
+                            {
+                                "x": "43",
+                                "y": "8750",
+                                "z": "5",
+                                "name": "Lotto"
+                            },
+                            {
+                                "x": "32",
+                                "y": "22000",
+                                "z": "10",
+                                "name": "Reebok"
+                            },
+                            {
+                                "x": "44",
+                                "y": "13000",
+                                "z": "9",
+                                "name": "Woodland"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startValue": "20000",
+                                "endValue": "30000",
+                                "isTrendZone": "1",
+                                "color": "#aaaaaa",
+                                "alpha": "14"
+                            },
+                            {
+                                "startValue": "10000",
+                                "endValue": "20000",
+                                "isTrendZone": "1",
+                                "color": "#aaaaaa",
+                                "alpha": "7"
+                            }
+                        ]
+                    }
+                ],
+                "vTrendlines": [
+                    {
+                        "line": [
+                            {
+                                "startValue": "44",
+                                "isTrendZone": "0",
+                                "color": "#0066cc",
+                                "thickness": "1",
+                                "dashed": "1",
+                                "displayValue": "Gross Avg."
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "bubble",
+        "refimage": "./tests/render-test/specs1/ref-images/bubble-snapshot.png"
+    },
+    "column2d": {
+        "description": " Rendering column2d",
+        "options": {
+            "type": "column2d",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly revenue for last year",
+                    "subCaption": "Harry's SuperMart",
+                    "xAxisName": "Month",
+                    "yAxisName": "Revenues (In USD)",
+                    "numberPrefix": "$",
+                    "paletteColors": "#0075c2",
+                    "bgColor": "#ffffff",
+                    "borderAlpha": "20",
+                    "canvasBorderAlpha": "0",
+                    "usePlotGradientColor": "0",
+                    "plotBorderAlpha": "10",
+                    "placevaluesInside": "1",
+                    "rotatevalues": "1",
+                    "valueFontColor": "#ffffff",
+                    "showXAxisLine": "1",
+                    "xAxisLineColor": "#999999",
+                    "divlineColor": "#999999",
+                    "divLineIsDashed": "1",
+                    "showAlternateHGridColor": "0",
+                    "subcaptionFontBold": "0",
+                    "subcaptionFontSize": "14",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "900000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "730000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "#1aaf5d",
+                                "valueOnRight": "1",
+                                "displayvalue": "Monthly Target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "column2d",
+        "refimage": "./tests/render-test/specs1/ref-images/column2d-snapshot.png"
+    }
+}

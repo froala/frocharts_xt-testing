@@ -1,0 +1,183 @@
+<html>
+
+<head>
+    <title>Event Spec</title>
+    <script type="text/javascript" src="../../fusioncharts/fusioncharts.js"></script>
+    <style>
+    </style>
+    <script type="text/javascript">
+    FusionCharts.addEventListener('initialized', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts' + 'width!^!' + args.width + '!^!height!^!' + args.height);
+    });
+
+    FusionCharts.addEventListener('dataLoaded', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts');
+    });
+
+    FusionCharts.addEventListener('rendered', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts');
+    });
+
+    FusionCharts.addEventListener('renderComplete', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts');
+    });
+
+    FusionCharts.addEventListener('dataplotClick', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts' + 'chartX!^!' + args.chartX + '!^!chartY!^!' + args.chartY + '!^!pageX!^!' + args.pageX + '!^!pageY!^!' + args.pageY + '!^!datasetIndex!^!' + args.datasetIndex + '!^!datasetName!^!' + args.datasetName + '!^!dataIndex!^!' + args.dataIndex + '!^!dataValue!^!' + args.dataValue + '!^!displayValue!^!' + args.displayValue + '!^!categoryLabel!^!' + args.categoryLabel + '!^!toolText!^!' + args.toolText);
+    });
+
+    FusionCharts.addEventListener('dataplotrollout', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts' + 'chartX!^!' + args.chartX + '!^!chartY!^!' + args.chartY + '!^!pageX!^!' + args.pageX + '!^!pageY!^!' + args.pageY + '!^!datasetIndex!^!' + args.datasetIndex + '!^!datasetName!^!' + args.datasetName + '!^!dataIndex!^!' + args.dataIndex + '!^!dataValue!^!' + args.dataValue + '!^!displayValue!^!' + args.displayValue + '!^!categoryLabel!^!' + args.categoryLabel + '!^!toolText!^!' + args.toolText);
+    });
+
+    FusionCharts.addEventListener('dataplotrollover', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts' + 'chartX!^!' + args.chartX + '!^!chartY!^!' + args.chartY + '!^!pageX!^!' + args.pageX + '!^!pageY!^!' + args.pageY + '!^!datasetIndex!^!' + args.datasetIndex + '!^!datasetName!^!' + args.datasetName + '!^!dataIndex!^!' + args.dataIndex + '!^!dataValue!^!' + args.dataValue + '!^!displayValue!^!' + args.displayValue + '!^!categoryLabel!^!' + args.categoryLabel + '!^!toolText!^!' + args.toolText);
+    });
+
+    FusionCharts.ready(function() {
+        RChart = new FusionCharts({
+            type: 'msspline',
+            renderAt: 'chart-container',
+            width: '500',
+            height: '400',
+            dataFormat: 'json',
+            dataSource: {
+                "chart": {
+                    "caption": "Number of visitors last week",
+                    "subCaption": "Bakersfield Central vs Los Angeles Topanga",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "baseFontColor": "#333333",
+                    "baseFont": "Helvetica Neue,Arial",
+                    "subcaptionFontBold": "0",
+                    "xAxisName": "Day",
+                    "yAxisName": "No. of Visitor",
+                    "showValues": "0",
+                    "paletteColors": "#0075c2,#1aaf5d",
+                    "bgColor": "#ffffff",
+                    "showBorder": "0",
+                    "showShadow": "0",
+                    "showAlternateHGridColor": "0",
+                    "showCanvasBorder": "0",
+                    "showXAxisLine": "1",
+                    "xAxisLineThickness": "1",
+                    "xAxisLineColor": "#999999",
+                    "canvasBgColor": "#ffffff",
+                    "legendBorderAlpha": "0",
+                    "legendShadow": "0",
+                    "divlineAlpha": "100",
+                    "divlineColor": "#999999",
+                    "divlineThickness": "1",
+                    "divLineDashed": "1",
+                    "divLineDashLen": "1",
+                    "divLineGapLen": "1"
+                },
+                "categories": [{
+                    "category": [{
+                        "label": "Mon"
+                    }, {
+                        "label": "Tue"
+                    }, {
+                        "label": "Wed"
+                    }, {
+                        "vline": "true",
+                        "lineposition": "0",
+                        "color": "#6baa01",
+                        "labelHAlign": "right",
+                        "labelPosition": "0",
+                        "label": "National holiday"
+                    }, {
+                        "label": "Thu"
+                    }, {
+                        "label": "Fri"
+                    }, {
+                        "label": "Sat"
+                    }, {
+                        "label": "Sun"
+                    }]
+                }],
+
+                "dataset": [{
+                    "seriesname": "Bakersfield Central",
+                    "data": [{
+                        "value": "15123"
+                    }, {
+                        "value": "14233"
+                    }, {
+                        "value": "25507"
+                    }, {
+                        "value": "9110"
+                    }, {
+                        "value": "15529"
+                    }, {
+                        "value": "20803"
+                    }, {
+                        "value": "19202"
+                    }]
+                }, {
+                    "seriesname": "Los Angeles Topanga",
+                    "data": [{
+                        "value": "13400"
+                    }, {
+                        "value": "12800"
+                    }, {
+                        "value": "22800"
+                    }, {
+                        "value": "12400"
+                    }, {
+                        "value": "15800"
+                    }, {
+                        "value": "19800"
+                    }, {
+                        "value": "21800"
+                    }]
+                }]
+            }
+        });
+
+        RChart.render();
+    });
+    /*
+        (function() {
+            document.onclick = handleMouseMove;
+
+            function handleMouseMove(event) {
+                var dot, eventDoc, doc, body, pageX, pageY;
+
+                event = event || window.event; // IE-ism
+
+                // If pageX/Y aren't available and clientX/Y are,
+                // calculate pageX/Y - logic taken from jQuery.
+                // (This is to support old IE)
+                if (event.pageX == null && event.clientX != null) {
+                    eventDoc = (event.target && event.target.ownerDocument) || document;
+                    doc = eventDoc.documentElement;
+                    body = eventDoc.body;
+
+                    event.pageX = event.clientX +
+                        (doc && doc.scrollLeft || body && body.scrollLeft || 0) -
+                        (doc && doc.clientLeft || body && body.clientLeft || 0);
+                    event.pageY = event.clientY +
+                        (doc && doc.scrollTop || body && body.scrollTop || 0) -
+                        (doc && doc.clientTop || body && body.clientTop || 0);
+                }
+
+                console.log("X " + event.pageX + " Y " + event.pageY);
+            }
+        })(); */
+    </script>
+</head>
+
+<body>
+    <div id="chart-container">
+    </div>
+</body>
+
+</html>

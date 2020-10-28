@@ -1,0 +1,812 @@
+{
+    "RED-3525": {
+        "description": "For all multiseries charts,plothighligting effect is not working on plots and legendicons",
+        "category": "dynamic",
+        "options": {
+            "type": "mscolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales distribution by Employee",
+                    "subcaption": "Jan 07 - Jul 07",
+                    "numberprefix": "$",
+                    "showlegend": "1",
+                    "valuebordercolor": "ff0000",
+                    "valuebgcolor": "00ff00",
+                    "valuefontcolor": "ffff00",
+                    "valueborderthickness": "3",
+                    "valuefontsize": "20",
+                    "plothighlighteffect": "fadeout|color=#8B008B ,alpha=100,Anchorbgcolor=0000ff,AnchorborderColor=000000,anchorbgalpha=100,anchorborderalpha=100,valuebgcolor=#00FFFF ,valuebordercolor=#FF1493 ,valuefontcolor=#0000ff ,bordercolor=#7CFC00 ,BorderAlpha=100",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "vline": "true"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "26000",
+                                "color": "91C728",
+                                "displayvalue": "Target",
+                                "showontop": "1"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/mscolumn2d/ref-images/RED-3525-snapshot.png",
+        "id": "RED-3525"
+    },
+    "RED-3501": {
+        "description": "For Boxandwhisker chart,when we apply reverselegend=1 and after legend interaction,chart throws js error",
+        "category": "dynamic",
+        "options": {
+            "type": "boxandwhisker2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "reverselegend": "1",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "2008"
+                            },
+                            {
+                                "label": "2009"
+                            },
+                            {
+                                "label": "2010"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "January",
+                        "lowerboxcolor": "019FAA",
+                        "upperboxcolor": "D4DFFF",
+                        "data": [
+                            {
+                                "value": "-60,-133,-35,-67,-89,-137,-259",
+                                "outliers": "-320"
+                            },
+                            {
+                                "value": "139,197,175,114,39,67,191",
+                                "outliers": "400"
+                            },
+                            {
+                                "value": "200,107,197,239,53,26,97",
+                                "outliers": "200"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "February",
+                        "lowerboxcolor": "2A5F55",
+                        "upperboxcolor": "D47F00",
+                        "data": [
+                            {
+                                "value": "160,303,125,137,69,107,39",
+                                "outliers": "700"
+                            },
+                            {
+                                "value": "139,167,255,74,59,187,151",
+                                "outliers": "350"
+                            },
+                            {
+                                "value": "160,137,57,209,153,126,277",
+                                "outliers": "100"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/boxandwhisker2d/ref-images/RED-3501-snapshot.png",
+        "id": "RED-3501"
+    },
+    "RED-3658": {
+        "description": "Tooltip not appearing in angular gauge, vLed and hLed via feedData, use newChart.feedData('&value=10&tooltext=kadhjas')",
+        "category": "dynamic",
+        "options": {
+            "type": "angulargauge",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "bgcolor": "FFFFFF",
+                    "upperlimit": "100",
+                    "lowerlimit": "0",
+                    "showlimits": "1",
+                    "basefontcolor": "666666",
+                    "majortmnumber": "11",
+                    "majortmcolor": "666666",
+                    "majortmheight": "8",
+                    "minortmnumber": "5",
+                    "minortmcolor": "666666",
+                    "minortmheight": "3",
+                    "pivotradius": "20",
+                    "showgaugeborder": "0",
+                    "gaugeouterradius": "100",
+                    "gaugeinnerradius": "90",
+                    "gaugeoriginx": "170",
+                    "gaugeoriginy": "170",
+                    "gaugescaleangle": "320",
+                    "displayvaluedistance": "10",
+                    "placevaluesinside": "1",
+                    "gaugefillmix": "",
+                    "pivotfillmix": "{F0EFEA}, {BEBCB0}",
+                    "pivotbordercolor": "BEBCB0",
+                    "pivotfillratio": "80,20",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "80",
+                            "code": "00FF00",
+                            "alpha": "0"
+                        },
+                        {
+                            "minvalue": "80",
+                            "maxvalue": "100",
+                            "name": "Danger",
+                            "code": "FF0000",
+                            "alpha": "50"
+                        }
+                    ]
+                },
+                "dials": {
+                    "dial": [
+                        {
+                            "value": "65",
+                            "bordercolor": "FFFFFF",
+                            "bgcolor": "bebcb0, f0efea, bebcb0",
+                            "borderalpha": "0",
+                            "basewidth": "10",
+                            "topwidth": "3"
+                        }
+                    ]
+                },
+                "annotations": {
+                    "groups": [
+                        {
+                            "xpos": "170",
+                            "ypos": "170",
+                            "fillratio": "10,125,254",
+                            "fillpattern": "radial",
+                            "items": [
+                                {
+                                    "type": "circle",
+                                    "xpos": "0",
+                                    "ypos": "0",
+                                    "radius": "150",
+                                    "bordercolor": "bebcb0",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "f0efea, bebcb0",
+                                    "fillratio": "85,15"
+                                },
+                                {
+                                    "type": "circle",
+                                    "xpos": "0",
+                                    "ypos": "0",
+                                    "radius": "120",
+                                    "fillcolor": "bebcb0, f0efea",
+                                    "fillratio": "85,15"
+                                },
+                                {
+                                    "type": "circle",
+                                    "xpos": "0",
+                                    "color": "FFFFFF",
+                                    "ypos": "0",
+                                    "radius": "100",
+                                    "bordercolor": "f0efea"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/angulargauge/ref-images/RED-3658-snapshot.png",
+        "id": "RED-3658"
+    },
+    "RED-3658-vled": {
+        "description": "Tooltip not appearing in angular gauge, vLed and hLed via feedData, use newChart.feedData('&value=10&tooltext=kadhjas')",
+        "category": "dynamic",
+        "options": {
+            "type": "vled",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "lowerlimitdisplay": "Low",
+                    "upperlimitdisplay": "High",
+                    "palette": "1",
+                    "numbersuffix": "dB",
+                    "chartrightmargin": "20",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "FF0000"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00"
+                        }
+                    ]
+                },
+                "value": "102"
+            }
+        },
+        "refimage": "./tests/others/vled/ref-images/RED-3658-vled-snapshot.png",
+        "id": "RED-3658-vled"
+    },
+    "RED-3658-hled": {
+        "description": "Tooltip not appearing in angular gauge, vLed and hLed via feedData, use newChart.feedData('&value=10&tooltext=kadhjas')",
+        "category": "dynamic",
+        "options": {
+            "type": "hled",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "lowerlimitdisplay": "Low",
+                    "upperlimitdisplay": "High",
+                    "palette": "1",
+                    "numbersuffix": "dB",
+                    "chartrightmargin": "20",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "FF0000"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00"
+                        }
+                    ]
+                },
+                "value": "102"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/RED-3658-hled-snapshot.png",
+        "id": "RED-3658-hled"
+    },
+    "RED-3659-hled": {
+        "description": "Escape characters not supported in tooltext via feedData(), use newChart.feedData('&value=10&tooltext=kadhjas'), see issue for supported characters",
+        "category": "dynamic",
+        "options": {
+            "type": "hled",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "lowerlimit": "0",
+                    "upperlimit": "120",
+                    "lowerlimitdisplay": "Low",
+                    "upperlimitdisplay": "High",
+                    "palette": "1",
+                    "numbersuffix": "dB",
+                    "chartrightmargin": "20",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "60",
+                            "code": "FF0000"
+                        },
+                        {
+                            "minvalue": "60",
+                            "maxvalue": "90",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "120",
+                            "code": "00FF00"
+                        }
+                    ]
+                },
+                "value": "102"
+            }
+        },
+        "refimage": "./tests/others/hled/ref-images/RED-3659-hled-snapshot.png",
+        "id": "RED-3659-hled"
+    },
+    "RED-3533": {
+        "description": "For all dragable charts,proper max value is not set when we set it through chart interaction and for unreal max value color is also not changed. click on max yaxisvalue on the chart and changed that value.If we want to set more than max value then chart sets wrong maxvalue and for unreal maxvalue like less than previous maxvalue ,color is not changed to red. If we change the minvalue -100 through chart interaction,you can see that yaxisname are overlapped with yaxisvalues. ",
+        "category": "dynamic",
+        "options": {
+            "type": "dragcolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "vline": "true"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "26000",
+                                "color": "91C728",
+                                "displayvalue": "Target",
+                                "showontop": "1"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/dragcolumn2d/ref-images/RED-3533-snapshot.png",
+        "id": "RED-3533"
+    },
+    "RED-3572": {
+        "description": "In Bubble chart, plot hover effect is not working",
+        "category": "dynamic",
+        "options": {
+            "type": "bubble",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales Analysis of Shoe Brands",
+                    "subcaption": "Last Quarter",
+                    "xaxisname": "Stickiness",
+                    "yaxisname": "Cost Per Service",
+                    "animation": "0",
+                    "showhovereffect": "1",
+                    "plothovereffect": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "0%",
+                                "x": "0"
+                            },
+                            {
+                                "label": "20%",
+                                "x": "20",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "40%",
+                                "x": "40",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "60%",
+                                "x": "60",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "80%",
+                                "x": "80",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "100%",
+                                "x": "100",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "-20%",
+                                "x": "-20",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "-40%",
+                                "x": "-40",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "-60%",
+                                "x": "-60",
+                                "showverticalline": "1"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Bubbles1",
+                        "data": [
+                            {
+                                "x": "-30",
+                                "y": "-30",
+                                "z": "-116",
+                                "name": "Traders"
+                            },
+                            {
+                                "x": "3",
+                                "y": "35",
+                                "z": "99",
+                                "name": "Farmers"
+                            },
+                            {
+                                "x": "8",
+                                "y": "210",
+                                "z": "-33",
+                                "name": "Individuals"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "200",
+                                "istrendzone": "0",
+                                "displayvalue": "Median Cost",
+                                "color": "0372AB"
+                            }
+                        ]
+                    }
+                ],
+                "vtrendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "0",
+                                "endvalue": "60",
+                                "istrendzone": "1",
+                                "displayvalue": "Potential Wins",
+                                "color": "663333",
+                                "alpha": "5"
+                            },
+                            {
+                                "startvalue": "60",
+                                "endvalue": "100",
+                                "istrendzone": "1",
+                                "displayvalue": "Cash Cows",
+                                "color": "990099",
+                                "alpha": "5"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/bubble/ref-images/RED-3572-snapshot.png",
+        "id": "RED-3572"
+    }
+}

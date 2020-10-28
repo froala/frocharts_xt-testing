@@ -1,0 +1,1690 @@
+{
+    "RED-8495": {
+        "description": "Umber Theme is applied in column2d chart",
+        "options": {
+            "type": "column2d",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "theme": "umber",
+                    "animation": 0
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "istrendzone": "1",
+                                "valueonright": "1",
+                                "tooltext": "AYAN",
+                                "endvalue": "900000",
+                                "color": "009933",
+                                "displayvalue": "Target",
+                                "showontop": "1",
+                                "thickness": "5"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "RED-8495"
+    },
+    "RED-8443": {
+        "description": "Y-axis is not scaling properly when one of the series is hidden and transposeAxis is set as 1",
+        "options": {
+            "type": "scatter",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "transposeaxis": "1",
+                    "animation": 0
+                },
+                "dataset": [
+                    {
+                        "seriesname": "Series 1",
+                        "data": [
+                            {
+                                "x": "1",
+                                "y": "1000"
+                            },
+                            {
+                                "x": "2",
+                                "y": "1000"
+                            },
+                            {
+                                "x": "3",
+                                "y": "1000"
+                            },
+                            {
+                                "x": "4",
+                                "y": "1000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Series 2",
+                        "data": [
+                            {
+                                "x": "1",
+                                "y": "5000"
+                            },
+                            {
+                                "x": "2",
+                                "y": "5000"
+                            },
+                            {
+                                "x": "3",
+                                "y": "5000"
+                            },
+                            {
+                                "x": "4",
+                                "y": "5000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Series 3",
+                        "initiallyhidden": "1",
+                        "data": [
+                            {
+                                "x": "1",
+                                "y": "10000"
+                            },
+                            {
+                                "x": "2",
+                                "y": "10000"
+                            },
+                            {
+                                "x": "3",
+                                "y": "10000"
+                            },
+                            {
+                                "x": "4",
+                                "y": "10000"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "RED-8443"
+    },
+    "RED-8443-1": {
+        "description": "Y-axis is not scaling properly when one of the series is hidden and transposeAxis is set as 1",
+        "options": {
+            "type": "selectscatter",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "transposeaxis": "1",
+                    "animation": 0
+                },
+                "dataset": [
+                    {
+                        "seriesname": "Series 1",
+                        "data": [
+                            {
+                                "x": "1",
+                                "y": "1000"
+                            },
+                            {
+                                "x": "2",
+                                "y": "1000"
+                            },
+                            {
+                                "x": "3",
+                                "y": "1000"
+                            },
+                            {
+                                "x": "4",
+                                "y": "1000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Series 2",
+                        "data": [
+                            {
+                                "x": "1",
+                                "y": "5000"
+                            },
+                            {
+                                "x": "2",
+                                "y": "5000"
+                            },
+                            {
+                                "x": "3",
+                                "y": "5000"
+                            },
+                            {
+                                "x": "4",
+                                "y": "5000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Series 3",
+                        "initiallyhidden": "1",
+                        "data": [
+                            {
+                                "x": "1",
+                                "y": "10000"
+                            },
+                            {
+                                "x": "2",
+                                "y": "10000"
+                            },
+                            {
+                                "x": "3",
+                                "y": "10000"
+                            },
+                            {
+                                "x": "4",
+                                "y": "10000"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "RED-8443-1"
+    },
+    "RED-8432": {
+        "description": "Charts throw js error when one dataset is disabled through visible=0 on initial render",
+        "options": {
+            "type": "mscolumn2d",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "transposeaxis": "1",
+                    "animation":"0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "visible": "0",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "RED-8432"
+    },
+    "RED-8429": {
+        "description": "connectnulldata attribute is not working in spline and msspline charts",
+        "options": {
+            "type": "spline",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "connectnulldata": "1",
+                    "animation": 0
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": ""
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ]
+            }
+        },
+        "id": "RED-8429"
+    },
+    "RED-8429-1": {
+        "description": "connectnulldata attribute is not working in spline and msspline charts",
+        "options": {
+            "type": "msspline",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "connectnulldata": "1",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": ""
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": ""
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "26000",
+                                "color": "91C728",
+                                "displayvalue": "Target",
+                                "showontop": "1"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "RED-8429-1"
+    },
+    "RED-8413": {
+        "description": "If a multiaxisline chart has more than 9 series, js error is thrown on legend hover and all series are not displayed in the legend",
+        "options": {
+            "type": "multiaxisline",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fusion",
+                    "caption": "Revenue Analysis",
+                    "subcaption": "Last 12 weeks",
+                    "basefontcolor": "#333333",
+                    "basefont": "Helvetica Neue,Arial",
+                    "xaxisname": "Week of Year",
+                    "showvalues": "0",
+                    "numvdivlines": "2",
+                    "divlinecolor": "#999999",
+                    "divlinethickness": "1",
+                    "divlineisdashed": "1",
+                    "divlinedashlen": "1",
+                    "divlinegaplen": "1",
+                    "xaxislinethickness": "1",
+                    "xaxislinecolor": "#999999",
+                    "legendborderalpha": "0",
+                    "legendshadow": "0",
+                    "aligncaptionwithcanvas": "0",
+                    "plothighlighteffect": "fadeout",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "1"
+                            },
+                            {
+                                "label": "2"
+                            },
+                            {
+                                "label": "3"
+                            },
+                            {
+                                "label": "4"
+                            },
+                            {
+                                "label": "5"
+                            },
+                            {
+                                "label": "6"
+                            },
+                            {
+                                "label": "7"
+                            },
+                            {
+                                "label": "8"
+                            },
+                            {
+                                "label": "9"
+                            },
+                            {
+                                "label": "10"
+                            },
+                            {
+                                "label": "11"
+                            },
+                            {
+                                "label": "12"
+                            }
+                        ]
+                    }
+                ],
+                "axis": [
+                    {
+                        "title": "one",
+                        "titlepos": "left",
+                        "tickwidth": "10",
+                        "numberprefix": "$",
+                        "divlineisdashed": "1",
+                        "dataset": [
+                            {
+                                "seriesname": "one",
+                                "linethickness": "3",
+                                "data": [
+                                    {
+                                        "value": "137500"
+                                    },
+                                    {
+                                        "value": "124350"
+                                    },
+                                    {
+                                        "value": "156700"
+                                    },
+                                    {
+                                        "value": "131450"
+                                    },
+                                    {
+                                        "value": "208300"
+                                    },
+                                    {
+                                        "value": "219900"
+                                    },
+                                    {
+                                        "value": "227500"
+                                    },
+                                    {
+                                        "value": "254300"
+                                    },
+                                    {
+                                        "value": "155900"
+                                    },
+                                    {
+                                        "value": "105650"
+                                    },
+                                    {
+                                        "value": "120950"
+                                    },
+                                    {
+                                        "value": "127500"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "two",
+                                "data": [
+                                    {
+                                        "value": "22567"
+                                    },
+                                    {
+                                        "value": "21348"
+                                    },
+                                    {
+                                        "value": "24846"
+                                    },
+                                    {
+                                        "value": "19237"
+                                    },
+                                    {
+                                        "value": "20672"
+                                    },
+                                    {
+                                        "value": "23403"
+                                    },
+                                    {
+                                        "value": "30278"
+                                    },
+                                    {
+                                        "value": "26719"
+                                    },
+                                    {
+                                        "value": "21940"
+                                    },
+                                    {
+                                        "value": "24396"
+                                    },
+                                    {
+                                        "value": "22340"
+                                    },
+                                    {
+                                        "value": "25439"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "three",
+                                "data": [
+                                    {
+                                        "value": "68473"
+                                    },
+                                    {
+                                        "value": "57934"
+                                    },
+                                    {
+                                        "value": "78925"
+                                    },
+                                    {
+                                        "value": "69213"
+                                    },
+                                    {
+                                        "value": "74892"
+                                    },
+                                    {
+                                        "value": "81123"
+                                    },
+                                    {
+                                        "value": "90086"
+                                    },
+                                    {
+                                        "value": "91174"
+                                    },
+                                    {
+                                        "value": "68934"
+                                    },
+                                    {
+                                        "value": "80934"
+                                    },
+                                    {
+                                        "value": "73634"
+                                    },
+                                    {
+                                        "value": "84453"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "four",
+                                "data": [
+                                    {
+                                        "value": "68473"
+                                    },
+                                    {
+                                        "value": "57934"
+                                    },
+                                    {
+                                        "value": "78925"
+                                    },
+                                    {
+                                        "value": "69213"
+                                    },
+                                    {
+                                        "value": "74892"
+                                    },
+                                    {
+                                        "value": "81123"
+                                    },
+                                    {
+                                        "value": "90086"
+                                    },
+                                    {
+                                        "value": "91174"
+                                    },
+                                    {
+                                        "value": "68934"
+                                    },
+                                    {
+                                        "value": "80934"
+                                    },
+                                    {
+                                        "value": "73634"
+                                    },
+                                    {
+                                        "value": "84453"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "five",
+                                "data": [
+                                    {
+                                        "value": "68473"
+                                    },
+                                    {
+                                        "value": "57934"
+                                    },
+                                    {
+                                        "value": "78925"
+                                    },
+                                    {
+                                        "value": "69213"
+                                    },
+                                    {
+                                        "value": "74892"
+                                    },
+                                    {
+                                        "value": "81123"
+                                    },
+                                    {
+                                        "value": "90086"
+                                    },
+                                    {
+                                        "value": "91174"
+                                    },
+                                    {
+                                        "value": "68934"
+                                    },
+                                    {
+                                        "value": "80934"
+                                    },
+                                    {
+                                        "value": "73634"
+                                    },
+                                    {
+                                        "value": "84453"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "six",
+                                "data": [
+                                    {
+                                        "value": "68473"
+                                    },
+                                    {
+                                        "value": "57934"
+                                    },
+                                    {
+                                        "value": "78925"
+                                    },
+                                    {
+                                        "value": "69213"
+                                    },
+                                    {
+                                        "value": "74892"
+                                    },
+                                    {
+                                        "value": "81123"
+                                    },
+                                    {
+                                        "value": "90086"
+                                    },
+                                    {
+                                        "value": "91174"
+                                    },
+                                    {
+                                        "value": "68934"
+                                    },
+                                    {
+                                        "value": "80934"
+                                    },
+                                    {
+                                        "value": "73634"
+                                    },
+                                    {
+                                        "value": "84453"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "seven",
+                                "data": [
+                                    {
+                                        "value": "68473"
+                                    },
+                                    {
+                                        "value": "57934"
+                                    },
+                                    {
+                                        "value": "78925"
+                                    },
+                                    {
+                                        "value": "69213"
+                                    },
+                                    {
+                                        "value": "74892"
+                                    },
+                                    {
+                                        "value": "81123"
+                                    },
+                                    {
+                                        "value": "90086"
+                                    },
+                                    {
+                                        "value": "91174"
+                                    },
+                                    {
+                                        "value": "68934"
+                                    },
+                                    {
+                                        "value": "80934"
+                                    },
+                                    {
+                                        "value": "73634"
+                                    },
+                                    {
+                                        "value": "84453"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "eight",
+                                "data": [
+                                    {
+                                        "value": "68473"
+                                    },
+                                    {
+                                        "value": "57934"
+                                    },
+                                    {
+                                        "value": "78925"
+                                    },
+                                    {
+                                        "value": "69213"
+                                    },
+                                    {
+                                        "value": "74892"
+                                    },
+                                    {
+                                        "value": "81123"
+                                    },
+                                    {
+                                        "value": "90086"
+                                    },
+                                    {
+                                        "value": "91174"
+                                    },
+                                    {
+                                        "value": "68934"
+                                    },
+                                    {
+                                        "value": "80934"
+                                    },
+                                    {
+                                        "value": "73634"
+                                    },
+                                    {
+                                        "value": "84453"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "nine",
+                                "data": [
+                                    {
+                                        "value": "68473"
+                                    },
+                                    {
+                                        "value": "57934"
+                                    },
+                                    {
+                                        "value": "78925"
+                                    },
+                                    {
+                                        "value": "69213"
+                                    },
+                                    {
+                                        "value": "74892"
+                                    },
+                                    {
+                                        "value": "81123"
+                                    },
+                                    {
+                                        "value": "90086"
+                                    },
+                                    {
+                                        "value": "91174"
+                                    },
+                                    {
+                                        "value": "68934"
+                                    },
+                                    {
+                                        "value": "80934"
+                                    },
+                                    {
+                                        "value": "73634"
+                                    },
+                                    {
+                                        "value": "84453"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "ten",
+                                "data": [
+                                    {
+                                        "value": "63373"
+                                    },
+                                    {
+                                        "value": "57934"
+                                    },
+                                    {
+                                        "value": "78925"
+                                    },
+                                    {
+                                        "value": "69213"
+                                    },
+                                    {
+                                        "value": "74892"
+                                    },
+                                    {
+                                        "value": "81123"
+                                    },
+                                    {
+                                        "value": "986"
+                                    },
+                                    {
+                                        "value": "87674"
+                                    },
+                                    {
+                                        "value": "68934"
+                                    },
+                                    {
+                                        "value": "80934"
+                                    },
+                                    {
+                                        "value": "73439"
+                                    },
+                                    {
+                                        "value": "84453"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "RED-8413"
+    },
+    "RED-8282": {
+        "description": "legend item text alignment breaks if hasrtltext=1",
+        "options": {
+            "type": "zoomscatter",
+            "width": "800",
+            "height": "550",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "labellink": "n-http://google.co.in",
+                    "palette": "2",
+                    "hasrtltext": "1",
+                    "caption": "Server Performance",
+                    "yaxisname": "Response Time (sec)",
+                    "xaxisname": "Server Load (TPS)",
+                    "xaxismaxvalue": "100",
+                    "xaxisminvalue": "20",
+                    "yaxismaxvalue": "7",
+                    "animation": 0
+                },
+                "dataset": [
+                    {
+                        "drawline": "1",
+                        "seriesname": "Server 1",
+                        "color": "009900",
+                        "anchorsides": "3",
+                        "anchorradius": "4",
+                        "anchorbgcolor": "D5FFD5",
+                        "anchorbordercolor": "009900",
+                        "data": [
+                            {
+                                "y": "2.4",
+                                "x": "21"
+                            },
+                            {
+                                "y": "3.5",
+                                "x": "32"
+                            },
+                            {
+                                "y": "2.5",
+                                "x": "43"
+                            },
+                            {
+                                "y": "4.1",
+                                "x": "48"
+                            },
+                            {
+                                "y": "3.5",
+                                "x": "50"
+                            },
+                            {
+                                "y": "4.6",
+                                "x": "56"
+                            },
+                            {
+                                "y": "4.8",
+                                "x": "59"
+                            },
+                            {
+                                "y": "4.9",
+                                "x": "73"
+                            },
+                            {
+                                "y": "4.6",
+                                "x": "89"
+                            },
+                            {
+                                "y": "4.2",
+                                "x": "93"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Server 2",
+                        "color": "0000FF",
+                        "anchorsides": "4",
+                        "anchorradius": "4",
+                        "anchorbgcolor": "C6C6FF",
+                        "anchorbordercolor": "0000FF",
+                        "data": [
+                            {
+                                "y": "1.4",
+                                "x": "23"
+                            },
+                            {
+                                "y": "1.5",
+                                "x": "29"
+                            },
+                            {
+                                "y": "1.5",
+                                "x": "33"
+                            },
+                            {
+                                "y": "1.1",
+                                "x": "41"
+                            },
+                            {
+                                "y": "1.5",
+                                "x": "47"
+                            },
+                            {
+                                "y": "1.6",
+                                "x": "49"
+                            },
+                            {
+                                "y": "1.8",
+                                "x": "51"
+                            },
+                            {
+                                "y": "1.9",
+                                "x": "53"
+                            },
+                            {
+                                "y": "1.6",
+                                "x": "57"
+                            },
+                            {
+                                "y": "1.2",
+                                "x": "58"
+                            },
+                            {
+                                "y": "1.9",
+                                "x": "61"
+                            },
+                            {
+                                "y": "1.1",
+                                "x": "63"
+                            },
+                            {
+                                "y": "1.9",
+                                "x": "64"
+                            },
+                            {
+                                "y": "1.7",
+                                "x": "71"
+                            },
+                            {
+                                "y": "1.1",
+                                "x": "77"
+                            },
+                            {
+                                "y": "1.3",
+                                "x": "79"
+                            },
+                            {
+                                "y": "1.7",
+                                "x": "83"
+                            },
+                            {
+                                "y": "1.8",
+                                "x": "89"
+                            },
+                            {
+                                "y": "1.9",
+                                "x": "91"
+                            },
+                            {
+                                "y": "1.0",
+                                "x": "93"
+                            }
+                        ]
+                    }
+                ],
+                "vtrendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "20",
+                                "endvalue": "65",
+                                "alpha": "5",
+                                "color": "00FF00"
+                            },
+                            {
+                                "startvalue": "65",
+                                "endvalue": "75",
+                                "alpha": "15",
+                                "color": "FFFF00"
+                            },
+                            {
+                                "startvalue": "75",
+                                "endvalue": "100",
+                                "alpha": "15",
+                                "color": "FF0000"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "5.2",
+                                "displayvalue": "Check",
+                                "linethickness": "2",
+                                "color": "FF0000",
+                                "valueonright": "1",
+                                "dashed": "1",
+                                "dashgap": "5"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "RED-8282"
+    },
+    "RED-8282-1": {
+        "description": "legend item text alignment breaks if hasrtltext=1",
+        "options": {
+            "type": "stackedbar2d",
+            "width": "800",
+            "height": "550",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showsum": "1",
+                    "numdivlines": "7",
+                    "divlinecolor": "cccccc",
+                    "divlinethickness": "3",
+                    "divlinealpha": "100",
+                    "divlinedashed": "1",
+                    "divlinedashlen": "16",
+                    "divlinedashgap": "8",
+                    "zeroplanecolor": "0000ff",
+                    "zeroplanethickness": "9",
+                    "zeroplanealpha": "40",
+                    "showzeroplanevalue": "1",
+                    "showalternatevgridcolor": "0",
+                    "alternatevgridcolor": "#008844",
+                    "alternatevgridalpha": "60",
+                    "hasrtltext": "1",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan dgsgsgsg getwtwet"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Product A",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "-29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Product B",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "RED-8282-1"
+    },
+    "RED-8282-2": {
+        "description": "legend item text alignment breaks if hasrtltext=1",
+        "options": {
+            "type": "pie2d",
+            "width": "800",
+            "height": "550",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Split of revenue by product categories",
+                    "subcaption": "Last year",
+                    "numberprefix": "$",
+                    "showpercentvalues": "1",
+                    "showpercentintooltip": "0",
+                    "showlegend": "1",
+                    "decimals": "1",
+                    "hasrtltext": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "عبد الرزاق عباس علي محمد",
+                        "value": "285040",
+                        "displayvalue": "عباس %12"
+                    },
+                    {
+                        "label": "عبد الرزاق عباس علي محمد",
+                        "value": "146330"
+                    },
+                    {
+                        "label": "عبد الرزاق عباس علي محمد",
+                        "value": "105070"
+                    },
+                    {
+                        "label": "عبد الرزاق عباس علي محمد",
+                        "value": "49100"
+                    },
+                    {
+                        "label": "عبد الرزاق عباس علي محمد",
+                        "value": "49100"
+                    },
+                    {
+                        "label": "عبد الرزاق عباس علي محمد",
+                        "value": "49100"
+                    },
+                    {
+                        "label": "عبد الرزاق عباس علي محمد",
+                        "value": "49100"
+                    }
+                ]
+            }
+        },
+        "id": "RED-8282-2"
+    },
+    "RED-8266": {
+        "description": "Support for showLabel and showValue attributes at category level for multi-level pie chart",
+        "options": {
+            "type": "multilevelpie",
+            "width": "800",
+            "height": "550",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showlabels": "1",
+                    "showvalues": "1",
+                    "animation": 0
+                },
+                "category": [
+                    {
+                        "label": "CEO",
+                        "value": "100",
+                        "fillcolor": "ff0000",
+                        "category": [
+                            {
+                                "label": "CEO1",
+                                "value": "200",
+                                "fillcolor": "0000ff"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "RED-8266"
+    },
+    "RED-8266-1": {
+        "description": "Support for showLabel and showValue attributes at category level for multi-level pie chart",
+        "options": {
+            "type": "multilevelpie",
+            "width": "800",
+            "height": "550",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showlabels": "0",
+                    "showvalues": "0",
+                    "animation": 0
+                },
+                "category": [
+                    {
+                        "label": "CEO",
+                        "value": "100",
+                        "fillcolor": "ff0000",
+                        "category": [
+                            {
+                                "label": "CEO1",
+                                "value": "200",
+                                "fillcolor": "0000ff"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "RED-8266-1"
+    },
+    "RED-8266-2": {
+        "description": "Support for showLabel and showValue attributes at category level for multi-level pie chart",
+        "options": {
+            "type": "multilevelpie",
+            "width": "800",
+            "height": "550",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "animation": 0
+                },
+                "category": [
+                    {
+                        "label": "CEO",
+                        "value": "100",
+                        "fillcolor": "ff0000",
+                        "category": [
+                            {
+                                "label": "CEO1",
+                                "value": "200",
+                                "fillcolor": "0000ff",
+                                "showlabel": "1",
+                                "showvalue": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "RED-8266-2"
+    },
+    "RED-8266-3": {
+        "description": "Support for showLabel and showValue attributes at category level for multi-level pie chart",
+        "options": {
+            "type": "multilevelpie",
+            "width": "800",
+            "height": "550",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "animation": 0
+                },
+                "category": [
+                    {
+                        "label": "CEO",
+                        "value": "100",
+                        "fillcolor": "ff0000",
+                        "category": [
+                            {
+                                "label": "CEO1",
+                                "value": "200",
+                                "fillcolor": "0000ff",
+                                "showlabel": "0",
+                                "showvalue": "0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "RED-8266-3"
+    },
+    "RED-8266-4": {
+        "description": "Support for showLabel and showValue attributes at category level for multi-level pie chart",
+        "options": {
+            "type": "multilevelpie",
+            "width": "800",
+            "height": "550",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showlabels": "1",
+                    "showvalues": "1",
+                    "animation": 0
+                },
+                "category": [
+                    {
+                        "label": "CEO",
+                        "value": "100",
+                        "fillcolor": "ff0000",
+                        "category": [
+                            {
+                                "label": "CEO1",
+                                "value": "200",
+                                "fillcolor": "0000ff",
+                                "showlabel": "1",
+                                "showvalue": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "RED-8266-4"
+    },
+    "RED-8266-5": {
+        "description": "Support for showLabel and showValue attributes at category level for multi-level pie chart",
+        "options": {
+            "type": "multilevelpie",
+            "width": "800",
+            "height": "550",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showlabels": "0",
+                    "showvalues": "0",
+                    "animation": 0
+                },
+                "category": [
+                    {
+                        "label": "CEO",
+                        "value": "100",
+                        "fillcolor": "ff0000",
+                        "category": [
+                            {
+                                "label": "CEO1",
+                                "value": "200",
+                                "fillcolor": "0000ff",
+                                "showlabel": "1",
+                                "showvalue": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "RED-8266-5"
+    }
+}

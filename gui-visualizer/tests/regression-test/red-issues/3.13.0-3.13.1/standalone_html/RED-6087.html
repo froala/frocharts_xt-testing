@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="fusioncharts/fusioncharts.js"></script>
+</head>
+
+<body>
+
+    <a href="https://fusioncharts.jira.com/browse/RED-6087">RED-6087</a>
+    <p>Chart canvas gets smaller when updated with setChartAttribute()</p>
+    <!-- 
+    A Scroll Column 2D Chart showing sales trend for last two years.
+-->
+    <button id='setChartAttribute'>setChartAttribute</button>
+    <br>
+    <span id="chart-container">FusionCharts will render here</span>
+    <span id="chart-container1">FusionCharts will render here</span>
+    <span id="chart-container2">FusionCharts will render here</span>
+
+    <script type="text/javascript">
+        FusionCharts.ready(function () {
+            var revenueChart1 = new FusionCharts({
+                type: 'scrollColumn2d',
+                renderAt: 'chart-container',
+                width: '550',
+                height: '350',
+                dataFormat: 'json',
+                dataSource: {
+                    "chart": {
+                        "labelDisplay": "rotate",
+                        "numVisiblePlot": "10",
+                        "slantLabels": "1",
+                        "exportEnabled": "1"
+                    },
+                    "categories": [{
+                        "category": [{
+                            "label": "AGRA",
+
+                        }, {
+                            "label": "AHMEDABAD",
+
+                        }, {
+                            "label": "AHMEDABAD OUTER",
+
+                        }, {
+                            "label": "PURBA",
+
+                        }, {
+                            "label": "AHMEDNAGAR",
+
+                        }, {
+                            "label": "AYOTH",
+
+                        }, {
+                            "label": "BANGALORE",
+
+                        }, {
+                            "label": "BHUBANE",
+
+                        }, {
+                            "label": "CHAMARA",
+
+                        }, {
+                            "label": "NORTH 24 PARGANAS",
+
+                        }, {
+                            "label": "DAHEGAM",
+                        }, {
+                            "label": "DAHEGUM",
+                        }, {
+                            "label": "DARBHANGA",
+                        }, {
+                            "label": "DAVANAGERE",
+                        }, {
+                            "label": "DAVANGERE DISTRICT",
+                        }, ]
+                    }],
+                    "dataset": [{
+                        "color": "#F8BD19",
+                        "renderAs": "column",
+                        "seriesname": "HeadCount",
+                        "data": [{
+                            "value": "47"
+                        }, {
+                            "value": "84"
+                        }, {
+                            "value": "8"
+                        }, {
+                            "value": "10"
+                        }, {
+                            "value": "4"
+                        }, {
+                            "value": "15"
+                        }, {
+                            "value": "11"
+                        }, {
+                            "value": "17"
+                        }, {
+                            "value": "15"
+                        }, {
+                            "value": "644"
+                        }, {
+                            "value": "15"
+                        }, {
+                            "value": "11"
+                        }, {
+                            "value": "17"
+                        }, {
+                            "value": "15"
+                        }, {
+                            "value": "644"
+                        }]
+                    }]
+                }
+            }).render();
+
+            var revenueChart2 = new FusionCharts({
+                type: 'scrollColumn2d',
+                renderAt: 'chart-container1',
+                width: '550',
+                height: '350',
+                dataFormat: 'json',
+                dataSource: {
+                    "chart": {
+                        "labelDisplay": "rotate",
+                        "numVisiblePlot": "10",
+                        "exportEnabled": "1"
+                    },
+                    "categories": [{
+                        "category": [{
+                            "label": "AGRA",
+
+                        }, {
+                            "label": "AHMEDABAD",
+
+                        }, {
+                            "label": "AHMEDNAGAR",
+
+                        }, {
+                            "label": "PURBA",
+
+                        }, {
+                            "label": "AHMEDABAD OUTER",
+
+                        }, {
+                            "label": "AYOTH",
+
+                        }, {
+                            "label": "BANGALORE",
+
+                        }, {
+                            "label": "BHUBANE",
+
+                        }, {
+                            "label": "CHAMARA",
+
+                        }, {
+                            "label": "NORTH 24 PARGANAS",
+
+                        }, {
+                            "label": "DAHEGAM",
+                        }, {
+                            "label": "DAHEGUM",
+                        }, {
+                            "label": "DARBHANGA",
+                        }, {
+                            "label": "DAVANAGERE",
+                        }, {
+                            "label": "DAVANGERE DISTRICT",
+                        }, ]
+                    }],
+                    "dataset": [{
+                        "color": "#F8BD19",
+                        "renderAs": "column",
+                        "seriesname": "HeadCount",
+                        "data": [{
+                            "value": "47"
+                        }, {
+                            "value": "84"
+                        }, {
+                            "value": "8"
+                        }, {
+                            "value": "10"
+                        }, {
+                            "value": "4"
+                        }, {
+                            "value": "15"
+                        }, {
+                            "value": "11"
+                        }, {
+                            "value": "17"
+                        }, {
+                            "value": "15"
+                        }, {
+                            "value": "644"
+                        }, {
+                            "value": "15"
+                        }, {
+                            "value": "11"
+                        }, {
+                            "value": "17"
+                        }, {
+                            "value": "15"
+                        }, {
+                            "value": "644"
+                        }]
+                    }]
+                }
+            }).render();
+            var revenueChart3 = new FusionCharts({
+                type: 'scrollColumn2d',
+                renderAt: 'chart-container2',
+                width: '550',
+                height: '400',
+                dataFormat: 'json',
+                dataSource: {
+                    "chart": {
+                        "labelDisplay": "rotate",
+                        "numVisiblePlot": "10",
+                        "exportEnabled": "1"
+                    },
+                    "categories": [{
+                        "category": [{
+                            "label": "AGRA",
+
+                        }, {
+                            "label": "AHMEDABAD",
+
+                        }, {
+                            "label": "AHMEDNAGAR",
+
+                        }, {
+                            "label": "PURBA",
+
+                        }, {
+                            "label": "AHMEDABAD OUTER",
+
+                        }, {
+                            "label": "AYOTH",
+
+                        }, {
+                            "label": "BANGALORE",
+
+                        }, {
+                            "label": "BHUBANE",
+
+                        }, {
+                            "label": "CHAMARA",
+
+                        }, {
+                            "label": "NORTH 24 PARGANAS",
+
+                        }, {
+                            "label": "DAHEGAM",
+                        }, {
+                            "label": "DAHEGUM",
+                        }, {
+                            "label": "DARBHANGA",
+                        }, {
+                            "label": "DAVANAGERE",
+                        }, {
+                            "label": "DAVANGERE DISTRICT",
+                        }, ]
+                    }],
+                    "dataset": [{
+                        "color": "#F8BD19",
+                        "renderAs": "column",
+                        "seriesname": "HeadCount",
+                        "data": [{
+                            "value": "47"
+                        }, {
+                            "value": "84"
+                        }, {
+                            "value": "8"
+                        }, {
+                            "value": "10"
+                        }, {
+                            "value": "4"
+                        }, {
+                            "value": "15"
+                        }, {
+                            "value": "11"
+                        }, {
+                            "value": "17"
+                        }, {
+                            "value": "15"
+                        }, {
+                            "value": "644"
+                        }, {
+                            "value": "15"
+                        }, {
+                            "value": "11"
+                        }, {
+                            "value": "17"
+                        }, {
+                            "value": "15"
+                        }, {
+                            "value": "644"
+                        }]
+                    }]
+                }
+            }).render();
+            document.getElementById('setChartAttribute').onclick = function () {
+                revenueChart1.setChartAttribute('showtooltip', '0');
+                revenueChart2.setChartAttribute('showtooltip', '0');
+                revenueChart3.setChartAttribute('showtooltip', '0');
+            }
+        });
+    </script>
+</body>
+
+</html>

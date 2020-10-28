@@ -1,0 +1,2372 @@
+{
+    "gauge-and-widgets-guide-thermometer-gauge-simple-gauge-example-example-1": {
+        "description": "gauge cosmetics",
+        "options": {
+            "type": "thermometer",
+            "width": "240",
+            "height": "310",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Temperature Monitor",
+                    "subcaption": " Central cold store",
+                    "lowerLimit": "-10",
+                    "upperLimit": "0",
+                    "decimals": "1",
+                    "numberSuffix": "Â°C",
+                    "thmFillColor": "#008ee4",
+                    "showGaugeBorder": "1",
+                    "gaugeBorderColor": "#008ee4",
+                    "gaugeBorderThickness": "2",
+                    "gaugeBorderAlpha": "30",
+                    "thmOriginX": "100",
+                    "chartBottomMargin": "20",
+                    "valueFontColor": "#000000",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "value": "-6",
+                "annotations": {
+                    "showbelow": "0",
+                    "groups": [
+                        {
+                            "id": "indicator",
+                            "items": [
+                                {
+                                    "id": "background",
+                                    "type": "rectangle",
+                                    "alpha": "50",
+                                    "fillColor": "#AABBCC",
+                                    "x": "$gaugeEndX-40",
+                                    "tox": "$gaugeEndX",
+                                    "y": "$gaugeEndY+54",
+                                    "toy": "$gaugeEndY+72"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "id": "gauge-and-widgets-guide-thermometer-gauge-simple-gauge-example-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-thermometer-gauge-simple-gauge-example-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-thermometer-gauge-real-time-gauges-example-5": {
+        "description": "real time thermometer",
+        "options": {
+            "type": "thermometer",
+            "width": "240",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Temperature Monitor",
+                    "subcaption": " Central cold store",
+                    "lowerLimit": "-10",
+                    "upperLimit": "0",
+                    "numberSuffix": "Â°C",
+                    "decimals": "1",
+                    "showhovereffect": "1",
+                    "thmFillColor": "#008ee4",
+                    "showGaugeBorder": "1",
+                    "gaugeBorderColor": "#008ee4",
+                    "gaugeBorderThickness": "2",
+                    "gaugeBorderAlpha": "30",
+                    "thmOriginX": "100",
+                    "dataStreamURL": "files/php/dummyUrl.php",
+                    "refreshInterval": "5",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "value": "-6"
+            }
+        },
+        "id": "gauge-and-widgets-guide-thermometer-gauge-real-time-gauges-example-5",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-thermometer-gauge-real-time-gauges-example-5-snapshot.png"
+    },
+    "gauge-and-widgets-guide-thermometer-gauge-configuring-gauge-example-6": {
+        "description": "configure gauge and tick marks",
+        "options": {
+            "type": "thermometer",
+            "width": "220",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Temperature Monitor",
+                    "subcaption": " Central cold store",
+                    "lowerLimit": "-10",
+                    "upperLimit": "0",
+                    "numberSuffix": "Â°C",
+                    "decimals": "1",
+                    "showhovereffect": "1",
+                    "gaugeFillColor": "#008ee4",
+                    "thmOriginX": "100",
+                    "theme": "fint",
+                    "chartBottomMargin": "20",
+                    "adjustTM": "1",
+                    "ticksOnRight": "0",
+                    "tickMarkDistance": "5",
+                    "tickValueDistance": "2",
+                    "majorTMNumber": "9",
+                    "majorTMHeight": "12",
+                    "minorTMNumber": "4",
+                    "minorTMHeight": "7",
+                    "tickValueStep": "2",
+                    "animation": "0"
+                },
+                "value": "-6"
+            }
+        },
+        "id": "gauge-and-widgets-guide-thermometer-gauge-configuring-gauge-example-6",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-thermometer-gauge-configuring-gauge-example-6-snapshot.png"
+    },
+    "gauge-and-widgets-guide-spark-charts-configuring-spark-line-chart-example-8": {
+        "description": "a simple spark line chart with trendlines",
+        "options": {
+            "type": "sparkline",
+            "width": "450",
+            "height": "70",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Stock Price",
+                    "subcaption": "Last month",
+                    "numberPrefix": "$",
+                    "chartBottomMargin": "30",
+                    "animation": "0"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "38.42"
+                            },
+                            {
+                                "value": "41.43"
+                            },
+                            {
+                                "value": "34.78"
+                            },
+                            {
+                                "value": "40.67"
+                            },
+                            {
+                                "value": "44.12"
+                            },
+                            {
+                                "value": "38.45"
+                            },
+                            {
+                                "value": "40.71"
+                            },
+                            {
+                                "value": "49.90"
+                            },
+                            {
+                                "value": "40.12"
+                            },
+                            {
+                                "value": "34.91"
+                            },
+                            {
+                                "value": "42.02"
+                            },
+                            {
+                                "value": "35.21"
+                            },
+                            {
+                                "value": "43.31"
+                            },
+                            {
+                                "value": "40.21"
+                            },
+                            {
+                                "value": "40.54"
+                            },
+                            {
+                                "value": "40.90"
+                            },
+                            {
+                                "value": "54.21"
+                            },
+                            {
+                                "value": "41.90"
+                            },
+                            {
+                                "value": "33.43"
+                            },
+                            {
+                                "value": "46.73"
+                            },
+                            {
+                                "value": "50.42"
+                            },
+                            {
+                                "value": "40.74"
+                            },
+                            {
+                                "value": "42.31"
+                            },
+                            {
+                                "value": "50.39"
+                            },
+                            {
+                                "value": "51.10"
+                            },
+                            {
+                                "value": "44.84"
+                            },
+                            {
+                                "value": "51.64"
+                            },
+                            {
+                                "value": "47.62"
+                            },
+                            {
+                                "value": "39.61"
+                            },
+                            {
+                                "value": "35.13"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "40",
+                                "endValue": "42"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-spark-charts-configuring-spark-line-chart-example-8",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-spark-charts-configuring-spark-line-chart-example-8-snapshot.png"
+    },
+    "gauge-and-widgets-guide-thermometer-gauge-configuring-gauge-example-3": {
+        "description": "configure gauge",
+        "options": {
+            "type": "thermometer",
+            "width": "240",
+            "height": "330",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Temperature Monitor",
+                    "subcaption": "Central cold store",
+                    "lowerLimit": "-10",
+                    "upperLimit": "0",
+                    "numberSuffix": "Â°C",
+                    "decimals": "1",
+                    "gaugeFillColor": "#008ee4",
+                    "thmBulbRadius": "35",
+                    "thmHeight": "200",
+                    "thmOriginX": "100",
+                    "theme": "fint",
+                    "chartBottomMargin": "20",
+                    "animation": "0"
+                },
+                "value": "-6"
+            }
+        },
+        "id": "gauge-and-widgets-guide-thermometer-gauge-configuring-gauge-example-3",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-thermometer-gauge-configuring-gauge-example-3-snapshot.png"
+    },
+    "gauge-and-widgets-guide-spark-charts-configuring-spark-column-chart-example-2": {
+        "description": "configure spark column chart",
+        "options": {
+            "type": "sparkcolumn",
+            "width": "300",
+            "height": "80",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Revenue by Month",
+                    "subcaption": "Last year",
+                    "subCaptionFontSize": "11",
+                    "numberPrefix": "$",
+                    "highColor": "#6baa01",
+                    "lowColor": "#e44a00",
+                    "chartBottomMargin": "30",
+                    "animation": "0"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "783000"
+                            },
+                            {
+                                "value": "601000"
+                            },
+                            {
+                                "value": "515000"
+                            },
+                            {
+                                "value": "315900"
+                            },
+                            {
+                                "value": "388000"
+                            },
+                            {
+                                "value": "433000"
+                            },
+                            {
+                                "value": "910000"
+                            },
+                            {
+                                "value": "798000"
+                            },
+                            {
+                                "value": "483300"
+                            },
+                            {
+                                "value": "562000"
+                            },
+                            {
+                                "value": "359400"
+                            },
+                            {
+                                "value": "485000"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-spark-charts-configuring-spark-column-chart-example-2",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-spark-charts-configuring-spark-column-chart-example-2-snapshot.png"
+    },
+    "gauge-and-widgets-guide-thermometer-gauge-configuring-gauge-example-5": {
+        "description": "configure gauge",
+        "options": {
+            "type": "thermometer",
+            "width": "220",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Temperature Monitor",
+                    "subcaption": " Central cold store",
+                    "lowerLimit": "-10",
+                    "upperLimit": "0",
+                    "numberSuffix": "Â°C",
+                    "decimals": "1",
+                    "gaugeFillColor": "#008ee4",
+                    "thmOriginX": "100",
+                    "theme": "fint",
+                    "chartBottomMargin": "20",
+                    "showTickMarks": "0",
+                    "showTickValues": "0",
+                    "animation": "0"
+                },
+                "value": "-6"
+            }
+        },
+        "id": "gauge-and-widgets-guide-thermometer-gauge-configuring-gauge-example-5",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-thermometer-gauge-configuring-gauge-example-5-snapshot.png"
+    },
+    "gauge-and-widgets-guide-thermometer-gauge-configuring-gauge-example-8": {
+        "description": "configure gauge",
+        "options": {
+            "type": "thermometer",
+            "width": "240",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Temperature Monitor",
+                    "subcaption": " Central cold store",
+                    "lowerLimit": "-10",
+                    "upperLimit": "00",
+                    "numberSuffix": "Â°C",
+                    "decimals": "1",
+                    "thmFillColor": "#008ee4",
+                    "thmOriginX": "100",
+                    "showhovereffect": "1",
+                    "theme": "fint",
+                    "animation": "0"
+                },
+                "value": "-6"
+            }
+        },
+        "id": "gauge-and-widgets-guide-thermometer-gauge-configuring-gauge-example-8",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-thermometer-gauge-configuring-gauge-example-8-snapshot.png"
+    },
+    "gauge-and-widgets-guide-spark-charts-configuring-spark-line-chart-example-2": {
+        "description": "spark line chart with anchor test",
+        "options": {
+            "type": "sparkline",
+            "width": "450",
+            "height": "70",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Stock Price",
+                    "subcaption": "Last month",
+                    "numberPrefix": "$",
+                    "chartBottomMargin": "30",
+                    "openColor": "#0099ff",
+                    "closeColor": "#0099ff",
+                    "highColor": "#00cc33",
+                    "lowColor": "#cc0000",
+                    "showopenvalue": "1",
+                    "drawAnchors": "1",
+                    "anchorSides": "4",
+                    "anchorRadius": "3",
+                    "anchorColor": "#ee8f49",
+                    "anchorAlpha": "60",
+                    "showclosevalue": "1",
+                    "showHighLowValue": "0",
+                    "animation": "0"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "38.42"
+                            },
+                            {
+                                "value": "41.43"
+                            },
+                            {
+                                "value": "34.78"
+                            },
+                            {
+                                "value": "40.67"
+                            },
+                            {
+                                "value": "44.12"
+                            },
+                            {
+                                "value": "38.45"
+                            },
+                            {
+                                "value": "40.71"
+                            },
+                            {
+                                "value": "49.90"
+                            },
+                            {
+                                "value": "40.12"
+                            },
+                            {
+                                "value": "34.91"
+                            },
+                            {
+                                "value": "42.02"
+                            },
+                            {
+                                "value": "35.21"
+                            },
+                            {
+                                "value": "43.31"
+                            },
+                            {
+                                "value": "40.21"
+                            },
+                            {
+                                "value": "40.54"
+                            },
+                            {
+                                "value": "40.90"
+                            },
+                            {
+                                "value": "54.21"
+                            },
+                            {
+                                "value": "41.90"
+                            },
+                            {
+                                "value": "33.43"
+                            },
+                            {
+                                "value": "46.73"
+                            },
+                            {
+                                "value": "50.42"
+                            },
+                            {
+                                "value": "40.74"
+                            },
+                            {
+                                "value": "42.31"
+                            },
+                            {
+                                "value": "50.39"
+                            },
+                            {
+                                "value": "51.10"
+                            },
+                            {
+                                "value": "44.84"
+                            },
+                            {
+                                "value": "51.64"
+                            },
+                            {
+                                "value": "47.62"
+                            },
+                            {
+                                "value": "39.61"
+                            },
+                            {
+                                "value": "35.13"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-spark-charts-configuring-spark-line-chart-example-2",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-spark-charts-configuring-spark-line-chart-example-2-snapshot.png"
+    },
+    "gauge-and-widgets-guide-spark-chart-configuring-spark-win-loss-charts-example-5": {
+        "description": "configure sparkwinloss chart",
+        "options": {
+            "type": "sparkwinloss",
+            "width": "400",
+            "height": "60",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Bobby Fischer (vs. Spassky)",
+                    "subcaption": "World Chess Championship 1972",
+                    "subCaptionFontSize": "11",
+                    "numberPrefix": "$",
+                    "chartBottomMargin": "20",
+                    "winHoverColor": "#49b6fe",
+                    "lossHoverColor": "#55e395",
+                    "drawHoverColor": "#ba9803",
+                    "scoreLessHoverColor": "#cccccc",
+                    "animation": "0"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "L"
+                            },
+                            {
+                                "value": "L"
+                            },
+                            {
+                                "value": "W"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "W"
+                            },
+                            {
+                                "value": "W"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "W"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "W"
+                            },
+                            {
+                                "value": "L"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "W"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "W"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-spark-chart-configuring-spark-win-loss-charts-example-5",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-spark-chart-configuring-spark-win-loss-charts-example-5-snapshot.png"
+    },
+    "gauge-and-widgets-guide-spark-charts-creating-spark-column-chart-example-1": {
+        "description": "create sparkcolumn chart",
+        "options": {
+            "type": "sparkcolumn",
+            "width": "300",
+            "height": "80",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Revenue by Month",
+                    "subcaption": "Last year",
+                    "subCaptionFontSize": "11",
+                    "numberPrefix": "$",
+                    "highColor": "#6baa01",
+                    "lowColor": "#e44a00",
+                    "chartBottomMargin": "30",
+                    "animation": "0"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "783000"
+                            },
+                            {
+                                "value": "601000"
+                            },
+                            {
+                                "value": "515000"
+                            },
+                            {
+                                "value": "315900"
+                            },
+                            {
+                                "value": "388000"
+                            },
+                            {
+                                "value": "433000"
+                            },
+                            {
+                                "value": "910000"
+                            },
+                            {
+                                "value": "798000"
+                            },
+                            {
+                                "value": "483300"
+                            },
+                            {
+                                "value": "562000"
+                            },
+                            {
+                                "value": "359400"
+                            },
+                            {
+                                "value": "485000"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-spark-charts-creating-spark-column-chart-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-spark-charts-creating-spark-column-chart-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-spark-charts-configuring-spark-line-chart-example-11": {
+        "description": "configure spark line chart",
+        "options": {
+            "type": "sparkline",
+            "width": "450",
+            "height": "70",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Stock Price",
+                    "subcaption": "Last month",
+                    "numberPrefix": "$",
+                    "chartBottomMargin": "30",
+                    "anchorRadius": "4",
+                    "openHoverColor": "#9bd6fd",
+                    "closeHoverColor": "#9bd6fd",
+                    "highHoverColor": "#90ff90",
+                    "lowHoverColor": "#fd6c6c",
+                    "animation": "0"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "38.42"
+                            },
+                            {
+                                "value": "41.43"
+                            },
+                            {
+                                "value": "34.78"
+                            },
+                            {
+                                "value": "40.67"
+                            },
+                            {
+                                "value": "44.12"
+                            },
+                            {
+                                "value": "38.45"
+                            },
+                            {
+                                "value": "40.71"
+                            },
+                            {
+                                "value": "49.90"
+                            },
+                            {
+                                "value": "40.12"
+                            },
+                            {
+                                "value": "34.91"
+                            },
+                            {
+                                "value": "42.02"
+                            },
+                            {
+                                "value": "35.21"
+                            },
+                            {
+                                "value": "43.31"
+                            },
+                            {
+                                "value": "40.21"
+                            },
+                            {
+                                "value": "40.54"
+                            },
+                            {
+                                "value": "40.90"
+                            },
+                            {
+                                "value": "54.21"
+                            },
+                            {
+                                "value": "41.90"
+                            },
+                            {
+                                "value": "33.43"
+                            },
+                            {
+                                "value": "46.73"
+                            },
+                            {
+                                "value": "50.42"
+                            },
+                            {
+                                "value": "40.74"
+                            },
+                            {
+                                "value": "42.31"
+                            },
+                            {
+                                "value": "50.39"
+                            },
+                            {
+                                "value": "51.10"
+                            },
+                            {
+                                "value": "44.84"
+                            },
+                            {
+                                "value": "51.64"
+                            },
+                            {
+                                "value": "47.62"
+                            },
+                            {
+                                "value": "39.61"
+                            },
+                            {
+                                "value": "35.13"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-spark-charts-configuring-spark-line-chart-example-11",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-spark-charts-configuring-spark-line-chart-example-11-snapshot.png"
+    },
+    "gauge-and-widgets-guide-spark-charts-configuring-spark-column-chart-example-4": {
+        "description": "trendlines in sparkcolumn",
+        "options": {
+            "type": "sparkcolumn",
+            "width": "300",
+            "height": "80",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Revenue by Month",
+                    "subcaption": "Last year",
+                    "subCaptionFontSize": "11",
+                    "numberPrefix": "$",
+                    "highColor": "#6baa01",
+                    "lowColor": "#e44a00",
+                    "chartBottomMargin": "30",
+                    "animation": "0"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "783000"
+                            },
+                            {
+                                "value": "601000"
+                            },
+                            {
+                                "value": "515000"
+                            },
+                            {
+                                "value": "315900"
+                            },
+                            {
+                                "value": "388000"
+                            },
+                            {
+                                "value": "433000"
+                            },
+                            {
+                                "value": "910000"
+                            },
+                            {
+                                "value": "798000"
+                            },
+                            {
+                                "value": "483300"
+                            },
+                            {
+                                "value": "562000"
+                            },
+                            {
+                                "value": "359400"
+                            },
+                            {
+                                "value": "485000"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "550000",
+                                "endValue": "700000",
+                                "color": "#ff0000",
+                                "thickness": "1",
+                                "dashed": "1",
+                                "dashedlen": "3",
+                                "dashgap": "3",
+                                "alpha": "100"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-spark-charts-configuring-spark-column-chart-example-4",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-spark-charts-configuring-spark-column-chart-example-4-snapshot.png"
+    },
+    "gauge-and-widgets-guide-spark-chart-configuring-spark-win-loss-charts-example-2": {
+        "description": "configure spark win loss chart",
+        "options": {
+            "type": "sparkwinloss",
+            "width": "400",
+            "height": "60",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Bobby Fischer (vs. Spassky)",
+                    "subcaption": "World Chess Championship 1972",
+                    "subCaptionFontSize": "11",
+                    "numberPrefix": "$",
+                    "chartBottomMargin": "20",
+                    "winColor": "#00cc33",
+                    "lossColor": "#cc0000",
+                    "drawColor": "#0075c2",
+                    "animation": "0"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "L"
+                            },
+                            {
+                                "value": "L"
+                            },
+                            {
+                                "value": "W"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "W"
+                            },
+                            {
+                                "value": "W"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "W"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "W"
+                            },
+                            {
+                                "value": "L"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "W"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "W"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-spark-chart-configuring-spark-win-loss-charts-example-2",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-spark-chart-configuring-spark-win-loss-charts-example-2-snapshot.png"
+    },
+    "gauge-and-widgets-guide-spark-chart-configuring-spark-win-loss-charts-example-1": {
+        "description": "period test in sparkwinloss chart",
+        "options": {
+            "type": "sparkwinloss",
+            "width": "400",
+            "height": "60",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Bobby Fischer (vs. Spassky)",
+                    "subcaption": "World Chess Championship 1972",
+                    "subCaptionFontSize": "11",
+                    "numberPrefix": "$",
+                    "chartBottomMargin": "20",
+                    "periodlength": "3",
+                    "periodcolor": "#cccccc",
+                    "periodalpha": "90",
+                    "animation": "0"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "L"
+                            },
+                            {
+                                "value": "L"
+                            },
+                            {
+                                "value": "W"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "W"
+                            },
+                            {
+                                "value": "W"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "W"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "W"
+                            },
+                            {
+                                "value": "L"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "W"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "D"
+                            },
+                            {
+                                "value": "W"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-spark-chart-configuring-spark-win-loss-charts-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-spark-chart-configuring-spark-win-loss-charts-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-thermometer-gauge-configuring-gauge-example-7": {
+        "description": "tick mark test",
+        "options": {
+            "type": "thermometer",
+            "width": "220",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Temperature Monitor",
+                    "subcaption": " Central cold store",
+                    "lowerLimit": "-10",
+                    "upperLimit": "0",
+                    "numberSuffix": "Â°C",
+                    "decimals": "1",
+                    "showhovereffect": "1",
+                    "gaugeFillColor": "#008ee4",
+                    "thmOriginX": "100",
+                    "theme": "fint",
+                    "chartBottomMargin": "20",
+                    "majorTMNumber": "6",
+                    "majorTMHeight": "12",
+                    "minorTMNumber": "4",
+                    "minorTMHeight": "7",
+                    "majorTMColor": "#666666",
+                    "majorTMAlpha": "100",
+                    "majorTMThickness": "2",
+                    "minorTMColor": "#666666",
+                    "minorTMAlpha": "50",
+                    "minorTMThickness": "2",
+                    "animation": "0"
+                },
+                "value": "-6"
+            }
+        },
+        "id": "gauge-and-widgets-guide-thermometer-gauge-configuring-gauge-example-7",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-thermometer-gauge-configuring-gauge-example-7-snapshot.png"
+    },
+    "gauge-and-widgets-guide-spark-charts-configuring-spark-line-chart-example-4": {
+        "description": "configure spark charts",
+        "options": {
+            "type": "sparkline",
+            "width": "450",
+            "height": "70",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Stock Price",
+                    "subcaption": "Last month",
+                    "numberPrefix": "$",
+                    "chartBottomMargin": "30",
+                    "showOpenValue": "0",
+                    "showCloseValue": "0",
+                    "showHighLowValue": "0",
+                    "animation": "0"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "38.42"
+                            },
+                            {
+                                "value": "41.43"
+                            },
+                            {
+                                "value": "34.78"
+                            },
+                            {
+                                "value": "40.67"
+                            },
+                            {
+                                "value": "44.12"
+                            },
+                            {
+                                "value": "38.45"
+                            },
+                            {
+                                "value": "40.71"
+                            },
+                            {
+                                "value": "49.90"
+                            },
+                            {
+                                "value": "40.12"
+                            },
+                            {
+                                "value": "34.91"
+                            },
+                            {
+                                "value": "42.02"
+                            },
+                            {
+                                "value": "35.21"
+                            },
+                            {
+                                "value": "43.31"
+                            },
+                            {
+                                "value": "40.21"
+                            },
+                            {
+                                "value": "40.54"
+                            },
+                            {
+                                "value": "40.90"
+                            },
+                            {
+                                "value": "54.21"
+                            },
+                            {
+                                "value": "41.90"
+                            },
+                            {
+                                "value": "33.43"
+                            },
+                            {
+                                "value": "46.73"
+                            },
+                            {
+                                "value": "50.42"
+                            },
+                            {
+                                "value": "40.74"
+                            },
+                            {
+                                "value": "42.31"
+                            },
+                            {
+                                "value": "50.39"
+                            },
+                            {
+                                "value": "51.10"
+                            },
+                            {
+                                "value": "44.84"
+                            },
+                            {
+                                "value": "51.64"
+                            },
+                            {
+                                "value": "47.62"
+                            },
+                            {
+                                "value": "39.61"
+                            },
+                            {
+                                "value": "35.13"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-spark-charts-configuring-spark-line-chart-example-4",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-spark-charts-configuring-spark-line-chart-example-4-snapshot.png"
+    },
+    "gauge-and-widgets-guide-spark-charts-configuring-spark-line-chart-example-9": {
+        "description": "sparkline chart with trendlines",
+        "options": {
+            "type": "sparkline",
+            "width": "450",
+            "height": "70",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Stock Price",
+                    "subcaption": "Last month",
+                    "numberPrefix": "$",
+                    "chartBottomMargin": "30",
+                    "animation": "0"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "38.42"
+                            },
+                            {
+                                "value": "41.43"
+                            },
+                            {
+                                "value": "34.78"
+                            },
+                            {
+                                "value": "40.67"
+                            },
+                            {
+                                "value": "44.12"
+                            },
+                            {
+                                "value": "38.45"
+                            },
+                            {
+                                "value": "40.71"
+                            },
+                            {
+                                "value": "49.90"
+                            },
+                            {
+                                "value": "40.12"
+                            },
+                            {
+                                "value": "34.91"
+                            },
+                            {
+                                "value": "42.02"
+                            },
+                            {
+                                "value": "35.21"
+                            },
+                            {
+                                "value": "43.31"
+                            },
+                            {
+                                "value": "40.21"
+                            },
+                            {
+                                "value": "40.54"
+                            },
+                            {
+                                "value": "40.90"
+                            },
+                            {
+                                "value": "54.21"
+                            },
+                            {
+                                "value": "41.90"
+                            },
+                            {
+                                "value": "33.43"
+                            },
+                            {
+                                "value": "46.73"
+                            },
+                            {
+                                "value": "50.42"
+                            },
+                            {
+                                "value": "40.74"
+                            },
+                            {
+                                "value": "42.31"
+                            },
+                            {
+                                "value": "50.39"
+                            },
+                            {
+                                "value": "51.10"
+                            },
+                            {
+                                "value": "44.84"
+                            },
+                            {
+                                "value": "51.64"
+                            },
+                            {
+                                "value": "47.62"
+                            },
+                            {
+                                "value": "39.61"
+                            },
+                            {
+                                "value": "35.13"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "40",
+                                "color": "#ff0000",
+                                "thickness": "1",
+                                "dashed": "1",
+                                "dashedlen": "3",
+                                "dashgap": "3",
+                                "alpha": "100"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-spark-charts-configuring-spark-line-chart-example-9",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-spark-charts-configuring-spark-line-chart-example-9-snapshot.png"
+    },
+    "gauge-and-widgets-guide-spark-charts-configuring-spark-line-chart-example-1": {
+        "description": "period test in sparkline chart",
+        "options": {
+            "type": "sparkline",
+            "width": "450",
+            "height": "70",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Stock Price",
+                    "subcaption": "Last month",
+                    "numberPrefix": "$",
+                    "chartBottomMargin": "30",
+                    "periodlength": "7",
+                    "periodcolor": "#cccccc",
+                    "periodalpha": "50",
+                    "animation": "0"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "38.42"
+                            },
+                            {
+                                "value": "41.43"
+                            },
+                            {
+                                "value": "34.78"
+                            },
+                            {
+                                "value": "40.67"
+                            },
+                            {
+                                "value": "44.12"
+                            },
+                            {
+                                "value": "38.45"
+                            },
+                            {
+                                "value": "40.71"
+                            },
+                            {
+                                "value": "49.90"
+                            },
+                            {
+                                "value": "40.12"
+                            },
+                            {
+                                "value": "34.91"
+                            },
+                            {
+                                "value": "42.02"
+                            },
+                            {
+                                "value": "35.21"
+                            },
+                            {
+                                "value": "43.31"
+                            },
+                            {
+                                "value": "40.21"
+                            },
+                            {
+                                "value": "40.54"
+                            },
+                            {
+                                "value": "40.90"
+                            },
+                            {
+                                "value": "54.21"
+                            },
+                            {
+                                "value": "41.90"
+                            },
+                            {
+                                "value": "33.43"
+                            },
+                            {
+                                "value": "46.73"
+                            },
+                            {
+                                "value": "50.42"
+                            },
+                            {
+                                "value": "40.74"
+                            },
+                            {
+                                "value": "42.31"
+                            },
+                            {
+                                "value": "50.39"
+                            },
+                            {
+                                "value": "51.10"
+                            },
+                            {
+                                "value": "44.84"
+                            },
+                            {
+                                "value": "51.64"
+                            },
+                            {
+                                "value": "47.62"
+                            },
+                            {
+                                "value": "39.61"
+                            },
+                            {
+                                "value": "35.13"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-spark-charts-configuring-spark-line-chart-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-spark-charts-configuring-spark-line-chart-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-spark-charts-configuring-spark-line-chart-example-5": {
+        "description": "configure line in spark line chart",
+        "options": {
+            "type": "sparkline",
+            "width": "450",
+            "height": "70",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Stock Price",
+                    "subcaption": "Last month",
+                    "numberPrefix": "$",
+                    "chartBottomMargin": "30",
+                    "lineColor": "#ee8f49",
+                    "lineThickness": "2",
+                    "lineAlpha": "75",
+                    "animation": "0"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "38.42"
+                            },
+                            {
+                                "value": "41.43"
+                            },
+                            {
+                                "value": "34.78"
+                            },
+                            {
+                                "value": "40.67"
+                            },
+                            {
+                                "value": "44.12"
+                            },
+                            {
+                                "value": "38.45"
+                            },
+                            {
+                                "value": "40.71"
+                            },
+                            {
+                                "value": "49.90"
+                            },
+                            {
+                                "value": "40.12"
+                            },
+                            {
+                                "value": "34.91"
+                            },
+                            {
+                                "value": "42.02"
+                            },
+                            {
+                                "value": "35.21"
+                            },
+                            {
+                                "value": "43.31"
+                            },
+                            {
+                                "value": "40.21"
+                            },
+                            {
+                                "value": "40.54"
+                            },
+                            {
+                                "value": "40.90"
+                            },
+                            {
+                                "value": "54.21"
+                            },
+                            {
+                                "value": "41.90"
+                            },
+                            {
+                                "value": "33.43"
+                            },
+                            {
+                                "value": "46.73"
+                            },
+                            {
+                                "value": "50.42"
+                            },
+                            {
+                                "value": "40.74"
+                            },
+                            {
+                                "value": "42.31"
+                            },
+                            {
+                                "value": "50.39"
+                            },
+                            {
+                                "value": "51.10"
+                            },
+                            {
+                                "value": "44.84"
+                            },
+                            {
+                                "value": "51.64"
+                            },
+                            {
+                                "value": "47.62"
+                            },
+                            {
+                                "value": "39.61"
+                            },
+                            {
+                                "value": "35.13"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-spark-charts-configuring-spark-line-chart-example-5",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-spark-charts-configuring-spark-line-chart-example-5-snapshot.png"
+    },
+    "gauge-and-widgets-guide-spark-charts-configuring-spark-line-chart-example-3": {
+        "description": "configure spark line chart",
+        "options": {
+            "type": "sparkline",
+            "width": "450",
+            "height": "70",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Stock Price",
+                    "subcaption": "Last month",
+                    "numberPrefix": "$",
+                    "chartBottomMargin": "30",
+                    "showOpenAnchor": "0",
+                    "showCloseAnchor": "0",
+                    "showHighAnchor": "0",
+                    "showLowAnchor": "0",
+                    "animation": "0"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "38.42"
+                            },
+                            {
+                                "value": "41.43"
+                            },
+                            {
+                                "value": "34.78"
+                            },
+                            {
+                                "value": "40.67"
+                            },
+                            {
+                                "value": "44.12"
+                            },
+                            {
+                                "value": "38.45"
+                            },
+                            {
+                                "value": "40.71"
+                            },
+                            {
+                                "value": "49.90"
+                            },
+                            {
+                                "value": "40.12"
+                            },
+                            {
+                                "value": "34.91"
+                            },
+                            {
+                                "value": "42.02"
+                            },
+                            {
+                                "value": "35.21"
+                            },
+                            {
+                                "value": "43.31"
+                            },
+                            {
+                                "value": "40.21"
+                            },
+                            {
+                                "value": "40.54"
+                            },
+                            {
+                                "value": "40.90"
+                            },
+                            {
+                                "value": "54.21"
+                            },
+                            {
+                                "value": "41.90"
+                            },
+                            {
+                                "value": "33.43"
+                            },
+                            {
+                                "value": "46.73"
+                            },
+                            {
+                                "value": "50.42"
+                            },
+                            {
+                                "value": "40.74"
+                            },
+                            {
+                                "value": "42.31"
+                            },
+                            {
+                                "value": "50.39"
+                            },
+                            {
+                                "value": "51.10"
+                            },
+                            {
+                                "value": "44.84"
+                            },
+                            {
+                                "value": "51.64"
+                            },
+                            {
+                                "value": "47.62"
+                            },
+                            {
+                                "value": "39.61"
+                            },
+                            {
+                                "value": "35.13"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-spark-charts-configuring-spark-line-chart-example-3",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-spark-charts-configuring-spark-line-chart-example-3-snapshot.png"
+    },
+    "gauge-and-widgets-guide-spark-charts-configuring-spark-column-chart-example-5": {
+        "description": "trendlines in sparkcolumn",
+        "options": {
+            "type": "sparkcolumn",
+            "width": "300",
+            "height": "80",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Revenue by Month",
+                    "subcaption": "Last year",
+                    "subCaptionFontSize": "11",
+                    "numberPrefix": "$",
+                    "highColor": "#6baa01",
+                    "lowColor": "#e44a00",
+                    "chartBottomMargin": "30",
+                    "animation": "0"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "783000"
+                            },
+                            {
+                                "value": "601000"
+                            },
+                            {
+                                "value": "515000"
+                            },
+                            {
+                                "value": "315900"
+                            },
+                            {
+                                "value": "388000"
+                            },
+                            {
+                                "value": "433000"
+                            },
+                            {
+                                "value": "910000"
+                            },
+                            {
+                                "value": "798000"
+                            },
+                            {
+                                "value": "483300"
+                            },
+                            {
+                                "value": "562000"
+                            },
+                            {
+                                "value": "359400"
+                            },
+                            {
+                                "value": "485000"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startValue": "450000",
+                                "endValue": "650000",
+                                "isTrendZone": "1",
+                                "color": "#ff0000"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-spark-charts-configuring-spark-column-chart-example-5",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-spark-charts-configuring-spark-column-chart-example-5-snapshot.png"
+    },
+    "gauge-and-widgets-guide-spark-chart-configuring-spark-win-loss-charts-example-3": {
+        "description": "configure sparkwinloss chart",
+        "options": {
+            "type": "sparkwinloss",
+            "width": "300",
+            "height": "60",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Argentina (Last 10 Matches)",
+                    "subcaption": "2014 FIFA World Cup",
+                    "subCaptionFontSize": "11",
+                    "numberPrefix": "$",
+                    "chartBottomMargin": "20",
+                    "scoreLessColor": "#aa0000",
+                    "animation": "0"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "W"
+                            },
+                            {
+                                "value": "W"
+                            },
+                            {
+                                "value": "W"
+                            },
+                            {
+                                "value": "W"
+                            },
+                            {
+                                "value": "W"
+                            },
+                            {
+                                "value": "W"
+                            },
+                            {
+                                "value": "W"
+                            },
+                            {
+                                "value": "W"
+                            },
+                            {
+                                "value": "W"
+                            },
+                            {
+                                "value": "L",
+                                "scoreless": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-spark-chart-configuring-spark-win-loss-charts-example-3",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-spark-chart-configuring-spark-win-loss-charts-example-3-snapshot.png"
+    },
+    "gauge-and-widgets-guide-pyramid-chart-configuring-chart-example-1": {
+        "description": "configure pyramid chart",
+        "options": {
+            "type": "pyramid",
+            "width": "500",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "The Global Wealth Pyramid",
+                    "captionOnTop": "0",
+                    "captionPadding": "25",
+                    "alignCaptionWithCanvas": "1",
+                    "subcaption": "Credit Suisse 2013",
+                    "subCaptionFontSize": "12",
+                    "borderAlpha": "20",
+                    "is2D": "1",
+                    "bgColor": "#ffffff",
+                    "showValues": "1",
+                    "numberPrefix": "$",
+                    "numberSuffix": "M",
+                    "plotTooltext": "$label of world population is worth USD $value tn ",
+                    "showPercentValues": "1",
+                    "chartLeftMargin": "40",
+                    "isSliced": "0",
+                    "showPlotBorder": "1",
+                    "plotBorderThickness": "1",
+                    "plotBorderAlpha": "100",
+                    "plotBorderColor": "#333333",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Top 32 mn (0.7%)",
+                        "value": "98.7"
+                    },
+                    {
+                        "label": "Next 361 mn (7.7%)",
+                        "value": "101.8"
+                    },
+                    {
+                        "label": "Next 1.1 bn (22.9%)",
+                        "value": "33"
+                    },
+                    {
+                        "label": "Last 3.2 bn (68.7%)",
+                        "value": "7.3"
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-pyramid-chart-configuring-chart-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-pyramid-chart-configuring-chart-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-pyramid-chart-introduction-example-1": {
+        "description": "configure pyramid chart",
+        "options": {
+            "type": "pyramid",
+            "width": "500",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "The Global Wealth Pyramid",
+                    "captionOnTop": "0",
+                    "captionPadding": "25",
+                    "alignCaptionWithCanvas": "1",
+                    "subcaption": "Credit Suisse 2013",
+                    "subCaptionFontSize": "12",
+                    "borderAlpha": "20",
+                    "is2D": "1",
+                    "bgColor": "#ffffff",
+                    "showValues": "1",
+                    "numberPrefix": "$",
+                    "numberSuffix": "M",
+                    "plotTooltext": "$label of world population is worth USD $value tn ",
+                    "showPercentValues": "1",
+                    "chartLeftMargin": "40",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Top 32 mn (0.7%)",
+                        "value": "98.7"
+                    },
+                    {
+                        "label": "Next 361 mn (7.7%)",
+                        "value": "101.8"
+                    },
+                    {
+                        "label": "Next 1.1 bn (22.9%)",
+                        "value": "33"
+                    },
+                    {
+                        "label": "Last 3.2 bn (68.7%)",
+                        "value": "7.3"
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-pyramid-chart-introduction-example-1",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-pyramid-chart-introduction-example-1-snapshot.png"
+    },
+    "gauge-and-widgets-guide-spark-charts-configuring-spark-line-chart-example-10": {
+        "description": "trendzone in sparkline",
+        "options": {
+            "type": "sparkline",
+            "width": "450",
+            "height": "70",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Stock Price",
+                    "subcaption": "Last month",
+                    "numberPrefix": "$",
+                    "chartBottomMargin": "30",
+                    "animation": "0"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "38.42"
+                            },
+                            {
+                                "value": "41.43"
+                            },
+                            {
+                                "value": "34.78"
+                            },
+                            {
+                                "value": "40.67"
+                            },
+                            {
+                                "value": "44.12"
+                            },
+                            {
+                                "value": "38.45"
+                            },
+                            {
+                                "value": "40.71"
+                            },
+                            {
+                                "value": "49.90"
+                            },
+                            {
+                                "value": "40.12"
+                            },
+                            {
+                                "value": "34.91"
+                            },
+                            {
+                                "value": "42.02"
+                            },
+                            {
+                                "value": "35.21"
+                            },
+                            {
+                                "value": "43.31"
+                            },
+                            {
+                                "value": "40.21"
+                            },
+                            {
+                                "value": "40.54"
+                            },
+                            {
+                                "value": "40.90"
+                            },
+                            {
+                                "value": "54.21"
+                            },
+                            {
+                                "value": "41.90"
+                            },
+                            {
+                                "value": "33.43"
+                            },
+                            {
+                                "value": "46.73"
+                            },
+                            {
+                                "value": "50.42"
+                            },
+                            {
+                                "value": "40.74"
+                            },
+                            {
+                                "value": "42.31"
+                            },
+                            {
+                                "value": "50.39"
+                            },
+                            {
+                                "value": "51.10"
+                            },
+                            {
+                                "value": "44.84"
+                            },
+                            {
+                                "value": "51.64"
+                            },
+                            {
+                                "value": "47.62"
+                            },
+                            {
+                                "value": "39.61"
+                            },
+                            {
+                                "value": "35.13"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startValue": "30",
+                                "endValue": "45",
+                                "isTrendZone": "1",
+                                "color": "#999999"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-spark-charts-configuring-spark-line-chart-example-10",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-spark-charts-configuring-spark-line-chart-example-10-snapshot.png"
+    },
+    "gauge-and-widgets-guide-pyramid-chart-configuring-chart-example-2": {
+        "description": "configure pyramid chart",
+        "options": {
+            "type": "pyramid",
+            "width": "400",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "The Global Wealth Pyramid",
+                    "captionOnTop": "0",
+                    "captionPadding": "25",
+                    "alignCaptionWithCanvas": "1",
+                    "subcaption": "Credit Suisse 2013",
+                    "subCaptionFontSize": "12",
+                    "borderAlpha": "20",
+                    "is2D": "1",
+                    "bgColor": "#ffffff",
+                    "showValues": "1",
+                    "showLabelsAtCenter": "1",
+                    "numberPrefix": "$",
+                    "numberSuffix": "M",
+                    "plotTooltext": "$label of world population is worth USD $value tn ",
+                    "showPercentValues": "1",
+                    "chartLeftMargin": "40",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Top 32 mn (0.7%)",
+                        "value": "98.7"
+                    },
+                    {
+                        "label": "Next 361 mn (7.7%)",
+                        "value": "101.8"
+                    },
+                    {
+                        "label": "Next 1.1 bn (22.9%)",
+                        "value": "33"
+                    },
+                    {
+                        "label": "Last 3.2 bn (68.7%)",
+                        "value": "7.3"
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-pyramid-chart-configuring-chart-example-2",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-pyramid-chart-configuring-chart-example-2-snapshot.png"
+    },
+    "gauge-and-widgets-guide-pyramid-chart-configuring-chart-example-3": {
+        "description": "pyramid chart with legend",
+        "options": {
+            "type": "pyramid",
+            "width": "500",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "The Global Wealth Pyramid",
+                    "captionOnTop": "0",
+                    "captionPadding": "25",
+                    "alignCaptionWithCanvas": "1",
+                    "subcaption": "Credit Suisse 2013",
+                    "subCaptionFontSize": "12",
+                    "borderAlpha": "20",
+                    "is2D": "1",
+                    "bgColor": "#ffffff",
+                    "showValues": "1",
+                    "numberPrefix": "$",
+                    "numberSuffix": "M",
+                    "plotTooltext": "$label of world population is worth USD $value tn ",
+                    "showPercentValues": "1",
+                    "chartLeftMargin": "40",
+                    "showlegend": "1",
+                    "showlabels": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Top 32 mn (0.7%)",
+                        "value": "98.7"
+                    },
+                    {
+                        "label": "Next 361 mn (7.7%)",
+                        "value": "101.8"
+                    },
+                    {
+                        "label": "Next 1.1 bn (22.9%)",
+                        "value": "33"
+                    },
+                    {
+                        "label": "Last 3.2 bn (68.7%)",
+                        "value": "7.3"
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-pyramid-chart-configuring-chart-example-3",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-pyramid-chart-configuring-chart-example-3-snapshot.png"
+    },
+    "gauge-and-widgets-guide-pyramid-chart-configuring-chart-example-5": {
+        "description": "configure pyramid chart",
+        "options": {
+            "type": "pyramid",
+            "width": "500",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "The Global Wealth Pyramid",
+                    "captionOnTop": "0",
+                    "captionPadding": "25",
+                    "alignCaptionWithCanvas": "1",
+                    "subcaption": "Credit Suisse 2013",
+                    "subCaptionFontSize": "12",
+                    "borderAlpha": "20",
+                    "is2D": "1",
+                    "bgColor": "#ffffff",
+                    "showValues": "1",
+                    "numberPrefix": "$",
+                    "numberSuffix": "M",
+                    "plotTooltext": "$label of world population is worth USD $value tn ",
+                    "showPercentValues": "1",
+                    "chartLeftMargin": "40",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Top 32 mn (0.7%)",
+                        "value": "98.7"
+                    },
+                    {
+                        "label": "Next 361 mn (7.7%)",
+                        "value": "101.8"
+                    },
+                    {
+                        "label": "Next 1.1 bn (22.9%)",
+                        "value": "33"
+                    },
+                    {
+                        "label": "Last 3.2 bn (68.7%)",
+                        "value": "7.3"
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-pyramid-chart-configuring-chart-example-5",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-pyramid-chart-configuring-chart-example-5-snapshot.png"
+    },
+    "gauge-and-widgets-guide-pyramid-chart-configuring-chart-example-7": {
+        "description": "configure pyramid chart",
+        "options": {
+            "type": "pyramid",
+            "width": "500",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "The Global Wealth Pyramid",
+                    "captionOnTop": "0",
+                    "captionPadding": "25",
+                    "alignCaptionWithCanvas": "1",
+                    "subcaption": "Credit Suisse 2013",
+                    "subCaptionFontSize": "12",
+                    "borderAlpha": "20",
+                    "is2D": "1",
+                    "bgColor": "#ffffff",
+                    "showValues": "1",
+                    "numberPrefix": "$",
+                    "numberSuffix": "M",
+                    "plotTooltext": "$label of world population is worth USD $value tn ",
+                    "showPercentValues": "1",
+                    "chartLeftMargin": "40",
+                    "isSliced": "1",
+                    "showPlotBorder": "1",
+                    "plotBorderColor": "#333333",
+                    "showHoverEffect": "1",
+                    "hoverColor": "#cccccc",
+                    "hoverAlpha": "75",
+                    "borderHoverColor": "#aa0000",
+                    "borderHoverAlpha": "100",
+                    "borderHoverThickness": "3",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Top 32 mn (0.7%)",
+                        "value": "98.7"
+                    },
+                    {
+                        "label": "Next 361 mn (7.7%)",
+                        "value": "101.8"
+                    },
+                    {
+                        "label": "Next 1.1 bn (22.9%)",
+                        "value": "33"
+                    },
+                    {
+                        "label": "Last 3.2 bn (68.7%)",
+                        "value": "7.3"
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-pyramid-chart-configuring-chart-example-7",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-pyramid-chart-configuring-chart-example-7-snapshot.png"
+    },
+    "gauge-and-widgets-guide-pyramid-chart-configuring-chart-example-4": {
+        "description": "pyramid chart with legend",
+        "options": {
+            "type": "pyramid",
+            "width": "500",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "The Global Wealth Pyramid",
+                    "captionOnTop": "0",
+                    "captionPadding": "25",
+                    "alignCaptionWithCanvas": "1",
+                    "subcaption": "Credit Suisse 2013",
+                    "subCaptionFontSize": "12",
+                    "borderAlpha": "20",
+                    "is2D": "1",
+                    "bgColor": "#ffffff",
+                    "showValues": "0",
+                    "numberPrefix": "$",
+                    "numberSuffix": "M",
+                    "plotTooltext": "$label of world population is worth USD $value tn ",
+                    "showPercentValues": "1",
+                    "chartLeftMargin": "40",
+                    "showLabels": "0",
+                    "showLegend": "1",
+                    "legendPosition": "RIGHT",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Top 32 mn (0.7%)",
+                        "value": "98.7"
+                    },
+                    {
+                        "label": "Next 361 mn (7.7%)",
+                        "value": "101.8"
+                    },
+                    {
+                        "label": "Next 1.1 bn (22.9%)",
+                        "value": "33"
+                    },
+                    {
+                        "label": "Last 3.2 bn (68.7%)",
+                        "value": "7.3"
+                    }
+                ]
+            }
+        },
+        "id": "gauge-and-widgets-guide-pyramid-chart-configuring-chart-example-4",
+        "refimage": "./tests/smoke/fiddles/gauge-and-widgets/part4/ref-images/gauge-and-widgets-guide-pyramid-chart-configuring-chart-example-4-snapshot.png"
+    }
+}

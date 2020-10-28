@@ -1,0 +1,81 @@
+{
+    "chart-dataplots_0": {
+        "description": "chartPlotBorder",
+        "options": {
+            "type": "column",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "xaxisname": "Quarter",
+                    "yaxisname": "Revenues (In USD)",
+                    "rotateyaxisname": "0",
+                    "showvalues": "0",
+                    "caption": "Comparison of Quarterly Revenue",
+                    "subcaption": "This is the sub-caption text",
+                    "numberPrefix": "$",
+                    "plotFillAlpha": "30",
+                    "plotBorderAlpha": "100",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Q1"
+                            },
+                            {
+                                "label": "Q2"
+                            },
+                            {
+                                "label": "Q3"
+                            },
+                            {
+                                "label": "Q4"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Previous Year",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Current Year",
+                        "data": [
+                            {
+                                "value": "25400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "21800"
+                            },
+                            {
+                                "value": "26800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/data-plots/multi-series-charts/ref-images/chart-dataplots_0-snapshot.png",
+        "id": "chart-dataplots_0"
+    }
+}

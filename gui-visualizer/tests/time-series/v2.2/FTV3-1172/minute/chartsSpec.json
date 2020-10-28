@@ -1,0 +1,42 @@
+{
+    "FTV3-1172-minute-tc1": {
+        "id": "FTV3-1172-minute-tc1",
+        "description": "Removing gridbands from timeline navigator that does not have labels",
+        "options": {
+            "data-id": "data-FTV3-minute-1172",
+            "schema-id": "schema-FTV3-minute-1172",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "yAxis": [
+                    {
+                        "plot": "Temperature",
+                        "title": "Temperature",
+                        "plotType": "line",
+                        "format": {
+                            "suffix": "°C",
+                            "label": "Controlled Temperature",
+                            "value": "10"
+                        }
+                    }
+                ],
+                "chart": {
+                    "animation": "0",
+                    "multicanvas": 0
+                },
+                "xaxis": {
+                    "style": {
+                        "grid-line": {
+                            "stroke": "#ff0000"
+                        }
+                    }
+                },
+                "caption": {
+                    "text": "Temperature readings of an Italian Town"
+                }
+            }
+        }
+    }
+}

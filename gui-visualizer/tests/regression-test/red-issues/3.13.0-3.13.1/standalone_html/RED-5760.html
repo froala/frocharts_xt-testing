@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <script type="text/javascript" src="fusioncharts/fusioncharts.js"></script>
+</head>
+
+<body>
+
+    <a href="https://fusioncharts.jira.com/browse/RED-5760">RED-5760</a>
+    <div>Support for CSV or XLS data export in multilevelpie.</div>
+    <button id="csv-btn">getCSVData()</button>
+    <div id="chart-container">FusionCharts will render here</div>
+    <pre id='csv-data'></pre>
+    <script type="text/javascript">
+        FusionCharts.ready(function () {
+            var topProductsChart = new FusionCharts({
+                type: 'multilevelpie',
+                renderAt: 'chart-container',
+                id: "myChart",
+                width: '500',
+                height: '500',
+                dataFormat: 'json',
+                dataSource: {
+                    "chart": {
+                        "palette": "1",
+                        "piefillalpha": "24",
+                        "hoverfillcolor": "EEEEEE",
+                        "plotbordercolor": "CCCCCC",
+                        "showplotborder": "1",
+                        "basefontsize": "9",
+                        "usehovercolor": "1",
+                        "showlabels": "1",
+                        "caption": "Tom's Friend List",
+                        "exportenabled": "1"
+                    },
+                    "category": [{
+                        "label": "Friends",
+                        "category": [{
+                                "label": "His Friends",
+                                "value": "10",
+                                "category": [{
+                                        "label": "Best Friends",
+                                        "hovertext": "Lorraine Allen Hughes{br}Glenda Mason{br}Peter Charles{br}Akhil Dhanuka",
+                                        "_userValue": null,
+                                        "_value": 1
+                                    },
+                                    {
+                                        "label": "Good Friends",
+                                        "hovertext": "Patrick Xavier{br}Claire Taylor{br}Rebecca Coggins{br}Kate Finning",
+                                        "_userValue": null,
+                                        "_value": 1
+                                    },
+                                    {
+                                        "label": "friends",
+                                        "hovertext": "Candy Ashbury{br}Marlene Greenwood-Streeter{br}Ruth Bahnuik{br}Cathy Daly ",
+                                        "_userValue": null,
+                                        "_value": 1
+                                    },
+                                    {
+                                        "label": "Acquaintances",
+                                        "hovertext": "Lucille Grading{br}Garry Brookes{br}Joan Borrowscale{br}Ann Kavanagh ",
+                                        "_userValue": null,
+                                        "_value": 1
+                                    },
+                                    {
+                                        "label": "haven't met",
+                                        "hovertext": "Blanche Charles{br}Alan Hamer{br}Rosalind Dunning{br}Edna Ellis ",
+                                        "_userValue": null,
+                                        "_value": 1
+                                    }
+                                ],
+                                "_userValue": 10,
+                                "_value": 10
+                            },
+                            {
+                                "label": "Our Mutual Friends",
+                                "value": "5",
+                                "category": [{
+                                    "label": "Best Friends",
+                                    "hovertext": "John Beddows{br}Susan Mills{br}Mike Parker{br}Claire Taylor",
+                                    "value": "5",
+                                    "category": [{
+                                        "label": "Worst Friends",
+                                        "hovertext": "John Beddows{br}Susan Mills{br}Mike Parker{br}Claire Taylor",
+                                        "value": "3"
+                                    }, {
+                                        "label": "Bad Friends",
+                                        "hovertext": "John Beddows{br}Susan Mills{br}Mike Parker{br}Claire Taylor",
+                                        "value": "2"
+                                    }]
+                                }],
+                                "_userValue": 5,
+                                "_value": 5
+                            }
+                        ],
+                        "_userValue": null,
+                        "_value": 1
+                    }]
+                },
+                events: {
+                    rendercomplete: function(e, d){
+                        document.getElementById('csv-btn').addEventListener('click', function(){
+                            document.getElementById('csv-data').innerHTML = topProductsChart.getCSVData();
+                        })
+                    }
+                }
+            });
+
+            topProductsChart.render();
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+<html>
+  <head>        
+    <title>My First chart using FusionCharts XT</title>         
+    <script type="text/javascript" src="../../../fusioncharts/fusioncharts.js">
+    </script>
+  </head>   
+  <body>     
+    <div id="chartContainer">FusionCharts XT will load here!</div>          
+    <script type="text/javascript"><!--         
+      var myChart = new FusionCharts( "RealTimeLine","myChartId", "400", "350", "0" );
+	  var strXml = "<chart caption='Realtime chart'     showRealTimeValue='0' dataStreamURL='StockPrice.php?l=10&u=20'     refreshInterval='2' yAxisMaxValue='100' numDisplaySets='10'     labeldisplay='rotate'     numberSuffix='%' showLabels='1'>   <categories>     <category label='Start'/>   </categories>   <dataset color='00dd00' seriesName='Processor A' alpha='100' anchorAlpha='0' lineThickness='2'>     <set value='0'/>   </dataset>   <dataset color='ff5904' seriesName='Processor B' alpha='100' anchorAlpha='0' lineThickness='2'>     <set value='0'/>   </dataset> </chart>";
+      myChart.setXMLData(strXml);
+      myChart.render("chartContainer");
+    // -->     
+    </script>      
+  </body> 
+</html>

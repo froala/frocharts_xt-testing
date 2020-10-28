@@ -1,0 +1,1095 @@
+{
+  "FTV3-944-1": {
+    "id": "FTV3-944-1",
+    "description": "default caption alignment",
+    "options": {
+      "data-id": "caption-alignment",
+      "schema-id": "caption-alignment",
+      "type": "timeseries",
+      "width": "1000",
+      "height": "700",
+      "dataFormat": "json",
+      "dataSource": {
+        "yaxis": [
+          {
+            "plot": {
+              "type": "column",
+              "value": "Measure1"
+            }
+          },
+          {
+            "plot": {
+              "type": "line",
+              "value": "Measure2"
+            },
+            "referenceLine": [
+              {
+                "label": "THIS IS  A REFLINE",
+                "value": 11
+              }
+            ]
+          }
+        ],
+        "chart": {
+          "animation": 0
+        },
+        "datamarker": [
+          {
+            "seriesname": "Measure1",
+            "time": "1990-01-03 12",
+            "timeformat": "%Y-%m-%d %H",
+            "type": "flag",
+            "identifier": "X",
+            "tooltext": "Custom ToolText on Measure1"
+          }
+        ],
+        "xaxis": {
+          "title": "xAxisName",
+          "plot": "Time",
+          "timemarker": [
+            {
+              "start": "1990-01-02 12:00:00",
+              "end": "1990-01-05 12:00:00",
+              "label": "Time Marker",
+              "timeformat": "%Y-%m-%d %H:%M:%S"
+            }
+          ]
+        },
+        "caption": {
+          "text": "This is a Caption",
+          "style": {
+            "text": {
+              "font-family": "times",
+              "fill": "#0000ff",
+              "font-size": "40",
+              "opacity": 0.5,
+              "stroke": "#ff0000",
+              "stroke-width": 2,
+              "font-weight": "bold",
+              "font-style": "italic"
+            }
+          }
+        },
+        "subcaption": {
+          "text": "And this is a SubCaption",
+          "style": {
+            "text": {
+              "font-family": "arial",
+              "fill": "#f142f4",
+              "font-size": "40",
+              "opacity": 0.7,
+              "stroke": "#5df2f4",
+              "stroke-width": 2,
+              "font-weight": "bold",
+              "font-style": "italic"
+            }
+          }
+        }
+      }
+    }
+  },
+  "FTV3-944-1-left": {
+    "id": "FTV3-944-1-left",
+    "description": "caption subcaption position = left",
+    "options": {
+      "data-id": "caption-alignment",
+      "schema-id": "caption-alignment",
+      "type": "timeseries",
+      "width": "1000",
+      "height": "700",
+      "dataFormat": "json",
+      "dataSource": {
+        "yaxis": [
+          {
+            "plot": {
+              "type": "column",
+              "value": "Measure1"
+            }
+          },
+          {
+            "plot": {
+              "type": "line",
+              "value": "Measure2"
+            },
+            "referenceLine": [
+              {
+                "label": "THIS IS  A REFLINE",
+                "value": 11
+              }
+            ]
+          }
+        ],
+        "chart": {
+          "animation": 0
+        },
+        "datamarker": [
+          {
+            "seriesname": "Measure1",
+            "time": "1990-01-03 12",
+            "timeformat": "%Y-%m-%d %H",
+            "type": "flag",
+            "identifier": "X",
+            "tooltext": "Custom ToolText on Measure1"
+          }
+        ],
+        "xaxis": {
+          "title": "xAxisName",
+          "plot": "Time",
+          "timemarker": [
+            {
+              "start": "1990-01-02 12:00:00",
+              "end": "1990-01-05 12:00:00",
+              "label": "Time Marker",
+              "timeformat": "%Y-%m-%d %H:%M:%S"
+            }
+          ]
+        },
+        "caption": {
+          "text": "This is a Caption",
+          "position": "left",
+          "style": {
+            "text": {
+              "font-family": "times",
+              "fill": "#0000ff",
+              "font-size": "40",
+              "opacity": 0.5,
+              "stroke": "#ff0000",
+              "stroke-width": 2,
+              "font-weight": "bold",
+              "font-style": "italic"
+            }
+          }
+        },
+        "subcaption": {
+          "text": "And this is a SubCaption",
+          "position": "left",
+          "style": {
+            "text": {
+              "font-family": "arial",
+              "fill": "#f142f4",
+              "font-size": "40",
+              "opacity": 0.7,
+              "stroke": "#5df2f4",
+              "stroke-width": 2,
+              "font-weight": "bold",
+              "font-style": "italic"
+            }
+          }
+        }
+      }
+    }
+  },
+  "FTV3-944-1-center": {
+    "id": "FTV3-944-1-center",
+    "description": "caption subcaption position = center",
+    "options": {
+      "data-id": "caption-alignment",
+      "schema-id": "caption-alignment",
+      "type": "timeseries",
+      "width": "1000",
+      "height": "700",
+      "dataFormat": "json",
+      "dataSource": {
+        "yaxis": [
+          {
+            "plot": {
+              "type": "column",
+              "value": "Measure1"
+            }
+          },
+          {
+            "plot": {
+              "type": "line",
+              "value": "Measure2"
+            },
+            "referenceLine": [
+              {
+                "label": "THIS IS  A REFLINE",
+                "value": 11
+              }
+            ]
+          }
+        ],
+        "chart": {
+          "animation": 0
+        },
+        "datamarker": [
+          {
+            "seriesname": "Measure1",
+            "time": "1990-01-03 12",
+            "timeformat": "%Y-%m-%d %H",
+            "type": "flag",
+            "identifier": "X",
+            "tooltext": "Custom ToolText on Measure1"
+          }
+        ],
+        "xaxis": {
+          "title": "xAxisName",
+          "plot": "Time",
+          "timemarker": [
+            {
+              "start": "1990-01-02 12:00:00",
+              "end": "1990-01-05 12:00:00",
+              "label": "Time Marker",
+              "timeformat": "%Y-%m-%d %H:%M:%S"
+            }
+          ]
+        },
+        "caption": {
+          "text": "This is a Caption",
+          "position": "center",
+          "style": {
+            "text": {
+              "font-family": "times",
+              "fill": "#0000ff",
+              "font-size": "40",
+              "opacity": 0.5,
+              "stroke": "#ff0000",
+              "stroke-width": 2,
+              "font-weight": "bold",
+              "font-style": "italic"
+            }
+          }
+        },
+        "subcaption": {
+          "text": "And this is a SubCaption",
+          "position": "center",
+          "style": {
+            "text": {
+              "font-family": "arial",
+              "fill": "#f142f4",
+              "font-size": "40",
+              "opacity": 0.7,
+              "stroke": "#5df2f4",
+              "stroke-width": 2,
+              "font-weight": "bold",
+              "font-style": "italic"
+            }
+          }
+        }
+      }
+    }
+  },
+  "FTV3-944-1-right": {
+    "id": "FTV3-944-1-right",
+    "description": "caption subcaption position = right",
+    "options": {
+      "data-id": "caption-alignment",
+      "schema-id": "caption-alignment",
+      "type": "timeseries",
+      "width": "1000",
+      "height": "700",
+      "dataFormat": "json",
+      "dataSource": {
+        "yaxis": [
+          {
+            "plot": {
+              "type": "column",
+              "value": "Measure1"
+            }
+          },
+          {
+            "plot": {
+              "type": "line",
+              "value": "Measure2"
+            },
+            "referenceLine": [
+              {
+                "label": "THIS IS  A REFLINE",
+                "value": 11
+              }
+            ]
+          }
+        ],
+        "chart": {
+          "animation": 0
+        },
+        "datamarker": [
+          {
+            "seriesname": "Measure1",
+            "time": "1990-01-03 12",
+            "timeformat": "%Y-%m-%d %H",
+            "type": "flag",
+            "identifier": "X",
+            "tooltext": "Custom ToolText on Measure1"
+          }
+        ],
+        "xaxis": {
+          "title": "xAxisName",
+          "plot": "Time",
+          "timemarker": [
+            {
+              "start": "1990-01-02 12:00:00",
+              "end": "1990-01-05 12:00:00",
+              "label": "Time Marker",
+              "timeformat": "%Y-%m-%d %H:%M:%S"
+            }
+          ]
+        },
+        "caption": {
+          "text": "This is a Caption",
+          "position": "right",
+          "style": {
+            "text": {
+              "font-family": "times",
+              "fill": "#0000ff",
+              "font-size": "40",
+              "opacity": 0.5,
+              "stroke": "#ff0000",
+              "stroke-width": 2,
+              "font-weight": "bold",
+              "font-style": "italic"
+            }
+          }
+        },
+        "subcaption": {
+          "text": "And this is a SubCaption",
+          "position": "right",
+          "style": {
+            "text": {
+              "font-family": "arial",
+              "fill": "#f142f4",
+              "font-size": "40",
+              "opacity": 0.7,
+              "stroke": "#5df2f4",
+              "stroke-width": 2,
+              "font-weight": "bold",
+              "font-style": "italic"
+            }
+          }
+        }
+      }
+    }
+  },
+  "FTV3-944-2": {
+    "id": "FTV3-944-2",
+    "description": "caption subcaption cosmetics from styleDefinition & position = right",
+    "options": {
+      "data-id": "caption-alignment",
+      "schema-id": "caption-alignment",
+      "type": "timeseries",
+      "width": "1000",
+      "height": "700",
+      "dataFormat": "json",
+      "dataSource": {
+        "yaxis": [
+          {
+            "plot": {
+              "type": "column",
+              "value": "Measure1"
+            }
+          },
+          {
+            "plot": {
+              "type": "line",
+              "value": "Measure2"
+            },
+            "referenceLine": [
+              {
+                "label": "THIS IS  A REFLINE",
+                "value": 11
+              }
+            ]
+          }
+        ],
+        "chart": {
+          "animation": 0
+        },
+        "datamarker": [
+          {
+            "seriesname": "Measure1",
+            "time": "1990-01-03 12",
+            "timeformat": "%Y-%m-%d %H",
+            "type": "flag",
+            "identifier": "X",
+            "tooltext": "Custom ToolText on Measure1"
+          }
+        ],
+        "xaxis": {
+          "title": "xAxisName",
+          "plot": "Time",
+          "timemarker": [
+            {
+              "start": "1990-01-02 12:00:00",
+              "end": "1990-01-05 12:00:00",
+              "label": "Time Marker",
+              "timeformat": "%Y-%m-%d %H:%M:%S"
+            }
+          ]
+        },
+        "styleDefinition": {
+          "caption-text": {
+            "font-family": "times",
+            "fill": "#0000ff",
+            "font-size": "40",
+            "opacity": 0.5,
+            "stroke": "#ff0000",
+            "stroke-width": 2,
+            "font-weight": "bold",
+            "font-style": "italic"
+          },
+          "subcaption-text": {
+            "font-family": "arial",
+            "fill": "#f142f4",
+            "font-size": "40",
+            "opacity": 0.7,
+            "stroke": "#5df2f4",
+            "stroke-width": 2,
+            "font-weight": "bold",
+            "font-style": "italic"
+          }
+        },
+        "caption": {
+          "text": "This is a Caption",
+          "position": "right",
+          "style": {
+            "text": "caption-text"
+          }
+        },
+        "subcaption": {
+          "text": "And this is a SubCaption",
+          "position": "right",
+          "style": {
+            "text": "subcaption-text"
+          }
+        }
+      }
+    }
+  },
+  "FTV3-944-3": {
+    "id": "FTV3-944-3",
+    "description": "caption subcaption cosmetics from theme & position = right",
+    "options": {
+      "data-id": "caption-alignment",
+      "schema-id": "caption-alignment",
+      "type": "timeseries",
+      "width": "1000",
+      "height": "700",
+      "dataFormat": "json",
+      "dataSource": {
+        "yaxis": [
+          {
+            "plot": {
+              "type": "column",
+              "value": "Measure1"
+            }
+          },
+          {
+            "plot": {
+              "type": "line",
+              "value": "Measure2"
+            },
+            "referenceLine": [
+              {
+                "label": "THIS IS  A REFLINE",
+                "value": 11
+              }
+            ]
+          }
+        ],
+        "chart": {
+          "theme": "caption_subcaption",
+          "animation": 0
+        },
+        "datamarker": [
+          {
+            "seriesname": "Measure1",
+            "time": "1990-01-03 12",
+            "timeformat": "%Y-%m-%d %H",
+            "type": "flag",
+            "identifier": "X",
+            "tooltext": "Custom ToolText on Measure1"
+          }
+        ],
+        "xaxis": {
+          "title": "xAxisName",
+          "plot": "Time",
+          "timemarker": [
+            {
+              "start": "1990-01-02 12:00:00",
+              "end": "1990-01-05 12:00:00",
+              "label": "Time Marker",
+              "timeformat": "%Y-%m-%d %H:%M:%S"
+            }
+          ]
+        },
+        "caption": {
+          "text": "This is a Caption",
+          "position": "right",
+          "style": {
+            "text": {
+              "fill": "#00ff00"
+            }
+          }
+        },
+        "subcaption": {
+          "text": "And this is a SubCaption",
+          "position": "right",
+          "style": {
+            "text": {
+              "fill": "#ff0000"
+            }
+          }
+        }
+      }
+    }
+  },
+  "FTV3-944-4": {
+    "id": "FTV3-944-4",
+    "description": "caption subcaption cosmetics should override chart.style.text & position = right",
+    "options": {
+      "data-id": "caption-alignment",
+      "schema-id": "caption-alignment",
+      "type": "timeseries",
+      "width": "1000",
+      "height": "700",
+      "dataFormat": "json",
+      "dataSource": {
+        "yaxis": [
+          {
+            "plot": {
+              "type": "column",
+              "value": "Measure1"
+            }
+          },
+          {
+            "plot": {
+              "type": "line",
+              "value": "Measure2"
+            },
+            "referenceLine": [
+              {
+                "label": "THIS IS  A REFLINE",
+                "value": 11
+              }
+            ]
+          }
+        ],
+        "chart": {
+          "animation": 0,
+          "style": {
+            "text": {
+              "fill": "#ff0000",
+              "color": "#ff0000",
+              "font-size": "10px",
+              "opacity": 0.8,
+              "stroke": "#00ff00",
+              "stroke-width": 0.5,
+              "font-style": "italic"
+            }
+          }
+        },
+        "datamarker": [
+          {
+            "seriesname": "Measure1",
+            "time": "1990-01-03 12",
+            "timeformat": "%Y-%m-%d %H",
+            "type": "flag",
+            "identifier": "X",
+            "tooltext": "Custom ToolText on Measure1"
+          }
+        ],
+        "xaxis": {
+          "title": "xAxisName",
+          "plot": "Time",
+          "timemarker": [
+            {
+              "start": "1990-01-02 12:00:00",
+              "end": "1990-01-05 12:00:00",
+              "label": "Time Marker",
+              "timeformat": "%Y-%m-%d %H:%M:%S"
+            }
+          ]
+        },
+        "caption": {
+          "text": "This is a Caption",
+          "position": "right",
+          "style": {
+            "text": {
+              "fill": "#0000ff",
+              "font-size": "20px"
+            }
+          }
+        },
+        "subcaption": {
+          "text": "And this is a SubCaption",
+          "position": "right",
+          "style": {
+            "text": {
+              "fill": "#ff0000",
+              "font-size": "30px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "FTV3-944-5": {
+    "id": "FTV3-944-5",
+    "description": "exportenabled",
+    "options": {
+      "data-id": "caption-alignment",
+      "schema-id": "caption-alignment",
+      "type": "timeseries",
+      "width": "600",
+      "height": "500",
+      "dataFormat": "json",
+      "dataSource": {
+        "yaxis": [
+          {
+            "plot": {
+              "type": "column",
+              "value": "Measure1"
+            }
+          }
+        ],
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "style": {
+            "text": {
+              "fill": "#ff0000",
+              "color": "#ff0000",
+              "font-size": "10px",
+              "opacity": 0.8,
+              "stroke": "#00ff00",
+              "stroke-width": 0.5,
+              "font-style": "italic"
+            }
+          }
+        },
+        "datamarker": [
+          {
+            "seriesname": "Measure1",
+            "time": "1990-01-03 12",
+            "timeformat": "%Y-%m-%d %H",
+            "type": "flag",
+            "identifier": "X",
+            "tooltext": "Custom ToolText on Measure1"
+          }
+        ],
+        "xaxis": {
+          "title": "xAxisName",
+          "plot": "Time",
+          "timemarker": [
+            {
+              "start": "1990-01-02 12:00:00",
+              "end": "1990-01-05 12:00:00",
+              "label": "Time Marker",
+              "timeformat": "%Y-%m-%d %H:%M:%S"
+            }
+          ]
+        },
+        "caption": {
+          "text": "Once upon a time there was a product called FusionCharts.",
+          "style": {
+            "text": {
+              "fill": "#0000ff",
+              "font-size": "20px"
+            }
+          }
+        },
+        "subcaption": {
+          "text": "Once upon a time there was a product called FusionCharts.",
+          "style": {
+            "text": {
+              "fill": "#ff0000",
+              "font-size": "30px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "FTV3-944-5.1": {
+    "id": "FTV3-944-5.1",
+    "description": "exportenabled & position = right",
+    "options": {
+      "data-id": "caption-alignment",
+      "schema-id": "caption-alignment",
+      "type": "timeseries",
+      "width": "600",
+      "height": "500",
+      "dataFormat": "json",
+      "dataSource": {
+        "yaxis": [
+          {
+            "plot": {
+              "type": "column",
+              "value": "Measure1"
+            }
+          }
+        ],
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "style": {
+            "text": {
+              "fill": "#ff0000",
+              "color": "#ff0000",
+              "font-size": "10px",
+              "opacity": 0.8,
+              "stroke": "#00ff00",
+              "stroke-width": 0.5,
+              "font-style": "italic"
+            }
+          }
+        },
+        "datamarker": [
+          {
+            "seriesname": "Measure1",
+            "time": "1990-01-03 12",
+            "timeformat": "%Y-%m-%d %H",
+            "type": "flag",
+            "identifier": "X",
+            "tooltext": "Custom ToolText on Measure1"
+          }
+        ],
+        "xaxis": {
+          "title": "xAxisName",
+          "plot": "Time",
+          "timemarker": [
+            {
+              "start": "1990-01-02 12:00:00",
+              "end": "1990-01-05 12:00:00",
+              "label": "Time Marker",
+              "timeformat": "%Y-%m-%d %H:%M:%S"
+            }
+          ]
+        },
+        "caption": {
+          "text": "Once upon a time there was a product called FusionCharts.",
+          "position": "right",
+          "style": {
+            "text": {
+              "fill": "#0000ff",
+              "font-size": "20px"
+            }
+          }
+        },
+        "subcaption": {
+          "text": "Once upon a time there was a product called FusionCharts.",
+          "position": "right",
+          "style": {
+            "text": {
+              "fill": "#ff0000",
+              "font-size": "30px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "FTV3-944-6": {
+    "id": "FTV3-944-6",
+    "description": "BR tag & position = right",
+    "options": {
+      "data-id": "caption-alignment",
+      "schema-id": "caption-alignment",
+      "type": "timeseries",
+      "width": "600",
+      "height": "500",
+      "dataFormat": "json",
+      "dataSource": {
+        "yaxis": [
+          {
+            "plot": {
+              "type": "column",
+              "value": "Measure1"
+            }
+          }
+        ],
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "toolbarposition": "tl",
+          "style": {
+            "text": {
+              "fill": "#ff0000",
+              "color": "#ff0000",
+              "font-size": "10px",
+              "opacity": 0.8,
+              "stroke": "#00ff00",
+              "stroke-width": 0.5,
+              "font-style": "italic"
+            }
+          }
+        },
+        "datamarker": [
+          {
+            "seriesname": "Measure1",
+            "time": "1990-01-03 12",
+            "timeformat": "%Y-%m-%d %H",
+            "type": "flag",
+            "identifier": "X",
+            "tooltext": "Custom ToolText on Measure1"
+          }
+        ],
+        "xaxis": {
+          "title": "xAxisName",
+          "plot": "Time",
+          "timemarker": [
+            {
+              "start": "1990-01-02 12:00:00",
+              "end": "1990-01-05 12:00:00",
+              "label": "Time Marker",
+              "timeformat": "%Y-%m-%d %H:%M:%S"
+            }
+          ]
+        },
+        "caption": {
+          "text": "Once upon a time there was a <br> product called FusionCharts.",
+          "position": "right",
+          "style": {
+            "text": {
+              "fill": "#0000ff",
+              "font-size": "20px"
+            }
+          }
+        },
+        "subcaption": {
+          "text": "Once upon a time <br> there was a product called FusionCharts.",
+          "position": "right",
+          "style": {
+            "text": {
+              "fill": "#ff0000",
+              "font-size": "30px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "FTV3-944-7": {
+    "id": "FTV3-944-7",
+    "description": "BR tag & position = RIGHT",
+    "options": {
+      "data-id": "caption-alignment",
+      "schema-id": "caption-alignment",
+      "type": "timeseries",
+      "width": "600",
+      "height": "500",
+      "dataFormat": "json",
+      "dataSource": {
+        "yaxis": [
+          {
+            "plot": {
+              "type": "column",
+              "value": "Measure1"
+            }
+          }
+        ],
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "toolbarposition": "tl",
+          "style": {
+            "text": {
+              "fill": "#ff0000",
+              "color": "#ff0000",
+              "font-size": "10px",
+              "opacity": 0.8,
+              "stroke": "#00ff00",
+              "stroke-width": 0.5,
+              "font-style": "italic"
+            }
+          }
+        },
+        "caption": {
+          "text": "Once upon a time there was a <br> product called FusionCharts.",
+          "position": "RIGHT",
+          "style": {
+            "text": {
+              "fill": "#0000ff",
+              "font-size": "20px"
+            }
+          }
+        },
+        "subcaption": {
+          "text": "Once upon a time <br> there was a product called FusionCharts.",
+          "position": "RIGHT",
+          "style": {
+            "text": {
+              "fill": "#ff0000",
+              "font-size": "30px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "FTV3-944-8": {
+    "id": "FTV3-944-8",
+    "description": "BR tag & position = ''",
+    "options": {
+      "data-id": "caption-alignment",
+      "schema-id": "caption-alignment",
+      "type": "timeseries",
+      "width": "600",
+      "height": "500",
+      "dataFormat": "json",
+      "dataSource": {
+        "yaxis": [
+          {
+            "plot": {
+              "type": "column",
+              "value": "Measure1"
+            }
+          }
+        ],
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "toolbarposition": "tl",
+          "style": {
+            "text": {
+              "fill": "#ff0000",
+              "color": "#ff0000",
+              "font-size": "10px",
+              "opacity": 0.8,
+              "stroke": "#00ff00",
+              "stroke-width": 0.5,
+              "font-style": "italic"
+            }
+          }
+        },
+        "caption": {
+          "text": "Once upon a time there was a <br> product called FusionCharts.",
+          "position": "",
+          "style": {
+            "text": {
+              "fill": "#0000ff",
+              "font-size": "20px"
+            }
+          }
+        },
+        "subcaption": {
+          "text": "Once upon a time <br> there was a product called FusionCharts.",
+          "position": "",
+          "style": {
+            "text": {
+              "fill": "#ff0000",
+              "font-size": "30px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "FTV3-944-9": {
+    "id": "FTV3-944-9",
+    "description": "BR tag & position = ' '",
+    "options": {
+      "data-id": "caption-alignment",
+      "schema-id": "caption-alignment",
+      "type": "timeseries",
+      "width": "600",
+      "height": "500",
+      "dataFormat": "json",
+      "dataSource": {
+        "yaxis": [
+          {
+            "plot": {
+              "type": "column",
+              "value": "Measure1"
+            }
+          }
+        ],
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "toolbarposition": "tl",
+          "style": {
+            "text": {
+              "fill": "#ff0000",
+              "color": "#ff0000",
+              "font-size": "10px",
+              "opacity": 0.8,
+              "stroke": "#00ff00",
+              "stroke-width": 0.5,
+              "font-style": "italic"
+            }
+          }
+        },
+        "caption": {
+          "text": "Once upon a time there was a <br> product called FusionCharts.",
+          "position": " ",
+          "style": {
+            "text": {
+              "fill": "#0000ff",
+              "font-size": "20px"
+            }
+          }
+        },
+        "subcaption": {
+          "text": "Once upon a time <br> there was a product called FusionCharts.",
+          "position": " ",
+          "style": {
+            "text": {
+              "fill": "#ff0000",
+              "font-size": "30px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "FTV3-944-10": {
+    "id": "FTV3-944-10",
+    "description": "BR tag & position = abc123 ",
+    "options": {
+      "data-id": "caption-alignment",
+      "schema-id": "caption-alignment",
+      "type": "timeseries",
+      "width": "600",
+      "height": "500",
+      "dataFormat": "json",
+      "dataSource": {
+        "yaxis": [
+          {
+            "plot": {
+              "type": "column",
+              "value": "Measure1"
+            }
+          }
+        ],
+        "chart": {
+          "animation": 0,
+          "exportenabled": 1,
+          "toolbarposition": "tl",
+          "style": {
+            "text": {
+              "fill": "#ff0000",
+              "color": "#ff0000",
+              "font-size": "10px",
+              "opacity": 0.8,
+              "stroke": "#00ff00",
+              "stroke-width": 0.5,
+              "font-style": "italic"
+            }
+          }
+        },
+        "caption": {
+          "text": "Once upon a time there was a <br> product called FusionCharts.",
+          "position": "abc123 ",
+          "style": {
+            "text": {
+              "fill": "#0000ff",
+              "font-size": "20px"
+            }
+          }
+        },
+        "subcaption": {
+          "text": "Once upon a time <br> there was a product called FusionCharts.",
+          "position": "abc123 ",
+          "style": {
+            "text": {
+              "fill": "#ff0000",
+              "font-size": "30px"
+            }
+          }
+        }
+      }
+    }
+  }
+}

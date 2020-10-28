@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <script type="text/javascript" src="fusioncharts/fusioncharts.js"></script>
+</head>
+
+<body>
+
+    <a href="https://fusioncharts.jira.com/browse/RED-5628">RED-5628</a>
+    <div>feedData() is not working when data is fed with dial/pointer id in angulargauge & hlineargauge.</div>
+    <button id='feed-data'>feedData("&CPU1=23&CPU2=35")</button>
+    <div id="chart-container">FusionCharts will render here</div>
+    <div id="chart-container1">FusionCharts will render here</div>
+    <script type="text/javascript">
+        FusionCharts.ready(function () {
+            var angularGauge = new FusionCharts({
+                type: 'angulargauge',
+                id: 'myChart',
+                renderAt: 'chart-container',
+                width: '400',
+                height: '300',
+                dataFormat: 'json',
+                dataSource: {
+                    "chart": {
+                        "caption": "Average Customer Satisfaction Score",
+                        "subcaption": "Last year vs Current year",
+                        "lowerLimit": "0",
+                        "upperLimit": "100",
+                        "gaugeFillMix": "{dark-40},{light-40},{dark-20}",
+                        "theme": "fint"
+                    },
+                    "colorRange": {
+                        "color": [{
+                                "minValue": "0",
+                                "maxValue": "50",
+                                "code": "#e44a00"
+                            },
+                            {
+                                "minValue": "50",
+                                "maxValue": "75",
+                                "code": "#f8bd19"
+                            },
+                            {
+                                "minValue": "75",
+                                "maxValue": "100",
+                                "code": "#6baa01"
+                            }
+                        ]
+                    },
+                    "dials": {
+                        "dial": [{
+                                "id": "CPU1",
+                                "value": "67",
+                                "showValue": "1"
+                            },
+                            {
+                                "id": "CPU2",
+                                "value": "32",
+                                "showValue": "1"
+                            }
+                        ]
+                    }
+                }
+            }).render();
+            var hLinearGauge = new FusionCharts({
+                type: 'hlinearGauge',
+                id: 'myChart',
+                renderAt: 'chart-container1',
+                width: '400',
+                height: '300',
+                dataFormat: 'json',
+                dataSource: {
+                    "chart": {
+                        "lowerlimit": "0",
+                        "upperlimit": "100",
+                        "lowerlimitdisplay": "Bad",
+                        "upperlimitdisplay": "Good",
+                        "palette": "1",
+                        "numbersuffix": "%",
+                        "chartrightmargin": "20",
+                        "animation": "1"
+                    },
+                    "colorrange": {
+                        "color": [{
+                                "minvalue": "0",
+                                "maxvalue": "75",
+                                "code": "FF654F",
+                                "label": "Bad"
+                            },
+                            {
+                                "minvalue": "75",
+                                "maxvalue": "90",
+                                "code": "F6BD0F",
+                                "label": "Moderate"
+                            },
+                            {
+                                "minvalue": "90",
+                                "maxvalue": "100",
+                                "code": "8BBA00",
+                                "label": "Good"
+                            }
+                        ]
+                    },
+                    "pointers": {
+                        "pointer": [{
+                            "id": "CPU1",
+                            "value": "92"
+                        },{
+                            "id": "CPU2",
+                            "value": "30"
+                        }]
+                    }
+                }
+            }).render();
+            document.getElementById('feed-data').addEventListener('click', function(){
+                angularGauge.feedData("&CPU1=23&CPU2=35");
+                hLinearGauge.feedData("&CPU1=23&CPU2=35");
+            })
+        });
+    </script>
+</body>
+
+</html>

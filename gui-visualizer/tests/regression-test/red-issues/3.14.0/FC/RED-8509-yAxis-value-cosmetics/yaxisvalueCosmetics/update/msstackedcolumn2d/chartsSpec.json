@@ -1,0 +1,982 @@
+{
+    "test-1": {
+        "descriptions": "Update with all the yaxisValue attributes",
+        "id": "test-1",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "msstackedcolumn2d",
+            "dataSource": {
+                "chart": {
+                    "animation": 0
+                },
+                "categories": [
+                    {
+                        "font": "Arial",
+                        "fontsize": "12",
+                        "fontcolor": "000000",
+                        "category": [
+                            {
+                                "label": "2001"
+                            },
+                            {
+                                "label": "2002"
+                            },
+                            {
+                                "label": "2003"
+                            },
+                            {
+                                "label": "2004"
+                            },
+                            {
+                                "label": "2005"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Product A",
+                                "color": "AFD8F8",
+                                "data": [
+                                    {
+                                        "value": "30"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "29"
+                                    },
+                                    {
+                                        "value": "31"
+                                    },
+                                    {
+                                        "value": "34"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Product B",
+                                "color": "F6BD0F",
+                                "data": [
+                                    {
+                                        "value": "21"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "39"
+                                    },
+                                    {
+                                        "value": "41"
+                                    },
+                                    {
+                                        "value": "24"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Service A",
+                                "color": "8BBA00",
+                                "data": [
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "25"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "10"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Service B",
+                                "color": "A66EDD",
+                                "data": [
+                                    {
+                                        "value": "17"
+                                    },
+                                    {
+                                        "value": "15"
+                                    },
+                                    {
+                                        "value": "18"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "10"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Service C",
+                                "color": "F984A1",
+                                "data": [
+                                    {
+                                        "value": "12"
+                                    },
+                                    {
+                                        "value": "17"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "15"
+                                    },
+                                    {
+                                        "value": "12"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "yAxisValueFont": "times",
+                            "yAxisValueFontSize": "17",
+                            "yaxisValueFontColor": "#0000ff",
+                            "yaxisValueFontItalic": "1",
+                            "yaxisValueFontBold": "1",
+                            "yAxisValueBgColor": "#ff00ff",
+                            "yAxisValueBorderColor": "#00ff00",
+                            "yaxisvaluealpha": "30",
+                            "yaxisvalueBgalpha": "80",
+                            "yAxisValueBorderAlpha": "1",
+                            "yaxisValueBorderPadding": "10",
+                            "yAxisValueBorderRadius": "3",
+                            "yaxisvalueborderthickness": "3",
+                            "yaxisvalueborderdashed": "1",
+                            "yaxisvalueborderdashlen": "7",
+                            "yaxisvaluelink": "p-http://google.com",
+                            "_clickurl": "p-http://yahoo.com",
+                            "animation": 0
+                        },
+                        "categories": [
+                            {
+                                "font": "Arial",
+                                "fontsize": "12",
+                                "fontcolor": "000000",
+                                "category": [
+                                    {
+                                        "label": "2001"
+                                    },
+                                    {
+                                        "label": "2002"
+                                    },
+                                    {
+                                        "label": "2003"
+                                    },
+                                    {
+                                        "label": "2004"
+                                    },
+                                    {
+                                        "label": "2005"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dataset": [
+                            {
+                                "dataset": [
+                                    {
+                                        "seriesname": "Product A",
+                                        "color": "AFD8F8",
+                                        "data": [
+                                            {
+                                                "value": "30"
+                                            },
+                                            {
+                                                "value": "26"
+                                            },
+                                            {
+                                                "value": "29"
+                                            },
+                                            {
+                                                "value": "31"
+                                            },
+                                            {
+                                                "value": "34"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "seriesname": "Product B",
+                                        "color": "F6BD0F",
+                                        "data": [
+                                            {
+                                                "value": "21"
+                                            },
+                                            {
+                                                "value": "28"
+                                            },
+                                            {
+                                                "value": "39"
+                                            },
+                                            {
+                                                "value": "41"
+                                            },
+                                            {
+                                                "value": "24"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "dataset": [
+                                    {
+                                        "seriesname": "Service A",
+                                        "color": "8BBA00",
+                                        "data": [
+                                            {
+                                                "value": "27"
+                                            },
+                                            {
+                                                "value": "25"
+                                            },
+                                            {
+                                                "value": "28"
+                                            },
+                                            {
+                                                "value": "26"
+                                            },
+                                            {
+                                                "value": "10"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "seriesname": "Service B",
+                                        "color": "A66EDD",
+                                        "data": [
+                                            {
+                                                "value": "17"
+                                            },
+                                            {
+                                                "value": "15"
+                                            },
+                                            {
+                                                "value": "18"
+                                            },
+                                            {
+                                                "value": "16"
+                                            },
+                                            {
+                                                "value": "10"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "seriesname": "Service C",
+                                        "color": "F984A1",
+                                        "data": [
+                                            {
+                                                "value": "12"
+                                            },
+                                            {
+                                                "value": "17"
+                                            },
+                                            {
+                                                "value": "16"
+                                            },
+                                            {
+                                                "value": "15"
+                                            },
+                                            {
+                                                "value": "12"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "test-2": {
+        "descriptions": "Update the yaxisValue boolean attributes 1 to 0 and also changing the other attributes value",
+        "id": "test-2",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "msstackedcolumn2d",
+            "dataSource": {
+                "chart": {
+                    "yAxisValueFont": "times",
+                    "yAxisValueFontSize": "17",
+                    "yaxisValueFontColor": "#0000ff",
+                    "yaxisValueFontItalic": "1",
+                    "yaxisValueFontBold": "1",
+                    "yAxisValueBgColor": "#ff00ff",
+                    "yAxisValueBorderColor": "#00ff00",
+                    "yaxisvaluealpha": "30",
+                    "yaxisvalueBgalpha": "80",
+                    "yAxisValueBorderAlpha": "1",
+                    "yaxisValueBorderPadding": "10",
+                    "yAxisValueBorderRadius": "3",
+                    "yaxisvalueborderthickness": "3",
+                    "yaxisvalueborderdashed": "1",
+                    "yaxisvalueborderdashlen": "7",
+                    "yaxisvaluelink": "p-http://google.com",
+                    "_clickurl": "p-http://yahoo.com",
+                    "animation": 0
+                },
+                "categories": [
+                    {
+                        "font": "Arial",
+                        "fontsize": "12",
+                        "fontcolor": "000000",
+                        "category": [
+                            {
+                                "label": "2001"
+                            },
+                            {
+                                "label": "2002"
+                            },
+                            {
+                                "label": "2003"
+                            },
+                            {
+                                "label": "2004"
+                            },
+                            {
+                                "label": "2005"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Product A",
+                                "color": "AFD8F8",
+                                "data": [
+                                    {
+                                        "value": "30"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "29"
+                                    },
+                                    {
+                                        "value": "31"
+                                    },
+                                    {
+                                        "value": "34"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Product B",
+                                "color": "F6BD0F",
+                                "data": [
+                                    {
+                                        "value": "21"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "39"
+                                    },
+                                    {
+                                        "value": "41"
+                                    },
+                                    {
+                                        "value": "24"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Service A",
+                                "color": "8BBA00",
+                                "data": [
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "25"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "10"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Service B",
+                                "color": "A66EDD",
+                                "data": [
+                                    {
+                                        "value": "17"
+                                    },
+                                    {
+                                        "value": "15"
+                                    },
+                                    {
+                                        "value": "18"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "10"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Service C",
+                                "color": "F984A1",
+                                "data": [
+                                    {
+                                        "value": "12"
+                                    },
+                                    {
+                                        "value": "17"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "15"
+                                    },
+                                    {
+                                        "value": "12"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "yAxisValueFont": "sans-seriff",
+                            "yAxisValueFontSize": "13",
+                            "yaxisValueFontColor": "#ff00ff",
+                            "yaxisValueFontItalic": "0",
+                            "yaxisValueFontBold": "0",
+                            "yAxisValueBgColor": "#00ff00",
+                            "yAxisValueBorderColor": "#ffff00",
+                            "yaxisvaluealpha": "80",
+                            "yaxisvalueBgalpha": "10",
+                            "yAxisValueBorderAlpha": "100",
+                            "yaxisValueBorderPadding": "4",
+                            "yAxisValueBorderRadius": "1",
+                            "yaxisvalueborderthickness": "31",
+                            "yaxisvalueborderdashed": "10",
+                            "yaxisvalueborderdashlen": "7",
+                            "_yaxisvaluelink": "p-http://google.com",
+                            "_clickurl": "p-http://yahoo.com",
+                            "animation": 0
+                        },
+                        "categories": [
+                            {
+                                "font": "Arial",
+                                "fontsize": "12",
+                                "fontcolor": "000000",
+                                "category": [
+                                    {
+                                        "label": "2001"
+                                    },
+                                    {
+                                        "label": "2002"
+                                    },
+                                    {
+                                        "label": "2003"
+                                    },
+                                    {
+                                        "label": "2004"
+                                    },
+                                    {
+                                        "label": "2005"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dataset": [
+                            {
+                                "dataset": [
+                                    {
+                                        "seriesname": "Product A",
+                                        "color": "AFD8F8",
+                                        "data": [
+                                            {
+                                                "value": "30"
+                                            },
+                                            {
+                                                "value": "26"
+                                            },
+                                            {
+                                                "value": "29"
+                                            },
+                                            {
+                                                "value": "31"
+                                            },
+                                            {
+                                                "value": "34"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "seriesname": "Product B",
+                                        "color": "F6BD0F",
+                                        "data": [
+                                            {
+                                                "value": "21"
+                                            },
+                                            {
+                                                "value": "28"
+                                            },
+                                            {
+                                                "value": "39"
+                                            },
+                                            {
+                                                "value": "41"
+                                            },
+                                            {
+                                                "value": "24"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "dataset": [
+                                    {
+                                        "seriesname": "Service A",
+                                        "color": "8BBA00",
+                                        "data": [
+                                            {
+                                                "value": "27"
+                                            },
+                                            {
+                                                "value": "25"
+                                            },
+                                            {
+                                                "value": "28"
+                                            },
+                                            {
+                                                "value": "26"
+                                            },
+                                            {
+                                                "value": "10"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "seriesname": "Service B",
+                                        "color": "A66EDD",
+                                        "data": [
+                                            {
+                                                "value": "17"
+                                            },
+                                            {
+                                                "value": "15"
+                                            },
+                                            {
+                                                "value": "18"
+                                            },
+                                            {
+                                                "value": "16"
+                                            },
+                                            {
+                                                "value": "10"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "seriesname": "Service C",
+                                        "color": "F984A1",
+                                        "data": [
+                                            {
+                                                "value": "12"
+                                            },
+                                            {
+                                                "value": "17"
+                                            },
+                                            {
+                                                "value": "16"
+                                            },
+                                            {
+                                                "value": "15"
+                                            },
+                                            {
+                                                "value": "12"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "test-3": {
+        "descriptions": "Remove all yaxisvalue cosmetics through update",
+        "id": "test-3",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "msstackedcolumn2d",
+            "dataSource": {
+                "chart": {
+                    "yAxisValueFont": "times",
+                    "yAxisValueFontSize": "17",
+                    "yaxisValueFontColor": "#0000ff",
+                    "yaxisValueFontItalic": "1",
+                    "yaxisValueFontBold": "1",
+                    "yAxisValueBgColor": "#ff00ff",
+                    "yAxisValueBorderColor": "#00ff00",
+                    "yaxisvaluealpha": "30",
+                    "yaxisvalueBgalpha": "80",
+                    "yAxisValueBorderAlpha": "1",
+                    "yaxisValueBorderPadding": "10",
+                    "yAxisValueBorderRadius": "3",
+                    "yaxisvalueborderthickness": "3",
+                    "yaxisvalueborderdashed": "1",
+                    "yaxisvalueborderdashlen": "7",
+                    "yaxisvaluelink": "p-http://google.com",
+                    "_clickurl": "p-http://yahoo.com",
+                    "animation": 0
+                },
+                "categories": [
+                    {
+                        "font": "Arial",
+                        "fontsize": "12",
+                        "fontcolor": "000000",
+                        "category": [
+                            {
+                                "label": "2001"
+                            },
+                            {
+                                "label": "2002"
+                            },
+                            {
+                                "label": "2003"
+                            },
+                            {
+                                "label": "2004"
+                            },
+                            {
+                                "label": "2005"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Product A",
+                                "color": "AFD8F8",
+                                "data": [
+                                    {
+                                        "value": "30"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "29"
+                                    },
+                                    {
+                                        "value": "31"
+                                    },
+                                    {
+                                        "value": "34"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Product B",
+                                "color": "F6BD0F",
+                                "data": [
+                                    {
+                                        "value": "21"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "39"
+                                    },
+                                    {
+                                        "value": "41"
+                                    },
+                                    {
+                                        "value": "24"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Service A",
+                                "color": "8BBA00",
+                                "data": [
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "25"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "10"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Service B",
+                                "color": "A66EDD",
+                                "data": [
+                                    {
+                                        "value": "17"
+                                    },
+                                    {
+                                        "value": "15"
+                                    },
+                                    {
+                                        "value": "18"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "10"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Service C",
+                                "color": "F984A1",
+                                "data": [
+                                    {
+                                        "value": "12"
+                                    },
+                                    {
+                                        "value": "17"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "15"
+                                    },
+                                    {
+                                        "value": "12"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "animation": 0
+                        },
+                        "categories": [
+                            {
+                                "font": "Arial",
+                                "fontsize": "12",
+                                "fontcolor": "000000",
+                                "category": [
+                                    {
+                                        "label": "2001"
+                                    },
+                                    {
+                                        "label": "2002"
+                                    },
+                                    {
+                                        "label": "2003"
+                                    },
+                                    {
+                                        "label": "2004"
+                                    },
+                                    {
+                                        "label": "2005"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dataset": [
+                            {
+                                "dataset": [
+                                    {
+                                        "seriesname": "Product A",
+                                        "color": "AFD8F8",
+                                        "data": [
+                                            {
+                                                "value": "30"
+                                            },
+                                            {
+                                                "value": "26"
+                                            },
+                                            {
+                                                "value": "29"
+                                            },
+                                            {
+                                                "value": "31"
+                                            },
+                                            {
+                                                "value": "34"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "seriesname": "Product B",
+                                        "color": "F6BD0F",
+                                        "data": [
+                                            {
+                                                "value": "21"
+                                            },
+                                            {
+                                                "value": "28"
+                                            },
+                                            {
+                                                "value": "39"
+                                            },
+                                            {
+                                                "value": "41"
+                                            },
+                                            {
+                                                "value": "24"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "dataset": [
+                                    {
+                                        "seriesname": "Service A",
+                                        "color": "8BBA00",
+                                        "data": [
+                                            {
+                                                "value": "27"
+                                            },
+                                            {
+                                                "value": "25"
+                                            },
+                                            {
+                                                "value": "28"
+                                            },
+                                            {
+                                                "value": "26"
+                                            },
+                                            {
+                                                "value": "10"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "seriesname": "Service B",
+                                        "color": "A66EDD",
+                                        "data": [
+                                            {
+                                                "value": "17"
+                                            },
+                                            {
+                                                "value": "15"
+                                            },
+                                            {
+                                                "value": "18"
+                                            },
+                                            {
+                                                "value": "16"
+                                            },
+                                            {
+                                                "value": "10"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "seriesname": "Service C",
+                                        "color": "F984A1",
+                                        "data": [
+                                            {
+                                                "value": "12"
+                                            },
+                                            {
+                                                "value": "17"
+                                            },
+                                            {
+                                                "value": "16"
+                                            },
+                                            {
+                                                "value": "15"
+                                            },
+                                            {
+                                                "value": "12"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

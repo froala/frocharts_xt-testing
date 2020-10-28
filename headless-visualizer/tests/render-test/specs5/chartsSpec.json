@@ -1,0 +1,1338 @@
+{
+    "msspline": {
+        "description": " Rendering msspline",
+        "options": {
+            "type": "msspline",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Number of visitors last week",
+                    "subCaption": "Bakersfield Central vs Los Angeles Topanga",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "baseFontColor": "#333333",
+                    "baseFont": "Helvetica Neue,Arial",
+                    "subcaptionFontBold": "0",
+                    "xAxisName": "Day",
+                    "yAxisName": "No. of Visitor",
+                    "showValues": "0",
+                    "paletteColors": "#0075c2,#1aaf5d",
+                    "bgColor": "#ffffff",
+                    "showBorder": "0",
+                    "showShadow": "0",
+                    "showAlternateHGridColor": "0",
+                    "showCanvasBorder": "0",
+                    "showXAxisLine": "1",
+                    "xAxisLineThickness": "1",
+                    "xAxisLineColor": "#999999",
+                    "canvasBgColor": "#ffffff",
+                    "legendBorderAlpha": "0",
+                    "legendShadow": "0",
+                    "divlineAlpha": "100",
+                    "divlineColor": "#999999",
+                    "divlineThickness": "1",
+                    "divLineIsDashed": "1",
+                    "divLineDashLen": "1",
+                    "divLineGapLen": "1",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Mon"
+                            },
+                            {
+                                "label": "Tue"
+                            },
+                            {
+                                "label": "Wed"
+                            },
+                            {
+                                "vline": "true",
+                                "lineposition": "0",
+                                "color": "#6baa01",
+                                "labelHAlign": "right",
+                                "labelPosition": "0",
+                                "label": "National holiday"
+                            },
+                            {
+                                "label": "Thu"
+                            },
+                            {
+                                "label": "Fri"
+                            },
+                            {
+                                "label": "Sat"
+                            },
+                            {
+                                "label": "Sun"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Bakersfield Central",
+                        "data": [
+                            {
+                                "value": "15123"
+                            },
+                            {
+                                "value": "14233"
+                            },
+                            {
+                                "value": "25507"
+                            },
+                            {
+                                "value": "9110"
+                            },
+                            {
+                                "value": "15529"
+                            },
+                            {
+                                "value": "20803"
+                            },
+                            {
+                                "value": "19202"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Los Angeles Topanga",
+                        "data": [
+                            {
+                                "value": "13400"
+                            },
+                            {
+                                "value": "12800"
+                            },
+                            {
+                                "value": "22800"
+                            },
+                            {
+                                "value": "12400"
+                            },
+                            {
+                                "value": "15800"
+                            },
+                            {
+                                "value": "19800"
+                            },
+                            {
+                                "value": "21800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "msspline",
+        "refimage": "./tests/render-test/specs5/ref-images/msspline-snapshot.png"
+    },
+    "mssplinearea": {
+        "description": " Rendering mssplinearea",
+        "options": {
+            "type": "mssplinearea",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Number of Footfalls Last Week",
+                    "subCaption": "Garden Groove harbour vs Crompton-Rancho Dom",
+                    "xAxisName": "Day",
+                    "yAxisName": "No. of Footfalls",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "baseFontColor": "#333333",
+                    "baseFont": "Helvetica Neue,Arial",
+                    "subcaptionFontBold": "0",
+                    "paletteColors": "#6baa01,#008ee4",
+                    "usePlotGradientColor": "0",
+                    "bgColor": "#ffffff",
+                    "showBorder": "0",
+                    "showPlotBorder": "0",
+                    "showValues": "0",
+                    "showShadow": "0",
+                    "showAlternateHGridColor": "0",
+                    "showCanvasBorder": "0",
+                    "showXAxisLine": "1",
+                    "xAxisLineThickness": "1",
+                    "xAxisLineColor": "#999999",
+                    "canvasBgColor": "#ffffff",
+                    "divlineAlpha": "100",
+                    "divlineColor": "#999999",
+                    "divlineThickness": "1",
+                    "divLineIsDashed": "1",
+                    "divLineDashLen": "1",
+                    "divLineGapLen": "1",
+                    "legendBorderAlpha": "0",
+                    "legendShadow": "0",
+                    "toolTipColor": "#ffffff",
+                    "toolTipBorderThickness": "0",
+                    "toolTipBgColor": "#000000",
+                    "toolTipBgAlpha": "80",
+                    "toolTipBorderRadius": "2",
+                    "toolTipPadding": "5",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Mon"
+                            },
+                            {
+                                "label": "Tue"
+                            },
+                            {
+                                "label": "Wed"
+                            },
+                            {
+                                "vline": "true",
+                                "lineposition": "0",
+                                "color": "#6baa01",
+                                "labelHAlign": "right",
+                                "labelPosition": "0",
+                                "label": "National holiday"
+                            },
+                            {
+                                "label": "Thu"
+                            },
+                            {
+                                "label": "Fri"
+                            },
+                            {
+                                "label": "Sat"
+                            },
+                            {
+                                "label": "Sun"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Garden Groove harbour",
+                        "data": [
+                            {
+                                "value": "15123"
+                            },
+                            {
+                                "value": "14233"
+                            },
+                            {
+                                "value": "21507"
+                            },
+                            {
+                                "value": "9110"
+                            },
+                            {
+                                "value": "14829"
+                            },
+                            {
+                                "value": "17503"
+                            },
+                            {
+                                "value": "20202"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Crompton-Rancho Dom",
+                        "data": [
+                            {
+                                "value": "11400"
+                            },
+                            {
+                                "value": "12800"
+                            },
+                            {
+                                "value": "17800"
+                            },
+                            {
+                                "value": "10400"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "13100"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "mssplinearea",
+        "refimage": "./tests/render-test/specs5/ref-images/mssplinearea-snapshot.png"
+    },
+    "msstackedcolumn2d": {
+        "description": " Rendering msstackedcolumn2d",
+        "options": {
+            "type": "msstackedcolumn2d",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Product-wise break-up of quarterly revenue in last year",
+                    "subcaption": "Harry's SuperMart",
+                    "xaxisname": "Quarter",
+                    "yaxisname": "Sales (In USD)",
+                    "paletteColors": "#0075c2,#45AFF5,#2C8A56,#1aaf5d,#50DE90",
+                    "numberPrefix": "$",
+                    "numbersuffix": "M",
+                    "bgColor": "#ffffff",
+                    "borderAlpha": "20",
+                    "showCanvasBorder": "0",
+                    "usePlotGradientColor": "0",
+                    "plotBorderAlpha": "10",
+                    "legendBorderAlpha": "0",
+                    "legendShadow": "0",
+                    "valueFontColor": "#ffffff",
+                    "showXAxisLine": "1",
+                    "xAxisLineColor": "#999999",
+                    "divlineColor": "#999999",
+                    "divLineIsDashed": "1",
+                    "showAlternateHGridColor": "0",
+                    "subcaptionFontBold": "0",
+                    "subcaptionFontSize": "14",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Q1"
+                            },
+                            {
+                                "label": "Q2"
+                            },
+                            {
+                                "label": "Q3"
+                            },
+                            {
+                                "label": "Q4"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Processed Food",
+                                "data": [
+                                    {
+                                        "value": "30"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "29"
+                                    },
+                                    {
+                                        "value": "31"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Un-Processed Food",
+                                "data": [
+                                    {
+                                        "value": "21"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "39"
+                                    },
+                                    {
+                                        "value": "41"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Electronics",
+                                "data": [
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "25"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "26"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Apparels",
+                                "data": [
+                                    {
+                                        "value": "17"
+                                    },
+                                    {
+                                        "value": "15"
+                                    },
+                                    {
+                                        "value": "18"
+                                    },
+                                    {
+                                        "value": "16"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Others",
+                                "data": [
+                                    {
+                                        "value": "12"
+                                    },
+                                    {
+                                        "value": "17"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "15"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "msstackedcolumn2d",
+        "refimage": "./tests/render-test/specs5/ref-images/msstackedcolumn2d-snapshot.png"
+    },
+    "msstackedcolumn2dlinedy": {
+        "description": " Rendering msstackedcolumn2dlinedy",
+        "options": {
+            "type": "msstackedcolumn2dlinedy",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Quarterly Sales vs. Profit % in Last Year",
+                    "subcaption": "Product-wise Break-up - Harry's SuperMart",
+                    "xAxisName": "Quarter",
+                    "pYAxisName": "Sales",
+                    "sYAxisName": "Profit %",
+                    "numberPrefix": "$",
+                    "numbersuffix": "M",
+                    "sNumberSuffix": "%",
+                    "sYAxisMaxValue": "25",
+                    "paletteColors": "#5598c3,#2785c3,#31cc77,#1aaf5d,#f45b00",
+                    "baseFontColor": "#333333",
+                    "baseFont": "Helvetica Neue,Arial",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "showBorder": "0",
+                    "bgColor": "#ffffff",
+                    "showShadow": "0",
+                    "canvasBgColor": "#ffffff",
+                    "canvasBorderAlpha": "0",
+                    "divlineAlpha": "100",
+                    "divlineColor": "#999999",
+                    "divlineThickness": "1",
+                    "divLineIsDashed": "1",
+                    "divLineDashLen": "1",
+                    "divLineGapLen": "1",
+                    "usePlotGradientColor": "0",
+                    "showplotborder": "0",
+                    "valueFontColor": "#ffffff",
+                    "placeValuesInside": "1",
+                    "showXAxisLine": "1",
+                    "xAxisLineThickness": "1",
+                    "xAxisLineColor": "#999999",
+                    "showAlternateHGridColor": "0",
+                    "legendBgAlpha": "0",
+                    "legendBorderAlpha": "0",
+                    "legendShadow": "0",
+                    "legendItemFontSize": "10",
+                    "legendItemFontColor": "#666666",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Q1"
+                            },
+                            {
+                                "label": "Q2"
+                            },
+                            {
+                                "label": "Q3"
+                            },
+                            {
+                                "label": "Q4"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Processed Food",
+                                "data": [
+                                    {
+                                        "value": "30"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "33"
+                                    },
+                                    {
+                                        "value": "31"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Un-Processed Food",
+                                "data": [
+                                    {
+                                        "value": "21"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "39"
+                                    },
+                                    {
+                                        "value": "41"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Electronics",
+                                "data": [
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "25"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "26"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Apparels",
+                                "data": [
+                                    {
+                                        "value": "17"
+                                    },
+                                    {
+                                        "value": "15"
+                                    },
+                                    {
+                                        "value": "18"
+                                    },
+                                    {
+                                        "value": "16"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "lineset": [
+                    {
+                        "seriesname": "Profit %",
+                        "showValues": "0",
+                        "data": [
+                            {
+                                "value": "14"
+                            },
+                            {
+                                "value": "16"
+                            },
+                            {
+                                "value": "15"
+                            },
+                            {
+                                "value": "17"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "msstackedcolumn2dlinedy",
+        "refimage": "./tests/render-test/specs5/ref-images/msstackedcolumn2dlinedy-snapshot.png"
+    },
+    "msstepline": {
+        "description": " Rendering msstepline",
+        "options": {
+            "type": "msstepline",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Revenue Vs Expense",
+                    "subCaption": "Last year",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "baseFontColor": "#333333",
+                    "baseFont": "Helvetica Neue,Arial",
+                    "xaxisname": "Month",
+                    "yaxisname": "Amount (In USD)",
+                    "usePlotGradientColor": "0",
+                    "bgColor": "#ffffff",
+                    "palettecolors": "#6baa01, #d35400",
+                    "showBorder": "0",
+                    "showPlotBorder": "0",
+                    "showValues": "0",
+                    "showShadow": "0",
+                    "showAlternateHGridColor": "0",
+                    "showCanvasBorder": "0",
+                    "showXAxisLine": "1",
+                    "numberprefix": "$",
+                    "drawverticaljoints": "1",
+                    "useforwardsteps": "0",
+                    "xAxisLineThickness": "1",
+                    "xAxisLineColor": "#999999",
+                    "canvasBgColor": "#ffffff",
+                    "divlineAlpha": "100",
+                    "divlineColor": "#999999",
+                    "divlineThickness": "1",
+                    "divLineIsDashed": "1",
+                    "divLineDashLen": "1",
+                    "divLineGapLen": "1",
+                    "legendBorderAlpha": "0",
+                    "legendShadow": "0",
+                    "toolTipColor": "#ffffff",
+                    "toolTipBorderThickness": "0",
+                    "toolTipBgColor": "#000000",
+                    "toolTipBgAlpha": "80",
+                    "toolTipBorderRadius": "2",
+                    "toolTipPadding": "5",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Revenue",
+                        "linethickness": "3",
+                        "anchorradius": "3",
+                        "data": [
+                            {
+                                "value": "374000"
+                            },
+                            {
+                                "value": "350000"
+                            },
+                            {
+                                "value": "380000"
+                            },
+                            {
+                                "value": "340000"
+                            },
+                            {
+                                "value": "398000"
+                            },
+                            {
+                                "value": "326000"
+                            },
+                            {
+                                "value": "448000"
+                            },
+                            {
+                                "value": "379000"
+                            },
+                            {
+                                "value": "355000"
+                            },
+                            {
+                                "value": "374000"
+                            },
+                            {
+                                "value": "348000"
+                            },
+                            {
+                                "value": "402000"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Expense",
+                        "linethickness": "3",
+                        "anchorradius": "3",
+                        "data": [
+                            {
+                                "value": "100000"
+                            },
+                            {
+                                "value": "115000"
+                            },
+                            {
+                                "value": "135000"
+                            },
+                            {
+                                "value": "150000"
+                            },
+                            {
+                                "value": "110000"
+                            },
+                            {
+                                "value": "98000"
+                            },
+                            {
+                                "value": "118000"
+                            },
+                            {
+                                "value": "197000"
+                            },
+                            {
+                                "value": "228000"
+                            },
+                            {
+                                "value": "249000"
+                            },
+                            {
+                                "value": "229000"
+                            },
+                            {
+                                "value": "208000"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "msstepline",
+        "refimage": "./tests/render-test/specs5/ref-images/msstepline-snapshot.png"
+    },
+    "multiaxisline": {
+        "description": " Rendering multiaxisline",
+        "options": {
+            "type": "multiaxisline",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "2",
+                    "caption": "CPU Usage",
+                    "subcaption": "(Last 10 Hours)",
+                    "xaxisname": "Time",
+                    "showvalues": "0",
+                    "divlinealpha": "100",
+                    "numvdivlines": "4",
+                    "vdivlinealpha": "0",
+                    "showalternatevgridcolor": "1",
+                    "alternatevgridalpha": "5",
+                    "canvaspadding": "0",
+                    "labeldisplay": "ROTATE",
+                    "showborder": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "10:00"
+                            },
+                            {
+                                "label": "11:00"
+                            },
+                            {
+                                "label": "12:00"
+                            },
+                            {
+                                "label": "13:00"
+                            },
+                            {
+                                "label": "14:00"
+                            },
+                            {
+                                "label": "15:00"
+                            },
+                            {
+                                "label": "16:00"
+                            },
+                            {
+                                "label": "17:00"
+                            },
+                            {
+                                "label": "18:00"
+                            },
+                            {
+                                "label": "19:00"
+                            }
+                        ]
+                    }
+                ],
+                "axis": [
+                    {
+                        "title": "CPU Usage",
+                        "titlepos": "left",
+                        "tickwidth": "10",
+                        "divlineisdashed": "1",
+                        "numbersuffix": "%",
+                        "dataset": [
+                            {
+                                "seriesname": "CPU 1",
+                                "linethickness": "3",
+                                "color": "CC0000",
+                                "data": [
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "19"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "17"
+                                    },
+                                    {
+                                        "value": "23"
+                                    },
+                                    {
+                                        "value": "23"
+                                    },
+                                    {
+                                        "value": "15"
+                                    },
+                                    {
+                                        "value": "14"
+                                    },
+                                    {
+                                        "value": "19"
+                                    },
+                                    {
+                                        "value": "21"
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "CPU 2",
+                                "linethickness": "3",
+                                "color": "0372AB",
+                                "data": [
+                                    {
+                                        "value": "12"
+                                    },
+                                    {
+                                        "value": "12"
+                                    },
+                                    {
+                                        "value": "9"
+                                    },
+                                    {
+                                        "value": "9"
+                                    },
+                                    {
+                                        "value": "11"
+                                    },
+                                    {
+                                        "value": "13"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "14"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "11"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "PF Usage",
+                        "axisonleft": "0",
+                        "titlepos": "right",
+                        "numdivlines": "4",
+                        "tickwidth": "10",
+                        "divlineisdashed": "1",
+                        "formatnumberscale": "1",
+                        "defaultnumberscale": " MB",
+                        "numberscaleunit": "GB",
+                        "numberscalevalue": "1024",
+                        "dataset": [
+                            {
+                                "seriesname": "PF Usage",
+                                "data": [
+                                    {
+                                        "value": "696"
+                                    },
+                                    {
+                                        "value": "711"
+                                    },
+                                    {
+                                        "value": "636"
+                                    },
+                                    {
+                                        "value": "671"
+                                    },
+                                    {
+                                        "value": "1293"
+                                    },
+                                    {
+                                        "value": "789"
+                                    },
+                                    {
+                                        "value": "793"
+                                    },
+                                    {
+                                        "value": "993"
+                                    },
+                                    {
+                                        "value": "657"
+                                    },
+                                    {
+                                        "value": "693"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Processes",
+                        "titlepos": "RIGHT",
+                        "axisonleft": "0",
+                        "numdivlines": "5",
+                        "tickwidth": "10",
+                        "divlineisdashed": "1",
+                        "dataset": [
+                            {
+                                "seriesname": "Processes",
+                                "data": [
+                                    {
+                                        "value": "543"
+                                    },
+                                    {
+                                        "value": "511"
+                                    },
+                                    {
+                                        "value": "536"
+                                    },
+                                    {
+                                        "value": "449"
+                                    },
+                                    {
+                                        "value": "668"
+                                    },
+                                    {
+                                        "value": "588"
+                                    },
+                                    {
+                                        "value": "511"
+                                    },
+                                    {
+                                        "value": "536"
+                                    },
+                                    {
+                                        "value": "449"
+                                    },
+                                    {
+                                        "value": "668"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "multiaxisline",
+        "refimage": "./tests/render-test/specs5/ref-images/multiaxisline-snapshot.png"
+    },
+    "multilevelpie": {
+        "description": " Rendering multilevelpie",
+        "options": {
+            "type": "multilevelpie",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Split of Top Products Sold",
+                    "subCaption": "Last Quarter",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "baseFontColor": "#333333",
+                    "baseFont": "Helvetica Neue,Arial",
+                    "basefontsize": "9",
+                    "subcaptionFontBold": "0",
+                    "bgColor": "#ffffff",
+                    "canvasBgColor": "#ffffff",
+                    "showBorder": "0",
+                    "showShadow": "0",
+                    "showCanvasBorder": "0",
+                    "pieFillAlpha": "60",
+                    "pieBorderThickness": "2",
+                    "hoverFillColor": "#cccccc",
+                    "pieBorderColor": "#ffffff",
+                    "useHoverColor": "1",
+                    "showValuesInTooltip": "1",
+                    "showPercentInTooltip": "0",
+                    "numberPrefix": "$",
+                    "plotTooltext": "$label, $$valueK, $percentValue",
+                    "animation": "0"
+                },
+                "category": [
+                    {
+                        "label": "Sales by category",
+                        "color": "#ffffff",
+                        "value": "150",
+                        "category": [
+                            {
+                                "label": "Food & {br}Beverages",
+                                "color": "#f8bd19",
+                                "value": "55.5",
+                                "category": [
+                                    {
+                                        "label": "Breads",
+                                        "color": "#f8bd19",
+                                        "value": "11.1"
+                                    },
+                                    {
+                                        "label": "Juice",
+                                        "color": "#f8bd19",
+                                        "value": "27.75"
+                                    },
+                                    {
+                                        "label": "Noodles",
+                                        "color": "#f8bd19",
+                                        "value": "9.99"
+                                    },
+                                    {
+                                        "label": "Seafood",
+                                        "color": "#f8bd19",
+                                        "value": "6.66"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Apparel &{br}Accessories",
+                                "color": "#e44a00",
+                                "value": "42",
+                                "category": [
+                                    {
+                                        "label": "Sun Glasses",
+                                        "color": "#e44a00",
+                                        "value": "10.08"
+                                    },
+                                    {
+                                        "label": "Clothing",
+                                        "color": "#e44a00",
+                                        "value": "18.9"
+                                    },
+                                    {
+                                        "label": "Handbags",
+                                        "color": "#e44a00",
+                                        "value": "6.3"
+                                    },
+                                    {
+                                        "label": "Shoes",
+                                        "color": "#e44a00",
+                                        "value": "6.72"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Baby {br}Products",
+                                "color": "#008ee4",
+                                "value": "22.5",
+                                "category": [
+                                    {
+                                        "label": "Bath &{br}Grooming",
+                                        "color": "#008ee4",
+                                        "value": "9.45"
+                                    },
+                                    {
+                                        "label": "Feeding",
+                                        "color": "#008ee4",
+                                        "value": "6.3"
+                                    },
+                                    {
+                                        "label": "Diapers",
+                                        "color": "#008ee4",
+                                        "value": "6.75"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Electronics",
+                                "color": "#33bdda",
+                                "value": "30",
+                                "category": [
+                                    {
+                                        "label": "Laptops",
+                                        "color": "#33bdda",
+                                        "value": "8.1"
+                                    },
+                                    {
+                                        "label": "Televisions",
+                                        "color": "#33bdda",
+                                        "value": "10.5"
+                                    },
+                                    {
+                                        "label": "SmartPhones",
+                                        "color": "#33bdda",
+                                        "value": "11.4"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "id": "multilevelpie",
+        "refimage": "./tests/render-test/specs5/ref-images/multilevelpie-snapshot.png"
+    },
+    "pareto2d": {
+        "description": " Rendering pareto2d",
+        "options": {
+            "type": "pareto2d",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Employee late arrivals by reported cause",
+                    "subCaption": "Last month",
+                    "paletteColors": "#0075c2",
+                    "lineColor": "#1aaf5d",
+                    "xAxisName": "Reported Cause",
+                    "pYAxisName": "No. of Occurrence",
+                    "sYAxisname": "Cumulative Percentage",
+                    "bgColor": "#ffffff",
+                    "borderAlpha": "20",
+                    "showCanvasBorder": "0",
+                    "showHoverEffect": "1",
+                    "usePlotGradientColor": "0",
+                    "plotBorderAlpha": "10",
+                    "showValues": "0",
+                    "showXAxisLine": "1",
+                    "xAxisLineColor": "#999999",
+                    "divlineColor": "#999999",
+                    "divLineIsDashed": "1",
+                    "showAlternateHGridColor": "0",
+                    "subcaptionFontBold": "0",
+                    "subcaptionFontSize": "14",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Traffic",
+                        "value": "5680"
+                    },
+                    {
+                        "label": "Family Engagement",
+                        "value": "1036"
+                    },
+                    {
+                        "label": "Public Transport",
+                        "value": "950"
+                    },
+                    {
+                        "label": "Weather",
+                        "value": "500"
+                    },
+                    {
+                        "label": "Emergency",
+                        "value": "140"
+                    },
+                    {
+                        "label": "Others",
+                        "value": "68"
+                    }
+                ]
+            }
+        },
+        "id": "pareto2d",
+        "refimage": "./tests/render-test/specs5/ref-images/pareto2d-snapshot.png"
+    },
+    "pareto3d": {
+        "description": " Rendering pareto3d",
+        "options": {
+            "type": "pareto3d",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Employee late arrivals by reported cause",
+                    "subCaption": "Last month",
+                    "paletteColors": "#0075c2",
+                    "lineColor": "#1aaf5d",
+                    "xAxisName": "Reported Cause",
+                    "pYAxisName": "No. of Occurrence",
+                    "sYAxisname": "Cumulative Percentage",
+                    "bgColor": "#ffffff",
+                    "borderAlpha": "20",
+                    "showCanvasBorder": "0",
+                    "usePlotGradientColor": "0",
+                    "plotBorderAlpha": "10",
+                    "showHoverEffect": "1",
+                    "showValues": "0",
+                    "showXAxisLine": "1",
+                    "xAxisLineColor": "#999999",
+                    "divlineColor": "#999999",
+                    "showAlternateHGridColor": "0",
+                    "subcaptionFontBold": "0",
+                    "subcaptionFontSize": "14",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Traffic",
+                        "value": "5680"
+                    },
+                    {
+                        "label": "Family Engagement",
+                        "value": "1036"
+                    },
+                    {
+                        "label": "Public Transport",
+                        "value": "950"
+                    },
+                    {
+                        "label": "Weather",
+                        "value": "500"
+                    },
+                    {
+                        "label": "Emergency",
+                        "value": "140"
+                    },
+                    {
+                        "label": "Others",
+                        "value": "68"
+                    }
+                ]
+            }
+        },
+        "id": "pareto3d",
+        "refimage": "./tests/render-test/specs5/ref-images/pareto3d-snapshot.png"
+    },
+    "pie2d": {
+        "description": " Rendering pie2d",
+        "options": {
+            "type": "pie2d",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Split of Visitors by Age Group",
+                    "subCaption": "Last year",
+                    "paletteColors": "#0075c2,#1aaf5d,#f2c500,#f45b00,#8e0000",
+                    "bgColor": "#ffffff",
+                    "showBorder": "0",
+                    "use3DLighting": "0",
+                    "showShadow": "0",
+                    "enableSmartLabels": "0",
+                    "startingAngle": "0",
+                    "showPercentValues": "1",
+                    "showPercentInTooltip": "0",
+                    "decimals": "1",
+                    "captionFontSize": "14",
+                    "subcaptionFontSize": "14",
+                    "subcaptionFontBold": "0",
+                    "toolTipColor": "#ffffff",
+                    "toolTipBorderThickness": "0",
+                    "toolTipBgColor": "#000000",
+                    "toolTipBgAlpha": "80",
+                    "toolTipBorderRadius": "2",
+                    "toolTipPadding": "5",
+                    "showHoverEffect": "1",
+                    "showLegend": "1",
+                    "legendBgColor": "#ffffff",
+                    "legendBorderAlpha": "0",
+                    "legendShadow": "0",
+                    "legendItemFontSize": "10",
+                    "legendItemFontColor": "#666666",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Teenage",
+                        "value": "1250400"
+                    },
+                    {
+                        "label": "Adult",
+                        "value": "1463300"
+                    },
+                    {
+                        "label": "Mid-age",
+                        "value": "1050700"
+                    },
+                    {
+                        "label": "Senior",
+                        "value": "491000"
+                    }
+                ]
+            }
+        },
+        "id": "pie2d",
+        "refimage": "./tests/render-test/specs5/ref-images/pie2d-snapshot.png"
+    }
+}

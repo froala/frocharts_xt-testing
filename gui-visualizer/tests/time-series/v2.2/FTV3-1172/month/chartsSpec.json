@@ -1,0 +1,39 @@
+{
+    "FTV3-1172-month-tc1": {
+        "id": "FTV3-1172-month-tc1",
+        "description": "Removing gridbands from timeline navigator that does not have labels",
+        "options": {
+            "data-id": "data-FTV3-month-1172",
+            "schema-id": "schema-FTV3-month-1172",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "yAxis": {
+                    "plot": {
+                        "value": "Interest Rate",
+                        "type": "line"
+                    },
+                    "title": "Interest Rate"
+
+
+                },
+                "chart": {
+                    "animation": "0",
+                    "multicanvas": 0
+                },
+                "xaxis": {
+                    "style": {
+                        "grid-line": {
+                            "stroke": "#ff0000"
+                        }
+                    }
+                },
+                "caption": {
+                    "text": "Online Sales of a SuperStore in the US"
+                }
+            }
+        }
+    }
+}

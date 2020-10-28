@@ -1,0 +1,1107 @@
+{
+    "RED-1918-A": {
+        "description": "In Zoomline Chart, pin mode is effective only when 'lineThickness' is set to 1",
+        "options": {
+            "type": "column2d",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showBorder": "1",
+                    "borderColor": "#330000",
+                    "borderThickness": "3",
+                    "borderAlpha": "85",
+                    "plotBorderDashed": "1",
+                    "plotBorderThickness": "3",
+                    "plotBorderDashLen": "3",
+                    "plotBorderDashGap": "3",
+                    "numDivLines": "3",
+                    "divLineColor": "#cc0000",
+                    "divLineAlpha": "85",
+                    "divLineDashed": "1",
+                    "divLineThickness": "3",
+                    "divLineDashLen": "3",
+                    "divLineDashGap": "3",
+                    "rotateValues": "1",
+                    "placeValuesInside": "1",
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Current Year",
+                    "numberprefix": "$",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.9.0/ref-images/RED-1918-A-snapshot.png",
+        "id": "RED-1918-A"
+    },
+    "RED-1918-B": {
+        "description": "In Zoomline Chart, pin mode is effective only when 'lineThickness' is set to 1",
+        "options": {
+            "type": "line",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showBorder": "1",
+                    "borderColor": "#330000",
+                    "borderThickness": "3",
+                    "borderAlpha": "85",
+                    "lineDashed": "1",
+                    "lineThickness": "3",
+                    "lineDashLen": "2",
+                    "lineDashGap": "1",
+                    "rotateValues": "1",
+                    "numDivLines": "3",
+                    "divLineColor": "#cc0000",
+                    "divLineAlpha": "85",
+                    "divLineDashed": "1",
+                    "divLineThickness": "3",
+                    "divLineDashLen": "2",
+                    "divLineDashGap": "1",
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Current Year",
+                    "numberprefix": "$",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.9.0/ref-images/RED-1918-B-snapshot.png",
+        "id": "RED-1918-B"
+    },
+    "RED-1918-C": {
+        "description": "Support for square legend icon",
+        "options": {
+            "type": "zoomline",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "compactdatamode": "1",
+                    "dataseparator": "|",
+                    "lineDashed": "1",
+                    "lineThickness": "2",
+                    "lineDashLen": "1",
+                    "lineDashGap": "2",
+                    "rotateValues": "1",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": "Label 1|Label 2|Label 3|Label 4|Label 5|Label 6|Label 7|Label 8|Label 9|Label 10|Label 11|Label 12|Label 13|Label 14|Label 15|Label 16|Label 17|Label 18|Label 19|Label 20|Label 21|Label 22|Label 23|Label 24|Label 25|Label 26|Label 27|Label 28|Label 29|Label 30|Label 31|Label 32|Label 33|Label 34|Label 35|Label 36|Label 37|Label 38|Label 39|Label 40|Label 41|Label 42|Label 43|Label 44|Label 45|Label 46|Label 47|Label 48|Label 49|Label 50"
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Series 1",
+                        "color": "AFD8F8",
+                        "data": "182|236|17|406|676|346|109|644|421|484|692|246|856|125|399|418|58|552|236|511|767|926|420|735|584|352|952|320|170|536|487|675|329|411|886|226|17|642|477|50|274|542|387|471|878|1|991|919|298|914"
+                    },
+                    {
+                        "seriesname": "Series 2",
+                        "color": "F6BD0F",
+                        "data": "294|170|450|120|844|703|599|579|771|318|57|841|740|440|327|92|683|389|849|521|675|980|112|972|434|493|653|314|676|350|464|286|427|5|579|809|338|819|734|821|686|58|587|491|400|185|505|460|412|874"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.9.0/ref-images/RED-1918-C-snapshot.png",
+        "id": "RED-1918-C"
+    },
+    "RED-1939": {
+        "description": "Dial value is not being considered at the time of calculating the min and max of axis scale",
+        "options": {
+            "type": "angulargauge",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Customer Satisfaction Score",
+                    "subcaption": "Los Angeles Topanga",
+                    "plotToolText": "Current Score: $value",
+                    "chartBottomMargin": "50",
+                    "animation": "0",
+                    "showValue": "1"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "4.5",
+                            "code": "#e44a00"
+                        },
+                        {
+                            "minValue": "4.5",
+                            "maxValue": "7.5",
+                            "code": "#f8bd19"
+                        },
+                        {
+                            "minValue": "7.5",
+                            "maxValue": "10",
+                            "code": "#6baa01"
+                        }
+                    ]
+                },
+                "dials": {
+                    "dial": [
+                        {
+                            "value": "11"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.9.0/ref-images/RED-1939-snapshot.png",
+        "id": "RED-1939"
+    },
+    "RED-1937": {
+        "description": "In Maps, marker label is placed behind the marker for labelPos='center'",
+        "options": {
+            "type": "usa",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "map": {
+                    "useHoverColor": "0",
+                    "caption": "Harry's SuperMart Office Locations",
+                    "subcaption": "Head Office and Zonal Offices",
+                    "fillColor": "#b4ddb0",
+                    "borderColor": "#ffffff",
+                    "showCanvasBorder": "0",
+                    "entityLabelsOnTop": "0",
+                    "showShadow": "0",
+                    "animation": "0",
+                    "markerRadius": "10",
+                    "showMarkerHoverEffect": "1",
+                    "markerFillColor": "#6baa01",
+                    "markerFillHoverColor": "#4ae5e7"
+                },
+                "markers": {
+                    "application": [
+                        {
+                            "id": "west-zone-ho-1",
+                            "shapeId": "zo-shape",
+                            "label": "West Zone",
+                            "labelpos": "center"
+                        }
+                    ],
+                    "definition": [
+                        {
+                            "id": "west-zone-ho-1",
+                            "x": "100",
+                            "y": "250",
+                            "tooltext": "<b>Zonal office, California</b>"
+                        }
+                    ],
+                    "shapes": [
+                        {
+                            "id": "hdo-shape",
+                            "type": "circle",
+                            "fillcolor": "#f6bc33"
+                        },
+                        {
+                            "id": "zo-shape",
+                            "type": "circle",
+                            "fillcolor": "#6da81e"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.9.0/ref-images/RED-1937-snapshot.png",
+        "id": "RED-1937"
+    },
+    "RED-1936": {
+        "description": "LogMSColumn2D chart fails to render with certain attribute and data combination",
+        "options": {
+            "type": "LogMSColumn2D",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "showxaxisline": "1",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Apr-28 13:00"
+                            },
+                            {
+                                "label": "Apr-28 14:00"
+                            },
+                            {
+                                "label": "Apr-28 15:00"
+                            },
+                            {
+                                "label": "Apr-28 16:00"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Major",
+                        "data": [
+                            {
+                                "value": "0",
+                                "color": "#ffb300"
+                            },
+                            {
+                                "value": "0",
+                                "color": "#ffb300"
+                            },
+                            {
+                                "value": "0",
+                                "color": "#ffb300"
+                            },
+                            {
+                                "value": "10",
+                                "color": "#ffb300"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.9.0/ref-images/RED-1936-snapshot.png",
+        "id": "RED-1936"
+    },
+    "RED-1935": {
+        "description": "Bulb gauge fails to render when value is empty ('null') and showValue attribute is 0",
+        "options": {
+            "type": "bulb",
+            "width": "200",
+            "height": "200",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "upperlimit": "100",
+                    "lowerlimit": "0",
+                    "numbersuffix": "%",
+                    "showvalue": "0",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "15",
+                            "label": "Low",
+                            "code": "00FF00"
+                        },
+                        {
+                            "minvalue": "15",
+                            "maxvalue": "35",
+                            "label": "Medium",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "35",
+                            "maxvalue": "100",
+                            "label": "High",
+                            "code": "FF0000"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.9.0/ref-images/RED-1935-snapshot.png",
+        "id": "RED-1935"
+    },
+    "RED-1874": {
+        "description": "Zoomline chart y axis value need to have correct number formatting",
+        "options": {
+            "type": "zoomline",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showvalues": "0",
+                    "animation": "0",
+                    "decimals": "3",
+                    "forceDecimals": "1"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "274"
+                            },
+                            {
+                                "value": "298"
+                            },
+                            {
+                                "value": "258"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "data": [
+                            {
+                                "value": "100"
+                            },
+                            {
+                                "value": "115"
+                            },
+                            {
+                                "value": "125"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.9.0/ref-images/RED-1874-snapshot.png",
+        "id": "RED-1874"
+    },
+    "RED-1789-A": {
+        "description": "Placing legend at right forces the Pyramid and Funnel plots to shift left and goes out of chart",
+        "options": {
+            "type": "pyramid",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio",
+                    "subcaption": "May 2007",
+                    "showlegend": "1",
+                    "legendposition": "RIGHT",
+                    "enablesmartlabels": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.9.0/ref-images/RED-1789-A-snapshot.png",
+        "id": "RED-1789-A"
+    },
+    "RED-1789-B": {
+        "description": "Placing legend at right forces the Pyramid and Funnel plots to shift left and goes out of chart",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio",
+                    "subcaption": "May 2007",
+                    "showlegend": "1",
+                    "legendposition": "RIGHT",
+                    "enablesmartlabels": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.9.0/ref-images/RED-1789-B-snapshot.png",
+        "id": "RED-1789-B"
+    },
+    "RED-1938-A": {
+        "description": "In Pie-Doughnut charts, enabling the attribute 'manageLabelOverflow' leads to overlapping of wrapped labels",
+        "options": {
+            "type": "pie2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Haushalt 2015",
+                    "enablesmartlabels": "1",
+                    "issmartlineslanted": "1",
+                    "useellipseswhenoverflow": "1",
+                    "managelabeloverflow": "1",
+                    "skipoverlaplabels": "1",
+                    "pieradius": "100",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "3900"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32",
+                        "displayvalue": "aaaa aaa aaa aa aaa aaa aaa aa aaa aa aaa aaa aaaa aaaa"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42",
+                        "displayvalue": "bb bb bb bbbb bob b bbb bb bbb bbbb bb b b b bb"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.9.0/ref-images/RED-1938-A-snapshot.png",
+        "id": "RED-1938-A"
+    },
+    "RED-1938-B": {
+        "description": "In Pie-Doughnut charts, enabling the attribute 'manageLabelOverflow' leads to overlapping of wrapped labels",
+        "options": {
+            "type": "doughnut2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Haushalt 2015",
+                    "enablesmartlabels": "1",
+                    "issmartlineslanted": "1",
+                    "useellipseswhenoverflow": "1",
+                    "managelabeloverflow": "1",
+                    "skipoverlaplabels": "1",
+                    "pieradius": "100",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "3900"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32",
+                        "displayvalue": "aaaa aaa aaa aa aaa aaa aaa aa aaa aa aaa aaa aaaa aaaa"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42",
+                        "displayvalue": "bb bb bb bbbb bob b bbb bb bbb bbbb bb b b b bb"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.9.0/ref-images/RED-1938-A-snapshot.png",
+        "id": "RED-1938-A"
+    },
+    "RED-846-A": {
+        "description": "Manage overflowing labels in over-crowded funnel/pyramid charts",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showtooltip": "1",
+                    "showzeropies": "0",
+                    "useellipseswhenoverflow": "1",
+                    "streamlineddata": "0",
+                    "issliced": "1",
+                    "showvalues": "1",
+                    "showlabels": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "0.04",
+                        "tooltext": "Gross Sales Retail TY{br}IW PROMOTIONS{br}0.02"
+                    },
+                    {
+                        "value": "0.06",
+                        "tooltext": "Gross Sales Retail TY{br}IW PROMOTIONS{br}0.02"
+                    },
+                    {
+                        "value": "0.07",
+                        "tooltext": "Gross Sales Retail TY{br}IW PROMOTIONS{br}0.02"
+                    },
+                    {
+                        "value": "0.09",
+                        "tooltext": "Gross Sales Retail TY{br}IW PROMOTIONS{br}0.02"
+                    },
+                    {
+                        "value": "0.12",
+                        "tooltext": "Gross Sales Retail TY{br}IW PROMOTIONS{br}0.02"
+                    },
+                    {
+                        "value": "0.16",
+                        "tooltext": "Gross Sales Retail TY{br}BTW PROMOTIONS{br}0.06"
+                    },
+                    {
+                        "value": "0.52",
+                        "tooltext": "Gross Sales Retail TY{br}PC PROMOTIONS{br}0.52"
+                    },
+                    {
+                        "value": "2.85",
+                        "tooltext": "Gross Sales Retail TY{br}CHS PROMOTIONS{br}2.85"
+                    },
+                    {
+                        "value": "3.00",
+                        "tooltext": "Gross Sales Retail TY{br}BOUTIQUE PROMOTIONS{br}3.00"
+                    },
+                    {
+                        "value": "10.00",
+                        "tooltext": "Gross Sales Retail TY{br}STATIONERY{br}10.00"
+                    },
+                    {
+                        "value": "10.95",
+                        "tooltext": "Gross Sales Retail TY{br}SPECIAL SCHOOL ITEMS{br}10.95"
+                    },
+                    {
+                        "value": "17.75",
+                        "tooltext": "Gross Sales Retail TY{br}SPECIAL SCHOOL ITEMS{br}17.75"
+                    },
+                    {
+                        "value": "20.00",
+                        "tooltext": "Gross Sales Retail TY{br}RUBBER SHOES{br}20.00"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.9.0/ref-images/RED-846-A-snapshot.png",
+        "id": "RED-846-A"
+    },
+    "RED-846-B": {
+        "description": "Manage overflowing labels in over-crowded funnel/pyramid charts",
+        "options": {
+            "type": "pyramid",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showtooltip": "1",
+                    "showzeropies": "0",
+                    "useellipseswhenoverflow": "1",
+                    "streamlineddata": "0",
+                    "issliced": "1",
+                    "showvalues": "1",
+                    "showlabels": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "value": "0.04",
+                        "tooltext": "Gross Sales Retail TY{br}IW PROMOTIONS{br}0.02"
+                    },
+                    {
+                        "value": "0.06",
+                        "tooltext": "Gross Sales Retail TY{br}IW PROMOTIONS{br}0.02"
+                    },
+                    {
+                        "value": "0.07",
+                        "tooltext": "Gross Sales Retail TY{br}IW PROMOTIONS{br}0.02"
+                    },
+                    {
+                        "value": "0.09",
+                        "tooltext": "Gross Sales Retail TY{br}IW PROMOTIONS{br}0.02"
+                    },
+                    {
+                        "value": "0.12",
+                        "tooltext": "Gross Sales Retail TY{br}IW PROMOTIONS{br}0.02"
+                    },
+                    {
+                        "value": "0.16",
+                        "tooltext": "Gross Sales Retail TY{br}BTW PROMOTIONS{br}0.06"
+                    },
+                    {
+                        "value": "0.52",
+                        "tooltext": "Gross Sales Retail TY{br}PC PROMOTIONS{br}0.52"
+                    },
+                    {
+                        "value": "2.85",
+                        "tooltext": "Gross Sales Retail TY{br}CHS PROMOTIONS{br}2.85"
+                    },
+                    {
+                        "value": "3.00",
+                        "tooltext": "Gross Sales Retail TY{br}BOUTIQUE PROMOTIONS{br}3.00"
+                    },
+                    {
+                        "value": "10.00",
+                        "tooltext": "Gross Sales Retail TY{br}STATIONERY{br}10.00"
+                    },
+                    {
+                        "value": "10.95",
+                        "tooltext": "Gross Sales Retail TY{br}SPECIAL SCHOOL ITEMS{br}10.95"
+                    },
+                    {
+                        "value": "17.75",
+                        "tooltext": "Gross Sales Retail TY{br}SPECIAL SCHOOL ITEMS{br}17.75"
+                    },
+                    {
+                        "value": "20.00",
+                        "tooltext": "Gross Sales Retail TY{br}RUBBER SHOES{br}20.00"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.9.0/ref-images/RED-846-B-snapshot.png",
+        "id": "RED-846-B"
+    },
+    "RED-846-C": {
+        "description": "Manage overflowing labels in over-crowded funnel/pyramid charts",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales distribution by Employee",
+                    "captionfontsize": "22",
+                    "captionpadding": "20",
+                    "numberprefix": "$",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Fuller",
+                        "value": "74000"
+                    },
+                    {
+                        "label": "King",
+                        "value": "49000"
+                    },
+                    {
+                        "label": "Fuller",
+                        "value": "74000"
+                    },
+                    {
+                        "label": "King",
+                        "value": "49000"
+                    },
+                    {
+                        "label": "Fuller",
+                        "value": "74000"
+                    },
+                    {
+                        "label": "King",
+                        "value": "49000"
+                    },
+                    {
+                        "label": "Fuller",
+                        "value": "74000"
+                    },
+                    {
+                        "label": "King",
+                        "value": "49000"
+                    },
+                    {
+                        "label": "Fuller",
+                        "value": "74000"
+                    },
+                    {
+                        "label": "King",
+                        "value": "49000"
+                    },
+                    {
+                        "label": "Fuller",
+                        "value": "74000"
+                    },
+                    {
+                        "label": "King",
+                        "value": "49000"
+                    },
+                    {
+                        "label": "Fuller",
+                        "value": "74000"
+                    },
+                    {
+                        "label": "This is a very very very long label",
+                        "value": "49000"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.9.0/ref-images/RED-846-C-snapshot.png",
+        "id": "RED-846-C"
+    },
+    "RED-846-D": {
+        "description": "Manage overflowing labels in over-crowded funnel/pyramid charts",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales distribution by Employee",
+                    "subcaption": "Jan 07 - Jul 07",
+                    "numberprefix": "$",
+                    "exportenabled": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Buchanannnnnnnn",
+                        "value": "20000"
+                    },
+                    {
+                        "label": "Callahan",
+                        "value": "49000"
+                    },
+                    {
+                        "label": "Davolio",
+                        "value": "63000"
+                    },
+                    {
+                        "label": "Dodsworth",
+                        "value": "41000"
+                    },
+                    {
+                        "label": "Fuller",
+                        "value": "74000"
+                    },
+                    {
+                        "label": "King",
+                        "value": "49000"
+                    },
+                    {
+                        "label": "L",
+                        "value": "77000"
+                    },
+                    {
+                        "label": "Peacock",
+                        "value": "54000"
+                    },
+                    {
+                        "label": "Dodsworth",
+                        "value": "41000"
+                    },
+                    {
+                        "label": "F",
+                        "value": "74000"
+                    },
+                    {
+                        "label": "King",
+                        "value": "49000"
+                    },
+                    {
+                        "label": "King",
+                        "value": "49000"
+                    },
+                    {
+                        "label": "L",
+                        "value": "77000"
+                    },
+                    {
+                        "label": "Peacock",
+                        "value": "54000"
+                    },
+                    {
+                        "label": "S",
+                        "value": "14000"
+                    },
+                    {
+                        "label": "Dodsworth",
+                        "value": "41000"
+                    },
+                    {
+                        "label": "F",
+                        "value": "74000"
+                    },
+                    {
+                        "label": "King",
+                        "value": "49000"
+                    },
+                    {
+                        "label": "L",
+                        "value": "77000"
+                    },
+                    {
+                        "label": "Peacock",
+                        "value": "54000"
+                    },
+                    {
+                        "label": "S",
+                        "value": "14000"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.9.0/ref-images/RED-846-D-snapshot.png",
+        "id": "RED-846-D"
+    },
+    "RED-846-E": {
+        "description": "Manage overflowing labels in over-crowded funnel/pyramid charts",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showBorder": "1",
+                    "borderColor": "#330000",
+                    "borderThickness": "3",
+                    "borderAlpha": "85",
+                    "bgColor": "#999999,#ffffff",
+                    "bgAlpha": "100",
+                    "bgRatio": "10:90",
+                    "bgAngle": "90",
+                    "logoURL": "../../images/logo.png",
+                    "logoPosition": "TR",
+                    "logoAlpha": "50",
+                    "logoScale": "70",
+                    "logoLink": "http://fusioncharts.com",
+                    "showLabels": "1",
+                    "showValues": "1",
+                    "rotateValues": "1",
+                    "placeValuesInside": "1",
+                    "showYAxisValues": "1",
+                    "showLimits": "1",
+                    "showDivLineValues": "0",
+                    "showShadow": "1",
+                    "adjustDiv": "0",
+                    "useDataPlotColorForLabels": "0",
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Current Year",
+                    "captionAlignment": "left",
+                    "captionOnTop": "1",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "subCaptionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "10",
+                    "showLegend": "1",
+                    "legendItemFontBold": "1",
+                    "legendItemFont": "verdana",
+                    "legendItemFontSize": "16",
+                    "legendItemFontColor": "#cc0000",
+                    "legendItemHoverFontColor": "#ffffff",
+                    "legendCaption": "Interactive Legend",
+                    "legendCaptionAlignment": "left",
+                    "legendCaptionFontBold": "1",
+                    "legendCaptionFont": "verdana",
+                    "legendCaptionFontSize": "20",
+                    "legendCaptionFontColor": "#ffffff",
+                    "legendItemHiddenColor": "#ff0000",
+                    "legendIconScale": "110",
+                    "legendBgColor": "#333333",
+                    "legendBgAlpha": "60",
+                    "legendBorderColor": "#0000ff",
+                    "legendBorderThickness": "3",
+                    "legendBorderAlpha": "80",
+                    "legendAllowDrag": "1",
+                    "legendScrollBgColor": "0",
+                    "reverseLegend": "1",
+                    "interactiveLegend": "1",
+                    "legendNumColumns": "2",
+                    "minimiseWrappingInLegend": "",
+                    "numberprefix": "$",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Unique Website Visits",
+                        "value": "1460000"
+                    },
+                    {
+                        "label": "Programme Details Section Visits",
+                        "value": "930000"
+                    },
+                    {
+                        "label": "Attempts to Register",
+                        "value": "540000"
+                    },
+                    {
+                        "label": "Successful Registrations",
+                        "value": "210000"
+                    },
+                    {
+                        "label": "Logged In",
+                        "value": "190000"
+                    },
+                    {
+                        "label": "Purchased on Introductory Offers",
+                        "value": "120000"
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.9.0/ref-images/RED-846-E-snapshot.png",
+        "id": "RED-846-E"
+    },
+    "RED-1596": {
+        "description": "Data plot Values pushed out of canvas for maximum Dataplot values in Bar Chart",
+        "options": {
+            "type": "bar2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly Revenue",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "990000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/smoke/red-issues/3.9.0/ref-images/RED-1596-snapshot.png",
+        "id": "RED-1596"
+    }
+}

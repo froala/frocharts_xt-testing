@@ -1,0 +1,2310 @@
+{
+    "RED-3910": {
+        "id": "RED-3910",
+        "description": "In bulb chart, \"gaugeOriginX\": \"0\", \"gaugeOriginY\": \"0\", \"gaugeRadius\": \"0\" not working",
+        "category": "static",
+        "options": {
+            "type": "bulb",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly Revenue sdnjsdkjsdn sdlksdlksd jdldslsdlkskdl kdksdksdk",
+                    "subcaption": "Current Year",
+                    "gaugeOriginX": "0",
+                    "gaugeOriginY": "0",
+                    "gaugeRadius": "0",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "10",
+                            "maxvalue": "30",
+                            "label": "Low",
+                            "code": "00FF00"
+                        },
+                        {
+                            "minvalue": "30",
+                            "maxvalue": "70",
+                            "label": "Medium",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "70",
+                            "maxvalue": "100",
+                            "label": "High",
+                            "code": "FF0000"
+                        }
+                    ]
+                },
+                "value": "333"
+            }
+        }
+    },
+    "RED-3903": {
+        "id": "RED-3903",
+        "description": "In Bar chart, JS error thrown when rendered with attached data",
+        "category": "static",
+        "options": {
+            "type": "bar2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly Revenue",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "-10"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "9100"
+                    }
+                ]
+            }
+        }
+    },
+    "RED-3901": {
+        "id": "RED-3901",
+        "description": "For dragable charts, clicking on restore botton throws JS error",
+        "category": "static",
+        "options": {
+            "type": "dragcolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "vline": "true"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "26000",
+                                "color": "91C728",
+                                "displayvalue": "Target",
+                                "showontop": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "RED-3899": {
+        "id": "RED-3899",
+        "description": "In Maps,  \"useSNameInLabels\": \"0\" not showing the long labels",
+        "category": "static",
+        "options": {
+            "type": "usa",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Annual Sales by State",
+                    "subcaption": "Last year",
+                    "entityFillHoverColor": "#cccccc",
+                    "numberScaleValue": "1,1000,1000",
+                    "numberScaleUnit": "K,M,B",
+                    "useSNameInLabels": "0",
+                    "numberPrefix": "$",
+                    "showLabels": "1",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "minvalue": "0",
+                    "startlabel": "Low",
+                    "endlabel": "High",
+                    "code": "#e44a00",
+                    "gradient": "1",
+                    "color": [
+                        {
+                            "maxvalue": "56580",
+                            "displayvalue": "Average",
+                            "code": "#f8bd19"
+                        },
+                        {
+                            "maxvalue": "100000",
+                            "code": "#6baa01"
+                        }
+                    ]
+                },
+                "data": [
+                    {
+                        "id": "HI",
+                        "value": "3189"
+                    },
+                    {
+                        "id": "DC",
+                        "value": "2879"
+                    },
+                    {
+                        "id": "MD",
+                        "value": "920"
+                    },
+                    {
+                        "id": "DE",
+                        "value": "4607"
+                    },
+                    {
+                        "id": "RI",
+                        "value": "4890"
+                    },
+                    {
+                        "id": "WA",
+                        "value": "34927"
+                    },
+                    {
+                        "id": "OR",
+                        "value": "65798"
+                    },
+                    {
+                        "id": "CA",
+                        "value": "61861"
+                    },
+                    {
+                        "id": "AK",
+                        "value": "58911"
+                    },
+                    {
+                        "id": "ID",
+                        "value": "42662"
+                    },
+                    {
+                        "id": "NV",
+                        "value": "78041"
+                    },
+                    {
+                        "id": "AZ",
+                        "value": "41558"
+                    },
+                    {
+                        "id": "MT",
+                        "value": "62942"
+                    },
+                    {
+                        "id": "WY",
+                        "value": "78834"
+                    },
+                    {
+                        "id": "UT",
+                        "value": "50512"
+                    },
+                    {
+                        "id": "CO",
+                        "value": "73026"
+                    },
+                    {
+                        "id": "NM",
+                        "value": "78865"
+                    },
+                    {
+                        "id": "ND",
+                        "value": "50554"
+                    },
+                    {
+                        "id": "SD",
+                        "value": "35922"
+                    },
+                    {
+                        "id": "NE",
+                        "value": "43736"
+                    },
+                    {
+                        "id": "KS",
+                        "value": "32681"
+                    },
+                    {
+                        "id": "OK",
+                        "value": "79038"
+                    },
+                    {
+                        "id": "TX",
+                        "value": "75425"
+                    },
+                    {
+                        "id": "MN",
+                        "value": "43485"
+                    },
+                    {
+                        "id": "IA",
+                        "value": "46515"
+                    },
+                    {
+                        "id": "MO",
+                        "value": "63715"
+                    },
+                    {
+                        "id": "AR",
+                        "value": "34497"
+                    },
+                    {
+                        "id": "LA",
+                        "value": "70706"
+                    },
+                    {
+                        "id": "WI",
+                        "value": "42382"
+                    },
+                    {
+                        "id": "IL",
+                        "value": "73202"
+                    },
+                    {
+                        "id": "KY",
+                        "value": "79118"
+                    },
+                    {
+                        "id": "TN",
+                        "value": "44657"
+                    },
+                    {
+                        "id": "MS",
+                        "value": "66205"
+                    },
+                    {
+                        "id": "AL",
+                        "value": "75873"
+                    },
+                    {
+                        "id": "GA",
+                        "value": "76895"
+                    },
+                    {
+                        "id": "MI",
+                        "value": "67695"
+                    },
+                    {
+                        "id": "IN",
+                        "value": "33592"
+                    },
+                    {
+                        "id": "OH",
+                        "value": "32960"
+                    },
+                    {
+                        "id": "PA",
+                        "value": "54346"
+                    },
+                    {
+                        "id": "NY",
+                        "value": "42828"
+                    },
+                    {
+                        "id": "VT",
+                        "value": "77411"
+                    },
+                    {
+                        "id": "NH",
+                        "value": "51403"
+                    },
+                    {
+                        "id": "ME",
+                        "value": "64636"
+                    },
+                    {
+                        "id": "MA",
+                        "value": "51767"
+                    },
+                    {
+                        "id": "CT",
+                        "value": "57353"
+                    },
+                    {
+                        "id": "NJ",
+                        "value": "80788"
+                    },
+                    {
+                        "id": "WV",
+                        "value": "95890"
+                    },
+                    {
+                        "id": "VA",
+                        "value": "83140"
+                    },
+                    {
+                        "id": "NC",
+                        "value": "97344"
+                    },
+                    {
+                        "id": "SC",
+                        "value": "88234"
+                    },
+                    {
+                        "id": "FL",
+                        "value": "88234"
+                    }
+                ]
+            }
+        }
+    },
+    "RED-3898": {
+        "id": "RED-3898",
+        "description": "In Multilevelpie, labels remains on same position on chart resize",
+        "category": "static",
+        "options": {
+            "type": "multilevelpie",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "2",
+                    "piefillalpha": "34",
+                    "pieborderthickness": "3",
+                    "hoverfillcolor": "FDCEDA",
+                    "piebordercolor": "FFFFFF",
+                    "basefontsize": "9",
+                    "usehovercolor": "1",
+                    "caption": "Organization Chart",
+                    "animation": "0"
+                },
+                "category": [
+                    {
+                        "label": "CEO",
+                        "fillcolor": "DBFF6C",
+                        "link": "n-Details.asp?CEO",
+                        "category": [
+                            {
+                                "label": "CTO",
+                                "fillcolor": "DBFF6C",
+                                "category": [
+                                    {
+                                        "label": "Proj. Manager",
+                                        "category": [
+                                            {
+                                                "label": "Design"
+                                            },
+                                            {
+                                                "label": "Coding"
+                                            },
+                                            {
+                                                "label": "Validate"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Q & A Manager",
+                                        "category": [
+                                            {
+                                                "label": "Testing Team"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Architect",
+                                        "category": [
+                                            {
+                                                "label": "Study"
+                                            },
+                                            {
+                                                "label": "Design"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "CFO",
+                                "fillcolor": "FBE299",
+                                "category": [
+                                    {
+                                        "label": "Payables",
+                                        "hovertext": "Accounts Payable Team",
+                                        "category": [
+                                            {
+                                                "label": "Salary",
+                                                "hovertext": "Team for salary accounts maintenance and upkeep"
+                                            },
+                                            {
+                                                "label": "Purchase"
+                                            },
+                                            {
+                                                "label": "Other",
+                                                "hovertext": "Other Payments"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Receivables",
+                                        "hovertext": "Accounts Receivables Team",
+                                        "category": [
+                                            {
+                                                "label": "SW1",
+                                                "hovertext": "Online Software Receipts Accounts"
+                                            },
+                                            {
+                                                "label": "SW2",
+                                                "hovertext": "Physical Software Receipts Accounts"
+                                            },
+                                            {
+                                                "label": "SER1",
+                                                "hovertext": "Services Collection"
+                                            },
+                                            {
+                                                "label": "SER2",
+                                                "hovertext": "Services Collection (Physical)"
+                                            },
+                                            {
+                                                "label": "OTR",
+                                                "hovertext": "Subscription and Other Collections"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "CIO",
+                                "fillcolor": "DAEDFC",
+                                "link": "Details.asp?CIO",
+                                "category": [
+                                    {
+                                        "label": "PR",
+                                        "hovertext": "PR Team",
+                                        "category": [
+                                            {
+                                                "label": "Packaging",
+                                                "hovertext": "Packaging Staff"
+                                            },
+                                            {
+                                                "label": "Inv Rel.",
+                                                "hovertext": "Investor Relations Upkeep"
+                                            },
+                                            {
+                                                "label": "Marketing",
+                                                "hovertext": "Marketing & Sales"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "HR",
+                                        "hovertext": "HR Team",
+                                        "category": [
+                                            {
+                                                "label": "Selection",
+                                                "hovertext": "Selection of Candidates"
+                                            },
+                                            {
+                                                "label": "Deploying",
+                                                "hovertext": "Deploying at required site"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "RED-3897": {
+        "id": "RED-3897",
+        "description": "In Column3D, Bar3D charts, tooltip shown with label as false even when tooltip=0 when link attribute is used",
+        "category": "static",
+        "options": {
+            "type": "column3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showtooltip": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000",
+                        "link": "n-http://www.google.com"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000",
+                        "link": "n-http://www.google.com"
+                    }
+                ]
+            }
+        }
+    },
+    "RED-3888": {
+        "id": "RED-3888",
+        "description": "Cylinder, Thermometer axis is broken when value = 1",
+        "category": "static",
+        "options": {
+            "type": "cylinder",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "captionOnTop": "0",
+                    "caption": "Thermometer",
+                    "animation": "0"
+                },
+                "value": "1"
+            }
+        }
+    },
+    "RED-3887": {
+        "id": "RED-3887",
+        "description": "StackedBar2D throws JS error on legend interaction in charts having negative value plots",
+        "category": "static",
+        "options": {
+            "type": "stackedbar2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "Product A",
+                        "data": [
+                            {
+                                "value": "27400"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Product B",
+                        "data": [
+                            {
+                                "value": "-10000"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "42000",
+                                "color": "91C728",
+                                "displayvalue": "Target",
+                                "showontop": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "RED-3885": {
+        "id": "RED-3885",
+        "description": "Annotation macro not working with gauges when origW, origH is used",
+        "category": "static",
+        "options": {
+            "type": "cylinder",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "theme": "fint",
+                    "caption": "Diesel Level in Generator",
+                    "subcaption": "Bakersfield Central",
+                    "lowerLimit": "0",
+                    "upperLimit": "120",
+                    "lowerLimitDisplay": "Empty",
+                    "upperLimitDisplay": "Full",
+                    "numberSuffix": " ltrs",
+                    "showValue": "0",
+                    "chartBottomMargin": "45",
+                    "animation": "0"
+                },
+                "value": "110",
+                "annotations": {
+                    "origw": "400",
+                    "origh": "190",
+                    "autoscale": "1",
+                    "groups": [
+                        {
+                            "id": "range",
+                            "items": [
+                                {
+                                    "id": "rangeBg",
+                                    "type": "rectangle",
+                                    "x": "$canvasCenterX-45",
+                                    "y": "$chartEndY-30",
+                                    "tox": "$canvasCenterX +45",
+                                    "toy": "$chartEndY-75",
+                                    "fillcolor": "#6caa03"
+                                },
+                                {
+                                    "id": "rangeText",
+                                    "type": "Text",
+                                    "fontSize": "11",
+                                    "fillcolor": "#333333",
+                                    "text": "80 ltrs",
+                                    "x": "$chartCenterX-45",
+                                    "y": "$chartEndY-50"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "RED-3884": {
+        "id": "RED-3884",
+        "description": "In waterfall chart, JS error thrown on rendering with attached data",
+        "category": "static",
+        "options": {
+            "type": "waterfall2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Total Profit Calculation",
+                    "subcaption": "Last month",
+                    "yaxisname": "Amount (In USD)",
+                    "xaxisname": "x axis name",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Online sales",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Store Sales",
+                        "value": "710000",
+                        "vline": "true",
+                        "color": "#0000ff",
+                        "thickness": "0.5",
+                        "alpha": "30",
+                        "dashed": "0",
+                        "dashlen": "20",
+                        "dashgap": "5",
+                        "showlabelborder": "1",
+                        "lineposition": "0.4",
+                        "labelposition": "0.7",
+                        "labelhalign": "right",
+                        "labelvalign": "bottom"
+                    },
+                    {
+                        "label": "Total Sales",
+                        "issum": "1"
+                    },
+                    {
+                        "label": "Fixed Costs",
+                        "value": "-250000"
+                    },
+                    {
+                        "label": "Variable Costs",
+                        "value": "-156000"
+                    },
+                    {
+                        "label": "COGS",
+                        "value": "-310000",
+                        "vline": "true",
+                        "color": "#ff0000",
+                        "thickness": "5",
+                        "alpha": "30",
+                        "dashed": "1",
+                        "dashlen": "20",
+                        "dashgap": "5",
+                        "showlabelborder": "0",
+                        "lineposition": "0.3",
+                        "labelposition": "0",
+                        "labelhalign": "left",
+                        "labelvalign": "top"
+                    },
+                    {
+                        "label": "Promotion Costs",
+                        "value": "-86000"
+                    },
+                    {
+                        "label": "Total Costs",
+                        "issum": "1",
+                        "cumulative": "0"
+                    }
+                ]
+            }
+        }
+    },
+    "RED-3876": {
+        "id": "RED-3876",
+        "description": "For column chart, wrong display of x-axis labels w.r.t plots as labels not trimmed properly at 600x350 px",
+        "category": "static",
+        "options": {
+            "type": "column2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0",
+                    "maxlabelheight": "30",
+                    "labeldisplay": "rotate",
+                    "tooltipbgcolor": "#669999",
+                    "tooltipcolor": "#FF0000",
+                    "tooltipbordercolor": "#993300",
+                    "showtooltipshadow": "0"
+                },
+                "data": [
+                    {
+                        "label": "January January January January",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "February February February February",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "March {br} March {br} March {br} march",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun jun jun jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug August August",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep september september",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec December December December",
+                        "value": "330000",
+                        "labelfont": "arial",
+                        "labelfontsize": "10",
+                        "labelfontbold": "1",
+                        "labelfontitalic": "1",
+                        "labelbgcolor": "#FFCCFF",
+                        "labelbordercolor": "#663300",
+                        "labelalpha": "80",
+                        "labelbgalpha": "60",
+                        "labelborderalpha": "60",
+                        "labelborderpadding": "3",
+                        "labelborderradius": "2",
+                        "labelborderthickness": "2",
+                        "labelborderdashed": "0",
+                        "labelborderdashlen": "10",
+                        "labelborderdashgap": "10",
+                        "labellink": "http://www.fusioncharts.com"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "istrendzone": "1",
+                                "valueonright": "1",
+                                "tooltext": "AYAN",
+                                "endvalue": "900000",
+                                "color": "009933",
+                                "displayvalue": "Target",
+                                "showontop": "1",
+                                "thickness": "5"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "RED-3875": {
+        "id": "RED-3875",
+        "description": "In Map, labelsepchar is showing as undefined",
+        "category": "static",
+        "options": {
+            "type": "world",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "map": {
+                    "animation": "0",
+                    "showbevel": "0",
+                    "numbersuffix": " Mill.",
+                    "includevalueinlabels": "1",
+                    "labelsepchar": ": ",
+                    "basefontsize": "9",
+                    "fillalpha": "70",
+                    "caption": "World Map",
+                    "hovercolor": "639ACE",
+                    "bordercolor": "FFFFFF",
+                    "showlegend": "1",
+                    "legendpointerheight": "20",
+                    "legendpointerbordercolor": "009933",
+                    "legendpointerwidth": "40",
+                    "legendpointerborderthickness": "7"
+                },
+                "colorrange": {
+                    "gradient": "1",
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "500",
+                            "displayvalue": "Sparsely Populated",
+                            "color": "008200"
+                        },
+                        {
+                            "minvalue": "500",
+                            "maxvalue": "1000",
+                            "displayvalue": "Well Populated",
+                            "color": "FFCC33"
+                        },
+                        {
+                            "minvalue": "1000",
+                            "maxvalue": "5000",
+                            "displayvalue": "Densely Populated",
+                            "color": "B80000"
+                        }
+                    ]
+                },
+                "data": [
+                    {
+                        "id": "NA",
+                        "value": "515"
+                    },
+                    {
+                        "id": "SA",
+                        "value": "373"
+                    },
+                    {
+                        "id": "AS",
+                        "value": "3875"
+                    },
+                    {
+                        "id": "EU",
+                        "value": "727"
+                    },
+                    {
+                        "id": "AF",
+                        "value": "885"
+                    },
+                    {
+                        "id": "AU",
+                        "value": "32"
+                    }
+                ]
+            }
+        }
+    },
+    "RED-3874": {
+        "id": "RED-3874",
+        "description": "In funnel caption goes multiline even if there is space",
+        "category": "static",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio &lt;No Value&gt; &lt;No Value&gt;",
+                    "subcaption": "May 2007",
+                    "showLegend": "1",
+                    "legendPosition": "right",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads &lt;No Value &gt; &lt;No Value &gt;",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        }
+    },
+    "RED-3873": {
+        "id": "RED-3873",
+        "description": "Funnel is too thin w.r.t previous version at 600x350px",
+        "category": "static",
+        "options": {
+            "type": "funnel",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Conversion Ratio &lt;No Value&gt;&amp;lt;No Value&amp;gt;",
+                    "subcaption": "May 2007",
+                    "showLegend": "1",
+                    "legendPosition": "right",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads &lt;No Value&gt;&amp;lt;No Value&amp;gt;",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested to buy",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract finalized",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ]
+            }
+        }
+    },
+    "RED-3870": {
+        "id": "RED-3870",
+        "description": "In gantt chart, task font color has changed",
+        "category": "static",
+        "options": {
+            "type": "gantt",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "end": "7/15/2007 23:59:59",
+                                "label": "Today",
+                                "start": "7/15/2007 00:00:00"
+                            },
+                            {
+                                "end": "7/16/2007 23:59:59",
+                                "label": "Tomorrow",
+                                "start": "7/16/2007 00:00:00"
+                            }
+                        ]
+                    },
+                    {
+                        "align": "right",
+                        "category": [
+                            {
+                                "end": "7/15/2007 05:59:59",
+                                "label": "6 am",
+                                "start": "7/15/2007 00:00:00"
+                            },
+                            {
+                                "end": "7/15/2007 11:59:59",
+                                "label": "12 pm",
+                                "start": "7/15/2007 06:00:00"
+                            },
+                            {
+                                "end": "7/15/2007 17:59:59",
+                                "label": "6 pm",
+                                "start": "7/15/2007 12:00:00"
+                            },
+                            {
+                                "end": "7/15/2007 23:59:59",
+                                "label": "Midnight",
+                                "start": "7/15/2007 18:00:00"
+                            },
+                            {
+                                "end": "7/16/2007 05:59:59",
+                                "label": "6 am",
+                                "start": "7/16/2007 00:00:00"
+                            },
+                            {
+                                "end": "7/16/2007 11:59:59",
+                                "label": "12 pm",
+                                "start": "7/16/2007 06:00:00"
+                            },
+                            {
+                                "end": "7/16/2007 17:59:59",
+                                "label": "6 pm",
+                                "start": "7/16/2007 12:00:00"
+                            },
+                            {
+                                "end": "7/16/2007 23:59:59",
+                                "label": "Midnight",
+                                "start": "7/16/2007 18:00:00"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "caption": "Work Schedule",
+                    "dateformat": "mm/dd/yyyy",
+                    "outputdateformat": "hh:mn",
+                    "showborder": "0",
+                    "subcaption": "For next 2 days",
+                    "animation": "0"
+                },
+                "processes": {
+                    "align": "left",
+                    "fontsize": "12",
+                    "headeralign": "left",
+                    "headerfontsize": "18",
+                    "headertext": "Who?",
+                    "headervalign": "bottom",
+                    "isbold": "1",
+                    "process": [
+                        {
+                            "id": "EMP121",
+                            "label": "John.S"
+                        },
+                        {
+                            "id": "EMP122",
+                            "label": "David.G"
+                        },
+                        {
+                            "id": "EMP123",
+                            "label": "Mary.P"
+                        },
+                        {
+                            "id": "EMP124",
+                            "label": "Andrew.H"
+                        },
+                        {
+                            "id": "EMP125",
+                            "label": "Neil.M"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "showlabels": "1",
+                    "showstartdate": "1",
+                    "task": [
+                        {
+                            "end": "7/15/2007 12:30:00",
+                            "label": "Logo A",
+                            "processid": "EMP121",
+                            "start": "7/15/2007 08:00:00"
+                        },
+                        {
+                            "end": "7/15/2007 19:30:00",
+                            "label": "Logo B",
+                            "processid": "EMP121",
+                            "start": "7/15/2007 17:00:00"
+                        },
+                        {
+                            "end": "7/16/2007 19:30:00",
+                            "label": "Website template",
+                            "processid": "EMP121",
+                            "start": "7/16/2007 09:00:00"
+                        },
+                        {
+                            "end": "7/15/2007 20:30:00",
+                            "label": "PHP Blueprint",
+                            "processid": "EMP122",
+                            "start": "7/15/2007 10:00:00"
+                        },
+                        {
+                            "end": "7/16/2007 20:30:00",
+                            "label": "PHP Blueprint",
+                            "processid": "EMP122",
+                            "start": "7/16/2007 10:00:00"
+                        },
+                        {
+                            "end": "7/15/2007 12:00:00",
+                            "label": "Support",
+                            "processid": "EMP123",
+                            "start": "7/15/2007 08:00:00"
+                        },
+                        {
+                            "end": "7/16/2007 21:30:00",
+                            "label": "Support",
+                            "processid": "EMP123",
+                            "start": "7/16/2007 15:00:00"
+                        },
+                        {
+                            "end": "7/15/2007 20:30:00",
+                            "label": "Level 2 support",
+                            "processid": "EMP124",
+                            "start": "7/15/2007 08:00:00"
+                        },
+                        {
+                            "end": "7/16/2007 20:30:00",
+                            "label": "Level 2 support",
+                            "processid": "EMP124",
+                            "start": "7/16/2007 08:00:00"
+                        },
+                        {
+                            "end": "7/15/2007 14:30:00",
+                            "label": "Network Maintenance",
+                            "processid": "EMP125",
+                            "start": "7/15/2007 10:00:00"
+                        },
+                        {
+                            "end": "7/16/2007 14:30:00",
+                            "label": "System OS Updates",
+                            "processid": "EMP125",
+                            "start": "7/16/2007 12:00:00"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "RED-3868": {
+        "id": "RED-3868",
+        "description": "In Dragnode, label color is not working",
+        "category": "static",
+        "options": {
+            "type": "dragnode",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "is3d": "1",
+                    "palette": "2",
+                    "showborder": "0",
+                    "showformbtn": "0",
+                    "viewmode": "0",
+                    "xaxismaxvalue": "100",
+                    "xaxisminvalue": "0",
+                    "yaxismaxvalue": "100",
+                    "yaxisminvalue": "0",
+                    "animation": "0"
+                },
+                "connectors": [
+                    {
+                        "color": "FF0000",
+                        "connector": [
+                            {
+                                "arrowatend": "1",
+                                "arrowatstart": "1",
+                                "color": "BBBB00",
+                                "from": "1",
+                                "label": "link label",
+                                "strength": "0.96",
+                                "to": "9"
+                            },
+                            {
+                                "arrowatend": "1",
+                                "arrowatstart": "1",
+                                "color": "BBBB00",
+                                "from": "1",
+                                "label": "link12",
+                                "strength": "0.8",
+                                "to": "5"
+                            },
+                            {
+                                "color": "BBBB00",
+                                "from": "1",
+                                "label": "link2",
+                                "strength": "0.8",
+                                "to": "8"
+                            },
+                            {
+                                "arrowatend": "1",
+                                "arrowatstart": "1",
+                                "color": "BBBB00",
+                                "from": "1",
+                                "label": "link3",
+                                "strength": "0.3",
+                                "to": "4"
+                            },
+                            {
+                                "arrowatend": "1",
+                                "arrowatstart": "1",
+                                "color": "BBBB00",
+                                "from": "2",
+                                "label": "link4",
+                                "strength": "0.4",
+                                "to": "4"
+                            },
+                            {
+                                "arrowatend": "1",
+                                "arrowatstart": "1",
+                                "color": "BBBB00",
+                                "from": "4",
+                                "label": "link5",
+                                "strength": "0.6",
+                                "to": "2"
+                            },
+                            {
+                                "color": "BBBB00",
+                                "from": "2",
+                                "label": "link1",
+                                "strength": "0.33",
+                                "to": "8"
+                            },
+                            {
+                                "arrowatend": "1",
+                                "arrowatstart": "1",
+                                "color": "BBBB00",
+                                "from": "8",
+                                "label": "link7",
+                                "strength": "0.66",
+                                "to": "3"
+                            },
+                            {
+                                "arrowatend": "1",
+                                "arrowatstart": "1",
+                                "color": "BBBB00",
+                                "from": "4",
+                                "label": "link6",
+                                "strength": "0.7",
+                                "to": "5"
+                            },
+                            {
+                                "arrowatend": "1",
+                                "arrowatstart": "1",
+                                "color": "FF5904",
+                                "from": "4",
+                                "strength": "0.6",
+                                "to": "8"
+                            },
+                            {
+                                "color": "BBBB00",
+                                "from": "5",
+                                "label": "link9",
+                                "strength": "0.6",
+                                "to": "8"
+                            },
+                            {
+                                "arrowatend": "1",
+                                "arrowatstart": "1",
+                                "color": "BBBB00",
+                                "from": "7",
+                                "label": "link10",
+                                "strength": "0.5",
+                                "to": "8"
+                            },
+                            {
+                                "color": "BBBB00",
+                                "from": "7",
+                                "label": "link11",
+                                "strength": "0.3",
+                                "to": "10"
+                            }
+                        ],
+                        "stdthickness": "5"
+                    }
+                ],
+                "dataset": [
+                    {
+                        "data": []
+                    }
+                ],
+                "labels": {
+                    "label": [
+                        {
+                            "bgcolor": "35AE00",
+                            "bordercolor": "0F6A00",
+                            "color": "ff0000",
+                            "fontsize": "18",
+                            "text": "Label at top",
+                            "x": "12",
+                            "y": "98"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "RED-3867": {
+        "id": "RED-3867",
+        "description": "Error scatter chart throws JS error with default data",
+        "category": "static",
+        "options": {
+            "type": "errorscatter",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "1",
+                    "caption": "Please select the required points from chart below",
+                    "yaxisname": "Value",
+                    "xaxisname": "Load (TPS)",
+                    "showlegend": "1",
+                    "shownames": "1",
+                    "xaxismaxvalue": "100",
+                    "xaxisminvalue": "0",
+                    "submitdataasxml": "1",
+                    "errorbarcolor": "000000",
+                    "errorbarthickness": "3",
+                    "errorbarwidth": "20",
+                    "valuepadding": "40",
+                    "usehorizontalerrorbar": "0",
+                    "drawquadrant": "0",
+                    "halferrorbar": "0",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "verticallinecolor": "AA6666",
+                        "verticallinethickness": "1",
+                        "category": [
+                            {
+                                "label": "20",
+                                "x": "15",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "30",
+                                "x": "25",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "40",
+                                "x": "35",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "50",
+                                "x": "45",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "60",
+                                "x": "55",
+                                "showverticalline": "1"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "id": "DS1",
+                        "seriesname": "Dataset 1",
+                        "color": "ff5904",
+                        "plotborderthickness": "0",
+                        "showplotborder": "1",
+                        "usehorizontalerrorbar": "1",
+                        "drawline": "0",
+                        "data": [
+                            {
+                                "id": "S1",
+                                "x": "20",
+                                "y": "20",
+                                "errorvalue": "15",
+                                "usehorizontalerrorbar": "1"
+                            },
+                            {
+                                "id": "S2",
+                                "x": "30",
+                                "y": "70",
+                                "errorvalue": "50",
+                                "usehorizontalerrorbar": ""
+                            },
+                            {
+                                "id": "S3",
+                                "x": "40",
+                                "y": "40",
+                                "errorvalue": "21",
+                                "usehorizontalerrorbar": "0"
+                            },
+                            {
+                                "id": "S4",
+                                "x": "50",
+                                "y": "50",
+                                "errorvalue": "10",
+                                "usehorizontalerrorbar": ""
+                            },
+                            {
+                                "id": "S5",
+                                "x": "60",
+                                "y": "60",
+                                "errorvalue": "11",
+                                "usehorizontalerrorbar": "0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "RED-3855": {
+        "id": "RED-3855",
+        "description": "Chat upper limit not shown when yAxisMaxValue is in decimal",
+        "category": "static",
+        "options": {
+            "type": "mscolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "yAxisMaxValue": "40000.1",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "vline": "true"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "26000",
+                                "color": "91C728",
+                                "displayvalue": "Target",
+                                "showontop": "1"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "RED-3743": {
+        "id": "RED-3743",
+        "description": "Default border changes in pie3d chart",
+        "category": "static",
+        "options": {
+            "type": "pie3d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Revenue",
+                    "showpercentagevalues": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Services",
+                        "value": "26"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "32"
+                    },
+                    {
+                        "label": "Software",
+                        "value": "42"
+                    }
+                ]
+            }
+        }
+    },
+    "RED-3731": {
+        "id": "RED-3731",
+        "description": "For Hlinear gauge ,colorrange Label font style is change.",
+        "category": "static",
+        "options": {
+            "type": "hlineargauge",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "lowerlimit": "0",
+                    "upperlimit": "100",
+                    "lowerlimitdisplay": "Bad",
+                    "upperlimitdisplay": "Good",
+                    "palette": "1",
+                    "numbersuffix": "%",
+                    "chartrightmargin": "20",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "75",
+                            "code": "FF654F",
+                            "label": "Bad"
+                        },
+                        {
+                            "minvalue": "75",
+                            "maxvalue": "90",
+                            "code": "F6BD0F",
+                            "label": "Moderate"
+                        },
+                        {
+                            "minvalue": "90",
+                            "maxvalue": "100",
+                            "code": "8BBA00",
+                            "label": "Good"
+                        }
+                    ]
+                },
+                "pointers": {
+                    "pointer": [
+                        {
+                            "value": "92"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "RED-3726": {
+        "id": "RED-3726",
+        "description": "For Tree map,caption is overlapped with plots when gradient legend is disabled",
+        "category": "static",
+        "options": {
+            "type": "treemap",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "animation": "0",
+                    "basefontsize": "12",
+                    "caption": "World &lt; br &gt;dWorld &lt; br &gt;World &lt; br &gt;woldWorld &lt; br &gt;dWorld &lt; br &gt;World &lt; br &gt;wold ",
+                    "subcaption": "Country {br}",
+                    "captionAlignment": "right",
+                    "captionOnTop": "0",
+                    "captionFontSize": "20",
+                    "captionFont": "verdana",
+                    "captionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "subCaptionFontSize": "15",
+                    "subCaptionFont": "arial",
+                    "subCaptionFontColor": "#FF0000",
+                    "subCaptionFontBold": "1",
+                    "alignCaptionWithCanvas": "0",
+                    "showtoolbar": "1",
+                    "captionHorizontalPadding": "10",
+                    "algorithm": "squarified",
+                    "showlegend": "0"
+                },
+                "data": [
+                    {
+                        "label": "Global",
+                        "value": "459",
+                        "tooltext": "World",
+                        "data": [
+                            {
+                                "label": "As&lt;br&gt;ia",
+                                "value": 142,
+                                "data": [
+                                    {
+                                        "label": "India",
+                                        "value": 40,
+                                        "data": [
+                                            {
+                                                "label": "WB",
+                                                "value": 20,
+                                                "data": [
+                                                    {
+                                                        "label": "kolkata",
+                                                        "value": 11,
+                                                        "color": "66ffcc"
+                                                    },
+                                                    {
+                                                        "label": "bankura",
+                                                        "value": 9,
+                                                        "color": "ff3399"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "label": "UP",
+                                                "value": 20,
+                                                "data": [
+                                                    {
+                                                        "label": "Kanpur",
+                                                        "value": 11,
+                                                        "color": "#ff3399"
+                                                    },
+                                                    {
+                                                        "label": "Agra",
+                                                        "value": 9,
+                                                        "color": "ff3399"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "China",
+                                        "value": "36",
+                                        "data": [
+                                            {
+                                                "label": "StateA",
+                                                "value": 20,
+                                                "data": [
+                                                    {
+                                                        "label": "Town abcd abcd abcd abcd&lt;br&gt;abcd&lt;br&gt;abcd abcd acds asas",
+                                                        "value": 11,
+                                                        "color": "66ffcc"
+                                                    },
+                                                    {
+                                                        "label": "Town b",
+                                                        "value": 9,
+                                                        "color": "ff3399"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "label": "State D",
+                                                "value": 16,
+                                                "data": [
+                                                    {
+                                                        "label": "Town e",
+                                                        "value": 11,
+                                                        "color": "#ff3399"
+                                                    },
+                                                    {
+                                                        "label": "Town f",
+                                                        "value": 5,
+                                                        "color": "ff3399"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Japan",
+                                        "value": "20"
+                                    },
+                                    {
+                                        "label": "Laos",
+                                        "value": "4"
+                                    },
+                                    {
+                                        "label": "Mongolia",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "label": "Israel",
+                                        "value": "12"
+                                    },
+                                    {
+                                        "label": "Iran",
+                                        "value": "18"
+                                    },
+                                    {
+                                        "label": "Pakistan",
+                                        "value": "11"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "America",
+                                "value": "103",
+                                "data": [
+                                    {
+                                        "label": "Brazil",
+                                        "value": "11"
+                                    },
+                                    {
+                                        "label": "USA",
+                                        "value": "52",
+                                        "data": [
+                                            {
+                                                "label": "StateA",
+                                                "value": 20,
+                                                "data": [
+                                                    {
+                                                        "label": "Town abcd abcd abcd abcd",
+                                                        "value": 11,
+                                                        "color": "66ffcc"
+                                                    },
+                                                    {
+                                                        "label": "Town b",
+                                                        "value": 9,
+                                                        "color": "ff3399"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "label": "State D",
+                                                "value": 32,
+                                                "data": [
+                                                    {
+                                                        "label": "Town e",
+                                                        "value": 15,
+                                                        "color": "#ff3399"
+                                                    },
+                                                    {
+                                                        "label": "Town f",
+                                                        "value": 17,
+                                                        "color": "ff3399"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Mexico",
+                                        "value": "24"
+                                    },
+                                    {
+                                        "label": "Canada",
+                                        "value": "16"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Europe",
+                                "value": "133",
+                                "data": [
+                                    {
+                                        "label": "France&lt;br&gt;ssss",
+                                        "value": "42"
+                                    },
+                                    {
+                                        "label": "Germany",
+                                        "value": "31"
+                                    },
+                                    {
+                                        "label": "Sweden",
+                                        "value": "22"
+                                    },
+                                    {
+                                        "label": "Italy",
+                                        "value": "17"
+                                    },
+                                    {
+                                        "label": "UK",
+                                        "value": "21"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Africa",
+                                "value": "81",
+                                "data": [
+                                    {
+                                        "label": "Egypt",
+                                        "value": "21"
+                                    },
+                                    {
+                                        "label": "S. Africa",
+                                        "value": "30"
+                                    },
+                                    {
+                                        "label": "Sudan",
+                                        "value": "12"
+                                    },
+                                    {
+                                        "label": "Congo",
+                                        "value": "10"
+                                    },
+                                    {
+                                        "label": "Zaire",
+                                        "value": "8"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "colorrange": {
+                    "mapbypercent": "1",
+                    "gradient": "1",
+                    "minvalue": "0",
+                    "startlabel": "Poor",
+                    "endlabel": "Good",
+                    "color": [
+                        {
+                            "code": "66ADD9",
+                            "maxvalue": "30",
+                            "label": "BAD"
+                        },
+                        {
+                            "code": "F2CF63",
+                            "maxvalue": "70",
+                            "label": "AVERAGE"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "RED-3711": {
+        "id": "RED-3711",
+        "description": "For zoomlinedy chart,primary and secondary axis is not getting updated with plots.",
+        "category": "static",
+        "options": {
+            "type": "zoomlinedy",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": "Jan 01|Jan 02|Jan 03",
+                        "fontcolor": "#ff0000"
+                    }
+                ],
+                "chart": {
+                    "caption": "Impact of weather on sales",
+                    "compactdatamode": "1",
+                    "dataseparator": "|",
+                    "linethickness": "1.5",
+                    "pixelsperpoint": "0",
+                    "pyaxismaxvalue": "100",
+                    "pyaxisminvalue": "0",
+                    "pyaxisname": "Precipitation (mm)",
+                    "pyaxisnamefontcolor": "0075c2",
+                    "sformatnumberscale": "1",
+                    "subcaption": "Precipitation factor in previous calendar year",
+                    "syaxismaxvalue": "23000",
+                    "syaxisminvalue": "7500",
+                    "syaxisname": "Sales ($)",
+                    "theme": "zune",
+                    "animation": "0"
+                },
+                "dataset": [
+                    {
+                        "color": "ff0000",
+                        "data": "50|0.00|13.97",
+                        "seriesname": "Precipitation Rate"
+                    },
+                    {
+                        "color": "00ff00",
+                        "data": "17270|17290|15823",
+                        "parentyaxis": "S",
+                        "seriesname": "Retail Sales"
+                    },
+                    {
+                        "color": "ffff00",
+                        "data": "21270|21290|21220",
+                        "parentyaxis": "S",
+                        "seriesname": "Online Sales"
+                    }
+                ]
+            }
+        }
+    },
+    "RED-2347": {
+        "id": "RED-2347",
+        "description": " For trendlines, \"valueonright\"=0 is always showing the endvalue of the trendline/trendzone",
+        "category": "static",
+        "options": {
+            "type": "column2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "endvalue": "970000",
+                                "istrendzone": "0",
+                                "valueonright": "0",
+                                "tooltext": "AYAN",
+                                "color": "009933",
+                                "displayvalue": "",
+                                "showontop": "1",
+                                "thickness": "5"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

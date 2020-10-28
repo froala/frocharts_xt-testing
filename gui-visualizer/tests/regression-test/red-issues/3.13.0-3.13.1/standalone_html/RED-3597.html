@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <script type="text/javascript" src="fusioncharts/fusioncharts.js"></script>
+</head>
+
+<body>
+
+    <a href="https://fusioncharts.jira.com/browse/RED-3597">RED-3597</a>
+    <div>sNumberSuffix is not applied to csv data in dual axis charts</div>
+    <div id="chart-container">FusionCharts will render here</div>
+
+    <button id="get_csv_data">Get CSV Data</button>
+    <pre id="csv_data"></pre>
+
+    <script type="text/javascript">
+        FusionCharts.ready(function () {
+            var revenueChart = new FusionCharts({
+                    "dataSource": {
+                        "dataset": [{
+                            "seriesName": "Client Cost",
+                            "data": [{
+                                "toolText": "<div>$label: $dataValue<\/div>",
+                                "value": 65351.36
+                            }, {
+                                "toolText": "<div>$label: $dataValue<\/div>",
+                                "value": 35347.97
+                            }, {
+                                "toolText": "<div>$label: $dataValue<\/div>",
+                                "value": 32885.56
+                            }, {
+                                "toolText": "<div>$label: $dataValue<\/div>",
+                                "value": 2382.55
+                            }]
+                        }, {
+                            "renderAs": "line",
+                            "seriesName": "Leads",
+                            "data": [{
+                                "toolText": "<span>$label: <\/span>310",
+                                "value": 309.8233384999999
+                            }, {
+                                "toolText": "<span>$label: <\/span>186",
+                                "value": 185.79077180000004
+                            }, {
+                                "toolText": "<span>$label: <\/span>151",
+                                "value": 151.20040259999993
+                            }, {
+                                "toolText": "<span>$label: <\/span>7",
+                                "value": 7.185487
+                            }],
+                            "parentYAxis": "s",
+                            "showValues": 0
+                        }],
+                        "chart": {
+                            "anchorRadius": 4,
+                            "pYAxisName": "Client Cost (AUD)",
+                            "xAxisName": "Sales House",
+                            "subCaption": "By Sales House",
+                            "exportDataFormattedVal": 1,
+                            "theme": "native,whitelabel",
+                            "formatNumber": 1,
+                            "sDecimals": 0,
+                            "caption": "Client Cost / Leads",
+                            "drawAnchors": 1,
+                            "exportEnabled": 1,
+                            "decimalSeparator": ".",
+                            "formatNumberScale": 0,
+                            "decimals": 0,
+                            "thousandSeparator": ",",
+                            "numVisiblePlot": 4,
+                            "scrollShowButtons": 1,
+                            "sYAxisName": "Leads",
+                            "numberSuffix": "numberSuffix",
+                            "showValues": 1,
+                            "sNumberSuffix": "sNumberSuffix"
+                        },
+                        "categories": [{
+                            "category": [{
+                                "label": "TEN NETWORK"
+                            }, {
+                                "label": "SEVEN NETWORK"
+                            }, {
+                                "label": "SBS"
+                            }, {
+                                "label": "NINE NETWORK"
+                            }]
+                        }]
+                    },
+                    "height": "500",
+                    "renderAt": "chart-container",
+                    "width": "900",
+                    "dataFormat": "json",
+                    "type": "scrollcombidy2d"
+                }
+
+
+            ).render();
+
+            function getCSV() {
+                console.log(revenueChart.getCSVData);
+                document.getElementById('csv_data').innerHTML = revenueChart.getCSVData();
+            }
+
+            document.getElementById("get_csv_data").addEventListener("click", getCSV);
+        });
+    </script>
+</body>
+
+</html>

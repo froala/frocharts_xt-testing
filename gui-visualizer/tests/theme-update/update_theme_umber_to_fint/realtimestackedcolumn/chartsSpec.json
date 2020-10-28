@@ -1,0 +1,84 @@
+{
+    "realtimestackedcolumn": {
+        "descriptions": "update theme from umber to fint",
+        "id": "realtimestackedcolumn",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "realtimestackedcolumn",
+            "dataSource": {
+                "chart": {
+                    "caption": "Realtime Server Load",
+                    "yaxismaxvalue": "100",
+                    "numdisplaysets": "30",
+                    "showrealtimevalue": "0",
+                    "datastreamurl": "realtime/multipleData.php",
+                    "refreshinterval": "2",
+                    "numbersuffix": "%",
+                    "labeldisplay": "rotate",
+                    "slantlabels": "1",
+                    "showlabels": "1",
+                    "theme": "umber",
+                    "animation": 0
+                },
+                "categories": [
+                    {}
+                ],
+                "dataset": [
+                    {
+                        "color": "009900",
+                        "seriesname": "Client A"
+                    },
+                    {
+                        "color": "ffff00",
+                        "seriesname": "Client B (with values)"
+                    },
+                    {
+                        "color": "0099cc",
+                        "seriesname": "Client C"
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "caption": "Realtime Server Load",
+                            "yaxismaxvalue": "100",
+                            "numdisplaysets": "30",
+                            "showrealtimevalue": "0",
+                            "datastreamurl": "realtime/multipleData.php",
+                            "refreshinterval": "2",
+                            "numbersuffix": "%",
+                            "labeldisplay": "rotate",
+                            "slantlabels": "1",
+                            "showlabels": "1",
+                            "theme": "fint",
+                            "animation": 0
+                        },
+                        "categories": [
+                            {}
+                        ],
+                        "dataset": [
+                            {
+                                "color": "009900",
+                                "seriesname": "Client A"
+                            },
+                            {
+                                "color": "ffff00",
+                                "seriesname": "Client B (with values)"
+                            },
+                            {
+                                "color": "0099cc",
+                                "seriesname": "Client C"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

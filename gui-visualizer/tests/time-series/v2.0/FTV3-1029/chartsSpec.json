@@ -1,0 +1,356 @@
+{
+    "FTV3-1029_FT_TS01_TC01": {
+        "id": "FTV3-1029_FT_TS01_TC01",
+        "description": "Enable/Disable legend items - all hidden [Series] - initiallyhidden: true",
+        "options": {
+            "data-id": "data-FTV3-1029",
+            "schema-id": "schema-FTV3-1029",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#f4cdcd, #a3e2ba, #bcb3f2",
+                    "animation": 0
+                },
+                "caption": {
+                    "text": "Enable/Disable legend items - all hidden [Series] - initiallyhidden: true"
+                },
+                "yAxis": [{
+                        "plot": {
+                            "value": "Measure1",
+                            "type": "line"
+                        }
+                    },
+                    {
+                        "plot": {
+                            "value": "Measure2",
+                            "type": "column"
+                        }
+                    }
+                ],
+                "series": "Item",
+                "legend": {
+                    "item": [{
+                            "value": "A",
+                            "initiallyhidden": true
+                        },
+                        {
+                            "value": "B",
+                            "initiallyhidden": true
+                        },
+                        {
+                            "value": "C",
+                            "initiallyhidden": true
+                        }
+                    ],
+                    "style": {
+                        "text": {
+                            "fill": "#999CA5",
+                            "font-size": 24,
+                            "font-family": "Fira Sans Regular",
+                            "font-weight": "bold"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FTV3-1029_FT_TS01_TC02": {
+        "id": "FTV3-1029_FT_TS01_TC02",
+        "description": "Enable/Disable legend items - all hidden [Series], all initiallyhidden=false",
+        "options": {
+            "data-id": "data-FTV3-1029",
+            "schema-id": "schema-FTV3-1029",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#f4cdcd, #a3e2ba, #bcb3f2",
+                    "animation": 0
+                },
+                "caption": {
+                    "text": "Enable/Disable legend items - all hidden [Series], all initiallyhidden=false"
+                },
+                "yAxis": [{
+                        "plot": {
+                            "value": "Measure1",
+                            "type": "line"
+                        }
+                    },
+                    {
+                        "plot": {
+                            "value": "Measure2",
+                            "type": "column"
+                        }
+                    }
+                ],
+                "series": "Item",
+                "legend": {
+                    "item": [{
+                            "value": "A",
+                            "initiallyhidden": false
+                        },
+                        {
+                            "value": "B",
+                            "initiallyhidden": false
+                        },
+                        {
+                            "value": "C",
+                            "initiallyhidden": false
+                        }
+                    ],
+                    "style": {
+                        "text": {
+                            "fill": "#999CA5",
+                            "font-size": 24,
+                            "font-family": "Fira Sans Regular",
+                            "font-weight": "bold"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FTV3-1029_FT_TS01_TC03": {
+        "id": "FTV3-1029_FT_TS01_TC03",
+        "description": "Enable/Disable legend items - legend object enable=0",
+        "options": {
+            "data-id": "data-FTV3-1029",
+            "schema-id": "schema-FTV3-1029",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource":  {
+                "chart": {
+                    "paletteColors": "#f4cdcd, #a3e2ba, #bcb3f2",
+                    "animation": 0
+                },
+                "caption": {
+                    "text": "Enable/Disable legend items - legend object: enable: 0, all initiallyhidden=false"
+                },
+                "yAxis": [{
+                        "plot": {
+                            "value": "Measure1",
+                            "type": "line"
+                        }
+                    },
+                    {
+                        "plot": {
+                            "value": "Measure2",
+                            "type": "column"
+                        }
+                    }
+                ],
+                "series": "Item",
+                "legend": {
+                    "enable": 0,
+                    "item": [{
+                            "value": "A",
+                            "initiallyhidden": false
+                        },
+                        {
+                            "value": "B",
+                            "initiallyhidden": false
+                        },
+                        {
+                            "value": "C",
+                            "initiallyhidden": false
+                        }
+                    ],
+                    "style": {
+                        "text": {
+                            "fill": "#999CA5",
+                            "font-size": 24,
+                            "font-family": "Fira Sans Regular",
+                            "font-weight": "bold"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FTV3-1029_FT_TS01_TC04": {
+        "id": "FTV3-1029_FT_TS01_TC04",
+        "description": "Enable/Disable legend items - showLegend=0, legend object enable=1",
+        "options": {
+            "data-id": "data-FTV3-1029",
+            "schema-id": "schema-FTV3-1029",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#f4cdcd, #a3e2ba, #bcb3f2",
+                    "animation": 0,
+                    "showLegend":0
+                },
+                "caption": {
+                    "text": "Enable/Disable legend items - showLegend=0, legend object enable=1"
+                },
+                "yAxis": [{
+                        "plot": {
+                            "value": "Measure1",
+                            "type": "line"
+                        }
+                    },
+                    {
+                        "plot": {
+                            "value": "Measure2",
+                            "type": "column"
+                        }
+                    }
+                ],
+                "series": "Item",
+                "legend": {
+                    "enable": 1,
+                    "item": [{
+                            "value": "A",
+                            "initiallyhidden": false
+                        },
+                        {
+                            "value": "B",
+                            "initiallyhidden": 1
+                        },
+                        {
+                            "value": "C",
+                            "initiallyhidden": false
+                        }
+                    ],
+                    "style": {
+                        "text": {
+                            "fill": "#999CA5",
+                            "font-size": 24,
+                            "font-family": "Fira Sans Regular",
+                            "font-weight": "bold"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FTV3-1029_FT_TS01_TC05": {
+        "id": "FTV3-1029_FT_TS01_TC05",
+        "description": "Enable/Disable legend items - showLegend=1, legend object enable=0",
+        "options": {
+            "data-id": "data-FTV3-1029",
+            "schema-id": "schema-FTV3-1029",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#f4cdcd, #a3e2ba, #bcb3f2",
+                    "animation": 0,
+                    "showLegend":1
+                },
+                "caption": {
+                    "text": "Enable/Disable legend items - showLegend=1, legend object enable=0"
+                },
+                "yAxis": [{
+                        "plot": {
+                            "value": "Measure1",
+                            "type": "line"
+                        }
+                    },
+                    {
+                        "plot": {
+                            "value": "Measure2",
+                            "type": "column"
+                        }
+                    }
+                ],
+                "series": "Item",
+                "legend": {
+                    "enable": 0,
+                    "item": [{
+                            "value": "A",
+                            "initiallyhidden": false
+                        },
+                        {
+                            "value": "B",
+                            "initiallyhidden": false
+                        },
+                        {
+                            "value": "C",
+                            "initiallyhidden": false
+                        }
+                    ],
+                    "style": {
+                        "text": {
+                            "fill": "#999CA5",
+                            "font-size": 24,
+                            "font-family": "Fira Sans Regular",
+                            "font-weight": "bold"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FTV3-1029_FT_TS01_TC06": {
+        "id": "FTV3-1029_FT_TS01_TC05",
+        "description": "Enable/Disable legend items - showLegend=1 from theme, legend object enable=0",
+        "options": {
+            "data-id": "data-FTV3-1029",
+            "schema-id": "schema-FTV3-1029",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "paletteColors": "#f4cdcd, #a3e2ba, #bcb3f2",
+                    "animation": 0
+                },
+                "caption": {
+                    "text": "Enable/Disable legend items - showLegend=1 from theme, legend object enable=0"
+                },
+                "yAxis": [{
+                        "plot": {
+                            "value": "Measure1",
+                            "type": "line"
+                        }
+                    },
+                    {
+                        "plot": {
+                            "value": "Measure2",
+                            "type": "column"
+                        }
+                    }
+                ],
+                "series": "Item",
+                "legend": {
+                    "enable": 0,
+                    "item": [{
+                            "value": "A",
+                            "initiallyhidden": false
+                        },
+                        {
+                            "value": "B",
+                            "initiallyhidden": false
+                        },
+                        {
+                            "value": "C",
+                            "initiallyhidden": false
+                        }
+                    ],
+                    "style": {
+                        "text": {
+                            "fill": "#999CA5",
+                            "font-size": 24,
+                            "font-family": "Fira Sans Regular",
+                            "font-weight": "bold"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

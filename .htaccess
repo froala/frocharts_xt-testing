@@ -1,0 +1,17 @@
+RewriteEngine on
+
+# RewriteRule  ^([^/]+)\/(.*)$     $2 [L]
+
+RewriteRule  ^(.*\.html)$       $1 [L]
+
+RewriteRule  ^(.*\.json)$       $1 [L]
+
+RewriteRule  ^(.*\.xml)$       $1 [L]
+
+RewriteRule  ^(.*\.js)$         $1 [L]
+
+RewriteRule  ^(.*\.jpg)$        $1 [L]
+
+RewriteRule  ^(.*\.png)$        $1 [L]
+
+RewriteRule  ^([^/]+)\/(.*)$    $2 [L]

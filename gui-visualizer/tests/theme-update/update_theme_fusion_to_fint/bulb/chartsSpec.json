@@ -1,0 +1,84 @@
+{
+    "bulb": {
+        "descriptions": "update theme from fusion to fint",
+        "id": "bulb",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "bulb",
+            "dataSource": {
+                "chart": {
+                    "upperlimit": "100",
+                    "lowerlimit": "0",
+                    "numbersuffix": "%",
+                    "animation": 0,
+                    "datastreamurl": "realtime/multipleData.php",
+                    "theme": "fusion"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "15",
+                            "label": "Low",
+                            "code": "00FF00"
+                        },
+                        {
+                            "minvalue": "15",
+                            "maxvalue": "35",
+                            "label": "Medium",
+                            "code": "FFFF00"
+                        },
+                        {
+                            "minvalue": "35",
+                            "maxvalue": "100",
+                            "label": "High",
+                            "code": "FF0000"
+                        }
+                    ]
+                },
+                "value": "12"
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "upperlimit": "100",
+                            "lowerlimit": "0",
+                            "numbersuffix": "%",
+                            "animation": 0,
+                            "datastreamurl": "realtime/multipleData.php",
+                            "theme": "fint"
+                        },
+                        "colorrange": {
+                            "color": [
+                                {
+                                    "minvalue": "0",
+                                    "maxvalue": "15",
+                                    "label": "Low",
+                                    "code": "00FF00"
+                                },
+                                {
+                                    "minvalue": "15",
+                                    "maxvalue": "35",
+                                    "label": "Medium",
+                                    "code": "FFFF00"
+                                },
+                                {
+                                    "minvalue": "35",
+                                    "maxvalue": "100",
+                                    "label": "High",
+                                    "code": "FF0000"
+                                }
+                            ]
+                        },
+                        "value": "12"
+                    }
+                ]
+            }
+        ]
+    }
+}

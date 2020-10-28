@@ -1,0 +1,3711 @@
+{
+    "functional-issue-1": {
+        "description": "tickvalue-goes-out-of-chart",
+        "options": {
+            "type": "cylinder",
+            "width": "200",
+            "height": "250",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "3",
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "animation": "0"
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/functional-issue-1-snapshot.png",
+        "id": "functional-issue-1"
+    },
+    "functional-issue-2": {
+        "description": "tick-mark-and-value-is-on-left-side-by-default",
+        "options": {
+            "type": "cylinder",
+            "width": "210",
+            "height": "130",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "animation": "0"
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/functional-issue-2-snapshot.png",
+        "id": "functional-issue-2"
+    },
+    "functional-issue-3": {
+        "description": "label-stepping-applied-even-if-there-is-space",
+        "options": {
+            "type": "cylinder",
+            "width": "210",
+            "height": "130",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "animation": "0"
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/functional-issue-3-snapshot.png",
+        "id": "functional-issue-3"
+    },
+    "chart-captions-1": {
+        "description": "caption-subcaption",
+        "options": {
+            "type": "cylinder",
+            "width": "210",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED  fsfff {br}af afasdfsdf sdfsf sf <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample HLED *gauge <sample>",
+                    "clickurl": "",
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "animation": "0"
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/chart-captions-1-snapshot.png",
+        "id": "chart-captions-1"
+    },
+    "chart-caption-cosmetics-1": {
+        "description": "captionAlignment-captionOnTop-0-caption-cosmetics-subcaption-cosmetics-alignCaptionWithCanvas-1-captionHorizontalPadding-20",
+        "options": {
+            "type": "cylinder",
+            "width": "210",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "HLED  fsfff {br}af afasdfsdf sdfsf sf <sample> &lt; &gt;chart monitoring noise pollution",
+                    "subcaption": "Sample HLED *gauge <sample>",
+                    "clickurl": "",
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "captionalignment": "left",
+                    "captionontop": "0",
+                    "captionfontsize": "22",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "1",
+                    "subcaptionfontbold": "1",
+                    "aligncaptionwithcanvas": "1",
+                    "captionhorizontalpadding": "20",
+                    "animation": "0"
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/chart-caption-cosmetics-1-snapshot.png",
+        "id": "chart-caption-cosmetics-1"
+    },
+    "chart-caption-cosmetics-2": {
+        "description": "captionAlignment-right-captionOnTop-1-caption-cosmetics-subcaption-cosmetics-alignCaptionWithCanvas-0-captionHorizontalPadding-60",
+        "options": {
+            "type": "cylinder",
+            "width": "210",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "clickurl": "",
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "22",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "60",
+                    "animation": "0"
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/chart-caption-cosmetics-2-snapshot.png",
+        "id": "chart-caption-cosmetics-2"
+    },
+    "functional-attributes-1": {
+        "description": "clickURL-palette-annRenderDelay-5-showPrintMenuItem-1",
+        "options": {
+            "type": "cylinder",
+            "width": "210",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "clickurl": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://collabion.com",
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "22",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "60",
+                    "showvalue": "1",
+                    "palette": "4",
+                    "palettethemecolor": "",
+                    "annrenderdelay": "5",
+                    "showprintmenuitem": "1",
+                    "use3dlighting": "1",
+                    "hasrtltext": "1",
+                    "animation": "0"
+                },
+                "value": "2452",
+                "annotations": {
+                    "groups": [
+                        {
+                            "x": "30",
+                            "y": "30",
+                            "items": [
+                                {
+                                    "type": "circle",
+                                    "radius": "20",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#4B4B4B,#AAAAAA",
+                                    "fillalpha": "100,100",
+                                    "fillratio": "95,5"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "0",
+                                    "y": "0",
+                                    "radius": "10",
+                                    "showborder": "1",
+                                    "bordercolor": "cccccc",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#ffffff,#000000",
+                                    "fillalpha": "50,100",
+                                    "fillratio": "1,99"
+                                }
+                            ]
+                        },
+                        {
+                            "x": "30",
+                            "y": "40",
+                            "showbelow": "0",
+                            "scaletext": "1",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "y": "20",
+                                    "label": "Sample",
+                                    "fontcolor": "#ff0000",
+                                    "fontsize": "11",
+                                    "bold": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/functional-attributes-1-snapshot.png",
+        "id": "functional-attributes-1"
+    },
+    "functional-attributes-2": {
+        "description": "paletteThemeColor-use3DLighting-0-",
+        "options": {
+            "type": "cylinder",
+            "width": "210",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "clickurl": "",
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "22",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "60",
+                    "showvalue": "1",
+                    "autoscale": "0",
+                    "palettethemecolor": "#0000ff",
+                    "manageresize": "1",
+                    "origw": "100",
+                    "origh": "100",
+                    "use3dlighting": "0",
+                    "animation": "0"
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/functional-attributes-2-snapshot.png",
+        "id": "functional-attributes-2"
+    },
+    "functional-attributes-3": {
+        "description": "autoScale-1-manageResize-origW-origH",
+        "options": {
+            "type": "cylinder",
+            "width": "210",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "clickurl": "",
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "12",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "60",
+                    "showvalue": "1",
+                    "autoscale": "100",
+                    "manageresize": "1",
+                    "origw": "210",
+                    "origh": "230",
+                    "use3dlighting": "0",
+                    "animation": "0"
+                },
+                "value": "2452",
+                "annotations": {
+                    "groups": [
+                        {
+                            "x": "30",
+                            "y": "30",
+                            "items": [
+                                {
+                                    "type": "circle",
+                                    "radius": "20",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#4B4B4B,#AAAAAA",
+                                    "fillalpha": "100,100",
+                                    "fillratio": "95,5"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "0",
+                                    "y": "0",
+                                    "radius": "10",
+                                    "showborder": "1",
+                                    "bordercolor": "cccccc",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#ffffff,#000000",
+                                    "fillalpha": "50,100",
+                                    "fillratio": "1,99"
+                                }
+                            ]
+                        },
+                        {
+                            "x": "30",
+                            "y": "40",
+                            "showbelow": "0",
+                            "scaletext": "1",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "y": "20",
+                                    "label": "Sample",
+                                    "fontcolor": "#ff0000",
+                                    "fontsize": "11",
+                                    "bold": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/functional-attributes-3-snapshot.png",
+        "id": "functional-attributes-3"
+    },
+    "functional-attributes-4": {
+        "description": "refreshInstantly-1-refreshinterval-5",
+        "options": {
+            "type": "cylinder",
+            "width": "210",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "clickurl": "",
+                    "lowerlimit": "0",
+                    "upperlimit": "100",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "12",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "60",
+                    "showvalue": "1",
+                    "autoscale": "0",
+                    "manageresize": "1",
+                    "origw": "210",
+                    "origh": "230",
+                    "use3dlighting": "0",
+                    "refreshinstantly": "1",
+                    "datastreamurl": "http://static.fusioncharts.com/sampledata/php/streamMessages.php",
+                    "refreshinterval": "5",
+                    "animation": "0"
+                },
+                "value": "50",
+                "annotations": {
+                    "groups": [
+                        {
+                            "x": "30",
+                            "y": "30",
+                            "items": [
+                                {
+                                    "type": "circle",
+                                    "radius": "20",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#4B4B4B,#AAAAAA",
+                                    "fillalpha": "100,100",
+                                    "fillratio": "95,5"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "0",
+                                    "y": "0",
+                                    "radius": "10",
+                                    "showborder": "1",
+                                    "bordercolor": "cccccc",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#ffffff,#000000",
+                                    "fillalpha": "50,100",
+                                    "fillratio": "1,99"
+                                }
+                            ]
+                        },
+                        {
+                            "x": "30",
+                            "y": "40",
+                            "showbelow": "0",
+                            "scaletext": "1",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "y": "20",
+                                    "label": "Sample",
+                                    "fontcolor": "#ff0000",
+                                    "fontsize": "11",
+                                    "bold": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/functional-attributes-4-snapshot.png",
+        "id": "functional-attributes-4"
+    },
+    "axis-&-tick-mark-properties-1": {
+        "description": "upperLimit-lowerLimit-upperLimitDisplay-lowerLimitDisplay-showTickMarks-showTickValues-showLimits-ticksOnRight-tickValueStep",
+        "options": {
+            "type": "cylinder",
+            "width": "310",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "clickurl": "",
+                    "lowerlimit": "0",
+                    "upperlimit": "100",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "showtickmarks": "1",
+                    "showtickvalues": "1",
+                    "showlimits": "1",
+                    "ticksonright": "1",
+                    "tickvaluestep": "3",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "12",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "60",
+                    "showvalue": "1",
+                    "autoscale": "0",
+                    "manageresize": "1",
+                    "origw": "210",
+                    "origh": "230",
+                    "use3dlighting": "0",
+                    "refreshinstantly": "1",
+                    "datastreamurl": "http://static.fusioncharts.com/sampledata/php/streamMessages.php",
+                    "refreshinterval": "5",
+                    "animation": "0"
+                },
+                "value": "50",
+                "annotations": {
+                    "groups": [
+                        {
+                            "x": "30",
+                            "y": "30",
+                            "items": [
+                                {
+                                    "type": "circle",
+                                    "radius": "20",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#4B4B4B,#AAAAAA",
+                                    "fillalpha": "100,100",
+                                    "fillratio": "95,5"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "0",
+                                    "y": "0",
+                                    "radius": "10",
+                                    "showborder": "1",
+                                    "bordercolor": "cccccc",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#ffffff,#000000",
+                                    "fillalpha": "50,100",
+                                    "fillratio": "1,99"
+                                }
+                            ]
+                        },
+                        {
+                            "x": "30",
+                            "y": "40",
+                            "showbelow": "0",
+                            "scaletext": "1",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "y": "20",
+                                    "label": "Sample",
+                                    "fontcolor": "#ff0000",
+                                    "fontsize": "11",
+                                    "bold": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/axis-&-tick-mark-properties-1-snapshot.png",
+        "id": "axis-&-tick-mark-properties-1"
+    },
+    "axis-&-tick-mark-properties-2": {
+        "description": "upperLimit-lowerLimit-upperLimitDisplay-lowerLimitDisplay-showTickMarks-showTickValues-showLimits-ticksOnRight-tickValueStep",
+        "options": {
+            "type": "cylinder",
+            "width": "310",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "clickurl": "",
+                    "lowerlimit": "0",
+                    "upperlimit": "100",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "showtickmarks": "1",
+                    "showtickvalues": "1",
+                    "showlimits": "1",
+                    "ticksonright": "1",
+                    "tickvaluestep": "2",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "12",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "60",
+                    "showvalue": "1",
+                    "autoscale": "0",
+                    "manageresize": "1",
+                    "origw": "210",
+                    "origh": "230",
+                    "use3dlighting": "0",
+                    "refreshinstantly": "1",
+                    "datastreamurl": "http://static.fusioncharts.com/sampledata/php/streamMessages.php",
+                    "refreshinterval": "5",
+                    "animation": "0"
+                },
+                "value": "50",
+                "annotations": {
+                    "groups": [
+                        {
+                            "x": "30",
+                            "y": "30",
+                            "items": [
+                                {
+                                    "type": "circle",
+                                    "radius": "20",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#4B4B4B,#AAAAAA",
+                                    "fillalpha": "100,100",
+                                    "fillratio": "95,5"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "0",
+                                    "y": "0",
+                                    "radius": "10",
+                                    "showborder": "1",
+                                    "bordercolor": "cccccc",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#ffffff,#000000",
+                                    "fillalpha": "50,100",
+                                    "fillratio": "1,99"
+                                }
+                            ]
+                        },
+                        {
+                            "x": "30",
+                            "y": "40",
+                            "showbelow": "0",
+                            "scaletext": "1",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "y": "20",
+                                    "label": "Sample",
+                                    "fontcolor": "#ff0000",
+                                    "fontsize": "11",
+                                    "bold": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/axis-&-tick-mark-properties-2-snapshot.png",
+        "id": "axis-&-tick-mark-properties-2"
+    },
+    "axis-&-tick-mark-properties-3": {
+        "description": "showTickMarks-0-showTickValues-0-showLimits-1-ticksOnRight-0",
+        "options": {
+            "type": "cylinder",
+            "width": "210",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "clickurl": "",
+                    "lowerlimit": "0",
+                    "upperlimit": "100",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "showtickmarks": "0",
+                    "showtickvalues": "0",
+                    "showlimits": "1",
+                    "ticksonright": "0",
+                    "tickvaluestep": "1",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "12",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "60",
+                    "showvalue": "1",
+                    "animation": "0"
+                },
+                "value": "50",
+                "annotations": {
+                    "groups": [
+                        {
+                            "x": "30",
+                            "y": "30",
+                            "items": [
+                                {
+                                    "type": "circle",
+                                    "radius": "20",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#4B4B4B,#AAAAAA",
+                                    "fillalpha": "100,100",
+                                    "fillratio": "95,5"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "0",
+                                    "y": "0",
+                                    "radius": "10",
+                                    "showborder": "1",
+                                    "bordercolor": "cccccc",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#ffffff,#000000",
+                                    "fillalpha": "50,100",
+                                    "fillratio": "1,99"
+                                }
+                            ]
+                        },
+                        {
+                            "x": "30",
+                            "y": "40",
+                            "showbelow": "0",
+                            "scaletext": "1",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "y": "20",
+                                    "label": "Sample",
+                                    "fontcolor": "#ff0000",
+                                    "fontsize": "11",
+                                    "bold": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/axis-&-tick-mark-properties-3-snapshot.png",
+        "id": "axis-&-tick-mark-properties-3"
+    },
+    "axis-&-tick-mark-properties-4": {
+        "description": "showTickMarks-0-showTickValues-0-showLimits-0-ticksOnRight-0",
+        "options": {
+            "type": "cylinder",
+            "width": "210",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "clickurl": "",
+                    "lowerlimit": "0",
+                    "upperlimit": "100",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "showtickmarks": "0",
+                    "showtickvalues": "0",
+                    "showlimits": "0",
+                    "ticksonright": "0",
+                    "tickvaluestep": "0",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "12",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "60",
+                    "showvalue": "1",
+                    "animation": "0"
+                },
+                "value": "50",
+                "annotations": {
+                    "groups": [
+                        {
+                            "x": "30",
+                            "y": "30",
+                            "items": [
+                                {
+                                    "type": "circle",
+                                    "radius": "20",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#4B4B4B,#AAAAAA",
+                                    "fillalpha": "100,100",
+                                    "fillratio": "95,5"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "0",
+                                    "y": "0",
+                                    "radius": "10",
+                                    "showborder": "1",
+                                    "bordercolor": "cccccc",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#ffffff,#000000",
+                                    "fillalpha": "50,100",
+                                    "fillratio": "1,99"
+                                }
+                            ]
+                        },
+                        {
+                            "x": "30",
+                            "y": "40",
+                            "showbelow": "0",
+                            "scaletext": "1",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "y": "20",
+                                    "label": "Sample",
+                                    "fontcolor": "#ff0000",
+                                    "fontsize": "11",
+                                    "bold": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/axis-&-tick-mark-properties-4-snapshot.png",
+        "id": "axis-&-tick-mark-properties-4"
+    },
+    "axis-&-tick-mark-properties-5": {
+        "description": "majorTM-minorTM-tickMarkDistance-tickValueDistance-10-tickMarkDistance-forceTickValueDecimals-1-tickValueStep-2",
+        "options": {
+            "type": "cylinder",
+            "width": "400",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "clickurl": "",
+                    "lowerlimit": "0",
+                    "upperlimit": "100",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "majortmnumber": "5",
+                    "majortmcolor": "#ff0000",
+                    "majortmalpha": "40",
+                    "majortmheight": "20",
+                    "majortmthickness": "3",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#0000ff",
+                    "minortmalpha": "20",
+                    "minortmheight": "10",
+                    "minortmthickness": "2",
+                    "tickmarkdistance": "10",
+                    "tickvaluedistance": "10",
+                    "tickvaluestep": "2",
+                    "tickvaluedecimals": "1",
+                    "forcetickvaluedecimals": "1",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "12",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "60",
+                    "showvalue": "1",
+                    "animation": "0"
+                },
+                "value": "50",
+                "annotations": {
+                    "groups": [
+                        {
+                            "x": "30",
+                            "y": "30",
+                            "items": [
+                                {
+                                    "type": "circle",
+                                    "radius": "20",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#4B4B4B,#AAAAAA",
+                                    "fillalpha": "100,100",
+                                    "fillratio": "95,5"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "0",
+                                    "y": "0",
+                                    "radius": "10",
+                                    "showborder": "1",
+                                    "bordercolor": "cccccc",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#ffffff,#000000",
+                                    "fillalpha": "50,100",
+                                    "fillratio": "1,99"
+                                }
+                            ]
+                        },
+                        {
+                            "x": "30",
+                            "y": "40",
+                            "showbelow": "0",
+                            "scaletext": "1",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "y": "20",
+                                    "label": "Sample",
+                                    "fontcolor": "#ff0000",
+                                    "fontsize": "11",
+                                    "bold": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/axis-&-tick-mark-properties-5-snapshot.png",
+        "id": "axis-&-tick-mark-properties-5"
+    },
+    "axis-&-tick-mark-properties-6": {
+        "description": "majorTM-minorTM-tickMarkDistance-tickValueDistance-40-tickMarkDistance-40-forceTickValueDecimals-1-tickValueStep-1",
+        "options": {
+            "type": "cylinder",
+            "width": "400",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "clickurl": "",
+                    "lowerlimit": "0",
+                    "upperlimit": "100",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "majortmnumber": "5",
+                    "majortmcolor": "#ff0000",
+                    "majortmalpha": "40",
+                    "majortmheight": "20",
+                    "majortmthickness": "3",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#0000ff",
+                    "minortmalpha": "20",
+                    "minortmheight": "10",
+                    "minortmthickness": "2",
+                    "tickmarkdistance": "40",
+                    "tickvaluedistance": "40",
+                    "tickvaluestep": "2",
+                    "tickvaluedecimals": "1",
+                    "forcetickvaluedecimals": "1",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "12",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "60",
+                    "showvalue": "1",
+                    "animation": "0"
+                },
+                "value": "50",
+                "annotations": {
+                    "groups": [
+                        {
+                            "x": "30",
+                            "y": "30",
+                            "items": [
+                                {
+                                    "type": "circle",
+                                    "radius": "20",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#4B4B4B,#AAAAAA",
+                                    "fillalpha": "100,100",
+                                    "fillratio": "95,5"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "0",
+                                    "y": "0",
+                                    "radius": "10",
+                                    "showborder": "1",
+                                    "bordercolor": "cccccc",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#ffffff,#000000",
+                                    "fillalpha": "50,100",
+                                    "fillratio": "1,99"
+                                }
+                            ]
+                        },
+                        {
+                            "x": "30",
+                            "y": "40",
+                            "showbelow": "0",
+                            "scaletext": "1",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "y": "20",
+                                    "label": "Sample",
+                                    "fontcolor": "#ff0000",
+                                    "fontsize": "11",
+                                    "bold": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/axis-&-tick-mark-properties-6-snapshot.png",
+        "id": "axis-&-tick-mark-properties-6"
+    },
+    "real-time-properties-1": {
+        "description": "dataStreamUrl-refreshInterval-useMessageLog-0-showRTmenuItem-1-dataStamp",
+        "options": {
+            "type": "cylinder",
+            "width": "400",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "clickurl": "",
+                    "lowerlimit": "0",
+                    "upperlimit": "100",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "majortmnumber": "5",
+                    "majortmcolor": "#ff0000",
+                    "majortmalpha": "40",
+                    "majortmheight": "20",
+                    "majortmthickness": "3",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#0000ff",
+                    "minortmalpha": "20",
+                    "minortmheight": "10",
+                    "minortmthickness": "2",
+                    "tickmarkdistance": "40",
+                    "tickvaluedistance": "40",
+                    "tickvaluestep": "2",
+                    "tickvaluedecimals": "1",
+                    "forcetickvaluedecimals": "1",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "12",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "60",
+                    "datastreamurl": "http://static.fusioncharts.com/sampledata/php/streamMessages.php",
+                    "refreshinterval": "5",
+                    "usemessagelog": "0",
+                    "showrtmenuitem": "1",
+                    "showvalue": "1",
+                    "animation": "0"
+                },
+                "value": "50",
+                "annotations": {
+                    "groups": [
+                        {
+                            "x": "30",
+                            "y": "30",
+                            "items": [
+                                {
+                                    "type": "circle",
+                                    "radius": "20",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#4B4B4B,#AAAAAA",
+                                    "fillalpha": "100,100",
+                                    "fillratio": "95,5"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "0",
+                                    "y": "0",
+                                    "radius": "10",
+                                    "showborder": "1",
+                                    "bordercolor": "cccccc",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#ffffff,#000000",
+                                    "fillalpha": "50,100",
+                                    "fillratio": "1,99"
+                                }
+                            ]
+                        },
+                        {
+                            "x": "30",
+                            "y": "40",
+                            "showbelow": "0",
+                            "scaletext": "1",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "y": "20",
+                                    "label": "Sample",
+                                    "fontcolor": "#ff0000",
+                                    "fontsize": "11",
+                                    "bold": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/real-time-properties-1-snapshot.png",
+        "id": "real-time-properties-1"
+    },
+    "real-time-properties-2": {
+        "description": "dataStreamUrl-refreshInterval-useMessageLog-1-showRTmenuItem-1-dataStamp",
+        "options": {
+            "type": "cylinder",
+            "width": "400",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "clickurl": "",
+                    "lowerlimit": "0",
+                    "upperlimit": "100",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "majortmnumber": "5",
+                    "majortmcolor": "#ff0000",
+                    "majortmalpha": "40",
+                    "majortmheight": "20",
+                    "majortmthickness": "3",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#0000ff",
+                    "minortmalpha": "20",
+                    "minortmheight": "10",
+                    "minortmthickness": "2",
+                    "tickmarkdistance": "40",
+                    "tickvaluedistance": "40",
+                    "tickvaluestep": "2",
+                    "tickvaluedecimals": "1",
+                    "forcetickvaluedecimals": "1",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "12",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "60",
+                    "datastreamurl": "http://static.fusioncharts.com/sampledata/php/streamMessages.php",
+                    "refreshinterval": "5",
+                    "usemessagelog": "1",
+                    "dataStamp": "13:43:45",
+                    "showrtmenuitem": "1",
+                    "showvalue": "1",
+                    "animation": "0"
+                },
+                "value": "50",
+                "annotations": {
+                    "groups": [
+                        {
+                            "x": "30",
+                            "y": "30",
+                            "items": [
+                                {
+                                    "type": "circle",
+                                    "radius": "20",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#4B4B4B,#AAAAAA",
+                                    "fillalpha": "100,100",
+                                    "fillratio": "95,5"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "0",
+                                    "y": "0",
+                                    "radius": "10",
+                                    "showborder": "1",
+                                    "bordercolor": "cccccc",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#ffffff,#000000",
+                                    "fillalpha": "50,100",
+                                    "fillratio": "1,99"
+                                }
+                            ]
+                        },
+                        {
+                            "x": "30",
+                            "y": "40",
+                            "showbelow": "0",
+                            "scaletext": "1",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "y": "20",
+                                    "label": "Sample",
+                                    "fontcolor": "#ff0000",
+                                    "fontsize": "11",
+                                    "bold": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/real-time-properties-2-snapshot.png",
+        "id": "real-time-properties-2"
+    },
+    "message-logger-1": {
+        "description": "useMessageLog-1-showRTmenuItem-1-messageLogWPercent-messageLogHPercent-messageLogShowTitle-1-messageLogTitle-messageLogColor-messageGoesToLog-1",
+        "options": {
+            "type": "cylinder",
+            "width": "400",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "clickurl": "",
+                    "lowerlimit": "0",
+                    "upperlimit": "100",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "majortmnumber": "5",
+                    "majortmcolor": "#ff0000",
+                    "majortmalpha": "40",
+                    "majortmheight": "20",
+                    "majortmthickness": "3",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#0000ff",
+                    "minortmalpha": "20",
+                    "minortmheight": "10",
+                    "minortmthickness": "2",
+                    "tickmarkdistance": "40",
+                    "tickvaluedistance": "40",
+                    "tickvaluestep": "2",
+                    "tickvaluedecimals": "1",
+                    "forcetickvaluedecimals": "1",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "12",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "60",
+                    "datastreamurl": "http://static.fusioncharts.com/sampledata/php/streamMessages.php",
+                    "refreshinterval": "5",
+                    "usemessagelog": "1",
+                    "showrtmenuitem": "1",
+                    "messagelogwpercent": "50",
+                    "messageloghpercent": "50",
+                    "messagelogshowtitle": "1",
+                    "messagelogtitle": "Message Log Window",
+                    "messagelogcolor": "#ff0000",
+                    "messagegoestolog": "1",
+                    "showvalue": "1",
+                    "animation": "0"
+                },
+                "value": "50",
+                "annotations": {
+                    "groups": [
+                        {
+                            "x": "30",
+                            "y": "30",
+                            "items": [
+                                {
+                                    "type": "circle",
+                                    "radius": "20",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#4B4B4B,#AAAAAA",
+                                    "fillalpha": "100,100",
+                                    "fillratio": "95,5"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "0",
+                                    "y": "0",
+                                    "radius": "10",
+                                    "showborder": "1",
+                                    "bordercolor": "cccccc",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#ffffff,#000000",
+                                    "fillalpha": "50,100",
+                                    "fillratio": "1,99"
+                                }
+                            ]
+                        },
+                        {
+                            "x": "30",
+                            "y": "40",
+                            "showbelow": "0",
+                            "scaletext": "1",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "y": "20",
+                                    "label": "Sample",
+                                    "fontcolor": "#ff0000",
+                                    "fontsize": "11",
+                                    "bold": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/message-logger-1-snapshot.png",
+        "id": "message-logger-1"
+    },
+    "message-logger-2": {
+        "description": "messageGoesToJS-1-messageJSHandler-1-messageJSHandler-(define-a-jsfunction-in-the-html-page-for-testing)-messagePassAllToJS",
+        "options": {
+            "type": "cylinder",
+            "width": "400",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "clickurl": "",
+                    "lowerlimit": "0",
+                    "upperlimit": "100",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "majortmnumber": "5",
+                    "majortmcolor": "#ff0000",
+                    "majortmalpha": "40",
+                    "majortmheight": "20",
+                    "majortmthickness": "3",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#0000ff",
+                    "minortmalpha": "20",
+                    "minortmheight": "10",
+                    "minortmthickness": "2",
+                    "tickmarkdistance": "40",
+                    "tickvaluedistance": "40",
+                    "tickvaluestep": "2",
+                    "tickvaluedecimals": "1",
+                    "forcetickvaluedecimals": "1",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "12",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "60",
+                    "datastreamurl": "http://static.fusioncharts.com/sampledata/php/streamMessages.php",
+                    "refreshinterval": "5",
+                    "usemessagelog": "1",
+                    "showrtmenuitem": "1",
+                    "messagelogwpercent": "50",
+                    "messageloghpercent": "50",
+                    "messagelogshowtitle": "1",
+                    "messagelogtitle": "Message Log Window",
+                    "messagelogcolor": "#ff0000",
+                    "messagegoestolog": "0",
+                    "messagegoestojs": "1",
+                    "messagejshandler": "sampleFunction",
+                    "messagepassalltojs": "1",
+                    "showvalue": "1",
+                    "animation": "0"
+                },
+                "value": "50",
+                "annotations": {
+                    "groups": [
+                        {
+                            "x": "30",
+                            "y": "30",
+                            "items": [
+                                {
+                                    "type": "circle",
+                                    "radius": "20",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#4B4B4B,#AAAAAA",
+                                    "fillalpha": "100,100",
+                                    "fillratio": "95,5"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "0",
+                                    "y": "0",
+                                    "radius": "10",
+                                    "showborder": "1",
+                                    "bordercolor": "cccccc",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#ffffff,#000000",
+                                    "fillalpha": "50,100",
+                                    "fillratio": "1,99"
+                                }
+                            ]
+                        },
+                        {
+                            "x": "30",
+                            "y": "40",
+                            "showbelow": "0",
+                            "scaletext": "1",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "y": "20",
+                                    "label": "Sample",
+                                    "fontcolor": "#ff0000",
+                                    "fontsize": "11",
+                                    "bold": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/message-logger-2-snapshot.png",
+        "id": "message-logger-2"
+    },
+    "data-value-cosmetics-1": {
+        "description": "valuefont-and-cosmetics-border-and-cosmetics",
+        "options": {
+            "type": "cylinder",
+            "width": "400",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "clickurl": "",
+                    "lowerlimit": "0",
+                    "upperlimit": "100",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "majortmnumber": "5",
+                    "majortmcolor": "#ff0000",
+                    "majortmalpha": "40",
+                    "majortmheight": "20",
+                    "majortmthickness": "3",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#0000ff",
+                    "minortmalpha": "20",
+                    "minortmheight": "10",
+                    "minortmthickness": "2",
+                    "tickmarkdistance": "40",
+                    "tickvaluedistance": "40",
+                    "tickvaluestep": "2",
+                    "tickvaluedecimals": "1",
+                    "forcetickvaluedecimals": "1",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "12",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "60",
+                    "datastreamurl": "http://static.fusioncharts.com/sampledata/php/streamMessages.php",
+                    "refreshinterval": "5",
+                    "usemessagelog": "1",
+                    "showrtmenuitem": "1",
+                    "messagelogwpercent": "50",
+                    "messageloghpercent": "50",
+                    "messagelogshowtitle": "1",
+                    "messagelogtitle": "Message Log Window",
+                    "messagelogcolor": "#ff0000",
+                    "messagegoestolog": "0",
+                    "messagegoestojs": "1",
+                    "messagejshandler": "sampleFunction",
+                    "messagepassalltojs": "1",
+                    "showvalue": "1",
+                    "valuefont": "san-seriff",
+                    "valuefontcolor": "ff0000",
+                    "valuefontsize": "25",
+                    "valuefontbold": "1",
+                    "valuefontitalic": "1",
+                    "valuebgcolor": "696969",
+                    "valuebordercolor": "0000ff",
+                    "valuealpha": "20",
+                    "valuefontalpha": "90",
+                    "valuebgalpha": "30",
+                    "valueborderalpha": "70",
+                    "valueborderthickness": "2.5",
+                    "valueborderpadding": "4",
+                    "valueborderradius": "7",
+                    "valueborderdashed": "1",
+                    "valueborderdashgap": "5",
+                    "valueborderdashlen": "15",
+                    "animation": "0"
+                },
+                "value": "50",
+                "annotations": {
+                    "groups": [
+                        {
+                            "x": "30",
+                            "y": "30",
+                            "items": [
+                                {
+                                    "type": "circle",
+                                    "radius": "20",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#4B4B4B,#AAAAAA",
+                                    "fillalpha": "100,100",
+                                    "fillratio": "95,5"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "0",
+                                    "y": "0",
+                                    "radius": "10",
+                                    "showborder": "1",
+                                    "bordercolor": "cccccc",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#ffffff,#000000",
+                                    "fillalpha": "50,100",
+                                    "fillratio": "1,99"
+                                }
+                            ]
+                        },
+                        {
+                            "x": "30",
+                            "y": "40",
+                            "showbelow": "0",
+                            "scaletext": "1",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "y": "20",
+                                    "label": "Sample",
+                                    "fontcolor": "#ff0000",
+                                    "fontsize": "11",
+                                    "bold": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/data-value-cosmetics-1-snapshot.png",
+        "id": "data-value-cosmetics-1"
+    },
+    "data-plot-hover-effects-1": {
+        "description": "valuefont-and-cosmetics-border-and-cosmetics",
+        "options": {
+            "type": "cylinder",
+            "width": "400",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "clickurl": "",
+                    "lowerlimit": "0",
+                    "upperlimit": "100",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "majortmnumber": "5",
+                    "majortmcolor": "#ff0000",
+                    "majortmalpha": "40",
+                    "majortmheight": "20",
+                    "majortmthickness": "3",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#0000ff",
+                    "minortmalpha": "20",
+                    "minortmheight": "10",
+                    "minortmthickness": "2",
+                    "tickmarkdistance": "40",
+                    "tickvaluedistance": "40",
+                    "tickvaluestep": "2",
+                    "tickvaluedecimals": "1",
+                    "forcetickvaluedecimals": "1",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "12",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "60",
+                    "datastreamurl": "http://static.fusioncharts.com/sampledata/php/streamMessages.php",
+                    "refreshinterval": "5",
+                    "usemessagelog": "1",
+                    "showrtmenuitem": "1",
+                    "messagelogwpercent": "50",
+                    "messageloghpercent": "50",
+                    "messagelogshowtitle": "1",
+                    "messagelogtitle": "Message Log Window",
+                    "messagelogcolor": "#ff0000",
+                    "messagegoestolog": "0",
+                    "messagegoestojs": "1",
+                    "messagejshandler": "sampleFunction",
+                    "messagepassalltojs": "1",
+                    "showvalue": "1",
+                    "valuefont": "san-seriff",
+                    "valuefontcolor": "ff0000",
+                    "valuefontsize": "25",
+                    "valuefontbold": "1",
+                    "valuefontitalic": "1",
+                    "valuebgcolor": "696969",
+                    "valuebordercolor": "0000ff",
+                    "valuealpha": "20",
+                    "valuefontalpha": "90",
+                    "valuebgalpha": "30",
+                    "valueborderalpha": "70",
+                    "valueborderthickness": "2.5",
+                    "valueborderpadding": "4",
+                    "valueborderradius": "7",
+                    "valueborderdashed": "1",
+                    "valueborderdashgap": "5",
+                    "valueborderdashlen": "15",
+                    "showhovereffect": "1",
+                    "plotfillhovercolor": "#ff0000",
+                    "plotfillhoveralpha": "0",
+                    "animation": "0"
+                },
+                "value": "50",
+                "annotations": {
+                    "groups": [
+                        {
+                            "x": "30",
+                            "y": "30",
+                            "items": [
+                                {
+                                    "type": "circle",
+                                    "radius": "20",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#4B4B4B,#AAAAAA",
+                                    "fillalpha": "100,100",
+                                    "fillratio": "95,5"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "0",
+                                    "y": "0",
+                                    "radius": "10",
+                                    "showborder": "1",
+                                    "bordercolor": "cccccc",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#ffffff,#000000",
+                                    "fillalpha": "50,100",
+                                    "fillratio": "1,99"
+                                }
+                            ]
+                        },
+                        {
+                            "x": "30",
+                            "y": "40",
+                            "showbelow": "0",
+                            "scaletext": "1",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "y": "20",
+                                    "label": "Sample",
+                                    "fontcolor": "#ff0000",
+                                    "fontsize": "11",
+                                    "bold": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/data-plot-hover-effects-1-snapshot.png",
+        "id": "data-plot-hover-effects-1"
+    },
+    "data-plot-hover-effects-2": {
+        "description": "plotFillHoverAlpha-10-valuefont-and-cosmetics-border-and-cosmetics",
+        "options": {
+            "type": "cylinder",
+            "width": "400",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "clickurl": "",
+                    "lowerlimit": "0",
+                    "upperlimit": "100",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "majortmnumber": "5",
+                    "majortmcolor": "#ff0000",
+                    "majortmalpha": "40",
+                    "majortmheight": "20",
+                    "majortmthickness": "3",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#0000ff",
+                    "minortmalpha": "20",
+                    "minortmheight": "10",
+                    "minortmthickness": "2",
+                    "tickmarkdistance": "40",
+                    "tickvaluedistance": "40",
+                    "tickvaluestep": "2",
+                    "tickvaluedecimals": "1",
+                    "forcetickvaluedecimals": "1",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "12",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "60",
+                    "datastreamurl": "http://static.fusioncharts.com/sampledata/php/streamMessages.php",
+                    "refreshinterval": "5",
+                    "usemessagelog": "1",
+                    "showrtmenuitem": "1",
+                    "messagelogwpercent": "50",
+                    "messageloghpercent": "50",
+                    "messagelogshowtitle": "1",
+                    "messagelogtitle": "Message Log Window",
+                    "messagelogcolor": "#ff0000",
+                    "messagegoestolog": "0",
+                    "messagegoestojs": "1",
+                    "messagejshandler": "sampleFunction",
+                    "messagepassalltojs": "1",
+                    "showvalue": "1",
+                    "valuefont": "san-seriff",
+                    "valuefontcolor": "ff0000",
+                    "valuefontsize": "25",
+                    "valuefontbold": "1",
+                    "valuefontitalic": "1",
+                    "valuebgcolor": "696969",
+                    "valuebordercolor": "0000ff",
+                    "valuealpha": "20",
+                    "valuefontalpha": "90",
+                    "valuebgalpha": "30",
+                    "valueborderalpha": "70",
+                    "valueborderthickness": "2.5",
+                    "valueborderpadding": "4",
+                    "valueborderradius": "7",
+                    "valueborderdashed": "1",
+                    "valueborderdashgap": "5",
+                    "valueborderdashlen": "15",
+                    "showhovereffect": "1",
+                    "plotfillhovercolor": "#ff0000",
+                    "plotfillhoveralpha": "10",
+                    "animation": "0"
+                },
+                "value": "50",
+                "annotations": {
+                    "groups": [
+                        {
+                            "x": "30",
+                            "y": "30",
+                            "items": [
+                                {
+                                    "type": "circle",
+                                    "radius": "20",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#4B4B4B,#AAAAAA",
+                                    "fillalpha": "100,100",
+                                    "fillratio": "95,5"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "0",
+                                    "y": "0",
+                                    "radius": "10",
+                                    "showborder": "1",
+                                    "bordercolor": "cccccc",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#ffffff,#000000",
+                                    "fillalpha": "50,100",
+                                    "fillratio": "1,99"
+                                }
+                            ]
+                        },
+                        {
+                            "x": "30",
+                            "y": "40",
+                            "showbelow": "0",
+                            "scaletext": "1",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "y": "20",
+                                    "label": "Sample",
+                                    "fontcolor": "#ff0000",
+                                    "fontsize": "11",
+                                    "bold": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/data-plot-hover-effects-2-snapshot.png",
+        "id": "data-plot-hover-effects-2"
+    },
+    "font-properties-1": {
+        "description": "basefont-basefontsize-basefontcolor",
+        "options": {
+            "type": "cylinder",
+            "width": "400",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "clickurl": "",
+                    "lowerlimit": "0",
+                    "upperlimit": "100",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "majortmnumber": "5",
+                    "majortmcolor": "#ff0000",
+                    "majortmalpha": "40",
+                    "majortmheight": "20",
+                    "majortmthickness": "3",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#0000ff",
+                    "minortmalpha": "20",
+                    "minortmheight": "10",
+                    "minortmthickness": "2",
+                    "tickvaluestep": "2",
+                    "tickvaluedecimals": "1",
+                    "forcetickvaluedecimals": "1",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "12",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "60",
+                    "datastreamurl": "http://static.fusioncharts.com/sampledata/php/streamMessages.php",
+                    "refreshinterval": "5",
+                    "usemessagelog": "1",
+                    "showrtmenuitem": "1",
+                    "messagelogwpercent": "50",
+                    "messageloghpercent": "50",
+                    "messagelogshowtitle": "1",
+                    "messagelogtitle": "Message Log Window",
+                    "messagelogcolor": "#ff0000",
+                    "messagegoestolog": "0",
+                    "messagegoestojs": "1",
+                    "messagejshandler": "sampleFunction",
+                    "messagepassalltojs": "1",
+                    "showvalue": "1",
+                    "valuefont": "san-seriff",
+                    "valuefontcolor": "ff0000",
+                    "valuefontsize": "25",
+                    "valuefontbold": "1",
+                    "valuefontitalic": "1",
+                    "valuebgcolor": "696969",
+                    "valuebordercolor": "0000ff",
+                    "valuealpha": "20",
+                    "valuefontalpha": "90",
+                    "valuebgalpha": "30",
+                    "valueborderalpha": "70",
+                    "valueborderthickness": "2.5",
+                    "valueborderpadding": "4",
+                    "valueborderradius": "7",
+                    "valueborderdashed": "1",
+                    "valueborderdashgap": "5",
+                    "valueborderdashlen": "15",
+                    "showhovereffect": "1",
+                    "plotfillhovercolor": "#ff0000",
+                    "plotfillhoveralpha": "10",
+                    "basefont": "arial",
+                    "basefontsize": "25",
+                    "basefontcolor": "#00ff00",
+                    "animation": "0"
+                },
+                "value": "50",
+                "annotations": {
+                    "groups": [
+                        {
+                            "x": "30",
+                            "y": "30",
+                            "items": [
+                                {
+                                    "type": "circle",
+                                    "radius": "20",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#4B4B4B,#AAAAAA",
+                                    "fillalpha": "100,100",
+                                    "fillratio": "95,5"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "0",
+                                    "y": "0",
+                                    "radius": "10",
+                                    "showborder": "1",
+                                    "bordercolor": "cccccc",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#ffffff,#000000",
+                                    "fillalpha": "50,100",
+                                    "fillratio": "1,99"
+                                }
+                            ]
+                        },
+                        {
+                            "x": "30",
+                            "y": "40",
+                            "showbelow": "0",
+                            "scaletext": "1",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "y": "20",
+                                    "label": "Sample",
+                                    "fontcolor": "#ff0000",
+                                    "fontsize": "11",
+                                    "bold": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/font-properties-1-snapshot.png",
+        "id": "font-properties-1"
+    },
+    "tooltip-properties-1": {
+        "description": "showToolTip-1-tooltip-color-border-shadow-showToolTipShadow-1",
+        "options": {
+            "type": "cylinder",
+            "width": "300",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "clickurl": "",
+                    "lowerlimit": "0",
+                    "upperlimit": "100",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "majortmnumber": "5",
+                    "majortmcolor": "#ff0000",
+                    "majortmalpha": "40",
+                    "majortmheight": "20",
+                    "majortmthickness": "3",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#0000ff",
+                    "minortmalpha": "20",
+                    "minortmheight": "10",
+                    "minortmthickness": "2",
+                    "tickvaluestep": "2",
+                    "tickvaluedecimals": "1",
+                    "forcetickvaluedecimals": "1",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "12",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "60",
+                    "datastreamurl": "http://static.fusioncharts.com/sampledata/php/streamMessages.php",
+                    "refreshinterval": "5",
+                    "usemessagelog": "1",
+                    "showrtmenuitem": "1",
+                    "messagelogwpercent": "50",
+                    "messageloghpercent": "50",
+                    "messagelogshowtitle": "1",
+                    "messagelogtitle": "Message Log Window",
+                    "messagelogcolor": "#ff0000",
+                    "messagegoestolog": "0",
+                    "messagegoestojs": "1",
+                    "messagejshandler": "sampleFunction",
+                    "messagepassalltojs": "1",
+                    "showvalue": "1",
+                    "valuefont": "san-seriff",
+                    "valuefontcolor": "ff0000",
+                    "valuefontsize": "25",
+                    "valuefontbold": "1",
+                    "valuefontitalic": "1",
+                    "valuebgcolor": "696969",
+                    "valuebordercolor": "0000ff",
+                    "valuealpha": "20",
+                    "valuefontalpha": "90",
+                    "valuebgalpha": "30",
+                    "valueborderalpha": "70",
+                    "valueborderthickness": "2.5",
+                    "valueborderpadding": "4",
+                    "valueborderradius": "7",
+                    "valueborderdashed": "1",
+                    "valueborderdashgap": "5",
+                    "valueborderdashlen": "15",
+                    "showhovereffect": "1",
+                    "plotfillhovercolor": "#ff0000",
+                    "plotfillhoveralpha": "10",
+                    "basefont": "arial",
+                    "showtooltip": "1",
+                    "tooltipbgcolor": "#cccccc",
+                    "tooltipcolor": "#0000ff",
+                    "tooltipbordercolor": "#ff0000",
+                    "showtooltipshadow": "1",
+                    "animation": "0"
+                },
+                "value": "50",
+                "annotations": {
+                    "groups": [
+                        {
+                            "x": "30",
+                            "y": "30",
+                            "items": [
+                                {
+                                    "type": "circle",
+                                    "radius": "20",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#4B4B4B,#AAAAAA",
+                                    "fillalpha": "100,100",
+                                    "fillratio": "95,5"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "0",
+                                    "y": "0",
+                                    "radius": "10",
+                                    "showborder": "1",
+                                    "bordercolor": "cccccc",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#ffffff,#000000",
+                                    "fillalpha": "50,100",
+                                    "fillratio": "1,99"
+                                }
+                            ]
+                        },
+                        {
+                            "x": "30",
+                            "y": "40",
+                            "showbelow": "0",
+                            "scaletext": "1",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "y": "20",
+                                    "label": "Sample",
+                                    "fontcolor": "#ff0000",
+                                    "fontsize": "11",
+                                    "bold": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/tooltip-properties-1-snapshot.png",
+        "id": "tooltip-properties-1"
+    },
+    "tooltip-properties-2": {
+        "description": "showToolTip-0-tooltip-color-border-shadow-showToolTipShadow-0",
+        "options": {
+            "type": "cylinder",
+            "width": "300",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "clickurl": "",
+                    "lowerlimit": "0",
+                    "upperlimit": "100",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "majortmnumber": "5",
+                    "majortmcolor": "#ff0000",
+                    "majortmalpha": "40",
+                    "majortmheight": "20",
+                    "majortmthickness": "3",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#0000ff",
+                    "minortmalpha": "20",
+                    "minortmheight": "10",
+                    "minortmthickness": "2",
+                    "tickvaluestep": "2",
+                    "tickvaluedecimals": "1",
+                    "forcetickvaluedecimals": "1",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "12",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "60",
+                    "datastreamurl": "http://static.fusioncharts.com/sampledata/php/streamMessages.php",
+                    "refreshinterval": "5",
+                    "usemessagelog": "1",
+                    "showrtmenuitem": "1",
+                    "messagelogwpercent": "50",
+                    "messageloghpercent": "50",
+                    "messagelogshowtitle": "1",
+                    "messagelogtitle": "Message Log Window",
+                    "messagelogcolor": "#ff0000",
+                    "messagegoestolog": "0",
+                    "messagegoestojs": "1",
+                    "messagejshandler": "sampleFunction",
+                    "messagepassalltojs": "1",
+                    "showvalue": "1",
+                    "valuefont": "san-seriff",
+                    "valuefontcolor": "ff0000",
+                    "valuefontsize": "25",
+                    "valuefontbold": "1",
+                    "valuefontitalic": "1",
+                    "valuebgcolor": "696969",
+                    "valuebordercolor": "0000ff",
+                    "valuealpha": "20",
+                    "valuefontalpha": "90",
+                    "valuebgalpha": "30",
+                    "valueborderalpha": "70",
+                    "valueborderthickness": "2.5",
+                    "valueborderpadding": "4",
+                    "valueborderradius": "7",
+                    "valueborderdashed": "1",
+                    "valueborderdashgap": "5",
+                    "valueborderdashlen": "15",
+                    "showhovereffect": "1",
+                    "plotfillhovercolor": "#ff0000",
+                    "plotfillhoveralpha": "10",
+                    "basefont": "arial",
+                    "showtooltip": "0",
+                    "tooltipbgcolor": "#cccccc",
+                    "tooltipcolor": "#0000ff",
+                    "tooltipbordercolor": "#ff0000",
+                    "showtooltipshadow": "0",
+                    "animation": "0"
+                },
+                "value": "50",
+                "annotations": {
+                    "groups": [
+                        {
+                            "x": "30",
+                            "y": "30",
+                            "items": [
+                                {
+                                    "type": "circle",
+                                    "radius": "20",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#4B4B4B,#AAAAAA",
+                                    "fillalpha": "100,100",
+                                    "fillratio": "95,5"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "0",
+                                    "y": "0",
+                                    "radius": "10",
+                                    "showborder": "1",
+                                    "bordercolor": "cccccc",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#ffffff,#000000",
+                                    "fillalpha": "50,100",
+                                    "fillratio": "1,99"
+                                }
+                            ]
+                        },
+                        {
+                            "x": "30",
+                            "y": "40",
+                            "showbelow": "0",
+                            "scaletext": "1",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "y": "20",
+                                    "label": "Sample",
+                                    "fontcolor": "#ff0000",
+                                    "fontsize": "11",
+                                    "bold": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/tooltip-properties-2-snapshot.png",
+        "id": "tooltip-properties-2"
+    },
+    "chart-paddings-&-margins-1": {
+        "description": "captionPadding-80-valuePadding-50",
+        "options": {
+            "type": "cylinder",
+            "width": "300",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "clickurl": "",
+                    "lowerlimit": "0",
+                    "upperlimit": "100",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "majortmnumber": "5",
+                    "majortmcolor": "#ff0000",
+                    "majortmalpha": "40",
+                    "majortmheight": "20",
+                    "majortmthickness": "3",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#0000ff",
+                    "minortmalpha": "20",
+                    "minortmheight": "10",
+                    "minortmthickness": "2",
+                    "tickvaluestep": "2",
+                    "tickvaluedecimals": "1",
+                    "forcetickvaluedecimals": "1",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "12",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "60",
+                    "datastreamurl": "http://static.fusioncharts.com/sampledata/php/streamMessages.php",
+                    "refreshinterval": "5",
+                    "usemessagelog": "1",
+                    "showrtmenuitem": "1",
+                    "messagelogwpercent": "50",
+                    "messageloghpercent": "50",
+                    "messagelogshowtitle": "1",
+                    "messagelogtitle": "Message Log Window",
+                    "messagelogcolor": "#ff0000",
+                    "messagegoestolog": "0",
+                    "messagegoestojs": "1",
+                    "messagejshandler": "sampleFunction",
+                    "messagepassalltojs": "1",
+                    "showvalue": "1",
+                    "valuefont": "san-seriff",
+                    "valuefontcolor": "ff0000",
+                    "valuefontsize": "15",
+                    "valuefontbold": "1",
+                    "valuefontitalic": "1",
+                    "valuebgcolor": "696969",
+                    "valuebordercolor": "0000ff",
+                    "valuealpha": "20",
+                    "valuefontalpha": "90",
+                    "valuebgalpha": "30",
+                    "valueborderalpha": "70",
+                    "valueborderthickness": "2.5",
+                    "valueborderpadding": "4",
+                    "valueborderradius": "7",
+                    "valueborderdashed": "1",
+                    "valueborderdashgap": "5",
+                    "valueborderdashlen": "15",
+                    "showhovereffect": "1",
+                    "plotfillhovercolor": "#ff0000",
+                    "plotfillhoveralpha": "10",
+                    "basefont": "arial",
+                    "showtooltip": "0",
+                    "tooltipbgcolor": "#cccccc",
+                    "tooltipcolor": "#0000ff",
+                    "tooltipbordercolor": "#ff0000",
+                    "showtooltipshadow": "0",
+                    "valuepadding": "50",
+                    "captionpadding": "80",
+                    "animation": "0"
+                },
+                "value": "50",
+                "annotations": {
+                    "groups": [
+                        {
+                            "x": "30",
+                            "y": "30",
+                            "items": [
+                                {
+                                    "type": "circle",
+                                    "radius": "20",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#4B4B4B,#AAAAAA",
+                                    "fillalpha": "100,100",
+                                    "fillratio": "95,5"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "0",
+                                    "y": "0",
+                                    "radius": "10",
+                                    "showborder": "1",
+                                    "bordercolor": "cccccc",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#ffffff,#000000",
+                                    "fillalpha": "50,100",
+                                    "fillratio": "1,99"
+                                }
+                            ]
+                        },
+                        {
+                            "x": "30",
+                            "y": "40",
+                            "showbelow": "0",
+                            "scaletext": "1",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "y": "20",
+                                    "label": "Sample",
+                                    "fontcolor": "#ff0000",
+                                    "fontsize": "11",
+                                    "bold": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/chart-paddings-&-margins-1-snapshot.png",
+        "id": "chart-paddings-&-margins-1"
+    },
+    "chart-paddings-&-margins-2": {
+        "description": "captionPadding-50-valuePaddingchart-4-side-margin",
+        "options": {
+            "type": "cylinder",
+            "width": "300",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "clickurl": "",
+                    "lowerlimit": "0",
+                    "upperlimit": "100",
+                    "lowerlimitdisplay": "Min",
+                    "upperlimitdisplay": "Max",
+                    "majortmnumber": "5",
+                    "majortmcolor": "#ff0000",
+                    "majortmalpha": "40",
+                    "majortmheight": "20",
+                    "majortmthickness": "3",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#0000ff",
+                    "minortmalpha": "20",
+                    "minortmheight": "10",
+                    "minortmthickness": "2",
+                    "tickvaluestep": "2",
+                    "tickvaluedecimals": "1",
+                    "forcetickvaluedecimals": "1",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "captionalignment": "left",
+                    "captionontop": "1",
+                    "captionfontsize": "12",
+                    "subcaptionfontsize": "20",
+                    "captionfont": "arial",
+                    "subcaptionfont": "sans-seriff",
+                    "captionfontcolor": "#0000ff",
+                    "subcaptionfontcolor": "#330000",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "0",
+                    "aligncaptionwithcanvas": "0",
+                    "captionhorizontalpadding": "60",
+                    "datastreamurl": "http://static.fusioncharts.com/sampledata/php/streamMessages.php",
+                    "refreshinterval": "5",
+                    "usemessagelog": "1",
+                    "showrtmenuitem": "1",
+                    "messagelogwpercent": "50",
+                    "messageloghpercent": "50",
+                    "messagelogshowtitle": "1",
+                    "messagelogtitle": "Message Log Window",
+                    "messagelogcolor": "#ff0000",
+                    "messagegoestolog": "0",
+                    "messagegoestojs": "1",
+                    "messagejshandler": "sampleFunction",
+                    "messagepassalltojs": "1",
+                    "showvalue": "1",
+                    "valuefont": "san-seriff",
+                    "valuefontcolor": "ff0000",
+                    "valuefontsize": "15",
+                    "valuefontbold": "1",
+                    "valuefontitalic": "1",
+                    "valuebgcolor": "696969",
+                    "valuebordercolor": "0000ff",
+                    "valuealpha": "20",
+                    "valuefontalpha": "90",
+                    "valuebgalpha": "30",
+                    "valueborderalpha": "70",
+                    "valueborderthickness": "2.5",
+                    "valueborderpadding": "4",
+                    "valueborderradius": "7",
+                    "valueborderdashed": "1",
+                    "valueborderdashgap": "5",
+                    "valueborderdashlen": "15",
+                    "showhovereffect": "1",
+                    "plotfillhovercolor": "#ff0000",
+                    "plotfillhoveralpha": "10",
+                    "basefont": "arial",
+                    "showtooltip": "0",
+                    "tooltipbgcolor": "#cccccc",
+                    "tooltipcolor": "#0000ff",
+                    "tooltipbordercolor": "#ff0000",
+                    "showtooltipshadow": "0",
+                    "valuepadding": "50",
+                    "captionpadding": "50",
+                    "chartleftmargin": "130",
+                    "chartrightmargin": "70",
+                    "charttopmargin": "30",
+                    "chartbottommargin": "30",
+                    "animation": "0"
+                },
+                "value": "50",
+                "annotations": {
+                    "groups": [
+                        {
+                            "x": "30",
+                            "y": "30",
+                            "items": [
+                                {
+                                    "type": "circle",
+                                    "radius": "20",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#4B4B4B,#AAAAAA",
+                                    "fillalpha": "100,100",
+                                    "fillratio": "95,5"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "0",
+                                    "y": "0",
+                                    "radius": "10",
+                                    "showborder": "1",
+                                    "bordercolor": "cccccc",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#ffffff,#000000",
+                                    "fillalpha": "50,100",
+                                    "fillratio": "1,99"
+                                }
+                            ]
+                        },
+                        {
+                            "x": "30",
+                            "y": "40",
+                            "showbelow": "0",
+                            "scaletext": "1",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "y": "20",
+                                    "label": "Sample",
+                                    "fontcolor": "#ff0000",
+                                    "fontsize": "11",
+                                    "bold": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/chart-paddings-&-margins-2-snapshot.png",
+        "id": "chart-paddings-&-margins-2"
+    },
+    "cylinder-properties-1": {
+        "description": "cylOriginX-cylOriginY-origW-origH-cylHeight-cylYScale-cylFillColor",
+        "options": {
+            "type": "cylinder",
+            "width": "300",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "clickurl": "",
+                    "lowerlimit": "0",
+                    "upperlimit": "100",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "cyloriginx": "160",
+                    "cyloriginy": "180",
+                    "origw": "300",
+                    "origh": "230",
+                    "cylheight": "60",
+                    "cylyscale": "10",
+                    "cylfillcolor": "#000066",
+                    "animation": "0"
+                },
+                "value": "50",
+                "annotations": {
+                    "groups": [
+                        {
+                            "x": "30",
+                            "y": "30",
+                            "items": [
+                                {
+                                    "type": "circle",
+                                    "radius": "20",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#4B4B4B,#AAAAAA",
+                                    "fillalpha": "100,100",
+                                    "fillratio": "95,5"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "0",
+                                    "y": "0",
+                                    "radius": "10",
+                                    "showborder": "1",
+                                    "bordercolor": "cccccc",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#ffffff,#000000",
+                                    "fillalpha": "50,100",
+                                    "fillratio": "1,99"
+                                }
+                            ]
+                        },
+                        {
+                            "x": "30",
+                            "y": "40",
+                            "showbelow": "0",
+                            "scaletext": "1",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "y": "20",
+                                    "label": "Sample",
+                                    "fontcolor": "#ff0000",
+                                    "fontsize": "11",
+                                    "bold": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/cylinder-properties-1-snapshot.png",
+        "id": "cylinder-properties-1"
+    },
+    "cylinder-properties-2": {
+        "description": "cylRadius-200-chartwidth-300",
+        "options": {
+            "type": "cylinder",
+            "width": "300",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "السلام عليكم",
+                    "subcaption": "Sample Subcaption",
+                    "clickurl": "",
+                    "lowerlimit": "0",
+                    "upperlimit": "100",
+                    "numbersuffix": " ltrs.",
+                    "cylradius": "200",
+                    "animation": "0"
+                },
+                "value": "50",
+                "annotations": {
+                    "groups": [
+                        {
+                            "x": "30",
+                            "y": "30",
+                            "items": [
+                                {
+                                    "type": "circle",
+                                    "radius": "20",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#4B4B4B,#AAAAAA",
+                                    "fillalpha": "100,100",
+                                    "fillratio": "95,5"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "0",
+                                    "y": "0",
+                                    "radius": "10",
+                                    "showborder": "1",
+                                    "bordercolor": "cccccc",
+                                    "fillasgradient": "1",
+                                    "fillcolor": "#ffffff,#000000",
+                                    "fillalpha": "50,100",
+                                    "fillratio": "1,99"
+                                }
+                            ]
+                        },
+                        {
+                            "x": "30",
+                            "y": "40",
+                            "showbelow": "0",
+                            "scaletext": "1",
+                            "items": [
+                                {
+                                    "type": "text",
+                                    "y": "20",
+                                    "label": "Sample",
+                                    "fontcolor": "#ff0000",
+                                    "fontsize": "11",
+                                    "bold": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/cylinder-properties-2-snapshot.png",
+        "id": "cylinder-properties-2"
+    },
+    "cylinder_31": {
+        "description": "cylinder_31",
+        "category": "random",
+        "options": {
+            "type": "cylinder",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Thermometer",
+                    "subcaption": "FusionWidgetsXT",
+                    "palette": "5",
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "animation": "0"
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/cylinder_31-snapshot.png",
+        "id": "cylinder_31"
+    },
+    "cylinder_32": {
+        "description": "cylinder_32",
+        "category": "caption",
+        "options": {
+            "type": "cylinder",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Thermometer",
+                    "subcaption": "FusionWidgetsXT",
+                    "palette": "5",
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "animation": "0",
+                    "captionalignment": "left",
+                    "captionontop": "0",
+                    "captionfontsize": "30",
+                    "subcaptionfontsize": "10",
+                    "captionfont": "san-seriff",
+                    "subcaptionfont": "verdana",
+                    "captionfontcolor": "#00ff00",
+                    "subcaptionfontcolor": "#0000ff",
+                    "captionfontbold": "0",
+                    "subcaptionfontbold": "1",
+                    "aligncaptionwithcanvas": "1",
+                    "captionhorizontalpadding": "60"
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/cylinder_32-snapshot.png",
+        "id": "cylinder_32"
+    },
+    "cylinder_33": {
+        "description": "cylinder_33",
+        "category": "functional",
+        "options": {
+            "type": "cylinder",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Thermometer",
+                    "subcaption": "FusionWidgetsXT",
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "animation": "0",
+                    "showvalue": "0",
+                    "clickurl": "n-http://www.fusioncharts.com",
+                    "palette": "3",
+                    "palettethemecolor": "00ff00",
+                    "annrenderdelay": "",
+                    "autoscale": "",
+                    "manageresize": "",
+                    "origw": "",
+                    "origh": "",
+                    "showprintmenuitem": "",
+                    "refreshinstantly": "",
+                    "use3dlighting": "",
+                    "hasrtltext": ""
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/cylinder_33-snapshot.png",
+        "id": "cylinder_33"
+    },
+    "cylinder_34": {
+        "description": "cylinder_34",
+        "category": "functional",
+        "options": {
+            "type": "cylinder",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fuel Meter",
+                    "subcaption": "Diesel level in generator Bakersfield Central",
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "animation": "0",
+                    "showvalue": "1",
+                    "clickurl": "n-http://www.fusioncharts.com",
+                    "palette": "3",
+                    "palettethemecolor": "",
+                    "annrenderdelay": "",
+                    "autoscale": "",
+                    "manageresize": "",
+                    "origw": "",
+                    "origh": "",
+                    "showprintmenuitem": "1",
+                    "refreshinstantly": "",
+                    "use3dlighting": "0",
+                    "hasrtltext": ""
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/cylinder_34-snapshot.png",
+        "id": "cylinder_34"
+    },
+    "cylinder_35": {
+        "description": "cylinder_35",
+        "category": "functional",
+        "options": {
+            "type": "cylinder",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fuel Meter",
+                    "subcaption": "Diesel level in generator Bakersfield Central",
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": "السلام عليكم",
+                    "bgcolor": "FFFFFF",
+                    "animation": "0",
+                    "showvalue": "1",
+                    "clickurl": "n-http://www.fusioncharts.com",
+                    "palette": "2",
+                    "palettethemecolor": "",
+                    "annrenderdelay": "",
+                    "autoscale": "",
+                    "manageresize": "",
+                    "origw": "",
+                    "origh": "",
+                    "showprintmenuitem": "1",
+                    "refreshinstantly": "",
+                    "use3dlighting": "0",
+                    "hasrtltext": "0"
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/cylinder_35-snapshot.png",
+        "id": "cylinder_35"
+    },
+    "cylinder_36": {
+        "description": "cylinder_36",
+        "category": "functional",
+        "options": {
+            "type": "cylinder",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fuel Meter",
+                    "subcaption": "Diesel level in generator Bakersfield Central",
+                    "lowerlimit": "",
+                    "upperlimit": "",
+                    "numbersuffix": "ltrs",
+                    "bgcolor": "FFFFFF",
+                    "animation": "0",
+                    "showvalue": "1",
+                    "clickurl": "n-http://www.fusioncharts.com",
+                    "palette": "2",
+                    "palettethemecolor": "",
+                    "setadaptivemin": "1",
+                    "lowerlimitdisplay": "",
+                    "upperlimitdisplay": "",
+                    "showtickmarks": "",
+                    "showtickvalues": "",
+                    "showlimits": "",
+                    "adjusttm": ""
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/cylinder_36-snapshot.png",
+        "id": "cylinder_36"
+    },
+    "cylinder_37": {
+        "description": "cylinder_37",
+        "category": "functional",
+        "options": {
+            "type": "cylinder",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fuel Meter",
+                    "subcaption": "Diesel level in generator Bakersfield Central",
+                    "lowerlimit": "1500",
+                    "upperlimit": "2900",
+                    "numbersuffix": "ltrs",
+                    "bgcolor": "FFFFFF",
+                    "animation": "0",
+                    "showvalue": "1",
+                    "clickurl": "n-http://www.fusioncharts.com",
+                    "palette": "2",
+                    "palettethemecolor": "",
+                    "setadaptivemin": "1",
+                    "lowerlimitdisplay": "",
+                    "upperlimitdisplay": "",
+                    "showtickmarks": "",
+                    "showtickvalues": "",
+                    "showlimits": "",
+                    "adjusttm": ""
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/cylinder_37-snapshot.png",
+        "id": "cylinder_37"
+    },
+    "cylinder_38": {
+        "description": "cylinder_38",
+        "category": "functional",
+        "options": {
+            "type": "cylinder",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fuel Meter",
+                    "subcaption": "Diesel level in generator Bakersfield Central",
+                    "lowerlimit": "1500",
+                    "upperlimit": "2900",
+                    "numbersuffix": "ltrs",
+                    "bgcolor": "FFFFFF",
+                    "animation": "0",
+                    "showvalue": "1",
+                    "clickurl": "n-http://www.fusioncharts.com",
+                    "palette": "2",
+                    "palettethemecolor": "",
+                    "setadaptivemin": "1",
+                    "lowerlimitdisplay": "lower",
+                    "upperlimitdisplay": "upper",
+                    "showtickmarks": "",
+                    "showtickvalues": "",
+                    "showlimits": "",
+                    "adjusttm": ""
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/cylinder_38-snapshot.png",
+        "id": "cylinder_38"
+    },
+    "cylinder_39": {
+        "description": "cylinder_39",
+        "category": "functional",
+        "options": {
+            "type": "cylinder",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fuel Meter",
+                    "subcaption": "Diesel level in generator Bakersfield Central",
+                    "lowerlimit": "1500",
+                    "upperlimit": "2900",
+                    "numbersuffix": "ltrs",
+                    "bgcolor": "FFFFFF",
+                    "animation": "0",
+                    "showvalue": "1",
+                    "clickurl": "n-http://www.fusioncharts.com",
+                    "palette": "2",
+                    "palettethemecolor": "",
+                    "setadaptivemin": "1",
+                    "lowerlimitdisplay": "lower",
+                    "upperlimitdisplay": "upper",
+                    "showtickmarks": "0",
+                    "showtickvalues": "1",
+                    "showlimits": "",
+                    "adjusttm": ""
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/cylinder_39-snapshot.png",
+        "id": "cylinder_39"
+    },
+    "cylinder_40": {
+        "description": "cylinder_40",
+        "category": "functional",
+        "options": {
+            "type": "cylinder",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fuel Meter",
+                    "subcaption": "Diesel level in generator Bakersfield Central",
+                    "lowerlimit": "1500",
+                    "upperlimit": "2900",
+                    "numbersuffix": "ltrs",
+                    "bgcolor": "FFFFFF",
+                    "animation": "0",
+                    "showvalue": "1",
+                    "clickurl": "n-http://www.fusioncharts.com",
+                    "palette": "2",
+                    "palettethemecolor": "",
+                    "setadaptivemin": "1",
+                    "lowerlimitdisplay": "lower",
+                    "upperlimitdisplay": "upper",
+                    "showtickmarks": "0",
+                    "showtickvalues": "1",
+                    "showlimits": "0",
+                    "adjusttm": ""
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/cylinder_40-snapshot.png",
+        "id": "cylinder_40"
+    },
+    "cylinder_41": {
+        "description": "cylinder_41",
+        "category": "random",
+        "options": {
+            "type": "cylinder",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fuel Meter",
+                    "subcaption": "Diesel level in generator Bakersfield Central",
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": "ltrs",
+                    "bgcolor": "FFFFFF",
+                    "animation": "0",
+                    "showvalue": "1",
+                    "clickurl": "n-http://www.fusioncharts.com",
+                    "palette": "2",
+                    "palettethemecolor": "",
+                    "setadaptivemin": "1",
+                    "showtickmarks": "1",
+                    "showtickvalues": "1",
+                    "adjusttm": "1",
+                    "ticksonright": "0",
+                    "majortmnumber": "6",
+                    "majortmcolor": "0000ff",
+                    "majortmalpha": "60",
+                    "majortmheight": "10",
+                    "majortmthickness": "3",
+                    "minortmnumber": "3",
+                    "minortmcolor": "ff0000",
+                    "minortmalpha": "30",
+                    "minortmheight": "15",
+                    "minortmthickness": "5"
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/cylinder_41-snapshot.png",
+        "id": "cylinder_41"
+    },
+    "cylinder_42": {
+        "description": "cylinder_42",
+        "category": "random",
+        "options": {
+            "type": "cylinder",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fuel Meter",
+                    "subcaption": "Diesel level in generator Bakersfield Central",
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": "ltrs",
+                    "bgcolor": "FFFFFF",
+                    "animation": "0",
+                    "showvalue": "1",
+                    "clickurl": "n-http://www.fusioncharts.com",
+                    "palette": "2",
+                    "palettethemecolor": "",
+                    "setadaptivemin": "1",
+                    "showtickmarks": "1",
+                    "showtickvalues": "1",
+                    "adjusttm": "1",
+                    "ticksonright": "0",
+                    "majortmnumber": "6",
+                    "majortmcolor": "0000ff",
+                    "majortmalpha": "60",
+                    "majortmheight": "10",
+                    "majortmthickness": "3",
+                    "minortmnumber": "3",
+                    "minortmcolor": "ff0000",
+                    "minortmalpha": "30",
+                    "minortmheight": "15",
+                    "minortmthickness": "5",
+                    "tickmarkdistance": "25",
+                    "tickvaluedistance": "15",
+                    "tickvaluestep": "2",
+                    "tickvaluedecimals": "3",
+                    "forcetickvaluedecimals": "1"
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/cylinder_42-snapshot.png",
+        "id": "cylinder_42"
+    },
+    "cylinder_43": {
+        "description": "cylinder_43",
+        "category": "random",
+        "options": {
+            "type": "cylinder",
+            "width": "100",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fuel Meter",
+                    "subcaption": "Diesel level in generator Bakersfield Central",
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": "ltrs",
+                    "bgcolor": "FFFFFF",
+                    "animation": "0",
+                    "showvalue": "1",
+                    "clickurl": "n-http://www.fusioncharts.com",
+                    "palette": "2",
+                    "palettethemecolor": "",
+                    "setadaptivemin": "1",
+                    "showtickmarks": "1",
+                    "showtickvalues": "1",
+                    "adjusttm": "1",
+                    "ticksonright": "0",
+                    "majortmnumber": "6",
+                    "majortmcolor": "0000ff",
+                    "majortmalpha": "60",
+                    "majortmheight": "10",
+                    "majortmthickness": "3",
+                    "minortmnumber": "3",
+                    "minortmcolor": "ff0000",
+                    "minortmalpha": "30",
+                    "minortmheight": "15",
+                    "minortmthickness": "5",
+                    "tickmarkdistance": "25",
+                    "tickvaluedistance": "15",
+                    "tickvaluestep": "2",
+                    "tickvaluedecimals": "3",
+                    "forcetickvaluedecimals": "1",
+                    "basefont": "san-seriff",
+                    "basefontsize": "25",
+                    "basefontcolor": "00ff00"
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/cylinder_43-snapshot.png",
+        "id": "cylinder_43"
+    },
+    "cylinder_44": {
+        "description": "cylinder_44",
+        "category": "random",
+        "options": {
+            "type": "cylinder",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fuel Meter",
+                    "subcaption": "Diesel level in generator Bakersfield Central",
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": "ltrs",
+                    "bgcolor": "FFFFFF",
+                    "animation": "0",
+                    "showvalue": "1",
+                    "clickurl": "n-http://www.fusioncharts.com",
+                    "palette": "2",
+                    "palettethemecolor": "",
+                    "setadaptivemin": "1",
+                    "showtickmarks": "1",
+                    "showtickvalues": "1",
+                    "adjusttm": "1",
+                    "ticksonright": "0",
+                    "majortmnumber": "6",
+                    "majortmcolor": "0000ff",
+                    "majortmalpha": "60",
+                    "majortmheight": "10",
+                    "majortmthickness": "3",
+                    "minortmnumber": "3",
+                    "minortmcolor": "ff0000",
+                    "minortmalpha": "30",
+                    "minortmheight": "15",
+                    "minortmthickness": "5",
+                    "tickmarkdistance": "25",
+                    "tickvaluedistance": "15",
+                    "tickvaluestep": "2",
+                    "tickvaluedecimals": "3",
+                    "forcetickvaluedecimals": "1",
+                    "basefont": "san-seriff",
+                    "basefontsize": "25",
+                    "basefontcolor": "00ff00",
+                    "showtooltip": "1",
+                    "tooltipbgcolor": "ffffff",
+                    "tooltipcolor": "ff0000",
+                    "tooltipbordercolor": "0000ff",
+                    "showtooltipshadow": "0"
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/cylinder_44-snapshot.png",
+        "id": "cylinder_44"
+    },
+    "cylinder_45": {
+        "description": "cylinder_45",
+        "category": "random",
+        "options": {
+            "type": "cylinder",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fuel Meter",
+                    "subcaption": "Diesel level in generator Bakersfield Central",
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": "ltrs",
+                    "valuefont": "san-seriff",
+                    "valuefontcolor": "ff0000",
+                    "valuefontsize": "20",
+                    "valuefontbold": "0",
+                    "valuefontitalic": "1",
+                    "valuebgcolor": "696969",
+                    "valuebordercolor": "0000ff",
+                    "valuealpha": "20",
+                    "valuefontalpha": "90",
+                    "valuebgalpha": "30",
+                    "valueborderalpha": "70",
+                    "valueborderthickness": "0.5",
+                    "valueborderpadding": "4",
+                    "valueborderradius": "0.9",
+                    "valueborderdashed": "1",
+                    "valueborderdashgap": "15",
+                    "valueborderdashlen": "5",
+                    "animation": "0"
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/cylinder_45-snapshot.png",
+        "id": "cylinder_45"
+    },
+    "cylinder_46": {
+        "description": "cylinder_46",
+        "category": "random",
+        "options": {
+            "type": "cylinder",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fuel Meter",
+                    "subcaption": "Diesel level in generator Bakersfield Central",
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": "ltrs",
+                    "valuefont": "san-seriff",
+                    "valuefontcolor": "ff0000",
+                    "valuefontsize": "20",
+                    "valuefontbold": "0",
+                    "valuefontitalic": "1",
+                    "valuebgcolor": "696969",
+                    "valuebordercolor": "0000ff",
+                    "valuealpha": "20",
+                    "valuefontalpha": "90",
+                    "valuebgalpha": "30",
+                    "valueborderalpha": "70",
+                    "valueborderthickness": "0.5",
+                    "valueborderpadding": "4",
+                    "valueborderradius": "0.9",
+                    "valueborderdashed": "1",
+                    "valueborderdashgap": "15",
+                    "valueborderdashlen": "5",
+                    "showhovereffect": "1",
+                    "plothovereffect": "0",
+                    "plotfillhovercolor": "00ff00",
+                    "plotfillhoveralpha": "50",
+                    "cylfillhovercolor": "",
+                    "cylfillhoveralpha": "",
+                    "animation": "0"
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/cylinder_46-snapshot.png",
+        "id": "cylinder_46"
+    },
+    "cylinder_47": {
+        "description": "cylinder_47",
+        "category": "random",
+        "options": {
+            "type": "cylinder",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fuel Meter",
+                    "subcaption": "Diesel level in generator Bakersfield Central",
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": "ltrs",
+                    "valuefont": "san-seriff",
+                    "valuefontcolor": "ff0000",
+                    "valuefontsize": "20",
+                    "valuefontbold": "0",
+                    "valuefontitalic": "1",
+                    "valuebgcolor": "696969",
+                    "valuebordercolor": "0000ff",
+                    "valuealpha": "20",
+                    "valuefontalpha": "90",
+                    "valuebgalpha": "30",
+                    "valueborderalpha": "70",
+                    "valueborderthickness": "0.5",
+                    "valueborderpadding": "4",
+                    "valueborderradius": "0.9",
+                    "valueborderdashed": "1",
+                    "valueborderdashgap": "15",
+                    "valueborderdashlen": "5",
+                    "showhovereffect": "1",
+                    "plothovereffect": "0",
+                    "plotfillhovercolor": "00ff00",
+                    "plotfillhoveralpha": "50",
+                    "cylfillhovercolor": "0000ff",
+                    "cylfillhoveralpha": "90",
+                    "animation": "0"
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/cylinder_47-snapshot.png",
+        "id": "cylinder_47"
+    },
+    "cylinder_48": {
+        "description": "cylinder_48",
+        "category": "chart_padding_margins",
+        "options": {
+            "type": "cylinder",
+            "width": "200",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fuel Meter",
+                    "subcaption": "Diesel level in generator Bakersfield Central",
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": "ltrs",
+                    "valuefont": "san-seriff",
+                    "valuefontcolor": "ff0000",
+                    "valuefontsize": "20",
+                    "valuefontbold": "0",
+                    "valuefontitalic": "1",
+                    "valuebgcolor": "696969",
+                    "valuebordercolor": "0000ff",
+                    "valuealpha": "20",
+                    "valuefontalpha": "90",
+                    "valuebgalpha": "30",
+                    "valueborderalpha": "70",
+                    "valueborderthickness": "0.5",
+                    "valueborderpadding": "4",
+                    "valueborderradius": "0.9",
+                    "valueborderdashed": "1",
+                    "valueborderdashgap": "15",
+                    "valueborderdashlen": "5",
+                    "showhovereffect": "1",
+                    "plothovereffect": "0",
+                    "plotfillhovercolor": "00ff00",
+                    "plotfillhoveralpha": "50",
+                    "cylfillhovercolor": "0000ff",
+                    "cylfillhoveralpha": "90",
+                    "chartleftmargin": "50",
+                    "chartrightmargin": "40",
+                    "charttopmargin": "40",
+                    "chartbottommargin": "50",
+                    "valuepadding": "20",
+                    "animation": "0"
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/cylinder_48-snapshot.png",
+        "id": "cylinder_48"
+    },
+    "cylinder_49": {
+        "description": "cylinder_49",
+        "category": "chart_padding_margins",
+        "options": {
+            "type": "cylinder",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fuel Meter",
+                    "subcaption": "Diesel level in generator Bakersfield Central",
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": "ltrs",
+                    "valuefont": "san-seriff",
+                    "valuefontcolor": "ff0000",
+                    "valuefontsize": "20",
+                    "valuefontbold": "0",
+                    "valuefontitalic": "1",
+                    "valuebgcolor": "696969",
+                    "valuebordercolor": "0000ff",
+                    "valuealpha": "20",
+                    "valuefontalpha": "90",
+                    "valuebgalpha": "30",
+                    "valueborderalpha": "70",
+                    "valueborderthickness": "0.5",
+                    "valueborderpadding": "4",
+                    "valueborderradius": "0.9",
+                    "valueborderdashed": "1",
+                    "valueborderdashgap": "15",
+                    "valueborderdashlen": "5",
+                    "showhovereffect": "1",
+                    "plothovereffect": "0",
+                    "plotfillhovercolor": "00ff00",
+                    "plotfillhoveralpha": "50",
+                    "cylfillhovercolor": "0000ff",
+                    "cylfillhoveralpha": "90",
+                    "chartleftmargin": "150",
+                    "chartrightmargin": "140",
+                    "charttopmargin": "140",
+                    "chartbottommargin": "150",
+                    "valuepadding": "20",
+                    "animation": "0"
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/cylinder_49-snapshot.png",
+        "id": "cylinder_49"
+    },
+    "cylinder_50": {
+        "description": "cylinder_50",
+        "category": "chart_padding_margins",
+        "options": {
+            "type": "cylinder",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fuel Meter",
+                    "subcaption": "Diesel level in generator Bakersfield Central",
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": "ltrs",
+                    "bgcolor": "#FF9933,#FFFFFF,#138808",
+                    "bgalpha": "30",
+                    "bgratio": "10,40,50",
+                    "bgangle": "90",
+                    "bgimage": "http://upload.wikimedia.org/wikipedia/commons/7/79/Misc_fruit.jpg",
+                    "bgimagealpha": "50",
+                    "bgimagevalign": "top",
+                    "bgimagehalign": "right",
+                    "bgimagescale": "10",
+                    "animation": "0"
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/cylinder_50-snapshot.png",
+        "id": "cylinder_50"
+    },
+    "cylinder_51": {
+        "description": "cylinder_51",
+        "category": "chart_padding_margins",
+        "options": {
+            "type": "cylinder",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fuel Meter",
+                    "subcaption": "Diesel level in generator Bakersfield Central",
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": "ltrs",
+                    "bgcolor": "#FF9933,#FFFFFF,#138808",
+                    "bgalpha": "30",
+                    "bgratio": "10,40,50",
+                    "bgangle": "90",
+                    "bgimage": "http://upload.wikimedia.org/wikipedia/commons/7/79/Misc_fruit.jpg",
+                    "bgimagealpha": "30",
+                    "bgimagevalign": "bottom",
+                    "bgimagehalign": "center",
+                    "bgimagescale": "6",
+                    "bgimagedisplaymode": "tile",
+                    "animation": "0"
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/cylinder_51-snapshot.png",
+        "id": "cylinder_51"
+    },
+    "cylinder_52": {
+        "description": "cylinder_52",
+        "category": "chart_padding_margins",
+        "options": {
+            "type": "cylinder",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fuel Meter",
+                    "subcaption": "Diesel level in generator Bakersfield Central",
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": "ltrs",
+                    "showborder": "1",
+                    "bordercolor": "ff0000",
+                    "borderthickness": "25",
+                    "borderalpha": "30",
+                    "logourl": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                    "logoposition": "BR",
+                    "logoalpha": "60",
+                    "logoscale": "50",
+                    "logolink": "P-detailsWin,width=400,height=300,toolbar=no,scrollbars=yes, resizable=no-http://google.com",
+                    "animation": "0"
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/cylinder_52-snapshot.png",
+        "id": "cylinder_52"
+    },
+    "cylinder_53": {
+        "description": "cylinder_53",
+        "category": "random",
+        "options": {
+            "type": "cylinder",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Fuel Meter",
+                    "subcaption": "Diesel level in generator Bakersfield Central",
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "animation": "0",
+                    "annrenderdelay": "3",
+                    "autoscale": "1",
+                    "manageresize": "1",
+                    "origw": "200",
+                    "origh": "350",
+                    "showprintmenuitem": "",
+                    "refreshinstantly": "",
+                    "cyloriginx": "",
+                    "cyloriginy": "",
+                    "cylradius": "",
+                    "cylheight": "",
+                    "cylyscale": "",
+                    "cylfillcolor": ""
+                },
+                "value": "2452",
+                "annotations": {
+                    "groups": [
+                        {
+                            "id": "user-images",
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "10",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY",
+                                    "id": "ad",
+                                    "showborder": "1",
+                                    "bordercolor": "0000ff",
+                                    "borderalpha": "90",
+                                    "borderthickness": "2",
+                                    "dashed": "1",
+                                    "dashlen": "10",
+                                    "dashgap": "20"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/cylinder_53-snapshot.png",
+        "id": "cylinder_53"
+    },
+    "cylinder_54": {
+        "description": "cylinder_54",
+        "category": "random",
+        "options": {
+            "type": "cylinder",
+            "width": "200",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Thermometer Thermometer Thermometer",
+                    "subcaption": "FusionWidgetsXT",
+                    "palette": "5",
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": " ltrs.",
+                    "bgcolor": "FFFFFF",
+                    "animation": "0"
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/cylinder_54-snapshot.png",
+        "id": "cylinder_54"
+    },
+    "cylinder_55": {
+        "description": "cylinder_55",
+        "category": "random",
+        "options": {
+            "type": "cylinder",
+            "width": "210",
+            "height": "230",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "3",
+                    "lowerlimit": "0",
+                    "upperlimit": "4000",
+                    "numbersuffix": " ltrs.",
+                    "basefontsize": "23",
+                    "animation": "0"
+                },
+                "value": "2452"
+            }
+        },
+        "refimage": "./tests/others/cylinder/ref-images/cylinder_55-snapshot.png",
+        "id": "cylinder_55"
+    }
+}

@@ -1,0 +1,303 @@
+{
+    "powercharts-waterfall-charts-waterfall-chart-company-profit": {
+        "description": "Waterfall Chart: Company Profit",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Company Profit (in USD) - 2013",
+                    "bgcolor": "FFFFFF",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "showplotborder": "0",
+                    "placevaluesinside": "1",
+                    "showsumatend": "0",
+                    "canvasborderthickness": "1",
+                    "canvasbordercolor": "B4BBC1",
+                    "canvasborderalpha": "0",
+                    "borderthickness": "1",
+                    "connectordashed": "1",
+                    "showborder": "0",
+                    "plotgradientcolor": " ",
+                    "showalternatehgridcolor": "0",
+                    "labeldisplay": "WRAP",
+                    "divlinecolor": "CCCCCC",
+                    "showcanvasborder": "0",
+                    "basefontcolor": "FFFFFF",
+                    "outcnvbasefontcolor": "333333",
+                    "tooltipcolor": "333333 ",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Product Revenue",
+                        "value": "420000",
+                        "color": "6baa01"
+                    },
+                    {
+                        "label": "Services Revenue",
+                        "value": "210000",
+                        "color": "6baa01"
+                    },
+                    {
+                        "label": "Total Revenue",
+                        "color": "6baa01",
+                        "issum": "1"
+                    },
+                    {
+                        "label": "Fixed Costs",
+                        "value": "-170000",
+                        "color": "e44a00"
+                    },
+                    {
+                        "label": "Variable Costs",
+                        "value": "-140000",
+                        "color": "e44a00"
+                    },
+                    {
+                        "label": "Total Costs",
+                        "issum": "1",
+                        "color": "e44a00",
+                        "cumulative": "0"
+                    },
+                    {
+                        "label": "Total Profit",
+                        "issum": "1",
+                        "cumulative": "1",
+                        "color": "008ee4"
+                    }
+                ]
+            },
+            "width": "600",
+            "height": "350",
+            "type": "waterfall2d"
+        },
+        "id": "powercharts-waterfall-charts-waterfall-chart-company-profit"
+    },
+    "powercharts-waterfall-charts-waterfall-chart-inventory-analysis": {
+        "description": "Waterfall Chart: Inventory Analysis",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Inventory audit of men's t-shirts",
+                    "snumberprefix": "$",
+                    "showvalues": "1",
+                    "sshowlabels": "1",
+                    "slabeldisplay": "ROTATE",
+                    "srotatelabels": "1",
+                    "plotfillangle": "2,98",
+                    "plotgradientcolor": "",
+                    "showplotborder": "0",
+                    "placevaluesinside": "0",
+                    "bgcolor": "E0E5E9",
+                    "bordercolor": "CCCCCC",
+                    "alternatehgridcolor": "EBF0F3",
+                    "showsumatend": "0",
+                    "canvasborderthickness": "1",
+                    "canvasbordercolor": "B4BBC1",
+                    "borderthickness": "1",
+                    "connectordashed": "1",
+                    "showBorder": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Units in stock",
+                        "value": "217",
+                        "color": "739137"
+                    },
+                    {
+                        "label": "Damaged",
+                        "value": "-55",
+                        "color": "CE3132"
+                    },
+                    {
+                        "label": "Refurbished",
+                        "value": "37",
+                        "color": "739137"
+                    },
+                    {
+                        "label": "Salable Units",
+                        "issum": "1",
+                        "cumulative": "1",
+                        "color": "5481B4"
+                    }
+                ]
+            },
+            "width": "540",
+            "height": "380",
+            "type": "waterfall2d"
+        },
+        "id": "powercharts-waterfall-charts-waterfall-chart-inventory-analysis"
+    },
+    "powercharts-waterfall-charts-waterfall-chart-sales-analysis": {
+        "description": "Waterfall Chart: Sales Analysis",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales By Product",
+                    "subcaption": "For the year 2006",
+                    "xaxisname": "Product",
+                    "yaxisname": "Sales",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "connectordashed": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Bi v2",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Real v3.2",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Business Division Sales",
+                        "issum": "1"
+                    },
+                    {
+                        "label": "Fusion Charts",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "IS v2",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "PS v3",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "Web Division Sales",
+                        "issum": "1",
+                        "cumulative": "0"
+                    }
+                ]
+            },
+            "width": "640",
+            "height": "500",
+            "type": "waterfall2d"
+        },
+        "id": "powercharts-waterfall-charts-waterfall-chart-sales-analysis"
+    },
+    "powercharts-waterfall-charts-waterfall-chart-product-earnings": {
+        "description": "Waterfall Chart: Product Earnings",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Product Earnings",
+                    "yaxisname": "In Million $",
+                    "numberprefix": "$",
+                    "numbersuffix": "M",
+                    "showvalues": "1",
+                    "showconnectors": "0",
+                    "positivecolor": "00FF00",
+                    "negativecolor": "FF0000",
+                    "sumlabel": "2006 Estimate",
+                    "labeldisplay": "Rotate",
+                    "slantlabels": "1",
+                    "showBorder": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "2005 Actual",
+                        "value": "90"
+                    },
+                    {
+                        "label": "Price",
+                        "value": "15"
+                    },
+                    {
+                        "label": "Volume",
+                        "value": "21"
+                    },
+                    {
+                        "label": "Fixes",
+                        "value": "-37"
+                    },
+                    {
+                        "label": "Taxation",
+                        "value": "-83"
+                    },
+                    {
+                        "label": "Escalation",
+                        "value": "-36"
+                    },
+                    {
+                        "label": "Mix",
+                        "value": "46"
+                    },
+                    {
+                        "label": "Market Effect",
+                        "value": "91"
+                    },
+                    {
+                        "label": "Partners",
+                        "value": "61"
+                    }
+                ]
+            },
+            "width": "540",
+            "height": "500",
+            "type": "waterfall2d"
+        },
+        "id": "powercharts-waterfall-charts-waterfall-chart-product-earnings"
+    },
+    "powercharts-waterfall-charts-waterfall-chart-cost-sheet": {
+        "description": "Waterfall Chart: Cost Sheet",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "2",
+                    "caption": "Cost Sheet",
+                    "yaxisname": "Cost in $",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "showconnectors": "0",
+                    "positivecolor": "00FF00",
+                    "negativecolor": "FF0000",
+                    "xaxisname": "Factor",
+                    "showsumatend": "0",
+                    "setadaptiveymin": "1",
+                    "showBorder": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Estimated Cost",
+                        "value": "340",
+                        "color": "999900"
+                    },
+                    {
+                        "label": "Escalation in Raw Materials",
+                        "value": "25"
+                    },
+                    {
+                        "label": "Increase in Wage",
+                        "value": "31"
+                    },
+                    {
+                        "label": "Change in Taxation",
+                        "value": "-17"
+                    },
+                    {
+                        "label": "Final Cost",
+                        "issum": "1",
+                        "color": "999900"
+                    }
+                ]
+            },
+            "width": "540",
+            "height": "500",
+            "type": "waterfall2d"
+        },
+        "id": "powercharts-waterfall-charts-waterfall-chart-cost-sheet"
+    }
+}

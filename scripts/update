@@ -1,0 +1,60 @@
+#!/bin/bash
+# ----------------------------------------------------------------------------------------------------------------------
+# To be write...
+# ----------------------------------------------------------------------------------------------------------------------
+
+# Configurations needed to run this script
+set -e;
+
+BUILD_ID=$1;
+# Which build to test
+#BUILD_ID='1938';
+UPDATE_TARGET=$2;
+UPDATE_BASE=$3;
+# Path to fusioncharts source file for testing
+TARGET_DIR='/data0/store/www/test.3.fusioncharts.net/target-version/';
+# Path to fusioncharts base file for testing
+BASE_DIR='/data0/store/www/test.3.fusioncharts.net/base-version/';
+# Temporary directory to unzip files
+TMP_DIR='/data0/store/www/test.3.fusioncharts.net/tmp'
+# Path to fusioncharts build
+ARTEFACT_TARGET='/data0/store/www/build.3.fusioncharts.net/root/xt-edge/builds';
+
+# echo "Updating $BUILD_ID and update-target: $UPDATE_TARGET and update-base: $UPDATE_BASE";
+
+# Remove stale files if any in the /tmp directory
+if [ -d $TMP_DIR ]; then
+   rm -rf $TMP_DIR/*;
+else
+   mkdir $TMP_DIR;
+fi
+
+# Update the target files if true
+if [ $UPDATE_TARGET -eq 1 ]; then
+        # Update the FusionCharts JS to ./target-version/
+        if [ -f $ARTEFACT_TARGET/$BUILD_ID/packages.zip ]; then
+                echo "Updating target-version files";
+                echo "unzip -o $ARTEFACT_TARGET/$BUILD_ID/packages.zip -d $TMP_DIR";
+                unzip -o $ARTEFACT_TARGET/$BUILD_ID/packages.zip -d $TMP_DIR;
+                unzip -o $TMP_DIR/packages/fusioncharts-suite-licensed.zip -d $TMP_DIR;
+                # cp -avr "$TMP_DIR"/build/eval/ $TARGET_DIR
+                echo "cp -R $TMP_DIR/fusioncharts/js/* $TARGET_DIR";
+                cp -R $TMP_DIR/fusioncharts/js/* $TARGET_DIR;
+                rm -rf $TMP_DIR/*;
+        fi
+fi
+
+# Update the base files if true
+if [ $UPDATE_BASE -eq 1 ]; then
+        # Update the FusionCharts JS to ./base-version/
+        if [ -f $ARTEFACT_TARGET/$BUILD_ID/packages.zip ]; then
+                echo "Updating base-version files";
+                echo "unzip -o $ARTEFACT_TARGET/$BUILD_ID/packages.zip -d $TMP_DIR";
+                unzip -o $ARTEFACT_TARGET/$BUILD_ID/packages.zip -d $TMP_DIR;
+                unzip -o $TMP_DIR/packages/fusioncharts-suite-licensed.zip -d $TMP_DIR;
+                # cp -avr "$TMP_DIR"/build/eval/ $BASE_DIR
+                echo "cp -R $TMP_DIR/fusioncharts/js/* $BASE_DIR";
+                cp -R $TMP_DIR/fusioncharts/js/* $BASE_DIR;
+                rm -rf $TMP_DIR/*;
+        fi
+fi

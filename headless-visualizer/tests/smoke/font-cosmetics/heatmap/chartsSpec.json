@@ -1,0 +1,1314 @@
+{
+    "baseFont_baseFont_serif": {
+        "description": "creating baseFont with baseFont as serif.",
+        "options": {
+            "type": "heatmap",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Weekly Percentage",
+                    "subcaption": "In percentage",
+                    "animation": "0",
+                    "baseFont": "serif"
+                },
+                "rows": {
+                    "row": [
+                        {
+                            "id": "Google",
+                            "label": "Google US"
+                        },
+                        {
+                            "id": "Yahoo",
+                            "label": "Yahoo US"
+                        },
+                        {
+                            "id": "Microsoft",
+                            "label": "Microsoft US"
+                        }
+                    ]
+                },
+                "columns": {
+                    "column": [
+                        {
+                            "id": "MON",
+                            "label": "Monday"
+                        },
+                        {
+                            "id": "TUE",
+                            "label": "Tuesday"
+                        },
+                        {
+                            "id": "WED",
+                            "label": "Wednesday"
+                        },
+                        {
+                            "id": "THU",
+                            "label": "Thursday"
+                        },
+                        {
+                            "id": "FRI",
+                            "label": "Friday"
+                        }
+                    ]
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Mon",
+                                "value": "0"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Tue",
+                                "value": "71"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Wed",
+                                "value": "70"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Thu",
+                                "value": "3"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Fri",
+                                "value": "79"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Mon",
+                                "value": "68"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Tue",
+                                "value": "5"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Wed",
+                                "value": "95"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Thu",
+                                "value": "-10"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Fri",
+                                "value": "55.98"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Mon",
+                                "value": "98"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Tue",
+                                "value": "8"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Wed",
+                                "value": "123"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Thu",
+                                "value": "79"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Fri",
+                                "value": "39"
+                            }
+                        ]
+                    }
+                ],
+                "colorrange": {
+                    "mapbypercent": "1",
+                    "gradient": "1",
+                    "minvalue": "0",
+                    "code": "00CCFF",
+                    "startlabel": "Poor",
+                    "endlabel": "Good",
+                    "color": [
+                        {
+                            "code": "66ADD9",
+                            "maxvalue": "30",
+                            "label": "BAD"
+                        },
+                        {
+                            "code": "F2CF63",
+                            "maxvalue": "70",
+                            "label": "AVERAGE"
+                        },
+                        {
+                            "code": "D99036",
+                            "maxvalue": "100"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/font-cosmetics/heatmap/ref-images/baseFont_baseFont_serif-snapshot.png",
+        "id": "baseFont_baseFont_serif"
+    },
+    "baseFont_baseFontSize_0": {
+        "description": "creating baseFont with baseFontSize as 0.",
+        "options": {
+            "type": "heatmap",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Weekly Percentage",
+                    "subcaption": "In percentage",
+                    "animation": "0",
+                    "baseFontSize": "0"
+                },
+                "rows": {
+                    "row": [
+                        {
+                            "id": "Google",
+                            "label": "Google US"
+                        },
+                        {
+                            "id": "Yahoo",
+                            "label": "Yahoo US"
+                        },
+                        {
+                            "id": "Microsoft",
+                            "label": "Microsoft US"
+                        }
+                    ]
+                },
+                "columns": {
+                    "column": [
+                        {
+                            "id": "MON",
+                            "label": "Monday"
+                        },
+                        {
+                            "id": "TUE",
+                            "label": "Tuesday"
+                        },
+                        {
+                            "id": "WED",
+                            "label": "Wednesday"
+                        },
+                        {
+                            "id": "THU",
+                            "label": "Thursday"
+                        },
+                        {
+                            "id": "FRI",
+                            "label": "Friday"
+                        }
+                    ]
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Mon",
+                                "value": "0"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Tue",
+                                "value": "71"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Wed",
+                                "value": "70"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Thu",
+                                "value": "3"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Fri",
+                                "value": "79"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Mon",
+                                "value": "68"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Tue",
+                                "value": "5"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Wed",
+                                "value": "95"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Thu",
+                                "value": "-10"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Fri",
+                                "value": "55.98"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Mon",
+                                "value": "98"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Tue",
+                                "value": "8"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Wed",
+                                "value": "123"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Thu",
+                                "value": "79"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Fri",
+                                "value": "39"
+                            }
+                        ]
+                    }
+                ],
+                "colorrange": {
+                    "mapbypercent": "1",
+                    "gradient": "1",
+                    "minvalue": "0",
+                    "code": "00CCFF",
+                    "startlabel": "Poor",
+                    "endlabel": "Good",
+                    "color": [
+                        {
+                            "code": "66ADD9",
+                            "maxvalue": "30",
+                            "label": "BAD"
+                        },
+                        {
+                            "code": "F2CF63",
+                            "maxvalue": "70",
+                            "label": "AVERAGE"
+                        },
+                        {
+                            "code": "D99036",
+                            "maxvalue": "100"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/font-cosmetics/heatmap/ref-images/baseFont_baseFontSize_0-snapshot.png",
+        "id": "baseFont_baseFontSize_0"
+    },
+    "baseFont_baseFontSize_72": {
+        "description": "creating baseFont with baseFontSize as 72.",
+        "options": {
+            "type": "heatmap",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Weekly Percentage",
+                    "subcaption": "In percentage",
+                    "animation": "0",
+                    "baseFontSize": "72"
+                },
+                "rows": {
+                    "row": [
+                        {
+                            "id": "Google",
+                            "label": "Google US"
+                        },
+                        {
+                            "id": "Yahoo",
+                            "label": "Yahoo US"
+                        },
+                        {
+                            "id": "Microsoft",
+                            "label": "Microsoft US"
+                        }
+                    ]
+                },
+                "columns": {
+                    "column": [
+                        {
+                            "id": "MON",
+                            "label": "Monday"
+                        },
+                        {
+                            "id": "TUE",
+                            "label": "Tuesday"
+                        },
+                        {
+                            "id": "WED",
+                            "label": "Wednesday"
+                        },
+                        {
+                            "id": "THU",
+                            "label": "Thursday"
+                        },
+                        {
+                            "id": "FRI",
+                            "label": "Friday"
+                        }
+                    ]
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Mon",
+                                "value": "0"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Tue",
+                                "value": "71"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Wed",
+                                "value": "70"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Thu",
+                                "value": "3"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Fri",
+                                "value": "79"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Mon",
+                                "value": "68"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Tue",
+                                "value": "5"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Wed",
+                                "value": "95"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Thu",
+                                "value": "-10"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Fri",
+                                "value": "55.98"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Mon",
+                                "value": "98"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Tue",
+                                "value": "8"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Wed",
+                                "value": "123"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Thu",
+                                "value": "79"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Fri",
+                                "value": "39"
+                            }
+                        ]
+                    }
+                ],
+                "colorrange": {
+                    "mapbypercent": "1",
+                    "gradient": "1",
+                    "minvalue": "0",
+                    "code": "00CCFF",
+                    "startlabel": "Poor",
+                    "endlabel": "Good",
+                    "color": [
+                        {
+                            "code": "66ADD9",
+                            "maxvalue": "30",
+                            "label": "BAD"
+                        },
+                        {
+                            "code": "F2CF63",
+                            "maxvalue": "70",
+                            "label": "AVERAGE"
+                        },
+                        {
+                            "code": "D99036",
+                            "maxvalue": "100"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/font-cosmetics/heatmap/ref-images/baseFont_baseFontSize_72-snapshot.png",
+        "id": "baseFont_baseFontSize_72"
+    },
+    "baseFont_baseFontColor__6df47d": {
+        "description": "creating baseFont with baseFontColor as #6df47d.",
+        "options": {
+            "type": "heatmap",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Weekly Percentage",
+                    "subcaption": "In percentage",
+                    "animation": "0",
+                    "baseFontColor": "#6df47d"
+                },
+                "rows": {
+                    "row": [
+                        {
+                            "id": "Google",
+                            "label": "Google US"
+                        },
+                        {
+                            "id": "Yahoo",
+                            "label": "Yahoo US"
+                        },
+                        {
+                            "id": "Microsoft",
+                            "label": "Microsoft US"
+                        }
+                    ]
+                },
+                "columns": {
+                    "column": [
+                        {
+                            "id": "MON",
+                            "label": "Monday"
+                        },
+                        {
+                            "id": "TUE",
+                            "label": "Tuesday"
+                        },
+                        {
+                            "id": "WED",
+                            "label": "Wednesday"
+                        },
+                        {
+                            "id": "THU",
+                            "label": "Thursday"
+                        },
+                        {
+                            "id": "FRI",
+                            "label": "Friday"
+                        }
+                    ]
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Mon",
+                                "value": "0"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Tue",
+                                "value": "71"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Wed",
+                                "value": "70"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Thu",
+                                "value": "3"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Fri",
+                                "value": "79"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Mon",
+                                "value": "68"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Tue",
+                                "value": "5"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Wed",
+                                "value": "95"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Thu",
+                                "value": "-10"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Fri",
+                                "value": "55.98"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Mon",
+                                "value": "98"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Tue",
+                                "value": "8"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Wed",
+                                "value": "123"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Thu",
+                                "value": "79"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Fri",
+                                "value": "39"
+                            }
+                        ]
+                    }
+                ],
+                "colorrange": {
+                    "mapbypercent": "1",
+                    "gradient": "1",
+                    "minvalue": "0",
+                    "code": "00CCFF",
+                    "startlabel": "Poor",
+                    "endlabel": "Good",
+                    "color": [
+                        {
+                            "code": "66ADD9",
+                            "maxvalue": "30",
+                            "label": "BAD"
+                        },
+                        {
+                            "code": "F2CF63",
+                            "maxvalue": "70",
+                            "label": "AVERAGE"
+                        },
+                        {
+                            "code": "D99036",
+                            "maxvalue": "100"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/font-cosmetics/heatmap/ref-images/baseFont_baseFontColor__6df47d-snapshot.png",
+        "id": "baseFont_baseFontColor__6df47d"
+    },
+    "outCnvBaseFont_outCnvBaseFont_sans-serif": {
+        "description": "creating outCnvBaseFont with outCnvBaseFont as sans-serif.",
+        "options": {
+            "type": "heatmap",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Weekly Percentage",
+                    "subcaption": "In percentage",
+                    "animation": "0",
+                    "outCnvBaseFont": "sans-serif"
+                },
+                "rows": {
+                    "row": [
+                        {
+                            "id": "Google",
+                            "label": "Google US"
+                        },
+                        {
+                            "id": "Yahoo",
+                            "label": "Yahoo US"
+                        },
+                        {
+                            "id": "Microsoft",
+                            "label": "Microsoft US"
+                        }
+                    ]
+                },
+                "columns": {
+                    "column": [
+                        {
+                            "id": "MON",
+                            "label": "Monday"
+                        },
+                        {
+                            "id": "TUE",
+                            "label": "Tuesday"
+                        },
+                        {
+                            "id": "WED",
+                            "label": "Wednesday"
+                        },
+                        {
+                            "id": "THU",
+                            "label": "Thursday"
+                        },
+                        {
+                            "id": "FRI",
+                            "label": "Friday"
+                        }
+                    ]
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Mon",
+                                "value": "0"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Tue",
+                                "value": "71"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Wed",
+                                "value": "70"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Thu",
+                                "value": "3"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Fri",
+                                "value": "79"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Mon",
+                                "value": "68"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Tue",
+                                "value": "5"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Wed",
+                                "value": "95"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Thu",
+                                "value": "-10"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Fri",
+                                "value": "55.98"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Mon",
+                                "value": "98"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Tue",
+                                "value": "8"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Wed",
+                                "value": "123"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Thu",
+                                "value": "79"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Fri",
+                                "value": "39"
+                            }
+                        ]
+                    }
+                ],
+                "colorrange": {
+                    "mapbypercent": "1",
+                    "gradient": "1",
+                    "minvalue": "0",
+                    "code": "00CCFF",
+                    "startlabel": "Poor",
+                    "endlabel": "Good",
+                    "color": [
+                        {
+                            "code": "66ADD9",
+                            "maxvalue": "30",
+                            "label": "BAD"
+                        },
+                        {
+                            "code": "F2CF63",
+                            "maxvalue": "70",
+                            "label": "AVERAGE"
+                        },
+                        {
+                            "code": "D99036",
+                            "maxvalue": "100"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/font-cosmetics/heatmap/ref-images/outCnvBaseFont_outCnvBaseFont_sans-serif-snapshot.png",
+        "id": "outCnvBaseFont_outCnvBaseFont_sans-serif"
+    },
+    "outCnvBaseFont_outCnvBaseFontSize_0": {
+        "description": "creating outCnvBaseFont with outCnvBaseFontSize as 0.",
+        "options": {
+            "type": "heatmap",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Weekly Percentage",
+                    "subcaption": "In percentage",
+                    "animation": "0",
+                    "outCnvBaseFontSize": "0"
+                },
+                "rows": {
+                    "row": [
+                        {
+                            "id": "Google",
+                            "label": "Google US"
+                        },
+                        {
+                            "id": "Yahoo",
+                            "label": "Yahoo US"
+                        },
+                        {
+                            "id": "Microsoft",
+                            "label": "Microsoft US"
+                        }
+                    ]
+                },
+                "columns": {
+                    "column": [
+                        {
+                            "id": "MON",
+                            "label": "Monday"
+                        },
+                        {
+                            "id": "TUE",
+                            "label": "Tuesday"
+                        },
+                        {
+                            "id": "WED",
+                            "label": "Wednesday"
+                        },
+                        {
+                            "id": "THU",
+                            "label": "Thursday"
+                        },
+                        {
+                            "id": "FRI",
+                            "label": "Friday"
+                        }
+                    ]
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Mon",
+                                "value": "0"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Tue",
+                                "value": "71"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Wed",
+                                "value": "70"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Thu",
+                                "value": "3"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Fri",
+                                "value": "79"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Mon",
+                                "value": "68"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Tue",
+                                "value": "5"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Wed",
+                                "value": "95"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Thu",
+                                "value": "-10"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Fri",
+                                "value": "55.98"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Mon",
+                                "value": "98"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Tue",
+                                "value": "8"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Wed",
+                                "value": "123"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Thu",
+                                "value": "79"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Fri",
+                                "value": "39"
+                            }
+                        ]
+                    }
+                ],
+                "colorrange": {
+                    "mapbypercent": "1",
+                    "gradient": "1",
+                    "minvalue": "0",
+                    "code": "00CCFF",
+                    "startlabel": "Poor",
+                    "endlabel": "Good",
+                    "color": [
+                        {
+                            "code": "66ADD9",
+                            "maxvalue": "30",
+                            "label": "BAD"
+                        },
+                        {
+                            "code": "F2CF63",
+                            "maxvalue": "70",
+                            "label": "AVERAGE"
+                        },
+                        {
+                            "code": "D99036",
+                            "maxvalue": "100"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/font-cosmetics/heatmap/ref-images/outCnvBaseFont_outCnvBaseFontSize_0-snapshot.png",
+        "id": "outCnvBaseFont_outCnvBaseFontSize_0"
+    },
+    "outCnvBaseFont_outCnvBaseFontSize_72": {
+        "description": "creating outCnvBaseFont with outCnvBaseFontSize as 72.",
+        "options": {
+            "type": "heatmap",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Weekly Percentage",
+                    "subcaption": "In percentage",
+                    "animation": "0",
+                    "outCnvBaseFontSize": "72"
+                },
+                "rows": {
+                    "row": [
+                        {
+                            "id": "Google",
+                            "label": "Google US"
+                        },
+                        {
+                            "id": "Yahoo",
+                            "label": "Yahoo US"
+                        },
+                        {
+                            "id": "Microsoft",
+                            "label": "Microsoft US"
+                        }
+                    ]
+                },
+                "columns": {
+                    "column": [
+                        {
+                            "id": "MON",
+                            "label": "Monday"
+                        },
+                        {
+                            "id": "TUE",
+                            "label": "Tuesday"
+                        },
+                        {
+                            "id": "WED",
+                            "label": "Wednesday"
+                        },
+                        {
+                            "id": "THU",
+                            "label": "Thursday"
+                        },
+                        {
+                            "id": "FRI",
+                            "label": "Friday"
+                        }
+                    ]
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Mon",
+                                "value": "0"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Tue",
+                                "value": "71"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Wed",
+                                "value": "70"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Thu",
+                                "value": "3"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Fri",
+                                "value": "79"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Mon",
+                                "value": "68"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Tue",
+                                "value": "5"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Wed",
+                                "value": "95"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Thu",
+                                "value": "-10"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Fri",
+                                "value": "55.98"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Mon",
+                                "value": "98"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Tue",
+                                "value": "8"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Wed",
+                                "value": "123"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Thu",
+                                "value": "79"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Fri",
+                                "value": "39"
+                            }
+                        ]
+                    }
+                ],
+                "colorrange": {
+                    "mapbypercent": "1",
+                    "gradient": "1",
+                    "minvalue": "0",
+                    "code": "00CCFF",
+                    "startlabel": "Poor",
+                    "endlabel": "Good",
+                    "color": [
+                        {
+                            "code": "66ADD9",
+                            "maxvalue": "30",
+                            "label": "BAD"
+                        },
+                        {
+                            "code": "F2CF63",
+                            "maxvalue": "70",
+                            "label": "AVERAGE"
+                        },
+                        {
+                            "code": "D99036",
+                            "maxvalue": "100"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/font-cosmetics/heatmap/ref-images/outCnvBaseFont_outCnvBaseFontSize_72-snapshot.png",
+        "id": "outCnvBaseFont_outCnvBaseFontSize_72"
+    },
+    "outCnvBaseFont_outCnvBaseFontColor__cf30be": {
+        "description": "creating outCnvBaseFont with outCnvBaseFontColor as #cf30be.",
+        "options": {
+            "type": "heatmap",
+            "width": "450",
+            "height": "300",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Weekly Percentage",
+                    "subcaption": "In percentage",
+                    "animation": "0",
+                    "outCnvBaseFontColor": "#cf30be"
+                },
+                "rows": {
+                    "row": [
+                        {
+                            "id": "Google",
+                            "label": "Google US"
+                        },
+                        {
+                            "id": "Yahoo",
+                            "label": "Yahoo US"
+                        },
+                        {
+                            "id": "Microsoft",
+                            "label": "Microsoft US"
+                        }
+                    ]
+                },
+                "columns": {
+                    "column": [
+                        {
+                            "id": "MON",
+                            "label": "Monday"
+                        },
+                        {
+                            "id": "TUE",
+                            "label": "Tuesday"
+                        },
+                        {
+                            "id": "WED",
+                            "label": "Wednesday"
+                        },
+                        {
+                            "id": "THU",
+                            "label": "Thursday"
+                        },
+                        {
+                            "id": "FRI",
+                            "label": "Friday"
+                        }
+                    ]
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Mon",
+                                "value": "0"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Tue",
+                                "value": "71"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Wed",
+                                "value": "70"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Thu",
+                                "value": "3"
+                            },
+                            {
+                                "rowid": "Yahoo",
+                                "columnid": "Fri",
+                                "value": "79"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Mon",
+                                "value": "68"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Tue",
+                                "value": "5"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Wed",
+                                "value": "95"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Thu",
+                                "value": "-10"
+                            },
+                            {
+                                "rowid": "Google",
+                                "columnid": "Fri",
+                                "value": "55.98"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Mon",
+                                "value": "98"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Tue",
+                                "value": "8"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Wed",
+                                "value": "123"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Thu",
+                                "value": "79"
+                            },
+                            {
+                                "rowid": "Microsoft",
+                                "columnid": "Fri",
+                                "value": "39"
+                            }
+                        ]
+                    }
+                ],
+                "colorrange": {
+                    "mapbypercent": "1",
+                    "gradient": "1",
+                    "minvalue": "0",
+                    "code": "00CCFF",
+                    "startlabel": "Poor",
+                    "endlabel": "Good",
+                    "color": [
+                        {
+                            "code": "66ADD9",
+                            "maxvalue": "30",
+                            "label": "BAD"
+                        },
+                        {
+                            "code": "F2CF63",
+                            "maxvalue": "70",
+                            "label": "AVERAGE"
+                        },
+                        {
+                            "code": "D99036",
+                            "maxvalue": "100"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/font-cosmetics/heatmap/ref-images/outCnvBaseFont_outCnvBaseFontColor__cf30be-snapshot.png",
+        "id": "outCnvBaseFont_outCnvBaseFontColor__cf30be"
+    }
+}

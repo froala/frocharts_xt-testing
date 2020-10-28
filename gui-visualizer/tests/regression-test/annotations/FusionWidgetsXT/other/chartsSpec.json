@@ -1,0 +1,515 @@
+{
+    "annotations-other_01": {
+        "description": "annotations",
+        "options": {
+            "type": "funnel",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Funnel Chart",
+                    "subcaption": "subcaption",
+                    "showlegend": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract",
+                        "value": "35654"
+                    },
+                    {
+                        "label": "Purchased",
+                        "value": "12342"
+                    }
+                ],
+                "annotations": {
+                    "origw": "450",
+                    "origh": "300",
+                    "autoscale": "1",
+                    "showBelow": "0",
+                    "groups": [
+                        {
+                            "id": "arcs",
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                },
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartstartx",
+                                    "y": "$chartstarty",
+                                    "xScale": "100",
+                                    "yScale": "100"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$gaugeStartX+40",
+                                    "y": "$gaugeStarty+20",
+                                    "radius": "25",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "10",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$gaugeStartX+30",
+                                    "y": "$gaugeendy-30",
+                                    "startangle": "0",
+                                    "endangle": "360"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$gaugeCenterX",
+                                    "y": "$gaugeCentery",
+                                    "color": "#000000"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "$gaugeStartX",
+                                    "y": "$chartcenterx+40",
+                                    "tox": "$gaugeendX",
+                                    "toy": "$chartcenterx+40",
+                                    "thickness": "3",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "7",
+                                    "startangle": "270",
+                                    "fillColor": "#ff0000",
+                                    "x": "$plotSemiWidth+230",
+                                    "y": "$plotSemiWidth-40",
+                                    "radius": "30"
+                                },
+                                {
+                                    "id": "state-cs-text",
+                                    "type": "Text",
+                                    "color": "#ff0000",
+                                    "label": "Legend",
+                                    "fontSize": "12",
+                                    "align": "center",
+                                    "x": "$legendendx+40",
+                                    "y": "$legendendy-10"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionWidgetsXT/other/ref-images/annotations-other_01-snapshot.png",
+        "id": "annotations-other_01"
+    },
+    "annotations-other_02": {
+        "description": "annotations",
+        "options": {
+            "type": "pyramid",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Pyramid Chart",
+                    "subcaption": "subcaption",
+                    "showlegend": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Website Visits",
+                        "value": "385634"
+                    },
+                    {
+                        "label": "Downloads",
+                        "value": "175631"
+                    },
+                    {
+                        "label": "Interested",
+                        "value": "84564"
+                    },
+                    {
+                        "label": "Contract",
+                        "value": "35654"
+                    }
+                ],
+                "annotations": {
+                    "origw": "450",
+                    "origh": "300",
+                    "autoscale": "1",
+                    "showBelow": "0",
+                    "groups": [
+                        {
+                            "id": "arcs",
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                },
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartstartx",
+                                    "y": "$chartstarty",
+                                    "xScale": "100",
+                                    "yScale": "100"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$gaugeStartX+40",
+                                    "y": "$gaugeStarty+20",
+                                    "radius": "25",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "10",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$gaugeStartX+30",
+                                    "y": "$gaugeendy-30",
+                                    "startangle": "0",
+                                    "endangle": "360"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$gaugeCenterX",
+                                    "y": "$gaugeCentery",
+                                    "color": "#000000"
+                                },
+                                {
+                                    "type": "line",
+                                    "x": "$gaugeStartX",
+                                    "y": "$chartcenterx+40",
+                                    "tox": "$gaugeendX",
+                                    "toy": "$chartcenterx+40",
+                                    "thickness": "3",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "3",
+                                    "startangle": "270",
+                                    "fillColor": "#ff0000",
+                                    "x": "$plotSemiWidth+250",
+                                    "y": "$plotSemiWidth-40",
+                                    "radius": "30"
+                                },
+                                {
+                                    "id": "state-cs-text",
+                                    "type": "Text",
+                                    "color": "#ff0000",
+                                    "label": "Legend",
+                                    "fontSize": "12",
+                                    "align": "center",
+                                    "x": "$legendendx+40",
+                                    "y": "$legendendy-10"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionWidgetsXT/other/ref-images/annotations-other_02-snapshot.png",
+        "id": "annotations-other_02"
+    },
+    "annotations-other_03": {
+        "description": "annotations",
+        "options": {
+            "type": "gantt",
+            "width": "500",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Pyramid Chart",
+                    "subcaption": "subcaption",
+                    "dateformat": "mm/dd/yyyy",
+                    "animation": "0",
+                    "charttopmargin": "40",
+                    "showborder": "1",
+                    "chartleftmargin": "100"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "start": "02/01/2007",
+                                "end": "03/01/2007",
+                                "label": "Feb"
+                            },
+                            {
+                                "start": "03/01/2007",
+                                "end": "04/01/2007",
+                                "label": "Mar"
+                            },
+                            {
+                                "start": "04/01/2007",
+                                "end": "05/01/2007",
+                                "label": "Apr"
+                            },
+                            {
+                                "start": "05/01/2007",
+                                "end": "06/01/2007",
+                                "label": "May"
+                            },
+                            {
+                                "start": "06/01/2007",
+                                "end": "07/01/2007",
+                                "label": "Jun"
+                            },
+                            {
+                                "start": "07/01/2007",
+                                "end": "08/01/2007",
+                                "label": "Jul"
+                            },
+                            {
+                                "start": "08/01/2007",
+                                "end": "09/01/2007",
+                                "label": "Aug"
+                            }
+                        ]
+                    }
+                ],
+                "processes": {
+                    "fontsize": "12",
+                    "isbold": "1",
+                    "align": "right",
+                    "process": [
+                        {
+                            "label": "Identify Customers"
+                        },
+                        {
+                            "label": "Survey 50 Customers"
+                        },
+                        {
+                            "label": "Interpret Requirements"
+                        },
+                        {
+                            "label": "Study Competition"
+                        },
+                        {
+                            "label": "Documentation of features"
+                        },
+                        {
+                            "label": "Brainstorm concepts"
+                        },
+                        {
+                            "label": "Design & Code"
+                        },
+                        {
+                            "label": "Testing / QA"
+                        },
+                        {
+                            "label": "Documentation of product"
+                        },
+                        {
+                            "label": "Global Release"
+                        }
+                    ]
+                },
+                "tasks": {
+                    "task": [
+                        {
+                            "start": "02/04/2007",
+                            "end": "02/10/2007"
+                        },
+                        {
+                            "start": "02/08/2007",
+                            "end": "02/19/2007"
+                        },
+                        {
+                            "start": "02/19/2007",
+                            "end": "03/02/2007"
+                        },
+                        {
+                            "start": "02/24/2007",
+                            "end": "03/02/2007"
+                        },
+                        {
+                            "start": "03/02/2007",
+                            "end": "03/21/2007"
+                        },
+                        {
+                            "start": "03/21/2007",
+                            "end": "04/06/2007"
+                        },
+                        {
+                            "start": "04/06/2007",
+                            "end": "07/21/2007"
+                        },
+                        {
+                            "start": "07/21/2007",
+                            "end": "08/19/2007"
+                        },
+                        {
+                            "start": "07/28/2007",
+                            "end": "08/24/2007"
+                        },
+                        {
+                            "start": "08/24/2007",
+                            "end": "08/27/2007"
+                        }
+                    ]
+                },
+                "annotations": {
+                    "origw": "450",
+                    "origh": "300",
+                    "autoscale": "1",
+                    "showBelow": "0",
+                    "groups": [
+                        {
+                            "id": "arcs",
+                            "items": [
+                                {
+                                    "type": "rectangle",
+                                    "color": "#ff0000",
+                                    "alpha": "70",
+                                    "x": "$captionStartX",
+                                    "y": "$captionStartY",
+                                    "tox": "$captionEndX",
+                                    "toy": "$captionEndY"
+                                },
+                                {
+                                    "type": "rectangle",
+                                    "color": "#66FFFF",
+                                    "alpha": "70",
+                                    "x": "$subcaptionStartX",
+                                    "y": "$subcaptionStartY",
+                                    "tox": "$subcaptionEndX",
+                                    "toy": "$subcaptionEndY"
+                                },
+                                {
+                                    "id": "store-cs-bg",
+                                    "type": "rectangle",
+                                    "x": "$chartCenterX-150",
+                                    "y": "$chartstarty+10",
+                                    "tox": "$chartCenterX + 150",
+                                    "toy": "$chartstarty + 30",
+                                    "fillcolor": "#483D8B"
+                                },
+                                {
+                                    "id": "state-cs-text",
+                                    "type": "Text",
+                                    "color": "#ffffff",
+                                    "label": "Project Gantt From 1st Feb 2007 - 31st Aug 2007",
+                                    "fontSize": "12",
+                                    "align": "center",
+                                    "x": "$chartCenterX",
+                                    "y": "$chartstartY+20"
+                                },
+                                {
+                                    "type": "image",
+                                    "url": "http://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+                                    "x": "$chartstartx",
+                                    "y": "$chartstarty",
+                                    "xScale": "100",
+                                    "yScale": "100"
+                                },
+                                {
+                                    "type": "circle",
+                                    "x": "$chartstartx+50",
+                                    "y": "$chartendy-140",
+                                    "radius": "20",
+                                    "color": "#0000ff"
+                                },
+                                {
+                                    "type": "arc",
+                                    "radius": "20",
+                                    "borderColor": "#FFFFFF",
+                                    "innerRadius": "5",
+                                    "color": "#990033",
+                                    "alpha": "90",
+                                    "x": "$chartstartx+50",
+                                    "y": "$chartendy-20",
+                                    "startangle": "0",
+                                    "endangle": "180"
+                                },
+                                {
+                                    "type": "path",
+                                    "path": "M -10, -10, L -10, 10, L 10, 10, L 10, -10, L -10, -10",
+                                    "x": "$canvasstartx+20",
+                                    "y": "$canvasstarty+20",
+                                    "color": "#660000"
+                                },
+                                {
+                                    "type": "polygon",
+                                    "sides": "5",
+                                    "startangle": "270",
+                                    "fillColor": "#6baa01",
+                                    "x": "$chartstartx+50",
+                                    "y": "$chartendy-80",
+                                    "radius": "18"
+                                },
+                                {
+                                    "showbelow": "0",
+                                    "id": "high-line",
+                                    "type": "line",
+                                    "x": "$canvasStartX",
+                                    "y": "$chartstartx+50",
+                                    "tox": "$canvasEndx",
+                                    "toy": "$chartstartx+50",
+                                    "color": "#ff0000",
+                                    "dashed": "1",
+                                    "thickness": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/annotations/FusionWidgetsXT/other/ref-images/annotations-other_03-snapshot.png",
+        "id": "annotations-other_03"
+    }
+}

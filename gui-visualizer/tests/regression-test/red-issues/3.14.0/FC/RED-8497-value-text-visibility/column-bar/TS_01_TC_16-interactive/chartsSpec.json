@@ -1,0 +1,3962 @@
+{
+    "TS_01_TC_16-mscolumn2d": {
+        "id": "TS_01_TC_16-mscolumn2d",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "mscolumn2d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "visible": 0
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                }
+            }
+        }
+    },
+    "TS_01_TC_16-mscolumn3d": {
+        "id": "TS_01_TC_16-mscolumn3d",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "mscolumn3d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "visible": 0
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                }
+            }
+        }
+    },
+    "TS_01_TC_16-msbar2d": {
+        "id": "TS_01_TC_16-msbar2d",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "msbar2d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "visible": 0
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                }
+            }
+        }
+    },
+    "TS_01_TC_16-msbar3d": {
+        "id": "TS_01_TC_16-msbar3d",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "msbar3d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "visible": 0
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                }
+            }
+        }
+    },
+    "TS_01_TC_16-mscombi2d": {
+        "id": "TS_01_TC_16-mscombi2d",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "mscombi2d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "visible": 0
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                }
+            }
+        }
+    },
+    "TS_01_TC_16-mscombi3d": {
+        "id": "TS_01_TC_16-mscombi3d",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "mscombi3d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "visible": 0
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                }
+            }
+        }
+    },
+    "TS_01_TC_16-mscolumnline3d": {
+        "id": "TS_01_TC_16-mscolumnline3d",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "mscolumnline3d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "visible": 0
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                }
+            }
+        }
+    },
+    "TS_01_TC_16-mscombidy2d": {
+        "id": "TS_01_TC_16-mscombidy2d",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "mscombidy2d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "visible": 0
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                }
+            }
+        }
+    },
+    "TS_01_TC_16-mscolumn3dlinedy": {
+        "id": "TS_01_TC_16-mscolumn3dlinedy",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "mscolumn3dlinedy",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "visible": 0
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                }
+            }
+        }
+    },
+    "TS_01_TC_16-scrollcolumn2d": {
+        "id": "TS_01_TC_16-scrollcolumn2d",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "scrollcolumn2d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "visible": 0
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                }
+            }
+        }
+    },
+    "TS_01_TC_16-scrollcombi2d": {
+        "id": "TS_01_TC_16-scrollcombi2d",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "scrollcombi2d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "visible": 0
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                }
+            }
+        }
+    },
+    "TS_01_TC_16-scrollcombidy2d": {
+        "id": "TS_01_TC_16-scrollcombidy2d",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "scrollcombidy2d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "visible": 0
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                }
+            }
+        }
+    },
+    "TS_01_TC_16-realtimecolumn": {
+        "id": "TS_01_TC_16-realtimecolumn",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "realtimecolumn",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "visible": 0
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                }
+            }
+        }
+    },
+    "TS_01_TC_16-logmscolumn2d": {
+        "id": "TS_01_TC_16-logmscolumn2d",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "logmscolumn2d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "visible": 0
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                }
+            }
+        }
+    },
+    "TS_01_TC_16-errorbar2d": {
+        "id": "TS_01_TC_16-errorbar2d",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "errorbar2d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "visible": 0
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                }
+            }
+        }
+    },
+    "TS_01_TC_16-inversemscolumn2d": {
+        "id": "TS_01_TC_16-inversemscolumn2d",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "inversemscolumn2d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "visible": 0
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                }
+            }
+        }
+    },
+    "TS_01_TC_16-dragcolumn2d": {
+        "id": "TS_01_TC_16-dragcolumn2d",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "dragcolumn2d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "visible": 0
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                }
+            }
+        }
+    },
+    "TS_01_TC_16-marimekko": {
+        "id": "TS_01_TC_16-marimekko",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "marimekko",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "visible": 0
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                }
+            }
+        }
+    },
+    "TS_01_TC_16-stackedcolumn2d": {
+        "id": "TS_01_TC_16-stackedcolumn2d",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "stackedcolumn2d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "visible": 0
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                }
+            }
+        }
+    },
+    "TS_01_TC_16-stackedcolumn3d": {
+        "id": "TS_01_TC_16-stackedcolumn3d",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "stackedcolumn3d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "visible": 0
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                }
+            }
+        }
+    },
+    "TS_01_TC_16-stackedbar2d": {
+        "id": "TS_01_TC_16-stackedbar2d",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "stackedbar2d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "visible": 0
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                }
+            }
+        }
+    },
+    "TS_01_TC_16-stackedbar3d": {
+        "id": "TS_01_TC_16-stackedbar3d",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "stackedbar3d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "visible": 0
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                }
+            }
+        }
+    },
+    "TS_01_TC_16-msstackedcolumn2d": {
+        "id": "TS_01_TC_16-msstackedcolumn2d",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "msstackedcolumn2d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Series-00",
+                                "data": [
+                                    {
+                                        "value": 1
+                                    },
+                                    {
+                                        "value": 2
+                                    },
+                                    {
+                                        "value": 3
+                                    },
+                                    {
+                                        "value": 4
+                                    },
+                                    {
+                                        "value": 5
+                                    },
+                                    {
+                                        "value": 6
+                                    }
+                                ],
+                                "visible": 0
+                            },
+                            {
+                                "seriesname": "Series-10",
+                                "data": [
+                                    {
+                                        "value": 1
+                                    },
+                                    {
+                                        "value": 2
+                                    },
+                                    {
+                                        "value": 3
+                                    },
+                                    {
+                                        "value": 4
+                                    },
+                                    {
+                                        "value": 5
+                                    },
+                                    {
+                                        "value": 6
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Series-20",
+                                "data": [
+                                    {
+                                        "value": 1
+                                    },
+                                    {
+                                        "value": 2
+                                    },
+                                    {
+                                        "value": 3
+                                    },
+                                    {
+                                        "value": 4
+                                    },
+                                    {
+                                        "value": 5
+                                    },
+                                    {
+                                        "value": 6
+                                    }
+                                ]
+                            }
+                        ],
+                        "visible": 0
+                    }
+                ],
+                "lineset": [
+                    {
+                        "seriesname": "lineset",
+                        "data": [
+                            {
+                                "value": 1
+                            },
+                            {
+                                "value": 2
+                            },
+                            {
+                                "value": 3
+                            },
+                            {
+                                "value": 4
+                            },
+                            {
+                                "value": 5
+                            },
+                            {
+                                "value": 6
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "TS_01_TC_16-stackedcolumn2dline": {
+        "id": "TS_01_TC_16-stackedcolumn2dline",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "stackedcolumn2dline",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "visible": 0
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                }
+            }
+        }
+    },
+    "TS_01_TC_16-stackedcolumn3dline": {
+        "id": "TS_01_TC_16-stackedcolumn3dline",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "stackedcolumn3dline",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "visible": 0
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                }
+            }
+        }
+    },
+    "TS_01_TC_16-stackedcolumn3dlinedy": {
+        "id": "TS_01_TC_16-stackedcolumn3dlinedy",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "stackedcolumn3dlinedy",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "visible": 0
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                }
+            }
+        }
+    },
+    "TS_01_TC_16-msstackedcolumn2dlinedy": {
+        "id": "TS_01_TC_16-msstackedcolumn2dlinedy",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "msstackedcolumn2dlinedy",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "dataset": [
+                            {
+                                "seriesname": "Series-00",
+                                "data": [
+                                    {
+                                        "value": 1
+                                    },
+                                    {
+                                        "value": 2
+                                    },
+                                    {
+                                        "value": 3
+                                    },
+                                    {
+                                        "value": 4
+                                    },
+                                    {
+                                        "value": 5
+                                    },
+                                    {
+                                        "value": 6
+                                    }
+                                ],
+                                "visible": 0
+                            },
+                            {
+                                "seriesname": "Series-10",
+                                "data": [
+                                    {
+                                        "value": 1
+                                    },
+                                    {
+                                        "value": 2
+                                    },
+                                    {
+                                        "value": 3
+                                    },
+                                    {
+                                        "value": 4
+                                    },
+                                    {
+                                        "value": 5
+                                    },
+                                    {
+                                        "value": 6
+                                    }
+                                ]
+                            },
+                            {
+                                "seriesname": "Series-20",
+                                "data": [
+                                    {
+                                        "value": 1
+                                    },
+                                    {
+                                        "value": 2
+                                    },
+                                    {
+                                        "value": 3
+                                    },
+                                    {
+                                        "value": 4
+                                    },
+                                    {
+                                        "value": 5
+                                    },
+                                    {
+                                        "value": 6
+                                    }
+                                ]
+                            }
+                        ],
+                        "visible": 0
+                    }
+                ],
+                "lineset": [
+                    {
+                        "seriesname": "lineset",
+                        "data": [
+                            {
+                                "value": 1
+                            },
+                            {
+                                "value": 2
+                            },
+                            {
+                                "value": 3
+                            },
+                            {
+                                "value": 4
+                            },
+                            {
+                                "value": 5
+                            },
+                            {
+                                "value": 6
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "TS_01_TC_16-scrollstackedcolumn2d": {
+        "id": "TS_01_TC_16-scrollstackedcolumn2d",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "scrollstackedcolumn2d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "visible": 0
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                }
+            }
+        }
+    },
+    "TS_01_TC_16-realtimestackedcolumn": {
+        "id": "TS_01_TC_16-realtimestackedcolumn",
+        "description": "Setting minPlotHeightForValue from chart object and checking the initially hidden series",
+        "options": {
+            "type": "realtimestackedcolumn",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            },
+                            {
+                                "label": "Label-4"
+                            },
+                            {
+                                "label": "Label-5"
+                            },
+                            {
+                                "label": "Label-6"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "visible": 0
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 5,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 6,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 7,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 8,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "placevaluesinside": 1,
+                    "minplotheightforvalue": 60
+                }
+            }
+        }
+    }
+}

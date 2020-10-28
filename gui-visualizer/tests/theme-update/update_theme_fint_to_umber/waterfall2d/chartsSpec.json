@@ -1,0 +1,96 @@
+{
+    "waterfall2d": {
+        "descriptions": "update theme from fint to umber",
+        "id": "waterfall2d",
+        "options": {
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "type": "waterfall2d",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales By Prduct",
+                    "subcaption": "For the year 2006",
+                    "xaxisname": "Product",
+                    "yaxisname": "Sales",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "connectordashed": "1",
+                    "animation": 0,
+                    "theme": "fint"
+                },
+                "data": [
+                    {
+                        "label": "Bi v2",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Real v3.2",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Business Division Sales",
+                        "issum": "1"
+                    },
+                    {
+                        "label": "FusionCharts",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "IS v2",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "PS v3",
+                        "value": "550000"
+                    }
+                ]
+            }
+        },
+        "action": [
+            {
+                "updateData": [
+                    {
+                        "chart": {
+                            "caption": "Sales By Prduct",
+                            "subcaption": "For the year 2006",
+                            "xaxisname": "Product",
+                            "yaxisname": "Sales",
+                            "numberprefix": "$",
+                            "showvalues": "1",
+                            "connectordashed": "1",
+                            "animation": 0,
+                            "theme": "umber"
+                        },
+                        "data": [
+                            {
+                                "label": "Bi v2",
+                                "value": "420000"
+                            },
+                            {
+                                "label": "Real v3.2",
+                                "value": "810000"
+                            },
+                            {
+                                "label": "Business Division Sales",
+                                "issum": "1"
+                            },
+                            {
+                                "label": "FusionCharts",
+                                "value": "910000"
+                            },
+                            {
+                                "label": "IS v2",
+                                "value": "720000"
+                            },
+                            {
+                                "label": "PS v3",
+                                "value": "550000"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

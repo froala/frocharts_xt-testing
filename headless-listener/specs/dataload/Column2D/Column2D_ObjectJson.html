@@ -1,0 +1,117 @@
+<html>
+
+<head>
+    <title>FusionCharts XT - listen to DrawComplete event</title>
+    <script type="text/javascript" src="../../../fusioncharts/fusioncharts.js"></script>
+</head>
+
+<body>
+    <div id="chartContainer">FusionCharts XT will load here!</div>
+    <script type="text/javascript">
+    <!--  
+
+    FusionCharts.ready(function() {
+        var featureTestPass1 = false;
+        //var featureTestPass2 = false;
+        //FusionCharts.addEventListener("Initialized", myChartListener1);
+        var objJSON = {
+            "chart": {
+                "caption": "Monthly Revenue",
+                "xaxisname": "Month",
+                "yaxisname": "Revenue",
+                "numberprefix": "$",
+                "showvalues": "1",
+                "animation": "0",
+                "exportenabled": "1",
+                "exportfilename": "",
+                "exportHandler": "http://107.21.74.91/"
+            },
+            "data": [{
+                "label": "Jan",
+                "value": "420000"
+            }, {
+                "label": "Feb",
+                "value": "910000"
+            }, {
+                "label": "Mar",
+                "value": "720000"
+            }, {
+                "label": "Apr",
+                "value": "550000"
+            }, {
+                "label": "May",
+                "value": "810000"
+            }, {
+                "label": "Jun",
+                "value": "510000"
+            }, {
+                "label": "Jul",
+                "value": "680000"
+            }, {
+                "label": "Aug",
+                "value": "620000"
+            }, {
+                "label": "Sep",
+                "value": "610000"
+            }, {
+                "label": "Oct",
+                "value": "490000"
+            }, {
+                "label": "Nov",
+                "value": "530000"
+            }, {
+                "label": "Dec",
+                "value": "330000"
+            }],
+            "trendlines": [{
+                "line": [{
+                    "startvalue": "700000",
+                    "color": "009933",
+                    "displayvalue": "Target"
+                }]
+            }]
+        };
+
+
+        //Chart setup code
+        var myChart = new FusionCharts({
+            type: 'Column2D',
+            width: '400',
+            height: '300',
+            debugMode: false,
+            bgColor: 'ffff0f',
+            renderAt: 'chartContainer',
+            id: "myChartId",
+            dataSource: objJSON,
+            dataFormat: 'json',
+            renderer: 'javascript'
+        });
+
+
+        FusionCharts.addEventListener("connectorAdded", myChartListener1);
+
+        myChart.render();
+
+
+        function myChartListener1(eventObject, argumentsObject) {
+
+            var chart = eventObject.sender, // access the chart that raised this event
+                caption = chart && chart.getChartAttribute('caption');
+            var containertext = "";
+
+            featureTestPass1 = true;
+
+            featureTestPass1 = featureTestPass1 && (eventObject.sender.id == "myChartId");
+
+            featureTestPass1 = featureTestPass1 && (eventObject.eventType == "connectoradded");
+
+            alert("ConnectorAdded Event has been triggered with attributes:" + argumentsObject.toSource());
+
+        }
+
+    });
+    // -->
+    </script>
+</body>
+
+</html>

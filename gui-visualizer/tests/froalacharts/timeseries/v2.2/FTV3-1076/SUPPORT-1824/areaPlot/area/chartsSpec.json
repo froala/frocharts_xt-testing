@@ -1,0 +1,47 @@
+{
+    "SUPPORT-1824-area-tc1": {
+        "id": "SUPPORT-1824-area-tc1",
+        "description": "plot is visible in plotype area if null-value is present before and after value",
+        "options": {
+            "data-id": "data-SUPPORT-1824-area",
+            "schema-id": "schema-SUPPORT-1824-area",
+            "type": "timeseries",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "yaxis": [
+                    {
+                        "plot": {
+                            "value": "Daily Visitors",
+                            "type": "area"
+                        },
+                        "title": "Daily Visitors Count",
+                        "format": {
+                            "suffix": "k"
+                        }
+                    }
+                ],
+                "xaxis": {
+                    "binning": {
+                        "year": [],
+                        "month": [],
+                        "day": [ 1 ]
+                    },
+                    "initialInterval": {
+                        "from": "2016-03-10",
+                        "to": "2016-04-25"
+                    }
+                },
+                "chart": {
+                    "paletteColors": "#ff0000, #00ff00, #0000ff",
+                    "animation": "0",
+                    "multicanvas": 0
+                },
+                "caption": {
+                    "text": "Daily Visitors Count of a Website"
+                }
+            }
+        }
+    }
+}

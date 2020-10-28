@@ -1,0 +1,48 @@
+#!/usr/bin/env node
+
+var fs = require("fs"),
+	path = require("path"),
+	child_process = require("child_process");
+	configPath = process.argv[2];
+
+if (!configPath) {
+	console.log("Provide the path to the config file");
+	process.exit(1);
+}
+
+var configJSON = JSON.parse(fs.readFileSync(path.join(process.cwd(), configPath)));
+
+if (JSON.stringify(configJSON) === "{}") {
+	console.log("Config file not found in the given directory");
+	process.exit(1);
+}
+
+var saveDir = path.join(process.cwd(), (configJSON.savePath || "/saved"));
+
+var generate = function () {
+	fs.mkdirSync(saveDir);
+	child_process.exec("node bin/japp --config " + configPath + " --save --overwriteRef", function (error, stdout, stderr) {
+		console.log(error);
+		if (process.env.DRONE && process.env.CI) {
+			child_process.exec("tar -zcvf saved.tar.gz " + saveDir, function (error, stdout, stderr) {
+				if (error) {
+					console.log(error);
+				}
+			});
+		}
+	});
+};
+
+if (fs.existsSync(saveDir)) {
+	child_process.exec("rm -rf " + saveDir, function (error, stdout, stderr) {
+		if (error) {
+			console.log(error);
+		}
+		else {
+			generate();
+		}
+	});
+}
+else {
+	generate();
+}

@@ -1,0 +1,165 @@
+<html>
+
+<head>
+    <title>Event Spec</title>
+    <script type="text/javascript" src="../../fusioncharts/fusioncharts.js"></script>
+    <style>
+    </style>
+    <script type="text/javascript">
+    FusionCharts.addEventListener('initialized', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts' + 'width!^!' + args.width + '!^!height!^!' + args.height);
+    });
+
+    FusionCharts.addEventListener('dataLoaded', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts');
+    });
+
+    FusionCharts.addEventListener('rendered', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts');
+    });
+
+    FusionCharts.addEventListener('renderComplete', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts');
+    });
+
+    FusionCharts.addEventListener('dataplotClick', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts' + 'chartX!^!' + args.chartX + '!^!chartY!^!' + args.chartY + '!^!pageX!^!' + args.pageX + '!^!pageY!^!' + args.pageY + '!^!datasetIndex!^!' + args.datasetIndex + '!^!datasetName!^!' + args.datasetName + '!^!dataIndex!^!' + args.dataIndex + '!^!dataValue!^!' + args.dataValue + '!^!displayValue!^!' + args.displayValue + '!^!categoryLabel!^!' + args.categoryLabel + '!^!toolText!^!' + args.toolText);
+    });
+
+    FusionCharts.addEventListener('dataplotrollout', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts' + 'chartX!^!' + args.chartX + '!^!chartY!^!' + args.chartY + '!^!pageX!^!' + args.pageX + '!^!pageY!^!' + args.pageY + '!^!datasetIndex!^!' + args.datasetIndex + '!^!datasetName!^!' + args.datasetName + '!^!dataIndex!^!' + args.dataIndex + '!^!dataValue!^!' + args.dataValue + '!^!displayValue!^!' + args.displayValue + '!^!categoryLabel!^!' + args.categoryLabel + '!^!toolText!^!' + args.toolText);
+    });
+
+    FusionCharts.addEventListener('dataplotrollover', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts' + 'chartX!^!' + args.chartX + '!^!chartY!^!' + args.chartY + '!^!pageX!^!' + args.pageX + '!^!pageY!^!' + args.pageY + '!^!datasetIndex!^!' + args.datasetIndex + '!^!datasetName!^!' + args.datasetName + '!^!dataIndex!^!' + args.dataIndex + '!^!dataValue!^!' + args.dataValue + '!^!displayValue!^!' + args.displayValue + '!^!categoryLabel!^!' + args.categoryLabel + '!^!toolText!^!' + args.toolText);
+    });
+
+    FusionCharts.ready(function() {
+        RChart = new FusionCharts({
+            type: 'sparkline',
+            renderAt: 'chart-container',
+            width: '450',
+            height: '50',
+            dataFormat: 'json',
+            dataSource: {
+                "chart": {
+                    "caption": "Stock Price",
+                    "subcaption": "Last month",
+                    "numberPrefix": "$",
+                    "canvasleftmargin": "145",
+                    "chartTopMargin": "10",
+                    "chartRightMargin": "10",
+                    "showBorder": "0"
+                },
+                "dataset": [{
+                    "data": [{
+                        "value": "38.42"
+                    }, {
+                        "value": "41.43"
+                    }, {
+                        "value": "34.78"
+                    }, {
+                        "value": "40.67"
+                    }, {
+                        "value": "44.12"
+                    }, {
+                        "value": "38.45"
+                    }, {
+                        "value": "40.71"
+                    }, {
+                        "value": "49.90"
+                    }, {
+                        "value": "40.12"
+                    }, {
+                        "value": "34.91"
+                    }, {
+                        "value": "42.02"
+                    }, {
+                        "value": "35.21"
+                    }, {
+                        "value": "43.31"
+                    }, {
+                        "value": "40.21"
+                    }, {
+                        "value": "40.54"
+                    }, {
+                        "value": "40.90"
+                    }, {
+                        "value": "54.21"
+                    }, {
+                        "value": "41.90"
+                    }, {
+                        "value": "33.43"
+                    }, {
+                        "value": "46.73"
+                    }, {
+                        "value": "50.42"
+                    }, {
+                        "value": "40.74"
+                    }, {
+                        "value": "42.31"
+                    }, {
+                        "value": "50.39"
+                    }, {
+                        "value": "51.10"
+                    }, {
+                        "value": "44.84"
+                    }, {
+                        "value": "51.64"
+                    }, {
+                        "value": "47.62"
+                    }, {
+                        "value": "39.61"
+                    }, {
+                        "value": "35.13"
+                    }]
+                }]
+            }
+        });
+
+        RChart.render();
+    });
+    /*
+        (function() {
+            document.onclick = handleMouseMove;
+
+            function handleMouseMove(event) {
+                var dot, eventDoc, doc, body, pageX, pageY;
+
+                event = event || window.event; // IE-ism
+
+                // If pageX/Y aren't available and clientX/Y are,
+                // calculate pageX/Y - logic taken from jQuery.
+                // (This is to support old IE)
+                if (event.pageX == null && event.clientX != null) {
+                    eventDoc = (event.target && event.target.ownerDocument) || document;
+                    doc = eventDoc.documentElement;
+                    body = eventDoc.body;
+
+                    event.pageX = event.clientX +
+                        (doc && doc.scrollLeft || body && body.scrollLeft || 0) -
+                        (doc && doc.clientLeft || body && body.clientLeft || 0);
+                    event.pageY = event.clientY +
+                        (doc && doc.scrollTop || body && body.scrollTop || 0) -
+                        (doc && doc.clientTop || body && body.clientTop || 0);
+                }
+
+                console.log("X " + event.pageX + " Y " + event.pageY);
+            }
+        })(); */
+    </script>
+</head>
+
+<body>
+    <div id="chart-container">
+    </div>
+</body>
+
+</html>

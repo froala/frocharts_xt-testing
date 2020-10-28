@@ -1,0 +1,102 @@
+{
+    "RED-8472-TC_07-stackedarea2d": {
+        "id": "RED-8472-TC_07-stackedarea2d",
+        "description": "Values of lower series plots are overlapped with upper one and in that case outlinetext should applied on values",
+        "options": {
+            "type": "stackedarea2d",
+            "width": 600,
+            "height": 350,
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Label-1"
+                            },
+                            {
+                                "label": "Label-2"
+                            },
+                            {
+                                "label": "Label-3"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "column1",
+                        "renderas": "column",
+                        "data": [
+                            {
+                                "value": 1,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "area2",
+                        "renderas": "area",
+                        "data": [
+                            {
+                                "value": 2,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "line3",
+                        "renderas": "line",
+                        "data": [
+                            {
+                                "value": 3,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 4,
+                                "errorvalue": 1
+                            },
+                            {
+                                "value": 10,
+                                "errorvalue": 1
+                            }
+                        ],
+                        "parentyaxis": "S"
+                    }
+                ],
+                "chart": {
+                    "animation": 0,
+                    "showvalues": 1,
+                    "showvalue": 1,
+                    "showsum": 1,
+                    "textoutline": 1,
+                    "useplotgradientcolor": 0,
+                    "showchildlabels": 1,
+                    "yaxismaxvalue": 10,
+                    "canvasbgcolor": "#8f68e2",
+                    "bgcolor": "#8f68e2",
+                    "plotfillcolor": "#8f68e2",
+                    "palettecolors": "#8f68e2",
+                    "anchorbgcolor": "#8f68e2",
+                    "entityfillcolor": "#8f68e2"
+                }
+            }
+        }
+    }
+}

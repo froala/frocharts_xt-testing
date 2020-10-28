@@ -1,0 +1,1392 @@
+{
+    "RED-3939": {
+        "id": "RED-3939",
+        "description": "In waterfall chart, plot hover effects are not functional if showHovereffect is not specified as `1`",
+        "category": "dynamic",
+        "options": {
+            "type": "waterfall2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Sales By Prduct",
+                    "subcaption": "For the year 2006",
+                    "xaxisname": "Product",
+                    "yaxisname": "Sales",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "connectordashed": "1",
+                    "plotBorderHoverThickness": "10",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Bi v2",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Real v3.2",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Business Division Sales",
+                        "issum": "1"
+                    },
+                    {
+                        "label": "FusionCharts",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "IS v2",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "PS v3",
+                        "value": "550000"
+                    }
+                ]
+            }
+        }
+    },
+    "RED-3892": {
+        "id": "RED-3892",
+        "description": "In realtimestackedcolumn chart, last  plot sum value is not visible",
+        "category": "dynamic",
+        "options": {
+            "type": "realtimestackedcolumn",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {}
+                ],
+                "chart": {
+                    "alternatehgridalpha": "30",
+                    "alternatehgridcolor": "DAE1E8",
+                    "basefontcolor": "899FB6",
+                    "bgcolor": "EEF2FB",
+                    "bordercolor": "899FB6",
+                    "canvasbgcolor": "FFFFFF",
+                    "canvasbordercolor": "DAE1E8",
+                    "canvasleftmargin": "50",
+                    "caption": "Concurrent Users",
+                    "datastreamurl": "realtime/multipleData.php?l=10&u=20",
+                    "decimals": "0",
+                    "divlinealpha": "75",
+                    "divlinecolor": "DAE1E8",
+                    "labeldisplay": "rotate",
+                    "manageresize": "1",
+                    "numdisplaysets": "15",
+                    "numdivlines": "6",
+                    "outcnvbasefontcolor": "444C60",
+                    "plotbordercolor": "FFFFFF",
+                    "plotgradientcolor": "",
+                    "refreshinterval": "3",
+                    "showalternatehgridcolor": "1",
+                    "showborder": "0",
+                    "showlabels": "1",
+                    "showlegend": "1",
+                    "showplotborder": "0",
+                    "showrealtimevalue": "1",
+                    "showshadow": "1",
+                    "showsum": "1",
+                    "subcaption": "(Refreshes every 3 seconds)",
+                    "tooltipbgcolor": "FFFFFF",
+                    "tooltipbordercolor": "DAE1E8",
+                    "tooltipsepchar": " ",
+                    "animation": "0",
+                    "transposeanimduration": 5
+                },
+                "dataset": [
+                    {
+                        "color": "B3C1D0",
+                        "seriesname": "Internal",
+                        "showvalues": "0"
+                    },
+                    {
+                        "color": "6582A0",
+                        "seriesname": "External",
+                        "showvalues": "0"
+                    }
+                ]
+            }
+        }
+    },
+    "RED-3890": {
+        "id": "RED-3890",
+        "description": "For all bar charts,dataplotclick,dataplotrollover,dataplotrollout events are not fired when showtooltip=0 and link is not given from data object.",
+        "category": "dynamic",
+        "options": {
+            "type": "bar2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly Revenue",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showtooltip": "0",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "RED-3886": {
+        "id": "RED-3886",
+        "description": "\"useMessageLog\": \"1\", not working menu button not appearing",
+        "category": "dynamic",
+        "options": {
+            "type": "angulargauge",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Server CPU Utilization",
+                    "subcaption": "forum.hsm.com",
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "showValue": "1",
+                    "valueBelowPivot": "1",
+                    "tickValueDistance": "25",
+                    "theme": "fint",
+                    "refreshInterval": "10",
+                    "useMessageLog": "1",
+                    "messageGoesToJS": "1",
+                    "messageJSHandler": "myFunction",
+                    "messagePassAllToJS": "1",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [
+                        {
+                            "minValue": "0",
+                            "maxValue": "50",
+                            "code": "#6baa01"
+                        },
+                        {
+                            "minValue": "50",
+                            "maxValue": "75",
+                            "code": "#f8bd19"
+                        },
+                        {
+                            "minValue": "75",
+                            "maxValue": "100",
+                            "code": "#e44a00"
+                        }
+                    ]
+                },
+                "dials": {
+                    "dial": [
+                        {
+                            "id": "crntYr",
+                            "value": "78",
+                            "showValue": "1",
+                            "tooltext": "Current year's average : $value",
+                            "rearExtension": "15"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "RED-3880": {
+        "id": "RED-3880",
+        "description": "Dragable charts throws JS error on clicking restore buttons and all menu items",
+        "category": "dynamic",
+        "options": {
+            "type": "dragcolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "animation": "0",
+                    "formaction": "dragNode.php"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "vline": "true"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "26000",
+                                "color": "91C728",
+                                "displayvalue": "Target",
+                                "showontop": "1"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "RED-3878": {
+        "id": "RED-3878",
+        "description": "Zoomscatter throws JS error on legend item hover",
+        "category": "dynamic",
+        "options": {
+            "type": "zoomscatter",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "2",
+                    "caption": "Server Performance",
+                    "yaxisname": "Response Time (sec)",
+                    "plothighlighteffect": "fadeout|color= #8B008B,alpha=30",
+                    "xaxisname": "Server Load (TPS)",
+                    "xaxismaxvalue": "100",
+                    "xaxisminvalue": "20",
+                    "yaxismaxvalue": "7",
+                    "animation": "0"
+                },
+                "dataset": [
+                    {
+                        "drawline": "1",
+                        "seriesname": "Server 1",
+                        "color": "009900",
+                        "anchorsides": "3",
+                        "anchorradius": "4",
+                        "anchorbgcolor": "D5FFD5",
+                        "anchorbordercolor": "009900",
+                        "data": [
+                            {
+                                "y": "2.4",
+                                "x": "21"
+                            },
+                            {
+                                "y": "3.5",
+                                "x": "32"
+                            },
+                            {
+                                "y": "2.5",
+                                "x": "43"
+                            },
+                            {
+                                "y": "4.1",
+                                "x": "48"
+                            },
+                            {
+                                "y": "3.5",
+                                "x": "50"
+                            },
+                            {
+                                "y": "4.6",
+                                "x": "56"
+                            },
+                            {
+                                "y": "4.8",
+                                "x": "59"
+                            },
+                            {
+                                "y": "4.9",
+                                "x": "73"
+                            },
+                            {
+                                "y": "4.6",
+                                "x": "89"
+                            },
+                            {
+                                "y": "4.2",
+                                "x": "93"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Server 2",
+                        "color": "0000FF",
+                        "anchorsides": "4",
+                        "anchorradius": "4",
+                        "anchorbgcolor": "C6C6FF",
+                        "anchorbordercolor": "0000FF",
+                        "data": [
+                            {
+                                "y": "1.4",
+                                "x": "23"
+                            },
+                            {
+                                "y": "1.5",
+                                "x": "29"
+                            },
+                            {
+                                "y": "1.5",
+                                "x": "33"
+                            },
+                            {
+                                "y": "1.1",
+                                "x": "41"
+                            },
+                            {
+                                "y": "1.5",
+                                "x": "47"
+                            },
+                            {
+                                "y": "1.6",
+                                "x": "49"
+                            },
+                            {
+                                "y": "1.8",
+                                "x": "51"
+                            },
+                            {
+                                "y": "1.9",
+                                "x": "53"
+                            },
+                            {
+                                "y": "1.6",
+                                "x": "57"
+                            },
+                            {
+                                "y": "1.2",
+                                "x": "58"
+                            },
+                            {
+                                "y": "1.9",
+                                "x": "61"
+                            },
+                            {
+                                "y": "1.1",
+                                "x": "63"
+                            },
+                            {
+                                "y": "1.9",
+                                "x": "64"
+                            },
+                            {
+                                "y": "1.7",
+                                "x": "71"
+                            },
+                            {
+                                "y": "1.1",
+                                "x": "77"
+                            },
+                            {
+                                "y": "1.3",
+                                "x": "79"
+                            },
+                            {
+                                "y": "1.7",
+                                "x": "83"
+                            },
+                            {
+                                "y": "1.8",
+                                "x": "89"
+                            },
+                            {
+                                "y": "1.9",
+                                "x": "91"
+                            },
+                            {
+                                "y": "1.0",
+                                "x": "93"
+                            }
+                        ]
+                    }
+                ],
+                "vtrendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "20",
+                                "endvalue": "65",
+                                "alpha": "5",
+                                "color": "00FF00"
+                            },
+                            {
+                                "startvalue": "65",
+                                "endvalue": "75",
+                                "alpha": "15",
+                                "color": "FFFF00"
+                            },
+                            {
+                                "startvalue": "75",
+                                "endvalue": "100",
+                                "alpha": "15",
+                                "color": "FF0000"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "5.2",
+                                "displayvalue": "Check",
+                                "linethickness": "2",
+                                "color": "FF0000",
+                                "valueonright": "1",
+                                "dashed": "1",
+                                "dashgap": "5"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "RED-3847": {
+        "id": "RED-3847",
+        "description": "tooltip of realtime plots are shown only after they are shifted one step to the left",
+        "category": "dynamic",
+        "options": {
+            "type": "realtimecolumn",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Realtime chart",
+                    "showrealtimevalue": "0",
+                    "datastreamurl": "realtime/multipleData.php?l=10&u=20",
+                    "refreshinterval": "2",
+                    "yaxismaxvalue": "100",
+                    "numdisplaysets": "10",
+                    "labeldisplay": "rotate",
+                    "numbersuffix": "%",
+                    "showlabels": "1",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Start"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "color": "00dd00",
+                        "seriesname": "Processor A",
+                        "alpha": "100",
+                        "anchoralpha": "0",
+                        "linethickness": "2",
+                        "data": [
+                            {
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "color": "ff5904",
+                        "seriesname": "Processor B",
+                        "alpha": "100",
+                        "anchoralpha": "0",
+                        "linethickness": "2",
+                        "data": [
+                            {
+                                "value": "0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "RED-3811": {
+        "id": "RED-3811",
+        "description": "For Pie2d and Doughnut2d charts,clicking on plots shows undefined values.",
+        "category": "dynamic",
+        "options": {
+            "type": "pie2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Airline Delay Causes",
+                    "showborder": "0",
+                    "showlabels": "0",
+                    "showlegend": "1",
+                    "showpercentageinlabel": "1",
+                    "showvalues": "0",
+                    "animation": "0",
+                    "transposeanimduration": 5
+                },
+                "data": [
+                    {
+                        "color": "429EAD",
+                        "label": "Weather",
+                        "value": "14.94"
+                    },
+                    {
+                        "color": "4249AD",
+                        "label": "Volume",
+                        "value": "19.17"
+                    },
+                    {
+                        "color": "AD42A2",
+                        "label": "Closed Runway",
+                        "value": "7.14"
+                    },
+                    {
+                        "color": "D4AC31",
+                        "label": "Others",
+                        "value": "7.75"
+                    }
+                ]
+            }
+        }
+    },
+    "RED-2875": {
+        "id": "RED-2875",
+        "description": "For hbullet and vbullet,showplotborderonhover attribute is not functional.",
+        "category": "dynamic",
+        "options": {
+            "type": "hbullet",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showhovereffect": "1",
+                    "plothovereffect": "",
+                    "plotfillhovercolor": "#ff0000",
+                    "plotfillhoveralpha": "20",
+                    "showplotborderonhover": "1",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [
+                        {
+                            "minvalue": "0",
+                            "maxvalue": "50",
+                            "color": "A6A6A6"
+                        },
+                        {
+                            "minvalue": "50",
+                            "maxvalue": "75",
+                            "color": "CCCCCC"
+                        },
+                        {
+                            "minvalue": "75",
+                            "maxvalue": "100",
+                            "color": "E1E1E1"
+                        }
+                    ]
+                },
+                "value": "78.9",
+                "target": "80"
+            }
+        }
+    },
+    "RED-2791": {
+        "id": "RED-2791",
+        "description": "for Dragcolumn2d,using attribute showtooltip=0,after dragging any plot throws js error.",
+        "category": "dynamic",
+        "options": {
+            "type": "dragcolumn2d",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Business Results 2005 v 2006",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "showvalues": "0",
+                    "numberprefix": "$",
+                    "animation": "0",
+                    "formaction": "dragNode.php"
+                },
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "vline": "true"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "seriesname": "2006",
+                        "data": [
+                            {
+                                "value": "27400"
+                            },
+                            {
+                                "value": "29800"
+                            },
+                            {
+                                "value": "25800"
+                            },
+                            {
+                                "value": "26800"
+                            },
+                            {
+                                "value": "29600"
+                            },
+                            {
+                                "value": "32600"
+                            },
+                            {
+                                "value": "31800"
+                            },
+                            {
+                                "value": "36700"
+                            },
+                            {
+                                "value": "29700"
+                            },
+                            {
+                                "value": "31900"
+                            },
+                            {
+                                "value": "34800"
+                            },
+                            {
+                                "value": "24800"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "2005",
+                        "data": [
+                            {
+                                "value": "10000"
+                            },
+                            {
+                                "value": "11500"
+                            },
+                            {
+                                "value": "12500"
+                            },
+                            {
+                                "value": "15000"
+                            },
+                            {
+                                "value": "11000"
+                            },
+                            {
+                                "value": "9800"
+                            },
+                            {
+                                "value": "11800"
+                            },
+                            {
+                                "value": "19700"
+                            },
+                            {
+                                "value": "21700"
+                            },
+                            {
+                                "value": "21900"
+                            },
+                            {
+                                "value": "22900"
+                            },
+                            {
+                                "value": "20800"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "26000",
+                                "color": "91C728",
+                                "displayvalue": "Target",
+                                "showontop": "1"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "RED-2762": {
+        "id": "RED-2762",
+        "description": "For multilevelpie chart,link from category object not functional.",
+        "category": "dynamic",
+        "options": {
+            "type": "multilevelpie",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "5",
+                    "animation": "0"
+                },
+                "category": [
+                    {
+                        "label": "CEO",
+                        "link": "n-http://www.fusioncharts.com",
+                        "category": [
+                            {
+                                "label": "CTO",
+                                "category": [
+                                    {
+                                        "label": "Proj. Manager",
+                                        "category": [
+                                            {
+                                                "label": "Design"
+                                            },
+                                            {
+                                                "label": "Coding"
+                                            },
+                                            {
+                                                "label": "Validate"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "RED-3736-01": {
+        "description": "In Kagi and scatter chart, toolTip not shown over image anchor except the center point",
+        "category": "dynamic",
+        "options": {
+            "type": "kagi",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "anchorimageurl": "http://yeoman.io/static/yeoman-character-sticker.51cef7e007.png",
+                    "_anchorradius": "30",
+                    "drawanchors": "1",
+                    "showtooltip": "1",
+                    "animation": "0"
+                },
+                "data": [
+                    {
+                        "label": "Jan",
+                        "value": "420000"
+                    },
+                    {
+                        "label": "Feb",
+                        "value": "910000"
+                    },
+                    {
+                        "label": "Mar",
+                        "value": "720000"
+                    },
+                    {
+                        "label": "Apr",
+                        "value": "550000"
+                    },
+                    {
+                        "label": "May",
+                        "value": "810000"
+                    },
+                    {
+                        "label": "Jun",
+                        "value": "510000"
+                    },
+                    {
+                        "label": "Jul",
+                        "value": "680000"
+                    },
+                    {
+                        "label": "Aug",
+                        "value": "620000"
+                    },
+                    {
+                        "label": "Sep",
+                        "value": "610000"
+                    },
+                    {
+                        "label": "Oct",
+                        "value": "490000"
+                    },
+                    {
+                        "label": "Nov",
+                        "value": "530000"
+                    },
+                    {
+                        "label": "Dec",
+                        "value": "330000"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "700000",
+                                "color": "009933",
+                                "displayvalue": "Target"
+                            }
+                        ]
+                    }
+                ],
+                "styles": {
+                    "definition": [
+                        {
+                            "name": "CanvasAnim",
+                            "type": "animation",
+                            "param": "_xScale",
+                            "start": "0",
+                            "duration": "1"
+                        }
+                    ],
+                    "application": [
+                        {
+                            "toobject": "Canvas",
+                            "styles": "CanvasAnim"
+                        }
+                    ]
+                }
+            }
+        },
+        "refimage": "./tests/others/kagi/ref-images/RED-3736-01-snapshot.png",
+        "id": "RED-3736-01"
+    },
+    "RED-3736-02": {
+        "description": "In Kagi and scatter chart, toolTip not shown over image anchor except the center point",
+        "category": "dynamic",
+        "options": {
+            "type": "scatter",
+            "width": "600",
+            "height": "350",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "palette": "2",
+                    "anchorimageurl": "http://yeoman.io/static/yeoman-character-sticker.51cef7e007.png",
+                    "anchorradius": "50",
+                    "drawanchors": "1",
+                    "showtooltip": "1",
+                    "caption": "Server Performance",
+                    "yaxisname": "Response Time (sec)",
+                    "xaxisname": "Server Load (TPS)",
+                    "xaxismaxvalue": "100",
+                    "xaxisminvalue": "20",
+                    "yaxismaxvalue": "7",
+                    "animation": "0"
+                },
+                "categories": [
+                    {
+                        "verticallinecolor": "666666",
+                        "verticallinethickness": "1",
+                        "category": [
+                            {
+                                "label": "20",
+                                "x": "20",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "30",
+                                "x": "30",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "40",
+                                "x": "40",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "50",
+                                "x": "50",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "60",
+                                "x": "60",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "70",
+                                "x": "70",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "80",
+                                "x": "80",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "90",
+                                "x": "90",
+                                "showverticalline": "1"
+                            },
+                            {
+                                "label": "100",
+                                "x": "100",
+                                "showverticalline": "0"
+                            }
+                        ]
+                    }
+                ],
+                "dataset": [
+                    {
+                        "drawline": "1",
+                        "seriesname": "Server 1",
+                        "color": "009900",
+                        "anchorsides": "3",
+                        "anchorbgcolor": "D5FFD5",
+                        "anchorbordercolor": "009900",
+                        "data": [
+                            {
+                                "y": "2.4",
+                                "x": "21"
+                            },
+                            {
+                                "y": "3.5",
+                                "x": "32"
+                            },
+                            {
+                                "y": "2.5",
+                                "x": "43"
+                            },
+                            {
+                                "y": "4.1",
+                                "x": "48"
+                            },
+                            {
+                                "y": "3.5",
+                                "x": "50"
+                            },
+                            {
+                                "y": "4.6",
+                                "x": "56"
+                            },
+                            {
+                                "y": "4.8",
+                                "x": "59"
+                            },
+                            {
+                                "y": "4.9",
+                                "x": "73"
+                            },
+                            {
+                                "y": "4.6",
+                                "x": "89"
+                            },
+                            {
+                                "y": "4.2",
+                                "x": "93"
+                            }
+                        ]
+                    },
+                    {
+                        "seriesname": "Server 2",
+                        "color": "0000FF",
+                        "anchorsides": "4",
+                        "anchorbgcolor": "C6C6FF",
+                        "anchorbordercolor": "0000FF",
+                        "data": [
+                            {
+                                "y": "1.4",
+                                "x": "23"
+                            },
+                            {
+                                "y": "1.5",
+                                "x": "29"
+                            },
+                            {
+                                "y": "1.5",
+                                "x": "33"
+                            },
+                            {
+                                "y": "1.1",
+                                "x": "41"
+                            },
+                            {
+                                "y": "1.5",
+                                "x": "47"
+                            },
+                            {
+                                "y": "1.6",
+                                "x": "49"
+                            },
+                            {
+                                "y": "1.8",
+                                "x": "51"
+                            },
+                            {
+                                "y": "1.9",
+                                "x": "53"
+                            },
+                            {
+                                "y": "1.6",
+                                "x": "57"
+                            },
+                            {
+                                "y": "1.2",
+                                "x": "58"
+                            },
+                            {
+                                "y": "1.9",
+                                "x": "61"
+                            },
+                            {
+                                "y": "1.1",
+                                "x": "63"
+                            },
+                            {
+                                "y": "1.9",
+                                "x": "64"
+                            },
+                            {
+                                "y": "1.7",
+                                "x": "71"
+                            },
+                            {
+                                "y": "1.1",
+                                "x": "77"
+                            },
+                            {
+                                "y": "1.3",
+                                "x": "79"
+                            },
+                            {
+                                "y": "1.7",
+                                "x": "83"
+                            },
+                            {
+                                "y": "1.8",
+                                "x": "89"
+                            },
+                            {
+                                "y": "1.9",
+                                "x": "91"
+                            },
+                            {
+                                "y": "1.0",
+                                "x": "93"
+                            }
+                        ]
+                    }
+                ],
+                "vtrendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "20",
+                                "endvalue": "65",
+                                "alpha": "5",
+                                "color": "00FF00"
+                            },
+                            {
+                                "startvalue": "65",
+                                "endvalue": "75",
+                                "alpha": "15",
+                                "color": "FFFF00"
+                            },
+                            {
+                                "startvalue": "75",
+                                "endvalue": "100",
+                                "alpha": "15",
+                                "color": "FF0000"
+                            }
+                        ]
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "startvalue": "5.2",
+                                "displayvalue": "Check",
+                                "linethickness": "2",
+                                "color": "FF0000",
+                                "valueonright": "1",
+                                "dashed": "1",
+                                "dashgap": "5"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "refimage": "./tests/others/scatter/ref-images/RED-3736-02-snapshot.png",
+        "id": "RED-3736-02"
+    }
+}

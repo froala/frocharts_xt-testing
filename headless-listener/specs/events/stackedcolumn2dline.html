@@ -1,0 +1,165 @@
+<html>
+
+<head>
+    <title>Event Spec</title>
+    <script type="text/javascript" src="../../fusioncharts/fusioncharts.js"></script>
+    <style>
+    </style>
+    <script type="text/javascript">
+    FusionCharts.addEventListener('initialized', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts' + 'width!^!' + args.width + '!^!height!^!' + args.height);
+    });
+
+    FusionCharts.addEventListener('dataLoaded', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts');
+    });
+
+    FusionCharts.addEventListener('rendered', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts');
+    });
+
+    FusionCharts.addEventListener('renderComplete', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts');
+    });
+
+    FusionCharts.addEventListener('dataplotClick', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts' + 'chartX!^!' + args.chartX + '!^!chartY!^!' + args.chartY + '!^!pageX!^!' + args.pageX + '!^!pageY!^!' + args.pageY + '!^!datasetIndex!^!' + args.datasetIndex + '!^!datasetName!^!' + args.datasetName + '!^!dataIndex!^!' + args.dataIndex + '!^!dataValue!^!' + args.dataValue + '!^!displayValue!^!' + args.displayValue + '!^!categoryLabel!^!' + args.categoryLabel + '!^!toolText!^!' + args.toolText);
+    });
+
+    FusionCharts.addEventListener('dataplotrollout', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts' + 'chartX!^!' + args.chartX + '!^!chartY!^!' + args.chartY + '!^!pageX!^!' + args.pageX + '!^!pageY!^!' + args.pageY + '!^!datasetIndex!^!' + args.datasetIndex + '!^!datasetName!^!' + args.datasetName + '!^!dataIndex!^!' + args.dataIndex + '!^!dataValue!^!' + args.dataValue + '!^!displayValue!^!' + args.displayValue + '!^!categoryLabel!^!' + args.categoryLabel + '!^!toolText!^!' + args.toolText);
+    });
+
+    FusionCharts.addEventListener('dataplotrollover', function(opts, args) {
+
+        console.log(opts.sender.args.type + 'event' + opts.eventType + 'opts' + 'chartX!^!' + args.chartX + '!^!chartY!^!' + args.chartY + '!^!pageX!^!' + args.pageX + '!^!pageY!^!' + args.pageY + '!^!datasetIndex!^!' + args.datasetIndex + '!^!datasetName!^!' + args.datasetName + '!^!dataIndex!^!' + args.dataIndex + '!^!dataValue!^!' + args.dataValue + '!^!displayValue!^!' + args.displayValue + '!^!categoryLabel!^!' + args.categoryLabel + '!^!toolText!^!' + args.toolText);
+    });
+
+    FusionCharts.ready(function() {
+        RChart = new FusionCharts({
+            type: 'stackedcolumn2dline',
+            renderAt: 'chart-container',
+            width: '550',
+            height: '300',
+            dataFormat: 'json',
+            dataSource: {
+                "chart": {
+                    "caption": "Product-wise quarterly revenue Vs profit in last year",
+                    "subCaption": "Harry's SuperMart",
+                    "xAxisname": "Quarter",
+                    "yAxisName": "Revenue (In USD)",
+                    "numberPrefix": "$",
+                    "paletteColors": "#0075c2,#1aaf5d,#f2c500",
+                    "bgColor": "#ffffff",
+                    "borderAlpha": "20",
+                    "showCanvasBorder": "0",
+                    "usePlotGradientColor": "0",
+                    "plotBorderAlpha": "10",
+                    "legendBorderAlpha": "0",
+                    "legendShadow": "0",
+                    "legendBgAlpha": "0",
+                    "valueFontColor": "#ffffff",
+                    "showXAxisLine": "1",
+                    "xAxisLineColor": "#999999",
+                    "divlineColor": "#999999",
+                    "divLineDashed": "1",
+                    "showAlternateHGridColor": "0",
+                    "subcaptionFontBold": "0",
+                    "subcaptionFontSize": "14",
+                    "showHoverEffect": "1"
+                },
+                "categories": [{
+                    "category": [{
+                        "label": "Q1"
+                    }, {
+                        "label": "Q2"
+                    }, {
+                        "label": "Q3"
+                    }, {
+                        "label": "Q4"
+                    }]
+                }],
+                "dataset": [{
+                    "seriesname": "Food Products",
+                    "data": [{
+                        "value": "110000"
+                    }, {
+                        "value": "150000"
+                    }, {
+                        "value": "135000"
+                    }, {
+                        "value": "150000"
+                    }]
+                }, {
+                    "seriesname": "Non-Food Products",
+                    "data": [{
+                        "value": "114000"
+                    }, {
+                        "value": "148000"
+                    }, {
+                        "value": "83000"
+                    }, {
+                        "value": "118000"
+                    }]
+                }, {
+                    "seriesname": "Profit",
+                    "renderAs": "line",
+                    "showValues": "0",
+                    "data": [{
+                        "value": "24000"
+                    }, {
+                        "value": "45000"
+                    }, {
+                        "value": "23000"
+                    }, {
+                        "value": "38000"
+                    }]
+                }]
+            }
+        });
+
+        RChart.render();
+    });
+    /*
+        (function() {
+            document.onclick = handleMouseMove;
+
+            function handleMouseMove(event) {
+                var dot, eventDoc, doc, body, pageX, pageY;
+
+                event = event || window.event; // IE-ism
+
+                // If pageX/Y aren't available and clientX/Y are,
+                // calculate pageX/Y - logic taken from jQuery.
+                // (This is to support old IE)
+                if (event.pageX == null && event.clientX != null) {
+                    eventDoc = (event.target && event.target.ownerDocument) || document;
+                    doc = eventDoc.documentElement;
+                    body = eventDoc.body;
+
+                    event.pageX = event.clientX +
+                        (doc && doc.scrollLeft || body && body.scrollLeft || 0) -
+                        (doc && doc.clientLeft || body && body.clientLeft || 0);
+                    event.pageY = event.clientY +
+                        (doc && doc.scrollTop || body && body.scrollTop || 0) -
+                        (doc && doc.clientTop || body && body.clientTop || 0);
+                }
+
+                console.log("X " + event.pageX + " Y " + event.pageY);
+            }
+        })(); */
+    </script>
+</head>
+
+<body>
+    <div id="chart-container">
+    </div>
+</body>
+
+</html>

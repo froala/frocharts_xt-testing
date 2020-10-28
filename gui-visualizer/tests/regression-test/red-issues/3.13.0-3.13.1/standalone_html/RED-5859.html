@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <script type="text/javascript" src="fusioncharts/fusioncharts.js"></script>
+</head>
+
+<body>
+
+    <a href="https://fusioncharts.jira.com/browse/RED-5859">RED-5859</a>
+    <div>dataIndex is giving wrong values from data-plot events in pie & doughnut 3D charts.</div>
+    <div id="chart-container"></div>
+    <div id="chart-container1"></div>
+
+    <script type="text/javascript">
+        FusionCharts.ready(function () {
+            new FusionCharts({
+                type: 'pie3d',
+                renderAt: 'chart-container',
+                width: '500',
+                height: '350',
+                dataFormat: 'json',
+                dataSource: {
+                    "chart": {
+
+                        "showBorder": "0",
+                        "use3DLighting": "0",
+                        "enableSmartLabels": "1",
+                        "startingAngle": "310",
+                        "showLabels": "1",
+                        "decimals": "1",
+                        "showPercentValues": "1",
+                        "showLegend": "0",
+                        "enableMultiSlicing": "0",
+                        "centerLabelBold": "1",
+                        "showTooltip": "1",
+                        "useDataPlotColorForLabels": "1",
+                        "theme": "fint"
+                    },
+                    "data": [{
+                        "label": "Jan",
+                        "value": "420000"
+
+                    }, {
+                        "label": "Feb",
+                        "value": "810000"
+
+                    }, {
+                        "label": "Mar",
+                        "value": "720000"
+
+                    }, {
+                        "label": "Apr",
+                        "value": "550000"
+
+                    }]
+                },
+                "events": {
+                    "dataPlotClick": function (eventObj, dataObj) {
+                        var index = dataObj.dataIndex;
+                        alert(eventObj.eventType + ' - ' + index);
+                    },
+                    "dataPlotRollOver": function (eventObj, dataObj) {
+                        var index = dataObj.dataIndex;
+                        alert(eventObj.eventType + ' - ' + index);
+                    },
+                    "dataPlotRollOut": function (eventObj, dataObj) {
+                        var index = dataObj.dataIndex;
+                        alert(eventObj.eventType + ' - ' + index);
+                    }
+                }
+            }).render();
+            new FusionCharts({
+                type: 'doughnut3d',
+                renderAt: 'chart-container1',
+                width: '500',
+                height: '350',
+                dataFormat: 'json',
+                dataSource: {
+                    "chart": {
+
+                        "showBorder": "0",
+                        "use3DLighting": "0",
+                        "enableSmartLabels": "1",
+                        "startingAngle": "310",
+                        "showLabels": "1",
+                        "decimals": "1",
+                        "showPercentValues": "1",
+                        "showLegend": "0",
+                        "enableMultiSlicing": "0",
+                        "centerLabelBold": "1",
+                        "showTooltip": "1",
+                        "useDataPlotColorForLabels": "1",
+                        "theme": "fint"
+                    },
+                    "data": [{
+                        "label": "Jan",
+                        "value": "420000"
+
+                    }, {
+                        "label": "Feb",
+                        "value": "810000"
+
+                    }, {
+                        "label": "Mar",
+                        "value": "720000"
+
+                    }, {
+                        "label": "Apr",
+                        "value": "550000"
+
+                    }]
+                },
+                "events": {
+                    "dataPlotClick": function (eventObj, dataObj) {
+                        var index = dataObj.dataIndex;
+                        alert(eventObj.eventType + ' - ' + index);
+                    },
+                    "dataPlotRollOver": function (eventObj, dataObj) {
+                        var index = dataObj.dataIndex;
+                        alert(eventObj.eventType + ' - ' + index);
+                    },
+                    "dataPlotRollOut": function (eventObj, dataObj) {
+                        var index = dataObj.dataIndex;
+                        alert(eventObj.eventType + ' - ' + index);
+                    }
+                }
+            }).render();
+        });
+    </script>
+</body>
+
+</html>
